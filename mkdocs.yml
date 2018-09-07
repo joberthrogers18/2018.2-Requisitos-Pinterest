@@ -1,9 +1,4 @@
 site_name: Pinterest
-theme: readthedocs
-site_description: 'Documentação do trabalho de Requisitos de Software sobre o Pinterest - 2018/2'
-repo_url: https://github.com/helenagoulart/2018.2_Requisitos
-
-
 pages:
   - Home: index.md
   - Pré-rastreabilidade:
@@ -14,3 +9,4 @@ pages:
     - Análise de Processo: analise_processo.md
     - Introspecção: introspeccao.md
   - Anexos: anexos.md
+theme: readthedocs
