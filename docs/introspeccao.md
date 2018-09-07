@@ -1,11 +1,9 @@
-# Introdução
+# Introspecção
 
 A técnica de
 introspecção consiste em imaginar que tipo de sistema seria desejável por uma pessoa
 que estivesse executando uma tarefa específica, utilizando um equipamento específico, em um lugar específico, dentre outros. Se dá ao imaginar que características um sistema deveria ter para obter
 a satisfação do usuário definido.
-
-# Introspecção 1
 
 #### Rastreabilidade
 
