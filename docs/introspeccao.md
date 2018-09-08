@@ -19,7 +19,7 @@ O contexto dessa introspecção se dá com um usuário homem do aplicativo que d
 
 Este tópico indicará as necessidades absorvidas da introspecção citada no contexto indicado no tópico anterior.
 
-* ##### Necessidades técnicas
+##### Necessidades técnicas
 * Navegação com limite de dados móveis (personalizável)
 * Que o app tenha um cronômetro próprio para que não seja necessário sair da página da receita para usá-lo
 ##### Necessidades sociais
