@@ -12,17 +12,16 @@
 | ST2.3 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. |
 | ST2.4 | O usuário deve poder salvar seus pins em uma pasta. |
 | ST2.5 | As pastas devem ser personalizáveis. |
-| INT1 | O app deve oferecer opções para que o usuário decida sobre o consumo de _internet_|
-|INT1.1 | O app deve oferecer a opção de selecionar a qualidade das imagens|
-| INT1.2 | O app deve oferecer a opção do usuário inserir se deseja ou não o carregamento automático dos vídeos|
-| INT1.3 | O app deve oferecer a opção do usuário salvar seus pins de maneira a vê-los mesmo sem o consumo de internet|
-| INT2 | O app deve oferecer pins de receitas diversas até que o usuário tenha interesses definidos. |
-| INT3 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações  |
-| INT4 | O app deve separar os pins por categorias |
-| INT5 | O usuário deve conseguir compartilhar seu gosto e suas preferências entre amigos usuários|
-| INT6 | O usuário deve ter a opção de avaliar uma receita e essa avaliação deve ser aberta a outros usuários |
-| INT7 | O usuário deve ter a opção de acompanhar outro usuário que tenha gostos semelhantes aos dele |
-| INT8 | O usuário deve ter a opção de salvar pins |
+|INT1 | O app deve oferecer a opção de selecionar a qualidade das imagens|
+| INT2 | O app deve oferecer a opção do usuário inserir se deseja ou não o carregamento automático dos vídeos|
+| INT3 | O app deve oferecer a opção do usuário salvar seus pins de maneira a vê-los mesmo sem o consumo de internet|
+| INT4 | O app deve oferecer pins de receitas diversas até que o usuário tenha interesses definidos. |
+| INT5 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações  |
+| INT6 | O app deve separar os pins por categorias |
+| INT7 | O usuário deve conseguir compartilhar seu gosto e suas preferências entre amigos usuários|
+| INT8 | O usuário deve ter a opção de avaliar uma receita e essa avaliação deve ser aberta a outros usuários |
+| INT9 | O usuário deve ter a opção de acompanhar outro usuário que tenha gostos semelhantes aos dele |
+| INT10 | O usuário deve ter a opção de salvar pins |
 
 ### Resultados
 
