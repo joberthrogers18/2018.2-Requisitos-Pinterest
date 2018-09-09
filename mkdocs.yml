@@ -6,7 +6,7 @@ pages:
     - Argumentação: argumentacao.md
     - RichPicture: rich_picture.md
   - Elicitação de Requisitos:
-    - Análise de Processo: analise_processo.md
+    - Análise de Protocolo: analise_protocolo.md
     - Enquete: enquete.md
     - Introspecção: introspeccao.md
     - Storytelling: storytelling.md
