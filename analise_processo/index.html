@@ -3,29 +3,32 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  
-  <link rel="shortcut icon" href="../img/favicon.ico">
   <title>Análise de Processo - Pinterest</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
   <link rel="stylesheet" href="../css/highlight.css">
   <link href="../extra.css" rel="stylesheet">
+
   
   <script>
     // Current page data
-    var mkdocs_page_name = "An\u00e1lise de Processo";
-    var mkdocs_page_input_path = "analise_processo.md";
-    var mkdocs_page_url = "/analise_processo/";
+    var mkdocs_page_name = "Análise de Processo";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
   <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
   
 </head>
 
@@ -45,63 +48,104 @@
       </div>
 
       <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
+        <ul class="current">
           
-            <li class="toctree-l1">
-		
-    <a class="" href="..">Home</a>
-	    </li>
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
           
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Pré-rastreabilidade</span>
+            <li>
     <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../argumentacao/">Argumentação</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../rich_picture/">RichPicture</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Elicitação de Requisitos</span>
-    <ul class="subnav">
-                <li class=" current">
-                    
-    <a class="current" href="./">Análise de Processo</a>
-    <ul class="subnav">
+    <li><span>Pré-rastreabilidade</span></li>
+
+        
             
+    <li class="toctree-l1 ">
+        <a class="" href="../argumentacao/">Argumentação</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../rich_picture/">RichPicture</a>
+        
+    </li>
+
+        
     </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../enquete/">Enquete</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../introspeccao/">Introspecção</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../storytelling/">Storytelling</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../conclusao_elicitacao/">Conclusão</a>
-                </li>
-    </ul>
-	    </li>
+<li>
           
-            <li class="toctree-l1">
-		
-    <a class="" href="../anexos/">Anexos</a>
-	    </li>
+            <li>
+    <ul class="subnav">
+    <li><span>Elicitação de Requisitos</span></li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Análise de Processo</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#analise-de-protocolo">Análise de protocolo</a></li>
+                
+                    <li><a class="toctree-l4" href="#1-analise-de-protocolo">1 Análise de protocolo</a></li>
+                
+                    <li><a class="toctree-l4" href="#pinterest">Pinterest</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../enquete/">Enquete</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../introspeccao/">Introspecção</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../storytelling/">Storytelling</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../entrevista/">Entrevista</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../conclusao_elicitacao/">Conclusão</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../anexos/">Anexos</a>
+        
+    </li>
+<li>
           
         </ul>
       </div>
@@ -139,7 +183,86 @@
           <div role="main">
             <div class="section">
               
-                
+                <h1 id="analise-de-protocolo">Análise de protocolo</h1>
+<h2 id="1-analise-de-protocolo">1 Análise de protocolo</h2>
+<p>Consiste em solicitar a uma pessoa que esteja engajada com uma tarefa, dizer
+  em voz alta e clara que explique o processo que realiza. Seria uma forma
+  específica verbalizada de entender um processo cognitivo. Onde se tem como objetivo analisar um ponto de vista específico.</p>
+<h3 id="11-metodologia">1.1 Metodologia</h3>
+<p>Para a execução da análise de protocolo foi preciso a ajuda de um usuário que nunca havia usado o Pinterest antes. O grupo durante a tarefa tentou interferir minimamente para o melhor levantamento dos requisitos, onde o usuário ficou confortável para explorar o software de forma que mais o agradava. Todo o processo foi gravado com o consentimento da pessoa.</p>
+<h2 id="pinterest">Pinterest</h2>
+<p>A aplicação da técnica no Pinterest, consistiu na participação do usuário <strong>Brian Lui</strong> realizando as atividades.</p>
+<h3 id="12-analise-do-usuario">1.2 Análise do usuário</h3>
+<p>Abaixo, segue a aplicação da técnica por Brian Lui na forma de notas de sua gravação.</p>
+<table>
+<thead>
+<tr>
+<th>Atividade</th>
+<th>Comentário</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Login</td>
+<td>O usuário achou agradável se logar com o facebook, mas sente falta de um login com cadastro básico</td>
+</tr>
+<tr>
+<td>Escolha de interesses</td>
+<td>Ao escolher seus interesses o usuário focou nos primeiros grupos que apareceram. O usuário escolheu 10 interesses que lhe agradou e achou que a quantidade de tópico é excessiva.</td>
+</tr>
+<tr>
+<td>Tutorial</td>
+<td>Ao logar e chegar nos feeds o usuário escolheu uma imagem de interesse e gostou da plataforma se preocupar em ajudar o usuário a saber como a principal funcionalidade do pinterest funciona.</td>
+</tr>
+<tr>
+<td>seguir outros usuários</td>
+<td>O usuário teve interesse em seguir pessoas que já segue no facebook e visitou usuários aleatórios.</td>
+</tr>
+<tr>
+<td>Notificações</td>
+<td>O usuário foi notificado pela falta de internet e de imagens que podia lhe interessar.</td>
+</tr>
+<tr>
+<td>experiência de usuário</td>
+<td>O usuário teve a sensação da riqueza de conteúdos com a funcionalidade de scroll infinito. Além de poder baixar a imagem que quisesse e poder visitar ao link de origem dela.</td>
+</tr>
+<tr>
+<td>Pesquisa</td>
+<td>Usuário acreditou que a funcionalidade de pesquisar por foto era postar foto.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="13-resultado-dos-requisitos">1.3 Resultado dos requisitos</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Requisito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>O usuário deve ser capaz de escolher os interesses que mais o agradar.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>A plataforma deve filtrar melhor os grupos interesses para o usuário.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>O usuário deve ser capaz de baixar toda imagem que o interessar.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>A plataforma deve disponibilizar uma forma mais clara de pesquisa por foto.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>O usuário deve ser capaz de ser redirecionado para para o link da imagem desejada.</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>
@@ -147,7 +270,7 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../enquete/" class="btn btn-neutral float-right" title="Enquete">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../enquete/" class="btn btn-neutral float-right" title="Enquete"/>Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../rich_picture/" class="btn btn-neutral" title="RichPicture"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -169,10 +292,10 @@
       </div>
 
     </section>
-    
+
   </div>
 
-  <div class="rst-versions" role="note" style="cursor: pointer">
+<div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
@@ -183,7 +306,6 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
 
 </body>
 </html>
