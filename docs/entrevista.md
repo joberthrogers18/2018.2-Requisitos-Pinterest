@@ -22,24 +22,74 @@ Essa entrevista foi realizada com Fernanda dos Santos, estudante de Design na _U
  * **Qual o principal motivo para que você utilize o Pinterest?**
  * **O Feed do Pinterest sugere temas congruentes com suas pesquisas?**
 
-### Resumo da Entrevista 
+### Resumo da Entrevista
 
+_A Seguinte transcrição foi editada para maior clareza das informações discutidas, a entrevista completa encontra-se disponível [nesse link]()._
+
+
+** Entrevistador - Alexandre Miguel  : Fernanda, quais são as funcionalidades que você mais utiliza no apicativo? **
+
+ ** _Fernanda dos Santos_ - ** Eu uso muito os recursos das pastas para salvar referências gerais, principalmente para projetos em que estou participando. Então, geralmente eu construo uma pasta que tenha a ver com esse projeto, como um Boarding de imagens para construir novas coisas em cima dessas ideias. Geralmente eu uso muito o recurso das pesquisas do Pinterest, uso muito as subpastas, algo implementado recentemente e que eu acho muito útil.
+
+** Por quê? **
+
+ Porque se consegue estratificar ainda mais a pesquisa. Por exemplo, se eu tenho uma pasta sobre moda, e consigo ter várias referências internas como maquiagem, alta costura e etc. Isso possibilita maior separação sem precisar criar tantas pastas, afinal está tudo dentro de um mesmo conceito.
+
+** O Que faz você continuar usando o Pinterest, dado que o aplicativo não é tão novo e existem outros, atualmente, que competem em termos de funcionalidades, como o Instagram? **
+
+ Eu não gosto do recurso de pastas que o Instagram implementou, porque o Instagram não possibilita salvar ou inserir imagens em documentos, como slides ou arquivos, pelo próprio aplicativo, algo presente no Pinterest. Confesso não conhecer outros aplicativos com funcionalidades semelhantes como a organização de imagens em pastas. Mas o Pinterest é mais prático nesses aspectos, principalmente porque a maioria das pessoas com quem eu trabalho já utilizam o Pinterest, então se eu precisar criar uma pasta colaborativa, é só adicioná-las.
+
+** Como funcionam essas pastas colaborativas? **
+
+ Você cria uma pasta, como num projeto em que eu estava participando de um curta em que a gente construiu uma pasta geral do curta com subdivisões como direção de arte, fotografia e etc. E todo mundo que estava participando do curta foi adicionado nessa pasta e poderia colocar novas referências.
+
+** Vocês usavam o sistema de mensagens do Pinterest? **
+
+ Não, eu nem sabia que existia.
+
+** Tem alguma outra funcionalidade que você não gosta no Pinterest? Que você critica ou acha que poderia melhorar? **
+
+ Eu acho o aplicativo ruim, pra ser sincera. Acho tanto a versão web quanto a do aplicativo ruins, sendo que a da web é totalmente antiprática, como se apenas tivessem pegado a interface do celular e expandido e isso não funciona, basicamente eu só utilizo quando quero salvar imagens mais rapidamente ou vê-las em tamanho maior. Embora eu utilize a extensão do Google Chrome do Pinterest, essa realmente funciona!
+
+** Como a extensão funciona? **
+
+ Se você estiver no Facebook e você gostou de uma imagem, quando você passa o _mouse_ por essa imagem, já aparece uma opção de salvar no Pinterest e, ao clicar nessa opção, abre um _pop-up_ mostrando as pastas que você tem no Pinterest e qual você quer salvar, mesmo que a imagem não esteja no Pinterest. Sobre o funcionamento do aplicativo, ele é muito melhor, mas ele tem alguns defeitos principalmente na organização de pastas e subpastas, que acaba sendo um processo muito burocrático, como quando você quer transferir um Pin de uma pasta para uma subpasta dentro de uma pasta diferente, esse processo não é direto, você tem que transferir entre pastas para depois organizar a pasta que está recebendo o Pin e aí salvar o Pin no local correto.
+
+ Um outro problema é a pesquisa do Pinterest, que às vezes acaba trazendo conteúdos indesejados, como quando se está pesquisando referências anatômicas e acaba sendo sugerindo pornografia depois. É horrível. O Bom é que o aplicativo pode te ajudar, pois ele tem a opção de não te mostrar mais esse tipo de conteúdo, depois que ele te mostrou aquilo 20 vezes e você censurou todas elas, ele acaba entendendo.
+
+** Então a função de parar mostrar um tipo de conteúdo funciona, porém você deve bloquear várias vezes o conteúdo? **
+
+ Sim! É uma situação bem ruim e pode ser até constrangedora, mas acho que os outros usuários entendem pois é normal isso acontecer.
+
+**  Você utiliza o Pinterest mais em que contexto? É uma usuária casual? Usa pra trabalho? Faculdade? **
+
+ Eu uso muito para projetos que eu estou participando, como quando vou fazer um curta e precisamos de uma coleção, além dos meus projetos pessoais e referências artísticas. É muito bom para quando você quer classificar certos períodos históricos, pois as informações ficam mais organizadas e é mais fácil encontrar quando se precisa de um dado.
+
+** Você acha que a funcionalidade de explorar o Feed funciona bem? Acha que faz sugestões legais e quando você delimita um tema, ele te mostra realmente o que você pesquisou? Já ocorreu de alguma vez o Pinterest sugerir algo que você estava pesquisando por fora? **
+
+ Nunca ocorreu do app sugerir algo que eu estivesse pesquisando por fora. Mas, geralmente, quando eu faço uma pesquisa mais aprofundada em um tema, o explorar meu feed fica meio enviezado, aparecendo com mais frequência do que temas que eu tinha explorado anteriormente. Mas no geral meu feed já é bem enviezado para alguns temas em específico.
+
+** Você acha interessante o aplicativo já te mostrar assuntos de tendências de pesquisas suas no próprio feed? **
+
+ Eu acho interessante até que costuma chegar em um ponto em que o aplicativo começa a me mostrar as mesmas imagens ou coisas que eu já tinha visto e descartado.
 
 
 ### Requisitos Elicitados
 
 | Código | Descrição |
 |--|--|
-| ENT1.1 | O app deve possuir a funcionalidade de reunir os pins salvos pelo usuário em pastas.|
-| ENT1.2 | O app deve possibilitar ao usuário a criação de subpastas para a organização de Pins salvos acerca de um mesmo tema. |
-| ENT1.3 | O app deve possuir a função de compartilhar pastas para que mais de um usuário possa adicionar Pins. |
-| ENT1.4 | O app deve possuir um design de interface que permita associação entre o aplicativo mobile e o aplicativo web. |
-| ENT1.5 | O app deve possuir uma extensão para o navegador que permita salvar imagens de outros sites em pastas do usuário. |
-| ENT1.6 | A Extensão para o navegador do app deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest. |
-| ENT1.7 | A Extensão para o navegador deve permitir que o usuário escolha a pasta em que será salva uma imagem de outro website. |
-| ENT1.8 | O App deve possibilitar que o usuário organize os Pins salvos em diferentes subpastas. |
-| ENT1.9 | O App deve possibilitar a transferência de Pins entre pastas. |
-| ENT1.10 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. |
-| ENT1.10 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão. |
-| ENT1.11 | O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.|
-| ENT1.12 | O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário. |
+| ENT1.1 | O app deve reunir os pins salvos pelo usuário em pastas.|
+| ENT1.2 | O app deve possibilitar a criação de subpastas internas às pastas de um tema. |
+| ENT1.3 | O app deve possuir a função de compartilhar a edição de pastas com usuários. |
+| ENT1.4 | O app deve possuir uma barra para pesquisa de temas. |
+| ENT1.5 | O app deve possuir um design de interface semelhante entre o aplicativo mobile e o aplicativo web. |
+| ENT1.6 | O app deve possuir uma extensão para navegadores web. |
+| ENT1.7 | A Extensão para navegador deve permitir salvar imagens de outros sites em pastas do usuário no app.|
+| ENT1.8 | A Extensão para navegador deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest. |
+| ENT1.9 | A Extensão para navegador deve permitir que o usuário escolha a pasta em que será salva uma imagem de outro website. |
+| ENT1.10 | O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas. |
+| ENT1.11 | O App deve possibilitar a transferência de Pins entre pastas. |
+| ENT1.12 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. |
+| ENT1.13 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão. |
+| ENT1.14 | O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário. |
+| ENT1.15 | O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.|
