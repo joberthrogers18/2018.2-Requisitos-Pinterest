@@ -12,9 +12,9 @@ Essa técnica consiste na formulação de perguntas que são filtradas e propost
 
 ### Metodologia
 
-Essa entrevista foi realizada com Fernanda dos Santos, estudante de Design na _Universiade de Brasília_. A Técnica de entrevista utilizada foi a de **Entrevista Aberta**, permitindo que novos processos, bem como o detalhamento de algumas funcionalidades pudessem ser melhor exploradas, conforme foi identificada possibilidade de elicitação de diferentes requisitos. A Estudante foi escolhida por declarar uso constante do aplicativo em diferentes atividades, tanto no que se refere a pesquisas pessoais quanto a pesquisas voltadas para tópicos acadêmicos.
+Essa entrevista foi realizada com Fernanda dos Santos, estudante de Design na _Universidade de Brasília_. A Técnica de entrevista utilizada foi a de **Entrevista Aberta**, permitindo que novos processos, bem como o detalhamento de algumas funcionalidades pudessem ser melhor exploradas, conforme foi identificada possibilidade de elicitação de diferentes requisitos. A Estudante foi escolhida por declarar uso constante do aplicativo em diferentes atividades, tanto no que se refere a pesquisas pessoais quanto a pesquisas voltadas para tópicos acadêmicos.
 
-### Roteiro da Entrevista     
+### Roteiro     
 
  * **Quais funcionalidades você mais utiliza no Pinterest?**
  * **Por qual motivo utilizar o Pinterest ainda que outros aplicativos tenham funcionalidades semelhantes?**
@@ -22,8 +22,11 @@ Essa entrevista foi realizada com Fernanda dos Santos, estudante de Design na _U
  * **Qual o principal motivo para que você utilize o Pinterest?**
  * **O Feed do Pinterest sugere temas congruentes com suas pesquisas?**
 
+### Resumo da Entrevista 
 
-#### Requisitos Elicitados
+
+
+### Requisitos Elicitados
 
 | Código | Descrição |
 |--|--|
