@@ -22,6 +22,19 @@
 | INT8 | O usuário deve ter a opção de avaliar uma receita e essa avaliação deve ser aberta a outros usuários |
 | INT9 | O usuário deve ter a opção de acompanhar outro usuário que tenha gostos semelhantes aos dele |
 | INT10 | O usuário deve ter a opção de salvar pins |
+| ENT1.1 | O app deve possuir a funcionalidade de reunir os pins salvos pelo usuário em pastas.|
+| ENT1.2 | O app deve possibilitar ao usuário a criação de subpastas para a organização de Pins salvos acerca de um mesmo tema. |
+| ENT1.3 | O app deve possuir a função de compartilhar pastas para que mais de um usuário possa adicionar Pins. |
+| ENT1.4 | O app deve possuir um design de interface que permita associação entre o aplicativo mobile e o aplicativo web. |
+| ENT1.5 | O app deve possuir uma extensão para o navegador que permita salvar imagens de outros sites em pastas do usuário. |
+| ENT1.6 | A Extensão para o navegador do app deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest. |
+| ENT1.7 | A Extensão para o navegador deve permitir que o usuário escolha a pasta em que será salva uma imagem de outro website. |
+| ENT1.8 | O App deve possibilitar que o usuário organize os Pins salvos em diferentes subpastas. |
+| ENT1.9 | O App deve possibilitar a transferência de Pins entre pastas. |
+| ENT1.10 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. |
+| ENT1.10 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão. |
+| ENT1.11 | O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.|
+| ENT1.12 | O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário. |
 
 ### Resultados
 

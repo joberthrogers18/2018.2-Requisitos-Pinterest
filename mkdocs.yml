@@ -10,6 +10,7 @@ pages:
     - Enquete: enquete.md
     - Introspecção: introspeccao.md
     - Storytelling: storytelling.md
+    - Entrevista: entrevista.md
     - Conclusão: conclusao_elicitacao.md
   - Anexos: anexos.md
 theme: readthedocs

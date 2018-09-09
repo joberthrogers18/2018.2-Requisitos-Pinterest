@@ -1,1 +1,1 @@
-Adicionar os links para as gravações, vídeos etc
+Adicionar os links para as gravações, vídeos etc.
