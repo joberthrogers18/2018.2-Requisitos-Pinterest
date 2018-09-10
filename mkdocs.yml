@@ -7,6 +7,7 @@ pages:
     - RichPicture: rich_picture.md
   - Elicitação de Requisitos:
     - Análise de Protocolo: analise_protocolo.md
+    - Análise de Discurso: analise_discurso.md
     - Questionário: questionario.md
     - Introspecção: introspeccao.md
     - Storytelling: storytelling.md
