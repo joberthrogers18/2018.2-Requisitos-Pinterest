@@ -3,8 +3,8 @@
 
     
     <url>
-     <loc>None/</loc>
-     <lastmod>2018-09-09</lastmod>
+     <loc>/</loc>
+     <lastmod>2018-09-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -12,63 +12,63 @@
     
         
     <url>
-     <loc>None/argumentacao/</loc>
-     <lastmod>2018-09-09</lastmod>
+     <loc>/argumentacao/</loc>
+     <lastmod>2018-09-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/rich_picture/</loc>
-     <lastmod>2018-09-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/analise_protocolo/</loc>
-     <lastmod>2018-09-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/enquete/</loc>
-     <lastmod>2018-09-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/introspeccao/</loc>
-     <lastmod>2018-09-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/storytelling/</loc>
-     <lastmod>2018-09-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/entrevista/</loc>
-     <lastmod>2018-09-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/conclusao_elicitacao/</loc>
-     <lastmod>2018-09-09</lastmod>
+     <loc>/rich_picture/</loc>
+     <lastmod>2018-09-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     
 
     
+        
     <url>
-     <loc>None/anexos/</loc>
-     <lastmod>2018-09-09</lastmod>
+     <loc>/analise_protocolo/</loc>
+     <lastmod>2018-09-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/enquete/</loc>
+     <lastmod>2018-09-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/introspeccao/</loc>
+     <lastmod>2018-09-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/storytelling/</loc>
+     <lastmod>2018-09-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/entrevista/</loc>
+     <lastmod>2018-09-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/conclusao_elicitacao/</loc>
+     <lastmod>2018-09-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+    <url>
+     <loc>/anexos/</loc>
+     <lastmod>2018-09-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
