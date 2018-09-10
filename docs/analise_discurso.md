@@ -1,8 +1,11 @@
 # Análise de Discurso
 
 Essa técnica consiste na conversa, dentro de um grupo, de forma organizada e hierárquica, permitindo que cada membro possa exprimir uma ideia ou argumento de forma direta e sem interrupções, possibilitando uma análise mais aprofundada dos possíveis requisitos citados sob o ponto de vista bem definido de um membro da discussão. Pode ser feita de 3 formas:
+
 * A Forma **Análise de Conversação** é menos estruturado, permitindo um contato mais informal do grupo e propiciando uma socialização, sem turnos definidos a priori;
+
 * A Forma **Turntaking** consiste na definição de turnos de oradores em uma ordem específica, para que cada membro possa ter seu momento de fala completo, até algum fator definido pelo grupo, como tempo, pausa vocal longa e etc. demarque a mudança de turno;
+
 * A Forma **Pares Adjacentes** consiste em uma conversa entre duas pessoas de forma ordenada e binária, permitindo que a função de orador seja transferida de forma alternada entre os membros, semelhante a um modelo de _Pergunta e Resposta_.
 
 
@@ -25,7 +28,7 @@ Para essa técnica, o grupo se reuniu no intuito de realizar, a priori, um _Brai
 
 ### Resumo da Discussão
 
-_Os resumos aqui apresentados buscam resumir os pontos abordados pelos oradores em seus turnos na discussão, bem como a análise realizada pelo moderador e pelos demais membros que atuaram na elicitação dos requisitos. O Áudio contendo a discussão completa está disponível nesse [link]()._
+_Os resumos aqui apresentados buscam resumir os pontos abordados pelos oradores em seus turnos na discussão, bem como a análise realizada pelo moderador e pelos demais membros que atuaram na elicitação dos requisitos. O Áudio contendo a discussão completa está disponível nesse [link](https://drive.google.com/open?id=1VcwwykePY8xA2j7U9DbHl8KZQ-SyajmN)._
 
 **Guilherme Guy (Moderação):** Ao exemplificar para a Gabriela como a discussão poderia ocorrer, como os tópicos abordados, citou o desejo do usuário de não ver conteúdo repetido e ver coisas novas ao acessar o aplicativo, permitindo atualizar o conteúdo e possibilitando elicitar o Requisito _AD1_.
 
