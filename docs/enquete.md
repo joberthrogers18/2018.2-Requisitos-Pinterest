@@ -66,24 +66,24 @@ O questionário a seguir refere-se aos usuários do Pinterest:
 ![concorrente](img/concorrente.png)
 
 #### Quais os temas que você pesquisa com frequência nessa rede social?
-###### 1- Arquitetura e Decoração;
-###### 2- Faça você mesmo (DIY);
-###### 3- Organização;
-###### 4- Moda e beleza;
-###### 5- Receitas;
-###### 6- Inspirações para datas comemorativas;
-###### 7- Fotos de celebridades;
-###### 8- Wallpapers;
-###### 9- Design;
-###### 10- Fotos de paisagens;
-###### 11- Tatuagens;
-###### 12- Fotos de animais;
-###### 13- Artes e ilustrações;
-###### 14- Frases inspiradoras;
-###### 15- Fanart;
-###### 16- Memes;
-###### 17- Fotografia;
-###### 18- Fotos de jogos de vôlei.
+1. Arquitetura e Decoração;
+2. Faça você mesmo (DIY);
+3. Organização;
+4. Moda e beleza;
+5. Receitas;
+6. Inspirações para datas comemorativas;
+7. Fotos de celebridades;
+8. Wallpapers;
+9. Design;
+10. Fotos de paisagens;
+11. Tatuagens;
+12. Fotos de animais;
+13. Artes e ilustrações;
+14. Frases inspiradoras;
+15. Fanart;
+16. Memes;
+17. Fotografia;
+18. Fotos de jogos de vôlei.
 
 ### 1.3 Requisitos Elicitados
 
