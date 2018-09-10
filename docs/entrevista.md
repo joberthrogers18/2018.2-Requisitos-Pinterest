@@ -5,6 +5,8 @@ Essa técnica consiste na formulação de perguntas que são filtradas e propost
 
 ## Entrevista 1 - Estudante de Design
 
+![Screenshot](img/entrevista_1.PNG)
+
 | Nome | Papel | Observação |
 |--|--|--|
 | Alexandre Miguel | Entrevistador | Membro da equipe |
@@ -24,7 +26,7 @@ Essa entrevista foi realizada com Fernanda dos Santos, estudante de Design na _U
 
 ### Resumo da Entrevista
 
-_A Seguinte transcrição foi editada para maior clareza das informações discutidas, a entrevista completa encontra-se disponível [nesse link]()._
+_A Seguinte transcrição foi editada para maior clareza das informações discutidas, a entrevista completa encontra-se disponível [nesse link](https://www.youtube.com/watch?v=1qWvLpRLVLQ)._
 
 
 ** Entrevistador - Alexandre Miguel  : Fernanda, quais são as funcionalidades que você mais utiliza no apicativo? **
