@@ -1,7 +1,7 @@
 # Análise de protocolo
 
 
-## 1 - Análise de protocolo
+## Introdução
 
   Consiste em solicitar a uma pessoa que esteja engajada com uma tarefa, dizer
   em voz alta e clara que explique o processo que realiza. Seria uma forma
@@ -17,14 +17,14 @@
 | Alexandre Miguel | Relatório | Membro da equipe |
 | Brian Lui | Relator | Usuário do Aplicativo |
 
-### 1.1 Metodologia
+### Metodologia
 
   Para a execução da análise de protocolo foi preciso a ajuda de um usuário que nunca havia usado o Pinterest antes. O grupo durante a tarefa tentou interferir minimamente para o melhor levantamento dos requisitos, onde o usuário ficou confortável para explorar o software de forma que mais o agradava. Todo o processo foi gravado com o consentimento da pessoa.
 
 ##  Pinterest
   A aplicação da técnica no Pinterest, consistiu na participação do usuário **Brian Lui** realizando as atividades.
 
-### 1.2 Análise do usuário
+### Análise do usuário
   Abaixo, segue a aplicação da técnica por Brian Lui na forma de notas de sua gravação.
 
   | Atividade | Comentário |
@@ -40,21 +40,21 @@
   | Redirecionamento de links | Ao clicar em um pin o usuário viu a possibilidade de ser redirecionado para um link relacionado ao pin, em um navegador interno ao Pinterest. |
   | Download de fotos | Ao clicar em um pin o usuário percebe a funcionalidade de fazer o download da foto para a biblioteca do seu smartphone. |
 
-### 1.3 Resultado dos requisitos
+### Resultado dos requisitos
 
 | Número | Requisito |
 |---|---|
-|1| O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. |
-|2| É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. |
-|3| O Pinterest apresenta um feed baseado nos interesses do usuário. |
-|4| O Pinterest permite salvar um pin em alguma pasta. |
-|5| O Pinterest permite a criação de pastas e subpastas. |
-|6| A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo. |
-|7| A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. |
-|8| O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins. |
-|9| O usuário é capaz de escolher os interesses que mais o agradar. |
-|10| A plataforma filtra os melhores grupos de interesses para o usuário. |
-|11| O usuário é capaz de baixar toda imagem que o interessar. |
-|12| A plataforma disponibiliza uma forma de pesquisa por foto. |
-|13| A plataforma disponibiliza uma forma de pesquisa por texto. |
-|14| O usuário é capaz de ser redirecionado para o link da imagem desejada. |
+| AP1 | O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. |
+| AP2 | É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. |
+| AP3| O Pinterest apresenta um feed baseado nos interesses do usuário. |
+| AP4 | O Pinterest permite salvar um pin em alguma pasta. |
+| AP5 | O Pinterest permite a criação de pastas e subpastas. |
+| AP6 | A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo. |
+| AP7 | A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. |
+| AP8 | O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins. |
+| AP9 | O usuário é capaz de escolher os interesses que mais o agradar. |
+| AP10 | A plataforma filtra os melhores grupos de interesses para o usuário. |
+| AP11 | O usuário é capaz de baixar toda imagem que o interessar. |
+| AP12 | A plataforma disponibiliza uma forma de pesquisa por foto. |
+| AP13 | A plataforma disponibiliza uma forma de pesquisa por texto. |
+| AP14 | O usuário é capaz de ser redirecionado para o link da imagem desejada. |

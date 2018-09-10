@@ -6,12 +6,12 @@ pages:
     - Argumentação: argumentacao.md
     - RichPicture: rich_picture.md
   - Elicitação de Requisitos:
-    - Análise de Protocolo: analise_protocolo.md
     - Análise de Discurso: analise_discurso.md
-    - Questionário: questionario.md
-    - Introspecção: introspeccao.md
-    - Storytelling: storytelling.md
+    - Análise de Protocolo: analise_protocolo.md
     - Entrevista: entrevista.md
+    - Introspecção: introspeccao.md
+    - Questionário: questionario.md
+    - Storytelling: storytelling.md
     - Conclusão: conclusao_elicitacao.md
   - Anexos: anexos.md
 theme: readthedocs

@@ -3,7 +3,7 @@
 Essa técnica consiste na formulação de perguntas que são filtradas e propostas aos interessados no intuito de, por meio das respostas, elicitar requisitos. A Técnica permite um bom contato com diferentes experiências, bem como a análise do aplicativo em questão por pontos de vistas diferentes e que suscitam funcionalidades e aspectos únicos conforme a perspectiva, ainda que subjetiva, do interessado entrevistado. Existem duas formas de entrevistas utilizadas em formas de elicitação: A **Entrevista Fechada**, que consiste na proposição de perguntas estritamente pré-formuladas e em respostas conforme especificação. A **Entrevista Aberta**, em que o roteiro de perguntas predefinidas é adaptado conforme o entrevistador identifica a oportunidade de elicitação de mais requisitos ao abordar um outro tópico ou pergunta.
 
 
-## Entrevista 1 - Estudante de Design
+### Rastreabilidade
 
 ![Screenshot](img/entrevista_1.PNG)
 
@@ -80,18 +80,18 @@ _A Seguinte transcrição foi editada para maior clareza das informações discu
 
 | Código | Descrição |
 |--|--|
-| ENT1.1 | O app deve reunir os pins salvos pelo usuário em pastas.|
-| ENT1.2 | O app deve possibilitar a criação de subpastas internas às pastas de um tema. |
-| ENT1.3 | O app deve possuir a função de compartilhar a edição de pastas com usuários. |
-| ENT1.4 | O app deve possuir uma barra para pesquisa de temas. |
-| ENT1.5 | O app deve possuir um design de interface semelhante entre o aplicativo mobile e o aplicativo web. |
-| ENT1.6 | O app deve possuir uma extensão para navegadores web. |
-| ENT1.7 | A Extensão para navegador deve permitir salvar imagens de outros sites em pastas do usuário no app.|
-| ENT1.8 | A Extensão para navegador deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest. |
-| ENT1.9 | A Extensão para navegador deve permitir que o usuário escolha a pasta em que será salva uma imagem de outro website. |
-| ENT1.10 | O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas. |
-| ENT1.11 | O App deve possibilitar a transferência de Pins entre pastas. |
-| ENT1.12 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. |
-| ENT1.13 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão. |
-| ENT1.14 | O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário. |
-| ENT1.15 | O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.|
+| ENT1 | O app deve reunir os pins salvos pelo usuário em pastas.|
+| ENT2 | O app deve possibilitar a criação de subpastas internas às pastas de um tema. |
+| ENT3 | O app deve possuir a função de compartilhar a edição de pastas com usuários. |
+| ENT4 | O app deve possuir uma barra para pesquisa de temas. |
+| ENT5 | O app deve possuir um design de interface semelhante entre o aplicativo mobile e o aplicativo web. |
+| ENT6 | O app deve possuir uma extensão para navegadores web. |
+| ENT7 | A Extensão para navegador deve permitir salvar imagens de outros sites em pastas do usuário no app.|
+| ENT8 | A Extensão para navegador deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest. |
+| ENT9 | A Extensão para navegador deve permitir que o usuário escolha a pasta em que será salva uma imagem de outro website. |
+| ENT10 | O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas. |
+| ENT11 | O App deve possibilitar a transferência de Pins entre pastas. |
+| ENT12 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. |
+| ENT13 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão. |
+| ENT14 | O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário. |
+| ENT15 | O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.|
