@@ -1,11 +1,21 @@
 # Análise de protocolo
 
 
-## 1 Análise de protocolo
+## 1 - Análise de protocolo
 
   Consiste em solicitar a uma pessoa que esteja engajada com uma tarefa, dizer
   em voz alta e clara que explique o processo que realiza. Seria uma forma
   específica verbalizada de entender um processo cognitivo. Onde se tem como objetivo analisar um ponto de vista específico.
+
+#### Rastreabilidade
+
+| Nome | Papel | Observação |
+|--|--|--|
+| Daniel Maike | Relatório | Membro da equipe |
+| Joberth Rogers | Relatório | Membro da equipe |
+| Letícia Meneses | Relatório | Membro da equipe |
+| Alexandre Miguel | Relatório | Membro da equipe |
+| Brian Lui | Relator | Usuário do Aplicativo |
 
 ### 1.1 Metodologia
 
