@@ -99,4 +99,26 @@ O questionário a seguir refere-se aos usuários do Pinterest:
 
   As perguntas realizadas no questionário foram importantes e necessárias para conhecimento do público, todavia não auxiliaram na elicitação de requisitos, uma vez que houveram poucos questionamentos direcionados às formas de uso da aplicação e mais perguntas referentes ao perfil do usuário.
 
-  ### 1.5 Sugestões de melhoria
+### 1.5 Sugestões de melhoria
+
+  A equipe concordou que um novo questionário com novas perguntas seriam mais colaborativo para a elicitação de mais requisitos. Para o novo questionário, sugerem-se as seguintes perguntas:
+
+###### 1- Quais funcionalidades a seguir classificam a causa do seu uso do Pinterest?
+  - Divulgar meu trabalho
+  - Entretenimento
+  - Procurar inspirações
+
+
+###### 2- Qual é a sua frequência de uso do chat do Pinterest?
+  - Alta  
+  - Média
+  - Baixa
+
+###### 3- A aba de Notificações cumpre o papel de avisar e chamar a sua atenção sobre a interação de outros usuários com o seu perfil?
+  - Sim
+  - Acredito que pode melhorar
+  - Não
+
+###### 4- Você considera o conteúdo do Pinterest exclusivo?
+  - Com certeza
+  - Encontro o mesmo conteúdo em outras fontes
