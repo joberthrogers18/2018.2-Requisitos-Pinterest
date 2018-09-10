@@ -37,20 +37,20 @@
 | ENT1.13 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão. |
 | ENT1.14 | O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário. |
 | ENT1.15 | O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.|
-|AP1| O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. |
-|AP2| É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. |
-|AP3| O Pinterest apresenta um feed baseado nos interesses do usuário. |
-|AP4| O Pinterest permite salvar um pin em alguma pasta. |
-|AP5| O Pinterest permite a criação de pastas e subpastas. |
-|AP6| A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo. |
-|AP7| A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. |
-|AP8| O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins. |
-|AP9| O usuário é capaz de escolher os interesses que mais o agradar. |
-|AP10| A plataforma filtra os melhores grupos de interesses para o usuário. |
-|AP11| O usuário é capaz de baixar toda imagem que o interessar. |
-|AP12| A plataforma disponibiliza uma forma de pesquisa por foto. |
-|AP13| A plataforma disponibiliza uma forma de pesquisa por texto. |
-|AP14| O usuário é capaz de ser redirecionado para o link da imagem desejada. |
+|ENT1.16| O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. |
+|ENT1.17| É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. |
+|ENT1.18| O Pinterest apresenta um feed baseado nos interesses do usuário. |
+|ENT1.19| O Pinterest permite salvar um pin em alguma pasta. |
+|ENT1.20| O Pinterest permite a criação de pastas e subpastas. |
+|ENT1.21| A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo. |
+|ENT1.22| A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. |
+|ENT1.23| O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins. |
+|ENT1.24| O usuário é capaz de escolher os interesses que mais o agradar. |
+|ENT1.25| A plataforma filtra os melhores grupos de interesses para o usuário. |
+|ENT1.26| O usuário é capaz de baixar toda imagem que o interessar. |
+|ENT1.27| A plataforma disponibiliza uma forma de pesquisa por foto. |
+|ENT1.27| A plataforma disponibiliza uma forma de pesquisa por texto. |
+|ENT1.29| O usuário é capaz de ser redirecionado para o link da imagem desejada. |
 
 
 ### Resultados
