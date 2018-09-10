@@ -1,11 +1,21 @@
 # Análise de protocolo
 
 
-## 1 Análise de protocolo
+## 1 - Análise de protocolo
 
   Consiste em solicitar a uma pessoa que esteja engajada com uma tarefa, dizer
   em voz alta e clara que explique o processo que realiza. Seria uma forma
   específica verbalizada de entender um processo cognitivo. Onde se tem como objetivo analisar um ponto de vista específico.
+
+#### Rastreabilidade
+
+| Nome | Papel | Observação |
+|--|--|--|
+| Daniel Maike | Relatório | Membro da equipe |
+| Joberth Rogers | Relatório | Membro da equipe |
+| Letícia Meneses | Relatório | Membro da equipe |
+| Alexandre Miguel | Relatório | Membro da equipe |
+| Brian Lui | Relator | Usuário do Aplicativo |
 
 ### 1.1 Metodologia
 
@@ -19,13 +29,16 @@
 
   | Atividade | Comentário |
   |---|---|
-  | Login |O usuário achou agradável se logar com o facebook, mas sente falta de um login com cadastro básico |
-  | Escolha de interesses | Ao escolher seus interesses o usuário focou nos primeiros grupos que apareceram. O usuário escolheu 10 interesses que lhe agradou e achou que a quantidade de tópico é excessiva. |
+  | Login | O usuário achou agradável se logar com o facebook |
+  | Escolha de interesses | Ao fazer o primeiro login o usuário precisa escolher seus interesses e focou nos primeiros grupos que apareceram. É necessário escolher no mínimo 5 grupos de interesses. O usuário escolheu 10 interesses que lhe agradou e achou que a quantidade de tópico é excessiva. |
   | Tutorial | Ao logar e chegar nos feeds o usuário escolheu uma imagem de interesse e gostou da plataforma se preocupar em ajudar o usuário a saber como a principal funcionalidade do pinterest funciona. |
-  | seguir outros usuários | O usuário teve interesse em seguir pessoas que já segue no facebook e visitou usuários aleatórios. |
+  | Seguir outros usuários | O usuário teve interesse em seguir pessoas que já segue no facebook e visitou usuários aleatórios. |
   | Notificações | O usuário foi notificado pela falta de internet e de imagens que podia lhe interessar. |
-  | experiência de usuário | O usuário teve a sensação da riqueza de conteúdos com a funcionalidade de scroll infinito. Além de poder baixar a imagem que quisesse e poder visitar ao link de origem dela. |
-  | Pesquisa | Usuário acreditou que a funcionalidade de pesquisar por foto era postar foto. |
+  | Experiência de usuário | O usuário teve a sensação da riqueza de conteúdos com a funcionalidade de scroll infinito. Além de poder baixar a imagem que quisesse e poder visitar ao link de origem dela. |
+  | Pesquisa | Usuário acreditou que a funcionalidade de pesquisar por foto era postar foto. E também descobriu que ao utilizar o meio de pesquisa por foto conseguimos acessar fotos semelhantes sem inserir texto algum. Também foi notado que há pesquisa por meio de texto. |
+  | Criação de pastas | O usuário clicou em um pin e para salvar é necessário a criação de uma pasta para salvá-lo. Na criação da pasta, a aplicação sugeriu alguns nomes para a pasta. |
+  | Redirecionamento de links | Ao clicar em um pin o usuário viu a possibilidade de ser redirecionado para um link relacionado ao pin, em um navegador interno ao Pinterest. |
+  | Download de fotos | Ao clicar em um pin o usuário percebe a funcionalidade de fazer o download da foto para a biblioteca do seu smartphone. |
 
 ### 1.3 Resultado dos requisitos
 
