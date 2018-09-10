@@ -64,3 +64,8 @@ _Requisitos : AD5_
 | AD7 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.|
 | AD8 | O Aplicativo deve notificar o usuário por email acerca de novidades de temas ou comunicações. |
 | AD9 | O Usuário deve poder escolher parar de receber emails do aplicativo. |
+| AD10 | O Aplicativo deve conter uma aba de mensagens que possibilite a comnunicação entre os usuários ativos. |
+| AD11 | O Aplcativo deve tornar visível e atrativo o acesso às mensagens. |
+| AD12 | O Aplicativo deve possbilitar que os usuários compartilhem pastas, subpastas e pins através de mensagens. |
+| AD13 | O Aplicativo deve conter as pesquisas através de imagem tirada instantaneamente pela câmera do celular, que aproximem o usuário dos resultados desejados. |
+| AD14 | O Aplicativo deve tornar intuitiva a funcão do ícone de pesquisa através da câmera. |
