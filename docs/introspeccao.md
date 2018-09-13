@@ -80,13 +80,13 @@ Este tópico aborda as necessidades obtidas nessa introspecção.
 
 #### Requisitos Elicitados
 
-| Código | Descrição |
+| Código | Descrição | Prioridade
 |--|--|
-|INT2.1 | A aplicação deve direcionar o usuário à outra aba quando clicado no link do pin|
-| INT2.2 |O pin deve ter a opção de compartilhamento entre redes sociais ou pessoas seguidas|
-| INT3.3 | A aplicação deve colocar nos pins a opção de "comentários"|
-| INT4.4 | Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição |
-| INT5.5 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado |
-| INT6.6 | O Pinterest deve mostrar diversos pins relacionados ao pin clicado |
-| INT7.7 | O Pinterest deve oferecer a opção de seguir o usuário que postou o pin selecionado|
-| INT8.8 | O Pinterest deve oferecer uma grande quantidade de pins fazendo com que o usuário tenha uma enorme quantidade de resultados |
+|INT2.1 | A aplicação deve direcionar o usuário à outra aba quando clicado no link do pin| Could
+| INT2.2 |O pin deve ter a opção de compartilhamento entre redes sociais ou pessoas seguidas| Should
+| INT3.3 | A aplicação deve colocar nos pins a opção de "comentários"| Should
+| INT4.4 | Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição | Must
+| INT5.5 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado | Should
+| INT6.6 | O Pinterest deve mostrar diversos pins relacionados ao pin clicado | Must
+| INT7.7 | O Pinterest deve oferecer a opção de seguir o usuário que postou o pin selecionado| Should
+| INT8.8 | O Pinterest deve oferecer uma grande quantidade de pins fazendo com que o usuário tenha uma enorme quantidade de resultados | Must
