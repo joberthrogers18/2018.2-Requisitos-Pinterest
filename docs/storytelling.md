@@ -20,13 +20,13 @@ O usuário estava navegando em seu feed do Pinterest quando começaram a aparece
 
 #### Requisitos Elicitados
 
-| Código | Descrição |
-|--|--|
-| ST1.1 | O app deve permitir a escolha de interesses no primeiro acesso. |
-| ST1.2 | O usuário deve poder reagir aos pins que aparecem indicando se eles os agrada. |
-| ST1.3 | O usuário deve poder alterar seus interesses a qualquer momento. |
-| ST1.4 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário. |
-| ST1.5 | O usuário deve poder ocultar pins. |
+| Código | Descrição | Prioridade |
+|--|--|--|
+| ST1.1 | O app deve permitir a escolha de interesses no primeiro acesso. | Must |
+| ST1.2 | O usuário deve poder reagir aos pins que aparecem indicando se eles os agrada. | Could |
+| ST1.3 | O usuário deve poder alterar seus interesses a qualquer momento. | Must |
+| ST1.4 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário. | Should
+| ST1.5 | O usuário deve poder ocultar pins. | Should |
 
 ## Storytelling 2 -  Aprendendo receitas no Pinterest
 
@@ -46,10 +46,10 @@ O usuário estava navegando em seu feed do Pinterest quando começaram a aparece
 
 #### Requisitos Elicitados
 
-| Código | Descrição |
-|--|--|
-| ST2.1 | O app deve oferecer mais conteúdo relacionado às atividades recentes. |
-| ST2.2 | A aba explorar deve mostrar potenciais interesses. |
-| ST2.3 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. |
-| ST2.4 | O usuário deve poder salvar seus pins em uma pasta. |
-| ST2.5 | As pastas devem ser personalizáveis. |
+| Código | Descrição | Prioridade |
+|--|--|--|
+| ST2.1 | O app deve oferecer mais conteúdo relacionado às atividades recentes. | Could |
+| ST2.2 | A aba explorar deve mostrar potenciais interesses. | Should |
+| ST2.3 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. | Could |
+| ST2.4 | O usuário deve poder salvar seus pins em uma pasta. | Must |
+| ST2.5 | As pastas devem ser personalizáveis. | Should |
