@@ -4,7 +4,7 @@
 |--|
 |  Uma imagem exibida dentro do [Pinterest](#pinterest). É a funcionalidade principal, tendo tudo ao seu redor. A interação ocorre a partir deste construto. Podendo ser COMPARTILHADO, COMENTADO, [pinado](#pinar) e outros. |
 |**Impacto** |
-| O usuário consome pins do [Pinterest](#pinterest) para buscar inspiração. |
+| O USUÁRIO consome pins do [Pinterest](#pinterest) para buscar inspiração. |
 
 # Pinar
 
@@ -34,6 +34,38 @@
 
 |**Noção**|
 |--|
-|Algo em que o usuário do PINTEREST está interessado.|
+| Algo em que o USUÁRIO do [Pinterest](#pinterest) está interessado.|
 |**Impacto** |
-| |
+| Os USUÁRIOS definem seus interesses de seus [pins](#pin) mostrados. |
+
+# Explorar
+
+|**Noção**|
+|--|
+| Ato de visitar os pins .|
+|**Impacto** |
+| Os USUÁRIOS definem seus interesses de seus [pins](#pin) mostrados. |
+
+# Compartilhar
+
+|**Noção**|
+|--|
+| Ato de distribuir os pins de seu interesse para outros USUÁRIO.|
+|**Impacto** |
+| Os USUÁRIOS compartilham [pins](#pin), [boards](#board). |
+
+# Seguir
+
+|**Noção**|
+|--|
+| Ato de interagir e acompanhar os interesses e atividades de determinado USUÁRIO.|
+|**Impacto** |
+| USUÁRIO segue outro USUÁRIO para receber as atividades dele em seu FEED e poder interarir por meio de chat com o mesmo. |
+
+# Ocultar
+
+|**Noção**|
+|--|
+| Remove o PIN do FEED do USUÁRIO do Pinterest.|
+|**Impacto** |
+| Conforme o usuário oculte pins de determinado interesse, a relevância desse interesse diminui. |
