@@ -103,3 +103,6 @@ Os seguintes elicitos foram obtidos de acordo com os temas abordados durante a e
 | ENT13 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão. | Impedir que o usuário receba conteúdo que não é de seu interesse. | Must |
 | ENT14 | O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário. | Garantir que o usuário receba sugestões baseadas em seus gostos já definidos.| Should |
 | ENT15 | O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.| Garantir que o usuário não veja mais Pins de um tipo específico, sem retirar conteúdos de interesse do usuário. | Must |
+
+
+[link](#resumo-da-entrevista)
