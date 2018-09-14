@@ -36,18 +36,18 @@ Este tópico indicará as necessidades absorvidas da introspecção citada no co
 
 #### Requisitos Elicitados
 
-| Código | Descrição |
-|--|--|
-|INT1.1 | O app deve oferecer a opção de selecionar a qualidade das imagens|
-| INT1.2 | O app deve oferecer a opção do usuário inserir se deseja ou não o carregamento automático dos vídeos|
-| INT1.3 | O app deve oferecer a opção do usuário salvar seus pins de maneira a vê-los mesmo sem o consumo de internet|
-| INT1.4 | O app deve oferecer pins de receitas diversas até que o usuário tenha interesses definidos. |
-| INT1.5 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações  |
-| INT1.6 | O app deve separar os pins por categorias |
-| INT1.7 | O usuário deve conseguir compartilhar seu gosto e suas preferências entre amigos usuários|
-| INT1.8 | O usuário deve ter a opção de avaliar uma receita e essa avaliação deve ser aberta a outros usuários |
-| INT1.9 | O usuário deve ter a opção de acompanhar outro usuário que tenha gostos semelhantes aos dele |
-| INT1.10 | O usuário deve ter a opção de salvar pins |
+| Código | Descrição | Prioridade|
+|--|--|--|
+|INT1.1 | O app deve oferecer a opção de selecionar a qualidade das imagens| Could |
+| INT1.2 | O app deve oferecer a opção do usuário inserir se deseja ou não o carregamento automático dos vídeos| Could |
+| INT1.3 | O app deve oferecer a opção do usuário salvar seus pins de maneira a vê-los mesmo sem o consumo de internet| Could |
+| INT1.4 | O app deve oferecer pins de receitas diversas até que o usuário tenha interesses definidos. | Must |
+| INT1.5 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações  | Must |
+| INT1.6 | O app deve separar os pins por categorias | Must |
+| INT1.7 | O usuário deve conseguir compartilhar seu gosto e suas preferências entre amigos usuários| Should |
+| INT1.8 | O usuário deve ter a opção de avaliar uma receita e essa avaliação deve ser aberta a outros usuários | Must |
+| INT1.9 | O usuário deve ter a opção de salvar pins | Must |
+| INT1.10 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app | Would |
 
 
 ## Introspecção 2
