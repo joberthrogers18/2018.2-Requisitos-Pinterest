@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Storytelling - Pinterest</title>
+  <title>Léxicos - Pinterest</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Storytelling";
-    var mkdocs_page_input_path = "storytelling.md";
+    var mkdocs_page_name = "L\u00e9xicos";
+    var mkdocs_page_input_path = "lexicos.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -93,23 +93,9 @@
                     
     <a class="" href="../questionario/">Questionário</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Storytelling</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#introducao">Introdução</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#storytelling-1-definindo-interesses-no-pinterest">Storytelling 1 -  Definindo interesses no Pinterest</a></li>
-        
-            <li><a class="toctree-l4" href="#storytelling-2-aprendendo-receitas-no-pinterest">Storytelling 2 -  Aprendendo receitas no Pinterest</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../storytelling/">Storytelling</a>
                 </li>
                 <li class="">
                     
@@ -126,9 +112,27 @@
                     
     <a class="" href="../cenarios/">Cenários</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../lexicos/">Léxicos</a>
+    <a class="current" href="./">Léxicos</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#pin">Pin</a></li>
+    
+
+    <li class="toctree-l3"><a href="#pinar">Pinar</a></li>
+    
+
+    <li class="toctree-l3"><a href="#board">Board</a></li>
+    
+
+    <li class="toctree-l3"><a href="#pinterest">Pinterest</a></li>
+    
+
+    <li class="toctree-l3"><a href="#interesse">Interesse</a></li>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -160,11 +164,11 @@
     
       
         
-          <li>Elicitação de Requisitos &raquo;</li>
+          <li>Modelagem &raquo;</li>
         
       
     
-    <li>Storytelling</li>
+    <li>Léxicos</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -174,141 +178,98 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="introducao">Introdução</h1>
-<p>A técnica de elicitação por storytelling consiste no compartilhamento de conhecimento por meio da narração de  histórias em grupo. A equipe realizou dois storytellings com membros da própria equipe, relacionados à experiência de uso do aplicativo Pinterest. Os narradores contaram sua experência enquanto os outros membros escutavam, anotavam e gravavam. Segue abaixo o relatório das narrativas.</p>
-<h2 id="storytelling-1-definindo-interesses-no-pinterest">Storytelling 1 -  Definindo interesses no Pinterest</h2>
-<h4 id="rastreabilidade">Rastreabilidade</h4>
+                <h1 id="pin">Pin</h1>
 <table>
 <thead>
 <tr>
-<th>Nome</th>
-<th>Papel</th>
-<th>Observação</th>
+<th><strong>Noção</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Guilherme Guy</td>
-<td>Narração</td>
-<td>Membro da equipe/Usuário</td>
+<td>Uma imagem exibida dentro do <a href="#pinterest">Pinterest</a>. É a funcionalidade principal, tendo tudo ao seu redor. A interação ocorre a partir deste construto. Podendo ser COMPARTILHADO, COMENTADO, <a href="#pinar">pinado</a> e outros.</td>
 </tr>
 <tr>
-<td>Geovana Ramos</td>
-<td>Relatório</td>
-<td>Membro da equipe</td>
+<td><strong>Impacto</strong></td>
 </tr>
 <tr>
-<td>Alexandre Miguel</td>
-<td>Gravação</td>
-<td>Membro da equipe</td>
+<td>O usuário consome pins do <a href="#pinterest">Pinterest</a> para buscar inspiração.</td>
 </tr>
 </tbody>
 </table>
-<p><em>Demais membros como ouvintes</em></p>
-<h4 id="resumo-da-narracao">Resumo da Narração</h4>
-<p>O usuário estava navegando em seu feed do Pinterest quando começaram a aparecer pins que não eram de seu interesse e, portanto, ele não gostaria de vê-los. Então, ele começou a explorar o app em busca da funcionalidade que permitisse redefinir seus interesses. Acabou não achando a funcionalidade -  mais tarde descobriu que foi devido a um carregamento lento - e então teve de recorrer ao site. Ao achar a funcionalidade, percebeu que nenhum dos interesses que marcou estava relacionado aos pins estranhos que estavam aparecendo. Ainda em busca de algum esclarecimento, acabou descobrindo que os pins oferecem uma funcionalidade que informa o usuário o porquê daquele pin estar em seu feed, e no seu caso, aqueles pins eram resultados de buscas recentes.</p>
-<h4 id="requisitos-elicitados">Requisitos Elicitados</h4>
+<h1 id="pinar">Pinar</h1>
 <table>
 <thead>
 <tr>
-<th>Código</th>
-<th>Descrição</th>
-<th>Prioridade</th>
+<th><strong>Noção</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>ST1.1</td>
-<td>O app deve permitir a escolha de interesses no primeiro acesso.</td>
-<td>Must</td>
+<td>É o ato do usuário guardar um <a href="#pin">pin</a> em um <a href="#board">board</a> para poder acessar mais tarde ou para categorizar seus <a href="#pin">pins</a>.</td>
 </tr>
 <tr>
-<td>ST1.2</td>
-<td>O usuário deve poder reagir aos pins que aparecem indicando se eles os agrada.</td>
-<td>Could</td>
+<td><strong>Impacto</strong></td>
 </tr>
 <tr>
-<td>ST1.3</td>
-<td>O usuário deve poder alterar seus interesses a qualquer momento.</td>
-<td>Must</td>
-</tr>
-<tr>
-<td>ST1.4</td>
-<td>Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário.</td>
-<td>Should</td>
-</tr>
-<tr>
-<td>ST1.5</td>
-<td>O usuário deve poder ocultar pins.</td>
-<td>Should</td>
+<td>O USUÁRIO pode pinar um <a href="#pin">pin</a> de que ele goste.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="storytelling-2-aprendendo-receitas-no-pinterest">Storytelling 2 -  Aprendendo receitas no Pinterest</h2>
-<h4 id="rastreabilidade_1">Rastreabilidade</h4>
+<h1 id="board">Board</h1>
 <table>
 <thead>
 <tr>
-<th>Nome</th>
-<th>Papel</th>
-<th>Observação</th>
+<th><strong>Noção</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Letícia Meneses</td>
-<td>Narração</td>
-<td>Membro da equipe/Usuário</td>
+<td>É uma coleção de <a href="#pin">pins</a>, tendo título para poder se diferenciar de outras coleções. É utilizado pelos usuários para organizar os seus <a href="#pin">pins</a> <a href="#pinar">pinados</a>. Pode possuír sub-conjuntos.</td>
 </tr>
 <tr>
-<td>Geovana Ramos</td>
-<td>Relatório</td>
-<td>Membro da equipe</td>
+<td><strong>Impacto</strong></td>
 </tr>
 <tr>
-<td>Alexandre Miguel</td>
-<td>Gravação</td>
-<td>Membro da equipe</td>
+<td>O usuário <a href="#pinar">pina</a> <a href="#pin">pins</a> em um board.</td>
 </tr>
 </tbody>
 </table>
-<p><em>Demais membros como ouvintes</em></p>
-<h4 id="resumo-da-narracao_1">Resumo da Narração</h4>
-<p>No seu uso habitual do app Pinterest, a usuária definiu como seu interesse os pins de comida. A partir disso, a aplicação passou a mostrar pins de comida no seu feed do explorar, e isso fez com que ela adicionasse um pin de sanduíche em uma pasta pessoal. Dessa forma, mais sanduíches começaram a aparecer no seu feed e eles vinham acompanhados da receita. Isso acabou despertando o interesse da usuária em fazer o sanduíche, acompanhando a receita fornecida pelo app.</p>
-<h4 id="requisitos-elicitados_1">Requisitos Elicitados</h4>
+<h1 id="pinterest">Pinterest</h1>
 <table>
 <thead>
 <tr>
-<th>Código</th>
-<th>Descrição</th>
-<th>Prioridade</th>
+<th><strong>Noção</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>ST2.1</td>
-<td>O app deve oferecer mais conteúdo relacionado às atividades recentes.</td>
-<td>Could</td>
+<td>Serviço de compartilhamento de imagens (<a href="#pin">pins</a>) em que os usuários acessam em busca de inspiração e também de ver imagens relacionadas aos seus <a href="#interesse">interesses</a>.</td>
 </tr>
 <tr>
-<td>ST2.2</td>
-<td>A aba explorar deve mostrar potenciais interesses.</td>
-<td>Should</td>
+<td><strong>Impacto</strong></td>
 </tr>
 <tr>
-<td>ST2.3</td>
-<td>As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la.</td>
-<td>Could</td>
+<td>O PINTEREST é muito legal! =)</td>
+</tr>
+</tbody>
+</table>
+<h1 id="interesse">Interesse</h1>
+<table>
+<thead>
+<tr>
+<th><strong>Noção</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Algo em que o usuário do PINTEREST está interessado.</td>
 </tr>
 <tr>
-<td>ST2.4</td>
-<td>O usuário deve poder salvar seus pins em uma pasta.</td>
-<td>Must</td>
+<td><strong>Impacto</strong></td>
 </tr>
 <tr>
-<td>ST2.5</td>
-<td>As pastas devem ser personalizáveis.</td>
-<td>Should</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -319,10 +280,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../conclusao_elicitacao/" class="btn btn-neutral float-right" title="Conclusão">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../anexos/" class="btn btn-neutral float-right" title="Anexos">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../questionario/" class="btn btn-neutral" title="Questionário"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../cenarios/" class="btn btn-neutral" title="Cenários"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -348,10 +309,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../questionario/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../cenarios/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../conclusao_elicitacao/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../anexos/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
