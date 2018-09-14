@@ -13,5 +13,9 @@ pages:
     - Questionário: questionario.md
     - Storytelling: storytelling.md
     - Conclusão: conclusao_elicitacao.md
+  - Modelagem:
+    - Cenários: cenarios.md
+    - Léxicos: lexicos.md
   - Anexos: anexos.md
+
 theme: readthedocs
