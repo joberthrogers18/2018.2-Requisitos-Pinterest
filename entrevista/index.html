@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Entrevista";
     var mkdocs_page_input_path = "entrevista.md";
-    var mkdocs_page_url = "/entrevista/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -165,7 +166,15 @@
             <div class="section">
               
                 <h1 id="entrevista">Entrevista</h1>
-<p>Essa técnica consiste na formulação de perguntas que são filtradas e propostas aos interessados no intuito de, por meio das respostas, elicitar requisitos. A Técnica permite um bom contato com diferentes experiências, bem como a análise do aplicativo em questão por pontos de vistas diferentes e que suscitam funcionalidades e aspectos únicos conforme a perspectiva, ainda que subjetiva, do interessado entrevistado. Existem duas formas de entrevistas utilizadas em formas de elicitação: A <strong>Entrevista Fechada</strong>, que consiste na proposição de perguntas estritamente pré-formuladas e em respostas conforme especificação. A <strong>Entrevista Aberta</strong>, em que o roteiro de perguntas predefinidas é adaptado conforme o entrevistador identifica a oportunidade de elicitação de mais requisitos ao abordar um outro tópico ou pergunta.</p>
+<p>Essa técnica consiste na formulação de perguntas que são filtradas e propostas aos interessados no intuito de, por meio das respostas, elicitar requisitos. A Técnica permite um bom contato com diferentes experiências, bem como a análise do aplicativo em questão por pontos de vistas diferentes e que suscitam funcionalidades e aspectos únicos conforme a perspectiva, ainda que subjetiva, do interessado entrevistado. Existem duas formas de entrevistas utilizadas em formas de elicitação:</p>
+<ul>
+<li>
+<p>A <strong>Entrevista Fechada</strong>, que consiste na proposição de perguntas estritamente pré-formuladas e em respostas conforme especificação.</p>
+</li>
+<li>
+<p>A <strong>Entrevista Aberta</strong>, em que o roteiro de perguntas predefinidas é adaptado conforme o entrevistador identifica a oportunidade de elicitação de mais requisitos ao abordar um outro tópico ou pergunta.</p>
+</li>
+</ul>
 <h3 id="rastreabilidade">Rastreabilidade</h3>
 <p><img alt="Screenshot" src="../img/entrevista_1.PNG" /></p>
 <table>
@@ -225,76 +234,111 @@
 <p><strong> Você acha interessante o aplicativo já te mostrar assuntos de tendências de pesquisas suas no próprio feed? </strong></p>
 <p>Eu acho interessante até que costuma chegar em um ponto em que o aplicativo começa a me mostrar as mesmas imagens ou coisas que eu já tinha visto e descartado.</p>
 <h3 id="requisitos-elicitados">Requisitos Elicitados</h3>
+<p>Os seguintes elicitos foram obtidos de acordo com os temas abordados durante a entrevista.</p>
+<h4 id="requisitos-funcionais">Requisitos Funcionais</h4>
 <table>
 <thead>
 <tr>
 <th>Código</th>
 <th>Descrição</th>
+<th>Finalidade</th>
+<th>Prioridade</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>ENT1</td>
 <td>O app deve reunir os pins salvos pelo usuário em pastas.</td>
+<td>Possibilitar ao usuário uma organização de Pins conforme afinidade de temas.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT2</td>
 <td>O app deve possibilitar a criação de subpastas internas às pastas de um tema.</td>
+<td>Organizar Pins de subtemas pertencentes a uma mesma temática.</td>
+<td>Should</td>
 </tr>
 <tr>
 <td>ENT3</td>
 <td>O app deve possuir a função de compartilhar a edição de pastas com usuários.</td>
+<td>Permitir a construção de uma pasta colaborativa para a reunião de ainda mais Pins de um mesmo tema.</td>
+<td>Could</td>
 </tr>
 <tr>
 <td>ENT4</td>
 <td>O app deve possuir uma barra para pesquisa de temas.</td>
+<td>Permitir que usuário encontre Pins de seu interesse de maneira mais direte.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT5</td>
 <td>O app deve possuir um design de interface semelhante entre o aplicativo mobile e o aplicativo web.</td>
+<td>Garantir que o usuário não terá problemas de utilização caso troque de plataforma.</td>
+<td>Should</td>
 </tr>
 <tr>
 <td>ENT6</td>
 <td>O app deve possuir uma extensão para navegadores web.</td>
+<td>Propiciar ao usuário um meio de pesquisa com maior tamanho de tela e próximo de diferentes ambientes virtuais.</td>
+<td>Could</td>
 </tr>
 <tr>
 <td>ENT7</td>
 <td>A Extensão para navegador deve permitir salvar imagens de outros sites em pastas do usuário no app.</td>
+<td>Para que o usuário possa reunir diferentes imagens, não restringindo o espaço amostral aos Pins postados no Pinterest</td>
+<td>Could</td>
 </tr>
 <tr>
 <td>ENT8</td>
 <td>A Extensão para navegador deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest.</td>
+<td>Garantir que o usuário seja informado de uma funcionalidade atuante como diferencial do aplicatvo.</td>
+<td>Would</td>
 </tr>
 <tr>
 <td>ENT9</td>
 <td>A Extensão para navegador deve permitir que o usuário escolha a pasta em que será salva uma imagem de outro website.</td>
+<td>Permitir a organização dos conteúdos pelo usuário.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT10</td>
 <td>O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas.</td>
+<td>Permitir que o usuário personifique suas pastas da forma mais conveniente.</td>
+<td>Should</td>
 </tr>
 <tr>
 <td>ENT11</td>
 <td>O App deve possibilitar a transferência de Pins entre pastas.</td>
+<td>Permitir que o usuário possa reorganizar seus Pins salvos.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT12</td>
 <td>O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário.</td>
+<td>Auxiliar na busca do usuário por Pins semelhantes e sugerir novos Pins do tema que o usuário possui interesse.</td>
+<td>Should</td>
 </tr>
 <tr>
 <td>ENT13</td>
 <td>O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão.</td>
+<td>Impedir que o usuário receba conteúdo que não é de seu interesse.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT14</td>
 <td>O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário.</td>
+<td>Garantir que o usuário receba sugestões baseadas em seus gostos já definidos.</td>
+<td>Should</td>
 </tr>
 <tr>
 <td>ENT15</td>
 <td>O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.</td>
+<td>Garantir que o usuário não veja mais Pins de um tipo específico, sem retirar conteúdos de interesse do usuário.</td>
+<td>Must</td>
 </tr>
 </tbody>
 </table>
+<p><a href="#resumo-da-entrevista">link</a></p>
               
             </div>
           </div>
@@ -319,12 +363,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -338,7 +382,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>

@@ -1,82 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-    
     <url>
-     <loc>/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
-    
-        
     <url>
-     <loc>/argumentacao/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/rich_picture/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
-        
     <url>
-     <loc>/analise_discurso/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/analise_protocolo/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/entrevista/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/introspeccao/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/questionario/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/storytelling/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
     <url>
-     <loc>/conclusao_elicitacao/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-        
-    
-
-    
     <url>
-     <loc>/anexos/</loc>
-     <lastmod>2018-09-10</lastmod>
+     <loc>None</loc>
+     <lastmod>2018-09-14</lastmod>
      <changefreq>daily</changefreq>
     </url>
-    
-
 </urlset>

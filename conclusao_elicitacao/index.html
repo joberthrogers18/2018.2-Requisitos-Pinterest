@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Conclus\u00e3o";
     var mkdocs_page_input_path = "conclusao_elicitacao.md";
-    var mkdocs_page_url = "/conclusao_elicitacao/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -159,292 +160,364 @@
 <tr>
 <th>Código</th>
 <th>Descrição</th>
+<th>Prioridade</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>AD1</td>
-<td>O App precisa possuir sempre conteúdos novos no feed do usuário.</td>
-</tr>
-<tr>
-<td>AD2</td>
-<td>O Usuário deve poder bloquear Pins que não são de seu interesse.</td>
-</tr>
-<tr>
-<td>AD3</td>
-<td>O Aplicativo deve ser capaz de reconhecer relações de conteúdo entre Pins.</td>
-</tr>
-<tr>
-<td>AD4</td>
-<td>O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.</td>
-</tr>
-<tr>
-<td>AD5</td>
-<td>O Aplicativo deve sugerir temas de Pins conforme os interesses estabelecidos pelos usuário.</td>
-</tr>
-<tr>
-<td>AD6</td>
-<td>O Aplicativo deve possuir algorítmos para adaptação de mensagens para a linguagem de sistema do usuário.</td>
-</tr>
-<tr>
-<td>AD7</td>
-<td>O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.</td>
-</tr>
-<tr>
-<td>AD8</td>
-<td>O Aplicativo deve notificar o usuário por email acerca de novidades de temas ou comunicações.</td>
-</tr>
-<tr>
-<td>AD9</td>
-<td>O Usuário deve poder escolher parar de receber emails do aplicativo.</td>
-</tr>
-<tr>
 <td>AP1</td>
 <td>O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>AP2</td>
 <td>É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>AP3</td>
 <td>O Pinterest apresenta um feed baseado nos interesses do usuário.</td>
-</tr>
-<tr>
-<td>AP4</td>
-<td>O Pinterest permite salvar um pin em alguma pasta.</td>
-</tr>
-<tr>
-<td>AP5</td>
-<td>O Pinterest permite a criação de pastas e subpastas.</td>
-</tr>
-<tr>
-<td>AP6</td>
-<td>A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo.</td>
-</tr>
-<tr>
-<td>AP7</td>
-<td>A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed.</td>
-</tr>
-<tr>
-<td>AP8</td>
-<td>O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>AP9</td>
 <td>O usuário é capaz de escolher os interesses que mais o agradar.</td>
-</tr>
-<tr>
-<td>AP10</td>
-<td>A plataforma filtra os melhores grupos de interesses para o usuário.</td>
-</tr>
-<tr>
-<td>AP11</td>
-<td>O usuário é capaz de baixar toda imagem que o interessar.</td>
-</tr>
-<tr>
-<td>AP12</td>
-<td>A plataforma disponibiliza uma forma de pesquisa por foto.</td>
-</tr>
-<tr>
-<td>AP13</td>
-<td>A plataforma disponibiliza uma forma de pesquisa por texto.</td>
-</tr>
-<tr>
-<td>AP14</td>
-<td>O usuário é capaz de ser redirecionado para o link da imagem desejada.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT1</td>
 <td>O app deve reunir os pins salvos pelo usuário em pastas.</td>
-</tr>
-<tr>
-<td>ENT2</td>
-<td>O app deve possibilitar a criação de subpastas internas às pastas de um tema.</td>
-</tr>
-<tr>
-<td>ENT3</td>
-<td>O app deve possuir a função de compartilhar a edição de pastas com usuários.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT4</td>
 <td>O app deve possuir uma barra para pesquisa de temas.</td>
-</tr>
-<tr>
-<td>ENT5</td>
-<td>O app deve possuir um design de interface semelhante entre o aplicativo mobile e o aplicativo web.</td>
-</tr>
-<tr>
-<td>ENT6</td>
-<td>O app deve possuir uma extensão para navegadores web.</td>
-</tr>
-<tr>
-<td>ENT7</td>
-<td>A Extensão para navegador deve permitir salvar imagens de outros sites em pastas do usuário no app.</td>
-</tr>
-<tr>
-<td>ENT8</td>
-<td>A Extensão para navegador deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT9</td>
 <td>A Extensão para navegador deve permitir que o usuário escolha a pasta em que será salva uma imagem de outro website.</td>
-</tr>
-<tr>
-<td>ENT10</td>
-<td>O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT11</td>
 <td>O App deve possibilitar a transferência de Pins entre pastas.</td>
-</tr>
-<tr>
-<td>ENT12</td>
-<td>O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT13</td>
 <td>O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão.</td>
-</tr>
-<tr>
-<td>ENT14</td>
-<td>O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ENT15</td>
 <td>O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.</td>
-</tr>
-<tr>
-<td>INT1.1</td>
-<td>O app deve oferecer a opção de selecionar a qualidade das imagens</td>
-</tr>
-<tr>
-<td>INT1.2</td>
-<td>O app deve oferecer a opção do usuário inserir se deseja ou não o carregamento automático dos vídeos</td>
-</tr>
-<tr>
-<td>INT1.3</td>
-<td>O app deve oferecer a opção do usuário salvar seus pins de maneira a vê-los mesmo sem o consumo de internet</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>INT1.4</td>
 <td>O app deve oferecer pins de receitas diversas até que o usuário tenha interesses definidos.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>INT1.5</td>
 <td>O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>INT1.6</td>
 <td>O app deve separar os pins por categorias</td>
-</tr>
-<tr>
-<td>INT1.7</td>
-<td>O usuário deve conseguir compartilhar seu gosto e suas preferências entre amigos usuários</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>INT1.8</td>
 <td>O usuário deve ter a opção de avaliar uma receita e essa avaliação deve ser aberta a outros usuários</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>INT1.9</td>
-<td>O usuário deve ter a opção de acompanhar outro usuário que tenha gostos semelhantes aos dele</td>
-</tr>
-<tr>
-<td>INT1.10</td>
 <td>O usuário deve ter a opção de salvar pins</td>
+<td>Must</td>
 </tr>
 <tr>
-<td>INT2.1</td>
-<td>A aplicação deve direcionar o usuário à outra aba quando clicado no link do pin</td>
-</tr>
-<tr>
-<td>INT2.2</td>
-<td>O pin deve ter a opção de compartilhamento entre redes sociais ou pessoas seguidas</td>
-</tr>
-<tr>
-<td>INT3.3</td>
-<td>A aplicação deve colocar nos pins a opção de "comentários"</td>
-</tr>
-<tr>
-<td>INT4.4</td>
+<td>INT2.4</td>
 <td>Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição</td>
+<td>Must</td>
 </tr>
 <tr>
-<td>INT5.5</td>
-<td>Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado</td>
-</tr>
-<tr>
-<td>INT6.6</td>
+<td>INT2.6</td>
 <td>O Pinterest deve mostrar diversos pins relacionados ao pin clicado</td>
+<td>Must</td>
 </tr>
 <tr>
-<td>INT7.7</td>
-<td>O Pinterest deve oferecer a opção de seguir o usuário que postou o pin selecionado</td>
-</tr>
-<tr>
-<td>INT8.8</td>
+<td>INT2.8</td>
 <td>O Pinterest deve oferecer uma grande quantidade de pins fazendo com que o usuário tenha uma enorme quantidade de resultados</td>
-</tr>
-<tr>
-<td>ENT1</td>
-<td>A rede social deve abranger conteúdos que mantenham ativos os usuários que compõe o principal púlico, os jovens da faixa etária de 16 a 25 anos.</td>
-</tr>
-<tr>
-<td>ENT2</td>
-<td>A rede social deve conter uma experiência de usuário melhor para que o site possa ser tão acessado pelo público quanto o aplicativo.</td>
-</tr>
-<tr>
-<td>ENT3</td>
-<td>A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes.</td>
-</tr>
-<tr>
-<td>ENT4</td>
-<td>A rede social deve procurar diferenciais perante seus maiores concorrentes, weheartit.com e tumblr.com</td>
-</tr>
-<tr>
-<td>ENT5</td>
-<td>A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ST1.1</td>
 <td>O app deve permitir a escolha de interesses no primeiro acesso.</td>
-</tr>
-<tr>
-<td>ST1.2</td>
-<td>O usuário deve poder reagir aos pins que aparecem indicando se eles os agrada.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ST1.3</td>
 <td>O usuário deve poder alterar seus interesses a qualquer momento.</td>
-</tr>
-<tr>
-<td>ST1.4</td>
-<td>Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário.</td>
-</tr>
-<tr>
-<td>ST1.5</td>
-<td>O usuário deve poder ocultar pins.</td>
-</tr>
-<tr>
-<td>ST2.1</td>
-<td>O app deve oferecer mais conteúdo relacionado às atividades recentes.</td>
-</tr>
-<tr>
-<td>ST2.2</td>
-<td>A aba explorar deve mostrar potenciais interesses.</td>
-</tr>
-<tr>
-<td>ST2.3</td>
-<td>As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la.</td>
+<td>Must</td>
 </tr>
 <tr>
 <td>ST2.4</td>
 <td>O usuário deve poder salvar seus pins em uma pasta.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>AP4</td>
+<td>O Pinterest permite salvar um pin em alguma pasta.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AP5</td>
+<td>O Pinterest permite a criação de pastas e subpastas.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AP7</td>
+<td>A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AP10</td>
+<td>A plataforma filtra os melhores grupos de interesses para o usuário.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AP11</td>
+<td>O usuário é capaz de baixar toda imagem que o interessar.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AP13</td>
+<td>A plataforma disponibiliza uma forma de pesquisa por texto.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AP14</td>
+<td>O usuário é capaz de ser redirecionado para o link da imagem desejada.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>ENT2</td>
+<td>O app deve possibilitar a criação de subpastas internas às pastas de um tema.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>ENT5</td>
+<td>O app deve possuir um design de interface semelhante entre o aplicativo mobile e o aplicativo web.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>ENT10</td>
+<td>O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>ENT12</td>
+<td>O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>ENT14</td>
+<td>O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>INT1.7</td>
+<td>O usuário deve conseguir compartilhar seu gosto e suas preferências entre amigos usuários</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>INT2.2</td>
+<td>O pin deve ter a opção de compartilhamento entre redes sociais ou pessoas seguidas</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>INT2.3</td>
+<td>A aplicação deve colocar nos pins a opção de "comentários"</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>INT2.5</td>
+<td>Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>INT2.7</td>
+<td>O Pinterest deve oferecer a opção de seguir o usuário que postou o pin selecionado</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>ST1.4</td>
+<td>Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>ST1.5</td>
+<td>O usuário deve poder ocultar pins.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>ST2.2</td>
+<td>A aba explorar deve mostrar potenciais interesses.</td>
+<td>Should</td>
 </tr>
 <tr>
 <td>ST2.5</td>
 <td>As pastas devem ser personalizáveis.</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AP6</td>
+<td>A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>AP8</td>
+<td>O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>AP12</td>
+<td>A plataforma disponibiliza uma forma de pesquisa por foto.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>ENT3</td>
+<td>O app deve possuir a função de compartilhar a edição de pastas com usuários.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>ENT6</td>
+<td>O app deve possuir uma extensão para navegadores web.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>ENT7</td>
+<td>A Extensão para navegador deve permitir salvar imagens de outros sites em pastas do usuário no app.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INT1.1</td>
+<td>O app deve oferecer a opção de selecionar a qualidade das imagens</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INT1.2</td>
+<td>O app deve oferecer a opção do usuário inserir se deseja ou não o carregamento automático dos vídeos</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INT1.3</td>
+<td>O app deve oferecer a opção do usuário salvar seus pins de maneira a vê-los mesmo sem o consumo de internet</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INT2.1</td>
+<td>A aplicação deve direcionar o usuário à outra aba quando clicado no link do pin</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>ST1.2</td>
+<td>O usuário deve poder reagir aos pins que aparecem indicando se eles os agrada.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>ST2.1</td>
+<td>O app deve oferecer mais conteúdo relacionado às atividades recentes.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>ST2.3</td>
+<td>As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>ENT8</td>
+<td>A Extensão para navegador deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest.</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>INT1.10</td>
+<td>O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>ENT1</td>
+<td>A rede social deve abranger conteúdos que mantenham ativos os usuários que compõe o principal púlico, os jovens da faixa etária de 16 a 25 anos.</td>
+<td></td>
+</tr>
+<tr>
+<td>ENT2</td>
+<td>A rede social deve conter uma experiência de usuário melhor para que o site possa ser tão acessado pelo público quanto o aplicativo.</td>
+<td></td>
+</tr>
+<tr>
+<td>ENT3</td>
+<td>A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes.</td>
+<td></td>
+</tr>
+<tr>
+<td>ENT4</td>
+<td>A rede social deve procurar diferenciais perante seus maiores concorrentes, weheartit.com e tumblr.com</td>
+<td></td>
+</tr>
+<tr>
+<td>ENT5</td>
+<td>A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD1</td>
+<td>O App precisa possuir sempre conteúdos novos no feed do usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD2</td>
+<td>O Usuário deve poder bloquear Pins que não são de seu interesse.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD3</td>
+<td>O Aplicativo deve ser capaz de reconhecer relações de conteúdo entre Pins.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD4</td>
+<td>O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD5</td>
+<td>O Aplicativo deve sugerir temas de Pins conforme os interesses estabelecidos pelos usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD6</td>
+<td>O Aplicativo deve possuir algorítmos para adaptação de mensagens para a linguagem de sistema do usuário.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD7</td>
+<td>O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD8</td>
+<td>O Aplicativo deve notificar o usuário por email acerca de novidades de temas ou comunicações.</td>
+<td></td>
+</tr>
+<tr>
+<td>AD9</td>
+<td>O Usuário deve poder escolher parar de receber emails do aplicativo.</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -475,12 +548,12 @@ Por fim, o questionário não foi muito eficiente para o levantamento de requisi
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -494,7 +567,9 @@ Por fim, o questionário não foi muito eficiente para o levantamento de requisi
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
