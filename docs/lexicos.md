@@ -1,71 +1,85 @@
-# Pin
+# Introdução
+
+lksdjkalsjdlaksjd
+
+# Léxicos
+
+## Pin
 
 |**Noção**|
 |--|
 |  Uma imagem exibida dentro do [Pinterest](#pinterest). É a funcionalidade principal, tendo tudo ao seu redor. A interação ocorre a partir deste construto. Podendo ser COMPARTILHADO, COMENTADO, [pinado](#pinar) e outros. |
 |**Impacto** |
-| O USUÁRIO consome pins do [Pinterest](#pinterest) para buscar inspiração. |
+| O [usuário](#usuario) consome pins do [Pinterest](#pinterest) para buscar inspiração. |
 
-# Pinar
+## Pinar
 
 |**Noção**|
 |--|
-| É o ato do usuário guardar um [pin](#pin) em um [board](#board) para poder acessar mais tarde ou para categorizar seus [pins](#pin). |
+| É o ato do [usuário](#usuario) guardar um [pin](#pin) em um [board](#board) para poder acessar mais tarde ou para categorizar seus [pins](#pin). |
 |**Impacto** |
-| O USUÁRIO pode pinar um [pin](#pin) de que ele goste. |
+| O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. |
 
-# Board
+## Board
 
 |**Noção**|
 |--|
-|		É uma coleção de [pins](#pin), tendo título para poder se diferenciar de outras coleções. É utilizado pelos usuários para organizar os seus [pins](#pin) [pinados](#pinar). Pode possuír sub-conjuntos. |
+|		É uma coleção de [pins](#pin), tendo título para poder se diferenciar de outras coleções. É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) [pinados](#pinar). Pode possuír sub-conjuntos. |
 |**Impacto** |
-| O usuário [pina](#pinar) [pins](#pin) em um board. |
+| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um board. |
 
-# Pinterest
+## Pinterest
 
 |**Noção**|
 |--|
-|		Serviço de compartilhamento de imagens ([pins](#pin)) em que os usuários acessam em busca de inspiração e também de ver imagens relacionadas aos seus [interesses](#interesse). |
+|		Serviço de compartilhamento de imagens ([pins](#pin)) em que os [usuário](#usuario)s acessam em busca de inspiração e também de ver imagens relacionadas aos seus [interesses](#interesse). |
 |**Impacto** |
 | O PINTEREST é muito legal! =) |
 
-# Interesse
+## Interesse
 
 |**Noção**|
 |--|
-| Algo em que o USUÁRIO do [Pinterest](#pinterest) está interessado.|
+| Algo em que o [usuário](#usuario) do [Pinterest](#pinterest) está interessado.|
 |**Impacto** |
-| Os USUÁRIOS definem seus interesses de seus [pins](#pin) mostrados. |
+| Os [usuário](#usuario)S definem seus interesses de seus [pins](#pin) mostrados. |
 
-# Explorar
+## Explorar
 
 |**Noção**|
 |--|
 | Ato de visitar os pins .|
 |**Impacto** |
-| Os USUÁRIOS definem seus interesses de seus [pins](#pin) mostrados. |
+| Os [usuário](#usuario)S definem seus interesses de seus [pins](#pin) mostrados. |
 
-# Compartilhar
-
-|**Noção**|
-|--|
-| Ato de distribuir os pins de seu interesse para outros USUÁRIO.|
-|**Impacto** |
-| Os USUÁRIOS compartilham [pins](#pin), [boards](#board). |
-
-# Seguir
+## Compartilhar
 
 |**Noção**|
 |--|
-| Ato de interagir e acompanhar os interesses e atividades de determinado USUÁRIO.|
+| Ato de distribuir os pins de seu interesse para outros [usuário](#usuario).|
 |**Impacto** |
-| USUÁRIO segue outro USUÁRIO para receber as atividades dele em seu FEED e poder interarir por meio de chat com o mesmo. |
+| Os [usuário](#usuario)S compartilham [pins](#pin), [boards](#board). |
 
-# Ocultar
+## Seguir
 
 |**Noção**|
 |--|
-| Remove o PIN do FEED do USUÁRIO do Pinterest.|
+| Ato de interagir e acompanhar os interesses e atividades de determinado [usuário](#usuario).|
 |**Impacto** |
-| Conforme o usuário oculte pins de determinado interesse, a relevância desse interesse diminui. |
+| [usuário](#usuario) segue outro [usuário](#usuario) para receber as atividades dele em seu FEED e poder interarir por meio de chat com o mesmo. |
+
+## Ocultar
+
+|**Noção**|
+|--|
+| Remove o PIN do FEED do [usuário](#usuario) do Pinterest.|
+|**Impacto** |
+| Conforme o [usuário](#usuario) oculte pins de determinado interesse, a relevância desse interesse diminui. |
+
+## Usuário
+
+|**Noção**|
+|--|
+| Utilizador do [Pinterest](#pinterest) |
+|**Impacto** |
+| [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário |
