@@ -51,3 +51,19 @@ ashdaksjdhksjdhk
 | Internet cair <br> App dar crash <br> [Usuário](lexicos.md/#usuario) ter sido bloqueado pelo outro [usuário](lexicos.md/#usuario) que deseja [seguir](lexicos.md/#seguir) |
 |**Episódios** |
 | [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até a página do perfil de outro [Usuário](lexicos.md/#usuario) <br> [Usuário](lexicos.md/#usuario) aperta botão [seguir](lexicos.md/#seguir)|
+
+## Definir [interesses](#interesse)
+
+|**Objetivo** |
+|--|
+| Escolher assuntos que são do [interesse](#interesse) do [usuário](lexicos.md/#usuario) |
+|**Contexto** |
+| Local: Logo após o cadastro ou na aba de [interesses](#interesse) dentro da aba salvo <br>  Pré-Condição: estar logado |
+|**Atores** |
+| [Usuário](lexicos.md/#usuario) |
+|**Recursos** |
+| Internet, aplicativo, conta de usuário |
+|**Exceção** |
+| Internet cair <br> App dar crash |
+|**Episódios** |
+| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até a aba salvo [Usuário](lexicos.md/#usuario) <br> [Usuário](lexicos.md/#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md/#usuario) escolhe [interesses](#interesse)|
