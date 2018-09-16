@@ -148,6 +148,22 @@
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a [pasta](#lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona a opção de organizar [pasta](#lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja modificar <br> [Usuário](lexicos.md#usuario) decide entre [excluir](#lexicos.md#excluir), [mover](#lexicos.md#mover) para [pasta](#lexicos.md#pasta) ou para [subpasta](#lexicos.md#subpasta)|
 
+## Pesquisar por tema
+
+|**Objetivo** |
+|--|
+| Encontrar imagens referentes a um tema de preferência do usuário |
+|**Contexto** |
+| Local: [Página](#lexicos.md#pagina) inicial do aplicativo versão mobile <br> Tempo - A Qualquer momento  <br> Pré-Condição: Usuário ter em mente palavras-chaves relativas ao tema  |
+|**Atores** |
+| [Usuário](lexicos.md#usuario) |
+|**Recursos** |
+| Internet <br> Conta no aplicativo <br>|
+|**Exceção** |
+| Palavras que coincidirem com outros temas <br> Internet cair <br> App dar crash <br> |
+|**Episódios** |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) escreve palavras relacionadas ao tema desejado na [barra de pesquisa](#lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) clica "enter" <br> Aplicativo mostra uma seleção de imagens referentes ao tema <br> Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas|
+
 ## Pesquisar por foto
 
 |**Objetivo** |
@@ -162,7 +178,7 @@
 |**Exceção** |
 | Câmera não funcionar <br> Internet cair <br> App dar crash <br> |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona o ícone de câmera na [barra de pesquisa](#lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) tira foto da imagem por qual busca semelhantes <br> Aplciativo mostra uma seleção de imagens semelhantes à enviada pelo [Usuário](lexicos.md#usuario)  |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona o ícone de câmera na [barra de pesquisa](#lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) tira foto da imagem por qual busca semelhantes <br> Aplicativo mostra uma seleção de imagens semelhantes à enviada pelo [Usuário](lexicos.md#usuario)  |
 
 ## Seguir outro usuário
 
@@ -211,6 +227,22 @@
 | Internet cair <br> App dar crash <br> O App não está atualizado frequentemente|
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) acessa o [pinterest](lexicos.md#pinterest)  <br> [Usuário](lexicos.md#usuario) navega pelo [feed](lexicos.md#feed) de [pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) pesquisa [pins](lexicos.md#pin) de seu [interesse](lexicos.md#interesse) <br> [Usuário](lexicos.md#usuario) vizualiza o [pin](lexicos.md#pin) <br> |
+
+## Vizualizar aba [Seguindo](lexicos.md#feed)
+
+|**Objetivo** |
+|--|
+| Vizualizar [pins](lexicos.md#pin) de outros usuários que o [usuário](lexicos.md#usuario) [logado](lexicos.md#logado) segue
+|**Contexto** |
+| Local: [Aba](#lexicos.md#aba) [seguindo](#lexicos.md#seguindo) do [Pinterest](lexicos.md#pinterest) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá acessar o [Pinterest](lexicos.md#pinterest) caso queira publicado pelos demais usuários que segue|
+|**Atores** |
+| [Usuário](lexicos.md#usuario) [logado](lexicos.md#logado) <br> Usuários [seguidos](lexicos.md#seguidos) pelo [usuário](lexicos.md#usuario) [logado](lexicos.md#logado)|
+|**Recursos** |
+| Internet, aplicativo |
+|**Exceção** |
+| Internet cair <br> App dar crash <br>|
+|**Episódios** |
+| [Usuário](lexicos.md#usuario) acessa o [pinterest](lexicos.md#pinterest)  <br> [Usuário](lexicos.md#usuario) navega pela [aba](lexicos.md#aba) [seguindo](lexicos.md#seguindo)<br>  [Usuário](lexicos.md#usuario) vizualiza o conteúdo de cada [pin](lexicos.md#pin) <br> |
 
 ## Enviar mensagem para outros [usuários](lexicos.md#usuário)
 
