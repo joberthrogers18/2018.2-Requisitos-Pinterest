@@ -16,17 +16,17 @@ lksdjkalsjdlaksjd
 
 |**Noção**|
 |--|
-| É o ato do [usuário](#usuario) guardar um [pin](#pin) em um [board](#board) para poder acessar mais tarde ou para categorizar seus [pins](#pin). |
+| É o ato do [usuário](#usuario) guardar um [pin](#pin) em uma [pasta](#pasta) para poder acessar mais tarde ou para categorizar seus [pins](#pin). |
 |**Impacto** |
 | O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. |
 
-## Board
+## Pasta
 
 |**Noção**|
 |--|
 |		É uma coleção de [pins](#pin), tendo título para poder se diferenciar de outras coleções. É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) [pinados](#pinar). Pode possuír sub-conjuntos. |
 |**Impacto** |
-| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um board. |
+| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em uma [pasta](#pasta). |
 
 ## Pinterest
 
@@ -58,7 +58,7 @@ lksdjkalsjdlaksjd
 |--|
 | Ato de distribuir os pins de seu interesse para outros [usuário](#usuario).|
 |**Impacto** |
-| Os [usuário](#usuario)S compartilham [pins](#pin), [boards](#board). |
+| Os [usuário](#usuario)S compartilham [pins](#pin), [pastas](#pasta). |
 
 ## Seguir
 
@@ -77,6 +77,14 @@ lksdjkalsjdlaksjd
 | Conforme o [usuário](#usuario) oculte pins de determinado interesse, a relevância desse interesse diminui. |
 
 ## Usuário
+
+|**Noção**|
+|--|
+| Utilizador do [Pinterest](#pinterest) |
+|**Impacto** |
+| [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário |
+
+## Página
 
 |**Noção**|
 |--|

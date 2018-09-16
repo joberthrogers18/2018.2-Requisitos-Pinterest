@@ -56,7 +56,7 @@
 
 |Objetivo |
 |--|
-| Criar um local para guardar [pins](lexicos.md/#pin) de um mesmo tema de escolha do [usuário](lexicos.md/#usuario)|
+| Criar um local para guardar [pins](lexicos.md/#pin) de um mesmo tema de escolha do [usuário](https://joberthrogers18.github.io/2018.2-Requisitos/lexicos/#pin)|
 |**Contexto** |
 | Local - [Página]() de [perfil]() <br> Tempo - A qualquer momento  <br> Pré-Condição -  [Usuário](lexicos.md/#usuario) possuir [conta]() no aplicativo. |
 |**Atores** |
@@ -66,23 +66,23 @@
 |**Exceção** |
 | Internet cair <br> App dar crash <br> [Usuário](lexicos.md/#usuario) ter sido bloqueado pelo outro  |
 |**Episódios** |
-| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até seu [perfil]() <br> [Usuário](lexicos.md/#usuario) seleciona a opção de criar nova [pasta]() <br> [Usuário](lexicos.md/#usuario) digita o nome que deseja dar à [pasta]() <br> [Usuário](lexicos.md/#usuario) escolhe se torna a [pasta]() [secreta]() ou não <br> [Usuário](lexicos.md/#usuario) seleciona a opção criar <br> **Ou** <br> [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) seleciona um [pins](lexicos.md/#pin) da página inicial <br> [Usuário](lexicos.md/#usuario) seleciona a opção de [salvar]() [pin](lexicos.md/#pin)  <br> [Usuário](lexicos.md/#usuario) digita o nome que deseja dar à [pasta]() <br> [Usuário](lexicos.md/#usuario) escolhe a opção de criar [pasta]() <br> [Usuário](lexicos.md/#usuario) digita o nome que deseja dar à [pasta]() <br> [Usuário](lexicos.md/#usuario) escolhe se torna a [pasta]() [secreta]() ou não <br> [Usuário](lexicos.md/#usuario) seleciona a opção criar <br> |
+| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até seu [perfil]() <br> [Usuário](lexicos.md/#usuario) seleciona a opção de criar nova [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) digita o nome que deseja dar à [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) escolhe se torna a [pasta](docs/lexicos.md/#lexicos/##pasta) [secreta]() ou não <br> [Usuário](lexicos.md/#usuario) seleciona a opção criar <br> **Ou** <br> [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) seleciona um [pins](lexicos.md/#pin) da página inicial <br> [Usuário](lexicos.md/#usuario) seleciona a opção de [salvar]() [pin](lexicos.md/#pin)  <br> [Usuário](lexicos.md/#usuario) digita o nome que deseja dar à [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) escolhe a opção de criar [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) digita o nome que deseja dar à [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) escolhe se torna a [pasta](docs/lexicos.md/#lexicos/##pasta) [secreta]() ou não <br> [Usuário](lexicos.md/#usuario) seleciona a opção criar <br> |
 
-## Compartilhar Pasta
+## Compartilhar [Pasta](docs/lexicos.md/#lexicos/##pasta)
 
 |Objetivo |
 |--|
-| Permitir que um ou mais [usuários](lexicos.md/#usuario) tenham acesso a uma [pasta](), podendo editar os [Pins](lexicos.md/#pin) existentes e adicionar novos. |
+| Permitir que um ou mais [usuários](lexicos.md/#usuario) tenham acesso a uma [pasta](docs/lexicos.md/#lexicos/##pasta), podendo editar os [Pins](lexicos.md/#pin) existentes e adicionar novos. |
 |**Contexto** |
-| Local - [Página]() da [pasta]() a ser [compartilhada]() <br> Tempo - A qualquer momento  <br> Pré-Condição - O [Usuário](lexicos.md/#usuario) com quem a [pasta]() será compartilhada deverá possuir ou criar uma nova conta no Pinterest.  |
+| Local - [Página]() da [pasta](docs/lexicos.md/#lexicos/##pasta) a ser [compartilhada]() <br> Tempo - A qualquer momento  <br> Pré-Condição - O [Usuário](lexicos.md/#usuario) com quem a [pasta](docs/lexicos.md/#lexicos/##pasta) será compartilhada deverá possuir ou criar uma nova conta no Pinterest.  |
 |**Atores** |
-| [Usuário]() proprietário da [pasta]() <br> [Usuário](lexicos.md/#usuario) com quem a [pasta]() será [compartilhada]()|
+| [Usuário]() proprietário da [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) com quem a [pasta](docs/lexicos.md/#lexicos/##pasta) será [compartilhada]()|
 |**Recursos** |
-| Internet <br> Conta no aplicativo <br>  [Pasta]() <br>  |
+| Internet <br> Conta no aplicativo <br>  [Pasta](docs/lexicos.md/#lexicos/##pasta) <br>  |
 |**Exceção** |
 | Internet cair <br> App dar crash <br> [Usuário](lexicos.md/#usuario) ter sido bloqueado pelo outro <br> [Usuário](lexicos.md/#usuario) recusar o [convite]() para [colaborar]() |
 |**Episódios** |
-| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até a [pasta]() <br> [Usuário](lexicos.md/#usuario) seleciona a opção de [compartilhar]() <br> [Usuário](lexicos.md/#usuario) escolhe o outro [usuário](lexicos.md/#usuario) com quem compartilhar <br> [Usuário](lexicos.md/#usuario) envia o [convite]() para [colaboração]() |
+| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até a [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) seleciona a opção de [compartilhar]() <br> [Usuário](lexicos.md/#usuario) escolhe o outro [usuário](lexicos.md/#usuario) com quem compartilhar <br> [Usuário](lexicos.md/#usuario) envia o [convite]() para [colaboração]() |
 
 ## Organizar Pasta
 
@@ -90,15 +90,15 @@
 |--|
 | Realocar [pins](lexicos.md/#pin) em [pastas]() ou [subpastas]() e excluir [pins](lexicos.md/#pin)|
 |**Contexto** |
-| Local - [Página]() da [pasta]() a ser organizada <br> Tempo - A qualquer momento  <br> Pré-Condição - O [Usuário](lexicos.md/#usuario) deve possuir [pins](lexicos.md/#pin) na [pasta]() a ser organizada ou na [subpasta]() a ser organizada |
+| Local - [Página]() da [pasta](docs/lexicos.md/#lexicos/##pasta) a ser organizada <br> Tempo - A qualquer momento  <br> Pré-Condição - O [Usuário](lexicos.md/#usuario) deve possuir [pins](lexicos.md/#pin) na [pasta](docs/lexicos.md/#lexicos/##pasta) a ser organizada ou na [subpasta]() a ser organizada |
 |**Atores** |
-| [Usuário]() proprietário da [pasta]() <br> [Usuários](lexicos.md/#usuario) com quem a [pasta]() foi [compartilhada]()|
+| [Usuário]() proprietário da [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuários](lexicos.md/#usuario) com quem a [pasta](docs/lexicos.md/#lexicos/##pasta) foi [compartilhada]()|
 |**Recursos** |
-| Internet <br> Conta no aplicativo <br>  [Pasta]() <br> [Subpastas]() <br> [Pins](lexicos.md/#pin) na [Pasta]() <br> |
+| Internet <br> Conta no aplicativo <br>  [Pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Subpastas]() <br> [Pins](lexicos.md/#pin) na [Pasta](docs/lexicos.md/#lexicos/##pasta) <br> |
 |**Exceção** |
 | Internet cair <br> App dar crash |
 |**Episódios** |
-| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até a [pasta]() <br> [Usuário](lexicos.md/#usuario) seleciona a opção de organizar [pasta]() <br> [Usuário](lexicos.md/#usuario) seleciona o [pin](lexicos.md/#pin) que deseja modificar <br> [Usuário](lexicos.md/#usuario) decide entre [excluir](), [mover]() para [pasta]() ou para [subpasta]()|
+| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até a [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) seleciona a opção de organizar [pasta](docs/lexicos.md/#lexicos/##pasta) <br> [Usuário](lexicos.md/#usuario) seleciona o [pin](lexicos.md/#pin) que deseja modificar <br> [Usuário](lexicos.md/#usuario) decide entre [excluir](), [mover]() para [pasta](docs/lexicos.md/#lexicos/##pasta) ou para [subpasta]()|
 
 ## Pesquisar por foto
 
