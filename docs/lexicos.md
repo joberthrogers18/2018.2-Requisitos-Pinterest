@@ -107,3 +107,27 @@
 | Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuário) para identifica-lo.  |
 |**Impacto** |
 | Com o perfil de [usuário](#usuário) é possivel que outros usuários possam reconhece-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [boards](#board). |
+
+## Mensagem
+
+|**Noção**|
+|--|
+| Forma de comunicação com outro [usuário](#usuario). |
+|**Impacto** |
+| O [usuário](#usuário) pode se comunicar com outros usuários podendo começar uma conversa de texto ou [compartilhar](#compartilhar) um [pin](#pin). |
+
+## Notificação
+
+|**Noção**|
+|--|
+| Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [boards](#board) ou novos [seguidores](#seguir). |
+|**Impacto** |
+|O [usuário](#usuario) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
+
+## Crash
+
+|**Noção**|
+|--|
+| Problema ou falha no aplicativo do [Pinterest](#pinterest). |
+|**Impacto** |
+|O aplicativo fecha e o [usuário](#usuario) deixa de concluir qualquer ação no app. |

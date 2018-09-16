@@ -16,7 +16,7 @@
 |**Recursos** |
 | Internet, aplicativo, conta de e-mail|
 |**Exceção** |
-| Internet cair <br> App dar crash <br> Senha inválida <br> E-mail inválido |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> Senha inválida <br> E-mail inválido |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) não cadastrado abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona fazer o cadastro <br> [Usuário](lexicos.md#usuario) preenche dados de cadastro <br> [Usuário](lexicos.md#usuario) confirma cadastro |
 
@@ -32,7 +32,7 @@
 |**Recursos** |
 | Internet, aplicativo, conta de e-mail|
 |**Exceção** |
-| Internet cair <br> App dar crash <br> [Pin](lexicos.md#pin) ser apagado enquanto comentário é escrito |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser apagado enquanto comentário é escrito |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona o [Pin](lexicos.md#pin) em que deseja comentar <br> [Usuário](lexicos.md#usuario) escreve seu comentário <br> [Usuário](lexicos.md#usuario) envia comentário |
 
@@ -48,7 +48,7 @@
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br>  [Pasta](lexicos.md#pasta) <br>  |
 |**Exceção** |
-| Internet cair <br> App dar crash <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro <br> [Usuário](lexicos.md#usuario) recusar o [convite](lexicos.md#convite) para [colaborar](lexicos.md#colaborar) |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro <br> [Usuário](lexicos.md#usuario) recusar o [convite](lexicos.md#convite) para [colaborar](lexicos.md#colaborar) |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona a opção de [compartilhar](lexicos.md#compartilhar) <br> [Usuário](lexicos.md#usuario) escolhe o outro [usuário](lexicos.md#usuario) com quem compartilhar <br> [Usuário](lexicos.md#usuario) envia o [convite](lexicos.md#convite) para [colaboração](lexicos.md#colaborar) |
 
@@ -64,7 +64,7 @@
 |**Recursos** |
 | Internet <br> Conta no aplicativo |
 |**Exceção** |
-| Internet cair <br> App dar crash <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro  |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro  |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até seu [perfil](lexicos.md#perfil) <br> [Usuário](lexicos.md#usuario) seleciona a opção de criar nova [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) escolhe se torna a [pasta](lexicos.md#pasta) [secreta](lexicos.md#pastaPrivada) ou não <br> [Usuário](lexicos.md#usuario) seleciona a opção criar <br> **Ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona um [pins](lexicos.md#pin) da página inicial <br> [Usuário](lexicos.md#usuario) seleciona a opção de [salvar](lexicos.md#salvar) [pin](lexicos.md#pin)  <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) escolhe a opção de criar [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) escolhe se torna a [pasta](lexicos.md#pasta) [secreta](lexicos.md#pastaPrivada) ou não <br> [Usuário](lexicos.md#usuario) seleciona a opção criar <br> |
 
@@ -80,7 +80,7 @@
 |**Recursos** |
 | Internet, aplicativo, conta de [usuário](#lexicos.md#usuario) |
 |**Exceção** |
-| Internet cair <br> App dar crash |
+| Internet cair <br> App dar [crash](lexicos.md#crash) |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a aba salvo [Usuário](lexicos.md#usuario) <br> [Usuário](lexicos.md#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md#usuario) escolhe [interesses](#lexicos.md#interesse)|
 
@@ -96,7 +96,7 @@
 |**Recursos** |
 | Internet, aplicativo, [pin](lexicos.md#pin)|
 |**Exceção** |
-| Internet cair <br> App dar crash <br>
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br>
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) faz [login](lexicos.md#login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](#lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a aba [Pins](#lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis no canto superior esquerdo da tela. <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) faz [login](lexicos.md#login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](#lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a aba [Pins](#lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) passa o mouse sobre o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis na parte superior do [pin](lexicos.md#pin). <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) faz [login](lexicos.md#login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](#lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a [aba](#lexicos.md#aba) Pastas <br> [Usuário](lexicos.md#usuario) clica na pasta que está o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) passa o mouse sobre o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis na parte superior do [pin](lexicos.md#pin). <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) faz [login](lexicos.md#login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](#lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a [aba](#lexicos.md#aba) Pastas <br> [Usuário](lexicos.md#usuario) clica na [pasta](#lexicos.md#pasta) que está o [pin](lexicos.md#pin) que deseja [editar](#lexicos.md#editar) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja [editar](#lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no ícone de [editar](#lexicos.md#editar) simbolizado por um lápis no canto superior esquerdo da tela.|
 
@@ -112,7 +112,7 @@
 |**Recursos** |
 | Internet, aplicativo, conta de usuário |
 |**Exceção** |
-| Internet cair <br> App dar crash <br> [Pin](lexicos.md#pin) ser excluído ao ser enviado <br> [Usuário](lexicos.md#usuario) que for receber o [Pin](lexicos.md#pin) ter bloqueado o que for enviá-lo |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser enviado <br> [Usuário](lexicos.md#usuario) que for receber o [Pin](lexicos.md#pin) ter bloqueado o que for enviá-lo |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega pelo feed de [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Enviar <br> [Usuário](lexicos.md#usuario) escolhe a forma de envio <br> [Usuário](lexicos.md#usuario) enviar o [Pin](lexicos.md#pin) para outra pessoa |
 
@@ -144,7 +144,7 @@
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br>  [Pasta](#lexicos.md#pasta) <br> [Subpastas](#lexicos.md#subpasta) <br> [Pins](lexicos.md#pin) na [Pasta](#lexicos.md#pasta) <br> |
 |**Exceção** |
-| Internet cair <br> App dar crash |
+| Internet cair <br> App dar [crash](lexicos.md#crash) |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a [pasta](#lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona a opção de organizar [pasta](#lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja modificar <br> [Usuário](lexicos.md#usuario) decide entre [excluir](#lexicos.md#excluir), [mover](#lexicos.md#mover) para [pasta](#lexicos.md#pasta) ou para [subpasta](#lexicos.md#subpasta)|
 
@@ -160,7 +160,7 @@
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br>|
 |**Exceção** |
-| Palavras que coincidirem com outros temas <br> Internet cair <br> App dar crash <br> |
+| Palavras que coincidirem com outros temas <br> Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) escreve palavras relacionadas ao tema desejado na [barra de pesquisa](#lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) clica "enter" <br> Aplicativo mostra uma seleção de imagens referentes ao tema <br> Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas|
 
@@ -176,7 +176,7 @@
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br> Celular com câmera |
 |**Exceção** |
-| Câmera não funcionar <br> Internet cair <br> App dar crash <br> |
+| Câmera não funcionar <br> Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona o ícone de câmera na [barra de pesquisa](#lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) tira foto da imagem por qual busca semelhantes <br> Aplicativo mostra uma seleção de imagens semelhantes à enviada pelo [Usuário](lexicos.md#usuario)  |
 
@@ -192,7 +192,7 @@
 |**Recursos** |
 | Internet, aplicativo, conta de usuário |
 |**Exceção** |
-| Internet cair <br> App dar crash <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro [usuário](lexicos.md#usuario) que deseja [seguir](lexicos.md#seguir) |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro [usuário](lexicos.md#usuario) que deseja [seguir](lexicos.md#seguir) |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a página do perfil de outro [Usuário](lexicos.md#usuario) <br> [Usuário](lexicos.md#usuario) aperta botão [seguir](lexicos.md#seguir)|
 
@@ -208,7 +208,7 @@
 |**Recursos** |
 | Internet, aplicativo, conta de usuário |
 |**Exceção** |
-| Internet cair <br> App dar crash <br> [Pin](lexicos.md#pin) ser excluído ao ser salvo <br> Não existir pastas para salvá-lo |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser salvo <br> Não existir pastas para salvá-lo |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega pelo feed de [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Salvar <br> [Usuário](lexicos.md#usuario) escolhe a pasta para salvá-lo e se não haverem pastas criadas, cria uma pasta para poder salvar o [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) salvar o [Pin](lexicos.md#pin) na pasta |
 
@@ -224,7 +224,7 @@
 |**Recursos** |
 | Internet, aplicativo |
 |**Exceção** |
-| Internet cair <br> App dar crash <br> O App não está atualizado frequentemente|
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> O App não está atualizado frequentemente|
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) acessa o [pinterest](lexicos.md#pinterest)  <br> [Usuário](lexicos.md#usuario) navega pelo [feed](lexicos.md#feed) de [pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) pesquisa [pins](lexicos.md#pin) de seu [interesse](lexicos.md#interesse) <br> [Usuário](lexicos.md#usuario) vizualiza o [pin](lexicos.md#pin) <br> |
 
@@ -240,7 +240,7 @@
 |**Recursos** |
 | Internet, aplicativo |
 |**Exceção** |
-| Internet cair <br> App dar crash <br>|
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br>|
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) acessa o [pinterest](lexicos.md#pinterest)  <br> [Usuário](lexicos.md#usuario) navega pela [aba](lexicos.md#aba) [seguindo](lexicos.md#seguindo)<br>  [Usuário](lexicos.md#usuario) vizualiza o conteúdo de cada [pin](lexicos.md#pin) <br> |
 
@@ -248,14 +248,30 @@
 
 |**Objetivo** |
 |--|
-| Poder se comunicar com outros [usuários](lexicos.md#usuario) por meio do [Pinterest](lexicos.md#pinterest) sendo por mensagens ou enviando [pins](lexicos.md#pin) |
+| Poder se comunicar com outros [usuários](lexicos.md#usuario) por meio do [Pinterest](lexicos.md#pinterest) sendo por [mensagens](lexicos.md#mensagem) ou enviando [pins](lexicos.md#pin) |
 |**Contexto** |
-| Local: [Página](#lexicos.md#pagina) de mensagens <br>  Pré-Condição: O [usuário](lexicos.md#usuario) está [logado](lexicos.md#login) em sua conta do [Pinterest](lexicos.md#pinterest)|
+| Local: [Página](#lexicos.md#pagina) de [mensagens](lexicos.md#mensagem) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) está [logado](lexicos.md#login) em sua conta do [Pinterest](lexicos.md#pinterest)|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) e [usuários](lexicos.md#usuario) conhecidos|
 |**Recursos** |
 | Internet, aplicativo |
 |**Exceção** |
-| Internet cair <br> App dar crash <br> mensagem não se entregue|
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [mensagem](lexicos.md#mensagem) não se entregue|
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) [loga](lexicos.md#login) em seu [perfil](lexicos.md#perfil)  <br> [Usuário](lexicos.md#usuario) navega até o icone de mensagem <br> [Usuário](lexicos.md#usuario) procura por outro [usuários](lexicos.md#usuario) <br> [Usuário](lexicos.md#usuario) envia a mensagem <br> |
+| [Usuário](lexicos.md#usuario) [loga](lexicos.md#login) em seu [perfil](lexicos.md#perfil)  <br> [Usuário](lexicos.md#usuario) navega até o icone de [mensagem](lexicos.md#mensagem) <br> [Usuário](lexicos.md#usuario) procura por outro [usuários](lexicos.md#usuario) <br> [Usuário](lexicos.md#usuario) envia a [mensagem](lexicos.md#mensagem) <br> |
+
+## Receber [notificações](lexicos.md#notificacão)
+
+|**Objetivo** |
+|--|
+| Ser [notificado](lexicos.md#notificacao) sobre alguma interação de outros [usuários](lexicos.md#usuario) ou novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
+|**Contexto** |
+| Local: [Página](lexicos.md#pagina) de [notificações](lexicos.md#notificacao) <br> Pré-Condição: O [Usuário](lexicos.md$usuario) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter algum [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) ou [seguir](lexicos.md#seguir) algum outro [usuário](lexicos.md#usuario) |
+|**Autores** |
+| [Usuários](lexicos.md#usuario), [usuários](lexicos.md#usuario) seguido e o [Pinterest](lexicos.md#pinterest) |
+|**Recursos** |
+|Internet <br> Browser <br> Aplicativo <br>  [Seguir](lexicos.md#seguir) outro [usuário](lexicos.md#usuario) <br> [Pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
+|**Exceção** |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br>  [Usuários](lexicos.md#usuario) [seguidos](lexicos.md#seguir) por um [usuário](lexicos.md#usuario) deixarem de segui-lo |
+|**Episódios** |
+|[Usuário](lexicos.md#usuario) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuario) [pina](lexicos.md#pinar) um [pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) [segue](lexicos.md#seguir) outro [usuário](lexicos.md#usuario) <br> [Usuário](lexicos.md#usuario) clica em [notificações](lexicos.md#notificacao)  <br> [Usuário](lexicos.md#usuario) vê novas interações de outros [usuários](lexicos.md#usuario) e novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinar)
