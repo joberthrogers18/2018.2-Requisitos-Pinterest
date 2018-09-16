@@ -1,6 +1,6 @@
 # Introdução
 
-lksdjkalsjdlaksjd
+É comum em meios sociais que existam termos próprios relacionadas às ações e contextos do cotidiano. Dessa forma, surgem os léxicos: termos que descrevem os símbolos de uma linguagem.
 
 # Léxicos
 
