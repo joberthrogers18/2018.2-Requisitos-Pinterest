@@ -195,3 +195,35 @@
 | Internet cair <br> App dar crash <br> [Pin](lexicos/#pin) ser excluído ao ser salvo <br> Não existir pastas para salvá-lo |
 |**Episódios** |
 | [Usuário](lexicos/#usuario) abre o aplicativo <br> [Usuário](lexicos/#usuario) navega pelo feed de [Pin](lexicos/#pin) <br> [Usuário](lexicos/#usuario) seleciona um [Pin](lexicos/#pin) <br> [Usuário](lexicos/#usuario) clica no botão Salvar <br> [Usuário](lexicos/#usuario) escolhe a pasta para salvá-lo e se não haverem pastas criadas, cria uma pasta para poder salvar o [Pin](lexicos/#pin) <br> [Usuário](lexicos/#usuario) salvar o [Pin](lexicos/#pin) na pasta |
+
+## Vizualizar [Feed](lexicos/#feed)
+
+|**Objetivo** |
+|--|
+| Vizualizar [pins](lexicos/#pin) de [interesse](lexicos/#interesse) do [usuário](lexicos/#usuario) pelo [feed](lexicos/#feed) |
+|**Contexto** |
+| Local: [Página](#lexicos/#pagina) incial do [Pinterest](lexicos/#pinterest) <br>  Pré-Condição: O [usuário](lexicos/#usuario) deverá acessar o [Pinterest](lexicos/#pinterest) caso queira vizualizar algo de seu [interesse](lexicos/#interesse)|
+|**Atores** |
+| [Usuário](lexicos/#usuario) |
+|**Recursos** |
+| Internet, aplicativo |
+|**Exceção** |
+| Internet cair <br> App dar crash <br> O App não está atualizado frequentemente|
+|**Episódios** |
+| [Usuário](lexicos/#usuario) acessa o [pinterest](lexicos/#pinterest)  <br> [Usuário](lexicos/#usuario) navega pelo [feed](lexicos/#feed) de [pins](lexicos/#pin) <br> [Usuário](lexicos/#usuario) pesquisa [pins](lexicos/#pin) de seu [interesse](lexicos/#interesse) <br> [Usuário](lexicos/#usuario) vizualiza o [pin](lexicos/#pin) <br> |
+
+## Enviar mensagem para outros [usuários](lexicos/#usuário)
+
+|**Objetivo** |
+|--|
+| Poder se comunicar com outros [usuários](lexicos/#usuario) por meio do [Pinterest](lexicos/#pinterest) sendo por mensagens ou enviando [pins](lexicos/#pin) |
+|**Contexto** |
+| Local: [Página](#lexicos/#pagina) de mensagens <br>  Pré-Condição: O [usuário](lexicos/#usuario) está [logado](lexicos/#login) em sua conta do [Pinterest](lexicos/#pinterest)|
+|**Atores** |
+| [Usuário](lexicos/#usuario) e [usuários](lexicos/#usuario) conhecidos|
+|**Recursos** |
+| Internet, aplicativo |
+|**Exceção** |
+| Internet cair <br> App dar crash <br> mensagem não se entregue|
+|**Episódios** |
+| [Usuário](lexicos/#usuario) [loga](lexicos/#login) em seu [perfil](lexicos/#perfil)  <br> [Usuário](lexicos/#usuario) navega até o icone de mensagem <br> [Usuário](lexicos/#usuario) procura por outro [usuários](lexicos/#usuario) <br> [Usuário](lexicos/#usuario) envia a mensagem <br> |
