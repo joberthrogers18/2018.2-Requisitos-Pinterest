@@ -115,3 +115,52 @@
 | Câmera não funcionar <br> Internet cair <br> App dar crash <br> |
 |**Episódios** |
 | [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) seleciona o ícone de câmera na [barra de pesquisa]() <br> [Usuário](lexicos.md/#usuario) tira foto da imagem por qual busca semelhantes <br> Aplciativo mostra uma seleção de imagens semelhantes à enviada pelo [Usuário](lexicos.md/#usuario)  |
+
+
+## Definir [interesses](#interesse)
+
+|**Objetivo** |
+|--|
+| Escolher assuntos que são do [interesse](#interesse) do [usuário](lexicos.md/#usuario) |
+|**Contexto** |
+| Local: Logo após o cadastro ou na aba de [interesses](#interesse) dentro da aba salvo <br>  Pré-Condição: estar logado |
+|**Atores** |
+| [Usuário](lexicos.md/#usuario) |
+|**Recursos** |
+| Internet, aplicativo, conta de usuário |
+|**Exceção** |
+| Internet cair <br> App dar crash |
+|**Episódios** |
+| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega até a aba salvo [Usuário](lexicos.md/#usuario) <br> [Usuário](lexicos.md/#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md/#usuario) escolhe [interesses](#interesse)|
+
+## Enviar um [Pin](lexicos.md/#pin)
+
+|**Objetivo** |
+|--|
+| Enviar um [Pin](lexicos.md/#pin) para outro [usuário](lexicos.md/#usuario) do [Pinterest](lexicos.md/#pinterest) por meio de chat ou enviá-lo para outras pessoas que não utilizam o [Pinterest](lexicos.md/#pinterest) por meio de outras redes sociais (WhatsApp, Facebook) ou até por SMS e e-mail |
+|**Contexto** |
+| Local: Página de detalhes de um [Pin](lexicos.md/#pin) <br>  Pré-Condição: O [usuário](lexicos.md/#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md/#pinterest) |
+|**Atores** |
+| [Usuário](lexicos.md/#usuario) |
+|**Recursos** |
+| Internet, aplicativo, conta de usuário |
+|**Exceção** |
+| Internet cair <br> App dar crash <br> [Pin](lexicos.md/#pin) ser excluído ao ser enviado <br> [Usuário](lexicos.md/#usuario) que for receber o [Pin](lexicos.md/#pin) ter bloqueado o que for enviá-lo |
+|**Episódios** |
+| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega pelo feed de [Pin](lexicos.md/#pin) <br> [Usuário](lexicos.md/#usuario) seleciona um [Pin](lexicos.md/#pin) <br> [Usuário](lexicos.md/#usuario) clica no botão Enviar <br> [Usuário](lexicos.md/#usuario) escolhe a forma de envio <br> [Usuário](lexicos.md/#usuario) enviar o [Pin](lexicos.md/#pin) para outra pessoa |
+
+## Salvar um [Pin](lexicos.md/#pin)
+
+|**Objetivo** |
+|--|
+| Salvar um [Pin](lexicos.md/#pin) em uma pasta criada pelo [usuário](lexicos.md/#usuario) do [Pinterest](lexicos.md/#pinterest) |
+|**Contexto** |
+| Local: Página de detalhes de um [Pin](lexicos.md/#pin) <br>  Pré-Condição: o [usuário](lexicos.md/#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md/#pinterest) |
+|**Atores** |
+| [Usuário](lexicos.md/#usuario) |
+|**Recursos** |
+| Internet, aplicativo, conta de usuário |
+|**Exceção** |
+| Internet cair <br> App dar crash <br> [Pin](lexicos.md/#pin) ser excluído ao ser salvo <br> Não existir pastas para salvá-lo |
+|**Episódios** |
+| [Usuário](lexicos.md/#usuario) abre o aplicativo <br> [Usuário](lexicos.md/#usuario) navega pelo feed de [Pin](lexicos.md/#pin) <br> [Usuário](lexicos.md/#usuario) seleciona um [Pin](lexicos.md/#pin) <br> [Usuário](lexicos.md/#usuario) clica no botão Salvar <br> [Usuário](lexicos.md/#usuario) escolhe a pasta para salvá-lo e se não haverem pastas criadas, cria uma pasta para poder salvar o [Pin](lexicos.md/#pin) <br> [Usuário](lexicos.md/#usuario) salvar o [Pin](lexicos.md/#pin) na pasta |
