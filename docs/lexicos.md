@@ -66,7 +66,7 @@
 |--|
 |		Ato de acompanhar as publicações de outros [usuários](#usuários) e receber todas as atualizações de [pins](#pins).|
 |**Impacto** |
-| O PINTEREST é muito legal! =) |
+| Receber o conteúdo publicado por outro [usuário](#usuário). |
 
 ## Pinterest
 
