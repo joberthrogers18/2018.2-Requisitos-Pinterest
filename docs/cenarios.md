@@ -154,7 +154,7 @@
 |--|
 | Encontrar imagens referentes a um tema de preferência do usuário |
 |**Contexto** |
-| Local: [Página](#lexicos.md#pagina) inicial do aplicativo versão mobile <br> Tempo - A Qualquer momento  <br> Pré-Condição: Usuário ter em mente palavras-chaves relativas ao tema  |
+| Local: [Página](#lexicos.md#pagina) inicial do aplicativo versão mobile <br> Tempo: a qualquer momento  <br> Pré-Condição: usuário ter em mente palavras-chaves relativas ao tema  |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |

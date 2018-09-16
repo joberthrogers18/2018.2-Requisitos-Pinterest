@@ -28,6 +28,46 @@
 |**Impacto** |
 | O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um board. |
 
+## Página
+
+|**Noção**|
+|--|
+|		Local onde se encontra-se os [pins](#pin) ao abrir o aplicativo. |
+|**Impacto** |
+| O [usuário](#usuario) pode visualizar diferentes conteúdos no formato grade. |
+
+## Tema
+
+|**Noção**|
+|--|
+|		Engloba todos os conteúdos relacionados às ações ou substantivos que o definem. |
+|**Impacto** |
+| Classificar conteúdos que possuam [interesses](#interesses) em comum. |
+
+## Logado
+
+|**Noção**|
+|--|
+|		Ação de estar cadastrado no [Pinterest](#pinterest) e de usufruir o aplicativo através de uma conta.|
+|**Impacto** |
+| Permite que o [usuário](#usuário) preserve um histórico de pesquisas e [mensagens](mensagens). |
+
+## Aba
+
+|**Noção**|
+|--|
+|		Local de divisão de conteúdos e ações. |
+|**Impacto** |
+| Classificação de ações. |
+
+## Seguindo
+
+|**Noção**|
+|--|
+|		Ato de acompanhar as publicações de outros [usuários](#usuários) e receber todas as atualizações de [pins](#pins).|
+|**Impacto** |
+| O PINTEREST é muito legal! =) |
+
 ## Pinterest
 
 |**Noção**|
