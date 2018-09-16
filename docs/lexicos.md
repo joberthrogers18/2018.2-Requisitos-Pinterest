@@ -112,7 +112,7 @@
 
 |**Noção**|
 |--|
-| Forma de comunicação com outro [usuário](#usuario). |
+| Forma de comunicação com outro [usuário](#usuário). |
 |**Impacto** |
 | O [usuário](#usuário) pode se comunicar com outros usuários podendo começar uma conversa de texto ou [compartilhar](#compartilhar) um [pin](#pin). |
 
@@ -120,9 +120,9 @@
 
 |**Noção**|
 |--|
-| Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [boards](#board) ou novos [seguidores](#seguir). |
+| Ato de mandar um aviso ao [usuário](#usuário) sobre novas relações com suas [boards](#board) ou novos [seguidores](#seguir). |
 |**Impacto** |
-|O [usuário](#usuario) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
+|O [usuário](#usuário) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
 
 ## Crash
 
@@ -130,4 +130,4 @@
 |--|
 | Problema ou falha no aplicativo do [Pinterest](#pinterest). |
 |**Impacto** |
-|O aplicativo fecha e o [usuário](#usuario) deixa de concluir qualquer ação no app. |
+|O aplicativo fecha e o [usuário](#usuário) deixa de concluir qualquer ação no app. |

@@ -264,14 +264,14 @@
 
 |**Objetivo** |
 |--|
-| Ser [notificado](lexicos.md#notificacao) sobre alguma interação de outros [usuários](lexicos.md#usuario) ou novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
+| Ser [notificado](lexicos.md#notificacao) sobre alguma interação de outros [usuários](lexicos.md#usuário) ou novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) de [notificações](lexicos.md#notificacao) <br> Pré-Condição: O [Usuário](lexicos.md$usuario) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter algum [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) ou [seguir](lexicos.md#seguir) algum outro [usuário](lexicos.md#usuario) |
+| Local: [Página](lexicos.md#pagina) de [notificações](lexicos.md#notificacao) <br> Pré-Condição: O [Usuário](lexicos.md#usuário) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter algum [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) ou [seguir](lexicos.md#seguir) algum outro [usuário](lexicos.md#usuário) |
 |**Autores** |
-| [Usuários](lexicos.md#usuario), [usuários](lexicos.md#usuario) seguido e o [Pinterest](lexicos.md#pinterest) |
+| [Usuários](lexicos.md#usuário), [usuários](lexicos.md#usuário) seguido e o [Pinterest](lexicos.md#pinterest) |
 |**Recursos** |
-|Internet <br> Browser <br> Aplicativo <br>  [Seguir](lexicos.md#seguir) outro [usuário](lexicos.md#usuario) <br> [Pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
+|Internet <br> Browser <br> Aplicativo <br>  [Seguir](lexicos.md#seguir) outro [usuário](lexicos.md#usuário) <br> [Pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
 |**Exceção** |
-| Internet cair <br> App dar [crash](lexicos.md#crash) <br>  [Usuários](lexicos.md#usuario) [seguidos](lexicos.md#seguir) por um [usuário](lexicos.md#usuario) deixarem de segui-lo |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br>  [Usuários](lexicos.md#usuário) [seguidos](lexicos.md#seguir) por um [usuário](lexicos.md#usuário) deixarem de segui-lo |
 |**Episódios** |
-|[Usuário](lexicos.md#usuario) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuario) [pina](lexicos.md#pinar) um [pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) [segue](lexicos.md#seguir) outro [usuário](lexicos.md#usuario) <br> [Usuário](lexicos.md#usuario) clica em [notificações](lexicos.md#notificacao)  <br> [Usuário](lexicos.md#usuario) vê novas interações de outros [usuários](lexicos.md#usuario) e novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinar)
+|[Usuário](lexicos.md#usuário) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuário) [pina](lexicos.md#pinar) um [pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuário) [segue](lexicos.md#seguir) outro [usuário](lexicos.md#usuário) <br> [Usuário](lexicos.md#usuário) clica em [notificações](lexicos.md#notificacao)  <br> [Usuário](lexicos.md#usuário) vê novas interações de outros [usuários](lexicos.md#usuário) e novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinar)
