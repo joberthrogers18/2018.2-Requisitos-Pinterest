@@ -30,7 +30,7 @@ Essa entrevista foi realizada com Fernanda dos Santos, estudante de Design na _U
 
 ### Resumo da Entrevista
 
-_A Seguinte transcrição foi editada para maior clareza das informações discutidas, a entrevista completa encontra-se disponível [nesse link](https://www.youtube.com/watch?v=1qWvLpRLVLQ)._
+_A Seguinte transcrição foi editada para maior clareza das informações discutidas, a entrevista completa encontra-se disponível [nesse link](https://www.youtube.com/watch?v=1qWvLpRLVLQ).
 
 
 ** Entrevistador - Alexandre Miguel  : Fernanda, quais são as funcionalidades que você mais utiliza no apicativo? **
@@ -83,8 +83,6 @@ _A Seguinte transcrição foi editada para maior clareza das informações discu
 ### Requisitos Elicitados
 
 Os seguintes elicitos foram obtidos de acordo com os temas abordados durante a entrevista.
-
-#### Requisitos Funcionais
 
 | Código | Descrição | Finalidade | Prioridade |
 |--|--|--|--|
