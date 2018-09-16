@@ -80,7 +80,7 @@ lksdjkalsjdlaksjd
 
 |**Noção**|
 |--|
-| Utilizador do [Pinterest](#pinterest) |
+| Utilizador do [Pinterest](#pinterest).|
 |**Impacto** |
 | [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário |
 
@@ -91,3 +91,27 @@ lksdjkalsjdlaksjd
 | Utilizador do [Pinterest](#pinterest) |
 |**Impacto** |
 | [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário |
+
+## Feed
+
+|**Noção**|
+|--|
+| Formato de dados usado em formas de comunicação com conteúdo atualizado frequentemente. |
+|**Impacto** |
+| Após [logar](#login) e definir os interesses, o feed do [Pinterest](#pinterest) tende a mostrar [pins](#pin) que agrada o [usuário](#usuário). |
+
+## Login
+
+|**Noção**|
+|--|
+| Ter acesso a uma conta previamente cadastrada usando os dados do [usuario](#usuário). |
+|**Impacto** |
+| Logando com a conta, o usuário pode definir seus [interesses](#interesse), vizualizar [pins](#pin), além de poder desfrutar de outras funcionalidades no [Pinterest](#pinterest). |
+
+## Perfil
+
+|**Noção**|
+|--|
+| Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuário) para identifica-lo.  |
+|**Impacto** |
+| Com o perfil de [usuário](#usuário) é possivel que outros usuários possam reconhece-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [boards](#board). |
