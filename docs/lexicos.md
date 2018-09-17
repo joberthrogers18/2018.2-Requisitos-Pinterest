@@ -11,6 +11,7 @@
 |  Uma imagem exibida dentro do [Pinterest](#pinterest). É a funcionalidade principal, tendo tudo ao seu redor. A interação ocorre a partir deste construto. Podendo ser COMPARTILHADO, COMENTADO, [pinado](#pinar) e outros. |
 |**Impacto** |
 | O [usuário](#usuario) consome pins do [Pinterest](#pinterest) para buscar inspiração. |
+| O [usuário](#usuario) pode [pinar](#pinar) um pin em um [board](#board) |
 
 ## Pinar
 
@@ -19,6 +20,7 @@
 | É o ato do [usuário](#usuario) guardar um [pin](#pin) em um [board](#board) para poder acessar mais tarde ou para categorizar seus [pins](#pin). |
 |**Impacto** |
 | O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. |
+| O usuário guardou seus [pins](#pin) em um [board](#board). |
 
 ## Board
 
@@ -48,7 +50,7 @@
 
 |**Noção**|
 |--|
-|		Ação de estar cadastrado no [Pinterest](#pinterest) e de usufruir o aplicativo através de uma conta.|
+|		Ação de estar cadastrado no [Pinterest](#pinterest) e autenticado em uma sua própria conde de usuário, podendo usufruir das funcionalidades do aplicativo.|
 |**Impacto** |
 | Permite que o [usuário](#usuário) preserve um histórico de pesquisas e [mensagens](mensagens). |
 
@@ -64,7 +66,7 @@
 
 |**Noção**|
 |--|
-|		Ato de acompanhar as publicações de outros [usuários](#usuários) e receber todas as atualizações de [pins](#pins).|
+|		Ato de acompanhar as publicações de outros [usuários](#usuários) e receber todas as atualizações de [pins](#pins). |
 |**Impacto** |
 | Receber o conteúdo publicado por outro [usuário](#usuário). |
 
@@ -74,13 +76,14 @@
 |--|
 |		Serviço de compartilhamento de imagens ([pins](#pin)) em que os [usuário](#usuario)s acessam em busca de inspiração e também de ver imagens relacionadas aos seus [interesses](#interesse). |
 |**Impacto** |
-| O PINTEREST é muito legal! =) |
+| O Pinterest é uma plataforma de [compartilhamento](#compartilhar) de [pins](#pin) |
+| O [usuário](#usuario) do Pinterest gosta de ver [pins](#pin) e pode adicioná-los a um [board](#board) |
 
 ## Interesse
 
 |**Noção**|
 |--|
-| Algo em que o [usuário](#usuario) do [Pinterest](#pinterest) está interessado.|
+| Algo em que o [usuário](#usuario) do [Pinterest](#pinterest) tem demonstrado ser digno de atenção. Podendo ser inferido a partir das ações deste [usuário](#usuario) ou a partir do que o [usuário](#usuario) informa ao [pinterest](#pinterest) quando cria seu cadastro no sistema. |
 |**Impacto** |
 | Os [usuário](#usuario)S definem seus interesses de seus [pins](#pin) mostrados. |
 
@@ -88,17 +91,17 @@
 
 |**Noção**|
 |--|
-| Ato de visitar os pins .|
+| Ato de descoberta orgânica de novos [pins](#pin) e [interesses](#interesse) dentro do [Pinterest](#pinterest). Também pode se referir a [aba](#aba) de exploração, que fornece funcionalidade de auxílio à descoberta de conteúdo. |
 |**Impacto** |
-| Os [usuário](#usuario)S definem seus interesses de seus [pins](#pin) mostrados. |
+| Os [usuários](#usuario) definem seus interesses que impactam os [pins](#pin) que são mostrados atravéz da exploração do conteúdo. |
 
 ## Compartilhar
 
 |**Noção**|
 |--|
-| Ato de distribuir os pins de seu interesse para outros [usuário](#usuario).|
+| Ato de distribuir os pins de seu interesse para outros [usuário](#usuario) e também para pessoas que não possuam conta no [Pinterest](#pinterest). |
 |**Impacto** |
-| Os [usuário](#usuario)S compartilham [pins](#pin), [boards](#board). |
+| Os [usuários](#usuario) compartilham [pins](#pin), [boards](#board). |
 
 ## Seguir
 
@@ -112,7 +115,7 @@
 
 |**Noção**|
 |--|
-| Remove o PIN do FEED do [usuário](#usuario) do Pinterest.|
+| Remove o [pin](#pin) do [feed](#feed) do [usuário](#usuario) do Pinterest e indica que o [interesse](#interesse) que gerou aquele [pin](#pin) pode não mais ser relevantes.|
 |**Impacto** |
 | Conforme o [usuário](#usuario) oculte pins de determinado interesse, a relevância desse interesse diminui. |
 
@@ -128,7 +131,7 @@
 
 |**Noção**|
 |--|
-| Formato de dados usado em formas de comunicação com conteúdo atualizado frequentemente. |
+| Formato de dados usado em formas de comunicação com conteúdo atualizado frequentemente. Visualização do conteúdo disponibilizado no [Pinterest](#pinterest) em formato de entrega contínua e infinita. |
 |**Impacto** |
 | Após [logar](#login) e definir os interesses, o feed do [Pinterest](#pinterest) tende a mostrar [pins](#pin) que agrada o [usuário](#usuário). |
 
@@ -168,6 +171,6 @@
 
 |**Noção**|
 |--|
-| Problema ou falha no aplicativo do [Pinterest](#pinterest). |
+| Termo da computação que indíca encerramento inesperado da aplicação em execução. |
 |**Impacto** |
 |O aplicativo fecha e o [usuário](#usuário) deixa de concluir qualquer ação no app. |
