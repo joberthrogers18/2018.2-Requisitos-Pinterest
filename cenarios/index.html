@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Cen\u00e1rios";
     var mkdocs_page_input_path = "cenarios.md";
-    var mkdocs_page_url = "/cenarios/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -133,7 +134,7 @@
         
             <li><a class="toctree-l4" href="#enviar-um-pin">Enviar um Pin</a></li>
         
-            <li><a class="toctree-l4" href="#ir-para-a-fonte-de-um-pin">Ir para a fonte de um pin</a></li>
+            <li><a class="toctree-l4" href="#ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</a></li>
         
             <li><a class="toctree-l4" href="#organizar-pasta">Organizar Pasta</a></li>
         
@@ -209,7 +210,7 @@
                 <h1 id="introducao">Introdução</h1>
 <p>A Técnica de modelagem por cenários consiste na elaboração de estruturas narrativas visando a construção de um contexto cujas informações permitam compreender ações desempenhadas no software, bem como os diversos fatores que influenciam essas ações, como o contexto, os recursos, elementos atuantes e etc. Essa técnica proporciona ainda uma forma de contextualização das funcionalidades desempenhadas em diferentes contextos de utilização do software analisado, trazendo elementos que auxiliam na compreensão da ideia abordada, permitindo uma forma direta de descrição.</p>
 <h1 id="cenarios">Cenários</h1>
-<h2 id="cadastro-de-usuario">Cadastro de usuário</h2>
+<h2 id="cadastro-de-usuario">Cadastro de <a href="../lexicos/#usuario">usuário</a></h2>
 <table>
 <thead>
 <tr>
@@ -252,7 +253,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="comentar-em-um-pin">Comentar em um Pin</h2>
+<h2 id="comentar-em-um-pin">Comentar em um <a href="../lexicos/#pin">Pin</a></h2>
 <table>
 <thead>
 <tr>
@@ -279,7 +280,7 @@
 <td><strong>Recursos</strong></td>
 </tr>
 <tr>
-<td>Internet, aplicativo, conta de e-mail</td>
+<td>Internet, aplicativo, conta de e-mail, <a href="../lexicos/#pin">pin</a></td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -295,7 +296,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="compartilhar-pasta">Compartilhar Pasta</h2>
+<h2 id="compartilhar-pasta">Compartilhar <a href="../lexicos/#pasta">Pasta</a></h2>
 <table>
 <thead>
 <tr>
@@ -338,7 +339,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="criar-pasta">Criar Pasta</h2>
+<h2 id="criar-pasta">Criar <a href="../lexicos/#pasta">Pasta</a></h2>
 <table>
 <thead>
 <tr>
@@ -381,7 +382,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="definir-interesses">Definir <a href="#lexicos.md#interesse">interesses</a></h2>
+<h2 id="definir-interesses">Definir <a href="../lexicos/#interesse">interesses</a></h2>
 <table>
 <thead>
 <tr>
@@ -390,13 +391,13 @@
 </thead>
 <tbody>
 <tr>
-<td>Escolher assuntos que são do <a href="#lexicos.md#interesse">interesse</a> do <a href="../lexicos/#usuario">usuário</a></td>
+<td>Escolher assuntos que são do <a href="../lexicos/#interesse">interesse</a> do <a href="../lexicos/#usuario">usuário</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: Logo após o cadastro ou na aba de <a href="#lexicos.md#interesse">interesses</a> dentro da aba salvo <br>  Pré-Condição: estar logado</td>
+<td>Local: Logo após o cadastro ou na aba de <a href="../lexicos/#interesse">interesses</a> dentro da aba salvo <br>  Pré-Condição: estar logado</td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -408,7 +409,7 @@
 <td><strong>Recursos</strong></td>
 </tr>
 <tr>
-<td>Internet, aplicativo, conta de <a href="#lexicos.md#usuario">usuário</a></td>
+<td>Internet, aplicativo, conta de <a href="../lexicos/#usuario">usuário</a></td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -420,11 +421,11 @@
 <td><strong>Episódios</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> navega até a aba salvo <a href="../lexicos/#usuario">Usuário</a> <br> <a href="../lexicos/#usuario">Usuário</a> aperta botão <a href="#interesse">interesses</a> <br> <a href="../lexicos/#usuario">Usuário</a> escolhe <a href="#lexicos.md#interesse">interesses</a></td>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> navega até a aba salvo <a href="../lexicos/#usuario">Usuário</a> <br> <a href="../lexicos/#usuario">Usuário</a> aperta botão <a href="#interesse">interesses</a> <br> <a href="../lexicos/#usuario">Usuário</a> escolhe <a href="../lexicos/#interesse">interesses</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="editar-um-pin">Editar um Pin</h2>
+<h2 id="editar-um-pin">Editar um <a href="../lexicos/#pin">Pin</a></h2>
 <table>
 <thead>
 <tr>
@@ -433,13 +434,13 @@
 </thead>
 <tbody>
 <tr>
-<td>Modificar um <a href="../lexicos/#pin">Pin</a> de acordo com a necessidade e desejo do dono da <a href="#lexicos.md#conta">conta</a></td>
+<td>Modificar um <a href="../lexicos/#pin">Pin</a> de acordo com a necessidade e desejo do dono da <a href="../lexicos/#conta">conta</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: Página de perfil do <a href="../lexicos/#usuario">usuário</a> <br>  Pré-Condição: Conexão com a internet <br> Ter, pelo menos, um <a href="../lexicos/#pin">pin</a> próprio <br> O <a href="../lexicos/#usuario">usuário</a> deve estar autenticado em sua <a href="#lexicos.md#conta">conta</a></td>
+<td>Local: Página de perfil do <a href="../lexicos/#usuario">usuário</a> <br>  Pré-Condição: Conexão com a internet <br> Ter, pelo menos, um <a href="../lexicos/#pin">pin</a> próprio <br> O <a href="../lexicos/#usuario">usuário</a> deve estar autenticado em sua <a href="../lexicos/#conta">conta</a></td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -463,7 +464,7 @@
 <td><strong>Episódios</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> faz <a href="../lexicos/#login">login</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica em sua página de <a href="#lexicos.md#perfil">perfil</a> no canto superior direito da tela <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a aba <a href="#lexicos.md#pin">Pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona o <a href="../lexicos/#pin">pin</a> que deseja editar <br> <a href="../lexicos/#usuario">Usuário</a> clica no ícone de editar simbolizado por um lápis no canto superior esquerdo da tela. <br> <strong>ou</strong> <br> <a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> faz <a href="../lexicos/#login">login</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica em sua página de <a href="#lexicos.md#perfil">perfil</a> no canto superior direito da tela <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a aba <a href="#lexicos.md#pin">Pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> passa o mouse sobre o <a href="../lexicos/#pin">pin</a> que deseja editar <br> <a href="../lexicos/#usuario">Usuário</a> clica no ícone de editar simbolizado por um lápis na parte superior do <a href="../lexicos/#pin">pin</a>. <br> <strong>ou</strong> <br> <a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> faz <a href="../lexicos/#login">login</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica em sua página de <a href="#lexicos.md#perfil">perfil</a> no canto superior direito da tela <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a <a href="#lexicos.md#aba">aba</a> Pastas <br> <a href="../lexicos/#usuario">Usuário</a> clica na pasta que está o <a href="../lexicos/#pin">pin</a> que deseja editar <br> <a href="../lexicos/#usuario">Usuário</a> passa o mouse sobre o <a href="../lexicos/#pin">pin</a> que deseja editar <br> <a href="../lexicos/#usuario">Usuário</a> clica no ícone de editar simbolizado por um lápis na parte superior do <a href="../lexicos/#pin">pin</a>. <br> <strong>ou</strong> <br> <a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> faz <a href="../lexicos/#login">login</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica em sua página de <a href="#lexicos.md#perfil">perfil</a> no canto superior direito da tela <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a <a href="#lexicos.md#aba">aba</a> Pastas <br> <a href="../lexicos/#usuario">Usuário</a> clica na <a href="#lexicos.md#pasta">pasta</a> que está o <a href="../lexicos/#pin">pin</a> que deseja <a href="#lexicos.md#editar">editar</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona o <a href="../lexicos/#pin">pin</a> que deseja <a href="#lexicos.md#pin">editar</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no ícone de <a href="#lexicos.md#editar">editar</a> simbolizado por um lápis no canto superior esquerdo da tela.</td>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> faz <a href="../lexicos/#login">login</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica em sua página de <a href="../lexicos/#perfil">perfil</a> no canto superior direito da tela <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a aba <a href="../lexicos/#pin">Pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona o <a href="../lexicos/#pin">pin</a> que deseja editar <br> <a href="../lexicos/#usuario">Usuário</a> clica no ícone de editar simbolizado por um lápis no canto superior esquerdo da tela. <br> <strong>ou</strong> <br> <a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> faz <a href="../lexicos/#login">login</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica em sua página de <a href="../lexicos/#perfil">perfil</a> no canto superior direito da tela <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a aba <a href="../lexicos/#pin">Pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> passa o mouse sobre o <a href="../lexicos/#pin">pin</a> que deseja editar <br> <a href="../lexicos/#usuario">Usuário</a> clica no ícone de editar simbolizado por um lápis na parte superior do <a href="../lexicos/#pin">pin</a>. <br> <strong>ou</strong> <br> <a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> faz <a href="../lexicos/#login">login</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica em sua página de <a href="../lexicos/#perfil">perfil</a> no canto superior direito da tela <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a <a href="../lexicos/#aba">aba</a> Pastas <br> <a href="../lexicos/#usuario">Usuário</a> clica na pasta que está o <a href="../lexicos/#pin">pin</a> que deseja editar <br> <a href="../lexicos/#usuario">Usuário</a> passa o mouse sobre o <a href="../lexicos/#pin">pin</a> que deseja editar <br> <a href="../lexicos/#usuario">Usuário</a> clica no ícone de editar simbolizado por um lápis na parte superior do <a href="../lexicos/#pin">pin</a>. <br> <strong>ou</strong> <br> <a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> faz <a href="../lexicos/#login">login</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica em sua página de <a href="../lexicos/#perfil">perfil</a> no canto superior direito da tela <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a <a href="../lexicos/#aba">aba</a> Pastas <br> <a href="../lexicos/#usuario">Usuário</a> clica na <a href="../lexicos/#pasta">pasta</a> que está o <a href="../lexicos/#pin">pin</a> que deseja <a href="../lexicos/#editar">editar</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona o <a href="../lexicos/#pin">pin</a> que deseja <a href="../lexicos/#pin">editar</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no ícone de <a href="../lexicos/#editar">editar</a> simbolizado por um lápis no canto superior esquerdo da tela.</td>
 </tr>
 </tbody>
 </table>
@@ -494,7 +495,7 @@
 <td><strong>Recursos</strong></td>
 </tr>
 <tr>
-<td>Internet, aplicativo, conta de usuário</td>
+<td>Internet, aplicativo, conta de usuário, <a href="../lexicos/#pin">pin</a></td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -506,11 +507,11 @@
 <td><strong>Episódios</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> navega pelo feed de <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona um <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no botão Enviar <br> <a href="../lexicos/#usuario">Usuário</a> escolhe a forma de envio <br> <a href="../lexicos/#usuario">Usuário</a> enviar o <a href="../lexicos/#pin">Pin</a> para outra pessoa</td>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> entra na página inicial para visualizar e navegar pelo feed de <a href="../lexicos/#pin">Pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona um <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no botão Enviar <br> <a href="../lexicos/#usuario">Usuário</a> escolhe a forma de envio <br> <a href="../lexicos/#usuario">Usuário</a> enviar o <a href="../lexicos/#pin">Pin</a> para outra pessoa</td>
 </tr>
 </tbody>
 </table>
-<h2 id="ir-para-a-fonte-de-um-pin">Ir para a fonte de um pin</h2>
+<h2 id="ir-para-a-fonte-de-um-pin">Ir para a fonte de um <a href="../lexicos/#pin">Pin</a></h2>
 <table>
 <thead>
 <tr>
@@ -519,13 +520,13 @@
 </thead>
 <tbody>
 <tr>
-<td>Saber qual a fonte dos <a href="#lexicos.md#pin">pins</a></td>
+<td>Saber qual a fonte dos <a href="../lexicos/#pin">pins</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: Ao clicar em um <a href="../lexicos/#pin">pin</a> ou passar o mouse sobre ele <br> Pré-Condição: Estar conectado à internet <br> Ser cadastrado no <a href="#lexicos.md#pinterest">Pinterest</a></td>
+<td>Local: Ao clicar em um <a href="../lexicos/#pin">pin</a> ou passar o mouse sobre ele <br> Pré-Condição: Estar conectado à internet <br> Ser cadastrado no <a href="../lexicos/#pinterest">Pinterest</a></td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -537,7 +538,7 @@
 <td><strong>Recursos</strong></td>
 </tr>
 <tr>
-<td>Internet, aplicativo, <a href="#lexicos.md#conta">conta</a> de <a href="../lexicos/#usuario">usuário</a></td>
+<td>Internet, aplicativo, <a href="../lexicos/#conta">conta</a> de <a href="../lexicos/#usuario">usuário</a></td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -553,7 +554,7 @@
 </tr>
 </tbody>
 </table>
-<h2 id="organizar-pasta">Organizar Pasta</h2>
+<h2 id="organizar-pasta">Organizar <a href="../lexicos/#pasta">Pasta</a></h2>
 <table>
 <thead>
 <tr>
@@ -562,25 +563,25 @@
 </thead>
 <tbody>
 <tr>
-<td>Realocar <a href="../lexicos/#pin">pins</a> em <a href="#lexicos.md#pasta">pastas</a> ou <a href="#lexicos.md#subpasta">subpastas</a> e excluir <a href="../lexicos/#pin">pins</a></td>
+<td>Realocar <a href="../lexicos/#pin">pins</a> em <a href="../lexicos/#pasta">pastas</a> ou <a href="../lexicos/#subpasta">subpastas</a> e excluir <a href="../lexicos/#pin">pins</a></td>
 </tr>
 <tr>
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: <a href="#lexicos.md#pagina">Página</a> da <a href="#lexicos.md#pasta">pasta</a> a ser organizada <br> Tempo - A qualquer momento  <br> Pré-Condição: O <a href="../lexicos/#usuario">Usuário</a> deve possuir <a href="../lexicos/#pin">pins</a> na <a href="#lexicos.md#pasta">pasta</a> a ser organizada ou na <a href="#lexicos.md#subpasta">subpasta</a> a ser organizada</td>
+<td>Local: <a href="../lexicos/#pagina">Página</a> da <a href="../lexicos/#pasta">pasta</a> a ser organizada <br> Tempo - A qualquer momento  <br> Pré-Condição: O <a href="../lexicos/#usuario">Usuário</a> deve possuir <a href="../lexicos/#pin">pins</a> na <a href="../lexicos/#pasta">pasta</a> a ser organizada ou na <a href="../lexicos/#subpasta">subpasta</a> a ser organizada</td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
 </tr>
 <tr>
-<td><a href="#lexicos.md#usuario">Usuário</a> proprietário da <a href="#lexicos.md#pasta">pasta</a> <br> <a href="../lexicos/#usuario">Usuários</a> com quem a <a href="#lexicos.md#pasta">pasta</a> foi <a href="#lexicos.md#compartilhar">compartilhada</a></td>
+<td><a href="../lexicos/#usuario">Usuário</a> proprietário da <a href="../lexicos/#pasta">pasta</a> <br> <a href="../lexicos/#usuario">Usuários</a> com quem a <a href="../lexicos/#pasta">pasta</a> foi <a href="../lexicos/#compartilhar">compartilhada</a></td>
 </tr>
 <tr>
 <td><strong>Recursos</strong></td>
 </tr>
 <tr>
-<td>Internet <br> Conta no aplicativo <br>  <a href="#lexicos.md#pasta">Pasta</a> <br> <a href="#lexicos.md#subpasta">Subpastas</a> <br> <a href="../lexicos/#pin">Pins</a> na <a href="#lexicos.md#pasta">Pasta</a> <br></td>
+<td>Internet <br> Conta no aplicativo <br>  <a href="../lexicos/#pasta">Pasta</a> <br> <a href="../lexicos/#subpasta">Subpastas</a> <br> <a href="../lexicos/#pin">Pins</a> na <a href="../lexicos/#pasta">Pasta</a> <br></td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -592,7 +593,7 @@
 <td><strong>Episódios</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> navega até a <a href="#lexicos.md#pasta">pasta</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a opção de organizar <a href="#lexicos.md#pasta">pasta</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona o <a href="../lexicos/#pin">pin</a> que deseja modificar <br> <a href="../lexicos/#usuario">Usuário</a> decide entre <a href="#lexicos.md#excluir">excluir</a>, <a href="#lexicos.md#mover">mover</a> para <a href="#lexicos.md#pasta">pasta</a> ou para <a href="#lexicos.md#subpasta">subpasta</a></td>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> navega até a <a href="../lexicos/#pasta">pasta</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a opção de organizar <a href="../lexicos/#pasta">pasta</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona o <a href="../lexicos/#pin">pin</a> que deseja modificar <br> <a href="../lexicos/#usuario">Usuário</a> decide entre <a href="../lexicos/#excluir">excluir</a>, <a href="../lexicos/#mover">mover</a> para <a href="../lexicos/#pasta">pasta</a> ou para <a href="../lexicos/#subpasta">subpasta</a></td>
 </tr>
 </tbody>
 </table>
@@ -611,7 +612,7 @@
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: <a href="#lexicos.md#pagina">Página</a> inicial do aplicativo versão mobile <br> Tempo: a qualquer momento  <br> Pré-Condição: usuário ter em mente palavras-chaves relativas ao tema</td>
+<td>Local: <a href="../lexicos/#pagina">Página</a> inicial do aplicativo versão mobile <br> Tempo: a qualquer momento  <br> Pré-Condição: usuário ter em mente palavras-chaves relativas ao tema</td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -635,7 +636,7 @@
 <td><strong>Episódios</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> escreve palavras relacionadas ao tema desejado na <a href="#lexicos.md#barraDepesquisa">barra de pesquisa</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica "enter" <br> Aplicativo mostra uma seleção de imagens referentes ao tema <br> Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas</td>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> escreve palavras relacionadas ao tema desejado na <a href="../lexicos/#barraDepesquisa">barra de pesquisa</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica "enter" <br> Aplicativo mostra uma seleção de imagens referentes ao tema <br> Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas</td>
 </tr>
 </tbody>
 </table>
@@ -654,7 +655,7 @@
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: <a href="#lexicos.md#pagina">Página</a> inicial do aplicativo versão mobile <br> Tempo - A Qualquer momento  <br> Pré-Condição: Celular possuir câmera</td>
+<td>Local: <a href="../lexicos/#pagina">Página</a> inicial do aplicativo versão mobile <br> Tempo - A Qualquer momento  <br> Pré-Condição: Celular possuir câmera</td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -678,11 +679,11 @@
 <td><strong>Episódios</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> seleciona o ícone de câmera na <a href="#lexicos.md#barraDepesquisa">barra de pesquisa</a> <br> <a href="../lexicos/#usuario">Usuário</a> tira foto da imagem por qual busca semelhantes <br> Aplicativo mostra uma seleção de imagens semelhantes à enviada pelo <a href="../lexicos/#usuario">Usuário</a></td>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> seleciona o ícone de câmera na <a href="../lexicos/#barraDepesquisa">barra de pesquisa</a> <br> <a href="../lexicos/#usuario">Usuário</a> tira foto da imagem por qual busca semelhantes <br> Aplicativo mostra uma seleção de imagens semelhantes à enviada pelo <a href="../lexicos/#usuario">Usuário</a></td>
 </tr>
 </tbody>
 </table>
-<h2 id="seguir-outro-usuario">Seguir outro usuário</h2>
+<h2 id="seguir-outro-usuario">Seguir outro <a href="../lexicos/#usuario">usuário</a></h2>
 <table>
 <thead>
 <tr>
@@ -752,7 +753,7 @@
 <td><strong>Recursos</strong></td>
 </tr>
 <tr>
-<td>Internet, aplicativo, conta de usuário</td>
+<td>Internet, aplicativo, conta de usuário, <a href="../lexicos/#pin">pin</a></td>
 </tr>
 <tr>
 <td><strong>Exceção</strong></td>
@@ -764,7 +765,7 @@
 <td><strong>Episódios</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> navega pelo feed de <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona um <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no botão Salvar <br> <a href="../lexicos/#usuario">Usuário</a> escolhe a pasta para salvá-lo e se não haverem pastas criadas, cria uma pasta para poder salvar o <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> salvar o <a href="../lexicos/#pin">Pin</a> na pasta</td>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> entra na página inicial para visualizar e navegar pelo feed de <a href="../lexicos/#pin">Pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona um <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no botão Salvar <br> <a href="../lexicos/#usuario">Usuário</a> escolhe a pasta para salvá-lo e se não haverem pastas criadas, cria uma pasta para poder salvar o <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> salvar o <a href="../lexicos/#pin">Pin</a> na pasta</td>
 </tr>
 </tbody>
 </table>
@@ -783,7 +784,7 @@
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: <a href="#lexicos.md#pagina">Página</a> incial do <a href="../lexicos/#pinterest">Pinterest</a> <br>  Pré-Condição: O <a href="../lexicos/#usuario">usuário</a> deverá acessar o <a href="../lexicos/#pinterest">Pinterest</a> caso queira vizualizar algo de seu <a href="../lexicos/#interesse">interesse</a></td>
+<td>Local: <a href="../lexicos/#pagina">Página</a> incial do <a href="../lexicos/#pinterest">Pinterest</a> <br>  Pré-Condição: O <a href="../lexicos/#usuario">usuário</a> deverá acessar o <a href="../lexicos/#pinterest">Pinterest</a> caso queira vizualizar algo de seu <a href="../lexicos/#interesse">interesse</a></td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -826,7 +827,7 @@
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: <a href="#lexicos.md#aba">Aba</a> <a href="#lexicos.md#seguindo">seguindo</a> do <a href="../lexicos/#pinterest">Pinterest</a> <br>  Pré-Condição: O <a href="../lexicos/#usuario">usuário</a> deverá acessar o <a href="../lexicos/#pinterest">Pinterest</a> caso queira publicado pelos demais usuários que segue</td>
+<td>Local: <a href="../lexicos/#aba">Aba</a> <a href="../lexicos/#seguindo">seguindo</a> do <a href="../lexicos/#pinterest">Pinterest</a> <br>  Pré-Condição: O <a href="../lexicos/#usuario">usuário</a> deverá acessar o <a href="../lexicos/#pinterest">Pinterest</a> caso queira publicado pelos demais usuários que segue</td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -869,7 +870,7 @@
 <td><strong>Contexto</strong></td>
 </tr>
 <tr>
-<td>Local: <a href="#lexicos.md#pagina">Página</a> de <a href="../lexicos/#mensagem">mensagens</a> <br>  Pré-Condição: O <a href="../lexicos/#usuario">usuário</a> está <a href="../lexicos/#login">logado</a> em sua conta do <a href="../lexicos/#pinterest">Pinterest</a></td>
+<td>Local: <a href="../lexicos/#pagina">Página</a> de <a href="../lexicos/#mensagem">mensagens</a> <br>  Pré-Condição: O <a href="../lexicos/#usuario">usuário</a> está <a href="../lexicos/#login">logado</a> em sua conta do <a href="../lexicos/#pinterest">Pinterest</a></td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -964,12 +965,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -983,7 +984,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
