@@ -4,7 +4,7 @@
 
 # Cenários
 
-## Cadastro de usuário
+## Cadastro de [usuário](lexicos.md#usuario)
 
 |**Objetivo** |
 |--|
@@ -20,7 +20,7 @@
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) não cadastrado abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona fazer o cadastro <br> [Usuário](lexicos.md#usuario) preenche dados de cadastro <br> [Usuário](lexicos.md#usuario) confirma cadastro |
 
-## Comentar em um Pin
+## Comentar em um [Pin](lexicos.md#pin)
 
 |**Objetivo** |
 |--|
@@ -30,13 +30,13 @@
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
-| Internet, aplicativo, conta de e-mail|
+| Internet, aplicativo, conta de e-mail, [pin](lexicos.md#pin) |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser apagado enquanto comentário é escrito |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona o [Pin](lexicos.md#pin) em que deseja comentar <br> [Usuário](lexicos.md#usuario) escreve seu comentário <br> [Usuário](lexicos.md#usuario) envia comentário |
 
-## Compartilhar Pasta
+## Compartilhar [Pasta](lexicos.md#pasta)
 
 |Objetivo |
 |--|
@@ -52,7 +52,7 @@
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona a opção de [compartilhar](lexicos.md#compartilhar) <br> [Usuário](lexicos.md#usuario) escolhe o outro [usuário](lexicos.md#usuario) com quem compartilhar <br> [Usuário](lexicos.md#usuario) envia o [convite](lexicos.md#convite) para [colaboração](lexicos.md#colaborar) |
 
-## Criar Pasta
+## Criar [Pasta](lexicos.md#pasta)
 
 |Objetivo |
 |--|
@@ -84,7 +84,7 @@
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a aba salvo [Usuário](lexicos.md#usuario) <br> [Usuário](lexicos.md#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md#usuario) escolhe [interesses](lexicos.md#interesse)|
 
-## Editar um Pin
+## Editar um [Pin](lexicos.md#pin)
 
 |**Objetivo** |
 |--|
@@ -110,13 +110,13 @@
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
-| Internet, aplicativo, conta de usuário |
+| Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser enviado <br> [Usuário](lexicos.md#usuario) que for receber o [Pin](lexicos.md#pin) ter bloqueado o que for enviá-lo |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega pelo feed de [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Enviar <br> [Usuário](lexicos.md#usuario) escolhe a forma de envio <br> [Usuário](lexicos.md#usuario) enviar o [Pin](lexicos.md#pin) para outra pessoa |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo feed de [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Enviar <br> [Usuário](lexicos.md#usuario) escolhe a forma de envio <br> [Usuário](lexicos.md#usuario) enviar o [Pin](lexicos.md#pin) para outra pessoa |
 
-## Ir para a fonte de um pin
+## Ir para a fonte de um [Pin](lexicos.md#pin)
 
 |**Objetivo** |
 |--|
@@ -132,7 +132,7 @@
 |**Episódios** |feed
 | [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica em um [pin](lexicos.md#pin)<br> [Usuário](lexicos.md#usuario) clica no botão com o link para o site fonte no canto inferior direito da página <br> **ou** <br>  [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) passa o mouse sobre um [pin](lexicos.md#pin)<br> [Usuário](lexicos.md#usuario) clica no botão com o link para o site fonte no canto inferior direito da [pin](lexicos.md#pin)<br>|
 
-## Organizar Pasta
+## Organizar [Pasta](lexicos.md#pasta)
 
 |Objetivo |
 |--|
@@ -180,7 +180,7 @@
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona o ícone de câmera na [barra de pesquisa](lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) tira foto da imagem por qual busca semelhantes <br> Aplicativo mostra uma seleção de imagens semelhantes à enviada pelo [Usuário](lexicos.md#usuario)  |
 
-## Seguir outro usuário
+## Seguir outro [usuário](lexicos.md#usuario)
 
 |**Objetivo** |
 |--|
@@ -206,11 +206,11 @@
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
-| Internet, aplicativo, conta de usuário |
+| Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser salvo <br> Não existir pastas para salvá-lo |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega pelo feed de [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Salvar <br> [Usuário](lexicos.md#usuario) escolhe a pasta para salvá-lo e se não haverem pastas criadas, cria uma pasta para poder salvar o [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) salvar o [Pin](lexicos.md#pin) na pasta |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo feed de [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Salvar <br> [Usuário](lexicos.md#usuario) escolhe a pasta para salvá-lo e se não haverem pastas criadas, cria uma pasta para poder salvar o [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) salvar o [Pin](lexicos.md#pin) na pasta |
 
 ## Vizualizar [Feed](lexicos.md#feed)
 
