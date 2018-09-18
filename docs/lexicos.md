@@ -14,8 +14,6 @@
 |**Sinônimos**|
 |Pins, Imagem, Imagens, Foto, Fotos, Post, Posts|
 
-UM FEED PODE SER ALTERADO PELA PESQUISA PARA EXIBIR PINS RELACIONADOS A DETERMINADO INTERESSE OU A PALAVRAS CHAVE DE PESQUISA
-
 ## Pinar
 
 |**Noção**|
@@ -43,6 +41,8 @@ UM FEED PODE SER ALTERADO PELA PESQUISA PARA EXIBIR PINS RELACIONADOS A DETERMIN
 |	Texto que redireciona o [usuário](#usuario) para outra [página](#pagina). |
 |**Impacto** |
 | Muda a tela atual do usuário <br> Provoca uma ação. |
+|**Sinônimos|
+|linkar|
 
 ## Logado
 
@@ -135,9 +135,9 @@ UM FEED PODE SER ALTERADO PELA PESQUISA PARA EXIBIR PINS RELACIONADOS A DETERMIN
 
 |**Noção**|
 |--|
-| Formato de dados usado em formas de comunicação com conteúdo atualizado frequentemente. Visualização do conteúdo disponibilizado no [Pinterest](#pinterest) em formato de entrega contínua e infinita. |
+| Formato de dados usado em formas de comunicação com conteúdo atualizado frequentemente. Visualização do conteúdo disponibilizado no [Pinterest](#pinterest) em formato de entrega contínua e infinita.  |
 |**Impacto** |
-| Após [logar](#login) e definir os interesses, o feed do [Pinterest](#pinterest) tende a mostrar [pins](#pin) que agrada o [usuário](#usuario). |
+| Após [logar](#login) e definir os interesses, o feed do [Pinterest](#pinterest) tende a mostrar [pins](#pin) que agrada o [usuário](#usuario). <br> Um feed pode ser alterado pela pesquisa para exibir pins relacionados a determinado interesse ou a palavra chave de pesquisa. |
 
 ## Login
 
@@ -193,19 +193,42 @@ UM FEED PODE SER ALTERADO PELA PESQUISA PARA EXIBIR PINS RELACIONADOS A DETERMIN
 ## Experimentou
 |**Noção**|
 |--|
-| Aquilo que foi mostrado por um [pin](#pin) e aplicado na vida real, podendo conter informações extras sobre essa experiência. |
+| Aquilo que foi mostrado por um (pin)[#pin] e aplicado na vida real, podendo conter informações extras sobre essa experiência. |
 |**Impacto** |
 | [Usuário](#usuario) experimenta [pin](#pin) <br> Usuário adiciona foto de experiência ao [pin](#pin) <br> Usuário comenta experiência <br>   |
 |**Sinônimos** |
 | Experiências, experimentar  |
 
+## Comentar
+|**Noção**|
+|--|
+| Ato do [usuário](#usuario) fazer observações e deixar opniões sobre o [pin](#pin).|
+|**Impacto**|
+|O [usuário](#usuario) pode comentar em [pins](#pin) de seu interesse. <br> O [usuário](#usuario) tem a opção de comentar em pins que não concorda. <br> Qualquer [usuário](#usuario) que acesse o [pin](#pin) pode ver seus comentários. |
+| **Sinônimos**|
+|Comentário, Comentários|
+
 
 ## Baixar Imagem
 
-## Comentar
 
 ## Copiar Imagem
+|**Noção**|
+|--|
+| Ato de copiar o link do caminho do [pin](#pin) no [Pinterest](#pinterest). |
+|**Impacto**|
+| O [usuaŕio](#usuario) pode copiar a imagem para enviar para outros [usuários](#usuário) em outras rede sociais. <br> O [usuário](#usuario) pode copiar a [imagem](#pin) e poder usar em outros lugares.  |
 
 ## Colaborar
+|**Noção**|
+|--|
+| [Usuários](#usuario) recebe permissão para gerênciar [pasta](#board) e subpastas. |
+|**Impacto**|
+| [Usuários](#usuario) pode salvar [pins](#pin). <br> [Usuários](#usuario) pode remove [pins](#pin). <br> [Usuários](#usuario) pode criar [subpastas](#board).|
 
 ## Recomendar
+|**Noção**|
+|--|
+| O [Pinterest](#pinterest) pode indicar novos [pins](#pin) de acordo com as atividades recentes do [usuários](#usuario). |
+|**Impacto**|
+| O [Pinterest](#pinterest) recomenda [pins](#pin) mais próximos ao interesses e ao uso do [usuário](#usuario). <br> O [usuário](#usuario) pode receber recomendações de [pins](#pin) relacionado a [usuários](#usuario) a qual essa pessoa segue. |
