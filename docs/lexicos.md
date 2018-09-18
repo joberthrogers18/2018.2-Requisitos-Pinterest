@@ -186,16 +186,19 @@ UM FEED PODE SER ALTERADO PELA PESQUISA PARA EXIBIR PINS RELACIONADOS A DETERMIN
 ## Aba Salvos
 |**Noção**|
 |--|
-| Aba que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#board), [pins](#pin), [experiências](#experiencias) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
+| Aba que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#board), [pins](#pin), [experiências](#experimentou) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
 |**Impacto** |
-| [Usuário](#usuario) define [interesses](#interesses) <br> [Usuário](#usuario) visualiza suas [pastas](#board) e [pins](#pin) <br> Novos [interesses](#interesse) aparecem no [feed](#feed) <br> [Usuário](#usuario) [experimenta](#experiencias) um [pin](#pin) <br>  [Usuário](#usuario) cria [pastas](#board) <br> [Usuário](#usuario) cria [pins](#pin) |
+| [Usuário](#usuario) define [interesses](#interesses) <br> [Usuário](#usuario) visualiza suas [pastas](#board) e [pins](#pin) <br> Novos [interesses](#interesse) aparecem no [feed](#feed) <br> [Usuário](#usuario) [experimenta](#experimentou) um [pin](#pin) <br>  [Usuário](#usuario) cria [pastas](#board) <br> [Usuário](#usuario) cria [pins](#pin) |
 
-## Experiências
+## Experimentou
 |**Noção**|
 |--|
 | Aquilo que foi mostrado por um [pin](#pin) e aplicado na vida real, podendo conter informações extras sobre essa experiência. |
 |**Impacto** |
 | [Usuário](#usuario) experimenta [pin](#pin) <br> Usuário adiciona foto de experiência ao [pin](#pin) <br> Usuário comenta experiência <br>   |
+|**Sinônimos** |
+| Experiências, experimentar  |
+
 
 ## Baixar Imagem
 
