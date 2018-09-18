@@ -183,11 +183,23 @@ UM FEED PODE SER ALTERADO PELA PESQUISA PARA EXIBIR PINS RELACIONADOS A DETERMIN
 |**Impacto** |
 |O aplicativo fecha e o [usuário](#usuario) deixa de concluir qualquer ação no app. |
 
+## Aba Salvos
+|**Noção**|
+|--|
+| Aba que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#board), [pins](#pin), [experiências](#experiencias) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
+|**Impacto** |
+| [Usuário](#usuario) define [interesses](#interesses) <br> [Usuário](#usuario) visualiza suas [pastas](#board) e [pins](#pin) <br> Novos [interesses](#interesse) aparecem no [feed](#feed) <br> [Usuário](#usuario) [experimenta](#experiencias) um [pin](#pin) <br>  [Usuário](#usuario) cria [pastas](#board) <br> [Usuário](#usuario) cria [pins](#pin) |
+
+## Experiências
+|**Noção**|
+|--|
+| Aquilo que foi mostrado por um [pin](#pin) e aplicado na vida real, podendo conter informações extras sobre essa experiência. |
+|**Impacto** |
+| [Usuário](#usuario) experimenta [pin](#pin) <br> Usuário adiciona foto de experiência ao [pin](#pin) <br> Usuário comenta experiência <br>   |
+
 ## Baixar Imagem
 
 ## Comentar
-
-## Experimentar
 
 ## Copiar Imagem
 

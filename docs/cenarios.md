@@ -82,7 +82,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pinterest](lexicos.md#pinterest) não oferecer o interesse que o [usuário](lexicos.md#usuario) procura |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br>[Usuário](lexicos.md#usuario) visualiza página principal <br> [Usuário](lexicos.md#usuario) seleciona a aba "Salvos" <br> [Usuário](lexicos.md#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md#usuario) aperta botão "Adicionar [interesses](#interesse)" <br> [Usuário](lexicos.md#usuario) procura seus [interesses](lexicos.md#interesse) e os seleciona <br> [Usuário](lexicos.md#usuario) aperta "Concluído" |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br>[Usuário](lexicos.md#usuario) visualiza página principal <br> [Usuário](lexicos.md#usuario) seleciona a [aba "Salvos"] (lexicos.md#aba-salvos) <br> [Usuário](lexicos.md#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md#usuario) aperta botão "Adicionar [interesses](#interesse)" <br> [Usuário](lexicos.md#usuario) procura seus [interesses](lexicos.md#interesse) e os seleciona <br> [Usuário](lexicos.md#usuario) aperta "Concluído" |
 
 ## Editar um [Pin](lexicos.md#pin)
 
