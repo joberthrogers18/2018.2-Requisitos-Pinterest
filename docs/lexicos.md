@@ -8,57 +8,41 @@
 
 |**Noção**|
 |--|
-|  Uma imagem exibida dentro do [Pinterest](#pinterest). É a funcionalidade principal, tendo tudo ao seu redor. A interação ocorre a partir deste construto. Podendo ser COMPARTILHADO, COMENTADO, [pinado](#pinar) e outros. |
+|  Uma imagem ou conteúdo exibido dentro do [Pinterest](#pinterest). <br> É a principal moeda de interação do [usuário](#usuario). <br> A interação ocorre a partir deste construto. <br> Os pins estão presentes dentro do [feed](#feed). <br> Os pins possuem [interesses](#interesse) relacionados a eles. <br> Os pins são salvos em [boards](#board). |
 |**Impacto** |
-| O [usuário](#usuario) consome pins do [Pinterest](#pinterest) para buscar inspiração. |
-| O [usuário](#usuario) pode [pinar](#pinar) um pin em um [board](#board) |
+| O [usuário](#usuario) pode ser [compartilhado](#compartihar), comentado, [pinado](#pinar) em uma [board](#board) e [baixado](#baixar-imagem). <br> O [usuário](#usuario) consome pins do [Pinterest](#pinterest) para buscar inspiração. <br> O [usuário](#usuario) pode denunciar um pin caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#pinterest). <br> O [usuário](#usuario) pode marca o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#pinterest). |
 |**Sinônimos**|
-|Pins|
+|Pins, Imagem, Imagens, Foto, Fotos, Post, Posts|
+
+UM FEED PODE SER ALTERADO PELA PESQUISA PARA EXIBIR PINS RELACIONADOS A DETERMINADO INTERESSE OU A PALAVRAS CHAVE DE PESQUISA
 
 ## Pinar
 
 |**Noção**|
 |--|
-| É o ato do [usuário](#usuario) guardar um [pin](#pin) em um [board](#board) para poder acessar mais tarde ou para categorizar seus [pins](#pin). |
+| É o ato do [usuário](#usuario) [salvar um pin](cenarios.md#salvar-um-pin) em um [board](#board) para poder acessar mais tarde ou para categorizar seus [pins](#pin).  |
 |**Impacto** |
-| O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. |
-| O usuário guardou seus [pins](#pin) em um [board](#board). |
+| O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. <br> O usuário guardou seus [pins](#pin) em um [board](#board).<br> O [usuário](#usuario) pode acessar posteriormente os [pins](#pin) salvos em suas [boards](#board). <br> A interação de pinar, aumenta a classificação de relevância do [interesse](#interesse) relacionado ao [pin](#pin) pinado, o que faz com que mais pins relacionados a este interesse apareça ao [feed](#feed) do [usuário](#usuario). |
 |**Sinônimos**|
-|Pinado|
+| Pinado, Salvar, Salvo, Salva |
 
 ## Board
 
 |**Noção**|
 |--|
-|		É uma coleção de [pins](#pin), tendo título para poder se diferenciar de outras coleções. É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) [pinados](#pinar). Pode possuír sub-conjuntos. |
+|	É uma coleção de [pins](#pin), contendo título para poder se diferenciar de outras coleções. <br> É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) [pinados](#pinar). <br> Pode possuír sub-conjuntos. |
 |**Impacto** |
-| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um board. |
+| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um board. <br> O [usuário](#usuario) pode criar sub-pastas para organizar os [pins](#pin) da board. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [board](#board). <br> Uma board pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma board pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
 |**Sinônimos**|
-|Pasta, Pastas, Boards|
-
-## Página
-
-|**Noção**|
-|--|
-|		Local onde se encontra-se os [pins](#pin) ao abrir o aplicativo. |
-|**Impacto** |
-| O [usuário](#usuario) pode visualizar diferentes conteúdos no formato grade. |
-
-## Tema
-
-|**Noção**|
-|--|
-|		Engloba todos os conteúdos relacionados às ações ou substantivos que o definem. |
-|**Impacto** |
-| Classificar conteúdos que possuam [interesses](#interesses) em comum. |
+| Pasta, Pastas, Boards |
 
 ## Link
 
 |**Noção**|
 |--|
-|	Texto que leva o [usuário](#usuario) para outra [página](#pagina) ou parte do site quando clicado.|
+|	Texto que redireciona o [usuário](#usuario) para outra [página](#pagina). |
 |**Impacto** |
-| Muda a tela atual do usuário <br> Provoca uma ação|
+| Muda a tela atual do usuário <br> Provoca uma ação. |
 
 ## Logado
 
@@ -74,11 +58,11 @@
 
 |**Noção**|
 |--|
-|		Local de divisão de conteúdos e ações. |
+|	Representação da divisão de conteúdos e ações do [Pinterest](#pinterest). <br>  |
 |**Impacto** |
 | Classificação de ações. |
 
-## Seguindo
+## Seguir
 
 |**Noção**|
 |--|
@@ -118,6 +102,8 @@
 | Ato de distribuir os pins de seu interesse para outros [usuário](#usuario) e também para pessoas que não possuam conta no [Pinterest](#pinterest). |
 |**Impacto** |
 | Os [usuários](#usuario) compartilham [pins](#pin), [boards](#board). |
+|**Sinônimos**|
+|Compartilhado|
 
 ## Seguir
 
@@ -196,3 +182,15 @@
 | Termo da computação que indica encerramento inesperado da aplicação em execução. |
 |**Impacto** |
 |O aplicativo fecha e o [usuário](#usuario) deixa de concluir qualquer ação no app. |
+
+## Baixar Imagem
+
+## Comentar
+
+## Experimentar
+
+## Copiar Imagem
+
+## Colaborar
+
+## Recomendar
