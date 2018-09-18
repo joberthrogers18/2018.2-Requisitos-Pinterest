@@ -33,6 +33,8 @@
 |		É uma coleção de [pins](#pin), tendo título para poder se diferenciar de outras coleções. É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) [pinados](#pinar). Pode possuír sub-conjuntos. |
 |**Impacto** |
 | O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um board. |
+|**Sinônimos**|
+|Pasta, Pastas, Boards|
 
 ## Página
 
@@ -99,7 +101,7 @@
 |--|
 | Algo em que o [usuário](#usuario) do [Pinterest](#pinterest) tem demonstrado ser digno de atenção. Podendo ser inferido a partir das ações deste [usuário](#usuario) ou a partir do que o [usuário](#usuario) informa ao [pinterest](#pinterest) quando cria seu cadastro no sistema. |
 |**Impacto** |
-| Os [usuário](#usuario)S definem seus interesses de seus [pins](#pin) mostrados. |
+| Os [usuários](#usuario) definem seus interesses de seus [pins](#pin) mostrados. |
 
 ## Explorar
 
@@ -169,7 +171,7 @@
 |**Impacto** |
 | Com o perfil de [usuário](#usuario) é possivel que outros [usuários](#usuario) possam reconhecê-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [boards](#board). |
 |**Sinônimos**|
-|Conta |
+|Conta|
 
 ## Mensagem
 
