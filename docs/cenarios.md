@@ -10,15 +10,15 @@
 |--|
 | Cadastrar novo usuário no Pinterest |
 |**Contexto** |
-| Local: Página inicial do app [Pinterest](lexicos.md#pinterest) (quando não logado) <br>  Pré-Condição: não ter cadastro  |
+| Local: Página inicial do app [Pinterest](lexicos.md#pinterest) (quando não logado) <br>  Pré-Condição: não ter cadastro <br>  Pós-Condição: [usuário](lexicos.md#usuario) cadastrado  |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) não cadastrado|
 |**Recursos** |
 | Internet, aplicativo, conta de e-mail|
 |**Exceção** |
-| Internet cair <br> App dar [crash](lexicos.md#crash) <br> Senha inválida <br> E-mail inválido |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> Senha inválida <br> E-mail inválido <br> Gmail ou Facebook fora do ar <br> Conta de Gmail ou Facebook inexistente |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) não cadastrado abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona fazer o cadastro <br> [Usuário](lexicos.md#usuario) preenche dados de cadastro <br> [Usuário](lexicos.md#usuario) confirma cadastro |
+| [Usuário](lexicos.md#usuario) não cadastrado abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona fazer o cadastro <br>  Se o [usuário](lexicos.md#usuario) tiver conta no Gmail , então selecionar cadastro pelo Gmail  <br> Se o [usuário](lexicos.md#usuario) tiver conta no Facebook , então selecionar cadastro pelo Facebook <br> Senão [usuário](lexicos.md#usuario) preenche e-mail, senha e confirmação da senha <br>[Usuário](lexicos.md#usuario) confirma cadastro no e-mail e é redirecionado para a página principal do [Pinterest](lexicos.md#pinterest)|
 
 ## Comentar em um [Pin](lexicos.md#pin)
 
@@ -26,7 +26,7 @@
 |--|
 | Criar comentário em um [Pin](lexicos.md#pin) |
 |**Contexto** |
-| Local: Página de detalhes de um [pin](lexicos.md#pin) <br>  Pré-Condição: o usuário deve estar autenticado em sua conta  |
+| Local: Página de detalhes de um [pin](lexicos.md#pin) <br>  Pré-Condição: o usuário deve estar autenticado em sua conta  <br>  Pós-Condição:|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -42,7 +42,7 @@
 |--|
 | Permitir que um ou mais [usuários](lexicos.md#usuario) tenham acesso a uma [pasta](lexicos.md#pasta), podendo editar os [Pins](lexicos.md#pin) existentes e adicionar novos. |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) da [pasta](lexicos.md#pasta) a ser [compartilhada](lexicos.md#compartilhar) <br> Tempo: A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) será compartilhada deverá possuir ou criar uma nova conta no Pinterest.  |
+| Local: [Página](lexicos.md#pagina) da [pasta](lexicos.md#pasta) a ser [compartilhada](lexicos.md#compartilhar) <br> Tempo: A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) será compartilhada deverá possuir ou criar uma nova conta no Pinterest. <br>  Pós-Condição:  |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) será [compartilhada](lexicos.md#compartilhar)|
 |**Recursos** |
@@ -58,7 +58,7 @@
 |--|
 | Criar um local para guardar [pins](lexicos.md#pin) de um mesmo tema de escolha do [usuário](lexicos.md#usuario)|
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) de [perfil](lexicos.md#perfil) <br> Tempo: A qualquer momento  <br> Pré-Condição:  [Usuário](lexicos.md#usuario) possuir [conta](lexicos.md#conta) no aplicativo. |
+| Local: [Página](lexicos.md#pagina) de [perfil](lexicos.md#perfil) <br> Tempo: A qualquer momento  <br> Pré-Condição:  [Usuário](lexicos.md#usuario) possuir [conta](lexicos.md#conta) no aplicativo. <br>  Pós-Condição: |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -74,15 +74,15 @@
 |--|
 | Escolher assuntos que são do [interesse](lexicos.md#interesse) do [usuário](lexicos.md#usuario) |
 |**Contexto** |
-| Local: Logo após o cadastro ou na aba de [interesses](lexicos.md#interesse) dentro da aba salvo <br>  Pré-Condição: estar logado |
+| Local: Logo após o cadastro ou na aba de [interesses](lexicos.md#interesse) dentro da aba salvo <br>  Pré-Condição: estar logado <br>  Pós-Condição: [usuário](lexicos.md#usuario) recebe [pins](lexicos.md#pin) que são do seu [interesse](lexicos.md#interesse) no seu [feed](lexicos.md#feed)|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de [usuário](lexicos.md#usuario) |
 |**Exceção** |
-| Internet cair <br> App dar [crash](lexicos.md#crash) |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pinterest](lexicos.md#pinterest) não oferecer o interesse que o [usuário](lexicos.md#usuario) procura |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a aba salvo [Usuário](lexicos.md#usuario) <br> [Usuário](lexicos.md#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md#usuario) escolhe [interesses](lexicos.md#interesse)|
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br>[Usuário](lexicos.md#usuario) visualiza página principal <br> [Usuário](lexicos.md#usuario) seleciona a aba "Salvos" <br> [Usuário](lexicos.md#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md#usuario) aperta botão "Adicionar [interesses](#interesse)" <br> [Usuário](lexicos.md#usuario) procura seus [interesses](lexicos.md#interesse) e os seleciona <br> [Usuário](lexicos.md#usuario) aperta "Concluído" |
 
 ## Editar um [Pin](lexicos.md#pin)
 
@@ -90,7 +90,7 @@
 |--|
 | Modificar um [pin](lexicos.md#pin) de acordo com a necessidade e desejo do dono da [conta](lexicos.md#perfil)|
 |**Contexto** |
-| Local: [Página](lexicos.md#página) de perfil do [usuário](lexicos.md#usuario) <br>  Pré-Condição: Conexão com a internet <br> Ter [pinado](lexicos.md#pinado), pelo menos, um [pin](lexicos.md#pin) <br> O [usuário](lexicos.md#usuario) deve estar [autenticado](lexicos.md#logado) em sua [conta](lexicos.md#conta) |
+| Local: [Página](lexicos.md#página) de perfil do [usuário](lexicos.md#usuario) <br>  Pré-Condição: Conexão com a internet <br> Ter [pinado](lexicos.md#pinado), pelo menos, um [pin](lexicos.md#pin) <br> O [usuário](lexicos.md#usuario) deve estar [autenticado](lexicos.md#logado) em sua [conta](lexicos.md#conta) <br>  Pós-Condição: |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -106,7 +106,7 @@
 |--|
 | Enviar um [Pin](lexicos.md#pin) para outro [usuário](lexicos.md#usuario) do [Pinterest](lexicos.md#pinterest) por meio de chat ou enviá-lo para outras pessoas que não utilizam o [Pinterest](lexicos.md#pinterest) por meio de outras redes sociais (WhatsApp, Facebook) ou até por SMS e e-mail |
 |**Contexto** |
-| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -122,7 +122,7 @@
 |--|
 |Utilizar todas as ferramentas exclusivas para usuários [logados](lexicos.md#login)|
 |**Contexto**|
-|Local: Pagina inicial do [Pinterest](lexicos.md#Pinterest) <br> Pré-Condição: Estar [cadastrado](), inserir o e-mail e a senha corretos|
+|Local: Pagina inicial do [Pinterest](lexicos.md#Pinterest) <br> Pré-Condição: Estar [cadastrado](), inserir o e-mail e a senha corretos <br>  Pós-Condição:|
 |**Atores**|
 |[Usuário](lexicos.md#usuário) cadastrado|
 |**Recursos**|
@@ -139,7 +139,7 @@
 |--|
 | Saber de qual site o [pin](lexicos.md#pin) está sendo enviado|
 |**Contexto** |
-| Local: Ao clicar em um [pin](lexicos.md#pin) ou passar o mouse sobre ele <br> Pré-Condição: Estar conectado à internet <br> Ser cadastrado no [Pinterest](lexicos.md#pinterest)|
+| Local: Ao clicar em um [pin](lexicos.md#pin) ou passar o mouse sobre ele <br> Pré-Condição: Estar conectado à internet <br> Ser cadastrado no [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição:|
 |**Atores** |
 | [Usuário](lexicos.md#usuario)|
 |**Recursos** |
@@ -155,7 +155,7 @@
 |--|
 | Realocar [pins](lexicos.md#pin) em [pastas](lexicos.md#pasta) ou [subpastas](lexicos.md#subpasta) e excluir [pins](lexicos.md#pin)|
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) da [pasta](lexicos.md#pasta) a ser organizada <br> Tempo - A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) deve possuir [pins](lexicos.md#pin) na [pasta](lexicos.md#pasta) a ser organizada ou na [subpasta](lexicos.md#subpasta) a ser organizada |
+| Local: [Página](lexicos.md#pagina) da [pasta](lexicos.md#pasta) a ser organizada <br> Tempo - A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) deve possuir [pins](lexicos.md#pin) na [pasta](lexicos.md#pasta) a ser organizada ou na [subpasta](lexicos.md#subpasta) a ser organizada  <br>  Pós-Condição:|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#pasta) <br> [Usuários](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) foi [compartilhada](lexicos.md#compartilhar)|
 |**Recursos** |
@@ -171,7 +171,7 @@
 |--|
 | Encontrar imagens referentes a um tema de preferência do usuário |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) inicial do aplicativo versão mobile <br> Tempo: a qualquer momento  <br> Pré-Condição: usuário ter em mente palavras-chaves relativas ao tema  |
+| Local: [Página](lexicos.md#pagina) inicial do aplicativo versão mobile <br> Tempo: a qualquer momento  <br> Pré-Condição: usuário ter em mente palavras-chaves relativas ao tema  <br>  Pós-Condição:|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -187,7 +187,7 @@
 |--|
 | Utilizar o recurso de fotografar imagens para pesquisar por imagens semelhantes |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) inicial do aplicativo versão mobile <br> Tempo - A Qualquer momento  <br> Pré-Condição: Celular possuir câmera  |
+| Local: [Página](lexicos.md#pagina) inicial do aplicativo versão mobile <br> Tempo - A Qualquer momento  <br> Pré-Condição: Celular possuir câmera <br>  Pós-Condição: |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -203,7 +203,7 @@
 |--|
 | [Seguir](lexicos.md#seguir) um outro [Usuário](lexicos.md#usuario) para acompanhar sua atividade no [Pinterest](lexicos.md#pinterest) |
 |**Contexto** |
-| Local: Perfil de um [usuário](lexicos.md#usuario) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) não pode [seguir](lexicos.md#seguir) a si mesmo  |
+| Local: Perfil de um [usuário](lexicos.md#usuario) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) não pode [seguir](lexicos.md#seguir) a si mesmo  <br>  Pós-Condição:|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -219,7 +219,7 @@
 |--|
 | Salvar um [Pin](lexicos.md#pin) em uma pasta criada pelo [usuário](lexicos.md#usuario) do [Pinterest](lexicos.md#pinterest) |
 |**Contexto** |
-| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -235,7 +235,7 @@
 |--|
 | Vizualizar [pins](lexicos.md#pin) de [interesse](lexicos.md#interesse) do [usuário](lexicos.md#usuario) pelo [feed](lexicos.md#feed) |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) incial do [Pinterest](lexicos.md#pinterest) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá acessar o [Pinterest](lexicos.md#pinterest) caso queira vizualizar algo de seu [interesse](lexicos.md#interesse)|
+| Local: [Página](lexicos.md#pagina) incial do [Pinterest](lexicos.md#pinterest) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá acessar o [Pinterest](lexicos.md#pinterest) caso queira vizualizar algo de seu [interesse](lexicos.md#interesse) <br>  Pós-Condição:|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -251,7 +251,7 @@
 |--|
 | Vizualizar [pins](lexicos.md#pin) de outros usuários que o [usuário](lexicos.md#usuario) [logado](lexicos.md#logado) segue
 |**Contexto** |
-| Local: [Aba](lexicos.md#aba) [seguindo](lexicos.md#seguindo) do [Pinterest](lexicos.md#pinterest) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá acessar o [Pinterest](lexicos.md#pinterest) caso queira publicado pelos demais usuários que segue|
+| Local: [Aba](lexicos.md#aba) [seguindo](lexicos.md#seguindo) do [Pinterest](lexicos.md#pinterest) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá acessar o [Pinterest](lexicos.md#pinterest) caso queira publicado pelos demais usuários que segue <br>  Pós-Condição:|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) [logado](lexicos.md#logado) <br> Usuários [seguidos](lexicos.md#seguidos) pelo [usuário](lexicos.md#usuario) [logado](lexicos.md#logado)|
 |**Recursos** |
@@ -267,7 +267,7 @@
 |--|
 | Poder se comunicar com outros [usuários](lexicos.md#usuario) por meio do [Pinterest](lexicos.md#pinterest) sendo por [mensagens](lexicos.md#mensagem) ou enviando [pins](lexicos.md#pin) |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) de [mensagens](lexicos.md#mensagem) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) está [logado](lexicos.md#login) em sua conta do [Pinterest](lexicos.md#pinterest)|
+| Local: [Página](lexicos.md#pagina) de [mensagens](lexicos.md#mensagem) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) está [logado](lexicos.md#login) em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição:|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) e [usuários](lexicos.md#usuario) conhecidos|
 |**Recursos** |
@@ -283,7 +283,7 @@
 |--|
 | Ser [notificado](lexicos.md#notificacao) sobre alguma interação de outros [usuários](lexicos.md#usuário) ou novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) de [notificações](lexicos.md#notificacao) <br> Pré-Condição: O [Usuário](lexicos.md#usuário) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter algum [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) ou [seguir](lexicos.md#seguir) algum outro [usuário](lexicos.md#usuário) |
+| Local: [Página](lexicos.md#pagina) de [notificações](lexicos.md#notificacao) <br> Pré-Condição: O [Usuário](lexicos.md#usuário) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter algum [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) ou [seguir](lexicos.md#seguir) algum outro [usuário](lexicos.md#usuário) <br>  Pós-Condição:|
 |**Autores** |
 | [Usuários](lexicos.md#usuário), [usuários](lexicos.md#usuário) seguido e o [Pinterest](lexicos.md#pinterest) |
 |**Recursos** |
