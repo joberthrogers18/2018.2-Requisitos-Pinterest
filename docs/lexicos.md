@@ -21,6 +21,8 @@
 |**Impacto** |
 | O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. |
 | O usuário guardou seus [pins](#pin) em um [board](#board). |
+|**Sinônimos**|
+|Pinado|
 
 ## Board
 
@@ -46,13 +48,23 @@
 |**Impacto** |
 | Classificar conteúdos que possuam [interesses](#interesses) em comum. |
 
+## Link
+
+|**Noção**|
+|--|
+|	Texto que leva o [usuário](#usuario) para outra [página](#pagina) ou parte do site quando clicado.|
+|**Impacto** |
+| Muda a tela atual do usuário <br> Provoca uma ação|
+
 ## Logado
 
 |**Noção**|
 |--|
-|		Ação de estar cadastrado no [Pinterest](#pinterest) e autenticado em uma sua própria conde de usuário, podendo usufruir das funcionalidades do aplicativo.|
+|		Ação de estar cadastrado no [Pinterest](#pinterest) após ter feito o [login](#login) com uma conta de usuario, podendo usufruir das funcionalidades do aplicativo.|
 |**Impacto** |
-| Permite que o [usuário](#usuário) preserve um histórico de pesquisas e [mensagens](mensagens). |
+| Permite que o [usuário](#usuario) preserve um histórico de pesquisas e [mensagens](mensagens). |
+|**Sinônimos**|
+|Autenticado|
 
 ## Aba
 
@@ -126,6 +138,8 @@
 | Utilizador do [Pinterest](#pinterest).|
 |**Impacto** |
 | [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário. |
+|**Sinônimos**|
+|Usuários|
 
 ## Feed
 
@@ -142,14 +156,18 @@
 | Ter acesso a uma conta previamente cadastrada usando os dados do [usuario](#usuário). |
 |**Impacto** |
 | Logando com a conta, o usuário pode definir seus [interesses](#interesse), vizualizar [pins](#pin), além de poder desfrutar de outras funcionalidades no [Pinterest](#pinterest). |
+|**Sinônimos**|
+| autenticar, autenticado |
 
 ## Perfil
 
 |**Noção**|
 |--|
-| Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuário) para identifica-lo.  |
+| Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuário) para identifica-lo. Criado a partir do término do [cadastro](#cadastro).|
 |**Impacto** |
-| Com o perfil de [usuário](#usuário) é possivel que outros usuários possam reconhece-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [boards](#board). |
+| Com o perfil de [usuário](#usuário) é possivel que outros [usuários](#usuário) possam reconhecê-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [boards](#board). |
+|**Sinônimos**|
+|Conta |
 
 ## Mensagem
 
