@@ -104,10 +104,8 @@ O questionário a seguir refere-se aos usuários do Pinterest:
   A equipe concordou que um novo questionário com novas perguntas seriam mais colaborativo para a elicitação de mais requisitos. Para o novo questionário, sugerem-se as seguintes perguntas:
 
 ###### 1- Quais funcionalidades a seguir classificam a causa do seu uso do Pinterest?
-  - Divulgar meu trabalho
-  - Entretenimento
-  - Procurar inspirações
-
+  - Inspirações
+  - Diversão
 
 ###### 2- Qual é a sua frequência de uso do chat do Pinterest?
   - Alta  
@@ -122,3 +120,11 @@ O questionário a seguir refere-se aos usuários do Pinterest:
 ###### 4- Você considera o conteúdo do Pinterest exclusivo?
   - Com certeza
   - Encontro o mesmo conteúdo em outras fontes
+
+###### 5- Você sente falta de uma amplitude maior de temas no Pinterest?
+  - Sim
+  - Não
+
+###### 6- Você abre o Pinterest quando...
+  - Não tenho nada para fazer
+  - É sempre a minha primeira fonte de pesquisas
