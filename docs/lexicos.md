@@ -12,6 +12,8 @@
 |**Impacto** |
 | O [usuário](#usuario) consome pins do [Pinterest](#pinterest) para buscar inspiração. |
 | O [usuário](#usuario) pode [pinar](#pinar) um pin em um [board](#board) |
+|**Sinônimos**|
+|Pins|
 
 ## Pinar
 
@@ -78,9 +80,9 @@
 
 |**Noção**|
 |--|
-|		Ato de acompanhar as publicações de outros [usuários](#usuários) e receber todas as atualizações de [pins](#pins). |
+|		Ato de acompanhar as publicações de outros [usuários](#usuarios) e receber todas as atualizações de [pins](#pins). |
 |**Impacto** |
-| Receber o conteúdo publicado por outro [usuário](#usuário). |
+| Receber o conteúdo publicado por outro [usuário](#usuario). |
 
 ## Pinterest
 
@@ -147,13 +149,13 @@
 |--|
 | Formato de dados usado em formas de comunicação com conteúdo atualizado frequentemente. Visualização do conteúdo disponibilizado no [Pinterest](#pinterest) em formato de entrega contínua e infinita. |
 |**Impacto** |
-| Após [logar](#login) e definir os interesses, o feed do [Pinterest](#pinterest) tende a mostrar [pins](#pin) que agrada o [usuário](#usuário). |
+| Após [logar](#login) e definir os interesses, o feed do [Pinterest](#pinterest) tende a mostrar [pins](#pin) que agrada o [usuário](#usuario). |
 
 ## Login
 
 |**Noção**|
 |--|
-| Ter acesso a uma conta previamente cadastrada usando os dados do [usuario](#usuário). |
+| Ter acesso a uma conta previamente cadastrada usando os dados do [usuario](#usuario). |
 |**Impacto** |
 | Logando com a conta, o usuário pode definir seus [interesses](#interesse), vizualizar [pins](#pin), além de poder desfrutar de outras funcionalidades no [Pinterest](#pinterest). |
 |**Sinônimos**|
@@ -163,9 +165,9 @@
 
 |**Noção**|
 |--|
-| Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuário) para identifica-lo. Criado a partir do término do [cadastro](#cadastro).|
+| Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuario) para identifica-lo. Criado a partir do término do [cadastro](#cadastro).|
 |**Impacto** |
-| Com o perfil de [usuário](#usuário) é possivel que outros [usuários](#usuário) possam reconhecê-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [boards](#board). |
+| Com o perfil de [usuário](#usuario) é possivel que outros [usuários](#usuario) possam reconhecê-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [boards](#board). |
 |**Sinônimos**|
 |Conta |
 
@@ -173,22 +175,22 @@
 
 |**Noção**|
 |--|
-| Forma de comunicação com outro [usuário](#usuário). |
+| Forma de comunicação com outro [usuário](#usuario). |
 |**Impacto** |
-| O [usuário](#usuário) pode se comunicar com outros usuários podendo começar uma conversa de texto ou [compartilhar](#compartilhar) um [pin](#pin). |
+| O [usuário](#usuario) pode se comunicar com outros usuários podendo começar uma conversa de texto ou [compartilhar](#compartilhar) um [pin](#pin). |
 
 ## Notificação
 
 |**Noção**|
 |--|
-| Ato de mandar um aviso ao [usuário](#usuário) sobre novas relações com suas [boards](#board) ou novos [seguidores](#seguir). |
+| Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [boards](#board) ou novos [seguidores](#seguir). |
 |**Impacto** |
-|O [usuário](#usuário) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
+|O [usuário](#usuario) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
 
 ## Crash
 
 |**Noção**|
 |--|
-| Termo da computação que indíca encerramento inesperado da aplicação em execução. |
+| Termo da computação que indica encerramento inesperado da aplicação em execução. |
 |**Impacto** |
-|O aplicativo fecha e o [usuário](#usuário) deixa de concluir qualquer ação no app. |
+|O aplicativo fecha e o [usuário](#usuario) deixa de concluir qualquer ação no app. |
