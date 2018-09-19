@@ -8,9 +8,9 @@
 
 |**Noção**|
 |--|
-|  Uma imagem ou conteúdo exibido dentro do [Pinterest](#pinterest). <br> É a principal moeda de interação do [usuário](#usuario). <br> A interação ocorre a partir deste construto. <br> Os pins estão presentes dentro do [feed](#feed). <br> Os pins possuem [interesses](#interesse) relacionados a eles. <br> Os pins são salvos em [boards](#board). |
+|  Uma imagem ou conteúdo exibido dentro do [Pinterest](#pinterest). <br> É a principal moeda de interação do [usuário](#usuario). <br> A interação ocorre a partir deste construto. <br> Os pins estão presentes dentro do [feed](#feed). <br> Os pins possuem [interesses](#interesse) relacionados a eles. <br> Os pins são salvos em [pastas](#pasta). |
 |**Impacto** |
-| O [usuário](#usuario) pode ser [compartilhado](#compartihar), comentado, [pinado](#pinar) em uma [board](#board) e [baixado](#baixar-imagem). <br> O [usuário](#usuario) consome pins do [Pinterest](#pinterest) para buscar inspiração. <br> O [usuário](#usuario) pode denunciar um pin caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#pinterest). <br> O [usuário](#usuario) pode marca o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#pinterest). |
+| O [Pin](#pin) pode ser [compartilhado](#compartihar), comentado, [pinado](#pinar) em uma [pasta](#pasta) ou [subpasta](#subpasta) e [baixado](#baixar-imagem). <br> O [usuário](#usuario) consome [pins](#pin) do [Pinterest](#pinterest) para buscar inspiração. <br> O [usuário](#usuario) pode denunciar um [pin](#pin) caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#pinterest). <br> O [usuário](#usuario) pode marcar o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#pinterest). |
 |**Sinônimos**|
 |Pins, Imagem, Imagens, Foto, Fotos, Post, Posts|
 
@@ -18,9 +18,9 @@
 
 |**Noção**|
 |--|
-| É o ato do [usuário](#usuario) [salvar um pin](cenarios.md#salvar-um-pin) em um [board](#board) para poder acessar mais tarde ou para categorizar seus [pins](#pin).  |
+| É o ato do [usuário](#usuario) [salvar um pin](cenarios.md#salvar-um-pin) em um [pasta](#pasta) para poder acessar mais tarde ou para categorizar seus [pins](#pin).  |
 |**Impacto** |
-| O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. <br> O usuário guardou seus [pins](#pin) em um [board](#board).<br> O [usuário](#usuario) pode acessar posteriormente os [pins](#pin) salvos em suas [boards](#board). <br> A interação de pinar, aumenta a classificação de relevância do [interesse](#interesse) relacionado ao [pin](#pin) pinado, o que faz com que mais pins relacionados a este interesse apareça ao [feed](#feed) do [usuário](#usuario). |
+| O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. <br> O usuário guardou seus [pins](#pin) em um [pasta](#pasta).<br> O [usuário](#usuario) pode acessar posteriormente os [pins](#pin) salvos em suas [pastas](#pasta). <br> A interação de pinar, aumenta a classificação de relevância do [interesse](#interesse) relacionado ao [pin](#pin) pinado, o que faz com que mais pins relacionados a este interesse apareça ao [feed](#feed) do [usuário](#usuario). |
 |**Sinônimos**|
 | Pinado, Salvar, Salvo, Salva |
 
@@ -30,9 +30,20 @@
 |--|
 |	É uma coleção de [pins](#pin), contendo título para poder se diferenciar de outras coleções. <br> É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) [pinados](#pinar). <br> Pode possuír sub-conjuntos. |
 |**Impacto** |
-| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um board. <br> O [usuário](#usuario) pode criar sub-pastas para organizar os [pins](#pin) da board. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [board](#board). <br> Uma board pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma board pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
+| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um pasta. <br> O [usuário](#usuario) pode criar sub-pastas para organizar os [pins](#pin) da pasta. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [pasta](#pasta). <br> Uma pasta pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
 |**Sinônimos**|
-| Pasta, Pastas, Boards, Sub-pastas |
+| Board, Pastas, Boards |
+
+
+## Subpasta
+
+|**Noção**|
+|--|
+|	É uma coleção de [pins](#pin) interna a uma [pasta](#pasta) <br> O conteúdo dos [pins](#pins) comumente possui alguma relação com o conteúdo da [pasta](#pasta), mas formam um subconjunto próprio dentro da temática maior da [pasta](#pasta) <br> É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) dentro de uma [pasta](#pasta).  |
+|**Impacto** |
+| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em uma [subpasta](#subpasta). <br> O [usuário](#usuario) pode criar sub-pastas para organizar os [pins](#pin) da pasta. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [pasta](#pasta). <br> Uma pasta pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
+|**Sinônimos**|
+| Subpastas |
 
 ## Link
 
@@ -79,7 +90,7 @@
 |		Serviço de compartilhamento de imagens ([pins](#pin)) em que os [usuário](#usuario)s acessam em busca de inspiração e também de ver imagens relacionadas aos seus [interesses](#interesse). |
 |**Impacto** |
 | O Pinterest é uma plataforma de [compartilhamento](#compartilhar) de [pins](#pin) |
-| O [usuário](#usuario) do Pinterest gosta de ver [pins](#pin) e pode adicioná-los a um [board](#board) |
+| O [usuário](#usuario) do Pinterest gosta de ver [pins](#pin) e pode adicioná-los a um [pasta](#pasta) |
 
 ## Interesse
 
@@ -103,7 +114,7 @@
 |--|
 | Ato de distribuir os pins de seu interesse para outros [usuário](#usuario) e também para pessoas que não possuam conta no [Pinterest](#pinterest). |
 |**Impacto** |
-| Os [usuários](#usuario) compartilham [pins](#pin), [boards](#board). |
+| Os [usuários](#usuario) compartilham [pins](#pin), [pastas](#pasta). |
 |**Sinônimos**|
 |Compartilhado|
 
@@ -157,7 +168,7 @@
 |--|
 | Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuario) para identifica-lo. Criado a partir do término do [cadastro](#cadastro).|
 |**Impacto** |
-| Com o perfil de [usuário](#usuario) é possivel que outros [usuários](#usuario) possam reconhecê-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [boards](#board). |
+| Com o perfil de [usuário](#usuario) é possivel que outros [usuários](#usuario) possam reconhecê-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [pastas](#pasta). |
 |**Sinônimos**|
 |Conta|
 
@@ -173,7 +184,7 @@
 
 |**Noção**|
 |--|
-| Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [boards](#board) ou novos [seguidores](#seguir). |
+| Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [pastas](#pasta) ou novos [seguidores](#seguir). |
 |**Impacto** |
 |O [usuário](#usuario) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
 |**Sinônimos**|
@@ -191,9 +202,9 @@
 ## Aba Salvos
 |**Noção**|
 |--|
-| Aba que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#board), [pins](#pin), [experiências](#experimentou) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
+| Aba que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#pasta), [pins](#pin), [experiências](#experimentou) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
 |**Impacto** |
-| [Usuário](#usuario) define [interesses](#interesses) <br> [Usuário](#usuario) visualiza suas [pastas](#board) e [pins](#pin) <br> Novos [interesses](#interesse) aparecem no [feed](#feed) <br> [Usuário](#usuario) [experimenta](#experimentou) um [pin](#pin) <br>  [Usuário](#usuario) cria [pastas](#board) <br> [Usuário](#usuario) cria [pins](#pin) |
+| [Usuário](#usuario) define [interesses](#interesses) <br> [Usuário](#usuario) visualiza suas [pastas](#pasta) e [pins](#pin) <br> Novos [interesses](#interesse) aparecem no [feed](#feed) <br> [Usuário](#usuario) [experimenta](#experimentou) um [pin](#pin) <br>  [Usuário](#usuario) cria [pastas](#pasta) <br> [Usuário](#usuario) cria [pins](#pin) |
 
 ## Experimentou
 |**Noção**|
@@ -227,9 +238,9 @@
 ## Colaborar
 |**Noção**|
 |--|
-| [Usuários](#usuario) recebe permissão para gerênciar [pasta](#board) e subpastas. |
+| [Usuários](#usuario) recebe permissão para gerênciar [pasta](#pasta) e subpastas. |
 |**Impacto**|
-| [Usuários](#usuario) pode salvar [pins](#pin). <br> [Usuários](#usuario) pode remove [pins](#pin). <br> [Usuários](#usuario) pode criar [subpastas](#board).|
+| [Usuários](#usuario) pode salvar [pins](#pin). <br> [Usuários](#usuario) pode remove [pins](#pin). <br> [Usuários](#usuario) pode criar [subpastas](#pasta).|
 
 ## Recomendar
 |**Noção**|
@@ -241,18 +252,18 @@
 ## Excluir
 |**Noção**|
 |--|
-| Poder apagar um [pin](#pin) [salvo](#pinar) de uma [pasta](#board) ou a própria [pasta](#board). |
+| Poder apagar um [pin](#pin) [salvo](#pinar) de uma [pasta](#pasta) ou a própria [pasta](#pasta). |
 |**Impacto**|
-| O [usuário](#usuario) consegue deletar os [pins](#pin) [salvos](#pinar) que não são mais de seu interesse ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#board), pode-se apaga-la.
+| O [usuário](#usuario) consegue deletar os [pins](#pin) [salvos](#pinar) que não são mais de seu interesse ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#pasta), pode-se apaga-la.
 |**Sinônimos**|
 |Deletar, Apagar|
 
-## Mover
+## Mover [Pin](#pin)
 |**Noção**|
 |--|
-| Mudar um [pin](#pin) de uma [pasta](#board) para outra. |
+| Mudar um [pin](#pin) de uma [pasta](#pasta) para outra ou de uma [subpasta](#subpasta). |
 |**Impacto**|
-| O [usuário](#usuario) pode trocar a [pasta](#board) em que um [pin](#pin) foi [salvo](#pinar). |
+| O [usuário](#usuario) pode trocar a [pasta](#pasta) em que um [pin](#pin) foi [salvo](#pinar). |
 |**Sinônimos**|
 |Mudar de lugar, trocar|
 
@@ -261,4 +272,4 @@
 |--|
 | Organizar suas pastas em categorias. |
 |**Impacto**|
-| O [usuário](#usuario) pode poder mudar a ordem da organização das suas [pastas](#board). |
+| O [usuário](#usuario) pode poder mudar a ordem da organização das suas [pastas](#pasta). |
