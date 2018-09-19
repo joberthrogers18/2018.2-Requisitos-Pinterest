@@ -258,7 +258,7 @@
 |--|
 | Poder apagar um [pin](#pin) [salvo](#pinar) de uma [pasta](#pasta) ou a própria [pasta](#pasta). |
 |**Impacto**|
-| O [usuário](#usuario) consegue deletar os [pins](#pin) [salvos](#pinar) que não são mais de seu interesse ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#pasta), pode-se apaga-la.
+| O [usuário](#usuario) consegue deletar os [pins](#pin) [salvos](#pinar) que não são mais de seu [interesse](#interesse) ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#pasta), pode-se apaga-la.
 |**Sinônimos**|
 |Deletar, Apagar|
 
