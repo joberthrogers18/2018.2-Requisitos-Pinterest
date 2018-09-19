@@ -291,4 +291,13 @@
 
 ## Conta de Usuário
 
+
+|**Noção**|
+|--|
+|	Agrupamento de dados que representa um [usuário](#usuario) registrado do [pinterest](#pinterest), criado após o [cadastro](cenarios.md#cadastro-de-usuario) de uma pessoa no serviço. |
+|**Impacto** |
+| Para que o [usuário](#usuario) interaja com o várias funções do sistema é necessário possuir uma conta de usuário. |
+|**Sinônimos**|
+| conta |
+
 ## Organizar
