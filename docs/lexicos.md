@@ -1,6 +1,6 @@
 # Introdução
 
-É comum em meios sociais que existam termos próprios relacionadas às ações e contextos do cotidiano. Dessa forma, surgem os léxicos: termos que descrevem os símbolos de uma linguagem.
+É comum em meios sociais que existam termos próprios relacionadas às ações e contextos do cotidiano. Dessa forma, surgem os léxicos: termos que descrevem os símbolos de uma linguagem e que denotam ações, atores ou estados que possuem representação única quando relacionada a um contexto específico.
 
 # Léxicos
 
@@ -10,9 +10,9 @@
 |--|
 |  Uma imagem ou conteúdo exibido dentro do [Pinterest](#pinterest). <br> É a principal moeda de interação do [usuário](#usuario). <br> A interação ocorre a partir deste construto. <br> Os pins estão presentes dentro do [feed](#feed). <br> Os pins possuem [interesses](#interesse) relacionados a eles. <br> Os pins são salvos em [pastas](#pasta). |
 |**Impacto** |
-| O [Pin](#pin) pode ser [compartilhado](#compartihar), comentado, [pinado](#pinar) em uma [pasta](#pasta) ou [subpasta](#subpasta) e [baixado](#baixar-imagem). <br> O [usuário](#usuario) consome [pins](#pin) do [Pinterest](#pinterest) para buscar inspiração. <br> O [usuário](#usuario) pode denunciar um [pin](#pin) caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#pinterest). <br> O [usuário](#usuario) pode marcar o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#pinterest). |
+| O Pin pode ser [compartilhado](#compartihar), comentado, [pinado](#pinar) em uma [pasta](#pasta) ou [subpasta](#subpasta) e [baixado](#baixar-imagem). <br> O [usuário](#usuario) consome pins do [Pinterest](#pinterest) para buscar inspiração. <br> O [usuário](#usuario) pode denunciar um [pin](#pin) caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#pinterest). <br> O [usuário](#usuario) pode marcar o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#pinterest). |
 |**Sinônimos**|
-|Pins, Imagem, Imagens, Foto, Fotos, Post, Posts|
+|Pins, Imagem, Imagens, Foto, Fotos, Post, Posts, Postagem|
 
 ## Pinar
 
@@ -20,7 +20,7 @@
 |--|
 | É o ato do [usuário](#usuario) [salvar um pin](cenarios.md#salvar-um-pin) em um [pasta](#pasta) para poder acessar mais tarde ou para categorizar seus [pins](#pin).  |
 |**Impacto** |
-| O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. <br> O usuário guardou seus [pins](#pin) em um [pasta](#pasta).<br> O [usuário](#usuario) pode acessar posteriormente os [pins](#pin) salvos em suas [pastas](#pasta). <br> A interação de pinar, aumenta a classificação de relevância do [interesse](#interesse) relacionado ao [pin](#pin) pinado, o que faz com que mais pins relacionados a este interesse apareça ao [feed](#feed) do [usuário](#usuario). |
+| O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. <br> O usuário guarda seus [pins](#pin) em um [pasta](#pasta).<br> O [usuário](#usuario) pode acessar posteriormente os [pins](#pin) salvos em suas [pastas](#pasta). <br> A interação de pinar aumenta a classificação de relevância do [interesse](#interesse) relacionado ao [pin](#pin) pinado, o que faz com que mais pins relacionados a este interesse apareça no [feed](#feed) do [usuário](#usuario). |
 |**Sinônimos**|
 | Pinado, Salvar, Salvo, Salva |
 
@@ -28,20 +28,20 @@
 
 |**Noção**|
 |--|
-|	É uma coleção de [pins](#pin), contendo título para poder se diferenciar de outras coleções. <br> É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) [pinados](#pinar). <br> Pode possuír sub-conjuntos. |
+|	É uma coleção de [pins](#pin), contendo título para poder se diferenciar de outras coleções. <br> É utilizado pelos [usuários](#usuario) para [organizar](#organizar) os seus [pins](#pin) [pinados](#pinar). <br> Pode possuír sub-conjuntos denominados [subpastas](#subpasta). |
 |**Impacto** |
-| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um pasta. <br> O [usuário](#usuario) pode criar sub-pastas para organizar os [pins](#pin) da pasta. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [pasta](#pasta). <br> Uma pasta pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
+| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um pasta. <br> O [usuário](#usuario) pode criar subpastas para [organizar](#organizar) os [pins](#pin) da pasta. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [pasta](#pasta). <br> Uma pasta pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
 |**Sinônimos**|
-| Board, Pastas, Boards |
+| Pastas, Board, Boards |
 
 
 ## Subpasta
 
 |**Noção**|
 |--|
-|	É uma coleção de [pins](#pin) interna a uma [pasta](#pasta) <br> O conteúdo dos [pins](#pins) comumente possui alguma relação com o conteúdo da [pasta](#pasta), mas formam um subconjunto próprio dentro da temática maior da [pasta](#pasta) <br> É utilizado pelos [usuários](#usuario) para organizar os seus [pins](#pin) dentro de uma [pasta](#pasta).  |
+|	É uma coleção de [pins](#pin) interna a uma [pasta](#pasta) <br> O conteúdo dos [pins](#pins) em uma subpasta costuma possuir alguma relação com o conteúdo da [pasta](#pasta), mas formam um subconjunto próprio dentro da temática maior da [pasta](#pasta) <br> É utilizado pelos [usuários](#usuario) para [organizar](#organizar) os seus [pins](#pin) dentro de uma [pasta](#pasta).  |
 |**Impacto** |
-| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em uma [subpasta](#subpasta). <br> O [usuário](#usuario) pode criar sub-pastas para organizar os [pins](#pin) da pasta. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [pasta](#pasta). <br> Uma pasta pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
+| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em uma [subpasta](#subpasta). <br> O [usuário](#usuario) pode criar várias subpastas dentro de uma mesma [pasta](#pasta). <br> O [usuário](#usuario) que [colabora](#colabora) com a [pasta](#pasta) também colabora com suas subpastas. <br> Os [Pins](#pin) do [usuário](#usuario) ficam organizados por subtemas pertencentes ao tema da pasta. |
 |**Sinônimos**|
 | Subpastas |
 
@@ -49,29 +49,31 @@
 
 |**Noção**|
 |--|
-|	Texto que redireciona o [usuário](#usuario) para outra [página](#pagina). |
+|	Texto que redireciona o [usuário](#usuario) para outra [Aba](#aba). <br> Conexão entre duas [abas](#aba) diferentes. |
 |**Impacto** |
-| Muda a tela atual do usuário <br> Provoca uma ação. |
-|**Sinônimos|
-|linkar|
+|  Abre uma outra [aba](#aba) de acordo com o link utilizado. <br> Conecta duas [abas](#aba) diferentes do aplicativo. <br> Permite que o [usuário](#usuario) acesse a [aba](#aba) referente a um [pin](#pin) específico. <br> O Link enviado permite que qualquer [usuário](#usuario) com conta no [Pinterest](#pinterest) possa acessar a [aba](#aba) de um [pin](#pin), [pasta](#pasta) ou [subpasta](#subpasta). |
+|**Sinônimos**|
+|linkar, linkado|
 
 ## Logado
 
 |**Noção**|
 |--|
-|		Ação de estar cadastrado no [Pinterest](#pinterest) após ter feito o [login](#login) com uma conta de usuario, podendo usufruir das funcionalidades do aplicativo.|
+|	Estado do [usuário](#usuario) após ter feito o [login](#login) com uma [conta de usuário](#conta-de-usuario), podendo usufruir das funcionalidades do aplicativo.|
 |**Impacto** |
-| Permite que o [usuário](#usuario) preserve um histórico de pesquisas e [mensagens](mensagens). |
+| Permite que o [usuário](#usuario) preserve um histórico de pesquisas e [mensagens](mensagens). <br> Permite que o usuário crie [pastas](#pastas) e as [compartilhe](#compartilhar). <br> Permite que o usuário edite informações do seu [perfil](#perfil).|
 |**Sinônimos**|
-|Autenticado|
+| Autenticado |
 
 ## Aba
 
 |**Noção**|
 |--|
-|	Representação da divisão de conteúdos e ações do [Pinterest](#pinterest). <br>  |
+|	Representação da divisão de conteúdos do [Pinterest](#pinterest). <br> Tela visualizada em alguma opção selecionada do aplicativo. <br> Ambiente virtual em que se realizam ações no [Pinterest](#pinterest).|
 |**Impacto** |
-| Classificação de ações. |
+| Permite que o usuário realize as ações referentes àquela aba específica. <br> Categoriza o aplicativo em diferentes ambientes e funcionalidades. <br> Fornece a noção do uso de diferentes funcionalidades. |
+|**Sinônimos**|
+| Página |
 
 ## Seguir
 
@@ -79,18 +81,20 @@
 |--|
 |		Ato de acompanhar as publicações de outros [usuários](#usuarios) e receber todas as atualizações de [pins](#pins). |
 |**Impacto** |
-| Receber o conteúdo publicado por outro [usuário](#usuario). |
+| O [Usuário](#usuario) que segue recebe [notificações](#notificacao) do conteúdo publicado por outro [usuário](#usuario). <br> O [Usuário](#usuario) que segue uma [pasta](#pasta) recebe [notficiações](#notificacao) de alterações nos [pins](#pin) e [subpastas](#subpasta). |
 |**Sinônimos**|
-|Seguidores, Seguido, Seguidos|
+|Seguidores, Seguido, Seguidos, Seguindo, Seguidor|
 
 ## Pinterest
 
 |**Noção**|
 |--|
-|		Serviço de compartilhamento de imagens ([pins](#pin)) em que os [usuário](#usuario)s acessam em busca de inspiração e também de ver imagens relacionadas aos seus [interesses](#interesse). |
+|		Serviço de compartilhamento de imagens ([pins](#pin)) em que os [usuários](#usuario) acessam em busca de inspiração e de ver imagens relacionadas aos seus [interesses](#interesse) profissionais ou pessoais. |
 |**Impacto** |
-| O Pinterest é uma plataforma de [compartilhamento](#compartilhar) de [pins](#pin) |
-| O [usuário](#usuario) do Pinterest gosta de ver [pins](#pin) e pode adicioná-los a um [pasta](#pasta) |
+| O Pinterest é uma plataforma de [compartilhamento](#compartilhar) de [pins](#pin) <br> O [usuário](#usuario) do Pinterest gosta de ver [pins](#pin) e pode adicioná-los a um [pasta](#pasta). <br> O [Usuário](#usuario) pode [organizar](#organizar) as [imagens](#pin) de seu [interesse](#interesse) e de um mesmo tema em conjuntos [organizados](#organizar) como [pastas](#pasta) |
+|**Sinônimos**|
+| - |
+
 
 ## Interesse
 
@@ -273,3 +277,7 @@
 | Organizar suas pastas em categorias. |
 |**Impacto**|
 | O [usuário](#usuario) pode poder mudar a ordem da organização das suas [pastas](#pasta). |
+
+## Conta de Usuário
+
+## Organizar
