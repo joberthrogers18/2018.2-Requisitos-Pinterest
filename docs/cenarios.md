@@ -321,7 +321,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser [ocultado](lexicos.md#ocultar) <br> |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo [feed](lexicos.md#feed) de repleto de [pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão [Ocultar](lexicos.md#ocultar) <br> [Pinterest](lexicos.md#pinterest) informa que [pins](lexicos.md#pin) com esse tipo de conteúdo não aparecerão mais para o [usuário](lexicos.md#usuario) <br> |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página(lexicos.md#pagina) inicial para visualizar e navegar pelo [feed](lexicos.md#feed) de repleto de [pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão [Ocultar](lexicos.md#ocultar) <br> [Pinterest](lexicos.md#pinterest) informa que [pins](lexicos.md#pin) com esse tipo de conteúdo não aparecerão mais para o [usuário](lexicos.md#usuario) <br> |
 
 ## [Denunciar](lexicos.md#denunciar) um [Pin](lexicos.md#pin)
 
@@ -354,3 +354,35 @@
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) não ter os recursos exigidos pelo [pin](lexicos.md#pin) para [experimentá-lo](lexicos.md#experimentar)|
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na [Aba Salvos](lexicos.md#abasalvos) <br>  [Usuário](lexicos.md#usuario) seleciona a opção [Experimentados](lexicos.md#experimentar) <br> [Pinterest](lexicos.md#pinterest) apresenta em lista os [pins](lexicos.md#pin) [salvos](lexicos.md#pinar) pelo [usuário](lexicos.md#usuario) <br>[Usuário](lexicos.md#usuario) seleciona a opção adicionar [pin](lexicos.md#pin)  <br> [Usuário](lexicos.md#usuario) tira foto do [pin](lexicos.md#pin) [experimentado](lexicos.md#experimentar) <br>  [Usuário](lexicos.md#usuario) inclui uma anotação a respeito de sua experiência <br> [Usuário](lexicos.md#usuario) seleciona a opção Concluído  |
+
+## Sair do aplicativo [Pinterest](lexicos.md#pinterest)
+
+|**Objetivo** |
+|--|
+| Sair de uma conta [logada](lexicos.md#logado)|
+|**Contexto** |
+| Local: [Aba de Salvos](lexicos.md#abasalvos) do [Pinterest](lexicos.md#pinterest), na opção da ignição <br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar [logado](lexicos.md#logado) em sua conta do [Pinterest](lexicos.md#pinterest) <br> Pós-Condição: O [usuário](lexicos.md#usuario) não estará mais [logado](lexicos.md#logado) no [Pinterest](lexicos.md#pinterest)|
+|**Atores** |
+| [Usuário](lexicos.md#usuario) |
+|**Recursos** |
+| Internet, aplicativo, conta de usuário|
+|**Exceção** |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br>|
+|**Episódios** |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na [Aba Salvos](lexicos.md#abasalvos) <br>  [Usuário](lexicos.md#usuario) seleciona a opção Ignição <br>[Usuário](lexicos.md#usuario) seleciona a opção Sair <br> [Usuário](lexicos.md#usuario) visualiza a [página](lexicos.md#pagina) inicial de [login](lexicod.md#logado) do [Pinterest](lexicos.md#pinterest)<br>
+
+## Editar [Perfil](lexicos.md#perfil)
+
+|**Objetivo** |
+|--|
+| Alterar ou atualizar algum dado sobre o perfil do [usuário](lexico.md#usuario)|
+|**Contexto** |
+| Local: [Página](lexico.md#pagina) de edição do [Pinterest](lexico.md#pinterest) <br> Pré-Condição: Estar conectado à internet <br> Ser cadastrado no [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: O [usuário](lexicos.md#usuario) tem seus dados atualizados na sua [página](lexico.md#pagina) de perfil|
+|**Atores** |
+| [Usuário](lexicos.md#usuario) |
+|**Recursos** |
+| Internet, aplicativo, [conta](lexicos.md#login) de usuário|
+|**Exceção** |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br>|
+|**Episódios** |
+|[Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica na ignição superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a opção [perfil](lexico.md#pefil) no canto superior esquerdo da [página](lexico.md#pagina) de edição <br> O [Usuário](lexicos.md#usuario) muda seu nome e/ou sobrenome <br> **ou**  <br> [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexico.md#pefil) no canto superior esquerdo da [página](lexico.md#pagina) de edição <br> O [Usuário](lexicos.md#usuario) muda sua foto de [perfil](lexico.md#perfil) <br> **ou** <br> O [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexico.md#pefil) no canto superior esquerdo da [página](lexico.md#pagina) de edição <br> O [Usuário](lexicos.md#usuario) muda seu username <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexico.md#pefil) no canto superior esquerdo da [página](lexico.md#pagina) de edição <br> O [Usuário](lexicos.md#usuario) adiciona ou muda a descrição sobre ele <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexico.md#pefil) no canto superior esquerdo da [página](lexico.md#pagina) de edição <br> O [Usuário](lexicos.md#usuario) muda ou adiciona sua localização <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexico.md#pefil) no canto superior esquerdo da [página](lexico.md#pagina) de edição <br> O [Usuário](lexicos.md#usuario) muda ou adiciona seu website, caso ele possua um
