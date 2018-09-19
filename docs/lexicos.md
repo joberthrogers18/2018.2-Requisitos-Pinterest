@@ -144,7 +144,7 @@
 |--|
 | Utilizador do [Pinterest](#pinterest).|
 |**Impacto** |
-| [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário. <br> O usuário pode [compartilhar](#compartilhar), [pinar](#pinar), [comentar](#comentar) nos [pins](#pin). <br> O usuário pode [seguir](#seguir) outros usuários, definir seus [interesses](#interesse) e [explorar](#explorar) no [Pinterest](#pinterest).  |
+| [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário. <br> O usuário pode [compartilhar](#compartilhar), [pinar](#pinar), [comentar](#comentar) nos [pins](#pin). <br> O [usuário](#usuario) pode [seguir](#seguir) outros usuários, definir seus [interesses](#interesse) e [explorar](#explorar) no [Pinterest](#pinterest).  |
 |**Sinônimos**|
 |Usuários|
 
@@ -160,9 +160,9 @@
 
 |**Noção**|
 |--|
-| Ter acesso a uma conta previamente cadastrada usando os dados do [usuario](#usuario). |
+| Ter acesso a uma [conta](#perfil) previamente cadastrada usando os dados do [usuario](#usuario). |
 |**Impacto** |
-| Logando com a conta, o usuário pode definir seus [interesses](#interesse), vizualizar [pins](#pin), além de poder desfrutar de outras funcionalidades no [Pinterest](#pinterest). |
+| Logando com a [conta](#perfil), o [usuário](#usuario) pode definir seus [interesses](#interesse), vizualizar [pins](#pin), além de poder desfrutar de outras funcionalidades no [Pinterest](#pinterest). |
 |**Sinônimos**|
 | autenticar, autenticado |
 
@@ -206,25 +206,25 @@
 ## Aba Salvos
 |**Noção**|
 |--|
-| Aba que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#pasta), [pins](#pin), [experiências](#experimentou) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
+| [Aba](#aba) que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#pasta), [pins](#pin), [experiências](#experimentar) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
 |**Impacto** |
-| [Usuário](#usuario) define [interesses](#interesse). <br> [Usuário](#usuario) visualiza suas [pastas](#pasta) e [pins](#pin) <br> Novos [interesses](#interesse) aparecem no [feed](#feed). <br> [Usuário](#usuario) [experimenta](#experimentou) um [pin](#pin) <br>  [Usuário](#usuario) cria [pastas](#pasta). <br> [Usuário](#usuario) cria [pins](#pin). |
+| O [usuário](#usuario) pode navegar por suas [pastas](#pasta) e [pins](#pin). <br> Na aba salvo o [usuário](#usuario) pode visualizar dados, [pins](#pin) e [pastas](#pasta). |
 
-## Experimentou
+## Experimentar
 |**Noção**|
 |--|
 | Aquilo que foi mostrado por um (pin)[#pin] e aplicado na vida real, podendo conter informações extras sobre essa experiência. |
 |**Impacto** |
-| [Usuário](#usuario) experimenta [pin](#pin) <br> Usuário adiciona foto de experiência ao [pin](#pin) <br> Usuário comenta experiência <br>   |
+| [Usuário](#usuario) experimenta [pin](#pin) <br> [Usuário](#usuario) adiciona foto de experiência ao [pin](#pin) <br> [Usuário](#usuario) comenta experiência <br>   |
 |**Sinônimos** |
-| Experiências, experimentar  |
+| Experiências |
 
 ## Comentar
 |**Noção**|
 |--|
 | Ato do [usuário](#usuario) fazer observações e deixar opniões sobre o [pin](#pin).|
 |**Impacto**|
-|O [usuário](#usuario) pode comentar em [pins](#pin) de seu interesse. <br> O [usuário](#usuario) tem a opção de comentar em [pins](#pins) que não concorda. <br> Qualquer [usuário](#usuario) que acesse o [pin](#pin) pode ver seus comentários. |
+|O [usuário](#usuario) pode comentar em [pins](#pin) de seu interesse. <br> O [usuário](#usuario) tem a opção de comentar em [pins](#pin) que não concorda. <br> Qualquer [usuário](#usuario) que acesse o [pin](#pin) pode ver seus comentários. |
 | **Sinônimos**|
 |Comentário, Comentários|
 
@@ -241,7 +241,7 @@
 |--|
 | Ato de copiar o link do caminho do [pin](#pin) no [Pinterest](#pinterest). |
 |**Impacto**|
-| O [usuaŕio](#usuario) pode copiar a imagem para enviar para outros [usuários](#usuário) em outras rede sociais. <br> O [usuário](#usuario) pode copiar a [imagem](#pin) e poder usar em outros lugares.  |
+| O [usuaŕio](#usuario) pode copiar a imagem para enviar para outros [usuários](#usuario) em outras rede sociais. <br> O [usuário](#usuario) pode copiar a [imagem](#pin) e poder usar em outros lugares.  |
 
 ## Colaborar
 |**Noção**|
