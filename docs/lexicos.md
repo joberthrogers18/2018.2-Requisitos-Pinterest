@@ -208,7 +208,7 @@
 |--|
 | [Aba](#aba) que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#pasta), [pins](#pin), [experiências](#experimentar) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
 |**Impacto** |
-| O [usuário](#usuario) pode navegar por suas [pastas](#pasta) e [pins](#pin). <br> Na aba salvo o [usuário](#usuario) pode visualizar dados, [pins](#pin) e [pastas](#pasta). |
+| O [usuário](#usuario) pode  por suas [pastas](#pasta) e [pins](#pin). <br> Na aba salvo o [usuário](#usuario) pode visualizar dados, [pins](#pin) e [pastas](#pasta). |
 
 ## Experimentar
 |**Noção**|
@@ -290,20 +290,46 @@
 |  O [usuário](#usuario) [pina](#pinar) o resultado de uma pesquisa. <br>  O [usuário](#usuario) pesquisa por texto. <br> O [usuário](#usuario) pesquisa por imagem. <br> O [usuário](#usuario) pesquisa [pins](#pin) de um determinado [interesse](#interesse). |
 
 ## Conta de Usuário
-
-
 |**Noção**|
 |--|
 |	Agrupamento de dados que representa um [usuário](#usuario) registrado do [pinterest](#pinterest), criado após o [cadastro](cenarios.md#cadastro-de-usuario) de uma pessoa no serviço. |
 |**Impacto** |
 | Para que o [usuário](#usuario) interaja com o várias funções do sistema é necessário possuir uma conta de usuário. |
 |**Sinônimos**|
-| conta |
+| Conta |
 
 ## Organizar
-
-## Ocultar
+|**Noção**|
+|--|
+|	Permite ao [usuário](#usuario) modificar o agrupamento de [pins](#pin) em [pastas](#pasta) e [subpastas](#subpasta). |
+|**Impacto** |
+| O [usuário](#usuario) move [pins](#pin) entre [pastas](#pasta) e [subpastas](#subpasta). <br> O [usuário](#usuario) pode excluir [pins](#pin) de [pastas](#pasta) e [subpastas](#subpasta). <br> O [usuário](#usuario) pode excluir [pastas](#pasta) e [subpastas](#subpasta).|
+|**Sinônimos**|
+| Reorganizar, Reordenar, Modificar Pasta |
 
 ## Denunciar
+|**Noção**|
+|--|
+|	Ato de relatar a [comunidade](#comunidade) do [Pinterest](#pinterest) um [pin](#pin) com conteúdo indevido. |
+|**Impacto** |
+| O [pin](#pin) é [ocultado](#ocultar) para o [usuário](#usuario). <br> O [pin](#pin) é avaliado pela [comunidade](#comunidade) do [Pinterest](#pinterest) se ele realmente possui conteúdo impróprio ao app. |
+|**Sinônimos**|
+| Reportar, Denunciado, Denunciados |
 
 ## Comunidade
+|**Noção**|
+|--|
+|	Grupo de pessoas que administram o [Pinterest](#pinterest). |
+|**Impacto** |
+| Pessoas administram os [pins](#pin) do [Pinterest](#pinterest) para os [usuários](#usuario). <br> Grupo que avalia os [pins](#pin) [denunciados](#denunciar) pelos [usuários](#usuario). <br> Grupo que fiscaliza se há conteúdo impróprio nos [pins](#pin) postados pelos [usuários](#usuario). |
+|**Sinônimos**|
+| Administradores |
+
+## Navegar
+|**Noção**|
+|--|
+|	Percorrer as [abas](#aba) do [Pinterest](#pinterest). |
+|**Impacto** |
+| [Usuários](#usuario) acessam as funcionalidades do [Pinterest](#pinterest). <br> [Usuário](#usuario) percorre [página](#aba) inicial. <br> [Usuário](#usuario) navega pelas [pastas](#pasta) de [pins](#pin) salvos. <br> [Usuário](#usuario) entra na página de notificações. <br> [Usuário](#usuario) acessa [página](#aba) de [interesses](#interesse) e [usuários](#usuario) que está seguindo. |
+|**Sinônimos**|
+| Percorrer |
