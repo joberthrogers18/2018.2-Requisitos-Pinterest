@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "L\u00e9xicos";
     var mkdocs_page_input_path = "lexicos.md";
-    var mkdocs_page_url = "/lexicos/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -189,11 +190,11 @@
         
             <li><a class="toctree-l4" href="#organizar">Organizar</a></li>
         
-            <li><a class="toctree-l4" href="#ocultar_1">Ocultar</a></li>
-        
             <li><a class="toctree-l4" href="#denunciar">Denunciar</a></li>
         
             <li><a class="toctree-l4" href="#comunidade">Comunidade</a></li>
+        
+            <li><a class="toctree-l4" href="#navegar">Navegar</a></li>
         
         </ul>
     
@@ -387,7 +388,7 @@
 <td><strong>Impacto</strong></td>
 </tr>
 <tr>
-<td>Permite que o <a href="#usuario">usuário</a> preserve um histórico de pesquisas e <a href="../mensagens">mensagens</a>. <br> Permite que o <a href="#usuario">usuário</a> crie <a href="#pastas">pastas</a> e as <a href="#compartilhar">compartilhe</a>. <br> Permite que o usuário edite informações do seu <a href="#perfil">perfil</a>.</td>
+<td>Permite que o <a href="#usuario">usuário</a> preserve um histórico de pesquisas e <a href="mensagens">mensagens</a>. <br> Permite que o <a href="#usuario">usuário</a> crie <a href="#pastas">pastas</a> e as <a href="#compartilhar">compartilhe</a>. <br> Permite que o usuário edite informações do seu <a href="#perfil">perfil</a>.</td>
 </tr>
 <tr>
 <td><strong>Sinônimos</strong></td>
@@ -747,7 +748,7 @@
 <td><strong>Impacto</strong></td>
 </tr>
 <tr>
-<td>O <a href="#usuario">usuário</a> pode navegar por suas <a href="#pasta">pastas</a> e <a href="#pin">pins</a>. <br> Na aba salvo o <a href="#usuario">usuário</a> pode visualizar dados, <a href="#pin">pins</a> e <a href="#pasta">pastas</a>.</td>
+<td>O <a href="#usuario">usuário</a> pode  por suas <a href="#pasta">pastas</a> e <a href="#pin">pins</a>. <br> Na aba salvo o <a href="#usuario">usuário</a> pode visualizar dados, <a href="#pin">pins</a> e <a href="#pasta">pastas</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -986,14 +987,110 @@
 <td><strong>Sinônimos</strong></td>
 </tr>
 <tr>
-<td>conta</td>
+<td>Conta</td>
 </tr>
 </tbody>
 </table>
 <h2 id="organizar">Organizar</h2>
-<h2 id="ocultar_1">Ocultar</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Noção</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Permite ao <a href="#usuario">usuário</a> modificar o agrupamento de <a href="#pin">pins</a> em <a href="#pasta">pastas</a> e <a href="#subpasta">subpastas</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>O <a href="#usuario">usuário</a> move <a href="#pin">pins</a> entre <a href="#pasta">pastas</a> e <a href="#subpasta">subpastas</a>. <br> O <a href="#usuario">usuário</a> pode excluir <a href="#pin">pins</a> de <a href="#pasta">pastas</a> e <a href="#subpasta">subpastas</a>. <br> O <a href="#usuario">usuário</a> pode excluir <a href="#pasta">pastas</a> e <a href="#subpasta">subpastas</a>.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>Reorganizar, Reordenar, Modificar Pasta</td>
+</tr>
+</tbody>
+</table>
 <h2 id="denunciar">Denunciar</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Noção</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ato de relatar a <a href="#comunidade">comunidade</a> do <a href="#pinterest">Pinterest</a> um <a href="#pin">pin</a> com conteúdo indevido.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>O <a href="#pin">pin</a> é <a href="#ocultar">ocultado</a> para o <a href="#usuario">usuário</a>. <br> O <a href="#pin">pin</a> é avaliado pela <a href="#comunidade">comunidade</a> do <a href="#pinterest">Pinterest</a> se ele realmente possui conteúdo impróprio ao app.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>Reportar, Denunciado, Denunciados</td>
+</tr>
+</tbody>
+</table>
 <h2 id="comunidade">Comunidade</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Noção</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Grupo de pessoas que administram o <a href="#pinterest">Pinterest</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>Pessoas administram os <a href="#pin">pins</a> do <a href="#pinterest">Pinterest</a> para os <a href="#usuario">usuários</a>. <br> Grupo que avalia os <a href="#pin">pins</a> <a href="#denunciar">denunciados</a> pelos <a href="#usuario">usuários</a>. <br> Grupo que fiscaliza se há conteúdo impróprio nos <a href="#pin">pins</a> postados pelos <a href="#usuario">usuários</a>.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>Administradores</td>
+</tr>
+</tbody>
+</table>
+<h2 id="navegar">Navegar</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Noção</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Percorrer as <a href="#aba">abas</a> do <a href="#pinterest">Pinterest</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td><a href="#usuario">Usuários</a> acessam as funcionalidades do <a href="#pinterest">Pinterest</a>. <br> <a href="#usuario">Usuário</a> percorre <a href="#aba">página</a> inicial. <br> <a href="#usuario">Usuário</a> navega pelas <a href="#pasta">pastas</a> de <a href="#pin">pins</a> salvos. <br> <a href="#usuario">Usuário</a> entra na página de notificações. <br> <a href="#usuario">Usuário</a> acessa <a href="#aba">página</a> de <a href="#interesse">interesses</a> e <a href="#usuario">usuários</a> que está seguindo.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>Percorrer</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>
@@ -1018,12 +1115,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -1037,7 +1134,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
