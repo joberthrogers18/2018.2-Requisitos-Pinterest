@@ -179,9 +179,10 @@
 
 |**Noção**|
 |--|
-| Forma de comunicação com outro [usuário](#usuario). |
+| Forma de comunicação com um ou mais [usuários](#usuario) no formato de texto, também podendo conter um [pin](#pin) dentro dela. |
 |**Impacto** |
 | O [usuário](#usuario) pode se comunicar com outros usuários podendo começar uma conversa de texto ou [compartilhar](#compartilhar) um [pin](#pin). |
+| Quando o [usuário](#usuario) destinatário vizualiza a mensagem, aparece uma indicação de leitura para quem enviou a mensagem. |
 
 ## Notificação
 
