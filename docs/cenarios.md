@@ -415,7 +415,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br>|
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na [Aba Salvos](lexicos.md#abasalvos) <br>  [Usuário](lexicos.md#usuario) seleciona a opção Ignição <br>[Usuário](lexicos.md#usuario) seleciona a opção Sair <br> [Usuário](lexicos.md#usuario) visualiza a [página](lexicos.md#aba) inicial de [login](lexicod.md#logado) do [Pinterest](lexicos.md#pinterest)<br>
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na [Aba Salvos](lexicos.md#abasalvos) <br>  [Usuário](lexicos.md#usuario) seleciona a opção Ignição <br>[Usuário](lexicos.md#usuario) seleciona a opção Sair <br> [Usuário](lexicos.md#usuario) visualiza a [página](lexicos.md#aba) inicial de [login](lexicos.md#logado) do [Pinterest](lexicos.md#pinterest)<br>
 
 ## Editar [Perfil](lexicos.md#perfil)
 
