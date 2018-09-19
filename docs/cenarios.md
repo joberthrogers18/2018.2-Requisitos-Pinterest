@@ -357,7 +357,7 @@
 |**Recursos** |
 | Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
 |**Restrição**|
-| - |
+| Que o [pin](lexicos.md#pin) não seja do interesse do [usuário](lexicos.md#usuario). |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser [ocultado](lexicos.md#ocultar) <br> |
 |**Episódios** |
@@ -374,6 +374,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
+|**Restrição**|
+| O [pin](lexicos.md#pin) ser inapropriado. |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
@@ -390,6 +392,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin), câmera de celular e recursos do conteúdo a ser [experimentado](lexicos.md#experimentar) do [pin](lexicos.md#pin)|
+|**Restrição**|
+| O [usuário](lexicos.md#usuario) ter experimentado o conteúdo do pin na vida real. |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) não ter os recursos exigidos pelo [pin](lexicos.md#pin) para [experimentá-lo](lexicos.md#experimentar)|
 |**Episódios** |
@@ -406,10 +410,12 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de usuário|
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br>|
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na [Aba Salvos](lexicos.md#abasalvos) <br>  [Usuário](lexicos.md#usuario) seleciona a opção Ignição <br>[Usuário](lexicos.md#usuario) seleciona a opção Sair <br> [Usuário](lexicos.md#usuario) visualiza a [página](lexicos.md#aba) inicial de [login](lexicod.md#logado) do [Pinterest](lexicos.md#pinterest)<br>
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na [Aba Salvos](lexicos.md#abasalvos) <br>  [Usuário](lexicos.md#usuario) seleciona a opção Ignição <br>[Usuário](lexicos.md#usuario) seleciona a opção Sair <br> [Usuário](lexicos.md#usuario) visualiza a [página](lexicos.md#aba) inicial de [login](lexicos.md#logado) do [Pinterest](lexicos.md#pinterest)<br>
 
 ## Editar [Perfil](lexicos.md#perfil)
 
@@ -422,7 +428,9 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, [conta](lexicos.md#login) de usuário|
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br>|
 |**Episódios** |
-|[Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica na ignição superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a opção [perfil](lexicos.md#pefil) no canto superior esquerdo da [página](lexicos.md#aba) de edição <br> O [Usuário](lexicos.md#usuario) muda seu nome e/ou sobrenome <br> **ou**  <br> [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexicos.md#pefil) no canto superior esquerdo da [página](lexicos.md#aba) de edição <br> O [Usuário](lexicos.md#usuario) muda sua foto de [perfil](lexicos.md#perfil) <br> **ou** <br> O [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexicos.md#pefil) no canto superior esquerdo da [página](lexicos.md#aba) de edição <br> O [Usuário](lexicos.md#usuario) muda seu username <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexicos.md#pefil) no canto superior esquerdo da [página](lexicos.md#aba) de edição <br> O [Usuário](lexicos.md#usuario) adiciona ou muda a descrição sobre ele <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexicos.md#pefil) no canto superior esquerdo da [página](lexicos.md#aba) de edição <br> O [Usuário](lexicos.md#usuario) muda ou adiciona sua localização <br> **ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica nos três pontos no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) clica na opção [perfil](lexicos.md#pefil) no canto superior esquerdo da [página](lexicos.md#aba) de edição <br> O [Usuário](lexicos.md#usuario) muda ou adiciona seu website, caso ele possua um
+|[Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica na ignição superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a opção [perfil](lexicos.md#pefil) no canto superior esquerdo da [página](lexicos.md#pagina) de edição <br> O [Usuário](lexicos.md#usuario) muda seu nome e/ou sobrenome <br> **ou** <br> O [Usuário](lexicos.md#usuario) muda sua foto de [perfil](lexicos.md#perfil) <br> **ou**  <br> O [Usuário](lexicos.md#usuario) muda seu username <br> **ou** <br> O [Usuário](lexicos.md#usuario) adiciona ou muda a descrição sobre ele <br> **ou** <br> O [Usuário](lexicos.md#usuario) muda ou adiciona sua localização <br> **ou** <br> O [Usuário](lexicos.md#usuario) muda ou adiciona seu website, caso ele possua um
