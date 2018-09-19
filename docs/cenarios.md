@@ -114,7 +114,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser enviado <br> [Usuário](lexicos.md#usuario) que for receber o [Pin](lexicos.md#pin) ter bloqueado o que for enviá-lo |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo feed de [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Enviar <br> [Usuário](lexicos.md#usuario) escolhe a forma de envio <br> [Usuário](lexicos.md#usuario) enviar o [Pin](lexicos.md#pin) para outra pessoa |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo [feed](lexicos.md#feed) de [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Enviar <br> [Usuário](lexicos.md#usuario) escolhe a forma de envio <br> [Usuário](lexicos.md#usuario) enviar o [Pin](lexicos.md#pin) para outra pessoa |
 
 ## Fazer [login](lexicos.md#login)
 
@@ -306,3 +306,51 @@
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
 |[Usuário](lexicos.md#usuário) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuário) clica no ícone de [perfil](lexicos.md#perfil) <br> [Usuário](lexicos.md#usuário) clica em um ícone <br> [Usuário](lexicos.md#usuário) clica no ícone de seta para baixo na parte superior direita da tela  <br> [Usuário](lexicos.md#usuário) escolhe entre as opções de classificação ("Salvo pela última vez", "A a Z", "Igual à Web", "Mais antigas" e "Mais recentes") |
+
+## [Ocultar](lexicos.md#ocoultar) um [Pin](lexicos.md#pin)
+
+|**Objetivo** |
+|--|
+| [Ocultar](lexicos.md#ocultar) um [pin](lexicos.md#pin) de uma [aba](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) para que o [usuário](lexicos.md#usuario) não visualize mais determinado conteúdo|
+|**Contexto** |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: O [pin](lexicos.md#pin) não aparecerá mais para o [usuário](lexicos.md#usuario) em nenhuma das [abas](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) |
+|**Atores** |
+| [Usuário](lexicos.md#usuario) |
+|**Recursos** |
+| Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
+|**Exceção** |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser [ocultado](lexicos.md#ocultar) <br> |
+|**Episódios** |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo [feed](lexicos.md#feed) de repleto de [pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão [Ocultar](lexicos.md#ocultar) <br> [Pinterest](lexicos.md#pinterest) informa que [pins](lexicos.md#pin) com esse tipo de conteúdo não aparecerão mais para o [usuário](lexicos.md#usuario) <br> |
+
+## [Denunciar](lexicos.md#denunciar) um [Pin](lexicos.md#pin)
+
+|**Objetivo** |
+|--|
+| [Denunciar](lexicos.md#denunciar) um [pin](lexicos.md#pin) presente em uma [aba](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest)|
+|**Contexto** |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin), na opção "Mais"<br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br> O [usuário](lexicos.md#usuário) deverá encontrar um [pin](lexicos.md#pin) com conteúdo que julga como impróprio <br> Pós-Condição: O [pin](lexicos.md#pin) será encaminhado para a [comunidade](lexicos.md#comunidade) do [Pinterest](lexicos.md#pinterest) avaliar o conteúdo e não aparecerá mais para o [usuário](lexicos.md#usuario) em nenhuma das [abas](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) |
+|**Atores** |
+| [Usuário](lexicos.md#usuario) |
+|**Recursos** |
+| Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
+|**Exceção** |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
+|**Episódios** |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo [feed](lexicos.md#feed) repleto de de [pins](lexicos.md#pin) <br>  [Usuário](lexicos.md#usuario) encontra um [pin](lexicos.md#pin) com conteúdo impróprio <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Mais <br>  [Usuário](lexicos.md#usuario) clica no botão [Denunciar](lexicos.md#denunciar) <br>  [Pinterest](lexicos.md#pinterest) informa que [pins](lexicos.md#pin) com esse tipo de conteúdo não aparecerão mais para o [usuário](lexicos.md#usuario) <br> [Comunidade](lexicos.md#comunidade) do [Pinterest](lexicos.md#pinterest) avalia o conteúdo do [pin](lexicos.md#pin) [denunciado](lexicos.md#denunciado) e remove o conteúdo do aplicativo |
+
+## Classificar um [Pin](lexicos.md#pin) como [Experimentado](lexicos.md#experimentar)
+
+|**Objetivo** |
+|--|
+| [Experimentar](lexicos.md#experimentar) o conteúdo de um [pin](lexicos.md#pin) e classificá-lo na [aba](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) de [Experimentados](lexicos.md#experimentar)|
+|**Contexto** |
+| Local: [Aba de Salvos](lexicos.md#abasalvos) do [Pinterest](lexicos.md#pinterest), na opção [Experimentados](lexicos.md#experimentar)<br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br> O [usuário](lexicos.md#usuário) deverá [experimentar](lexicos.md#experimentar) na prática um [pin](lexicos.md#pin)<br> Pós-Condição: O [pin](lexicos.md#pin) ficará [salvo](lexicos.md#pinar) na [aba](lexicos.md#aba) [Experimentar](lexicos.md#experimentar) do [Pinterest](lexicos.md#pinterest) junto com uma foto do que foi [experimentado](lexicos.md#experimentar)|
+|**Atores** |
+| [Usuário](lexicos.md#usuario) |
+|**Recursos** |
+| Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin), câmera de celular e recursos do conteúdo a ser [experimentado](lexicos.md#experimentar) do [pin](lexicos.md#pin)|
+|**Exceção** |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) não ter os recursos exigidos pelo [pin](lexicos.md#pin) para [experimentá-lo](lexicos.md#experimentar)|
+|**Episódios** |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na [Aba Salvos](lexicos.md#abasalvos) <br>  [Usuário](lexicos.md#usuario) seleciona a opção [Experimentados](lexicos.md#experimentar) <br> [Pinterest](lexicos.md#pinterest) apresenta em lista os [pins](lexicos.md#pin) [salvos](lexicos.md#pinar) pelo [usuário](lexicos.md#usuario) <br>[Usuário](lexicos.md#usuario) seleciona a opção adicionar [pin](lexicos.md#pin)  <br> [Usuário](lexicos.md#usuario) tira foto do [pin](lexicos.md#pin) [experimentado](lexicos.md#experimentar) <br>  [Usuário](lexicos.md#usuario) inclui uma anotação a respeito de sua experiência <br> [Usuário](lexicos.md#usuario) seleciona a opção Concluído  |
