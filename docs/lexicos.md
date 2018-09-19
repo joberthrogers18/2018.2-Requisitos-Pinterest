@@ -282,6 +282,13 @@
 |**Impacto**|
 | O [usuário](#usuario) pode poder mudar a ordem da organização das suas [pastas](#pasta). |
 
+## Pesquisa
+|**Noção**|
+|--|
+| Ato de procurar [pins](#pin) por meio de palavras chave que estão relacionadas ao seu conteúdo, ou por imagens que seguem o mesmo padrão. |
+|**Impacto**|
+|  O [usuário](#usuario) [pina](#pinar) o resultado de uma pesquisa. <br>  O [usuário](#usuario) pesquisa por texto. <br> O [usuário](#usuario) pesquisa por imagem. <br> O [usuário](#usuario) pesquisa [pins](#pin) de um determinado [interesse](#interesse). |
+
 ## Conta de Usuário
 
 ## Organizar
