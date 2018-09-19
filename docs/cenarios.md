@@ -82,11 +82,11 @@
 |--|
 | Escolher assuntos que são do [interesse](lexicos.md#interesse) do [usuário](lexicos.md#usuario) |
 |**Contexto** |
-| Local: Logo após o cadastro ou na aba de [interesses](lexicos.md#interesse) dentro da aba salvo <br>  Pré-Condição: estar logado <br>  Pós-Condição: [usuário](lexicos.md#usuario) recebe [pins](lexicos.md#pin) que são do seu [interesse](lexicos.md#interesse) no seu [feed](lexicos.md#feed)|
+| Local: Logo após o cadastro ou na aba de [interesses](lexicos.md#interesse) dentro da aba salvo <br>  Pré-Condição: estar [logado](lexicos.md#logado) <br>  Pós-Condição: [usuário](lexicos.md#usuario) recebe [pins](lexicos.md#pin) que são do seu [interesse](lexicos.md#interesse) no seu [feed](lexicos.md#feed)|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
-| Internet, aplicativo, conta de [usuário](lexicos.md#usuario) |
+| Internet, aplicativo, [conta de usuário](lexicos.md#conta-de-usuario) |
 |**Restrição**|
 | - |
 |**Exceção** |
@@ -118,7 +118,7 @@
 |--|
 | Enviar um [Pin](lexicos.md#pin) para outro [usuário](lexicos.md#usuario) do [Pinterest](lexicos.md#pinterest) por meio de chat ou enviá-lo para outras pessoas que não utilizam o [Pinterest](lexicos.md#pinterest) por meio de outras redes sociais (WhatsApp, Facebook) ou até por SMS e e-mail |
 |**Contexto** |
-| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: O [Pin](lexicos.md#pin) é enviado a outro usuário. |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá estar [logado](lexicos.md#logado) em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: O [Pin](lexicos.md#pin) é enviado a outro usuário. |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -351,7 +351,7 @@
 |--|
 | [Ocultar](lexicos.md#ocultar) um [pin](lexicos.md#pin) de uma [aba](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) para que o [usuário](lexicos.md#usuario) não visualize mais determinado conteúdo|
 |**Contexto** |
-| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: O [pin](lexicos.md#pin) não aparecerá mais para o [usuário](lexicos.md#usuario) em nenhuma das [abas](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar [logado](lexicos.md#logado) em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: O [pin](lexicos.md#pin) não aparecerá mais para o [usuário](lexicos.md#usuario) em nenhuma das [abas](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -369,7 +369,7 @@
 |--|
 | [Denunciar](lexicos.md#denunciar) um [pin](lexicos.md#pin) presente em uma [aba](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest)|
 |**Contexto** |
-| Local: Página de detalhes de um [Pin](lexicos.md#pin), na opção "Mais"<br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br> O [usuário](lexicos.md#usuario) deverá encontrar um [pin](lexicos.md#pin) com conteúdo que julga como impróprio <br> Pós-Condição: O [pin](lexicos.md#pin) será encaminhado para a [comunidade](lexicos.md#comunidade) do [Pinterest](lexicos.md#pinterest) avaliar o conteúdo e não aparecerá mais para o [usuário](lexicos.md#usuario) em nenhuma das [abas](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin), na opção "Mais"<br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar [logado](lexicos.md#logado) em sua conta do [Pinterest](lexicos.md#pinterest) <br> O [usuário](lexicos.md#usuario) deverá encontrar um [pin](lexicos.md#pin) com conteúdo que julga como impróprio <br> Pós-Condição: O [pin](lexicos.md#pin) será encaminhado para a [comunidade](lexicos.md#comunidade) do [Pinterest](lexicos.md#pinterest) avaliar o conteúdo e não aparecerá mais para o [usuário](lexicos.md#usuario) em nenhuma das [abas](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -385,7 +385,7 @@
 |--|
 | [Experimentar](lexicos.md#experimentar) o conteúdo de um [pin](lexicos.md#pin) e classificá-lo na [aba](lexicos.md#aba) do [Pinterest](lexicos.md#pinterest) de [Experimentados](lexicos.md#experimentar)|
 |**Contexto** |
-| Local: [Aba de Salvos](lexicos.md#abasalvos) do [Pinterest](lexicos.md#pinterest), na opção [Experimentados](lexicos.md#experimentar)<br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br> O [usuário](lexicos.md#usuario) deverá [experimentar](lexicos.md#experimentar) na prática um [pin](lexicos.md#pin)<br> Pós-Condição: O [pin](lexicos.md#pin) ficará [salvo](lexicos.md#pinar) na [aba](lexicos.md#aba) [Experimentar](lexicos.md#experimentar) do [Pinterest](lexicos.md#pinterest) junto com uma foto do que foi [experimentado](lexicos.md#experimentar)|
+| Local: [Aba de Salvos](lexicos.md#abasalvos) do [Pinterest](lexicos.md#pinterest), na opção [Experimentados](lexicos.md#experimentar)<br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar [logado](lexicos.md#logado) em sua conta do [Pinterest](lexicos.md#pinterest) <br> O [usuário](lexicos.md#usuario) deverá [experimentar](lexicos.md#experimentar) na prática um [pin](lexicos.md#pin)<br> Pós-Condição: O [pin](lexicos.md#pin) ficará [salvo](lexicos.md#pinar) na [aba](lexicos.md#aba) [Experimentar](lexicos.md#experimentar) do [Pinterest](lexicos.md#pinterest) junto com uma foto do que foi [experimentado](lexicos.md#experimentar)|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |

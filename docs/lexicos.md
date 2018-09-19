@@ -163,7 +163,7 @@
 |**Impacto** |
 | Logando com a [conta](#perfil), o [usuário](#usuario) pode definir seus [interesses](#interesse), vizualizar [pins](#pin), além de poder desfrutar de outras funcionalidades no [Pinterest](#pinterest). |
 |**Sinônimos**|
-| autenticar, autenticado |
+| autenticar |
 
 ## Perfil
 
