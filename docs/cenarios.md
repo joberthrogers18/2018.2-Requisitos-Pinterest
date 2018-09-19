@@ -36,23 +36,23 @@
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona o [Pin](lexicos.md#pin) em que deseja comentar <br> [Usuário](lexicos.md#usuario) escreve seu comentário <br> [Usuário](lexicos.md#usuario) envia comentário |
 
-## Compartilhar [Pasta](lexicos.md#pasta)
+## Compartilhar [Pasta](lexicos.md#board)
 
 |Objetivo |
 |--|
-| Permitir que um ou mais [usuários](lexicos.md#usuario) tenham acesso a uma [pasta](lexicos.md#pasta), podendo editar os [Pins](lexicos.md#pin) existentes e adicionar novos. |
+| Permitir que um ou mais [usuários](lexicos.md#usuario) tenham acesso a uma [pasta](lexicos.md#board), podendo editar os [Pins](lexicos.md#pin) existentes e adicionar novos. |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) da [pasta](lexicos.md#pasta) a ser [compartilhada](lexicos.md#compartilhar) <br> Tempo: A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) será compartilhada deverá possuir ou criar uma nova conta no Pinterest. <br>  Pós-Condição:  |
+| Local: [Página](lexicos.md#pagina) da [pasta](lexicos.md#board) a ser [compartilhada](lexicos.md#compartilhar) <br> Tempo: A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#board) será compartilhada deverá possuir ou criar uma nova conta no Pinterest. <br>  Pós-Condição:  |
 |**Atores** |
-| [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) será [compartilhada](lexicos.md#compartilhar)|
+| [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#board) será [compartilhada](lexicos.md#compartilhar)|
 |**Recursos** |
-| Internet <br> Conta no aplicativo <br>  [Pasta](lexicos.md#pasta) <br>  |
+| Internet <br> Conta no aplicativo <br>  [Pasta](lexicos.md#board) <br>  |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro <br> [Usuário](lexicos.md#usuario) recusar o [convite](lexicos.md#convite) para [colaborar](lexicos.md#colaborar) |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona a opção de [compartilhar](lexicos.md#compartilhar) <br> [Usuário](lexicos.md#usuario) escolhe o outro [usuário](lexicos.md#usuario) com quem compartilhar <br> [Usuário](lexicos.md#usuario) envia o [convite](lexicos.md#convite) para [colaboração](lexicos.md#colaborar) |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) seleciona a opção de [compartilhar](lexicos.md#compartilhar) <br> [Usuário](lexicos.md#usuario) escolhe o outro [usuário](lexicos.md#usuario) com quem compartilhar <br> [Usuário](lexicos.md#usuario) envia o [convite](lexicos.md#convite) para [colaboração](lexicos.md#colaborar) |
 
-## Criar [Pasta](lexicos.md#pasta)
+## Criar [Pasta](lexicos.md#board)
 
 |Objetivo |
 |--|
@@ -66,7 +66,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro  |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até seu [perfil](lexicos.md#perfil) <br> [Usuário](lexicos.md#usuario) seleciona a opção de criar nova [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) escolhe se torna a [pasta](lexicos.md#pasta) [secreta](lexicos.md#pastaPrivada) ou não <br> [Usuário](lexicos.md#usuario) seleciona a opção criar <br> **Ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona um [pins](lexicos.md#pin) da página inicial <br> [Usuário](lexicos.md#usuario) seleciona a opção de [salvar](lexicos.md#salvar) [pin](lexicos.md#pin)  <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) escolhe a opção de criar [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) escolhe se torna a [pasta](lexicos.md#pasta) [secreta](lexicos.md#pastaPrivada) ou não <br> [Usuário](lexicos.md#usuario) seleciona a opção criar <br> |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até seu [perfil](lexicos.md#perfil) <br> [Usuário](lexicos.md#usuario) seleciona a opção de criar nova [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) escolhe se torna a [pasta](lexicos.md#board) [secreta](lexicos.md#pastaPrivada) ou não <br> [Usuário](lexicos.md#usuario) seleciona a opção criar <br> **Ou** <br> [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona um [pins](lexicos.md#pin) da página inicial <br> [Usuário](lexicos.md#usuario) seleciona a opção de [salvar](lexicos.md#salvar) [pin](lexicos.md#pin)  <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) escolhe a opção de criar [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) digita o nome que deseja dar à [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) escolhe se torna a [pasta](lexicos.md#board) [secreta](lexicos.md#pastaPrivada) ou não <br> [Usuário](lexicos.md#usuario) seleciona a opção criar <br> |
 
 ## Definir [interesses](lexicos.md#interesse)
 
@@ -82,7 +82,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pinterest](lexicos.md#pinterest) não oferecer o interesse que o [usuário](lexicos.md#usuario) procura |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br>[Usuário](lexicos.md#usuario) visualiza página principal <br> [Usuário](lexicos.md#usuario) seleciona a [aba "Salvos"] (lexicos.md#aba-salvos) <br> [Usuário](lexicos.md#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md#usuario) aperta botão "Adicionar [interesses](#interesse)" <br> [Usuário](lexicos.md#usuario) procura seus [interesses](lexicos.md#interesse) e os seleciona <br> [Usuário](lexicos.md#usuario) aperta "Concluído" |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br>[Usuário](lexicos.md#usuario) visualiza página principal <br> [Usuário](lexicos.md#usuario) seleciona a aba "Salvos" <br> [Usuário](lexicos.md#usuario) aperta botão [interesses](#interesse) <br> [Usuário](lexicos.md#usuario) aperta botão "Adicionar [interesses](#interesse)" <br> [Usuário](lexicos.md#usuario) procura seus [interesses](lexicos.md#interesse) e os seleciona <br> [Usuário](lexicos.md#usuario) aperta "Concluído" |
 
 ## Editar um [Pin](lexicos.md#pin)
 
@@ -98,7 +98,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash)
 |**Episódios** |
-| [Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a aba [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis no canto superior esquerdo da tela. <br> **ou** <br> [Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a aba [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) passa o mouse sobre o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis na parte superior do [pin](lexicos.md#pin). <br> **ou** <br> [Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a [aba](lexicos.md#aba) Pastas <br> [Usuário](lexicos.md#usuario) clica na pasta que está o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) passa o mouse sobre o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis na parte superior do [pin](lexicos.md#pin). <br> **ou** <br> [Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a [aba](lexicos.md#aba) "pastas" <br> [Usuário](lexicos.md#usuario) clica na [pasta](lexicos.md#pasta) que está o [pin](lexicos.md#pin) que deseja [editar](lexicos.md#editar) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja [editar](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no ícone de [editar](lexicos.md#editar) simbolizado por um lápis no canto superior esquerdo da tela.|
+| [Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a aba [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis no canto superior esquerdo da tela. <br> **ou** <br> [Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a aba [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) passa o mouse sobre o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis na parte superior do [pin](lexicos.md#pin). <br> **ou** <br> [Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a [aba](lexicos.md#aba) Pastas <br> [Usuário](lexicos.md#usuario) clica na pasta que está o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) passa o mouse sobre o [pin](lexicos.md#pin) que deseja editar <br> [Usuário](lexicos.md#usuario) clica no ícone de editar simbolizado por um lápis na parte superior do [pin](lexicos.md#pin). <br> **ou** <br> [Fazer login](#fazer-login) <br> [Usuário](lexicos.md#usuario) clica em sua página de [perfil](lexicos.md#perfil) no canto superior direito da tela <br> [Usuário](lexicos.md#usuario) seleciona a [aba](lexicos.md#aba) "pastas" <br> [Usuário](lexicos.md#usuario) clica na [pasta](lexicos.md#board) que está o [pin](lexicos.md#pin) que deseja [editar](lexicos.md#editar) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja [editar](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no ícone de [editar](lexicos.md#editar) simbolizado por um lápis no canto superior esquerdo da tela.|
 
 ## Enviar um [Pin](lexicos.md#pin)
 
@@ -106,7 +106,7 @@
 |--|
 | Enviar um [Pin](lexicos.md#pin) para outro [usuário](lexicos.md#usuario) do [Pinterest](lexicos.md#pinterest) por meio de chat ou enviá-lo para outras pessoas que não utilizam o [Pinterest](lexicos.md#pinterest) por meio de outras redes sociais (WhatsApp, Facebook) ou até por SMS e e-mail |
 |**Contexto** |
-| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: O [Pin](lexicos.md#pin) é enviado a outro usuário. |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -149,21 +149,21 @@
 |**Episódios** |feed
 | [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) clica em um [pin](lexicos.md#pin)<br> [Usuário](lexicos.md#usuario) clica no botão com o link para o site fonte no canto inferior direito da página <br> **ou** <br>  [Usuário](lexicos.md#usuario) abre o aplicativo  <br> [Usuário](lexicos.md#usuario) faz o [login](lexicos.md#login)<br> [Usuário](lexicos.md#usuario) passa o mouse sobre um [pin](lexicos.md#pin)<br> [Usuário](lexicos.md#usuario) clica no botão com o link para o site fonte no canto inferior direito da [pin](lexicos.md#pin)<br>|
 
-## Organizar [Pasta](lexicos.md#pasta)
+## Organizar [Pasta](lexicos.md#board)
 
 |Objetivo |
 |--|
-| Realocar [pins](lexicos.md#pin) em [pastas](lexicos.md#pasta) ou [subpastas](lexicos.md#board) e excluir [pins](lexicos.md#pin)|
+| Realocar [pins](lexicos.md#pin) em [pastas](lexicos.md#board) ou [subpastas](lexicos.md#subpasta) e excluir [pins](lexicos.md#pin)|
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) da [pasta](lexicos.md#pasta) a ser organizada <br> Tempo - A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) deve possuir [pins](lexicos.md#pin) na [pasta](lexicos.md#pasta) a ser organizada ou na [subpasta](lexicos.md#board) a ser organizada  <br>  Pós-Condição:|
+| Local: [Página](lexicos.md#pagina) da [pasta](lexicos.md#board) a ser organizada <br> Tempo - A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) deve possuir [pins](lexicos.md#pin) na [pasta](lexicos.md#board) a ser organizada ou na [subpasta](lexicos.md#subpasta) a ser organizada  <br>  Pós-Condição:|
 |**Atores** |
-| [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#pasta) <br> [Usuários](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) foi [compartilhada](lexicos.md#compartilhar)|
+| [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#board) <br> [Usuários](lexicos.md#usuario) com quem a [pasta](lexicos.md#board) foi [compartilhada](lexicos.md#compartilhar)|
 |**Recursos** |
-| Internet <br> Conta no aplicativo <br>  [Pasta](lexicos.md#pasta) <br> [Subpastas](lexicos.md#board) <br> [Pins](lexicos.md#pin) na [Pasta](lexicos.md#pasta) <br> |
+| Internet <br> Conta no aplicativo <br>  [Pasta](lexicos.md#board) <br> [Subpastas](lexicos.md#subpasta) <br> [Pins](lexicos.md#pin) na [Pasta](lexicos.md#board) <br> |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona a opção de organizar [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja modificar <br> [Usuário](lexicos.md#usuario) decide entre [excluir](lexicos.md#excluir), [mover](lexicos.md#mover) para [pasta](lexicos.md#pasta) ou para [subpasta](lexicos.md#board)|
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) navega até a [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) seleciona a opção de organizar [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) seleciona o [pin](lexicos.md#pin) que deseja modificar <br> [Usuário](lexicos.md#usuario) decide entre [excluir](lexicos.md#excluir), [mover](lexicos.md#mover) para [pasta](lexicos.md#board) ou para [subpasta](lexicos.md#subpasta)|
 
 ## Pesquisar por tema
 
@@ -219,7 +219,7 @@
 |--|
 | Salvar um [Pin](lexicos.md#pin) em uma pasta criada pelo [usuário](lexicos.md#usuario) do [Pinterest](lexicos.md#pinterest) |
 |**Contexto** |
-| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: |
+| Local: Página de detalhes de um [Pin](lexicos.md#pin) <br>  Pré-Condição: o [usuário](lexicos.md#usuario) deverá estar logado em sua conta do [Pinterest](lexicos.md#pinterest) <br>  Pós-Condição: O [Pin](lexicos.md#pin) é salvo em uma [pasta](lexicos.md/#board). |
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
@@ -283,27 +283,12 @@
 |--|
 | Ser [notificado](lexicos.md#notificacao) sobre alguma interação de outros [usuários](lexicos.md#usuário) ou novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) de [notificações](lexicos.md#notificacao) <br> Pré-Condição: O [Usuário](lexicos.md#usuário) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter algum [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) ou [seguir](lexicos.md#seguir) algum outro [usuário](lexicos.md#usuário) <br>  Pós-Condição: O [usuário](lexico.md#usuário) é avisado por um ícone sobre novas notificações|
+| Local: [Página](lexicos.md#pagina) de [notificações](lexicos.md#notificacao) <br> Pré-Condição: O [Usuário](lexicos.md#usuário) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter algum [pin](lexicos.md#pin) [pinado](lexicos.md#pinado) ou [seguir](lexicos.md#seguir) algum outro [usuário](lexicos.md#usuário) <br>  Pós-Condição:|
 |**Autores** |
-| [Usuários](lexicos.md#usuário), [usuários](lexicos.md#usuário) [seguidos](lexicos.md#seguir) e o [Pinterest](lexicos.md#pinterest) |
+| [Usuários](lexicos.md#usuário), [usuários](lexicos.md#usuário) seguido e o [Pinterest](lexicos.md#pinterest) |
 |**Recursos** |
 |Internet <br> Browser <br> Aplicativo <br>  [Seguir](lexicos.md#seguir) outro [usuário](lexicos.md#usuário) <br> [Pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br>  [Usuários](lexicos.md#usuário) [seguidos](lexicos.md#seguir) por um [usuário](lexicos.md#usuário) deixarem de segui-lo |
 |**Episódios** |
-|[Usuário](lexicos.md#usuário) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuário) [pina](lexicos.md#pinar) um [pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuário) [segue](lexicos.md#seguir) outro [usuário](lexicos.md#usuário) <br> [Usuário](lexicos.md#usuário) clica em no ícone de  [notificações](lexicos.md#notificacao) em seu [feed](lexico.md#feed) <br> [Usuário](lexicos.md#usuário) vê novas interações de outros [usuários](lexicos.md#usuário) e novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinar)
-
-## [Classificação](lexicos.md#classificar) de [pastas](#lexicos.md#boards)
-
-|**Objetivo** |
-|--|
-|Poder classificar as [pastas](lexicos.md#board) em cincos opções da preferência do [usuário](lexicos.md#usuário), sendo elas "Salvo pela última vez", "A a Z", "Igual à Web", "Mais antigas" e "Mais recentes" e assim as [pastas](lexicos.md#board) serão reorganizadas
-| Local: Conjunto de [pastas](lexicos.md#board) <br> Pré-Condição: O [Usuário](lexicos.md#usuário) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter mais de uma  [pasta](lexicos.md#board)  <br>  Pós-Condição: O [usuário](lexico.md#usuário) consegue classificar suas [pastas](lexicos.md#board)|
-|**Autores** |
-| [Usuários](lexicos.md#usuário) |
-|**Recursos** |
-|Internet <br> Browser <br> Aplicativo <br> Ter mais de uma [pasta](lexicos.md#board) <br>  |
-|**Exceção** |
-| Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
-|**Episódios** |
-|[Usuário](lexicos.md#usuário) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuário) clica no ícone de [perfil](lexicos.md#perfil) <br> [Usuário](lexicos.md#usuário) clica em um ícone <br> [Usuário](lexicos.md#usuário) clica no ícone de seta para baixo na parte superior direita da tela  <br> [Usuário](lexicos.md#usuário) escolhe entre as opções de classificação ("Salvo pela última vez", "A a Z", "Igual à Web", "Mais antigas" e "Mais recentes")
+|[Usuário](lexicos.md#usuário) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuário) [pina](lexicos.md#pinar) um [pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuário) [segue](lexicos.md#seguir) outro [usuário](lexicos.md#usuário) <br> [Usuário](lexicos.md#usuário) clica em [notificações](lexicos.md#notificacao)  <br> [Usuário](lexicos.md#usuário) vê novas interações de outros [usuários](lexicos.md#usuário) e novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinar)
