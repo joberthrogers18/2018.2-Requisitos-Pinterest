@@ -292,3 +292,17 @@
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br>  [Usuários](lexicos.md#usuário) [seguidos](lexicos.md#seguir) por um [usuário](lexicos.md#usuário) deixarem de segui-lo |
 |**Episódios** |
 |[Usuário](lexicos.md#usuário) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuário) [pina](lexicos.md#pinar) um [pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuário) [segue](lexicos.md#seguir) outro [usuário](lexicos.md#usuário) <br> [Usuário](lexicos.md#usuário) clica em [notificações](lexicos.md#notificacao)  <br> [Usuário](lexicos.md#usuário) vê novas interações de outros [usuários](lexicos.md#usuário) e novos [pins](lexicos.md#pin) relacionados a um [pin](lexicos.md#pin) [pinado](lexicos.md#pinar)
+
+## [Classificação](lexicos.md#classificar) de [pastas](#lexicos.md#boards)
+|**Objetivo** |
+|--|
+|Poder classificar as [pastas](lexicos.md#board) em cincos opções da preferência do [usuário](lexicos.md#usuário), sendo elas "Salvo pela última vez", "A a Z", "Igual à Web", "Mais antigas" e "Mais recentes" e assim as [pastas](lexicos.md#board) serão reorganizadas
+| Local: Conjunto de [pastas](lexicos.md#board) <br> Pré-Condição: O [Usuário](lexicos.md#usuário) deve estar [logado](lexicos.md#login) na sua conta do [Pinterest](lexicos.md#pinterest) e ter mais de uma  [pasta](lexicos.md#board)  <br>  Pós-Condição: O [usuário](lexico.md#usuário) consegue classificar suas [pastas](lexicos.md#board)|
+|**Autores** |
+| [Usuários](lexicos.md#usuário) |
+|**Recursos** |
+|Internet <br> Browser <br> Aplicativo <br> Ter mais de uma [pasta](lexicos.md#board) <br>  |
+|**Exceção** |
+| Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
+|**Episódios** |
+|[Usuário](lexicos.md#usuário) acessa o [Pinterest](lexicos.md#pinterest) <br> [Usuário](lexicos.md#usuário) clica no ícone de [perfil](lexicos.md#perfil) <br> [Usuário](lexicos.md#usuário) clica em um ícone <br> [Usuário](lexicos.md#usuário) clica no ícone de seta para baixo na parte superior direita da tela  <br> [Usuário](lexicos.md#usuário) escolhe entre as opções de classificação ("Salvo pela última vez", "A a Z", "Igual à Web", "Mais antigas" e "Mais recentes") |
