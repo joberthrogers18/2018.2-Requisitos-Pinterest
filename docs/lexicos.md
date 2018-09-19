@@ -61,7 +61,7 @@
 |--|
 |	Estado do [usuário](#usuario) após ter feito o [login](#login) com uma [conta de usuário](#conta-de-usuario), podendo usufruir das funcionalidades do aplicativo.|
 |**Impacto** |
-| Permite que o [usuário](#usuario) preserve um histórico de pesquisas e [mensagens](mensagens). <br> Permite que o usuário crie [pastas](#pastas) e as [compartilhe](#compartilhar). <br> Permite que o usuário edite informações do seu [perfil](#perfil).|
+| Permite que o [usuário](#usuario) preserve um histórico de pesquisas e [mensagens](mensagens). <br> Permite que o [usuário](#usuario) crie [pastas](#pastas) e as [compartilhe](#compartilhar). <br> Permite que o usuário edite informações do seu [perfil](#perfil).|
 |**Sinônimos**|
 | Autenticado |
 
@@ -100,9 +100,11 @@
 
 |**Noção**|
 |--|
-| Algo em que o [usuário](#usuario) do [Pinterest](#pinterest) tem demonstrado ser digno de atenção. Podendo ser inferido a partir das ações deste [usuário](#usuario) ou a partir do que o [usuário](#usuario) informa ao [pinterest](#pinterest) quando cria seu cadastro no sistema. |
+| Tema recorrente e em comum entre os [Pins](#pin) que o [usuário](#usuario) acessa ou salva. <br> Correlação das temáticas mais acessadas pelo [usuário](#usuario)  |
 |**Impacto** |
-| Os [usuários](#usuario) definem seus interesses de seus [pins](#pin) mostrados. |
+| Os [usuários](#usuario) definem seus interesses de seus [pins](#pin) mostrados. <br> O [Pinterest](#pinterest) pode definir os temas dos [pins](#pin) que aparecerão no [feed](#feed) do usuário <br> As indicações de [pastas](#pastas) que o [usuário](#usuario) recebe passam a ser direcionadas para seus interesses. <br> O [Usuário](#usuario) passa a ter mais facilidade em encontrar [Pins](#pin) que lhe agradem. <br> O interesse é afetado pela interação do usuário com os pins de seu feed. |
+|**Sinônimos**|
+| Interesses, Gosto, Gostos |
 
 ## Explorar
 
@@ -110,33 +112,30 @@
 |--|
 | Ato de descoberta orgânica de novos [pins](#pin) e [interesses](#interesse) dentro do [Pinterest](#pinterest). Também pode se referir a [aba](#aba) de exploração, que fornece funcionalidade de auxílio à descoberta de conteúdo. |
 |**Impacto** |
-| Os [usuários](#usuario) definem seus interesses que impactam os [pins](#pin) que são mostrados atravéz da exploração do conteúdo. |
+| Os [usuários](#usuario) definem seus [interesses](#interesse) que impactam os [pins](#pin) que são mostrados atravéz da exploração do conteúdo. <br> O [Usuário](#usuario) tem acesso a [Pins](#pin) recentes conforme seus [interesses](#interesse). <br> O [Usuário](#usuario) pode encontrar [Pins](#pin) que o ajudem a definir novos [interesses](#interesse) |
+|**Sinônimos**|
+| - |
 
 ## Compartilhar
 
 |**Noção**|
 |--|
-| Ato de distribuir os pins de seu interesse para outros [usuário](#usuario) e também para pessoas que não possuam conta no [Pinterest](#pinterest). |
+| Ato de enviar os [pins](#pin) de seu [interesse](#interesse) para outros [usuários](#usuario) e também para pessoas que não possuam conta no [Pinterest](#pinterest). <br> Enviar o [link](#link) de um [pin](#pin) para uma outra rede social |
 |**Impacto** |
-| Os [usuários](#usuario) compartilham [pins](#pin), [pastas](#pasta). |
+| Os [usuários](#usuario) compartilham [pins](#pin), [pastas](#pasta). <br> Pessoas que não utilizam o [Pinterest](#pinterest) podem acessar um determinado [pin](#pin) <br> [Usuários](#usuario) podem acessar uma [aba](#aba) específica ao se compartilhar o [link](#link) dessa aba. |
 |**Sinônimos**|
 |Compartilhado|
 
-## Seguir
-
-|**Noção**|
-|--|
-| Ato de interagir e acompanhar os interesses e atividades de determinado [usuário](#usuario).|
-|**Impacto** |
-| [usuário](#usuario) segue outro [usuário](#usuario) para receber as atividades dele em seu FEED e poder interarir por meio de chat com o mesmo. |
 
 ## Ocultar
 
 |**Noção**|
 |--|
-| Remove o [pin](#pin) do [feed](#feed) do [usuário](#usuario) do Pinterest e indica que o [interesse](#interesse) que gerou aquele [pin](#pin) pode não mais ser relevantes.|
+| Remove o [pin](#pin) do [feed](#feed) do [usuário](#usuario) do Pinterest. <br> Indicar que o [interesse](#interesse) que gerou aquele [pin](#pin) pode não mais ser relevante.|
 |**Impacto** |
-| Conforme o [usuário](#usuario) oculte pins de determinado interesse, a relevância desse interesse diminui. |
+| Conforme o [usuário](#usuario) oculte [pins](#pin) de determinado interesse, a relevância desse interesse diminui. <br> O [Pinterest](#pinterest) impede que [Pins](#pin) daquele mesmo [interesse](#interesse) seja mostrado ao [usuário](#usuario) no [feed](#feed). <br> O [Pinterest](#pinterest) pode fazer com que aquele [pin](#pin) seja removido ao ser ocultado de muitos [feeds](#feed)|
+|**Sinônimos**|
+| Bloquear |
 
 ## Usuário
 
