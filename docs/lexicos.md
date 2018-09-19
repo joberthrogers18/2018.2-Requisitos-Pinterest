@@ -140,7 +140,7 @@
 |--|
 | Utilizador do [Pinterest](#pinterest).|
 |**Impacto** |
-| [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário. |
+| [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário. <br> O usuário pode [compartilhar](#compartilhar), [pinar](#pinar), [comentar](#comentar) nos [pins](#pin). <br> O usuário pode [seguir](#seguir) outros usuários, definir seus [interesses](#interesse) e [explorar](#explorar) no [Pinterest](#pinterest).  |
 |**Sinônimos**|
 |Usuários|
 
@@ -168,7 +168,7 @@
 |--|
 | Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuario) para identifica-lo. Criado a partir do término do [cadastro](#cadastro).|
 |**Impacto** |
-| Com o perfil de [usuário](#usuario) é possivel que outros [usuários](#usuario) possam reconhecê-lo, seguir uns ao outros, mandar mensagens ou [compartilhar](#compartilhar) [pins](#pin) e [pastas](#pasta). |
+| Com o perfil de [usuário](#usuario) é possivel que outros [usuários](#usuario) possam reconhecê-lo, [seguir](#seguir) uns ao outros, mandar [mensagens](#mensagem) ou [compartilhar](#compartilhar) [pins](#pin) e [pastas](#pasta). |
 |**Sinônimos**|
 |Conta|
 
@@ -184,7 +184,7 @@
 
 |**Noção**|
 |--|
-| Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [pastas](#pasta) ou novos [seguidores](#seguir). |
+| Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [pastas](#pasta), novos [seguidores](#seguir), ou [recomendações](#recomendar). |
 |**Impacto** |
 |O [usuário](#usuario) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
 |**Sinônimos**|
@@ -204,7 +204,7 @@
 |--|
 | Aba que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#pasta), [pins](#pin), [experiências](#experimentou) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
 |**Impacto** |
-| [Usuário](#usuario) define [interesses](#interesses) <br> [Usuário](#usuario) visualiza suas [pastas](#pasta) e [pins](#pin) <br> Novos [interesses](#interesse) aparecem no [feed](#feed) <br> [Usuário](#usuario) [experimenta](#experimentou) um [pin](#pin) <br>  [Usuário](#usuario) cria [pastas](#pasta) <br> [Usuário](#usuario) cria [pins](#pin) |
+| [Usuário](#usuario) define [interesses](#interesse). <br> [Usuário](#usuario) visualiza suas [pastas](#pasta) e [pins](#pin) <br> Novos [interesses](#interesse) aparecem no [feed](#feed). <br> [Usuário](#usuario) [experimenta](#experimentou) um [pin](#pin) <br>  [Usuário](#usuario) cria [pastas](#pasta). <br> [Usuário](#usuario) cria [pins](#pin). |
 
 ## Experimentou
 |**Noção**|
@@ -220,13 +220,17 @@
 |--|
 | Ato do [usuário](#usuario) fazer observações e deixar opniões sobre o [pin](#pin).|
 |**Impacto**|
-|O [usuário](#usuario) pode comentar em [pins](#pin) de seu interesse. <br> O [usuário](#usuario) tem a opção de comentar em pins que não concorda. <br> Qualquer [usuário](#usuario) que acesse o [pin](#pin) pode ver seus comentários. |
+|O [usuário](#usuario) pode comentar em [pins](#pin) de seu interesse. <br> O [usuário](#usuario) tem a opção de comentar em [pins](#pins) que não concorda. <br> Qualquer [usuário](#usuario) que acesse o [pin](#pin) pode ver seus comentários. |
 | **Sinônimos**|
 |Comentário, Comentários|
 
 
 ## Baixar Imagem
-
+|**Noção**|
+|--|
+| Ato de o [usuário](#usuario) fazer download de uma [imagem](#pin) para seu dispositivo pessoal. |
+|**Impacto**|
+| O [usuaŕio](#usuario) pode baixar [imagem](#pin) para usar como papel de parede em seu dispositivo. <br>  O [usuário](#usuario) pode baixar a [imagem](#pin) e poder usar em outros lugares. |
 
 ## Copiar Imagem
 |**Noção**|
@@ -238,7 +242,7 @@
 ## Colaborar
 |**Noção**|
 |--|
-| [Usuários](#usuario) recebe permissão para gerênciar [pasta](#pasta) e subpastas. |
+| [Usuários](#usuario) recebe permissão para gerênciar [pastas](#pasta) e subpastas. |
 |**Impacto**|
 | [Usuários](#usuario) pode salvar [pins](#pin). <br> [Usuários](#usuario) pode remove [pins](#pin). <br> [Usuários](#usuario) pode criar [subpastas](#pasta).|
 
@@ -247,7 +251,7 @@
 |--|
 | O [Pinterest](#pinterest) pode indicar novos [pins](#pin) de acordo com as atividades recentes do [usuários](#usuario). |
 |**Impacto**|
-| O [Pinterest](#pinterest) recomenda [pins](#pin) mais próximos ao interesses e ao uso do [usuário](#usuario). <br> O [usuário](#usuario) pode receber recomendações de [pins](#pin) relacionado a [usuários](#usuario) a qual essa pessoa segue. |
+| O [Pinterest](#pinterest) recomenda [pins](#pin) mais próximos ao [interesses](#interesse) e ao uso do [usuário](#usuario). <br> O [usuário](#usuario) pode receber recomendações de [pins](#pin) relacionado a [usuários](#usuario) a qual essa pessoa [segue](#seguir). |
 
 ## Excluir
 |**Noção**|
