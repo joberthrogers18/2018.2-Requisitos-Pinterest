@@ -157,6 +157,12 @@
         
             <li><a class="toctree-l4" href="#classificacao-de-pastas">Classificação de pastas</a></li>
         
+            <li><a class="toctree-l4" href="#ocultar-um-pin">Ocultar um Pin</a></li>
+        
+            <li><a class="toctree-l4" href="#denunciar-um-pin">Denunciar um Pin</a></li>
+        
+            <li><a class="toctree-l4" href="#classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</a></li>
+        
         </ul>
     
 
@@ -510,7 +516,7 @@
 <td><strong>Episódios</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> entra na página inicial para visualizar e navegar pelo feed de <a href="../lexicos/#pin">Pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona um <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no botão Enviar <br> <a href="../lexicos/#usuario">Usuário</a> escolhe a forma de envio <br> <a href="../lexicos/#usuario">Usuário</a> enviar o <a href="../lexicos/#pin">Pin</a> para outra pessoa</td>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> entra na página inicial para visualizar e navegar pelo <a href="../lexicos/#feed">feed</a> de <a href="../lexicos/#pin">Pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona um <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no botão Enviar <br> <a href="../lexicos/#usuario">Usuário</a> escolhe a forma de envio <br> <a href="../lexicos/#usuario">Usuário</a> enviar o <a href="../lexicos/#pin">Pin</a> para outra pessoa</td>
 </tr>
 </tbody>
 </table>
@@ -1024,6 +1030,135 @@
 </tr>
 <tr>
 <td><a href="../lexicos/#usuário">Usuário</a> acessa o <a href="../lexicos/#pinterest">Pinterest</a> <br> <a href="../lexicos/#usuário">Usuário</a> clica no ícone de <a href="../lexicos/#perfil">perfil</a> <br> <a href="../lexicos/#usuário">Usuário</a> clica em um ícone <br> <a href="../lexicos/#usuário">Usuário</a> clica no ícone de seta para baixo na parte superior direita da tela  <br> <a href="../lexicos/#usuário">Usuário</a> escolhe entre as opções de classificação ("Salvo pela última vez", "A a Z", "Igual à Web", "Mais antigas" e "Mais recentes")</td>
+</tr>
+</tbody>
+</table>
+<h2 id="ocultar-um-pin"><a href="../lexicos/#ocoultar">Ocultar</a> um <a href="../lexicos/#pin">Pin</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Objetivo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../lexicos/#ocultar">Ocultar</a> um <a href="../lexicos/#pin">pin</a> de uma <a href="../lexicos/#aba">aba</a> do <a href="../lexicos/#pinterest">Pinterest</a> para que o <a href="../lexicos/#usuario">usuário</a> não visualize mais determinado conteúdo</td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Página de detalhes de um <a href="../lexicos/#pin">Pin</a> <br>  Pré-Condição: o <a href="../lexicos/#usuario">usuário</a> deverá estar logado em sua conta do <a href="../lexicos/#pinterest">Pinterest</a> <br>  Pós-Condição: O <a href="../lexicos/#pin">pin</a> não aparecerá mais para o <a href="../lexicos/#usuario">usuário</a> em nenhuma das <a href="../lexicos/#aba">abas</a> do <a href="../lexicos/#pinterest">Pinterest</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, conta de usuário, <a href="../lexicos/#pin">pin</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair <br> App dar <a href="../lexicos/#crash">crash</a> <br> <a href="../lexicos/#pin">Pin</a> ser excluído ao ser <a href="../lexicos/#ocultar">ocultado</a> <br></td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> entra na página inicial para visualizar e navegar pelo <a href="../lexicos/#feed">feed</a> de repleto de <a href="../lexicos/#pin">pins</a> <br> <a href="../lexicos/#usuario">Usuário</a> seleciona um <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no botão <a href="../lexicos/#ocultar">Ocultar</a> <br> <a href="../lexicos/#pinterest">Pinterest</a> informa que <a href="../lexicos/#pin">pins</a> com esse tipo de conteúdo não aparecerão mais para o <a href="../lexicos/#usuario">usuário</a> <br></td>
+</tr>
+</tbody>
+</table>
+<h2 id="denunciar-um-pin"><a href="../lexicos/#denunciar">Denunciar</a> um <a href="../lexicos/#pin">Pin</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Objetivo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../lexicos/#denunciar">Denunciar</a> um <a href="../lexicos/#pin">pin</a> presente em uma <a href="../lexicos/#aba">aba</a> do <a href="../lexicos/#pinterest">Pinterest</a></td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: Página de detalhes de um <a href="../lexicos/#pin">Pin</a>, na opção "Mais"<br>  Pré-Condição: o <a href="../lexicos/#usuario">usuário</a> deverá estar logado em sua conta do <a href="../lexicos/#pinterest">Pinterest</a> <br> O <a href="../lexicos/#usuário">usuário</a> deverá encontrar um <a href="../lexicos/#pin">pin</a> com conteúdo que julga como impróprio <br> Pós-Condição: O <a href="../lexicos/#pin">pin</a> será encaminhado para a <a href="../lexicos/#comunidade">comunidade</a> do <a href="../lexicos/#pinterest">Pinterest</a> avaliar o conteúdo e não aparecerá mais para o <a href="../lexicos/#usuario">usuário</a> em nenhuma das <a href="../lexicos/#aba">abas</a> do <a href="../lexicos/#pinterest">Pinterest</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, conta de usuário, <a href="../lexicos/#pin">pin</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair <br> App dar <a href="../lexicos/#crash">crash</a> <br></td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> entra na página inicial para visualizar e navegar pelo <a href="../lexicos/#feed">feed</a> repleto de de <a href="../lexicos/#pin">pins</a> <br>  <a href="../lexicos/#usuario">Usuário</a> encontra um <a href="../lexicos/#pin">pin</a> com conteúdo impróprio <br> <a href="../lexicos/#usuario">Usuário</a> seleciona um <a href="../lexicos/#pin">Pin</a> <br> <a href="../lexicos/#usuario">Usuário</a> clica no botão Mais <br>  <a href="../lexicos/#usuario">Usuário</a> clica no botão <a href="../lexicos/#denunciar">Denunciar</a> <br>  <a href="../lexicos/#pinterest">Pinterest</a> informa que <a href="../lexicos/#pin">pins</a> com esse tipo de conteúdo não aparecerão mais para o <a href="../lexicos/#usuario">usuário</a> <br> <a href="../lexicos/#comunidade">Comunidade</a> do <a href="../lexicos/#pinterest">Pinterest</a> avalia o conteúdo do <a href="../lexicos/#pin">pin</a> <a href="../lexicos/#denunciado">denunciado</a> e remove o conteúdo do aplicativo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="classificar-um-pin-como-experimentado">Classificar um <a href="../lexicos/#pin">Pin</a> como <a href="../lexicos/#experimentar">Experimentado</a></h2>
+<table>
+<thead>
+<tr>
+<th><strong>Objetivo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../lexicos/#experimentar">Experimentar</a> o conteúdo de um <a href="../lexicos/#pin">pin</a> e classificá-lo na <a href="../lexicos/#aba">aba</a> do <a href="../lexicos/#pinterest">Pinterest</a> de <a href="../lexicos/#experimentar">Experimentados</a></td>
+</tr>
+<tr>
+<td><strong>Contexto</strong></td>
+</tr>
+<tr>
+<td>Local: <a href="../lexicos/#abasalvos">Aba de Salvos</a> do <a href="../lexicos/#pinterest">Pinterest</a>, na opção <a href="../lexicos/#experimentar">Experimentados</a><br>  Pré-Condição: o <a href="../lexicos/#usuario">usuário</a> deverá estar logado em sua conta do <a href="../lexicos/#pinterest">Pinterest</a> <br> O <a href="../lexicos/#usuário">usuário</a> deverá <a href="../lexicos/#experimentar">experimentar</a> na prática um <a href="../lexicos/#pin">pin</a><br> Pós-Condição: O <a href="../lexicos/#pin">pin</a> ficará <a href="../lexicos/#pinar">salvo</a> na <a href="../lexicos/#aba">aba</a> <a href="../lexicos/#experimentar">Experimentar</a> do <a href="../lexicos/#pinterest">Pinterest</a> junto com uma foto do que foi <a href="../lexicos/#experimentar">experimentado</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Recursos</strong></td>
+</tr>
+<tr>
+<td>Internet, aplicativo, conta de usuário, <a href="../lexicos/#pin">pin</a>, câmera de celular e recursos do conteúdo a ser <a href="../lexicos/#experimentar">experimentado</a> do <a href="../lexicos/#pin">pin</a></td>
+</tr>
+<tr>
+<td><strong>Exceção</strong></td>
+</tr>
+<tr>
+<td>Internet cair <br> App dar <a href="../lexicos/#crash">crash</a> <br> <a href="../lexicos/#usuario">Usuário</a> não ter os recursos exigidos pelo <a href="../lexicos/#pin">pin</a> para <a href="../lexicos/#experimentar">experimentá-lo</a></td>
+</tr>
+<tr>
+<td><strong>Episódios</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#usuario">Usuário</a> abre o aplicativo <br> <a href="../lexicos/#usuario">Usuário</a> entra na <a href="../lexicos/#abasalvos">Aba Salvos</a> <br>  <a href="../lexicos/#usuario">Usuário</a> seleciona a opção <a href="../lexicos/#experimentar">Experimentados</a> <br> <a href="../lexicos/#pinterest">Pinterest</a> apresenta em lista os <a href="../lexicos/#pin">pins</a> <a href="../lexicos/#pinar">salvos</a> pelo <a href="../lexicos/#usuario">usuário</a> <br><a href="../lexicos/#usuario">Usuário</a> seleciona a opção adicionar <a href="../lexicos/#pin">pin</a>  <br> <a href="../lexicos/#usuario">Usuário</a> tira foto do <a href="../lexicos/#pin">pin</a> <a href="../lexicos/#experimentar">experimentado</a> <br>  <a href="../lexicos/#usuario">Usuário</a> inclui uma anotação a respeito de sua experiência <br> <a href="../lexicos/#usuario">Usuário</a> seleciona a opção Concluído</td>
 </tr>
 </tbody>
 </table>
