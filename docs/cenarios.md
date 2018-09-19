@@ -203,11 +203,11 @@
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) escreve palavras relacionadas ao tema desejado na [barra de pesquisa](lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) clica "enter" <br> Aplicativo mostra uma seleção de imagens referentes ao tema <br> Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas|
 
-## Pesquisar por foto
+## [Pesquisar](lexicos.md#pesquisa) por foto
 
 |**Objetivo** |
 |--|
-| Utilizar o recurso de fotografar imagens para pesquisar por imagens semelhantes |
+| Utilizar o recurso de fotografar imagens para [pesquisar](lexicos.md#pesquisa) por imagens semelhantes |
 |**Contexto** |
 | Local: [Página](lexicos.md#pagina) inicial do aplicativo versão mobile <br> Tempo - A Qualquer momento  <br> Pré-Condição: Celular possuir câmera <br>  Pós-Condição: O [usuário](lexicos.md#usuario) encontrará uma [página](lexicos.md#pagina) repleta de [pins](lexicos.md#pin) que possuam semelhança com as características da foto detectadas pelo [Pinterest](lexicos.md#pinterest)|
 |**Atores** |
@@ -219,7 +219,7 @@
 |**Exceção** |
 | Câmera não funcionar <br> Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) seleciona o ícone de câmera na [barra de pesquisa](lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) tira foto da imagem por qual busca semelhantes <br> Aplicativo mostra uma seleção de imagens semelhantes à enviada pelo [Usuário](lexicos.md#usuario)  |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> O [usuário](lexicos.md#usuario) visualiza [pagina](lexicos.md#aba) inical. <br> [Usuário](lexicos.md#usuario) seleciona o ícone de câmera na [barra de pesquisa](lexicos.md#barraDepesquisa) <br> [Usuário](lexicos.md#usuario) tira foto da imagem por qual busca semelhantes <br> Aplicativo mostra uma seleção de imagens semelhantes à enviada pelo [Usuário](lexicos.md#usuario)  |
 
 ## Seguir outro [usuário](lexicos.md#usuario)
 
