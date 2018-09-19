@@ -15,6 +15,8 @@
 | [Usuário](lexicos.md#usuario) não cadastrado|
 |**Recursos** |
 | Internet, aplicativo, conta de e-mail|
+|**Restrição**|
+|O [usuário](lexico.md#usuario) ter conta do facebook <br>  O [usuário](lexico.md#usuario) ter conta no Google|
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> Senha inválida <br> E-mail inválido <br> Gmail ou Facebook fora do ar <br> Conta de Gmail ou Facebook inexistente |
 |**Episódios** |
@@ -31,6 +33,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de e-mail, [pin](lexicos.md#pin) |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser apagado enquanto comentário é escrito |
 |**Episódios** |
@@ -47,6 +51,8 @@
 | [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#board) <br> [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#board) será [compartilhada](lexicos.md#compartilhar)|
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br>  [Pasta](lexicos.md#board) <br>  |
+|**Restrição**|
+| O [usuário](lexico.md#usuario) [seguir outro usuário](#seguir-outro-usuario). |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro <br> [Usuário](lexicos.md#usuario) recusar o [convite](lexicos.md#convite) para [colaborar](lexicos.md#colaborar) |
 |**Episódios** |
@@ -63,6 +69,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet <br> Conta no aplicativo |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro  |
 |**Episódios** |
@@ -79,6 +87,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de [usuário](lexicos.md#usuario) |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pinterest](lexicos.md#pinterest) não oferecer o interesse que o [usuário](lexicos.md#usuario) procura |
 |**Episódios** |
@@ -95,6 +105,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, [pin](lexicos.md#pin)|
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash)
 |**Episódios** |
@@ -111,6 +123,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser enviado <br> [Usuário](lexicos.md#usuario) que for receber o [Pin](lexicos.md#pin) ter bloqueado o que for enviá-lo |
 |**Episódios** |
@@ -127,6 +141,8 @@
 |[Usuário](lexicos.md#usuário) cadastrado|
 |**Recursos**|
 |E-mail válido|
+|**Restrição**|
+| - |
 |**Exceção**|
 |Esquecer a senha <br> Esquecer o e-mail <br> Não ter cadastro|
 |**Episódios**|
@@ -144,6 +160,8 @@
 | [Usuário](lexicos.md#usuario)|
 |**Recursos** |
 | Internet, aplicativo, [conta](lexicos.md#conta) de [usuário](lexicos.md#usuario) |
+|**Restrição**|
+| Ser um [link](lexicos.md#link) válido |
 |**Exceção** |
 | Falta de internet <br> Página fonte excluída antes do clique no [link](lexicos.md#link) da página|
 |**Episódios** |feed
@@ -160,6 +178,8 @@
 | [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#board) <br> [Usuários](lexicos.md#usuario) com quem a [pasta](lexicos.md#board) foi [compartilhada](lexicos.md#compartilhar)|
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br>  [Pasta](lexicos.md#board) <br> [Subpastas](lexicos.md#subpasta) <br> [Pins](lexicos.md#pin) na [Pasta](lexicos.md#board) <br> |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) |
 |**Episódios** |
@@ -176,6 +196,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br>|
+|**Restrição**|
+| O conteúdo retornado pela pesquisa deve ter relação com o termo [pesquisado](lexicos.md#pesquisa). |
 |**Exceção** |
 | Palavras que coincidirem com outros temas <br> Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
@@ -192,6 +214,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br> Celular com câmera |
+|**Restrição**|
+| O conteúdo retornado pela [pesquisa](lexicos.md#pesquisa) deve estar relacionado à foto pesquisada. |
 |**Exceção** |
 | Câmera não funcionar <br> Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
@@ -208,6 +232,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de usuário |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Usuário](lexicos.md#usuario) ter sido bloqueado pelo outro [usuário](lexicos.md#usuario) que deseja [seguir](lexicos.md#seguir) |
 |**Episódios** |
@@ -224,38 +250,44 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser salvo <br> Não existir pastas para salvá-lo |
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo feed de [Pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão Salvar <br> [Usuário](lexicos.md#usuario) escolhe a pasta para salvá-lo e se não haverem pastas criadas, cria uma pasta para poder salvar o [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) salvar o [Pin](lexicos.md#pin) na pasta |
 
-## Vizualizar [Feed](lexicos.md#feed)
+## Visualizar [Feed](lexicos.md#feed)
 
 |**Objetivo** |
 |--|
-| Vizualizar [pins](lexicos.md#pin) de [interesse](lexicos.md#interesse) do [usuário](lexicos.md#usuario) pelo [feed](lexicos.md#feed) |
+| Visualizar [pins](lexicos.md#pin) de [interesse](lexicos.md#interesse) do [usuário](lexicos.md#usuario) pelo [feed](lexicos.md#feed) |
 |**Contexto** |
-| Local: [Página](lexicos.md#pagina) incial do [Pinterest](lexicos.md#pinterest) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá acessar o [Pinterest](lexicos.md#pinterest) caso queira vizualizar algo de seu [interesse](lexicos.md#interesse) <br>  Pós-Condição: O [usuário](lexicos.md#usuario) visualizará o conteúdo da [página](lexicos.md#pagina) inicial do [Pinterest](lexicos.md#pinterest)|
+| Local: [Página](lexicos.md#pagina) incial do [Pinterest](lexicos.md#pinterest) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá acessar o [Pinterest](lexicos.md#pinterest) caso queira visualizar algo de seu [interesse](lexicos.md#interesse) <br>  Pós-Condição: O [usuário](lexicos.md#usuario) visualizará o conteúdo da [página](lexicos.md#pagina) inicial do [Pinterest](lexicos.md#pinterest)|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo |
+|**Restrição**|
+| Os [pins](lexicos.md#pin) devem obedecer os interesses do [usuário](lexicos.md#usuario) |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> O App não está atualizado frequentemente|
 |**Episódios** |
 | [Usuário](lexicos.md#usuario) acessa o [pinterest](lexicos.md#pinterest)  <br> [Usuário](lexicos.md#usuario) navega pelo [feed](lexicos.md#feed) de [pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) pesquisa [pins](lexicos.md#pin) de seu [interesse](lexicos.md#interesse) <br> [Usuário](lexicos.md#usuario) vizualiza o [pin](lexicos.md#pin) <br> |
 
-## Vizualizar aba [Seguindo](lexicos.md#feed)
+## Visualizar aba [Seguindo](lexicos.md#feed)
 
 |**Objetivo** |
 |--|
-| Vizualizar [pins](lexicos.md#pin) de outros usuários que o [usuário](lexicos.md#usuario) [logado](lexicos.md#logado) segue
+| Visualizar [pins](lexicos.md#pin) de outros usuários que o [usuário](lexicos.md#usuario) [logado](lexicos.md#logado) segue
 |**Contexto** |
 | Local: [Aba](lexicos.md#aba) [seguindo](lexicos.md#seguindo) do [Pinterest](lexicos.md#pinterest) <br>  Pré-Condição: O [usuário](lexicos.md#usuario) deverá acessar o [Pinterest](lexicos.md#pinterest) caso queira publicado pelos demais usuários que segue <br>  Pós-Condição: O [usuário](lexicos.md#usuario) [logado](lexicos.md#logado) visualizará o conteúdo publicado pelos [usuários](lexicos.md#usuario) que está [seguindo](lexicos.md#seguir)|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) [logado](lexicos.md#logado) <br> Usuários [seguidos](lexicos.md#seguidos) pelo [usuário](lexicos.md#usuario) [logado](lexicos.md#logado)|
 |**Recursos** |
 | Internet, aplicativo |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br>|
 |**Episódios** |
@@ -272,6 +304,8 @@
 | [Usuário](lexicos.md#usuario) e [usuários](lexicos.md#usuario) conhecidos|
 |**Recursos** |
 | Internet, aplicativo |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [mensagem](lexicos.md#mensagem) não se entregue|
 |**Episódios** |
@@ -288,6 +322,8 @@
 | [Usuários](lexicos.md#usuário), [usuários](lexicos.md#usuário) seguido e o [Pinterest](lexicos.md#pinterest) |
 |**Recursos** |
 |Internet <br> Browser <br> Aplicativo <br>  [Seguir](lexicos.md#seguir) outro [usuário](lexicos.md#usuário) <br> [Pin](lexicos.md#pin) [pinado](lexicos.md#pinado) |
+|**Restrição**|
+| [Usuário](lexicos.md#usuario) não ter o app silenciado. |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br>  [Usuários](lexicos.md#usuário) [seguidos](lexicos.md#seguir) por um [usuário](lexicos.md#usuário) deixarem de segui-lo |
 |**Episódios** |
@@ -302,6 +338,8 @@
 | [Usuários](lexicos.md#usuário) |
 |**Recursos** |
 |Internet <br> Browser <br> Aplicativo <br> Ter mais de uma [pasta](lexicos.md#board) <br>  |
+|**Restrição**|
+| Ter mais de uma [pasta](lexicos.md#pasta) |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
@@ -318,6 +356,8 @@
 | [Usuário](lexicos.md#usuario) |
 |**Recursos** |
 | Internet, aplicativo, conta de usuário, [pin](lexicos.md#pin) |
+|**Restrição**|
+| - |
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser [ocultado](lexicos.md#ocultar) <br> |
 |**Episódios** |
