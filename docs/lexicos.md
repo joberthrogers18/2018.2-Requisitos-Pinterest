@@ -32,7 +32,7 @@
 |**Impacto** |
 | O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um board. <br> O [usuário](#usuario) pode criar sub-pastas para organizar os [pins](#pin) da board. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [board](#board). <br> Uma board pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma board pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
 |**Sinônimos**|
-| Pasta, Pastas, Boards |
+| Pasta, Pastas, Boards, Sub-pastas |
 
 ## Link
 
@@ -69,6 +69,8 @@
 |		Ato de acompanhar as publicações de outros [usuários](#usuarios) e receber todas as atualizações de [pins](#pins). |
 |**Impacto** |
 | Receber o conteúdo publicado por outro [usuário](#usuario). |
+|**Sinônimos**|
+|Seguidores, Seguido, Seguidos|
 
 ## Pinterest
 
@@ -174,6 +176,8 @@
 | Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [boards](#board) ou novos [seguidores](#seguir). |
 |**Impacto** |
 |O [usuário](#usuario) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
+|**Sinônimos**|
+|Aviso, notificado, informado, avisado|
 
 ## Crash
 
@@ -182,6 +186,7 @@
 | Termo da computação que indica encerramento inesperado da aplicação em execução. |
 |**Impacto** |
 |O aplicativo fecha e o [usuário](#usuario) deixa de concluir qualquer ação no app. |
+
 
 ## Aba Salvos
 |**Noção**|
@@ -232,3 +237,28 @@
 | O [Pinterest](#pinterest) pode indicar novos [pins](#pin) de acordo com as atividades recentes do [usuários](#usuario). |
 |**Impacto**|
 | O [Pinterest](#pinterest) recomenda [pins](#pin) mais próximos ao interesses e ao uso do [usuário](#usuario). <br> O [usuário](#usuario) pode receber recomendações de [pins](#pin) relacionado a [usuários](#usuario) a qual essa pessoa segue. |
+
+## Excluir
+|**Noção**|
+|--|
+| Poder apagar um [pin](#pin) [salvo](#pinar) de uma [pasta](#board) ou a própria [pasta](#board). |
+|**Impacto**|
+| O [usuário](#usuario) consegue deletar os [pins](#pin) [salvos](#pinar) que não são mais de seu interesse ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#board), pode-se apaga-la.
+|**Sinônimos**|
+|Deletar, Apagar|
+
+## Mover
+|**Noção**|
+|--|
+| Mudar um [pin](#pin) de uma [pasta](#board) para outra. |
+|**Impacto**|
+| O [usuário](#usuario) pode trocar a [pasta](#board) em que um [pin](#pin) foi [salvo](#pinar). |
+|**Sinônimos**|
+|Mudar de lugar, trocar|
+
+## Classificar
+|**Noção**|
+|--|
+| Organizar suas pastas em categorias. |
+|**Impacto**|
+| O [usuário](#usuario) pode poder mudar a ordem da organização das suas [pastas](#board). |
