@@ -39,9 +39,9 @@
 
 |**Noção**|
 |--|
-|	É uma coleção de [pins](#pin) interna a uma [pasta](#pasta) <br> O conteúdo dos [pins](#pins) em uma subpasta costuma possuir alguma relação com o conteúdo da [pasta](#pasta), mas formam um subconjunto próprio dentro da temática maior da [pasta](#pasta) <br> É utilizado pelos [usuários](#usuario) para [organizar](#organizar) os seus [pins](#pin) dentro de uma [pasta](#pasta).  |
+|	É uma coleção de [pins](#pin) interna a uma [pasta](#pasta) <br> Uma pasta de [Pins](#pin) dentro de uma outra [pasta](#pasta). |
 |**Impacto** |
-| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em uma [subpasta](#subpasta). <br> O [usuário](#usuario) pode criar várias subpastas dentro de uma mesma [pasta](#pasta). <br> O [usuário](#usuario) que [colabora](#colabora) com a [pasta](#pasta) também colabora com suas subpastas. <br> Os [Pins](#pin) do [usuário](#usuario) ficam organizados por subtemas pertencentes ao tema da pasta. |
+| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em uma [subpasta](#subpasta). <br> O [usuário](#usuario) pode criar várias subpastas dentro de uma mesma [pasta](#pasta). <br> O [usuário](#usuario) que [colabora](#colaborar) com a [pasta](#pasta) também colabora com suas subpastas. <br> Os [Pins](#pin) do [usuário](#usuario) ficam organizados por subtemas pertencentes ao tema da pasta. <br> O conteúdo dos [pins](#pin) em uma subpasta costuma possuir alguma relação com o conteúdo da [pasta](#pasta), mas formam um subconjunto próprio dentro da temática maior da [pasta](#pasta) <br> É utilizado pelos [usuários](#usuario) para [organizar](#organizar) os seus [pins](#pin) dentro de uma [pasta](#pasta). |
 |**Sinônimos**|
 | Subpastas |
 
@@ -71,9 +71,9 @@
 |--|
 |	Representação da divisão de conteúdos do [Pinterest](#pinterest). <br> Tela visualizada em alguma opção selecionada do aplicativo. <br> Ambiente virtual em que se realizam ações no [Pinterest](#pinterest).|
 |**Impacto** |
-| Permite que o usuário realize as ações referentes àquela aba específica. <br> Categoriza o aplicativo em diferentes ambientes e funcionalidades. <br> Fornece a noção do uso de diferentes funcionalidades. |
+| Permite que o [usuário](#usuario) realize as ações referentes àquela aba específica. <br> Categoriza o aplicativo em diferentes ambientes e funcionalidades. <br> Modulariza o [Pinterest](#pinterest) de acordo com a usabilidade do [usuário](#usuario).  |
 |**Sinônimos**|
-| Página |
+| Página, Páginas, Abas |
 
 ## Seguir
 
@@ -102,7 +102,7 @@
 |--|
 | Tema recorrente e em comum entre os [Pins](#pin) que o [usuário](#usuario) acessa ou salva. <br> Correlação das temáticas mais acessadas pelo [usuário](#usuario)  |
 |**Impacto** |
-| Os [usuários](#usuario) definem seus interesses de seus [pins](#pin) mostrados. <br> O [Pinterest](#pinterest) pode definir os temas dos [pins](#pin) que aparecerão no [feed](#feed) do usuário <br> As indicações de [pastas](#pastas) que o [usuário](#usuario) recebe passam a ser direcionadas para seus interesses. <br> O [Usuário](#usuario) passa a ter mais facilidade em encontrar [Pins](#pin) que lhe agradem. <br> O interesse é afetado pela interação do usuário com os pins de seu feed. |
+| Os [usuários](#usuario) definem seus interesses de seus [pins](#pin) mostrados. <br> O [Pinterest](#pinterest) pode definir os temas dos [pins](#pin) que aparecerão no [feed](#feed) do usuário <br> As indicações de [pastas](#pasta) que o [usuário](#usuario) recebe passam a ser direcionadas para seus interesses. <br> O [Usuário](#usuario) passa a ter mais facilidade em encontrar [Pins](#pin) que lhe agradem. <br> O interesse é afetado pela interação do [usuário](#usuario) com os [pins](#pin) de seu [feed](#feed). |
 |**Sinônimos**|
 | Interesses, Gosto, Gostos |
 
@@ -249,6 +249,8 @@
 | [Usuários](#usuario) recebe permissão para gerênciar [pastas](#pasta) e subpastas. |
 |**Impacto**|
 | [Usuários](#usuario) pode salvar [pins](#pin). <br> [Usuários](#usuario) pode remove [pins](#pin). <br> [Usuários](#usuario) pode criar [subpastas](#pasta).|
+|**Sinônimos**|
+| Colabora |
 
 ## Recomendar
 |**Noção**|

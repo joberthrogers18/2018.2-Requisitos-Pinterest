@@ -46,7 +46,7 @@
 |--|
 | Permitir que um ou mais [usuários](lexicos.md#usuario) tenham acesso a uma [pasta](lexicos.md#pasta), podendo editar os [Pins](lexicos.md#pin) existentes e adicionar novos. |
 |**Contexto** |
-| Local: [Página](lexicos.md#aba) da [pasta](lexicos.md#pasta) a ser [compartilhada](lexicos.md#compartilhar) <br> Tempo: A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) será compartilhada deverá possuir ou criar uma nova conta no Pinterest. <br>  Pós-Condição: Outro [usuário](lexicos.md#usuario) recebeu o conteúdo da [pasta](lexicos.md#pasta) compartilhada.|
+| Local: [Página](lexicos.md#aba) da [pasta](lexicos.md#pasta) a ser [compartilhada](lexicos.md#compartilhar) <br> Tempo: A qualquer momento  <br> Pré-Condição: O [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) será compartilhada deverá possuir ou criar uma nova conta no Pinterest. <br>  Pós-Condição: Outro [usuário](lexicos.md#usuario) tem acesso ao conteúdo da [pasta](lexicos.md#pasta) compartilhada, podendo [organizar](lexicos.md#organizar) os [Pins](lexicos.md#pin) dessa [pasta](lexicos.md#pasta).|
 |**Atores** |
 | [Usuário](lexicos.md#usuario) proprietário da [pasta](lexicos.md#pasta) <br> [Usuário](lexicos.md#usuario) com quem a [pasta](lexicos.md#pasta) será [compartilhada](lexicos.md#compartilhar)|
 |**Recursos** |
@@ -215,7 +215,7 @@
 |**Recursos** |
 | Internet <br> Conta no aplicativo <br> Celular com câmera |
 |**Restrição**|
-| O conteúdo retornado pela [pesquisa](lexicos.md#pesquisa) deve estar relacionado à foto pesquisada. |
+| O conteúdo retornado pela [pesquisa](lexicos.md#pesquisa) deve estar relacionado à foto pesquisada. <br> A Foto possuir boa qualidade gráfica. <br> Existirem muitos [pins](#lexicos.md#pin) semelhantes à foto tirada.  |
 |**Exceção** |
 | Câmera não funcionar <br> Internet cair <br> App dar [crash](lexicos.md#crash) <br> |
 |**Episódios** |
