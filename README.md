@@ -10,7 +10,7 @@ Desenvolvimento do trabalho de Requisitos de Software sobre o Pinterest - 2018/2
 |--|--|--|
 | Alexandre Miguel | aleronupe@gmail.com | [@aleronupe](https://github.com/aleronupe) |
 | Daniel Maike | danmke@hotmail.com | [@DanMke](https://github.com/DanMke) |
-| Gabriela Medeiros | gabriela.medeiros2010@hotmail.com | [@gabiMSilva](https://github.com/gabiMSilva) |
+| Gabriela Medeiros | gabriela.medeiros2010@hotmail.com.br | [@gabiMSilva](https://github.com/gabiMSilva) |
 | Geovana Ramos | geovannna.1998@gmail.com | [@GeovanaRamos](https://github.com/GeovanaRamos) |
 | Guilherme Guy | guilhermeguy349@gmail.com| [@guilherme1guy](https://github.com/guilherme1guy) |
 | Helena Goulart| helenabretasg@gmail.com | [@helenagoulart](https://github.com/helenagoulart)|
