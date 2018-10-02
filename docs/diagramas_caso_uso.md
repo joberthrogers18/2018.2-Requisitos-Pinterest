@@ -7,4 +7,8 @@
 
 ## Enviar mensagem
 
-![Enviar Mensagem](img/Caso_de_uso_enviar_mensagem.jpg)
+![Enviar Mensagem](img/Diagrama_caso_uso_enviar_mensagem.png)
+
+## Enviar mensagem
+
+![Visualizar pin](img/Diagrama_caso uso_visualizar_pin.png)

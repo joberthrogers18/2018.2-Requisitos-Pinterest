@@ -20,6 +20,25 @@
 | **Pós Condições**|
 |Usuário possui conta no Pinterest|
 
+## Visualizar pin
+
+| Descrição|
+| -- |
+| Ato do usuário visualizar pins de seu interesse.|
+| **Atores** |
+|Usuário cadastrado e não cadastrados.|
+| **Pré Condições** |
+| Não há. |
+| **Fluxo Principal** |
+| FP1 - O usuário acessa a plataforma do pinterest.<br> FP2 - Em seguida o feed com os pins são mostrados.<br> FP3 - Procura por pins de seu interesse.<br> FP4 - O usuário visualiza o pin.[FA1][FA2][DE1]|
+| **Fluxos Alternativos ** |
+| *FA1 - Visualizar link*<br>Usuário clica no pin.<br>Usuário visita página do pin clicado.<br><br>*FA2 - Comentar pin*<br>Usuário clica no pin escolhido.<br>Usuário comenta no pin.|
+| **Fluxos de Exceção**|
+| *FE1 - Usuário excluir pin na hora que outro visualiza*<br>Sistema apresenta erro quando um usuário visualiza e ao mesmo momento o criador do pin apaga.|
+| **Pós Condições**|
+| Usuário visualiza pin. |
+
+
 ## Comentar em um Pin
 
 
