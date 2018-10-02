@@ -40,8 +40,21 @@
 
 ## Fazer login
 
-
-
+| Descrição|
+| -- |
+|Fazer [login](lexicos.md#login) na aplicação para obter acesso a todas as ferramentas exclusivas para [usuários](lexicos.md#usuario) [logados](lexicos.md#logado).|
+| **Atores** |
+|[Usuário](lexicos.md#usuario) não cadastrado|
+| **Pré Condições** |
+| O [usuário](lexicos.md#usuario) deve ter o aplicativo do [Pinterest](lexicos.md#pinterest) baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O [usuário](lexicos.md#usuario) deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.|
+| **Fluxo Principal** |
+|Usuário abre o app [FA1][FA2] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha <br> O usuário é redirecionado para a página principal da aplicação.|
+| **Fluxos Alternativos ** |
+| *FA1 - Login com Facebook* <br> Usuário é redirecionado para a página principal <br><br> *FA2 - Login com Google* <br> Usuário é redirecionado para a página principal <br><br> *FA3 - Primeiro acesso com e-mail* <br> Usuário insere nova senha de acesso <br> Usuário é redirecionado para a página principal|
+| **Fluxos de Exceção**|
+| *FE1 - Senha incorreta* <br><br> *FE2 - Permissão à conta do Facebook negada* <br><br> *FE3 - Permissão à conta do Google negada*|
+| **Pós Condições**|
+| Conseguir acessar a página principal e outras funcionalidades exclusivas para usuários logados |
 
 ## Ir para a fonte de um Pin
 
