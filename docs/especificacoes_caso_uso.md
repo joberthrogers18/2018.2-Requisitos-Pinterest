@@ -13,10 +13,10 @@
 | Usuário não possuir cadastro<br>Usuário possuir conta de e-mail |
 | **Fluxo Principal** |
 | Usuário não cadastrado abre o aplicativo<br>Usuário seleciona fazer o cadastro [FA1][FA2]<br>Usuário preenche e-mail<br>Usuário preenche senha<br>Usuário preenche confirmação de senha<br>Usuário aperta botão confirmar[FE1][FE2][FE3]|
-| **Fluxos Alternativos ** |
+| **Fluxos Alternativos** |
 | *FA1 - Cadastro por Facebook*<br>Usuário clica no símbolo do Facebook<br>Usuário confirma solicitação do Pinterest ao Facebook<br><br>*FA2 - Cadastro por Gmail*<br>Usuário clica no símbolo do Gmail<br>Usuário confirma solicitação do Pinterest ao Gmail|
 | **Fluxos de Exceção**|
-| *FE1 - E-mail inexistente*<br>Sistema apresenta mensagem de erro informando que o e-mail é inexistente <br>*FE2 - E-mail já cadastrado*<br>Sistema apresenta mensagem de erro informando que o e-mail já está cadastrado no Pinterest<br>*FE3 - Senha e senha de confirmação diferentes*<br>Sistema apresenta mensagem de erro informando que as duas senhas não são iguais|
+| *FE1 - E-mail inexistente*<br>Sistema apresenta mensagem de erro informando que o e-mail é inexistente <br><br>*FE2 - E-mail já cadastrado*<br>Sistema apresenta mensagem de erro informando que o e-mail já está cadastrado no Pinterest<br><br>*FE3 - Senha e senha de confirmação diferentes*<br>Sistema apresenta mensagem de erro informando que as duas senhas não são iguais|
 | **Pós Condições**|
 |Usuário possui conta no Pinterest|
 
@@ -30,8 +30,8 @@
 | **Pré Condições** |
 | Não há. |
 | **Fluxo Principal** |
-| FP1 - O usuário acessa a plataforma do pinterest.<br> FP2 - Em seguida o feed com os pins são mostrados.<br> FP3 - Procura por pins de seu interesse.<br> FP4 - O usuário visualiza o pin.[FA1][FA2][DE1]|
-| **Fluxos Alternativos ** |
+| O usuário acessa a plataforma do pinterest.<br> Em seguida o feed com os pins são mostrados.<br> Procura por pins de seu interesse.<br> O usuário visualiza o pin.[FA1][FA2][FE1]|
+| **Fluxos Alternativos** |
 | *FA1 - Visualizar link*<br>Usuário clica no pin.<br>Usuário visita página do pin clicado.<br><br>*FA2 - Comentar pin*<br>Usuário clica no pin escolhido.<br>Usuário comenta no pin.|
 | **Fluxos de Exceção**|
 | *FE1 - Usuário excluir pin na hora que outro visualiza*<br>Sistema apresenta erro quando um usuário visualiza e ao mesmo momento o criador do pin apaga.|
@@ -49,6 +49,23 @@
 
 
 ## Definir interesses
+
+| Descrição|
+| -- |
+| Escolher assuntos que são do interesse do usuário |
+| **Atores** |
+| Usuário cadastrado |
+| **Pré Condições** |
+| Usuário estar logado |
+| **Fluxo Principal** |
+| Usuário abre o aplicativo<br>Usuário visualiza página principal<br>Usuário seleciona a aba "Salvos"<br>Usuário aperta aba Interesses<br>Usuário visualiza interesses previamente selecionados[FA]<br>Usuário aperta botão "Adicionar interesses"<br>Usuário procura seus interesses e os seleciona[FE]<br>Usuário aperta "Concluído"|
+| **Fluxos Alternativos** |
+| *FA1 - Remover interesses previamente selecionados*<br>Usuário visualiza interesse que não quer mais<br>Usuário clica em “Deixar de seguir”|
+| **Fluxos de Exceção**|
+| *FE1 - Intesse não encontrado*<br>Usuário não encontra seu interesse na lista oferecida pelo app<br>Usuário aperta "Concluído"|
+| **Pós Condições**|
+| O feed terá conteúdos que estejam de acordo com os interesses do usuário. |
+
 
 ## Editar um Pin
 
