@@ -78,11 +78,11 @@
 
 | Descrição|
 | -- |
-|Fazer [login](lexicos.md#login) na aplicação para obter acesso a todas as ferramentas exclusivas para [usuários](lexicos.md#usuario) [logados](lexicos.md#logado).|
+|Fazer login na aplicação para obter acesso a todas as ferramentas exclusivas para usuários logados|
 | **Atores** |
-|[Usuário](lexicos.md#usuario) não cadastrado|
+| Usuário não cadastrado|
 | **Pré Condições** |
-| O [usuário](lexicos.md#usuario) deve ter o aplicativo do [Pinterest](lexicos.md#pinterest) baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O [usuário](lexicos.md#usuario) deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.|
+| O usuário deve ter o aplicativo do Pinterest baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O usuário deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.|
 | **Fluxo Principal** |
 |Usuário abre o app [FA1][FA2] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha <br> O usuário é redirecionado para a página principal da aplicação.|
 | **Fluxos Alternativos ** |
@@ -127,7 +127,7 @@
 | **Pré Condições** |
 | Usuário possuir conta no Pinterest <br> O usuário deverá estar logado. |
 | **Fluxo Principal** |
-| FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]|
+| O usuário loga no Pinterest.<br>Após logado é direcionado para o feed. <br>Acessa a página de mensagens.[FA1] <br>O usuário procura por um usuário destinatário.[FE1] <br> A mensagem é escrita. <br> O botão “Enviar” é clicado.[FE2]|
 | **Fluxos Alternativos** |
 | *FA1 - Visualizar mensagem*<br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br>|
 | **Fluxos de Exceção**|
@@ -143,6 +143,21 @@
 
 ## Ocultar um Pin
 
+| Descrição|
+| -- |
+| Ocultar um pin de uma aba do Pinterest para que o usuário não visualize mais determinado conteúdo. |
+| **Atores** |
+| Usuário cadastrado.|
+| **Pré Condições** |
+| O usuário deverá estar logado. |
+| **Fluxo Principal** |
+| Usuário visualiza feed<br>Usuário navega pelo feed[FA1]<br>Usuário seleciona e segura um pin<br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário|
+| **Fluxos Alternativos** |
+| *FA1 - Clicar em um pin*<br>O usuário acessa a página de detalhes do pin <br> Usuário seleciona e segura um pin <br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário|
+| **Fluxos de Exceção**|
+| - |
+| **Pós Condições**|
+|Usuário envia mensagem|
 
 ## Denunciar um Pin
 
