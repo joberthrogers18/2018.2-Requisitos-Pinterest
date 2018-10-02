@@ -131,6 +131,8 @@
         
             <li><a class="toctree-l4" href="#cadastro-de-usuario">Cadastro de usuário</a></li>
         
+            <li><a class="toctree-l4" href="#visualizar-pin">Visualizar pin</a></li>
+        
             <li><a class="toctree-l4" href="#comentar-em-um-pin">Comentar em um Pin</a></li>
         
             <li><a class="toctree-l4" href="#compartilhar-pasta">Compartilhar Pasta</a></li>
@@ -161,7 +163,7 @@
         
             <li><a class="toctree-l4" href="#visualizar-aba-seguindo">Visualizar aba Seguindo</a></li>
         
-            <li><a class="toctree-l4" href="#enviar-mensagem-para-outros-usuarios">Enviar mensagem para outros [usuários</a></li>
+            <li><a class="toctree-l4" href="#enviar-mensagem-para-outros-usuarios">Enviar mensagem para outros usuários</a></li>
         
             <li><a class="toctree-l4" href="#receber-notificacoes">Receber [notificações</a></li>
         
@@ -254,10 +256,10 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>Usuário não cadastrado abre o aplicativo<br>Usuário seleciona fazer o cadastro [FA1][FA2]<br>Usuário preenche e-mail<br>Usuário preenche senha<br>Usuário preenche confirmação de senha<br>Usuário aperta botão confirmar[FE1][FE2][FE3]</td>
+<td>Usuário seleciona fazer o cadastro [FA1][FA2]<br>Usuário preenche e-mail<br>Usuário preenche senha<br>Usuário preenche confirmação de senha<br>Usuário aperta botão confirmar[FE1][FE2][FE3]</td>
 </tr>
 <tr>
-<td><strong>Fluxos Alternativos </strong></td>
+<td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
 <td><em>FA1 - Cadastro por Facebook</em><br>Usuário clica no símbolo do Facebook<br>Usuário confirma solicitação do Pinterest ao Facebook<br><br><em>FA2 - Cadastro por Gmail</em><br>Usuário clica no símbolo do Gmail<br>Usuário confirma solicitação do Pinterest ao Gmail</td>
@@ -266,7 +268,7 @@
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><em>FE1 - E-mail inexistente</em><br>Sistema apresenta mensagem de erro informando que o e-mail é inexistente <br><em>FE2 - E-mail já cadastrado</em><br>Sistema apresenta mensagem de erro informando que o e-mail já está cadastrado no Pinterest<br><em>FE3 - Senha e senha de confirmação diferentes</em><br>Sistema apresenta mensagem de erro informando que as duas senhas não são iguais</td>
+<td><em>FE1 - E-mail inexistente</em><br>Sistema apresenta mensagem de erro informando que o e-mail é inexistente <br><br><em>FE2 - E-mail já cadastrado</em><br>Sistema apresenta mensagem de erro informando que o e-mail já está cadastrado no Pinterest<br><br><em>FE3 - Senha e senha de confirmação diferentes</em><br>Sistema apresenta mensagem de erro informando que as duas senhas não são iguais</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -276,13 +278,158 @@
 </tr>
 </tbody>
 </table>
+<h2 id="visualizar-pin">Visualizar pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ato do usuário visualizar pins de seu interesse.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado e não cadastrados.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Não há.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>O usuário acessa a plataforma do pinterest.<br> Em seguida o feed com os pins são mostrados.<br> Procura por pins de seu interesse.<br> O usuário visualiza o pin.[FA1][FA2][FE1]</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Visualizar link</em><br>Usuário clica no pin.<br>Usuário visita página do pin clicado.<br><br><em>FA2 - Comentar pin</em><br>Usuário clica no pin escolhido.<br>Usuário comenta no pin.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Usuário excluir pin na hora que outro visualiza</em><br>Sistema apresenta erro quando um usuário visualiza e ao mesmo momento o criador do pin apaga.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário visualiza pin.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="comentar-em-um-pin">Comentar em um Pin</h2>
 <h2 id="compartilhar-pasta">Compartilhar Pasta</h2>
 <h2 id="criar-pasta">Criar Pasta</h2>
 <h2 id="definir-interesses">Definir interesses</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Escolher assuntos que são do interesse do usuário</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário estar logado</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário visualiza página principal<br>Usuário seleciona a aba "Salvos"<br>Usuário aperta aba Interesses<br>Usuário visualiza interesses previamente selecionados[FA]<br>Usuário aperta botão "Adicionar interesses"<br>Usuário procura seus interesses e os seleciona[FE]<br>Usuário aperta "Concluído"</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Remover interesses previamente selecionados</em><br>Usuário visualiza interesse que não quer mais<br>Usuário clica em “Deixar de seguir”</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Intesse não encontrado</em><br>Usuário não encontra seu interesse na lista oferecida pelo app<br>Usuário aperta "Concluído"</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O feed terá conteúdos que estejam de acordo com os interesses do usuário.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="editar-um-pin">Editar um Pin</h2>
 <h2 id="enviar-um-pin">Enviar um Pin</h2>
 <h2 id="fazer-login">Fazer login</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fazer <a href="../lexicos/#login">login</a> na aplicação para obter acesso a todas as ferramentas exclusivas para <a href="../lexicos/#usuario">usuários</a> <a href="../lexicos/#logado">logados</a>.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#usuario">Usuário</a> não cadastrado</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#usuario">usuário</a> deve ter o aplicativo do <a href="../lexicos/#pinterest">Pinterest</a> baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O <a href="../lexicos/#usuario">usuário</a> deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário abre o app [FA1][FA2] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha <br> O usuário é redirecionado para a página principal da aplicação.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos </strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Login com Facebook</em> <br> Usuário é redirecionado para a página principal <br><br> <em>FA2 - Login com Google</em> <br> Usuário é redirecionado para a página principal <br><br> <em>FA3 - Primeiro acesso com e-mail</em> <br> Usuário insere nova senha de acesso <br> Usuário é redirecionado para a página principal</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Senha incorreta</em> <br><br> <em>FE2 - Permissão à conta do Facebook negada</em> <br><br> <em>FE3 - Permissão à conta do Google negada</em></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Conseguir acessar a página principal e outras funcionalidades exclusivas para usuários logados</td>
+</tr>
+</tbody>
+</table>
 <h2 id="ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</h2>
 <h2 id="organizar-pasta">Organizar Pasta</h2>
 <h2 id="pesquisar-por-tema">Pesquisar por tema</h2>
@@ -291,7 +438,55 @@
 <h2 id="salvar-um-pin">Salvar um Pin</h2>
 <h2 id="visualizar-feed">Visualizar Feed</h2>
 <h2 id="visualizar-aba-seguindo">Visualizar aba Seguindo</h2>
-<h2 id="enviar-mensagem-para-outros-usuarios">Enviar mensagem para outros [usuários</h2>
+<h2 id="enviar-mensagem-para-outros-usuarios">Enviar mensagem para outros usuários</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enviar mensagens ou pins para outros usuários.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir conta no Pinterest <br> O usuário deverá estar logado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Visualizar mensagem</em><br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Usuário não encontrado</em><br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><em>FE2 - Mensagem não entregue</em><br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário envia mensagem</td>
+</tr>
+</tbody>
+</table>
 <h2 id="receber-notificacoes">Receber [notificações</h2>
 <h2 id="classificacao-de-pastas">Classificação de pastas</h2>
 <h2 id="ocultar-um-pin">Ocultar um Pin</h2>
