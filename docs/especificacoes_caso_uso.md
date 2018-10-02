@@ -20,8 +20,6 @@
 | **Pós Condições**|
 |Usuário possui conta no Pinterest|
 
-
-
 ## Comentar em um Pin
 
 
@@ -33,6 +31,26 @@
 
 ## Definir interesses
 
+
+## Enviar mensagem
+
+
+| Descrição|
+| -- |
+| Enviar mensagens ou pins para outros usuários.|
+| **Atores** |
+|Usuário cadastrado.|
+| **Pré Condições** |
+| Usuário possuir conta no Pinterest <br> O usuário deverá estar logado. |
+| **Fluxo Principal** |
+| FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]
+|
+| **Fluxos Alternativos ** |
+| *FA1 - Visualizar mensagem*<br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br>|
+| **Fluxos de Exceção**|
+| *FE1 - Usuário não encontrado*<br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br>*FE2 - Mensagem não entregue*<br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.<br>
+| **Pós Condições**|
+|Usuário envia mensagem|
 
 ## Editar um Pin
 
