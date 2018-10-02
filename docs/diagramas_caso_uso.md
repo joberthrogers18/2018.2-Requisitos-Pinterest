@@ -15,7 +15,7 @@
 
 ## Comentar em um Pin
 
-![comentarPin](img/use_case_comentario.png)
+![comentarPin](img/use_cases_comentario.png)
 
 ## Compartilhar Pasta
 
@@ -53,7 +53,7 @@
 
 ## Seguir outro usuário
 
-![seguirUsuario](img/use_case_seguir.png)
+![seguirUsuario](img/use_cases_seguir.png)
 
 ## Salvar um Pin
 
