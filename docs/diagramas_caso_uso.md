@@ -85,13 +85,10 @@
 
 ## Sair do aplicativo Pinterest
 
-
-<<<<<<< HEAD
-![Enviar Mensagem](img/Caso_de_uso_enviar_mensagem.jpg)
+![Enviar Mensagem](img/Diagrama_caso_uso_enviar_mensagem.png)
 
 ## Fazer Login
 
 ![Fazer Login](img/Caso_de_uso_fazer_login.png)
-=======
+
 ## Editar Perfil
->>>>>>> e72cc145b65375b95888ffa16166baeb6352ec4f
