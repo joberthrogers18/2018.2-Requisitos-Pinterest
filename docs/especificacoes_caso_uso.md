@@ -84,11 +84,11 @@
 | **Pré Condições** |
 | O [usuário](lexicos.md#usuario) deve ter o aplicativo do [Pinterest](lexicos.md#pinterest) baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O [usuário](lexicos.md#usuario) deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.|
 | **Fluxo Principal** |
-|Usuário abre o app [FA1][FA2] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha <br> O usuário é redirecionado para a página principal da aplicação.|
+|Usuário entra na página de login [FA1][FE2][FA2][FE3] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha [FE1]<br> O usuário é redirecionado para a página principal da aplicação.|
 | **Fluxos Alternativos ** |
 | *FA1 - Login com Facebook* <br> Usuário é redirecionado para a página principal <br><br> *FA2 - Login com Google* <br> Usuário é redirecionado para a página principal <br><br> *FA3 - Primeiro acesso com e-mail* <br> Usuário insere nova senha de acesso <br> Usuário é redirecionado para a página principal|
 | **Fluxos de Exceção**|
-| *FE1 - Senha incorreta* <br><br> *FE2 - Permissão à conta do Facebook negada* <br><br> *FE3 - Permissão à conta do Google negada*|
+| *FE1 - Senha incorreta*<br> Uma mensagem de erro é mostrada para usuário <br> Usuário volta para a página de login <br><br> *FE2 - Permissão à conta do Facebook negada* <br> Uma mensagem de erro é mostrada para usuário <br> Usuário volta para a página de login <br><br> *FE3 - Permissão à conta do Google negada*<br> Uma mensagem de erro é mostrada para usuário <br> Usuário volta para a página de login <br>|
 | **Pós Condições**|
 | Conseguir acessar a página principal e outras funcionalidades exclusivas para usuários logados |
 
