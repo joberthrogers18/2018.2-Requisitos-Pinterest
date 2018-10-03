@@ -16,7 +16,7 @@
 
 ## Comentar em um Pin
 
-![comentarPin](img/use_case_comentario.png)
+![comentarPin](img/use_cases_comentario.png)
 
 ## Compartilhar Pasta
 
@@ -47,14 +47,14 @@
 
 
 ## Pesquisar por tema
-
+![PesquisarPorTema](img/CasodeUso_PesquisarPorTema.png)
 
 ## Pesquisar por foto
 
 
 ## Seguir outro usuário
 
-![seguirUsuario](img/use_case_seguir.png)
+![seguirUsuario](img/use_cases_seguir.png)
 
 ## Salvar um Pin
 
@@ -65,6 +65,7 @@
 
 ## Visualizar aba Seguindo
 
+![visualizarSeguindo](img/use_cases_aba_visualizar.png)
 
 ## Enviar mensagem para outros usuários
 
@@ -78,14 +79,20 @@
 
 ## Ocultar um Pin
 
+![OcultarPin](img/CasoDeUso_Ocultar.png)
 
 ## Denunciar um Pin
 
+![DenunciarPin](img/CasodeUso_Denunciar.png)
 
 ## Classificar um Pin como Experimentado
 
 ## Sair do aplicativo Pinterest
 
-![Enviar Mensagem](img/Caso_de_uso_enviar_mensagem.jpg)
+![Enviar Mensagem](img/Diagrama_caso_uso_enviar_mensagem.png)
+
+## Fazer Login
+
+![Fazer Login](img/Caso_de_uso_fazer_login.png)
 
 ## Editar Perfil

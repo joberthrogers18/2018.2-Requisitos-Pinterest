@@ -3,7 +3,6 @@
 
 ## Cadastro de usuário
 
-
 | Descrição|
 | -- |
 |Cadastrar novo usuário no Pinterest|
@@ -41,12 +40,21 @@
 
 ## Comentar em um Pin
 
-
-## Compartilhar Pasta
-
-
-## Criar Pasta
-
+| Descrição|
+| -- |
+| Ato do usuário criar um comentário em um pin. |
+| **Atores** |
+| Usuário cadastrado. |
+| **Pré Condições** |
+|  Usuário estar logado. |
+| **Fluxo Principal** |
+| Em qualquer Feed do Pinterest o usuário encontra um Pin compatível com comentários em que deseja comentar. <br> O usuário clica no Pin <br> O usuário clica no botão comentar <br> O usuário escreve seu comentário <br> O usuário posta seu comentário. |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| *FE1 - Usuário excluir pin na hora que outro está criando um comentário* <br> Sistema apresenta erro quando um usuário comenta e ao mesmo momento o criador do pin o apaga.|
+| **Pós Condições**|
+| Usuário cria um comentário em um pin. |
 
 ## Definir interesses
 
@@ -67,22 +75,34 @@
 | O feed terá conteúdos que estejam de acordo com os interesses do usuário. |
 
 
-## Editar um Pin
+## Enviar mensagem
 
-
-
-## Enviar um Pin
-
+| Descrição|
+| -- |
+| Enviar mensagens ou pins para outros usuários.|
+| **Atores** |
+|Usuário cadastrado.|
+| **Pré Condições** |
+| Usuário possuir conta no Pinterest <br> O usuário deverá estar logado. |
+| **Fluxo Principal** |
+| FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]
+|
+| **Fluxos Alternativos ** |
+| *FA1 - Visualizar mensagem*<br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br>|
+| **Fluxos de Exceção**|
+| *FE1 - Usuário não encontrado*<br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br>*FE2 - Mensagem não entregue*<br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.<br>
+| **Pós Condições**|
+|Usuário envia mensagem|
 
 ## Fazer login
 
 | Descrição|
 | -- |
-|Fazer [login](lexicos.md#login) na aplicação para obter acesso a todas as ferramentas exclusivas para [usuários](lexicos.md#usuario) [logados](lexicos.md#logado).|
+|Fazer login na aplicação para obter acesso a todas as ferramentas exclusivas para usuários logados|
 | **Atores** |
-|[Usuário](lexicos.md#usuario) não cadastrado|
+| Usuário não cadastrado|
 | **Pré Condições** |
-| O [usuário](lexicos.md#usuario) deve ter o aplicativo do [Pinterest](lexicos.md#pinterest) baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O [usuário](lexicos.md#usuario) deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.|
+| O usuário deve ter o aplicativo do Pinterest baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O usuário deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.|
 | **Fluxo Principal** |
 |Usuário entra na página de login [FA1][FE2][FA2][FE3] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha [FE1]<br> O usuário é redirecionado para a página principal da aplicação.|
 | **Fluxos Alternativos ** |
@@ -121,16 +141,39 @@
 
 ## Seguir outro usuário
 
-
-## Salvar um Pin
-
-
-
-## Visualizar Feed
-
+| Descrição|
+| -- |
+| Seguir um outro Usuário para acompanhar sua atividade no Pinterest. |
+| **Atores** |
+| Usuário cadastrado. |
+| **Pré Condições** |
+| Usuário possuir conta no Pinterest. <br> O usuário deverá estar logado. |
+| **Fluxo Principal** |
+| O usuário clica no nome de outro usuário. <br> A página do pergil do outro usuário é carregada. [FE1] <br> O usuário clica no botão seguir. |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| *FE1 - Usuário está bloqueado pelo que deseja seguir.*<br> Sistema apresenta mensagem de que não é possível completar a ação pois o outor usuário bloqueou o originatário do pedido.|
+| **Pós Condições**|
+|Usuário passa a seguri outro usuário. |
 
 ## Visualizar aba Seguindo
 
+| Descrição|
+| -- |
+| Ato de visualizar pins de outros usuários que o usuário logado segue. |
+| **Atores** |
+| Usuário cadastrado. |
+| **Pré Condições** |
+|  Usuário estar logado. |
+| **Fluxo Principal** |
+| Usuário abre o app. <br> O usuário clica no ícone da aba Seguindo. <br> O usuário visualiza o conteúdo da aba Seguindo. |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| - |
+| **Pós Condições**|
+| Usuário visualizará a aba "Seguindo". |
 
 ## Enviar mensagem para outros usuários
 
@@ -142,7 +185,7 @@
 | **Pré Condições** |
 | Usuário possuir conta no Pinterest <br> O usuário deverá estar logado. |
 | **Fluxo Principal** |
-| FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]|
+| O usuário loga no Pinterest.<br>Após logado é direcionado para o feed. <br>Acessa a página de mensagens.[FA1] <br>O usuário procura por um usuário destinatário.[FE1] <br> A mensagem é escrita. <br> O botão “Enviar” é clicado.[FE2]|
 | **Fluxos Alternativos** |
 | *FA1 - Visualizar mensagem*<br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br>|
 | **Fluxos de Exceção**|
@@ -150,21 +193,113 @@
 | **Pós Condições**|
 |Usuário envia mensagem|
 
-## Receber [notificações
-
-
-## Classificação de pastas
-
-
 ## Ocultar um Pin
 
+| Descrição|
+| -- |
+| Ocultar um pin de uma aba do Pinterest para que o usuário não visualize mais determinado conteúdo. |
+| **Atores** |
+| Usuário cadastrado.|
+| **Pré Condições** |
+| O usuário deverá estar logado. |
+| **Fluxo Principal** |
+| Usuário visualiza feed<br>Usuário navega pelo feed[FA1]<br>Usuário seleciona e segura um pin<br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário|
+| **Fluxos Alternativos** |
+| *FA1 - Clicar em um pin*<br>O usuário acessa a página de detalhes do pin <br> Usuário seleciona e segura um pin <br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário|
+| **Fluxos de Exceção**|
+| - |
+| **Pós Condições**|
+|Usuário envia mensagem|
+
+## Salvar um Pin
+
+| Descrição |
+| -- |
+| Salvar um Pin do Pinterest |
+| **Atores** |
+| Usuário do Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet |
+| **Fluxo Principal** |
+| 1 - Usuário abre o Pinterest <br> 2 - Usuário efetua Login no Pinterest [FA01] <br> 3 - Usuário acessa Página Principal [FA02] <br> 4 - Usuário visualiza Feed <br> 5 - Usuário visualiza um Pin <br> 6 - Usuário clica para Salvar o Pin <br> 7 - Usuário cria uma pasta para salvar um Pin [FA03] <br> 8 - Usuário escolhe o nome da pasta <br> 9 - Usuário salva o Pin na pasta |
+| **Fluxos Alternativos** |
+| **2(a)** <br> - [FA01] *Usuário efetuar primeiro login na aplicação* <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Usuário acessa Página Inicial <br> - Continua o Fluxo Principal a partir do 4 <br> **3(a)** <br> - [FA02] *Usuário pesquisa por conteúdo específico* <br> - Usuário visualiza um Pin <br> - Continua o Fluxo Principal a partir do 6 <br> **7(a)** <br> - [FA03] *Usuário salva Pin em uma pasta já criada* <br>|
+| **Fluxos de Exceção**|
+| *[FE01] - Erro ao salvar Pin* <br> O Pin já ter sido salvo na pasta |
+| **Pós Condições**|
+| Usuário salva Pin em uma pasta do Pinterest |
+
+## Enviar um Pin
+
+| Descrição |
+| -- |
+| Enviar um Pin do Pinterest |
+| **Atores** |
+| Usuário do Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet |
+| **Fluxo Principal** |
+| 1 - Usuário abre o Pinterest <br> 2 - Usuário efetua Login no Pinterest [FA01] <br> 3 - Usuário acessa Página Principal [FA02] <br> 4 - Usuário visualiza Feed <br> 5 - Usuário visualiza um Pin <br> 6 - Usuário clica para Enviar o Pin <br> 7 - Usuário escolhe para que amigo do Pinterest quer enviar o Pin [FA03][FA04][FA05] <br> 8 - Usuário envia o Pin [FA06] |
+| **Fluxos Alternativos** |
+| **2(a)** <br> - [FA01] *Usuário efetuar primeiro login na aplicação* <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Usuário acessa Página Inicial <br> - Continua o Fluxo Principal a partir do 4 <br> **3(a)** <br> - [FA02] *Usuário pesquisa por conteúdo específico* <br> - Usuário visualiza um Pin <br> - Continua o Fluxo Principal a partir do 6 <br> **7(a)** <br> - [FA03] *Usuário copia o link do Pin para enviar por e-mail, SMS ou outra plataforma* <br> **7(b)** <br> - [FA04] *Usuário compartilha o link do Pin para o Facebook* <br> **7(c)** <br> - [FA05] *Usuário envia o link do Pin para um contato do WhatsApp* <br> **8(a)** <br> - [FA06] *Usuário escreve uma mensagem para enviar junto ao Pin para um usuário do Pinterest* <br> - Usuário envia o Pin |
+| **Fluxos de Exceção**|
+| *[FE01] - Não ter para quem enviar o Pin* <br> Não ter amigos no Pinterest <br> *[FE02] Não ter outra plataforma para enviar o link do Pin* |
+| **Pós Condições**|
+| Usuário envia o Pin para outra pessoa |
+
+## Realizar primeiro login
+
+| Descrição |
+| -- |
+| Realizar primeiro login no Pinterest |
+| **Atores** |
+| Usuário recém cadastrado no Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário não ter efetuado seu primeiro login <br> Usuário ter conexão de internet |
+| **Fluxo Principal** |
+| 1 - Usuário abre o Pinterest <br> 2 - Usuário efetua o primeiro Login no Pinterest <br> 3 - Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> 4 - Usuário acessa página principal [FA02][FA03][FA04] <br> 5 - Usuário visualiza Feed <br> 6 - Usuário visiualiza um Pin |
+| **Fluxos Alternativos** |
+| **3(a)** <br> - [FA01] *Usuário faz o tutorial para aprender as funcionalidades do Pinterest* <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Continua o fluxo principal a partir do 4 <br> **4(a)** <br> - [FA02] *Usuário procura pessoas para seguir no Pinterest* <br> **4(b)** <br> - [FA03] *Usuário procura por conteúdos específicos no Pinterest* <br> **4(c)** <br> - [FA04] *Usuário procura mais interesses para seguir* |
+| **Pós Condições**|
+| Usuário efetua primeiro login no Pinterest |
 
 ## Denunciar um Pin
 
 
 ## Classificar um Pin como Experimentado
 
+
 ## Sair do aplicativo Pinterest
 
 
 ## Editar Perfil
+
+
+## Visualizar Feed
+
+
+## Receber [notificações
+
+
+## Classificação de pastas
+
+
+## Ir para a fonte de um Pin
+
+
+## Organizar Pasta
+
+
+## Pesquisar por tema
+
+
+## Pesquisar por foto
+
+
+## Editar um Pin
+
+
+## Compartilhar Pasta
+
+
+## Criar Pasta
