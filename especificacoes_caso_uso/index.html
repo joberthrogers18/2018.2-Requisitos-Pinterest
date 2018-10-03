@@ -139,8 +139,6 @@
         
             <li><a class="toctree-l4" href="#editar-um-pin">Editar um Pin</a></li>
         
-            <li><a class="toctree-l4" href="#enviar-mensagem">Enviar mensagem</a></li>
-        
             <li><a class="toctree-l4" href="#fazer-login">Fazer login</a></li>
         
             <li><a class="toctree-l4" href="#ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</a></li>
@@ -172,8 +170,6 @@
             <li><a class="toctree-l4" href="#receber-notificacoes">Receber Notificações</a></li>
         
             <li><a class="toctree-l4" href="#classificacao-de-pastas">Classificação de pastas</a></li>
-        
-            <li><a class="toctree-l4" href="#ir-para-a-fonte-de-um-pin_1">Ir para a fonte de um Pin</a></li>
         
             <li><a class="toctree-l4" href="#organizar-pasta">Organizar Pasta</a></li>
         
@@ -458,13 +454,13 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>Usuário <a href="../diagramas_caso_uso/#fazer-login">faz login</a> <br> Usuário clica em Perfil [FA1] <br> Usuário seleciona a aba "pastas" <br> Usuário seleciona uma pasta [FA2] <br> Usuário seleciona um pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado.</td>
+<td>Usuário faz login <br> Usuário clica em Perfil [FA1] <br> Usuário seleciona a aba "pastas" <br> Usuário seleciona uma pasta [FA2] <br> Usuário seleciona um pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado.</td>
 </tr>
 <tr>
-<td><strong>Fluxos Alternativos </strong></td>
+<td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td><em>FA1 - Aba pins * <br> Usuário seleciona a aba "pins" <br> Usuário seleciona um pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado. <br><br> </em>FA2 - Mouse sobre o pin * <br> Usuário passa o mouse sobre o pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado.</td>
+<td><em>FA1 - Aba pins</em> <br> Usuário seleciona a aba "pins" <br> Usuário seleciona um pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado. <br><br> <em>FA2 - Mouse sobre o pin</em> <br> Usuário passa o mouse sobre o pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado.</td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
@@ -477,58 +473,6 @@
 </tr>
 <tr>
 <td>As características modificadas serem vistas pelo usuário na descrição do pin.</td>
-</tr>
-</tbody>
-</table>
-<h2 id="enviar-mensagem">Enviar mensagem</h2>
-<table>
-<thead>
-<tr>
-<th>Descrição</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Enviar mensagens ou pins para outros usuários.</td>
-</tr>
-<tr>
-<td><strong>Atores</strong></td>
-</tr>
-<tr>
-<td>Usuário cadastrado.</td>
-</tr>
-<tr>
-<td><strong>Pré Condições</strong></td>
-</tr>
-<tr>
-<td>Usuário possuir conta no Pinterest <br> O usuário deverá estar logado.</td>
-</tr>
-<tr>
-<td><strong>Fluxo Principal</strong></td>
-</tr>
-<tr>
-<td>FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]</td>
-</tr>
-<tr>
-<td></td>
-</tr>
-<tr>
-<td><strong>Fluxos Alternativos </strong></td>
-</tr>
-<tr>
-<td><em>FA1 - Visualizar mensagem</em><br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br></td>
-</tr>
-<tr>
-<td><strong>Fluxos de Exceção</strong></td>
-</tr>
-<tr>
-<td><em>FE1 - Usuário não encontrado</em><br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><em>FE2 - Mensagem não entregue</em><br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.<br></td>
-</tr>
-<tr>
-<td><strong>Pós Condições</strong></td>
-</tr>
-<tr>
-<td>Usuário envia mensagem</td>
 </tr>
 </tbody>
 </table>
@@ -562,7 +506,7 @@
 <td>Usuário entra na página de login [FA1][FE2][FA2][FE3] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha [FE1]<br> O usuário é redirecionado para a página principal da aplicação.</td>
 </tr>
 <tr>
-<td><strong>Fluxos Alternativos </strong></td>
+<td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
 <td><em>FA1 - Login com Facebook</em> <br> Usuário é redirecionado para a página principal <br><br> <em>FA2 - Login com Google</em> <br> Usuário é redirecionado para a página principal <br><br> <em>FA3 - Primeiro acesso com e-mail</em> <br> Usuário insere nova senha de acesso <br> Usuário é redirecionado para a página principal</td>
@@ -590,28 +534,28 @@
 </thead>
 <tbody>
 <tr>
-<td>Visitar a página web de onde foi tirado um determinado <a href="../lexicos/#pin">pin</a>.</td>
+<td>Visitar a página web de onde foi tirado um determinado pin.</td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a></td>
+<td>Usuário</td>
 </tr>
 <tr>
 <td><strong>Pré Condições</strong></td>
 </tr>
 <tr>
-<td>O <a href="../lexicos/#usuario">usuário</a> deve ter o aplicativo do <a href="../lexicos/#pinterest">Pinterest</a> baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet.</td>
+<td>O usuário deve ter o aplicativo do Pinterest baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet.</td>
 </tr>
 <tr>
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>Usuário <a href="../diagramas_caso_uso/#fazer-login">faz login</a>[FA1] <br> Usuário seleciona um pin <br> Usuário clica no link para a fonte do site <br> Usuário é redirecionado para o site</td>
+<td>Usuário faz login[FA1] <br> Usuário seleciona um pin <br> Usuário clica no link para a fonte do site <br> Usuário é redirecionado para o site</td>
 </tr>
 <tr>
-<td><strong>Fluxos Alternativos </strong></td>
+<td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
 <td><em>FA1 - Link direto</em> <br> Usuário passa o mouse sobre o pin <br> Usuário clica sobre o link fonte <br> Usuário é redirecionado para uma página</td>
@@ -767,7 +711,7 @@
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><em>FE1 - Usuário não encontrado</em><br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><em>FE2 - Mensagem não entregue</em><br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.</td>
+<td><em>FE1 - Usuário não encontrado</em><br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><br><em>FE2 - Mensagem não entregue</em><br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -804,13 +748,13 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td><strong>FP1</strong> - Usuário abre o aplicativo <br><strong>FP2</strong> -  Usuário entra na página inicial para visualizar e navegar pelo feed de repleto de pins<br> <strong>FP3</strong> - Usuário seleciona um Pin<br> <strong>FP4</strong> - Usuário clica no botão Ocultar<br> <strong>FP5</strong> - Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário</td>
+<td>Usuário abre o aplicativo <br>Usuário entra na página inicial para visualizar e navegar pelo feed de repleto de pins<br> Usuário seleciona um Pin<br> Usuário clica no botão Ocultar<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td>FA1 - Desfaz a ocultação.</td>
+<td>-</td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
@@ -853,19 +797,19 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>1 - Usuário abre o Pinterest <br> 2 - Usuário efetua Login no Pinterest [FA01] <br> 3 - Usuário acessa Página Principal [FA02] <br> 4 - Usuário visualiza Feed <br> 5 - Usuário visualiza um Pin <br> 6 - Usuário clica para Salvar o Pin <br> 7 - Usuário cria uma pasta para salvar um Pin [FA03] <br> 8 - Usuário escolhe o nome da pasta <br> 9 - Usuário salva o Pin na pasta</td>
+<td>Usuário abre o Pinterest <br> Usuário efetua Login no Pinterest [FA1] <br> Usuário acessa Página Principal [FA2] <br>Usuário visualiza Feed <br>Usuário visualiza um Pin <br>Usuário clica para Salvar o Pin <br> Usuário cria uma pasta para salvar um Pin [FA3] <br>Usuário escolhe o nome da pasta <br> Usuário salva o Pin na pasta</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td><strong>2(a)</strong> <br> - [FA01] <em>Usuário efetuar primeiro login na aplicação</em> <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Usuário acessa Página Inicial <br> - Continua o Fluxo Principal a partir do 4 <br> <strong>3(a)</strong> <br> - [FA02] <em>Usuário pesquisa por conteúdo específico</em> <br> - Usuário visualiza um Pin <br> - Continua o Fluxo Principal a partir do 6 <br> <strong>7(a)</strong> <br> - [FA03] <em>Usuário salva Pin em uma pasta já criada</em> <br></td>
+<td><em>FA1 - Usuário efetuar primeiro login na aplicação</em> <br>  Usuário escolhe no mínimo cinco categorias de interesses <br> Usuário acessa Página Inicial <br>  Continua o Fluxo Principal a partir do 4 <br><br>  <em>FA2 - Usuário pesquisa por conteúdo específico</em> <br> Usuário visualiza um Pin <br>Continua o Fluxo Principal a partir do 6 <br><br> <em>FA3 - Usuário salva Pin em uma pasta já criada</em> <br></td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><em>[FE01] - Erro ao salvar Pin</em> <br> O Pin já ter sido salvo na pasta</td>
+<td>-</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -902,19 +846,19 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>1 - Usuário abre o Pinterest <br> 2 - Usuário efetua Login no Pinterest [FA01] <br> 3 - Usuário acessa Página Principal [FA02] <br> 4 - Usuário visualiza Feed <br> 5 - Usuário visualiza um Pin <br> 6 - Usuário clica para Enviar o Pin <br> 7 - Usuário escolhe para que amigo do Pinterest quer enviar o Pin [FA03][FA04][FA05] <br> 8 - Usuário envia o Pin [FA06]</td>
+<td>Usuário abre o Pinterest <br> Usuário efetua Login no Pinterest [FA1] <br> Usuário acessa Página Principal [FA2] <br>  Usuário visualiza Feed <br> Usuário visualiza um Pin <br> Usuário clica para Enviar o Pin <br> Usuário escolhe para que amigo do Pinterest quer enviar o Pin [FA3][FA4][FA5] <br> Usuário envia o Pin [FA6]</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td><strong>2(a)</strong> <br> - [FA01] <em>Usuário efetuar primeiro login na aplicação</em> <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Usuário acessa Página Inicial <br> - Continua o Fluxo Principal a partir do 4 <br> <strong>3(a)</strong> <br> - [FA02] <em>Usuário pesquisa por conteúdo específico</em> <br> - Usuário visualiza um Pin <br> - Continua o Fluxo Principal a partir do 6 <br> <strong>7(a)</strong> <br> - [FA03] <em>Usuário copia o link do Pin para enviar por e-mail, SMS ou outra plataforma</em> <br> <strong>7(b)</strong> <br> - [FA04] <em>Usuário compartilha o link do Pin para o Facebook</em> <br> <strong>7(c)</strong> <br> - [FA05] <em>Usuário envia o link do Pin para um contato do WhatsApp</em> <br> <strong>8(a)</strong> <br> - [FA06] <em>Usuário escreve uma mensagem para enviar junto ao Pin para um usuário do Pinterest</em> <br> - Usuário envia o Pin</td>
+<td><em>FA01 - Usuário efetuar primeiro login na aplicação</em> <br> Usuário escolhe no mínimo cinco categorias de interesses <br> Usuário acessa Página Inicial <br>  Continua o Fluxo Principal a partir do 4 <br><br> <em>FA2 - Usuário pesquisa por conteúdo específico</em> <br> Usuário visualiza um Pin <br>  Continua o Fluxo Principal a partir do 6 <br><br> <em>FA3 - Usuário copia o link do Pin para enviar por e-mail, SMS ou outra plataforma</em> <br><br> <em>FA4 - Usuário compartilha o link do Pin para o Facebook</em> <br><br><em>FA5 - Usuário envia o link do Pin para um contato do WhatsApp</em> <br><br> <em>FA6 - Usuário escreve uma mensagem para enviar junto ao Pin para um usuário do Pinterest</em> <br> Usuário envia o Pin</td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><em>[FE01] - Não ter para quem enviar o Pin</em> <br> Não ter amigos no Pinterest <br> <em>[FE02] Não ter outra plataforma para enviar o link do Pin</em></td>
+<td>-</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -951,13 +895,13 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>1 - Usuário abre o Pinterest <br> 2 - Usuário efetua o primeiro Login no Pinterest <br> 3 - Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> 4 - Usuário acessa página principal [FA02][FA03][FA04] <br> 5 - Usuário visualiza Feed <br> 6 - Usuário visiualiza um Pin</td>
+<td>Usuário abre o Pinterest <br>Usuário efetua o primeiro Login no Pinterest <br> Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> Usuário acessa página principal [FA02][FA03][FA04] <br>  Usuário visualiza Feed <br> Usuário visiualiza um Pin</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td><strong>3(a)</strong> <br> - [FA01] <em>Usuário faz o tutorial para aprender as funcionalidades do Pinterest</em> <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Continua o fluxo principal a partir do 4 <br> <strong>4(a)</strong> <br> - [FA02] <em>Usuário procura pessoas para seguir no Pinterest</em> <br> <strong>4(b)</strong> <br> - [FA03] <em>Usuário procura por conteúdos específicos no Pinterest</em> <br> <strong>4(c)</strong> <br> - [FA04] <em>Usuário procura mais interesses para seguir</em></td>
+<td><em>FA01 - Usuário faz o tutorial para aprender as funcionalidades do Pinterest</em> <br>  Usuário escolhe no mínimo cinco categorias de interesses <br> Continua o fluxo principal a partir do 4 <br><br> <em>FA02 - Usuário procura pessoas para seguir no Pinterest</em> <br><br> <em>FA03 Usuário procura por conteúdos específicos no Pinterest</em> <br><br> <em>FA04 - Usuário procura mais interesses para seguir</em></td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -994,13 +938,13 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>FP1 - O usuário abre o aplicativo. <br> FP2 - acessa a aba de salvo.[FA1] <br> FP3 - O usuário seleciona o ícone de engrenagem na parte superior direita.<br>FP4 - Seleciona a opção sair.[FA2]<br>FP5 - É redirecionado para a página de login.</td>
+<td>O usuário abre o aplicativo. <br>  acessa a aba de salvo.[FA1] <br> O usuário seleciona o ícone de engrenagem na parte superior direita.<br> Seleciona a opção sair.[FA2]<br>É redirecionado para a página de login.</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td>FA1 - O usuário pode permanecer no feed. <br> FA2 – O usuário pode permanecer na aba salvos e escolher outra opção.</td>
+<td><em>FA1 - O usuário pode permanecer no feed.</em> <br><br> <em>FA2 – O usuário pode permanecer na aba salvos e escolher outra opção.</em></td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
@@ -1043,7 +987,7 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td><strong>FP1</strong> - Usuário abre o aplicativo<br> <strong>FP2</strong> - Usuário entra na página inicial para visualizar e navegar pelo feed repleto de de pins<br> <strong>FP3</strong> - Usuário encontra um pin com conteúdo impróprio<br> <strong>FP4</strong> - Usuário seleciona um Pin<br><strong>FP5</strong> - Usuário clica no botão Mais<br><strong>FP6</strong> - Usuário clica no botão Denunciar<br> <strong>FP7</strong> - Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário<br>Comunidade do Pinterest avalia o conteúdo do pin denunciado e remove o conteúdo do aplicativo.</td>
+<td>Usuário abre o aplicativo<br>Usuário entra na página inicial para visualizar e navegar pelo feed repleto de de pins<br>  Usuário encontra um pin com conteúdo impróprio<br>  Usuário seleciona um Pin<br>Usuário clica no botão Mais<br> Usuário clica no botão Denunciar<br> Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário<br>Comunidade do Pinterest avalia o conteúdo do pin denunciado e remove o conteúdo do aplicativo.</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
@@ -1055,7 +999,7 @@
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><em>[FE01] - Erro ao denunciar Pin</em> <br> O pin não está infrigindo nenhuma das regras de violação do Pinterest.</td>
+<td>-</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -1066,8 +1010,6 @@
 </tbody>
 </table>
 <h2 id="classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</h2>
-<h2 id="editar-perfil">Editar Perfil</h2>
-<h2 id="visualizar-feed">Visualizar Feed</h2>
 <table>
 <thead>
 <tr>
@@ -1076,7 +1018,56 @@
 </thead>
 <tbody>
 <tr>
-<td>Visualizar pins de interesse do usuário pelo feed.</td>
+<td>Experimentar o conteúdo de um pin e classificá-lo na aba do Pinterest de Experimentados</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário logado<br>Usuário ter pins salvos<br>Câmera</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário entra na Aba Salvos<br>Usuário seleciona a opção Experimentados<br>Pinterest apresenta em lista os pins salvos pelo usuário<br>Usuário seleciona a opção adicionar pin<br>Usuário tira foto do pin experimentado[FA]<br>Usuário seleciona a opção Concluído</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Adicionar Notas</em><br>Usuário adiciona nota à foto tirada<br>Usuário seleciona a opção Concluído</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O pin ficará salvo na aba Experimentar do Pinterest junto com uma foto do que foi experimentado.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="editar-perfil">Editar Perfil</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O usuário editar seu perfil com suas informações, podendo adionar novas ou mudá-las.</td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
@@ -1088,38 +1079,230 @@
 <td><strong>Pré Condições</strong></td>
 </tr>
 <tr>
-<td>O usuário deverá acessar o Pinterest caso queira visualizar algo de seu interesse .</td>
+<td>O usuário possuir uma conta no Pinterest.</td>
 </tr>
 <tr>
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td><strong>FP1</strong> - Usuário acessa o pinterest. [FE1]<br> <strong>FP2</strong> - Usuário navega pelo feed de pins.[FA1] <br><strong>FP3</strong> -Usuário pesquisa pins de seu interesse <br> <strong>FP5</strong> -Usuário dá scroll no feed . <br> <strong>FP4</strong> -Usuário escolhe pin.</td>
+<td>O usuário clica no ícone de "Reticências" na tela e vai até a seção de edição de perfil.</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td><em>FA1 - Mudança de aba</em> <br> Usuário deixa o feed e muda para um outra aba para fazer outras interações.</td>
+<td><em>FA1</em> – O usuário pode mudar seu nome e/ou sobrenome. <br> <em>FA2</em> – O usuário pode mudar/adicionar sua foto de perfil. <br> <em>FA3</em> – O usuário pode mudar/adicionar seu username. <br> <em>FA4</em> – O usuário pode mudar/adicionar uma descrição sobre ele. <br> <em>FA5</em> – O usuário pode mudar/adicionar sua localização. <br> <em>FA6</em> – O usuário pode mudar/adicionar seu Website.</td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><em>[FE1] - Erro de conexão</em> <br> O usuário não consegue ver o feed pois não há conexão de dados.</td>
+<td><em>FE1</em> – Não salvar as alterações.</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
 </tr>
 <tr>
-<td>O usuário visualizará o conteúdo da página inicial do Pinterest.</td>
+<td>Alteração ou adição de informações no perfil do usuário.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="visualizar-feed">Visualizar Feed</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visualizar pins de interesse do usuário pelo feed</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário logado<br>Usuário ter definido ao menos um interesse</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário seleciona aba “Página Inicial”<br>Usuário navega pelo feed de pins[FA1]<br>Usuário pesquisa pins de seu interesse<br>Usuário vizualiza o pin</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Mudança de aba</em> <br> Usuário tem a possibilidade de mudar para qualquer outra aba que não seja a do feed.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário visualizará o conteúdo oferecido pelo Pinterest</td>
 </tr>
 </tbody>
 </table>
 <h2 id="receber-notificacoes">Receber Notificações</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O usuário recebe notificações de pins relacionados aos seus e pins salvos por amigos.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Seguir usuários ou ter pins salvos.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Estar na tela inicial do aplicativo e ter um alerta no ícone de "notificações", então o usuário poder clicar e ver suas novas notificações.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1</em> – O usuário pode salvar novos pins indicados. <br> <em>FA2</em> – O usuário pode salvar pins salvos por outros amigos. <br> <em>FA3</em> – O usuário pode desabilitar opção de notificação por email.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1</em> – Não estar seguindo outros usuários e não ter nenhum pin salvo</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário é notificado sobre qualquer interação de novos pins ou usuários seguidos.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="classificacao-de-pastas">Classificação de pastas</h2>
-<h2 id="ir-para-a-fonte-de-um-pin_1">Ir para a fonte de um Pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O usuário escolhe a forma que quer ordenar suas pastas.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Ter uma ou mais pastas .</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Ir até a página de perfil e estar na opção de "boards" .</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1</em> – O usuário pode classificar por ordem alfabética. <br> <em>FA2</em> – O usuário pode classificar por "Salvo pela última vez". <br> <em>FA3</em> – O usuário pode classificar por "mais recentes" <br> <em>FA4</em> – O usuário pode classificar por "mais antigas" <br> <em>FA5</em> – O usuário pode classificar por "igual à Web" .</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>As pastas do usuário estarão ordenadas de acordo com a opção escolhida por ele.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="organizar-pasta">Organizar Pasta</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Realocar pins em pastas ou subpastas e excluir pins</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário logado<br>O usuário deve possuir pins na pasta a ser organizada ou na subpasta a ser organizada</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário seleciona aba “Salvos”<br>Usuário seleciona aba “Pastas”<br>Usuário seleciona uma pasta<br>Usuário clica em “Organizar”<br>Usuário seleciona pins para organizar<br>Usuário clica em “Avançar”[FA]<br>Usuário seleciona outra Pasta<br>Pinterest informa que pin foi movido</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Adicionar subpasta</em><br>Usuário seleciona “Adicionar subpasta”<br>Usuário adiciona nome para nova subpasta<br>Usuário seleciona “Concluído”</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário visualizará o conteúdo oferecido pelo Pinterest</td>
+</tr>
+</tbody>
+</table>
 <h2 id="pesquisar-por-tema">Pesquisar por tema</h2>
 <table>
 <thead>
@@ -1147,7 +1330,7 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td><strong>FP1</strong> - Usuário abre o aplicativo <br> <strong>FP2</strong> -  Usuário escreve palavras relacionadas ao tema desejado na barra de pesquisa <br> <strong>FP3</strong> - Usuário clica "enter"<br>Aplicativo mostra uma seleção de imagens referentes ao tema<br> <strong>FP4</strong> -  Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas</td>
+<td>Usuário abre o aplicativo <br>   Usuário escreve palavras relacionadas ao tema desejado na barra de pesquisa <br> Usuário clica "enter"<br>Aplicativo mostra uma seleção de imagens referentes ao tema<br>   Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativo</strong></td>
@@ -1196,10 +1379,10 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td><strong>1</strong> - Usuário acessa o aplicativo pelo celular; <br> <strong>2</strong> - Abre a Página Inicial para o usuário; <br> <strong>3</strong> - Usuário seleciona o símbolo de Câmera na barra de pesquisa <strong>[FA1]</strong> ; <br> <strong>4</strong> - Usuário tira foto da imagem que quer pesquisar; <br> <strong>5</strong> - Imagens semelhantes são retornadas ao usuário <strong>[FE1]</strong> ; <br> <strong>6</strong> - O Processo é finalizado com sucesso.</td>
+<td>Usuário acessa o aplicativo pelo celular; <br>  Abre a Página Inicial para o usuário; <br> Usuário seleciona o símbolo de Câmera na barra de pesquisa <strong>[FA1]</strong> ; <br>  Usuário tira foto da imagem que quer pesquisar; <br>  Imagens semelhantes são retornadas ao usuário <strong>[FE1]</strong> ; <br>  O Processo é finalizado com sucesso.</td>
 </tr>
 <tr>
-<td><strong>Fluxos Alternativos </strong></td>
+<td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
 <td><strong>FA1</strong> - Selecionar Imagem da Galeria <br> 1 - O Usuário acessa a galeria do celular; <br> 2 - Usuário seleciona imagem de base para a pesquisa de pins; <br> 3 - Imagens semelhantes são retornadas ao usuário.</td>
@@ -1245,19 +1428,19 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td><strong>1</strong> - Usuário acessa seu perfil no aplicativo; <br> <strong>2</strong> - Aparecem várias opções, como acessar pastas já criadas ou criar uma pasta; <br> <strong>3</strong> - Usuário seleciona a pasta; <br> <strong>3</strong> - Usuário seleciona ícone de compartilhar pasta; <br> <strong>4</strong> - Usuário escolhe os outros usuários com quem compartilhar a pasta nas opções mostradas. <strong>[FA1]</strong> ; <br> <strong>5</strong> - Usuário envia convites de compartilhamento; <br> <strong>6</strong> - O Convidado a compartilhar aceita o convite. <strong>[FE1]</strong>; <br> <strong>7</strong> - O Processo é finalizado com sucesso.</td>
+<td>Usuário acessa seu perfil no aplicativo; <br> Aparecem várias opções, como acessar pastas já criadas ou criar uma pasta; <br>  Usuário seleciona a pasta; <br> Usuário seleciona ícone de compartilhar pasta; <br> Usuário escolhe os outros usuários com quem compartilhar a pasta nas opções mostradas. <strong>[FA1]</strong> ; <br>  Usuário envia convites de compartilhamento; <br>  O Convidado a compartilhar aceita o convite. <strong>[FE1]</strong>; <br>  O Processo é finalizado com sucesso.</td>
 </tr>
 <tr>
-<td><strong>Fluxos Alternativos </strong></td>
+<td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td><strong>FA1</strong> - Procurar por usuários <br> 1 - O Usuário acessa a barra de pesquisa na função de compartilhar pasta; <br> 2 - Usuário digita nome do outro usuário com quem vai compartilhar a pasta; <br> 3 - Usuário seleciona a opção de escolher pasta, se já tiver pastas; <br> 4 - Usuário escolhe a opção de "Criar Pasta" <br> 5 - Usuário envia convites de compartilhamento; <br> 6 - O Convidado a compartilhar aceita o convite. <strong>[FE1]</strong>; <br> 7 - O Processo é finalizado com sucesso.</td>
+<td><strong>FA1</strong> - Procurar por usuários <br> O Usuário acessa a barra de pesquisa na função de compartilhar pasta; <br> Usuário digita nome do outro usuário com quem vai compartilhar a pasta; <br>  Usuário seleciona a opção de escolher pasta, se já tiver pastas; <br> Usuário escolhe a opção de "Criar Pasta" <br>  Usuário envia convites de compartilhamento; <br>  O Convidado a compartilhar aceita o convite. <strong>[FE1]</strong>; <br>  O Processo é finalizado com sucesso.</td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><strong>FE1</strong> - Usuário Recusa o Convite<br> 1 - O Usuário convidado recusa o convite;  <br> 2 - O Processo é finalizado com sucesso. <br><br></td>
+<td><strong>FE1</strong> - Usuário Recusa o Convite<br> O Usuário convidado recusa o convite;  <br>  O Processo é finalizado com sucesso. <br><br></td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -1294,19 +1477,19 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td><strong>1</strong> - Usuário acessa seu perfil no aplicativo. <strong>[FA1]</strong> ; <br> <strong>2</strong> - Aparecem várias opções, como acessar pastas já criadas ou criar uma pasta; <br> <strong>3</strong> - Usuário seleciona a opção "Criar Pasta". <br> <strong>3</strong> - Surge uma caixa na tela, pedindo para que o usuário insira o nome de sua pasta e demais informações; <br> <strong>4</strong> - Usuário insere o nome da pasta. <strong>[FA2][FA3]</strong> ; <br> <strong>5</strong> - Usuário escolhe a opção "Criar". <strong>[FE1]</strong> ; <br> <strong>6</strong> - O Processo é finalizado com sucesso.</td>
+<td>Usuário acessa seu perfil no aplicativo. <strong>[FA1]</strong> ; <br> Aparecem várias opções, como acessar pastas já criadas ou criar uma pasta; <br>  Usuário seleciona a opção "Criar Pasta". <br>  Surge uma caixa na tela, pedindo para que o usuário insira o nome de sua pasta e demais informações; <br>  Usuário insere o nome da pasta. <strong>[FA2][FA3]</strong> ; <br>  Usuário escolhe a opção "Criar". <strong>[FE1]</strong> ; <br>  O Processo é finalizado com sucesso.</td>
 </tr>
 <tr>
-<td><strong>Fluxos Alternativos </strong></td>
+<td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td><strong>FA1</strong> - Criar Pasta ao Salvar Pin <br> 1 - O Usuário acessa a página inicial; <br> 2 - Usuário escolhe um Pin de seu interesse para salvar; <br> 3 - Usuário seleciona a opção de escolher pasta, se já tiver pastas; <br> 4 - Usuário escolhe a opção de "Criar Pasta" <br> 5 - Usuário preenche o nome da nova pasta <strong>[FA2][FA3]</strong> ; <br> 6 - Usuário seleciona a opção "Criar" <strong>[FE1]</strong> ; <br> 7 - O Processo é finalizado com sucesso. <br><br> <strong>FA2</strong> - Tornar a Pasta Secreta <br> 1 - O Usuário Ativa a opção de tornar a pasta secreta;  <br> 2 - Usuário seleciona a opção  "Criar" <strong>[FE1]</strong> ; <br> 3 - O Processo é finalizado com sucesso. <br><br> <strong>FA3</strong> - Compartilhar a Pasta ao Criar <br> 1 - O Usuário seleciona outros usuários com quem compartilhar a Pasta que será criada; <br> 2 - Os Convites de compartilhamento são enviados; <br> 3 - Usuário seleciona a opção  "Criar" <strong>[FE1]</strong>; <br> 4 - O Processo é finalizado com sucesso.<br><br></td>
+<td><strong>FA1</strong> - Criar Pasta ao Salvar Pin <br>  O Usuário acessa a página inicial; <br>  Usuário escolhe um Pin de seu interesse para salvar; <br> Usuário seleciona a opção de escolher pasta, se já tiver pastas; <br> Usuário escolhe a opção de "Criar Pasta" <br>  Usuário preenche o nome da nova pasta <strong>[FA2][FA3]</strong> ; <br>  Usuário seleciona a opção "Criar" <strong>[FE1]</strong> ; <br> O Processo é finalizado com sucesso. <br><br> <strong>FA2</strong> - Tornar a Pasta Secreta <br> O Usuário Ativa a opção de tornar a pasta secreta;  <br>  Usuário seleciona a opção  "Criar" <strong>[FE1]</strong> ; <br>  O Processo é finalizado com sucesso. <br><br> <strong>FA3</strong> - Compartilhar a Pasta ao Criar <br> O Usuário seleciona outros usuários com quem compartilhar a Pasta que será criada; <br> Os Convites de compartilhamento são enviados; <br> Usuário seleciona a opção  "Criar" <strong>[FE1]</strong>; <br>  O Processo é finalizado com sucesso.<br><br></td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><strong>FE1</strong> - Nome de Pasta já existente <br> 1 - O Usuário insere um nome de uma pasta já existente; <br> 2 - O Programa não valida e informa o usuário de que aquele nome já foi utilizado; <br> 3 - Usuário seleciona um novo nome para a pasta; <br>  4 - Usuário seleciona a opção "Criar" <strong>[FE1]</strong> ; <br> 5 - O Processo é finalizado com sucesso.</td>
+<td><strong>FE1</strong> - Nome de Pasta já existente <br> O Usuário insere um nome de uma pasta já existente; <br> O Programa não valida e informa o usuário de que aquele nome já foi utilizado; <br>  Usuário seleciona um novo nome para a pasta; <br>   Usuário seleciona a opção "Criar" <strong>[FE1]</strong> ; <br>  O Processo é finalizado com sucesso.</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
