@@ -212,21 +212,21 @@
 
 ## Ocultar um Pin
 
-| Descrição|
+| Descrição |
 | -- |
 | Ocultar um pin de uma aba do Pinterest para que o usuário não visualize mais determinado conteúdo. |
 | **Atores** |
-| Usuário cadastrado.|
+| Usuário. |
 | **Pré Condições** |
-| O usuário deverá estar logado. |
+|  usuário deverá estar logado em sua conta do Pinterest . |
 | **Fluxo Principal** |
-| Usuário visualiza feed<br>Usuário navega pelo feed[FA1]<br>Usuário seleciona e segura um pin<br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário|
+| **FP1** - Usuário abre o aplicativo <br>**FP2** -  Usuário entra na página inicial para visualizar e navegar pelo feed de repleto de pins<br> **FP3** - Usuário seleciona um Pin<br> **FP4** - Usuário clica no botão Ocultar<br> **FP5** - Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário |
 | **Fluxos Alternativos** |
-| *FA1 - Clicar em um pin*<br>O usuário acessa a página de detalhes do pin <br> Usuário seleciona e segura um pin <br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário|
+| FA1 - Desfaz a ocultação. |
 | **Fluxos de Exceção**|
 | - |
 | **Pós Condições**|
-|Usuário envia mensagem|
+| Usuário oculta o pin. |
 
 ## Salvar um Pin
 
@@ -301,6 +301,22 @@
 
 ## Denunciar um Pin
 
+| Descrição |
+| -- |
+| Denunciar um pin presente em uma aba do Pinterest. |
+| **Atores** |
+| Usuário. |
+| **Pré Condições** |
+| O usuário deverá estar logado em sua conta do Pinterest<br>O usuário deverá encontrar um pin com conteúdo que julga como impróprio. |
+| **Fluxo Principal** |
+| **FP1** - Usuário abre o aplicativo<br> **FP2** - Usuário entra na página inicial para visualizar e navegar pelo feed repleto de de pins<br> **FP3** - Usuário encontra um pin com conteúdo impróprio<br> **FP4** - Usuário seleciona um Pin<br>**FP5** - Usuário clica no botão Mais<br>**FP6** - Usuário clica no botão Denunciar<br> **FP7** - Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário<br>Comunidade do Pinterest avalia o conteúdo do pin denunciado e remove o conteúdo do aplicativo. |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+|*[FE01] - Erro ao denunciar Pin* <br> O pin não está infrigindo nenhuma das regras de violação do Pinterest. |
+| **Pós Condições**|
+| O usuário deslogado. |
+
 
 ## Classificar um Pin como Experimentado
 
@@ -325,6 +341,21 @@
 
 ## Pesquisar por tema
 
+| Descrição|
+| -- |
+| Encontrar imagens referentes a um tema de preferência do usuário. |
+| **Atores** |
+| Usuário |
+| **Pré Condições** |
+| Usuário ter em mente palavras-chaves relativas ao tema. |
+| **Fluxo Principal** |
+|**FP1** - Usuário abre o aplicativo <br> **FP2** -  Usuário escreve palavras relacionadas ao tema desejado na barra de pesquisa <br> **FP3** - Usuário clica "enter"<br>Aplicativo mostra uma seleção de imagens referentes ao tema<br> **FP4** -  Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas|
+|**Fluxos Alternativo**|
+| **FA1** - Sugerir palavras chaves relacionadas.|
+| **Fluxos de Exceção**|
+| **FE1** - Palavras que coincidirem com outros temas. |
+| **Pós Condições**|
+| O usuário encontrará uma página repleta de pins de acordo com a temática desejada.  |
 
 ## Pesquisar por foto
 | Descrição|
