@@ -263,12 +263,56 @@
 
 
 ## Pesquisar por foto
-
+| Descrição|
+| -- |
+| Utilizar uma imagem como base de pesquisa para encontrar pins semelhantes. |
+| **Atores** |
+| Usuário <br> Imagens semelhantes |
+| **Pré Condições** |
+| Usuário possuir conta no Pinterest <br> Usuário ter acesso ao aplicativo mobile <br> Usuário possuir celular com câmera |
+| **Fluxo Principal** |
+|**1** - Usuário acessa o aplicativo pelo celular; <br> **2** - Abre a Página Inicial para o usuário; <br> **3** - Usuário seleciona o símbolo de Câmera na barra de pesquisa **[FA1]** ; <br> **4** - Usuário tira foto da imagem que quer pesquisar; <br> **5** - Imagens semelhantes são retornadas ao usuário **[FE1]** ; <br> **6** - O Processo é finalizado com sucesso. |
+| **Fluxos Alternativos ** |
+| * **FA1** - Selecionar Imagem da Galeria <br> 1 - O Usuário acessa a galeria do celular; <br> 2 - Usuário seleciona imagem de base para a pesquisa de pins; <br> 3 - Imagens semelhantes são retornadas ao usuário.*|
+| **Fluxos de Exceção**|
+| * **FE1** - Pins Retornados Não São Semelhantes <br> 1 - Imagens de Pins retornados não correpondem ao tema da imagem enviada;  <br> 2 - O Processo é finalizado. * <br><br>  |
+| **Pós Condições**|
+| São retornadas imagens de Pins semelhantes à imagem usada para pesquisa pelo usuário.  |
 
 ## Editar um Pin
 
 
 ## Compartilhar Pasta
-
+| Descrição|
+| -- |
+| Permitir que um outro usuário possa editar uma pasta, adicionando e removendo pins ou criando subpastas. |
+| **Atores** |
+| Usuário <br> Usuário Convidado a Compartilhar Pasta |
+| **Pré Condições** |
+| Usuário possuir conta no Pinterest <br> Usuário Convidado possuir conta no Pinterest <br> Usuário possuir uma pasta |
+| **Fluxo Principal** |
+|**1** - Usuário acessa seu perfil no aplicativo; <br> **2** - Aparecem várias opções, como acessar pastas já criadas ou criar uma pasta; <br> **3** - Usuário seleciona a pasta; <br> **3** - Usuário seleciona ícone de compartilhar pasta; <br> **4** - Usuário escolhe os outros usuários com quem compartilhar a pasta nas opções mostradas. **[FA1]** ; <br> **5** - Usuário envia convites de compartilhamento; <br> **6** - O Convidado a compartilhar aceita o convite. **[FE1]**; <br> **7** - O Processo é finalizado com sucesso. |
+| **Fluxos Alternativos ** |
+| * **FA1** - Procurar por usuários <br> 1 - O Usuário acessa a barra de pesquisa na função de compartilhar pasta; <br> 2 - Usuário digita nome do outro usuário com quem vai compartilhar a pasta; <br> 3 - Usuário seleciona a opção de escolher pasta, se já tiver pastas; <br> 4 - Usuário escolhe a opção de "Criar Pasta" <br> 5 - Usuário envia convites de compartilhamento; <br> 6 - O Convidado a compartilhar aceita o convite. **[FE1]**; <br> 7 - O Processo é finalizado com sucesso. * |
+| **Fluxos de Exceção**|
+| * **FE1** - Usuário Recusa o Convite<br> 1 - O Usuário convidado recusa o convite;  <br> 2 - O Processo é finalizado com sucesso. * <br><br>  |
+| **Pós Condições**|
+| O Usuário Convidado agora pode modificar a pasta compartilhada.  |
 
 ## Criar Pasta
+
+| Descrição|
+| -- |
+| Criar uma pasta para guardar os pins conforme desejo do usuário |
+| **Atores** |
+| Usuário |
+| **Pré Condições** |
+| Usuário possuir conta no Pinterest |
+| **Fluxo Principal** |
+|**1** - Usuário acessa seu perfil no aplicativo. **[FA1]** ; <br> **2** - Aparecem várias opções, como acessar pastas já criadas ou criar uma pasta; <br> **3** - Usuário seleciona a opção "Criar Pasta". <br> **3** - Surge uma caixa na tela, pedindo para que o usuário insira o nome de sua pasta e demais informações; <br> **4** - Usuário insere o nome da pasta. **[FA2][FA3]** ; <br> **5** - Usuário escolhe a opção "Criar". **[FE1]** ; <br> **6** - O Processo é finalizado com sucesso. |
+| **Fluxos Alternativos ** |
+| * **FA1** - Criar Pasta ao Salvar Pin <br> 1 - O Usuário acessa a página inicial; <br> 2 - Usuário escolhe um Pin de seu interesse para salvar; <br> 3 - Usuário seleciona a opção de escolher pasta, se já tiver pastas; <br> 4 - Usuário escolhe a opção de "Criar Pasta" <br> 5 - Usuário preenche o nome da nova pasta **[FA2][FA3]** ; <br> 6 - Usuário seleciona a opção "Criar" **[FE1]** ; <br> 7 - O Processo é finalizado com sucesso. * <br><br> * **FA2** - Tornar a Pasta Secreta <br> 1 - O Usuário Ativa a opção de tornar a pasta secreta;  <br> 2 - Usuário seleciona a opção  "Criar" **[FE1]** ; <br> 3 - O Processo é finalizado com sucesso. * <br><br>  * **FA3** - Compartilhar a Pasta ao Criar <br> 1 - O Usuário seleciona outros usuários com quem compartilhar a Pasta que será criada; <br> 2 - Os Convites de compartilhamento são enviados; <br> 3 - Usuário seleciona a opção  "Criar" **[FE1]**; <br> 4 - O Processo é finalizado com sucesso. * <br><br> |
+| **Fluxos de Exceção**|
+| * **FE1** - Nome de Pasta já existente <br> 1 - O Usuário insere um nome de uma pasta já existente; <br> 2 - O Programa não valida e informa o usuário de que aquele nome já foi utilizado; <br> 3 - Usuário seleciona um novo nome para a pasta; <br>  4 - Usuário seleciona a opção "Criar" **[FE1]** ; <br> 5 - O Processo é finalizado com sucesso. * <br><br>  |
+| **Pós Condições**|
+| O Usuário possui uma nova pasta para salvar seus pins. |

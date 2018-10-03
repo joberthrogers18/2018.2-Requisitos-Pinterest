@@ -18,10 +18,10 @@
 ![comentarPin](img/use_cases_comentario.png)
 
 ## Compartilhar Pasta
-
+![compartilharPasta](img/use_case_compartilhar_pasta.png)
 
 ## Criar Pasta
-
+![criarPasta](img/use_case_criar_pasta.png)
 
 ## Definir interesses
 
@@ -52,7 +52,7 @@
 ![PesquisarPorTema](img/CasodeUso_PesquisarPorTema.png)
 
 ## Pesquisar por foto
-
+![PesquisarPorFoto](img/use_case_pesquisar_por_foto.png)
 
 ## Seguir outro usuário
 
