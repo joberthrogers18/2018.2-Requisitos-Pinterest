@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Diagramas de Caso de Uso";
     var mkdocs_page_input_path = "diagramas_caso_uso.md";
-    var mkdocs_page_url = "/diagramas_caso_uso/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -141,6 +142,8 @@
             <li><a class="toctree-l4" href="#editar-um-pin">Editar um Pin</a></li>
         
             <li><a class="toctree-l4" href="#enviar-um-pin">Enviar um Pin</a></li>
+        
+            <li><a class="toctree-l4" href="#realizar-primeiro-login">Realizar Primeiro login</a></li>
         
             <li><a class="toctree-l4" href="#fazer-login">Fazer login</a></li>
         
@@ -245,6 +248,9 @@
 <p><img alt="definirInteresses" src="../img/use_case_interesses.png" /></p>
 <h2 id="editar-um-pin">Editar um Pin</h2>
 <h2 id="enviar-um-pin">Enviar um Pin</h2>
+<p><img alt="EnviarUmPin" src="../img/CasoDeUsoEnviarUmPin.jpeg" /></p>
+<h2 id="realizar-primeiro-login">Realizar Primeiro login</h2>
+<p><img alt="RealizarPrimeiroLogin" src="../img/CasoDeUsoRealizarPrimeiroLogin.jpeg" /></p>
 <h2 id="fazer-login">Fazer login</h2>
 <h2 id="ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</h2>
 <h2 id="organizar-pasta">Organizar Pasta</h2>
@@ -254,6 +260,7 @@
 <h2 id="seguir-outro-usuario">Seguir outro usuário</h2>
 <p><img alt="seguirUsuario" src="../img/use_cases_seguir.png" /></p>
 <h2 id="salvar-um-pin">Salvar um Pin</h2>
+<p><img alt="SalvarUmPin" src="../img/CasoDeUsoSalvarUmPin.jpeg" /></p>
 <h2 id="visualizar-feed">Visualizar Feed</h2>
 <h2 id="visualizar-aba-seguindo">Visualizar aba Seguindo</h2>
 <p><img alt="visualizarSeguindo" src="../img/use_cases_aba_visualizar.png" /></p>
@@ -295,12 +302,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -314,7 +321,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>

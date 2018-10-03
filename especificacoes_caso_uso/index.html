@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Especifica\u00e7\u00f5es de Caso de Uso";
     var mkdocs_page_input_path = "especificacoes_caso_uso.md";
-    var mkdocs_page_url = "/especificacoes_caso_uso/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -130,30 +131,43 @@
         
             <li><a class="toctree-l4" href="#cadastro-de-usuario">Cadastro de usuário</a></li>
         
-        </ul>
-    
-
-    <li class="toctree-l3"><a href="#head">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</a></li>
-    
-        <ul>
-        
             <li><a class="toctree-l4" href="#visualizar-pin">Visualizar pin</a></li>
         
             <li><a class="toctree-l4" href="#comentar-em-um-pin">Comentar em um Pin</a></li>
-        
-            <li><a class="toctree-l4" href="#compartilhar-pasta">Compartilhar Pasta</a></li>
-        
-            <li><a class="toctree-l4" href="#criar-pasta">Criar Pasta</a></li>
         
             <li><a class="toctree-l4" href="#definir-interesses">Definir interesses</a></li>
         
             <li><a class="toctree-l4" href="#enviar-mensagem">Enviar mensagem</a></li>
         
-            <li><a class="toctree-l4" href="#editar-um-pin">Editar um Pin</a></li>
+            <li><a class="toctree-l4" href="#fazer-login">Fazer login</a></li>
+        
+            <li><a class="toctree-l4" href="#seguir-outro-usuario">Seguir outro usuário</a></li>
+        
+            <li><a class="toctree-l4" href="#visualizar-aba-seguindo">Visualizar aba Seguindo</a></li>
+        
+            <li><a class="toctree-l4" href="#enviar-mensagem-para-outros-usuarios">Enviar mensagem para outros usuários</a></li>
+        
+            <li><a class="toctree-l4" href="#ocultar-um-pin">Ocultar um Pin</a></li>
+        
+            <li><a class="toctree-l4" href="#salvar-um-pin">Salvar um Pin</a></li>
         
             <li><a class="toctree-l4" href="#enviar-um-pin">Enviar um Pin</a></li>
         
-            <li><a class="toctree-l4" href="#fazer-login">Fazer login</a></li>
+            <li><a class="toctree-l4" href="#realizar-primeiro-login">Realizar primeiro login</a></li>
+        
+            <li><a class="toctree-l4" href="#denunciar-um-pin">Denunciar um Pin</a></li>
+        
+            <li><a class="toctree-l4" href="#classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</a></li>
+        
+            <li><a class="toctree-l4" href="#sair-do-aplicativo-pinterest">Sair do aplicativo Pinterest</a></li>
+        
+            <li><a class="toctree-l4" href="#editar-perfil">Editar Perfil</a></li>
+        
+            <li><a class="toctree-l4" href="#visualizar-feed">Visualizar Feed</a></li>
+        
+            <li><a class="toctree-l4" href="#receber-notificacoes">Receber [notificações</a></li>
+        
+            <li><a class="toctree-l4" href="#classificacao-de-pastas">Classificação de pastas</a></li>
         
             <li><a class="toctree-l4" href="#ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</a></li>
         
@@ -163,29 +177,11 @@
         
             <li><a class="toctree-l4" href="#pesquisar-por-foto">Pesquisar por foto</a></li>
         
-            <li><a class="toctree-l4" href="#seguir-outro-usuario">Seguir outro usuário</a></li>
+            <li><a class="toctree-l4" href="#editar-um-pin">Editar um Pin</a></li>
         
-            <li><a class="toctree-l4" href="#salvar-um-pin">Salvar um Pin</a></li>
+            <li><a class="toctree-l4" href="#compartilhar-pasta">Compartilhar Pasta</a></li>
         
-            <li><a class="toctree-l4" href="#visualizar-feed">Visualizar Feed</a></li>
-        
-            <li><a class="toctree-l4" href="#visualizar-aba-seguindo">Visualizar aba Seguindo</a></li>
-        
-            <li><a class="toctree-l4" href="#enviar-mensagem-para-outros-usuarios">Enviar mensagem para outros usuários</a></li>
-        
-            <li><a class="toctree-l4" href="#receber-notificacoes">Receber [notificações</a></li>
-        
-            <li><a class="toctree-l4" href="#classificacao-de-pastas">Classificação de pastas</a></li>
-        
-            <li><a class="toctree-l4" href="#ocultar-um-pin">Ocultar um Pin</a></li>
-        
-            <li><a class="toctree-l4" href="#denunciar-um-pin">Denunciar um Pin</a></li>
-        
-            <li><a class="toctree-l4" href="#classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</a></li>
-        
-            <li><a class="toctree-l4" href="#sair-do-aplicativo-pinterest">Sair do aplicativo Pinterest</a></li>
-        
-            <li><a class="toctree-l4" href="#editar-perfil">Editar Perfil</a></li>
+            <li><a class="toctree-l4" href="#criar-pasta">Criar Pasta</a></li>
         
         </ul>
     
@@ -286,7 +282,6 @@
 </tr>
 </tbody>
 </table>
-<h1 id="head">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</h1>
 <h2 id="visualizar-pin">Visualizar pin</h2>
 <table>
 <thead>
@@ -336,21 +331,6 @@
 </tr>
 </tbody>
 </table>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<blockquote>
-<p>78c16c4ed827286f0b55983ea44520abe0881c35</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
-</blockquote>
 <h2 id="comentar-em-um-pin">Comentar em um Pin</h2>
 <table>
 <thead>
@@ -400,8 +380,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="compartilhar-pasta">Compartilhar Pasta</h2>
-<h2 id="criar-pasta">Criar Pasta</h2>
 <h2 id="definir-interesses">Definir interesses</h2>
 <table>
 <thead>
@@ -503,8 +481,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="editar-um-pin">Editar um Pin</h2>
-<h2 id="enviar-um-pin">Enviar um Pin</h2>
 <h2 id="fazer-login">Fazer login</h2>
 <table>
 <thead>
@@ -554,10 +530,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</h2>
-<h2 id="organizar-pasta">Organizar Pasta</h2>
-<h2 id="pesquisar-por-tema">Pesquisar por tema</h2>
-<h2 id="pesquisar-por-foto">Pesquisar por foto</h2>
 <h2 id="seguir-outro-usuario">Seguir outro usuário</h2>
 <table>
 <thead>
@@ -607,8 +579,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="salvar-um-pin">Salvar um Pin</h2>
-<h2 id="visualizar-feed">Visualizar Feed</h2>
 <h2 id="visualizar-aba-seguindo">Visualizar aba Seguindo</h2>
 <table>
 <thead>
@@ -707,8 +677,6 @@
 </tr>
 </tbody>
 </table>
-<h2 id="receber-notificacoes">Receber [notificações</h2>
-<h2 id="classificacao-de-pastas">Classificação de pastas</h2>
 <h2 id="ocultar-um-pin">Ocultar um Pin</h2>
 <table>
 <thead>
@@ -758,10 +726,161 @@
 </tr>
 </tbody>
 </table>
+<h2 id="salvar-um-pin">Salvar um Pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Salvar um Pin do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário abre o Pinterest <br> 2 - Usuário efetua Login no Pinterest [FA01] <br> 3 - Usuário acessa Página Principal [FA02] <br> 4 - Usuário visualiza Feed <br> 5 - Usuário visualiza um Pin <br> 6 - Usuário clica para Salvar o Pin <br> 7 - Usuário cria uma pasta para salvar um Pin [FA03] <br> 8 - Usuário escolhe o nome da pasta <br> 9 - Usuário salva o Pin na pasta</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>2(a)</strong> <br> - [FA01] <em>Usuário efetuar primeiro login na aplicação</em> <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Usuário acessa Página Inicial <br> - Continua o Fluxo Principal a partir do 4 <br> <strong>3(a)</strong> <br> - [FA02] <em>Usuário pesquisa por conteúdo específico</em> <br> - Usuário visualiza um Pin <br> - Continua o Fluxo Principal a partir do 6 <br> <strong>7(a)</strong> <br> - [FA03] <em>Usuário salva Pin em uma pasta já criada</em> <br></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>[FE01] - Erro ao salvar Pin</em> <br> O Pin já ter sido salvo na pasta</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário salva Pin em uma pasta do Pinterest</td>
+</tr>
+</tbody>
+</table>
+<h2 id="enviar-um-pin">Enviar um Pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enviar um Pin do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário abre o Pinterest <br> 2 - Usuário efetua Login no Pinterest [FA01] <br> 3 - Usuário acessa Página Principal [FA02] <br> 4 - Usuário visualiza Feed <br> 5 - Usuário visualiza um Pin <br> 6 - Usuário clica para Enviar o Pin <br> 7 - Usuário escolhe para que amigo do Pinterest quer enviar o Pin [FA03][FA04][FA05] <br> 8 - Usuário envia o Pin [FA06]</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>2(a)</strong> <br> - [FA01] <em>Usuário efetuar primeiro login na aplicação</em> <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Usuário acessa Página Inicial <br> - Continua o Fluxo Principal a partir do 4 <br> <strong>3(a)</strong> <br> - [FA02] <em>Usuário pesquisa por conteúdo específico</em> <br> - Usuário visualiza um Pin <br> - Continua o Fluxo Principal a partir do 6 <br> <strong>7(a)</strong> <br> - [FA03] <em>Usuário copia o link do Pin para enviar por e-mail, SMS ou outra plataforma</em> <br> <strong>7(b)</strong> <br> - [FA04] <em>Usuário compartilha o link do Pin para o Facebook</em> <br> <strong>7(c)</strong> <br> - [FA05] <em>Usuário envia o link do Pin para um contato do WhatsApp</em> <br> <strong>8(a)</strong> <br> - [FA06] <em>Usuário escreve uma mensagem para enviar junto ao Pin para um usuário do Pinterest</em> <br> - Usuário envia o Pin</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>[FE01] - Não ter para quem enviar o Pin</em> <br> Não ter amigos no Pinterest <br> <em>[FE02] Não ter outra plataforma para enviar o link do Pin</em></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário envia o Pin para outra pessoa</td>
+</tr>
+</tbody>
+</table>
+<h2 id="realizar-primeiro-login">Realizar primeiro login</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Realizar primeiro login no Pinterest</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário recém cadastrado no Pinterest</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir cadastro no Pinterest <br> Usuário não ter efetuado seu primeiro login <br> Usuário ter conexão de internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário abre o Pinterest <br> 2 - Usuário efetua o primeiro Login no Pinterest <br> 3 - Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> 4 - Usuário acessa página principal [FA02][FA03][FA04] <br> 5 - Usuário visualiza Feed <br> 6 - Usuário visiualiza um Pin</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>3(a)</strong> <br> - [FA01] <em>Usuário faz o tutorial para aprender as funcionalidades do Pinterest</em> <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Continua o fluxo principal a partir do 4 <br> <strong>4(a)</strong> <br> - [FA02] <em>Usuário procura pessoas para seguir no Pinterest</em> <br> <strong>4(b)</strong> <br> - [FA03] <em>Usuário procura por conteúdos específicos no Pinterest</em> <br> <strong>4(c)</strong> <br> - [FA04] <em>Usuário procura mais interesses para seguir</em></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário efetua primeiro login no Pinterest</td>
+</tr>
+</tbody>
+</table>
 <h2 id="denunciar-um-pin">Denunciar um Pin</h2>
 <h2 id="classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</h2>
 <h2 id="sair-do-aplicativo-pinterest">Sair do aplicativo Pinterest</h2>
 <h2 id="editar-perfil">Editar Perfil</h2>
+<h2 id="visualizar-feed">Visualizar Feed</h2>
+<h2 id="receber-notificacoes">Receber [notificações</h2>
+<h2 id="classificacao-de-pastas">Classificação de pastas</h2>
+<h2 id="ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</h2>
+<h2 id="organizar-pasta">Organizar Pasta</h2>
+<h2 id="pesquisar-por-tema">Pesquisar por tema</h2>
+<h2 id="pesquisar-por-foto">Pesquisar por foto</h2>
+<h2 id="editar-um-pin">Editar um Pin</h2>
+<h2 id="compartilhar-pasta">Compartilhar Pasta</h2>
+<h2 id="criar-pasta">Criar Pasta</h2>
               
             </div>
           </div>
@@ -786,12 +905,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -805,7 +924,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
