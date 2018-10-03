@@ -236,13 +236,29 @@
 | **Pós Condições**|
 | Usuário efetua primeiro login no Pinterest |
 
+## Sair do aplicativo Pinterest
+
+| Descrição |
+| -- |
+| O usuário sair de sua conta no pinterest caso esteja logado. |
+| **Atores** |
+| Usuário. |
+| **Pré Condições** |
+|  O usuário está logado. |
+| **Fluxo Principal** |
+| FP1 - O usuário abre o aplicativo. <br> FP2 - acessa a aba de salvo.[FA1] <br> FP3 - O usuário seleciona o ícone de engrenagem na parte superior direita.<br>FP4 - Seleciona a opção sair.[FA2]<br>FP5 - É redirecionado para a página de login.|
+| **Fluxos Alternativos** |
+| FA1 - O usuário pode permanecer no feed. <br> FA2 – O usuário pode permanecer na aba salvos e escolher outra opção.|
+| **Fluxos de Exceção**|
+| - |
+| **Pós Condições**|
+| O usuário deslogado. |
+
+
 ## Denunciar um Pin
 
 
 ## Classificar um Pin como Experimentado
-
-
-## Sair do aplicativo Pinterest
 
 
 ## Editar Perfil

@@ -92,7 +92,7 @@
 
 ## Sair do aplicativo Pinterest
 
-![Enviar Mensagem](img/Diagrama_caso_uso_enviar_mensagem.png)
+![Enviar Mensagem](img/Diagrama_caso_uso_sair.png)
 
 ## Fazer Login
 
