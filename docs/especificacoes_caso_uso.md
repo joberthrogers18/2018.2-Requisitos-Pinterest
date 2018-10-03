@@ -94,6 +94,21 @@
 
 ## Ir para a fonte de um Pin
 
+| Descrição|
+| -- |
+|Visitar a página web de onde foi tirado um determinado [pin](lexicos.md#pin).|
+| **Atores** |
+|[Usuário](lexicos.md#usuario)|
+| **Pré Condições** |
+| O [usuário](lexicos.md#usuario) deve ter o aplicativo do [Pinterest](lexicos.md#pinterest) baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet.|
+| **Fluxo Principal** |
+|Usuário [faz login](diagramas_caso_uso.md#fazer-login)[FA1] <br> Usuário seleciona um pin <br> Usuário clica no link para a fonte do site <br> Usuário é redirecionado para o site|
+| **Fluxos Alternativos ** |
+| *FA1 - Link direto* <br> Usuário passa o mouse sobre o pin <br> Usuário clica sobre o link fonte <br> Usuário é redirecionado para uma página|
+| **Fluxos de Exceção**|
+| ----- |
+| **Pós Condições**|
+| Conseguir acessar a página de onde provém o pin. |
 
 ## Organizar Pasta
 

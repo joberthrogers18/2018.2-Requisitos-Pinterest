@@ -1,5 +1,6 @@
 # Introdução
 
+## Enviar mensagem
 
 ## Cadastro de usuário
 
@@ -36,11 +37,11 @@
 
 ## Fazer login
 
-
-
+![Fazer Login](img/Caso_de_uso_fazer_login.png)
 
 ## Ir para a fonte de um Pin
 
+![Fonte Pin](img/Caso_de_uso_fonte.png)
 
 ## Organizar Pasta
 
@@ -85,13 +86,6 @@
 
 ## Sair do aplicativo Pinterest
 
-
-<<<<<<< HEAD
 ![Enviar Mensagem](img/Caso_de_uso_enviar_mensagem.jpg)
 
-## Fazer Login
-
-![Fazer Login](img/Caso_de_uso_fazer_login.png)
-=======
 ## Editar Perfil
->>>>>>> e72cc145b65375b95888ffa16166baeb6352ec4f
