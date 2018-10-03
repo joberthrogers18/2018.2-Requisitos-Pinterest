@@ -361,7 +361,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#crash) <br> [Pin](lexicos.md#pin) ser excluído ao ser [ocultado](lexicos.md#ocultar) <br> |
 |**Episódios** |
-| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página(lexicos.md#aba) inicial para visualizar e navegar pelo [feed](lexicos.md#feed) de repleto de [pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão [Ocultar](lexicos.md#ocultar) <br> [Pinterest](lexicos.md#pinterest) informa que [pins](lexicos.md#pin) com esse tipo de conteúdo não aparecerão mais para o [usuário](lexicos.md#usuario) <br> |
+| [Usuário](lexicos.md#usuario) abre o aplicativo <br> [Usuário](lexicos.md#usuario) entra na página inicial para visualizar e navegar pelo [feed](lexicos.md#feed) de repleto de [pins](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) seleciona um [Pin](lexicos.md#pin) <br> [Usuário](lexicos.md#usuario) clica no botão [Ocultar](lexicos.md#ocultar) <br> [Pinterest](lexicos.md#pinterest) informa que [pins](lexicos.md#pin) com esse tipo de conteúdo não aparecerão mais para o [usuário](lexicos.md#usuario) <br> |
 
 ## [Denunciar](lexicos.md#denunciar) um [Pin](lexicos.md#pin)
 
