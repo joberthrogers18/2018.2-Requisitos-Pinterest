@@ -41,6 +41,21 @@
 
 ## Comentar em um Pin
 
+| Descrição|
+| -- |
+| Ato do usuário criar um comentário em um pin. |
+| **Atores** |
+| Usuário cadastrado. |
+| **Pré Condições** |
+|  Usuário estar logado. |
+| **Fluxo Principal** |
+| Em qualquer Feed do Pinterest o usuário encontra um Pin compatível com comentários em que deseja comentar. <br> O usuário clica no Pin <br> O usuário clica no botão comentar <br> O usuário escreve seu comentário <br> O usuário posta seu comentário. |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| *FE1 - Usuário excluir pin na hora que outro está criando um comentário* <br> Sistema apresenta erro quando um usuário comenta e ao mesmo momento o criador do pin o apaga.|
+| **Pós Condições**|
+| Usuário cria um comentário em um pin. |
 
 ## Compartilhar Pasta
 
@@ -106,6 +121,22 @@
 
 ## Seguir outro usuário
 
+| Descrição|
+| -- |
+| Seguir um outro Usuário para acompanhar sua atividade no Pinterest. |
+| **Atores** |
+| Usuário cadastrado. |
+| **Pré Condições** |
+| Usuário possuir conta no Pinterest. <br> O usuário deverá estar logado. |
+| **Fluxo Principal** |
+| O usuário clica no nome de outro usuário. <br> A página do pergil do outro usuário é carregada. [FE1] <br> O usuário clica no botão seguir. |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| *FE1 - Usuário está bloqueado pelo que deseja seguir.*<br> Sistema apresenta mensagem de que não é possível completar a ação pois o outor usuário bloqueou o originatário do pedido.|
+| **Pós Condições**|
+|Usuário passa a seguri outro usuário. |
+
 
 ## Salvar um Pin
 
@@ -116,6 +147,22 @@
 
 ## Visualizar aba Seguindo
 
+
+| Descrição|
+| -- |
+| Ato de visualizar pins de outros usuários que o usuário logado segue. |
+| **Atores** |
+| Usuário cadastrado. |
+| **Pré Condições** |
+|  Usuário estar logado. |
+| **Fluxo Principal** |
+| Usuário abre o app. <br> O usuário clica no ícone da aba Seguindo. <br> O usuário visualiza o conteúdo da aba Seguindo. |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| - |
+| **Pós Condições**|
+| Usuário visualizará a aba "Seguindo". |
 
 ## Enviar mensagem para outros usuários
 
