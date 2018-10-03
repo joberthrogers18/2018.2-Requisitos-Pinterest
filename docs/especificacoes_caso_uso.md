@@ -3,7 +3,6 @@
 
 ## Cadastro de usuário
 
-
 | Descrição|
 | -- |
 |Cadastrar novo usuário no Pinterest|
@@ -20,8 +19,6 @@
 | **Pós Condições**|
 |Usuário possui conta no Pinterest|
 
-<<<<<<< HEAD
-=======
 ## Visualizar pin
 
 | Descrição|
@@ -41,7 +38,6 @@
 | Usuário visualiza pin. |
 
 
->>>>>>> 78c16c4ed827286f0b55983ea44520abe0881c35
 ## Comentar em um Pin
 
 | Descrição|
@@ -59,12 +55,6 @@
 | *FE1 - Usuário excluir pin na hora que outro está criando um comentário* <br> Sistema apresenta erro quando um usuário comenta e ao mesmo momento o criador do pin o apaga.|
 | **Pós Condições**|
 | Usuário cria um comentário em um pin. |
-
-## Compartilhar Pasta
-
-
-## Criar Pasta
-
 
 ## Definir interesses
 
@@ -87,7 +77,6 @@
 
 ## Enviar mensagem
 
-
 | Descrição|
 | -- |
 | Enviar mensagens ou pins para outros usuários.|
@@ -104,13 +93,6 @@
 | *FE1 - Usuário não encontrado*<br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br>*FE2 - Mensagem não entregue*<br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.<br>
 | **Pós Condições**|
 |Usuário envia mensagem|
-
-## Editar um Pin
-
-
-
-## Enviar um Pin
-
 
 ## Fazer login
 
@@ -130,18 +112,6 @@
 | **Pós Condições**|
 | Conseguir acessar a página principal e outras funcionalidades exclusivas para usuários logados |
 
-## Ir para a fonte de um Pin
-
-
-## Organizar Pasta
-
-
-## Pesquisar por tema
-
-
-## Pesquisar por foto
-
-
 ## Seguir outro usuário
 
 | Descrição|
@@ -160,16 +130,7 @@
 | **Pós Condições**|
 |Usuário passa a seguri outro usuário. |
 
-
-## Salvar um Pin
-
-
-
-## Visualizar Feed
-
-
 ## Visualizar aba Seguindo
-
 
 | Descrição|
 | -- |
@@ -205,12 +166,6 @@
 | **Pós Condições**|
 |Usuário envia mensagem|
 
-## Receber [notificações
-
-
-## Classificação de pastas
-
-
 ## Ocultar um Pin
 
 | Descrição|
@@ -229,12 +184,95 @@
 | **Pós Condições**|
 |Usuário envia mensagem|
 
+## Salvar um Pin
+
+| Descrição |
+| -- |
+| Salvar um Pin do Pinterest |
+| **Atores** |
+| Usuário do Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet |
+| **Fluxo Principal** |
+| 1 - Usuário abre o Pinterest <br> 2 - Usuário efetua Login no Pinterest [FA01] <br> 3 - Usuário acessa Página Principal [FA02] <br> 4 - Usuário visualiza Feed <br> 5 - Usuário visualiza um Pin <br> 6 - Usuário clica para Salvar o Pin <br> 7 - Usuário cria uma pasta para salvar um Pin [FA03] <br> 8 - Usuário escolhe o nome da pasta <br> 9 - Usuário salva o Pin na pasta |
+| **Fluxos Alternativos** |
+| **2(a)** <br> - [FA01] *Usuário efetuar primeiro login na aplicação* <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Usuário acessa Página Inicial <br> - Continua o Fluxo Principal a partir do 4 <br> **3(a)** <br> - [FA02] *Usuário pesquisa por conteúdo específico* <br> - Usuário visualiza um Pin <br> - Continua o Fluxo Principal a partir do 6 <br> **7(a)** <br> - [FA03] *Usuário salva Pin em uma pasta já criada* <br>|
+| **Fluxos de Exceção**|
+| *[FE01] - Erro ao salvar Pin* <br> O Pin já ter sido salvo na pasta |
+| **Pós Condições**|
+| Usuário salva Pin em uma pasta do Pinterest |
+
+## Enviar um Pin
+
+| Descrição |
+| -- |
+| Enviar um Pin do Pinterest |
+| **Atores** |
+| Usuário do Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet |
+| **Fluxo Principal** |
+| 1 - Usuário abre o Pinterest <br> 2 - Usuário efetua Login no Pinterest [FA01] <br> 3 - Usuário acessa Página Principal [FA02] <br> 4 - Usuário visualiza Feed <br> 5 - Usuário visualiza um Pin <br> 6 - Usuário clica para Enviar o Pin <br> 7 - Usuário escolhe para que amigo do Pinterest quer enviar o Pin [FA03][FA04][FA05] <br> 8 - Usuário envia o Pin [FA06] |
+| **Fluxos Alternativos** |
+| **2(a)** <br> - [FA01] *Usuário efetuar primeiro login na aplicação* <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Usuário acessa Página Inicial <br> - Continua o Fluxo Principal a partir do 4 <br> **3(a)** <br> - [FA02] *Usuário pesquisa por conteúdo específico* <br> - Usuário visualiza um Pin <br> - Continua o Fluxo Principal a partir do 6 <br> **7(a)** <br> - [FA03] *Usuário copia o link do Pin para enviar por e-mail, SMS ou outra plataforma* <br> **7(b)** <br> - [FA04] *Usuário compartilha o link do Pin para o Facebook* <br> **7(c)** <br> - [FA05] *Usuário envia o link do Pin para um contato do WhatsApp* <br> **8(a)** <br> - [FA06] *Usuário escreve uma mensagem para enviar junto ao Pin para um usuário do Pinterest* <br> - Usuário envia o Pin |
+| **Fluxos de Exceção**|
+| *[FE01] - Não ter para quem enviar o Pin* <br> Não ter amigos no Pinterest <br> *[FE02] Não ter outra plataforma para enviar o link do Pin* |
+| **Pós Condições**|
+| Usuário envia o Pin para outra pessoa |
+
+## Realizar primeiro login
+
+| Descrição |
+| -- |
+| Realizar primeiro login no Pinterest |
+| **Atores** |
+| Usuário recém cadastrado no Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário não ter efetuado seu primeiro login <br> Usuário ter conexão de internet |
+| **Fluxo Principal** |
+| 1 - Usuário abre o Pinterest <br> 2 - Usuário efetua o primeiro Login no Pinterest <br> 3 - Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> 4 - Usuário acessa página principal [FA02][FA03][FA04] <br> 5 - Usuário visualiza Feed <br> 6 - Usuário visiualiza um Pin |
+| **Fluxos Alternativos** |
+| **3(a)** <br> - [FA01] *Usuário faz o tutorial para aprender as funcionalidades do Pinterest* <br> - Usuário escolhe no mínimo cinco categorias de interesses <br> - Continua o fluxo principal a partir do 4 <br> **4(a)** <br> - [FA02] *Usuário procura pessoas para seguir no Pinterest* <br> **4(b)** <br> - [FA03] *Usuário procura por conteúdos específicos no Pinterest* <br> **4(c)** <br> - [FA04] *Usuário procura mais interesses para seguir* |
+| **Pós Condições**|
+| Usuário efetua primeiro login no Pinterest |
+
 ## Denunciar um Pin
 
 
 ## Classificar um Pin como Experimentado
 
+
 ## Sair do aplicativo Pinterest
 
 
 ## Editar Perfil
+
+
+## Visualizar Feed
+
+
+## Receber [notificações
+
+
+## Classificação de pastas
+
+
+## Ir para a fonte de um Pin
+
+
+## Organizar Pasta
+
+
+## Pesquisar por tema
+
+
+## Pesquisar por foto
+
+
+## Editar um Pin
+
+
+## Compartilhar Pasta
+
+
+## Criar Pasta
