@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Especifica\u00e7\u00f5es de Caso de Uso";
     var mkdocs_page_input_path = "especificacoes_caso_uso.md";
-    var mkdocs_page_url = "/especificacoes_caso_uso/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -1034,8 +1035,152 @@
 <h2 id="organizar-pasta_1">Organizar Pasta</h2>
 <h2 id="pesquisar-por-tema_1">Pesquisar por tema</h2>
 <h2 id="pesquisar-por-foto_1">Pesquisar por foto</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Utilizar uma imagem como base de pesquisa para encontrar pins semelhantes.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário <br> Imagens semelhantes</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir conta no Pinterest <br> Usuário ter acesso ao aplicativo mobile <br> Usuário possuir celular com câmera</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong> - Usuário acessa o aplicativo pelo celular; <br> <strong>2</strong> - Abre a Página Inicial para o usuário; <br> <strong>3</strong> - Usuário seleciona o símbolo de Câmera na barra de pesquisa <strong>[FA1]</strong> ; <br> <strong>4</strong> - Usuário tira foto da imagem que quer pesquisar; <br> <strong>5</strong> - Imagens semelhantes são retornadas ao usuário <strong>[FE1]</strong> ; <br> <strong>6</strong> - O Processo é finalizado com sucesso.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos </strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - Selecionar Imagem da Galeria <br> 1 - O Usuário acessa a galeria do celular; <br> 2 - Usuário seleciona imagem de base para a pesquisa de pins; <br> 3 - Imagens semelhantes são retornadas ao usuário.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Pins Retornados Não São Semelhantes <br> 1 - Imagens de Pins retornados não correpondem ao tema da imagem enviada;  <br> 2 - O Processo é finalizado.<br><br></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>São retornadas imagens de Pins semelhantes à imagem usada para pesquisa pelo usuário.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="compartilhar-pasta">Compartilhar Pasta</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Permitir que um outro usuário possa editar uma pasta, adicionando e removendo pins ou criando subpastas.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário <br> Usuário Convidado a Compartilhar Pasta</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir conta no Pinterest <br> Usuário Convidado possuir conta no Pinterest <br> Usuário possuir uma pasta</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong> - Usuário acessa seu perfil no aplicativo; <br> <strong>2</strong> - Aparecem várias opções, como acessar pastas já criadas ou criar uma pasta; <br> <strong>3</strong> - Usuário seleciona a pasta; <br> <strong>3</strong> - Usuário seleciona ícone de compartilhar pasta; <br> <strong>4</strong> - Usuário escolhe os outros usuários com quem compartilhar a pasta nas opções mostradas. <strong>[FA1]</strong> ; <br> <strong>5</strong> - Usuário envia convites de compartilhamento; <br> <strong>6</strong> - O Convidado a compartilhar aceita o convite. <strong>[FE1]</strong>; <br> <strong>7</strong> - O Processo é finalizado com sucesso.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos </strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - Procurar por usuários <br> 1 - O Usuário acessa a barra de pesquisa na função de compartilhar pasta; <br> 2 - Usuário digita nome do outro usuário com quem vai compartilhar a pasta; <br> 3 - Usuário seleciona a opção de escolher pasta, se já tiver pastas; <br> 4 - Usuário escolhe a opção de "Criar Pasta" <br> 5 - Usuário envia convites de compartilhamento; <br> 6 - O Convidado a compartilhar aceita o convite. <strong>[FE1]</strong>; <br> 7 - O Processo é finalizado com sucesso.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Usuário Recusa o Convite<br> 1 - O Usuário convidado recusa o convite;  <br> 2 - O Processo é finalizado com sucesso. <br><br></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O Usuário Convidado agora pode modificar a pasta compartilhada.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="criar-pasta">Criar Pasta</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Criar uma pasta para guardar os pins conforme desejo do usuário</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir conta no Pinterest</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td><strong>1</strong> - Usuário acessa seu perfil no aplicativo. <strong>[FA1]</strong> ; <br> <strong>2</strong> - Aparecem várias opções, como acessar pastas já criadas ou criar uma pasta; <br> <strong>3</strong> - Usuário seleciona a opção "Criar Pasta". <br> <strong>3</strong> - Surge uma caixa na tela, pedindo para que o usuário insira o nome de sua pasta e demais informações; <br> <strong>4</strong> - Usuário insere o nome da pasta. <strong>[FA2][FA3]</strong> ; <br> <strong>5</strong> - Usuário escolhe a opção "Criar". <strong>[FE1]</strong> ; <br> <strong>6</strong> - O Processo é finalizado com sucesso.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos </strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - Criar Pasta ao Salvar Pin <br> 1 - O Usuário acessa a página inicial; <br> 2 - Usuário escolhe um Pin de seu interesse para salvar; <br> 3 - Usuário seleciona a opção de escolher pasta, se já tiver pastas; <br> 4 - Usuário escolhe a opção de "Criar Pasta" <br> 5 - Usuário preenche o nome da nova pasta <strong>[FA2][FA3]</strong> ; <br> 6 - Usuário seleciona a opção "Criar" <strong>[FE1]</strong> ; <br> 7 - O Processo é finalizado com sucesso. <br><br> <strong>FA2</strong> - Tornar a Pasta Secreta <br> 1 - O Usuário Ativa a opção de tornar a pasta secreta;  <br> 2 - Usuário seleciona a opção  "Criar" <strong>[FE1]</strong> ; <br> 3 - O Processo é finalizado com sucesso. <br><br> <strong>FA3</strong> - Compartilhar a Pasta ao Criar <br> 1 - O Usuário seleciona outros usuários com quem compartilhar a Pasta que será criada; <br> 2 - Os Convites de compartilhamento são enviados; <br> 3 - Usuário seleciona a opção  "Criar" <strong>[FE1]</strong>; <br> 4 - O Processo é finalizado com sucesso.<br><br></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Nome de Pasta já existente <br> 1 - O Usuário insere um nome de uma pasta já existente; <br> 2 - O Programa não valida e informa o usuário de que aquele nome já foi utilizado; <br> 3 - Usuário seleciona um novo nome para a pasta; <br>  4 - Usuário seleciona a opção "Criar" <strong>[FE1]</strong> ; <br> 5 - O Processo é finalizado com sucesso.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O Usuário possui uma nova pasta para salvar seus pins.</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>
@@ -1060,12 +1205,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -1079,7 +1224,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
