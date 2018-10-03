@@ -13,20 +13,19 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link rel="stylesheet" href="../css/highlight.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Especifica\u00e7\u00f5es de Caso de Uso";
     var mkdocs_page_input_path = "especificacoes_caso_uso.md";
-    var mkdocs_page_url = null;
+    var mkdocs_page_url = "/especificacoes_caso_uso/";
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
   
 </head>
 
@@ -40,7 +39,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+    <input type="text" name="q" placeholder="Search docs" />
   </form>
 </div>
       </div>
@@ -137,9 +136,19 @@
         
             <li><a class="toctree-l4" href="#definir-interesses">Definir interesses</a></li>
         
+            <li><a class="toctree-l4" href="#editar-um-pin">Editar um Pin</a></li>
+        
             <li><a class="toctree-l4" href="#enviar-mensagem">Enviar mensagem</a></li>
         
             <li><a class="toctree-l4" href="#fazer-login">Fazer login</a></li>
+        
+            <li><a class="toctree-l4" href="#ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</a></li>
+        
+            <li><a class="toctree-l4" href="#organizar-pasta">Organizar Pasta</a></li>
+        
+            <li><a class="toctree-l4" href="#pesquisar-por-tema">Pesquisar por tema</a></li>
+        
+            <li><a class="toctree-l4" href="#pesquisar-por-foto">Pesquisar por foto</a></li>
         
             <li><a class="toctree-l4" href="#seguir-outro-usuario">Seguir outro usuário</a></li>
         
@@ -155,11 +164,11 @@
         
             <li><a class="toctree-l4" href="#realizar-primeiro-login">Realizar primeiro login</a></li>
         
+            <li><a class="toctree-l4" href="#sair-do-aplicativo-pinterest">Sair do aplicativo Pinterest</a></li>
+        
             <li><a class="toctree-l4" href="#denunciar-um-pin">Denunciar um Pin</a></li>
         
             <li><a class="toctree-l4" href="#classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</a></li>
-        
-            <li><a class="toctree-l4" href="#sair-do-aplicativo-pinterest">Sair do aplicativo Pinterest</a></li>
         
             <li><a class="toctree-l4" href="#editar-perfil">Editar Perfil</a></li>
         
@@ -169,15 +178,13 @@
         
             <li><a class="toctree-l4" href="#classificacao-de-pastas">Classificação de pastas</a></li>
         
-            <li><a class="toctree-l4" href="#ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</a></li>
+            <li><a class="toctree-l4" href="#ir-para-a-fonte-de-um-pin_1">Ir para a fonte de um Pin</a></li>
         
-            <li><a class="toctree-l4" href="#organizar-pasta">Organizar Pasta</a></li>
+            <li><a class="toctree-l4" href="#organizar-pasta_1">Organizar Pasta</a></li>
         
-            <li><a class="toctree-l4" href="#pesquisar-por-tema">Pesquisar por tema</a></li>
+            <li><a class="toctree-l4" href="#pesquisar-por-tema_1">Pesquisar por tema</a></li>
         
-            <li><a class="toctree-l4" href="#pesquisar-por-foto">Pesquisar por foto</a></li>
-        
-            <li><a class="toctree-l4" href="#editar-um-pin">Editar um Pin</a></li>
+            <li><a class="toctree-l4" href="#pesquisar-por-foto_1">Pesquisar por foto</a></li>
         
             <li><a class="toctree-l4" href="#compartilhar-pasta">Compartilhar Pasta</a></li>
         
@@ -429,6 +436,55 @@
 </tr>
 </tbody>
 </table>
+<h2 id="editar-um-pin">Editar um Pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alterar descrição e a pasta de um pin.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário deve ter o aplicativo do Pinterest baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário <a href="../diagramas_caso_uso/#fazer-login">faz login</a> <br> Usuário clica em Perfil [FA1] <br> Usuário seleciona a aba "pastas" <br> Usuário seleciona uma pasta [FA2] <br> Usuário seleciona um pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos </strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Aba pins * <br> Usuário seleciona a aba "pins" <br> Usuário seleciona um pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado. <br><br> </em>FA2 - Mouse sobre o pin * <br> Usuário passa o mouse sobre o pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-----</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>As características modificadas serem vistas pelo usuário na descrição do pin.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="enviar-mensagem">Enviar mensagem</h2>
 <table>
 <thead>
@@ -508,7 +564,7 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>Usuário abre o app [FA1][FA2] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha <br> O usuário é redirecionado para a página principal da aplicação.</td>
+<td>Usuário entra na página de login [FA1][FE2][FA2][FE3] <br> Usuário usa e-mail como forma de login [FA3] <br> Usuário insere a senha [FE1]<br> O usuário é redirecionado para a página principal da aplicação.</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos </strong></td>
@@ -520,7 +576,7 @@
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><em>FE1 - Senha incorreta</em> <br><br> <em>FE2 - Permissão à conta do Facebook negada</em> <br><br> <em>FE3 - Permissão à conta do Google negada</em></td>
+<td><em>FE1 - Senha incorreta</em><br> Uma mensagem de erro é mostrada para usuário <br> Usuário volta para a página de login <br><br> <em>FE2 - Permissão à conta do Facebook negada</em> <br> Uma mensagem de erro é mostrada para usuário <br> Usuário volta para a página de login <br><br> <em>FE3 - Permissão à conta do Google negada</em><br> Uma mensagem de erro é mostrada para usuário <br> Usuário volta para a página de login <br></td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -530,6 +586,58 @@
 </tr>
 </tbody>
 </table>
+<h2 id="ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Visitar a página web de onde foi tirado um determinado <a href="../lexicos/#pin">pin</a>.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td><a href="../lexicos/#usuario">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O <a href="../lexicos/#usuario">usuário</a> deve ter o aplicativo do <a href="../lexicos/#pinterest">Pinterest</a> baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário <a href="../diagramas_caso_uso/#fazer-login">faz login</a>[FA1] <br> Usuário seleciona um pin <br> Usuário clica no link para a fonte do site <br> Usuário é redirecionado para o site</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos </strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Link direto</em> <br> Usuário passa o mouse sobre o pin <br> Usuário clica sobre o link fonte <br> Usuário é redirecionado para uma página</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-----</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Estar na página na qual está o pin.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="organizar-pasta">Organizar Pasta</h2>
+<h2 id="pesquisar-por-tema">Pesquisar por tema</h2>
+<h2 id="pesquisar-por-foto">Pesquisar por foto</h2>
 <h2 id="seguir-outro-usuario">Seguir outro usuário</h2>
 <table>
 <thead>
@@ -867,18 +975,65 @@
 </tr>
 </tbody>
 </table>
+<h2 id="sair-do-aplicativo-pinterest">Sair do aplicativo Pinterest</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O usuário sair de sua conta no pinterest caso esteja logado.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário está logado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>FP1 - O usuário abre o aplicativo. <br> FP2 - acessa a aba de salvo.[FA1] <br> FP3 - O usuário seleciona o ícone de engrenagem na parte superior direita.<br>FP4 - Seleciona a opção sair.[FA2]<br>FP5 - É redirecionado para a página de login.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>FA1 - O usuário pode permanecer no feed. <br> FA2 – O usuário pode permanecer na aba salvos e escolher outra opção.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário deslogado.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="denunciar-um-pin">Denunciar um Pin</h2>
 <h2 id="classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</h2>
-<h2 id="sair-do-aplicativo-pinterest">Sair do aplicativo Pinterest</h2>
 <h2 id="editar-perfil">Editar Perfil</h2>
 <h2 id="visualizar-feed">Visualizar Feed</h2>
 <h2 id="receber-notificacoes">Receber [notificações</h2>
 <h2 id="classificacao-de-pastas">Classificação de pastas</h2>
-<h2 id="ir-para-a-fonte-de-um-pin">Ir para a fonte de um Pin</h2>
-<h2 id="organizar-pasta">Organizar Pasta</h2>
-<h2 id="pesquisar-por-tema">Pesquisar por tema</h2>
-<h2 id="pesquisar-por-foto">Pesquisar por foto</h2>
-<h2 id="editar-um-pin">Editar um Pin</h2>
+<h2 id="ir-para-a-fonte-de-um-pin_1">Ir para a fonte de um Pin</h2>
+<h2 id="organizar-pasta_1">Organizar Pasta</h2>
+<h2 id="pesquisar-por-tema_1">Pesquisar por tema</h2>
+<h2 id="pesquisar-por-foto_1">Pesquisar por foto</h2>
 <h2 id="compartilhar-pasta">Compartilhar Pasta</h2>
 <h2 id="criar-pasta">Criar Pasta</h2>
               
@@ -905,12 +1060,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
+	  
         </div>
       </div>
 
     </section>
-
+    
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -924,9 +1079,7 @@
       
     </span>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
+    <script src="../js/theme.js"></script>
 
 </body>
 </html>
