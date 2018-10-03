@@ -801,25 +801,25 @@
 <td><strong>Atores</strong></td>
 </tr>
 <tr>
-<td>Usuário cadastrado.</td>
+<td>Usuário.</td>
 </tr>
 <tr>
 <td><strong>Pré Condições</strong></td>
 </tr>
 <tr>
-<td>O usuário deverá estar logado.</td>
+<td>usuário deverá estar logado em sua conta do Pinterest .</td>
 </tr>
 <tr>
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>Usuário visualiza feed<br>Usuário navega pelo feed[FA1]<br>Usuário seleciona e segura um pin<br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário</td>
+<td><strong>FP1</strong> - Usuário abre o aplicativo <br><strong>FP2</strong> -  Usuário entra na página inicial para visualizar e navegar pelo feed de repleto de pins<br> <strong>FP3</strong> - Usuário seleciona um Pin<br> <strong>FP4</strong> - Usuário clica no botão Ocultar<br> <strong>FP5</strong> - Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
 </tr>
 <tr>
-<td><em>FA1 - Clicar em um pin</em><br>O usuário acessa a página de detalhes do pin <br> Usuário seleciona e segura um pin <br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário</td>
+<td>FA1 - Desfaz a ocultação.</td>
 </tr>
 <tr>
 <td><strong>Fluxos de Exceção</strong></td>
@@ -831,7 +831,7 @@
 <td><strong>Pós Condições</strong></td>
 </tr>
 <tr>
-<td>Usuário envia mensagem</td>
+<td>Usuário oculta o pin.</td>
 </tr>
 </tbody>
 </table>
@@ -1026,6 +1026,54 @@
 </tbody>
 </table>
 <h2 id="denunciar-um-pin">Denunciar um Pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Denunciar um pin presente em uma aba do Pinterest.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário deverá estar logado em sua conta do Pinterest<br>O usuário deverá encontrar um pin com conteúdo que julga como impróprio.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td><strong>FP1</strong> - Usuário abre o aplicativo<br> <strong>FP2</strong> - Usuário entra na página inicial para visualizar e navegar pelo feed repleto de de pins<br> <strong>FP3</strong> - Usuário encontra um pin com conteúdo impróprio<br> <strong>FP4</strong> - Usuário seleciona um Pin<br><strong>FP5</strong> - Usuário clica no botão Mais<br><strong>FP6</strong> - Usuário clica no botão Denunciar<br> <strong>FP7</strong> - Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário<br>Comunidade do Pinterest avalia o conteúdo do pin denunciado e remove o conteúdo do aplicativo.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>[FE01] - Erro ao denunciar Pin</em> <br> O pin não está infrigindo nenhuma das regras de violação do Pinterest.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário deslogado.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</h2>
 <h2 id="editar-perfil">Editar Perfil</h2>
 <h2 id="visualizar-feed">Visualizar Feed</h2>
@@ -1034,6 +1082,54 @@
 <h2 id="ir-para-a-fonte-de-um-pin_1">Ir para a fonte de um Pin</h2>
 <h2 id="organizar-pasta_1">Organizar Pasta</h2>
 <h2 id="pesquisar-por-tema_1">Pesquisar por tema</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Encontrar imagens referentes a um tema de preferência do usuário.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário ter em mente palavras-chaves relativas ao tema.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td><strong>FP1</strong> - Usuário abre o aplicativo <br> <strong>FP2</strong> -  Usuário escreve palavras relacionadas ao tema desejado na barra de pesquisa <br> <strong>FP3</strong> - Usuário clica "enter"<br>Aplicativo mostra uma seleção de imagens referentes ao tema<br> <strong>FP4</strong> -  Aplictivo mostra uma seleção de palavras relacionadas ao tema que direcione para pesquisas específicas</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativo</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - Sugerir palavras chaves relacionadas.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Palavras que coincidirem com outros temas.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário encontrará uma página repleta de pins de acordo com a temática desejada.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="pesquisar-por-foto_1">Pesquisar por foto</h2>
 <table>
 <thead>
