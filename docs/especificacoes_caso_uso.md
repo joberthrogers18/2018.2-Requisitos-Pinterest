@@ -335,9 +335,9 @@
 | **Pré Condições** |
 |  Usuário logado<br>Usuário ter definido ao menos um interesse |
 | **Fluxo Principal** |
-|  Usuário seleciona aba “Página Inicial”<br>Usuário navega pelo feed de pins<br>Usuário pesquisa pins de seu interesse<br>Usuário vizualiza o pin|
+|  Usuário seleciona aba “Página Inicial”<br>Usuário navega pelo feed de pins[FA1]<br>Usuário pesquisa pins de seu interesse<br>Usuário vizualiza o pin|
 | **Fluxos Alternativos** |
-| -  |
+| *FA1 - Mudança de aba* <br> Usuário tem a possibilidade de mudar para qualquer outra aba que não seja a do feed.|
 | **Fluxos de Exceção**|
 | -  |
 | **Pós Condições**|
