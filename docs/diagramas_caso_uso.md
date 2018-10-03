@@ -64,6 +64,7 @@
 
 ## Visualizar aba Seguindo
 
+![visualizarSeguindo](img/use_cases_aba_visualizar.png)
 
 ## Enviar mensagem para outros usuários
 
