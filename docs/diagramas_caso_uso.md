@@ -1,5 +1,6 @@
 # Introdução
 
+## Enviar mensagem
 
 ## Cadastro de usuário
 
@@ -29,7 +30,7 @@
 
 ## Editar um Pin
 
-
+![EditarPin](img/Caso_de_uso_editar_pin.png)
 
 ## Enviar um Pin
 
@@ -41,9 +42,11 @@
 
 ## Fazer login
 
+![FazerLogin](img/Caso_de_uso_fazer_login.png)
 
 ## Ir para a fonte de um Pin
 
+![FontePin](img/Caso_de_uso_fonte.png)
 
 ## Organizar Pasta
 
