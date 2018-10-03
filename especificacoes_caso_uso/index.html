@@ -13,20 +13,19 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link rel="stylesheet" href="../css/highlight.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Especifica\u00e7\u00f5es de Caso de Uso";
     var mkdocs_page_input_path = "especificacoes_caso_uso.md";
-    var mkdocs_page_url = null;
+    var mkdocs_page_url = "/especificacoes_caso_uso/";
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
   
 </head>
 
@@ -40,7 +39,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+    <input type="text" name="q" placeholder="Search docs" />
   </form>
 </div>
       </div>
@@ -131,6 +130,13 @@
         
             <li><a class="toctree-l4" href="#cadastro-de-usuario">Cadastro de usuário</a></li>
         
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#head">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</a></li>
+    
+        <ul>
+        
             <li><a class="toctree-l4" href="#visualizar-pin">Visualizar pin</a></li>
         
             <li><a class="toctree-l4" href="#comentar-em-um-pin">Comentar em um Pin</a></li>
@@ -140,6 +146,8 @@
             <li><a class="toctree-l4" href="#criar-pasta">Criar Pasta</a></li>
         
             <li><a class="toctree-l4" href="#definir-interesses">Definir interesses</a></li>
+        
+            <li><a class="toctree-l4" href="#enviar-mensagem">Enviar mensagem</a></li>
         
             <li><a class="toctree-l4" href="#editar-um-pin">Editar um Pin</a></li>
         
@@ -278,6 +286,7 @@
 </tr>
 </tbody>
 </table>
+<h1 id="head">&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</h1>
 <h2 id="visualizar-pin">Visualizar pin</h2>
 <table>
 <thead>
@@ -327,6 +336,21 @@
 </tr>
 </tbody>
 </table>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>78c16c4ed827286f0b55983ea44520abe0881c35</p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 <h2 id="comentar-em-um-pin">Comentar em um Pin</h2>
 <table>
 <thead>
@@ -424,6 +448,58 @@
 </tr>
 <tr>
 <td>O feed terá conteúdos que estejam de acordo com os interesses do usuário.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="enviar-mensagem">Enviar mensagem</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enviar mensagens ou pins para outros usuários.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir conta no Pinterest <br> O usuário deverá estar logado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]</td>
+</tr>
+<tr>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos </strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Visualizar mensagem</em><br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Usuário não encontrado</em><br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><em>FE2 - Mensagem não entregue</em><br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.<br></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário envia mensagem</td>
 </tr>
 </tbody>
 </table>
@@ -710,12 +786,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
+	  
         </div>
       </div>
 
     </section>
-
+    
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -729,9 +805,7 @@
       
     </span>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
+    <script src="../js/theme.js"></script>
 
 </body>
 </html>
