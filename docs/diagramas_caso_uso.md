@@ -66,6 +66,7 @@
 
 ## Visualizar Feed
 
+![Visualizar feed](img/Diagrama_caso_uso_visualizar-feed.jpg)
 
 ## Visualizar aba Seguindo
 

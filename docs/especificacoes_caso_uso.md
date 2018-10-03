@@ -317,6 +317,21 @@
 
 ## Visualizar Feed
 
+| Descrição |
+| -- |
+| Visualizar pins de interesse do usuário pelo feed. |
+| **Atores** |
+| Usuário. |
+| **Pré Condições** |
+| O usuário deverá acessar o Pinterest caso queira visualizar algo de seu interesse . |
+| **Fluxo Principal** |
+| **FP1** - Usuário acessa o pinterest. [FE1]<br> **FP2** - Usuário navega pelo feed de pins.[FA1] <br>**FP3** -Usuário pesquisa pins de seu interesse <br> **FP5** -Usuário dá scroll no feed . <br> **FP4** -Usuário escolhe pin. |
+| **Fluxos Alternativos** |
+| *FA1 - Mudança de aba* <br> Usuário deixa o feed e muda para um outra aba para fazer outras interações. |
+| **Fluxos de Exceção**|
+|*[FE1] - Erro de conexão* <br> O usuário não consegue ver o feed pois não há conexão de dados. |
+| **Pós Condições**|
+|  O usuário visualizará o conteúdo da página inicial do Pinterest. |
 
 ## Receber Notificações
 
