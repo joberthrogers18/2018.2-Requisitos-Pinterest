@@ -1,6 +1,7 @@
 # Introdução
 
 ## Enviar mensagem
+![EnviarMensagem](img/Diagrama_caso_uso_enviar_mensagem.png)
 
 ## Cadastro de usuário
 
@@ -72,10 +73,6 @@
 ## Visualizar aba Seguindo
 
 ![visualizarSeguindo](img/use_cases_aba_visualizar.png)
-
-## Enviar mensagem para outros usuários
-
-![EnviarMensagem](img/Diagrama_caso_uso_enviar_mensagem.png)
 
 ## Receber notificações
 

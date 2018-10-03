@@ -147,15 +147,6 @@
 | **Pós Condições**|
 | Estar na página na qual está o pin. |
 
-## Organizar Pasta
-
-
-## Pesquisar por tema
-
-
-## Pesquisar por foto
-
-
 ## Seguir outro usuário
 
 | Descrição|
@@ -327,7 +318,7 @@
 ## Visualizar Feed
 
 
-## Receber [notificações
+## Receber Notificações
 
 
 ## Classificação de pastas
