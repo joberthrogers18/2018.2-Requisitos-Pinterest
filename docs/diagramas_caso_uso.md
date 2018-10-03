@@ -47,7 +47,7 @@
 ![FontePin](img/Caso_de_uso_fonte.png)
 
 ## Organizar Pasta
-
+![OrganizarPasta](img/use_case_organizar_pasta.png)
 
 ## Pesquisar por tema
 ![PesquisarPorTema](img/CasodeUso_PesquisarPorTema.png)
