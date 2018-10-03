@@ -7,9 +7,6 @@
 
 ![cadastro](img/use_case_cadastro.png)
 
-## Cadastro de usuário
-
-
 ## Visualizar pin
 
 ![VisualizarPin](https://raw.githubusercontent.com/joberthrogers18/2018.2-Requisitos/master/docs/img/Diagrama_caso%20uso_visualizar_pin.png)
@@ -75,9 +72,10 @@
 ![visualizarSeguindo](img/use_cases_aba_visualizar.png)
 
 ## Receber notificações
+![ReceberNotificações](img/CasoDeUso_ReceberNotificacao.png)
 
-
-## Classificação de pastas
+## Classificar Pastas
+![ClassificarPastas](img/CasoDeUso_ClassificarPastas.png)
 
 
 ## Ocultar um Pin
@@ -99,3 +97,5 @@
 ![Fazer Login](img/Caso_de_uso_fazer_login.png)
 
 ## Editar Perfil
+
+![EditarPerfil](img/CasoDeUso_EditarPerfil.png)
