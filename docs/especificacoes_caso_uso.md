@@ -74,6 +74,23 @@
 | **Pós Condições**|
 | O feed terá conteúdos que estejam de acordo com os interesses do usuário. |
 
+## Editar um Pin
+
+| Descrição|
+| -- |
+|Alterar descrição e a pasta de um pin.|
+| **Atores** |
+| Usuário |
+| **Pré Condições** |
+| O usuário deve ter o aplicativo do Pinterest baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. |
+| **Fluxo Principal** |
+|Usuário [faz login](diagramas_caso_uso.md#fazer-login) <br> Usuário clica em Perfil [FA1] <br> Usuário seleciona a aba "pastas" <br> Usuário seleciona uma pasta [FA2] <br> Usuário seleciona um pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado.|
+| **Fluxos Alternativos ** |
+| *FA1 - Aba pins * <br> Usuário seleciona a aba "pins" <br> Usuário seleciona um pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado. <br><br> *FA2 - Mouse sobre o pin * <br> Usuário passa o mouse sobre o pin <br> Usuário clica em "editar" <br> Usuário faz alterações na descrição e na pasta do pin <br> Usuário clica em "concluir" <br> Usuário é redirecionado para a página de visualização do pin editado.|
+| **Fluxos de Exceção**|
+| ----- |
+| **Pós Condições**|
+| As características modificadas serem vistas pelo usuário na descrição do pin. |
 
 ## Enviar mensagem
 
@@ -128,7 +145,7 @@
 | **Fluxos de Exceção**|
 | ----- |
 | **Pós Condições**|
-| Conseguir acessar a página de onde provém o pin. |
+| Estar na página na qual está o pin. |
 
 ## Organizar Pasta
 
@@ -295,8 +312,6 @@
 
 ## Pesquisar por foto
 
-
-## Editar um Pin
 
 
 ## Compartilhar Pasta

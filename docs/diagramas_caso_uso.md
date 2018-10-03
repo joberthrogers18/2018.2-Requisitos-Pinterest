@@ -30,18 +30,18 @@
 
 ## Editar um Pin
 
-
+![EditarPin](img/Caso_de_uso_editar_pin.png)
 
 ## Enviar um Pin
 
 
 ## Fazer login
 
-![Fazer Login](img/Caso_de_uso_fazer_login.png)
+![FazerLogin](img/Caso_de_uso_fazer_login.png)
 
 ## Ir para a fonte de um Pin
 
-![Fonte Pin](img/Caso_de_uso_fonte.png)
+![FontePin](img/Caso_de_uso_fonte.png)
 
 ## Organizar Pasta
 
