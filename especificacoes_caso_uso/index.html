@@ -328,6 +328,54 @@
 </tbody>
 </table>
 <h2 id="comentar-em-um-pin">Comentar em um Pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ato do usuário criar um comentário em um pin.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário estar logado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Em qualquer Feed do Pinterest o usuário encontra um Pin compatível com comentários em que deseja comentar. <br> O usuário clica no Pin <br> O usuário clica no botão comentar <br> O usuário escreve seu comentário <br> O usuário posta seu comentário.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Usuário excluir pin na hora que outro está criando um comentário</em> <br> Sistema apresenta erro quando um usuário comenta e ao mesmo momento o criador do pin o apaga.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário cria um comentário em um pin.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="compartilhar-pasta">Compartilhar Pasta</h2>
 <h2 id="criar-pasta">Criar Pasta</h2>
 <h2 id="definir-interesses">Definir interesses</h2>
@@ -390,19 +438,19 @@
 </thead>
 <tbody>
 <tr>
-<td>Fazer <a href="../lexicos/#login">login</a> na aplicação para obter acesso a todas as ferramentas exclusivas para <a href="../lexicos/#usuario">usuários</a> <a href="../lexicos/#logado">logados</a>.</td>
+<td>Fazer login na aplicação para obter acesso a todas as ferramentas exclusivas para usuários logados</td>
 </tr>
 <tr>
 <td><strong>Atores</strong></td>
 </tr>
 <tr>
-<td><a href="../lexicos/#usuario">Usuário</a> não cadastrado</td>
+<td>Usuário não cadastrado</td>
 </tr>
 <tr>
 <td><strong>Pré Condições</strong></td>
 </tr>
 <tr>
-<td>O <a href="../lexicos/#usuario">usuário</a> deve ter o aplicativo do <a href="../lexicos/#pinterest">Pinterest</a> baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O <a href="../lexicos/#usuario">usuário</a> deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.</td>
+<td>O usuário deve ter o aplicativo do Pinterest baixado. <br> O aparelho utilizado para acessar o aplicativo deve estar conectado à internet. <br> O usuário deve ter uma conta de e-mail válida ou uma conta do Facebook ou do Google ativas.</td>
 </tr>
 <tr>
 <td><strong>Fluxo Principal</strong></td>
@@ -435,9 +483,105 @@
 <h2 id="pesquisar-por-tema">Pesquisar por tema</h2>
 <h2 id="pesquisar-por-foto">Pesquisar por foto</h2>
 <h2 id="seguir-outro-usuario">Seguir outro usuário</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Seguir um outro Usuário para acompanhar sua atividade no Pinterest.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir conta no Pinterest. <br> O usuário deverá estar logado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>O usuário clica no nome de outro usuário. <br> A página do pergil do outro usuário é carregada. [FE1] <br> O usuário clica no botão seguir.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Usuário está bloqueado pelo que deseja seguir.</em><br> Sistema apresenta mensagem de que não é possível completar a ação pois o outor usuário bloqueou o originatário do pedido.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário passa a seguri outro usuário.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="salvar-um-pin">Salvar um Pin</h2>
 <h2 id="visualizar-feed">Visualizar Feed</h2>
 <h2 id="visualizar-aba-seguindo">Visualizar aba Seguindo</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ato de visualizar pins de outros usuários que o usuário logado segue.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário estar logado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário abre o app. <br> O usuário clica no ícone da aba Seguindo. <br> O usuário visualiza o conteúdo da aba Seguindo.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário visualizará a aba "Seguindo".</td>
+</tr>
+</tbody>
+</table>
 <h2 id="enviar-mensagem-para-outros-usuarios">Enviar mensagem para outros usuários</h2>
 <table>
 <thead>
@@ -465,7 +609,7 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]</td>
+<td>O usuário loga no Pinterest.<br>Após logado é direcionado para o feed. <br>Acessa a página de mensagens.[FA1] <br>O usuário procura por um usuário destinatário.[FE1] <br> A mensagem é escrita. <br> O botão “Enviar” é clicado.[FE2]</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
@@ -490,6 +634,54 @@
 <h2 id="receber-notificacoes">Receber [notificações</h2>
 <h2 id="classificacao-de-pastas">Classificação de pastas</h2>
 <h2 id="ocultar-um-pin">Ocultar um Pin</h2>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ocultar um pin de uma aba do Pinterest para que o usuário não visualize mais determinado conteúdo.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário deverá estar logado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário visualiza feed<br>Usuário navega pelo feed[FA1]<br>Usuário seleciona e segura um pin<br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Clicar em um pin</em><br>O usuário acessa a página de detalhes do pin <br> Usuário seleciona e segura um pin <br>Usuário seleciona item “Ocultar”<br>Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário envia mensagem</td>
+</tr>
+</tbody>
+</table>
 <h2 id="denunciar-um-pin">Denunciar um Pin</h2>
 <h2 id="classificar-um-pin-como-experimentado">Classificar um Pin como Experimentado</h2>
 <h2 id="sair-do-aplicativo-pinterest">Sair do aplicativo Pinterest</h2>
