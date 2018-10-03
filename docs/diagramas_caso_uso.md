@@ -32,7 +32,7 @@
 
 ## Enviar um Pin
 
-![EnviarUmPin](img/CasoDeUsoEnviarUmPin.jpeg)
+![EnviarUmPin](img/CasoDeUsoEnviarUmPin.png)
 
 ## Realizar Primeiro login
 
@@ -61,7 +61,7 @@
 
 ## Salvar um Pin
 
-![SalvarUmPin](img/CasoDeUsoSalvarUmPin.jpeg)
+![SalvarUmPin](img/CasoDeUsoSalvarUmPin.png)
 
 
 ## Visualizar Feed
