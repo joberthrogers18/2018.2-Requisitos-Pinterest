@@ -172,3 +172,27 @@
         - Poder classificar "Igual à Web";
         - Poder classificar por "Mais antigas";
         - Poder classificar por "Mais recentes".
+
+    ## US26 - Eu, como usuário, desejo classificar um Pin como experimentado, para diferenciar dos Pins que ainda não coloquei em prática.
+    - High
+    - 5 pontos
+    - Critérios de aceitação:
+        - Deve haver uma aba chamada "Experimentados";
+        - Todos os pins devem ter a opção "Experimentado";
+        - Quando um pin for dado como "Experimentado", ele deve ir para a aba "Experimentados";
+        - A aba "Experimentados" poderá ser organizada em pastas.
+
+      ## US27 - Eu, como usuário, desejo sair do Pinterest, para não ter a minha conta logada no aplicativo.
+      - High
+      - 5 pontos
+      - Critérios de aceitação:
+          - Deve haver uma opção chamada "Sair";
+          - Quando o usuário "Sair", deve abrir a tela inicial do pinterest.
+
+      ## US28 - Eu, como usuário, desejo salvar um Pin, para ter acesso posteriormente ao conteúdo do meu interesse.
+      - High
+      - 8 pontos
+      - Critérios de aceitação:
+            - Deve haver uma opção chamada "Salvar";
+            - Quando o usuário "Salvar", deve abrir a aba para selecionar a pasta em que será salvo;
+            - Deve haver na aba de selecionar pasta, a opção de criar uma nova pasta.
