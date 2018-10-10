@@ -18,6 +18,7 @@ pages:
     - Léxicos: lexicos.md
     - Diagramas de Caso de Uso: diagramas_caso_uso.md
     - Especificações de Caso de Uso: especificacoes_caso_uso.md
+    - Backlog do Produto: backlog.md
   - Anexos: anexos.md
 
 theme: readthedocs
