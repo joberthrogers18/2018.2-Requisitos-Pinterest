@@ -24,7 +24,7 @@
 
 # Histórias de Usuário
 
-| ID | Eu, como... | Gostaria de...  | Para...  | Critérios de Aceitação | Pontuação  | Prioridade|
+| ID | Eu, como... | Gostaria de...  | Para poder...  | Critérios de Aceitação | Pontuação  | Prioridade|
 |--|--|--|--|--|--|--|
 | US01 | Desenvolvedor | Elaborar a Estrutura Analítica de Processos (EAP)  | Organizar as entregas do projeto e a subdivisão de tarefas | - Todas as entregas do escopo do projeto previstas; <br> - Divisão das entregas por release; <br> - Divisão do projeto em fases | 6 | High |
 | US02 |  |  |  |  | ||
