@@ -25,7 +25,7 @@
 # Histórias de Usuário
 
 
-<<<<<<< HEAD
+
 | ID | Eu, como... | Gostaria de...  | Para poder...  | Critérios de Aceitação | Pontuação  | Prioridade|
 |--|--|--|--|--|--|--|
 | US01 | Membro da Equipe | Elaborar a Estrutura Analítica de Processos (EAP)  | Organizar as entregas do projeto e a subdivisão de tarefas | - Todas as entregas do escopo do projeto previstas; <br> - Divisão das entregas por release; <br> - Divisão do projeto em fases | 6 | High |
@@ -37,13 +37,13 @@
 | US07 |  |  |  |  | ||
 | US08 |  |  |  |  | ||
 | US09 |  |  |  |  | ||
-| US10 | Desenvolvedor  | Criar a cena de login na aplicação | O Usuário possa interagir com o sistema de login e os dados possam ser inseridos | - Implementar as caixas de texto para inserção de dados; <br> - Diferenciar o formato de inserção de nome de usuário e senha (sem mostrar caracteres digitados); <br>   | ||
-| US11 | Usuário | Me cadastrar no Pinterest utilizando meu e-mail  | Ter acesso às funcionalidades do aplicativo e ao conteúdo exposto |  - Implementar a autenticação de usuário e senha no banco de dados; <br> - Implementar confirmação de cadastro por email;  | 8 | High |
+| US10 | Desenvolvedor  | Criar a cena de login na aplicação | O Usuário possa interagir com o sistema de login e os dados possam ser inseridos | - Implementar as caixas de texto para inserção de dados; <br> - Diferenciar o formato de inserção de nome de usuário e senha (sem mostrar caracteres digitados); <br> - Integrar opção de click dos botões com envio pro sistema de validação  | 5 | High |
+| US11 | Usuário | Me cadastrar no Pinterest utilizando meu e-mail  | Ter acesso às funcionalidades do aplicativo e ao conteúdo exposto |  - Implementar a autenticação de usuário e senha no banco de dados; <br> - Implementar confirmação de cadastro por email;  | 5 | High |
 | US12 | Usuário | Me cadastrar no Pinterest pelo Facebook ou Conta Google  | Ter acesso às funcionalidades do aplicativo, ao conteúdo exposto e integrar minhas contas em aplicativos  | - Implementar sistema de microsserviços para autenticação do facebook; <br> - Integração do sistema de login com confirmação por email.  | 6 | Medium|
 | US13 | Desenvolvedor | Receber dados iniciais de interesses de um novo usuário | Permitir que o perfil do usuário seja traçado e o feed e sugestões estejam de acordo com esse perfil | -  | ||
 | US14 |  |  |  |  | ||
 | US15 |  |  |  |  | |.|
-=======
+
 ## US02 - Eu, como membro da equipe, desejo montar o Benchmark do Pinterest, em busca de encontrar as melhores práticas do mercado a serem aplicadas na plataforma.
 - Must have
 - 8 pontos
@@ -109,4 +109,3 @@
       - Os fluxos de cada ação dentro do software devem ser apresentados;
       - O design deve apresentar a paleta de cores definidas para a plataforma;
       - O design deve conter as fontes definidadas para a plataforma.
->>>>>>> e6045f40feb61e7c146fb82b2dde8b8652167c8f
