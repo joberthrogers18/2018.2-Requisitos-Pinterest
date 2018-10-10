@@ -24,7 +24,7 @@
 
 
 ## EP02
-**Criação,manipulação e funcionalidades básicas de Usuário**
+**Criação, manipulação e funcionalidades básicas de Usuário**
 <br>
 Criar os mecanismos necessários para a criação, edição, exclusão, visualização de usuários no sistema. Também inclui questões como o acesso de um usuário ao sistema e as necessidades básicas para a realização do primeiro acesso.
 <br>
