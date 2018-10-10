@@ -2,10 +2,10 @@
 
 | --------- | [EP01](#ep01) | [EP02](#ep02)  | [EP03](#ep03)  | [EP04](#ep04)  | [EP05](#ep05)  |
 |--|--|--|--|--|--|
-| Sprint 01 | [US05](#us05), [US02](#us02)  |  |  |  | |
-| Sprint 02 | [US03](#us03), [US04](#us04), [US01](#us01)    |  |  |  | |
-| Sprint 03 | [US07](#us07) , [US09](#us09) |  |  |  | |
-| Sprint 04 | [US06](#us06) , [US08](#us08) |  |  |  | |
+| Sprint 01 | US05, US02  |  |  |  | |
+| Sprint 02 | US03, US04, US01   |  |  |  | |
+| Sprint 03 | US07, US09 |  |  |  | |
+| Sprint 04 | US06 ,US08 |  |  |  | |
 | Sprint 05 |  |  |  |  | |
 | Sprint 06 |  |  |  |  | |
 | Sprint 07 |  |  |  |  | |
