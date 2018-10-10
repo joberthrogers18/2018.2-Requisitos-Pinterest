@@ -1,21 +1,21 @@
 # Backlog do Produto
 
-| --------- | [EP01](#ep01) | [EP02](#ep02)  | [EP03](#ep03)  | [EP04](#ep04)  | [EP05](#ep05)  |
-|--|--|--|--|--|--|
-| Sprint 01 | US05, US02  |  |  |  | |
-| Sprint 02 | US03, US04, US01   |  |  |  | |
-| Sprint 03 | US07, US09 |  |  |  | |
-| Sprint 04 | US06 ,US08 |  |  |  | |
-| Sprint 05 |  |  |  |  | |
-| Sprint 06 |  |  |  |  | |
-| Sprint 07 |  |  |  |  | |
-| Sprint 08 |  |  |  |  | |
-| Sprint 09 |  |  |  |  | |
-| Sprint 10 |  |  |  |  | |
-| Sprint 11 |  |  |  |  | |
-| Sprint 12 |  |  |  |  | |
-| Sprint 13 |  |  |  |  | |
-| Sprint 14 |  |  |  |  | |
+| Sprints | [EP01](#ep01) | [EP02](#ep02)  | [EP03](#ep03)  | [EP04](#ep04)  | [EP05](#ep05)  |[EP06](#ep06)  |[EP07](#ep07)  |[EP08](#ep08)  |[EP09](#ep09)  |[EP10](#ep10)  |Pontuação|
+|--|--|--|--|--|--|--|--|--|--|--|--|
+| Sprint 01 | US01, US02, US03, US05 |  |  |  | |||||| 26 |
+| Sprint 02 | US04, US06, US07   |  |  |  | |||||||
+| Sprint 03 | US08, US09 |  |  |  | |||||||
+| Sprint 04 | |  |  |  | |||||||
+| Sprint 05 |  |  |  |  | |||||||
+| Sprint 06 |  |  |  |  | |||||||
+| Sprint 07 |  |  |  |  | |||||||
+| Sprint 08 |  |  |  |  | |||||||
+| Sprint 09 |  |  |  |  | |||||||
+| Sprint 10 |  |  |  |  | |||||||
+| Sprint 11 |  |  |  |  | |||||||
+| Sprint 12 |  |  |  |  | |||||||
+| Sprint 13 |  |  |  |  | |||||||
+| Sprint 14 |  |  |  |  | |||||||
 
 # Épicos
 
@@ -35,7 +35,7 @@ Criar os mecanismos necessários para a criação, edição, exclusão, visualiz
 <br>
 **Histórias de Usuário relacionadas:**
 <br>
-US10 - US11 - US12 - US13 
+US10 - US11 - US12 - US13
 
 ## EP03
 **Interação com Pins**
@@ -53,13 +53,13 @@ Implementação de mecanismos que permitam a distribuição de pins para os usu�
 **Histórias de Usuário relacionadas:** <br>
 US14 - US19
 
-## EP05 
+## EP05
 **Interação entre usuários**
 <br>
 Implementação de mecanismo que permita a comunicação entre dois usuários cadastrados na plataforma por meio de mensagens de texto e envio de pins. Também envolve mecanismos de interação indireta como seguir um usuário e adicioná-lo como colaborador de pastas.
 <br>
 **Histórias de usuários relacionadas**  <br>
- US23 - US28 - US33 
+ US23 - US28 - US33
 
 ## EP06
 **Criação de Protótipo**
@@ -75,7 +75,7 @@ US07 - US08 - US09
 Estrutura de pastas de um usuário que permite salvar pins em pastas nomeadas de forma que o usuário possa guardar pins e classificá-los.
 <br>
 **Histórias de Usuário relacionadas:** <br>
-US15 - US25 
+US15 - US25
 
 ## EP08
 **Funcionalidades de App**
@@ -83,7 +83,7 @@ US15 - US25
 Funcionalidades relacionadas ao app como a possibilidade de fechá-lo e também funcionalidades relacionadas ao sistema operacional do dispositivo, como exibir notificações.
 <br>
 **Histórias de Usuário relacionadas:** <br>
-US24 - US27 
+US24 - US27
 
 ## EP09
 **Pesquisa**
@@ -100,7 +100,7 @@ US34 - US35 <br>
 Gerenciar e modificar as opções da conta do usuário. Inclui ações como edição de perfil, preferências de notificações, conexão a redes sociais externas, segurança e outros aspectos relevantes ao usuário.
 <br>
 **Histórias de Usuários relacionadas:** <br>
-US36 - US24 <br>
+US24 - US37 - US38 - US38 - US39 <br>
 
 
 # Histórias de Usuário
@@ -120,7 +120,7 @@ US36 - US24 <br>
 | US09 | Membro da Equipe | Testar o protótipo de baixa fidelidade com potenciais usuários | Colher feedbacks de uso para refatoração do protótipo de alta fidelidae | - Os Testes devem ser gravados;<br> - Os testes devem ser realizados com membros de fora da equipe | 3 | Must |
 | US10 | Desenvolvedor  | Criar a cena de login na aplicação | O Usuário possa interagir com o sistema de login e os dados possam ser inseridos | - Implementar as caixas de texto para inserção de dados; <br> - Diferenciar o formato de inserção de nome de usuário e senha (sem mostrar caracteres digitados); <br> - Integrar opção de click dos botões com envio pro sistema de validação  | 5 | Must |
 | US11 | Usuário | Me cadastrar no Pinterest utilizando meu e-mail  | Ter acesso às funcionalidades do aplicativo e ao conteúdo exposto |  - Implementar a autenticação de usuário e senha no banco de dados; <br> - Implementar confirmação de cadastro por email;  | 5 | Must |
-| US12 | Usuário | Me cadastrar no Pinterest pelo Facebook ou Conta Google  | Ter acesso às funcionalidades do aplicativo, ao conteúdo exposto e integrar minhas contas em aplicativos  | - Implementar sistema de microsserviços para autenticação do facebook; <br> - Integração do sistema de login com confirmação por email.  | 6 | Could |
+| US12 | Usuário | Me cadastrar no Pinterest pelo Facebook ou Conta Google  | Ter acesso às funcionalidades do aplicativo, ao conteúdo exposto e integrar minhas contas em aplicativos  | - Implementar sistema de microsserviços para autenticação do facebook; <br> - Integração do sistema de login com confirmação por email.  | 5 | Could |
 | US13 | Desenvolvedor | Receber dados iniciais de interesses de um novo usuário | Permitir que o perfil do usuário seja traçado e o feed e sugestões estejam de acordo com esse perfil | - Implementação do sistema de escolha de temas na segunda etapa do processo de cadastro;<br> - Seleção das imagens de representação de cada tema;<br> - Disposição dos elementos da imagem na tela;<br> - Passagem dos dados de elementos selecionados para o banco de dados local | 8 | Must |
 | US14 | Usuário | Fazer Login | Entrar na minha conta já criada | - Opção para logar com outras redes<br>- Opção para logar com a conta Pinterest | 5 | Must |
 | US15 | Usuário | Visualizar meu feed de interesses | Visualizar pins que me interessem  | - Cada pin deve oferecer botões de sub-opções<br>- Ao descer a página deve aparecer um botão que leve ao topo<br> | 13 | Must |
