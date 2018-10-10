@@ -1,9 +1,9 @@
 # Backlog do Produto
 
-| --------- | [F01](#f01) | [F02](#f02)  | [F03](#f03)  | [F04](#f04)  | [F05](#f05)  |
+| --------- | [EP01](#EP01) | [EP02](#EP02)  | [EP03](#EP03)  | [EP04](#EP04)  | [EP05](#EP05)  |
 |--|--|--|--|--|--|
-| Sprint 01 | [US01](#us01) | [US02](#us02)  | [US03](#us03)  |  | |
-| Sprint 02 |  |  |  |  | |
+| Sprint 01 | [US01](#us01) | [US'02](#us02)  | [US03](#us03)  |  | |
+| Sp'rint 02 |  |  |  |  | |
 | Sprint 03 |  |  |  |  | |
 | Sprint 04 |  |  |  |  | |
 | Sprint 05 |  |  |  |  | |
@@ -17,10 +17,10 @@
 | Sprint 13 |  |  |  |  | |
 | Sprint 14 |  |  |  |  | |
 
-# Funcionalidades
+# Épicos
 
-## F01
- Descrever funcionalidade
+## EP01
+ Descrever épico
 
 # Histórias de Usuário
 
