@@ -5,17 +5,13 @@
 | Sprint 01 | US01, US02, US03, US05 |  |  |  | |||||| 26 |
 | Sprint 02 | US04, US06, US07   |  |  |  | |||||||
 | Sprint 03 | US08, US09 |  |  |  | |||||||
-| Sprint 04 | |  |  |  | |||||||
-| Sprint 05 |  |  |  |  | |||||||
-| Sprint 06 |  |  |  |  | |||||||
-| Sprint 07 |  |  |  |  | |||||||
-| Sprint 08 |  |  |  |  | |||||||
-| Sprint 09 |  |  |  |  | |||||||
-| Sprint 10 |  |  |  |  | |||||||
-| Sprint 11 |  |  |  |  | |||||||
-| Sprint 12 |  |  |  |  | |||||||
-| Sprint 13 |  |  |  |  | |||||||
-| Sprint 14 |  |  |  |  | |||||||
+| Sprint 04 | | US10, US11, US12, US13, US14 |  |  | |||||||
+| Sprint 05 |  |  | US16, US17, US18 | US15 | |||||||
+| Sprint 06 |  |  | US19, US20, US21, US22 |  | |||||||
+| Sprint 07 |  |  | US26 |  | US23 ||US25|US24||||
+| Sprint 08 |  |  |  |  | US28 |US27| US29, US30 |||||
+| Sprint 09 |  |  |  |  | ||US31, US32, US33||US34|||
+| Sprint 10 |  | US37, US38 |  | US36 | ||||US35|US39||
 
 # Épicos
 
@@ -24,8 +20,7 @@
 <br>
  Documentação necessária para criação do projeto. Envolve a elicitação de requisitos e documentação suplementar.
 <br>
-**Histórias de Usuários relacionadas** <br>
-US01 - US02 - US03 - US04 - US05 - US06 - US07 - US08 - US09
+
 
 
 ## EP02
@@ -33,79 +28,56 @@ US01 - US02 - US03 - US04 - US05 - US06 - US07 - US08 - US09
 <br>
 Criar os mecanismos necessários para a criação, edição, exclusão, visualização de usuários no sistema. Também inclui questões como o acesso de um usuário ao sistema e as necessidades básicas para a realização do primeiro acesso.
 <br>
-**Histórias de Usuário relacionadas:**
-<br>
-US10 - US11 - US12 - US13
 
 ## EP03
 **Interação com Pins**
 <br>
 Criar mecanismos funcionais que permitam a criação de pins no sistema e também sua manipulação (como edição e exclusão). Mecanismos de interação entre o usuário com os pins, como salvar em pastas, denunciar, ocultar, comentar, compartilhar. Ações do usuário realizadas sobre o pin.
 <br>
-**Histórias de Usuário relacionadas:** <br>
-US37 - US20 - US21 -  US15 - US16 - US17 - US18 - US26
 
 ## EP04
 **Entrega de Pins**
 <br>
 Implementação de mecanismos que permitam a distribuição de pins para os usuários com base em seus interesses. Isso envolve também a visualização de pins em feeds no dispositivo do usuário.
 <br>
-**Histórias de Usuário relacionadas:** <br>
-US14 - US19
 
 ## EP05
 **Interação entre usuários**
 <br>
 Implementação de mecanismo que permita a comunicação entre dois usuários cadastrados na plataforma por meio de mensagens de texto e envio de pins. Também envolve mecanismos de interação indireta como seguir um usuário e adicioná-lo como colaborador de pastas.
 <br>
-**Histórias de usuários relacionadas**  <br>
- US23 - US28 - US33
 
 ## EP06
 **Criação de Protótipo**
 <br>
 Criar protótipos de baixa e alta fidelidade do produto a fim de ter uma ideia inicial mais clara do produto.
 <br>
-**Histórias de Usuário relacionadas:** <br>
-US07 - US08 - US09
 
 ## EP07
 **Pastas**
 <br>
 Estrutura de pastas de um usuário que permite salvar pins em pastas nomeadas de forma que o usuário possa guardar pins e classificá-los.
 <br>
-**Histórias de Usuário relacionadas:** <br>
-US15 - US25
 
 ## EP08
 **Funcionalidades de App**
 <br>
 Funcionalidades relacionadas ao app como a possibilidade de fechá-lo e também funcionalidades relacionadas ao sistema operacional do dispositivo, como exibir notificações.
 <br>
-**Histórias de Usuário relacionadas:** <br>
-US24 - US27
 
 ## EP09
 **Pesquisa**
 <br>
 Mecanismos de pesquisa de conteúdo específico.
 <br>
-**Histórias de Usuário relacionadas:** <br>
-US34 - US35 <br>
-
 
 ## EP10
 **Configuração**
 <br>
 Gerenciar e modificar as opções da conta do usuário. Inclui ações como edição de perfil, preferências de notificações, conexão a redes sociais externas, segurança e outros aspectos relevantes ao usuário.
 <br>
-**Histórias de Usuários relacionadas:** <br>
-US24 - US37 - US38 - US38 - US39 <br>
-
 
 # Histórias de Usuário
-
-
 
 | ID | Eu, como... | Gostaria de...  | Para poder...  | Critérios de Aceitação | Pontuação  | Prioridade|
 |--|--|--|--|--|--|--|
