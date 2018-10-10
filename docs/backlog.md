@@ -28,7 +28,7 @@
 
 | ID | Eu, como... | Gostaria de...  | Para poder...  | Critérios de Aceitação | Pontuação  | Prioridade|
 |--|--|--|--|--|--|--|
-| US01 | Membro da Equipe | Elaborar a Estrutura Analítica de Processos (EAP)  | Organizar as entregas do projeto e a subdivisão de tarefas | - Todas as entregas do escopo do projeto previstas; <br> - Divisão das entregas por release; <br> - Divisão do projeto em fases | 6 | High |
+| US01 | Membro da Equipe | Elaborar a Estrutura Analítica de Processos (EAP)  | Organizar as entregas do projeto e a subdivisão de tarefas | - Todas as entregas do escopo do projeto previstas; <br> - Divisão das entregas por release; <br> - Divisão do projeto em fases | 8 | High |
 | US02 | Membro da Equipe | Montar o Benchmark do Pinterest | Encontrar as melhores práticas do mercado a serem aplicadas na plataforma |   - Devem haver no mínimo 5 empresas comparativas; <br> - Devem ser apresentadas as métricas usadas para o benchmark; <br>  - Devem ser desenvolvidos planos de ação para o futuro; <br> - Devem ser colhidas métricas a partir do plano de ação. | 5 | High |
 | US03 |  |  |  |  | ||
 | US04 |  |  |  |  | ||
@@ -39,7 +39,7 @@
 | US09 |  |  |  |  | ||
 | US10 | Desenvolvedor  | Criar a cena de login na aplicação | O Usuário possa interagir com o sistema de login e os dados possam ser inseridos | - Implementar as caixas de texto para inserção de dados; <br> - Diferenciar o formato de inserção de nome de usuário e senha (sem mostrar caracteres digitados); <br> - Integrar opção de click dos botões com envio pro sistema de validação  | 5 | High |
 | US11 | Usuário | Me cadastrar no Pinterest utilizando meu e-mail  | Ter acesso às funcionalidades do aplicativo e ao conteúdo exposto |  - Implementar a autenticação de usuário e senha no banco de dados; <br> - Implementar confirmação de cadastro por email;  | 5 | High |
-| US12 | Usuário | Me cadastrar no Pinterest pelo Facebook ou Conta Google  | Ter acesso às funcionalidades do aplicativo, ao conteúdo exposto e integrar minhas contas em aplicativos  | - Implementar sistema de microsserviços para autenticação do facebook; <br> - Integração do sistema de login com confirmação por email.  | 6 | Medium|
+| US12 | Usuário | Me cadastrar no Pinterest pelo Facebook ou Conta Google  | Ter acesso às funcionalidades do aplicativo, ao conteúdo exposto e integrar minhas contas em aplicativos  | - Implementar sistema de microsserviços para autenticação do facebook; <br> - Integração do sistema de login com confirmação por email.  | 8 | Medium|
 | US13 | Desenvolvedor | Receber dados iniciais de interesses de um novo usuário | Permitir que o perfil do usuário seja traçado e o feed e sugestões estejam de acordo com esse perfil | -  | ||
 | US14 |  |  |  |  | ||
 | US15 |  |  |  |  | |.|
@@ -109,3 +109,66 @@
       - Os fluxos de cada ação dentro do software devem ser apresentados;
       - O design deve apresentar a paleta de cores definidas para a plataforma;
       - O design deve conter as fontes definidadas para a plataforma.
+
+    ## US09 - Eu, como membro da equipe, desejo testar o protótipo de baixa fidelidade com usuários afim de colher feedbacks para o protótipo de alta fidelidade.
+    - Medium
+    - 3 pontos
+    - Critérios de aceitação:
+      - Os testes devem ser gravados;
+      - Os testes não podem ser guiados pelo membro da equipe.
+
+    ## US20 - Eu, como usuário, desejo ocultar um pin, afim de não me deparar com conteúdos que não me agradam.
+    - High
+    - 8 pontos
+    - Critérios de aceitação:
+      - Para todas as fotos deve haver um botão com a opção de "Ocultar";
+      - Deve haver a opção de desfazer a ação de ocultar através do botão "Desfazer";
+      - Quando o usuário selecionar "Ocultar", a imagem deve ser borrada de modo que o seu conteúdo não permaneça aparente.
+
+    ## US21 - Eu, como usuário, desejo denunciar um pin, afim de não me deparar com conteúdos impróprios.
+    - High
+    - 13 pontos
+    - Critérios de aceitação:
+      - Para todas as fotos deve haver um botão com a opção de "Denunciar";
+      - Quando o usuário selecionar "Denunciar", deve haver uma mensagem informando que a equipe do projeto irá analisar o conteúdo e que lamenta por quaisquer transtornos causados;
+      - A imagem deve ser reportada para a equipe do projeto.
+
+    ## US22 - Eu, como usuário, desejo enviar mensagem para outros usuários do Pinterest, para assim me comunicar com os demais membros da plataforma.
+    - High
+    - 13 pontos
+    - Critérios de aceitação:
+      - Deve haver um ícone de mensagens em todas as abas da plataforma;
+      - Deve ser possível compartilhar pins e pastas com demais usuários através das mensagens;
+      - As mensagens devem ser privadas e de acesso somente do usuário logado com o usuário que estará recebendo a mensagem;
+      - Quando uma mensagem não puder ser enviada pela falta de conexão com a internet, deve haver um aviso.
+
+    ##US23 - Eu, como usuário, desejo seguir outro usuário do Pinterst, afim de acompanhar suas atividades na plataforma.
+    - High
+    - 5 pontos
+    - Critérios de aceitação:
+      - Deve haver um botão com a opção de "Seguir" qualquer usuário que não seja o usuário logado;
+      - O usuário logado deve receber atualizações de pins salvos pelo outro usuário;
+      - O usuário logado deve receber atualizações de pastas  criadas pelo outro usuário;
+      - O usuáro logado poderá enviar mensagens para o usuário que está seguindo;
+      - O usuário logado poderá salvar pins do usuário que está seguindo;
+      - O usuário logado poderá seguir pastas do usuário que está seguindo.
+
+    ## US24 - Eu, como usuário, desejo receber notificações, com o intuito de ser avisado sobre quaisquer atividade relacionada ao meu perfil.
+    - High
+    - 5 pontos
+    - Critérios de aceitação:
+      - Deve haver a opção de receber "pushs" no celular com a notificação;
+      - Deve haver uma aba para as notificações;
+      - As notificações devem ser organizadas em ordem cronológica;
+      - Sempre que outro usuário salvar um pin do usuário logado, o usuário logado deverá ser notificado;
+      - Sempre que outro usuário seguir uma pasta do usuário logado, o usuário logado deverá ser notificado.
+
+    ## US25 - Eu, como usuário, desejo classificar pastas, com o intuito de organizá-las de acordo com a minha preferência.
+      - High
+      - 5 pontos
+      - Critérios de aceitação:
+        - Poder classificar em "Salvo pela última vez";
+        - Poder classificar de "A a Z";
+        - Poder classificar "Igual à Web";
+        - Poder classificar por "Mais antigas";
+        - Poder classificar por "Mais recentes".
