@@ -1,17 +1,17 @@
 # Backlog do Produto
 
-| Sprints | [EP01](#ep01) | [EP02](#ep02)  | [EP03](#ep03)  | [EP04](#ep04)  | [EP05](#ep05)  |[EP06](#ep06)  |[EP07](#ep07)  |[EP08](#ep08)  |[EP09](#ep09)  |[EP10](#ep10)  |Pontuação|
-|--|--|--|--|--|--|--|--|--|--|--|--|
-| Sprint 01 | US01, US02, US03, US05 |  |  |  | |||||| 26 |
-| Sprint 02 | US04, US06, US07   |  |  |  | |||||||
-| Sprint 03 | US08, US09 |  |  |  | |||||||
-| Sprint 04 | | US10, US11, US12, US13, US14 |  |  | |||||||
-| Sprint 05 |  |  | US16, US17, US18 | US15 | |||||||
-| Sprint 06 |  |  | US19, US20, US21, US22 |  | |||||||
-| Sprint 07 |  |  | US26 |  | US23 ||US25|US24||||
-| Sprint 08 |  |  |  |  | US28 |US27| US29, US30 |||||
-| Sprint 09 |  |  |  |  | ||US31, US32, US33||US34|||
-| Sprint 10 |  | US37, US38 |  | US36 | ||||US35|US39||
+| Sprints | [EP01](#ep01) | [EP02](#ep02)  | [EP03](#ep03)  | [EP04](#ep04)  | [EP05](#ep05)  |[EP06](#ep06)  |[EP07](#ep07)  |[EP08](#ep08)  |[EP09](#ep09)  |[EP10](#ep10)  |
+|--|--|--|--|--|--|--|--|--|--|--|
+| Sprint 01 | US01, US02, US03, US05 |  |  |  | ||||||
+| Sprint 02 | US04, US06, US07   |  |  |  | ||||||
+| Sprint 03 | US08, US09 |  |  |  | ||||||
+| Sprint 04 | | US10, US11, US12, US13, US14 |  |  | ||||||
+| Sprint 05 |  |  | US16, US17, US18 | US15 | ||||||
+| Sprint 06 |  |  | US19, US20, US21, US22 |  | ||||||
+| Sprint 07 |  |  | US26 |  | US23 ||US25|US24|||
+| Sprint 08 |  |  |  |  | US28 |US27| US29, US30 ||||
+| Sprint 09 |  |  |  |  | ||US31, US32, US33||US34||
+| Sprint 10 |  | US37, US38 |  | US36 | ||||US35|US39|
 
 # Épicos
 
@@ -114,9 +114,9 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
 | US31 | Usuário | Organizar pasta | Modificar as pastas em que meus Pins estão armazenados, remover e adiconar Pins de outras pastas | - Essa função deve ser ativada pelo usuário para permitir as alterações listadas a seguir;<br>- O Usuário deve poder transferir Pins de uma pasta para a outra;<br> - O Usuário deve poder transferir Pins entre subpastas;<br> - O Usuário deve poder copiar Pins de uma pasta/subpasta para outra pasta/subpasta;<br> - O Usuário deve poder excluir Pins, Pastas e Subpastas. | 8 | Should|
 | US32 | Usuário | Compartilhar pasta | Enviar a outras pessoas um meio de acesso rápido à pasta em questão | - Gerar link de redirecionamento para a url ou aba daquela pasta;<br> - Copiar link para área de trasnferência do dispositivo utilizado | 3 | Could|
 | US33 | Usuário | Adicionar Colaboradores em uma pasta | Permitir que outros usuários possam editar e adicionar Pins a uma pasta | - A Permissão de edição deve ser definida pela inserção pontual do novo usuário na pasta;<br> - O Usuário colaborador deve possuir as mesmas permissões que o usuário proprietário, exceto a opção de excluir uma pasta criada pelo proprietário; | 5 | Could|
-| US34 | Usuário | Pesquisar por tema |  | | | Must|
+| US34 | Usuário | Pesquisar por tema | Pesquisar itens diretamente relacionados a interesses específicos | - Os pins devem possuir tags relacionadas às suas categorias <br> - Deve haver uma barra de pesquisa para a procura ser efetivada | 5 | Must|
 | US35 | Usuário | Pesquisar por foto | Encontrar pins semelhantes a uma imagem obtida pelo dispositivo do usuário | - A Opção de pesquisa por foto deve ser acessada por um ícone de foto na barra de pesquisa;<br> - O usuário deve poder enviar imagem tirada com a câmera do dispostivo sendo utilizado;<br> - O Usuário deve poder enviar mensagem da galeria do dispositivo utilizado;<br> - A Pesquisa deve retornar imagens com maior semelhança conforme o algorítmo de identificação de imagens. | 13 | Should |
-| US36 | Usuário | Redefinir interesses | | | | Should |
+| US36 | Usuário | Redefinir interesses | Atualizar as categorias de tipos de conteúdo que deseja-se receber e visualizar no feed do usuário | - Deve ser possível adicionar novas categorias de interesses no perfil do usuário <br> - Deve ser possível remover categorias de interesses do perfil do usuário | 5 | Should |
 | US37 | Usuário | Editar perfil | Alterar minhas informações pessoais | - O Usuário deve poder modificar o nome e sobrenome cadastrados no Pinterest;<br> - O Usuário deve poder alterar a imagem do perfil;<br> -O Usuário deve poder alterar o nome de usuário cadastrado;<br> - O Usuário deve poder editar informações sobre ele em uma única caixa de texto;<br> - O Usuário deve poder editar o local em que reside  | 5 | Must|
 | US38 | Usuário | Editar informações básicas de conta | Atualizar ou alterar informações que eu julgue necessário | - O Usuário deve poder alterar o endereço de e-mail cadastrado;<br> - O Usuário deve poder alterar a senha cadastrada;<br> - O Usuário deve poder alterar o idioma e o país escolhidos;<br> - O Usuário deve poder selecionar, por meio de *radio buttons*, dentre três opções de gênero: Masculino, Feminino e Personalizado;<br> - Caso a opção de gênero selecionada seja "Personalizado", uma *text box* deve surgir para o usuário inserir seu gênero;<br>- O Usuário deve poder optar por desativar a conta no aplicativo;<br> O Usuário deve poder optar por apagar o histórico de pesquisas recente. | 8 | Must|
 | US39 | Usuário | Definir os níveis de privacidade de pesquisa que o Pinterest utiliza como dados | Delimitar em quais aplicações e em que nível quero fornecer dados para que o Pinterest utilize como seleção de temas | - As opções de delimitação devem estar na página de edição de configurações;<br> - O Usuário deve escolher, por um *switch button*, se o Pinterest poderá rastrear suas pesquisas em outros sites, como o Google, ou não;<br> - O Usuário deve escolher, por *switch buttons*, se o Pinterest fará uso de informaçoes de sites visitados e parceiros para aprimorar anúncios exibidos;<br> | 5 | Should |
