@@ -426,9 +426,9 @@
 | **Fluxo Principal** |
 |Usuário acessa o aplicativo pelo celular; <br>  Abre a Página Inicial para o usuário; <br> Usuário seleciona o símbolo de Câmera na barra de pesquisa **[FA1]** ; <br>  Usuário tira foto da imagem que quer pesquisar; <br>  Imagens semelhantes são retornadas ao usuário **[FE1]** ; <br>  O Processo é finalizado com sucesso. |
 | **Fluxos Alternativos** |
-| **FA1** - Selecionar Imagem da Galeria <br> 1 - O Usuário acessa a galeria do celular; <br> 2 - Usuário seleciona imagem de base para a pesquisa de pins; <br> 3 - Imagens semelhantes são retornadas ao usuário.|
+| **FA1** - Selecionar Imagem da Galeria <br> O Usuário acessa a galeria do celular; <br>  Usuário seleciona imagem de base para a pesquisa de pins; <br> Imagens semelhantes são retornadas ao usuário.|
 | **Fluxos de Exceção**|
-| **FE1** - Pins Retornados Não São Semelhantes <br> 1 - Imagens de Pins retornados não correpondem ao tema da imagem enviada;  <br> 2 - O Processo é finalizado.<br><br>  |
+| **FE1** - Pins Retornados Não São Semelhantes <br> Imagens de Pins retornados não correspondem ao tema da imagem enviada;  <br> O Processo é finalizado.<br><br>  |
 | **Pós Condições**|
 | São retornadas imagens de Pins semelhantes à imagem usada para pesquisa pelo usuário.  |
 
