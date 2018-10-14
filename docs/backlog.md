@@ -103,7 +103,7 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
 | US22 | Usuário | Salvar um Pin | Ter acesso posteriormente ao conteúdo do meu interesse | 8 | Must |
 | US23 | Usuário | Seguir outro usuário do Pinterest | Acompanhar suas atividades na plataforma | 5 | Must |
 | US24 | Usuário | Receber Notificações | Ser avisado sobres quaisquer atividasdes relacionadas ao meu perfil | 5 | Should |
-| US25 | Usuário | Classificar Pastas | Organizá-las de acordo com a minha preferência. | - Poder classificar em "Salvo pela última vez";<br>  - Poder classificar de "A a Z";<br>  - Poder classificar "Igual à Web";<br>  - Poder classificar por "Mais antigas";<br>  - Poder classificar por "Mais recentes". | 5 | Could |
+| US25 | Usuário | Classificar Pastas | Organizá-las de acordo com a minha preferência. | 5 | Could |
 | US26 | Usuário | Classificar um Pin como experimentado | Diferenciar dos Pins que ainda não coloquei em prática |  5 | Could |
 | US27 | Usuário | Sair do Pinterest | Parar de ter a minha conta logada no aplicativo |  5 | Must |
 | US28 | Usuário | Enviar mensagem para outros usuários do Pinterest| Me comunicar com os demais membros da plataforma | 13 | Could |
@@ -205,25 +205,25 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
 ## US24
  - Deve haver a opção de receber "pushs" no celular com a notificação;<br> - Deve haver uma aba para as notificações;<br> - As notificações devem ser organizadas em ordem cronológica;<br> - Sempre que outro usuário salvar um pin do usuário logado, o usuário logado deverá ser notificado;<br> - Sempre que outro usuário seguir uma pasta do usuário logado, o usuário logado deverá ser notificado. |
 ## US25
-- Deve haver uma aba chamada "Experimentados";<br> - Todos os pins devem ter a opção "Experimentado";<br> - Quando um pin for dado como "Experimentado", ele deve ir para a aba "Experimentados";<br> - A aba "Experimentados" poderá ser organizada em pastas. |
+ - Poder classificar em "Salvo pela última vez";<br>  - Poder classificar de "A a Z";<br>  - Poder classificar "Igual à Web";<br>  - Poder classificar por "Mais antigas";<br>  - Poder classificar por "Mais recentes". |
 ## US26
-- Deve haver uma opção chamada "Sair";<br> - Quando o usuário "Sair", deve abrir a tela inicial do pinterest.|
+- Deve haver uma aba chamada "Experimentados";<br> - Todos os pins devem ter a opção "Experimentado";<br> - Quando um pin for dado como "Experimentado", ele deve ir para a aba "Experimentados";<br> - A aba "Experimentados" poderá ser organizada em pastas. |
 ## US27
- - Deve haver um ícone de mensagens em todas as abas da plataforma;<br> - Deve ser possível compartilhar pins e pastas com demais usuários através das mensagens;<br> - As mensagens devem ser privadas e de acesso somente do usuário logado com o usuário que estará recebendo a mensagem;<br>  - Quando uma mensagem não puder ser enviada pela falta de conexão com a internet, deve haver um aviso. |
+- Deve haver uma opção chamada "Sair";<br> - Quando o usuário "Sair", deve abrir a tela inicial do pinterest.|
 ## US28
-- O Usuário deve poder nomear a pasta criada;<br> - O Usuário deve poder adicionar e remover Pins da pasta;<br> - Os pins transferidos para essa pasta devem estar contidos no objeto instanciado;<br> - O Tema da pasta deve ser definido com base nos pins existentes nela; <br> - O Usuário deve poder definir, por meio de um *switch button*, se a pasta estará visível aos demais usuários ou não. |
+ - Deve haver um ícone de mensagens em todas as abas da plataforma;<br> - Deve ser possível compartilhar pins e pastas com demais usuários através das mensagens;<br> - As mensagens devem ser privadas e de acesso somente do usuário logado com o usuário que estará recebendo a mensagem;<br>  - Quando uma mensagem não puder ser enviada pela falta de conexão com a internet, deve haver um aviso. |
 ## US29
-- Uma subpasta deve pertencer à pasta relacionada, não sendo visível se não por meio do acesso a essa pasta;<br> - A Subpasta deve ser nomeada individualmente;<br> - A Subpasta deve possuir o mesmo nível de visualização (secreta ou aberta) que a pasta que a contém|
+- O Usuário deve poder nomear a pasta criada;<br> - O Usuário deve poder adicionar e remover Pins da pasta;<br> - Os pins transferidos para essa pasta devem estar contidos no objeto instanciado;<br> - O Tema da pasta deve ser definido com base nos pins existentes nela; <br> - O Usuário deve poder definir, por meio de um *switch button*, se a pasta estará visível aos demais usuários ou não. |
 ## US30
- - Essa função deve ser ativada pelo usuário para permitir as alterações listadas a seguir;<br>- O Usuário deve poder transferir Pins de uma pasta para a outra;<br> - O Usuário deve poder transferir Pins entre subpastas;<br> - O Usuário deve poder copiar Pins de uma pasta/subpasta para outra pasta/subpasta;<br> - O Usuário deve poder excluir Pins, Pastas e Subpastas. |
+- Uma subpasta deve pertencer à pasta relacionada, não sendo visível se não por meio do acesso a essa pasta;<br> - A Subpasta deve ser nomeada individualmente;<br> - A Subpasta deve possuir o mesmo nível de visualização (secreta ou aberta) que a pasta que a contém|
 ## US31
- - Gerar link de redirecionamento para a url ou aba daquela pasta;<br> - Copiar link para área de trasnferência do dispositivo utilizado |
+ - Essa função deve ser ativada pelo usuário para permitir as alterações listadas a seguir;<br>- O Usuário deve poder transferir Pins de uma pasta para a outra;<br> - O Usuário deve poder transferir Pins entre subpastas;<br> - O Usuário deve poder copiar Pins de uma pasta/subpasta para outra pasta/subpasta;<br> - O Usuário deve poder excluir Pins, Pastas e Subpastas. |
 ## US32
- - A Permissão de edição deve ser definida pela inserção pontual do novo usuário na pasta;<br> - O Usuário colaborador deve possuir as mesmas permissões que o usuário proprietário, exceto a opção de excluir uma pasta criada pelo proprietário; |
+ - Gerar link de redirecionamento para a url ou aba daquela pasta;<br> - Copiar link para área de trasnferência do dispositivo utilizado |
 ## US33
-- Os pins devem possuir tags relacionadas às suas categorias <br> - Deve haver uma barra de pesquisa para a procura ser efetivada |
+ - A Permissão de edição deve ser definida pela inserção pontual do novo usuário na pasta;<br> - O Usuário colaborador deve possuir as mesmas permissões que o usuário proprietário, exceto a opção de excluir uma pasta criada pelo proprietário; |
 ## US34
-- Cada pin deve oferecer botões de sub-opções<br>- Ao descer a página deve aparecer um botão que leve ao topo<br> |
+- Os pins devem possuir tags relacionadas às suas categorias <br> - Deve haver uma barra de pesquisa para a procura ser efetivada |
 ## US35
 - A Opção de pesquisa por foto deve ser acessada por um ícone de foto na barra de pesquisa;<br> - O usuário deve poder enviar imagem tirada com a câmera do dispostivo sendo utilizado;<br> - O Usuário deve poder enviar mensagem da galeria do dispositivo utilizado;<br> - A Pesquisa deve retornar imagens com maior semelhança conforme o algorítmo de identificação de imagens. |
 ## US36
