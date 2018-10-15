@@ -1,11 +1,11 @@
 site_name: Pinterest
 extra_css: [extra.css]
 pages:
-  - Home: index.md
-  - Pré-rastreabilidade:
+  - HOME: index.md
+  - PRÉ-RASTREABILIDADE:
     - Argumentação: argumentacao.md
     - RichPicture: rich_picture.md
-  - Elicitação de Requisitos:
+  - ELICITAÇÃO DE REQUISITOS:
     - Análise de Discurso: analise_discurso.md
     - Análise de Protocolo: analise_protocolo.md
     - Entrevista: entrevista.md
@@ -13,7 +13,7 @@ pages:
     - Questionário: questionario.md
     - Storytelling: storytelling.md
     - Conclusão: conclusao_elicitacao.md
-  - Modelagem:
+  - MODELAGEM:
     - Cenários: cenarios.md
     - Léxicos: lexicos.md
     - Diagramas de Caso de Uso: diagramas_caso_uso.md
