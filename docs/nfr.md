@@ -11,7 +11,7 @@
 ![](img/NFR-Usabilidade.png)
 
 # Usabilidade - Design
-![](img/Design - NFR.png)
+![](img/Design_NFR.png)
 
 # Desempenho
 
