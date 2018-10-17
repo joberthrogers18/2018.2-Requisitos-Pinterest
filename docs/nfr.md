@@ -27,4 +27,4 @@
 
 # Suportabilidade
 
-![](img/NFR_Suportabilidade.jpg)
+![](img/NFR_Suportabilidade.png)
