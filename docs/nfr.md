@@ -13,3 +13,7 @@
 # Desempenho
 
 ![](img/NFR_desempenho.png)
+
+# Suporte
+
+![](img/NFR-suporte.png)
