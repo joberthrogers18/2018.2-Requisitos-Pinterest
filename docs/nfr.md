@@ -22,4 +22,6 @@
 
 ![](img/NFR_Seguranca.png)
 
+# Suportabilidade
 
+![](img/NFR_Suportabilidade.jpg)
