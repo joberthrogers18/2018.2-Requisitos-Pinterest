@@ -17,3 +17,9 @@
 # Suporte
 
 ![](img/NFR-suporte.png)
+
+# Segurança
+
+![](img/NFR_Seguranca.png)
+
+
