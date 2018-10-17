@@ -3,7 +3,7 @@
 
     
     <url>
-     <loc>None/</loc>
+     <loc>/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -12,59 +12,13 @@
     
         
     <url>
-     <loc>None/argumentacao/</loc>
+     <loc>/argumentacao/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/rich_picture/</loc>
-     <lastmod>2018-10-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    
-
-    
-        
-    <url>
-     <loc>None/analise_discurso/</loc>
-     <lastmod>2018-10-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/analise_protocolo/</loc>
-     <lastmod>2018-10-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/entrevista/</loc>
-     <lastmod>2018-10-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/introspeccao/</loc>
-     <lastmod>2018-10-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/questionario/</loc>
-     <lastmod>2018-10-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/storytelling/</loc>
-     <lastmod>2018-10-17</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>None/conclusao_elicitacao/</loc>
+     <loc>/rich_picture/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -74,37 +28,83 @@
     
         
     <url>
-     <loc>None/cenarios/</loc>
+     <loc>/analise_discurso/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/lexicos/</loc>
+     <loc>/analise_protocolo/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/diagramas_caso_uso/</loc>
+     <loc>/entrevista/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/especificacoes_caso_uso/</loc>
+     <loc>/introspeccao/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/backlog/</loc>
+     <loc>/questionario/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
-     <loc>None/nfr/</loc>
+     <loc>/storytelling/</loc>
+     <lastmod>2018-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/conclusao_elicitacao/</loc>
+     <lastmod>2018-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    
+
+    
+        
+    <url>
+     <loc>/cenarios/</loc>
+     <lastmod>2018-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/lexicos/</loc>
+     <lastmod>2018-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/diagramas_caso_uso/</loc>
+     <lastmod>2018-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/especificacoes_caso_uso/</loc>
+     <lastmod>2018-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/backlog/</loc>
+     <lastmod>2018-10-17</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>/nfr/</loc>
      <lastmod>2018-10-17</lastmod>
      <changefreq>daily</changefreq>
     </url>
