@@ -9,3 +9,7 @@
 # Usabilidade
 
 ![](img/NFR-Usabilidade.png)
+
+# Desempenho
+
+![](img/NFR_desempenho.png)
