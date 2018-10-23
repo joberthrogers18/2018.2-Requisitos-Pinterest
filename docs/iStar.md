@@ -1,6 +1,9 @@
-# Strategic Rationale Model (SR)
+# Strategic Rationale Models 
 
-# Strategic Dependency Models (SD)
+## Com foco no pin
+![](img/general_dependency.png)
+
+# Strategic Dependency Models
 
 ## Definir interesses
 ![](img/rationale_definir_interesses.png)
