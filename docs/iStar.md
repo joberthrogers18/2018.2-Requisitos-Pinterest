@@ -1,4 +1,4 @@
-# Strategic Rationale Models 
+# Strategic Rationale Models
 
 ## Com foco no pin
 ![](img/general_dependency.png)
@@ -11,3 +11,6 @@
 
 ## Definir interesses
 ![](img/rationale_definir_interesses.png)
+
+## Classificar pastas
+![](img/Rationale-Classificar_Pastas.png)
