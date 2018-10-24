@@ -11,3 +11,9 @@
 
 ### Definir interesses
 ![](img/rationale_definir_interesses.png)
+
+## Classificar pastas
+![](img/Rationale-Classificar_Pastas.png)
+
+## Pesquisar Pins
+![](img/iStar_Rationale_Pesquisar_Por_Foto.png)
