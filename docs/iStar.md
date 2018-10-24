@@ -14,3 +14,6 @@
 
 ## Classificar pastas
 ![](img/Rationale-Classificar_Pastas.png)
+
+## Seguir usuário
+![](img/rationale_seguir_usuario.png)
