@@ -20,5 +20,6 @@ pages:
     - Especificações de Caso de Uso: especificacoes_caso_uso.md
     - Backlog do Produto: backlog.md
     - NFR: nfr.md
+    - i*: iStar.md
 
 theme: readthedocs
