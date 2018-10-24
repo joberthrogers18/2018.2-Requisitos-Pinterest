@@ -17,3 +17,6 @@
 
 ## Pesquisar Pins
 ![](img/iStar_Rationale_Pesquisar_Por_Foto.png)
+
+## Seguir usuário
+![](img/rationale_seguir_usuario.png)
