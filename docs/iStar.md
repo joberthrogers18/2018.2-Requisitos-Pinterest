@@ -20,3 +20,7 @@
 
 ## Seguir usuário
 ![](img/rationale_seguir_usuario.png)
+
+## Enviar Pin
+
+![](img/istar-enviar-pin.png)
