@@ -1,88 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/argumentacao/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/rich_picture/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/analise_discurso/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/analise_protocolo/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/entrevista/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/introspeccao/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/questionario/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/storytelling/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/conclusao_elicitacao/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/cenarios/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/lexicos/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/diagramas_caso_uso/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/especificacoes_caso_uso/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/backlog/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/nfr/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
-     <lastmod>2018-10-24</lastmod>
+     <loc>None/iStar/</loc>
+     <lastmod>2018-10-26</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
 </urlset>
