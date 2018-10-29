@@ -23,11 +23,17 @@
 
 ## Enviar Pin
 
+### Usuário
+
 ![](img/istar-enviar-pin.png)
 
-## Postar Pin
+### Outro Usuário
 
 ![](img/istar-postar-pin-outro-usuario.png)
+
+### Pinterest
+
+![](img/istart-pinterest-enviar-pin.png)
 
 ## Editar configurações de conta
 
