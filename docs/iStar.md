@@ -25,6 +25,10 @@
 
 ![](img/istar-enviar-pin.png)
 
+## Postar Pin
+
+![](img/istar-postar-pin-outro-usuario.png)
+
 ## Editar configurações de conta
 
 ![](img/rationale_editar_configuracoes.png)
