@@ -24,3 +24,7 @@
 ## Enviar Pin
 
 ![](img/istar-enviar-pin.png)
+
+## Editar configurações de conta
+
+![](img/rationale_editar_configuracoes.png)
