@@ -19,18 +19,22 @@ Inserir aqui de pesquisa
 
 ## Enviar Pin
 
-### Usuário
+#### Usuário
 
 ![](img/istar-enviar-pin.png)
 
-### Outro Usuário
+#### Outro Usuário
 
 ![](img/istar-postar-pin-outro-usuario.png)
 
-### Pinterest
+#### Pinterest
 
 ![](img/istart-pinterest-enviar-pin.png)
 
 ## Editar configurações de conta
 
 ![](img/rationale_editar_configuracoes.png)
+
+## Pintrest
+
+![](img/rationale_pinterest.png)
