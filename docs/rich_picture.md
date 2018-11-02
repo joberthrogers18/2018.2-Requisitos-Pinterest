@@ -14,3 +14,9 @@ Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema
 Rich Picture que apresenta as funcionalidades existentes dentro da aba "Salvos".
 
 ![AbaSalvos](img/rp_abasalvo.png)
+
+# Usuário vendedor e Usuário comum
+
+Rich Picture que apresenta a interação do usuário comum com um usuário que desfruta do poder do marketing no Pinterest divulgando seus produtos. 
+
+![Vendedor](img/Richpicture3.jpg)
