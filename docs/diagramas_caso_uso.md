@@ -11,7 +11,6 @@
 
 ![VisualizarPin](https://raw.githubusercontent.com/joberthrogers18/2018.2-Requisitos/master/docs/img/Diagrama_caso%20uso_visualizar_pin.png)
 
-
 ## Comentar em um Pin
 
 ![comentarPin](img/use_cases_comentario.png)
@@ -78,7 +77,6 @@
 ## Classificar Pastas
 ![ClassificarPastas](img/CasoDeUso_ClassificarPastas.png)
 
-
 ## Ocultar um Pin
 
 ![OcultarPin](img/CasoDeUso_Ocultar.png)
@@ -92,10 +90,6 @@
 ## Sair do aplicativo Pinterest
 
 ![Enviar Mensagem](img/Diagrama_caso_uso_sair.png)
-
-## Fazer Login
-
-![Fazer Login](img/Caso_de_uso_fazer_login.png)
 
 ## Editar Perfil
 
