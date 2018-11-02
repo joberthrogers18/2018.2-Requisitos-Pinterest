@@ -1,40 +1,40 @@
 # Strategic Dependency Models
 
-### Com foco no pin
-![](img/general_dependency.png)
-
-### Com foco na criação de pastas
-
-![](img/folder_dependency.png)
+### Geral
+Inserir aqui diagrama do prezi
 
 # Strategic Rationale Models
 
 ### Definir interesses
-![](img/rationale_definir_interesses.png)
+![](img/rationale_definir_interesses2.png)
 
 ## Classificar pastas
 ![](img/Rationale-Classificar_Pastas.png)
 
 ## Pesquisar Pins
-![](img/iStar_Rationale_Pesquisar_Por_Foto.png)
+Inserir aqui de pesquisa
 
 ## Seguir usuário
 ![](img/rationale_seguir_usuario.png)
 
 ## Enviar Pin
 
-### Usuário
+#### Usuário
 
 ![](img/istar-enviar-pin.png)
 
-### Outro Usuário
+#### Outro Usuário
 
 ![](img/istar-postar-pin-outro-usuario.png)
 
-### Pinterest
+#### Pinterest
 
 ![](img/istart-pinterest-enviar-pin.png)
 
 ## Editar configurações de conta
 
 ![](img/rationale_editar_configuracoes.png)
+
+## Pintrest
+
+![](img/rationale_pinterest.png)
