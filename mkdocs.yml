@@ -22,6 +22,11 @@ pages:
     - NFR: nfr.md
     - i*: iStar.md
   - ANÁLISE:
+<<<<<<< HEAD
     - NFR: 
 
+=======
+    - Pré-rastreabilidade: pre_rastreabilidade_analise.md
+    - Istar: Istar_analise_inspecao.md
+>>>>>>> 909dfec6883e3fa56f51ba847c539105001edd11
 theme: readthedocs
