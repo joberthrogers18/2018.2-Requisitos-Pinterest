@@ -21,5 +21,7 @@ pages:
     - Backlog do Produto: backlog.md
     - NFR: nfr.md
     - i*: iStar.md
+  - ANÁLISE:
+    - Pré-rastreabilidade: pre_rastreabilidade_analise.md
 
 theme: readthedocs
