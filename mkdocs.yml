@@ -23,5 +23,5 @@ pages:
     - i*: iStar.md
   - ANÁLISE:
     - Pré-rastreabilidade: pre_rastreabilidade_analise.md
-
+    - Istar: Istar_analise_inspecao.md
 theme: readthedocs
