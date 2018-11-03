@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Análise da Pré-rastreabilidade - Pinterest</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "An\u00e1lise da Pr\u00e9-rastreabilidade";
+    var mkdocs_page_input_path = " pre_rastreabilidade_analise.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Pinterest</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">HOME</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">PRÉ-RASTREABILIDADE</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../argumentacao/">Argumentação</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../rich_picture/">RichPicture</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">ELICITAÇÃO DE REQUISITOS</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../analise_discurso/">Análise de Discurso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../analise_protocolo/">Análise de Protocolo</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../entrevista/">Entrevista</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../introspeccao/">Introspecção</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../questionario/">Questionário</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../storytelling/">Storytelling</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../conclusao_elicitacao/">Conclusão</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">MODELAGEM</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../cenarios/">Cenários</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../lexicos/">Léxicos</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../diagramas_caso_uso/">Diagramas de Caso de Uso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../especificacoes_caso_uso/">Especificações de Caso de Uso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../backlog/">Backlog do Produto</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../nfr/">NFR</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../iStar/">i*</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">ANÁLISE</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../pre_rastreabilidade_analise.md">Pré-rastreabilidade</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Pinterest</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Análise da Pré-rastreabilidade</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="analise-da-pre-rastreabilidade">Análise da Pré-rastreabilidade</h1>
+<p>Foram analisados todos os rich pictures e argumentações postadas neste repositório até a presente data (03/11/2018). O método utilizado foi uma checklist que possui pontos importantes para a implementação de um bom rich picture e uma boa argumentação. Estes pontos foram inferidos do material de aula de Requisitos de Software.</p>
+<h2 id="rich-picture">Rich Picture</h2>
+<h3 id="pin">Pin</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Critério de sucesso</th>
+<th>Sim/Não</th>
+<th>Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A simbologia está coerente?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Existe equilíbrio entre palavras e desenhos?</td>
+<td>N</td>
+<td>Os textos precisam completar mais aquilo que os ícones querem passar</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os atores estão bem definidos?</td>
+<td>N</td>
+<td>Não fica bem definido quem pratica cada processo, apenas alguns possuem um ator</td>
+</tr>
+<tr>
+<td>4</td>
+<td>O fluxo e as operações fazem sentido?</td>
+<td>N</td>
+<td>As setas poderiam ter uma descrição da ação</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui operações suficientes para atender a proposta?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Usa linguagem compreensível?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui rastreabilidade?</td>
+<td>N</td>
+<td>Não indica de onde surgiram as operações</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pins-especiais">Pins Especiais</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Critério de sucesso</th>
+<th>Sim/Não</th>
+<th>Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A simbologia está coerente?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Existe equilíbrio entre palavras e desenhos?</td>
+<td>N</td>
+<td>Necessita de mais textos explicativos.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os atores estão bem definidos?</td>
+<td>N</td>
+<td>Não ficou claro quem são os atores, poderia ter uma descrição em texto.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>O fluxo e as operações fazem sentido?</td>
+<td>N</td>
+<td>Os itens ficaram "jogados" pela imagem, necessitando de mais operações para interligá-los</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui operações suficientes para atender a proposta?</td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Usa linguagem compreensível?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui rastreabilidade?</td>
+<td>S</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="usuario">Usuário</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Critério de sucesso</th>
+<th>Sim/Não</th>
+<th>Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A simbologia está coerente?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Existe equilíbrio entre palavras e desenhos?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os atores estão bem definidos?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>O fluxo e as operações fazem sentido?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui operações suficientes para atender a proposta?</td>
+<td>N</td>
+<td>Um usuário pode fazer muito mais dentro do sistema. Poderia ser quebrado em  vários rich pictures</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Usa linguagem compreensível?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui rastreabilidade?</td>
+<td>N</td>
+<td>Não indica de onde surgiram as operações</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pin_1">Pin</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Critério de sucesso</th>
+<th>Sim/Não</th>
+<th>Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A simbologia está coerente?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Existe equilíbrio entre palavras e desenhos?</td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os atores estão bem definidos?</td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>O fluxo e as operações fazem sentido?</td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui operações suficientes para atender a proposta?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Usa linguagem compreensível?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui rastreabilidade?</td>
+<td>N</td>
+<td>Não indica de onde surgiram as operações</td>
+</tr>
+</tbody>
+</table>
+<h2 id="aba-salvos">Aba Salvos</h2>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Critério de sucesso</th>
+<th>Sim/Não</th>
+<th>Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A simbologia está coerente?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Existe equilíbrio entre palavras e desenhos?</td>
+<td>N</td>
+<td>Alguns ícones não possuem descrição e podem não ser intuitivos</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os atores estão bem definidos?</td>
+<td>N</td>
+<td>Deve explicitar o ator</td>
+</tr>
+<tr>
+<td>4</td>
+<td>O fluxo e as operações fazem sentido?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui operações suficientes para atender a proposta?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Usa linguagem compreensível?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui rastreabilidade?</td>
+<td>N</td>
+<td>Não indica de onde surgiram as operações</td>
+</tr>
+</tbody>
+</table>
+<h3 id="usuario-vendedor-e-usuario-comum">Usuário vendedor e usuário comum</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Critério de sucesso</th>
+<th>Sim/Não</th>
+<th>Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A simbologia está coerente?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Existe equilíbrio entre palavras e desenhos?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os atores estão bem definidos?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>O fluxo e as operações fazem sentido?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui operações suficientes para atender a proposta?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Usa linguagem compreensível?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui rastreabilidade?</td>
+<td>N</td>
+<td>Não indica de onde surgiram as operações</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pinterest-e-entrega-de-conteudo-ao-usuario">Pinterest e entrega de conteúdo ao usuário</h3>
+<table>
+<thead>
+<tr>
+<th>Número</th>
+<th>Critério de sucesso</th>
+<th>Sim/Não</th>
+<th>Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>A simbologia está coerente?</td>
+<td>N</td>
+<td>O quadrado não ficou claro sobre do que se tratava</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Existe equilíbrio entre palavras e desenhos?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Os atores estão bem definidos?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>O fluxo e as operações fazem sentido?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Possui operações suficientes para atender a proposta?</td>
+<td>N</td>
+<td>A proposta foi muito pouco explorada</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Usa linguagem compreensível?</td>
+<td>S</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Possui rastreabilidade?</td>
+<td>N</td>
+<td>Não indica de onde surgiram as operações</td>
+</tr>
+</tbody>
+</table>
+<h2 id="argumentacao">Argumentação</h2>
+<h3 id="argumentacao-1">Argumentação 1</h3>
+<h3 id="argumentacao-2">Argumentação 2</h3>
+<h3 id="argumentacao-3">Argumentação 3</h3>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
