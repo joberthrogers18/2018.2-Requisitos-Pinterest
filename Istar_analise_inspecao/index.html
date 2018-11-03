@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Istar - Pinterest</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Istar";
+    var mkdocs_page_input_path = "Istar_analise_inspecao.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Pinterest</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">HOME</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">PRÉ-RASTREABILIDADE</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../argumentacao/">Argumentação</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../rich_picture/">RichPicture</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">ELICITAÇÃO DE REQUISITOS</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../analise_discurso/">Análise de Discurso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../analise_protocolo/">Análise de Protocolo</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../entrevista/">Entrevista</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../introspeccao/">Introspecção</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../questionario/">Questionário</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../storytelling/">Storytelling</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../conclusao_elicitacao/">Conclusão</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">MODELAGEM</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../cenarios/">Cenários</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../lexicos/">Léxicos</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../diagramas_caso_uso/">Diagramas de Caso de Uso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../especificacoes_caso_uso/">Especificações de Caso de Uso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../backlog/">Backlog do Produto</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../nfr/">NFR</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../iStar/">i*</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">ANÁLISE</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../analise_NFR/">NFR</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../pre_rastreabilidade_analise/">Pré-rastreabilidade</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Istar</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#inspecao-istar">Inspeção IStar</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#planejamento">Planejamento</a></li>
+        
+            <li><a class="toctree-l4" href="#visao-geral">Visão Geral</a></li>
+        
+            <li><a class="toctree-l4" href="#inspecao">Inspeção</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Pinterest</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>ANÁLISE &raquo;</li>
+        
+      
+    
+    <li>Istar</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="inspecao-istar">Inspeção IStar</h1>
+<h2 id="planejamento">Planejamento</h2>
+<p>Após discutir como seria a inspeção dos IStars, chegou-se a um consenso entre a dupla que seria utilizado partes do método citado pelos casos de uso contendo pequenas modificações, onde irá conter os campos que serão preenchidos com “sim” ou “não” de acordo com a avaliação que obteve ao julgar se uma condição foi ou não satisfeita para um determinado caso, uma coluna será dedicada às observações destacadas sobre IStar modelado no momento da análise. Ao contrário dos casos de uso, o IStar não conta com o campo “impacto” por possuir um tipo de modelo de maior completude, que envolve tanto requisitos funcionais quanto não funcionais.</p>
+<h2 id="visao-geral">Visão Geral</h2>
+<p>Esse documento tem por objetivo analisar todos os modelos de dependência e rationales feitos na modelagem dos requisitos. A partir do diagnóstico será adquirido o embasamento necessário para modificar e otimizar todos os diagramas IStars desenhados no projeto, apontando as principais falhas técnicas e conceituais, além de oferecer meios para o aperfeiçoamento.</p>
+<h2 id="inspecao">Inspeção</h2>
+<h3 id="strategic-dependency-models">Strategic Dependency Models</h3>
+<h4 id="sd1">SD1</h4>
+<table>
+<thead>
+<tr>
+<th>Questões Avaliativas / Diagrama avaliado</th>
+<th>SD1</th>
+<th>Observações</th>
+<th>Melhorias</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Os atores mais importantes estão sendo representados ?</td>
+<td>Sim</td>
+<td>Possui o usuário e o Pinterest como atores</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Possui todos os elementos necessários?</td>
+<td>Sim</td>
+<td>Mesmo que o diagrama não explore todos os elementos do <em>framework</em>, a análise mostrou que foram usados aqueles que são necessários para representar a sua finalidade</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os <em>softgoals</em> têm relação com os requisitos não funcionais levantados anteriormente?</td>
+<td>-</td>
+<td>Este modelo não possui <em>softgoals</em></td>
+<td>-</td>
+</tr>
+<tr>
+<td>Todas as tarefas estão corretamente representadas ?</td>
+<td>Sim</td>
+<td>Todas representam funcionalidades que possuem um fluxo pré determinado para ser executada.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As metas estão descritas na linguagem passiva?</td>
+<td>-</td>
+<td>Este modelo não possui metas</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os <em>softgoals</em> representam critérios de qualidade?</td>
+<td>-</td>
+<td>Este modelo não possui softgoals</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As dependências estão no sentido correto?</td>
+<td>Não</td>
+<td>Modelo com dependêcia em sentidos opostos para um mesmo elemento</td>
+<td>Colocar depedências no sentido correto e em uma só direção.</td>
+</tr>
+<tr>
+<td>O diagrama está de acordo com a última versão do <em>framework</em>?</td>
+<td>Sim</td>
+<td>Está atualizado em sua última versão</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os elementos utilizados (meta, tarefa, recurso, agentes) foram escolhidos de forma correta (condizem com o seu objetivo no <em>framework</em>)?</td>
+<td>Sim</td>
+<td>Modelo usa muitas notações de acordo com o framework, mas há falta de softgoals.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os elementos metas estão descritos na voz passiva?</td>
+<td>-</td>
+<td>O modelo não possui metas</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h4 id="sd2">SD2</h4>
+<table>
+<thead>
+<tr>
+<th>Questões Avaliativas / Diagrama avaliado</th>
+<th>SD2</th>
+<th>Observações</th>
+<th>Melhoria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Os atores mais importantes estão sendo representados ?</td>
+<td>Sim</td>
+<td>Possui o usuário e o Pinterest como atores</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Possui todos os elementos necessários?</td>
+<td>Sim</td>
+<td>Possui todos os elementos</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os <em>softgoals</em> têm relação com os requisitos não funcionais levantados anteriormente?</td>
+<td>Não</td>
+<td>O diagrama possui apenas um <em>softgoal</em> e este não está presente nas etapas anteriores do projeto</td>
+<td>Verificar se o softgoal é um requisito do projeto que não foi levantado ou se ele foi representado como softgoal erroneamente.</td>
+</tr>
+<tr>
+<td>Todas as tarefas estão corretamente representadas ?</td>
+<td>Não</td>
+<td>Há funcionalidades que deveriam ser representadas como tarefa, mas estão em forma de meta.</td>
+<td>Converter as metas incorretas em tarefas</td>
+</tr>
+<tr>
+<td>As metas estão descritas na linguagem passiva?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os <em>softgoals</em> representam critérios de qualidade?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>O diagrama está de acordo com a última versão do <em>framework</em>?</td>
+<td>Sim</td>
+<td>Está atualizado com sua última versão</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os elementos utilizados (meta, tarefa, recurso, agentes) foram escolhidos de forma correta (condizem com o seu objetivo no <em>framework</em>)?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os elementos metas estão descritos na voz passiva?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="strategic-rationale-models">Strategic Rationale Models</h3>
+<h4 id="sr1-definir-interesses">SR1 - Definir Interesses</h4>
+<table>
+<thead>
+<tr>
+<th>Questões Avaliativas / Diagrama avaliado</th>
+<th>SR1</th>
+<th>Observações</th>
+<th>Melhoria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Está baseado em alguma documentação?</td>
+<td>Sim</td>
+<td>-</td>
+<td>Usar documentação complementar</td>
+</tr>
+<tr>
+<td>Possui todos os elementos necessários (softgoal, meta, recurso, tarefas)?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os atores foram representados de forma correta?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>A ligações com 'and' e 'or' foram feitas corretamente?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações de 'and' e 'or' estão na ultima versão do framework?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Está esteticamente padronizado com os demais diagramas?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações representadas de acordo com a sua função?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os hardgoals estão bem definidos(voz passiva)?</td>
+<td>Sim</td>
+<td>Estão todos descritos na voz passiva.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os hardgoals estão presentes no SD?</td>
+<td>Não</td>
+<td>-</td>
+<td>Atualizar SR com SD.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="sr2-classificar-pastas">SR2 - Classificar Pastas</h4>
+<table>
+<thead>
+<tr>
+<th>Questões Avaliativas / Diagrama avaliado</th>
+<th>SR2</th>
+<th>Observações</th>
+<th>Melhoria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Está baseado em alguma documentação?</td>
+<td>Sim</td>
+<td>-</td>
+<td>Usar documentação complementar</td>
+</tr>
+<tr>
+<td>Possui todos os elementos necessários (softgoal, meta, recurso, tarefas)?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os atores foram representados de forma correta?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>A ligações com 'and' e 'or' foram feitas corretamente?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações de 'and' e 'or' estão na ultima versão do framework?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Está esteticamente padronizado com os demais diagramas?</td>
+<td>Não</td>
+<td>Linhas não estão retas e a meta possui formato diferente do outros modelos (menos arredondados).</td>
+<td>Redesenhar diagrama com linhas retas e aumentar a circunferência das bordas das metas</td>
+</tr>
+<tr>
+<td>As ligações representadas de acordo com a sua função?</td>
+<td>Não</td>
+<td>Recurso está representado errado.</td>
+<td>Atualizar a ligação de uma tarefa com recurso colocando "need" entre eles.</td>
+</tr>
+<tr>
+<td>Os hardgoals estão bem definidos(voz passiva)?</td>
+<td>Sim</td>
+<td>Estão todos descritos na voz passiva.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os hardgoals estão presentes no SD?</td>
+<td>Não</td>
+<td>-</td>
+<td>Atualizar SR com SD.</td>
+</tr>
+</tbody>
+</table>
+<h4 id="sr3-enviar-pin">SR3 - Enviar Pin</h4>
+<table>
+<thead>
+<tr>
+<th>Questões Avaliativas / Diagrama avaliado</th>
+<th>SR3</th>
+<th>Observações</th>
+<th>Melhoria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Está baseado em alguma documentação?</td>
+<td>Sim</td>
+<td>-</td>
+<td>Usar documentação complementar</td>
+</tr>
+<tr>
+<td>Possui todos os elementos necessários (softgoal, meta, recurso, tarefas)?</td>
+<td>Não</td>
+<td>Não possui <em>softgoals</em></td>
+<td>Atualizar com mais <em>softgoals</em></td>
+</tr>
+<tr>
+<td>Os atores foram representados de forma correta?</td>
+<td>Sim</td>
+<td>Necessitou a ocorrência de mais um ator que não foi diretamente citado no SD.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>A ligações com 'and' e 'or' foram feitas corretamente?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações de 'and' e 'or' estão na ultima versão do framework?</td>
+<td>Não</td>
+<td>Há notação de ambas as versões</td>
+<td>Atualizar os elementos obsoletos de acordo com a nova versão</td>
+</tr>
+<tr>
+<td>Está esteticamente padronizado com os demais diagramas?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações representadas de acordo com a sua função?</td>
+<td>Não</td>
+<td>Recurso está representado errado.</td>
+<td>Atualizar a ligação de uma tarefa com recurso colocando "need" entre eles.</td>
+</tr>
+<tr>
+<td>Os hardgoals estão bem definidos(voz passiva)?</td>
+<td>Sim</td>
+<td>Estão todos descritos na voz passiva.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os hardgoals estão presentes no SD?</td>
+<td>Não</td>
+<td>-</td>
+<td>Atualizar SR com SD.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sr4-pesquisar-pin">SR4 - Pesquisar PIN</h3>
+<table>
+<thead>
+<tr>
+<th>Questões Avaliativas / Diagrama avaliado</th>
+<th>SR4</th>
+<th>Observações</th>
+<th>Melhoria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Está baseado em alguma documentação?</td>
+<td>Sim</td>
+<td>-</td>
+<td>Usar documentação complementar</td>
+</tr>
+<tr>
+<td>Possui todos os elementos necessários (softgoal, meta, recurso, tarefas)?</td>
+<td>Não</td>
+<td>Não possui <em>softgoals</em></td>
+<td>Adicionar mais softgoals</td>
+</tr>
+<tr>
+<td>Os atores foram representados de forma correta?</td>
+<td>Sim</td>
+<td>Necessitou a ocorrência de mais um ator que não foi diretamente citado no SD.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>A ligações com 'and' e 'or' foram feitas corretamente?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações de 'and' e 'or' estão na ultima versão do framework?</td>
+<td>Não</td>
+<td>Há notação de ambas as versões</td>
+<td>Atualizar os elementos obsoletos de acordo com a nova versão</td>
+</tr>
+<tr>
+<td>Está esteticamente padronizado com os demais diagramas?</td>
+<td>Não</td>
+<td>A modelagem está diferente dos outros Srs (cor)</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações representadas de acordo com a sua função?</td>
+<td>Não</td>
+<td>Recursos são representados com a notação need</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os hardgoals estão bem definidos(voz passiva)?</td>
+<td>Sim</td>
+<td>Estão todos descritos na voz passiva.</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os hardgoals estão presentes no SD?</td>
+<td>Não</td>
+<td>-</td>
+<td>Atualizar SR com SD.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="sr5-pinterest">SR5 - Pinterest</h3>
+<table>
+<thead>
+<tr>
+<th>Questões Avaliativas / Diagrama avaliado</th>
+<th>SR4</th>
+<th>Observações</th>
+<th>Melhoria</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Está baseado em alguma documentação?</td>
+<td>Sim</td>
+<td>-</td>
+<td>Usar documentação complementar</td>
+</tr>
+<tr>
+<td>Possui todos os elementos necessários (softgoal, meta, recurso, tarefas)?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os atores foram representados de forma correta?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>A ligações com 'and' e 'or' foram feitas corretamente?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações de 'and' e 'or' estão na ultima versão do framework?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Está esteticamente padronizado com os demais diagramas?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>As ligações representadas de acordo com a sua função?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os hardgoals estão bem definidos(voz passiva)?</td>
+<td>Sim</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Os hardgoals estão presentes no SD?</td>
+<td>Não</td>
+<td>-</td>
+<td>Atualizar SR com SD.</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../pre_rastreabilidade_analise/" class="btn btn-neutral" title="Pré-rastreabilidade"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../pre_rastreabilidade_analise/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

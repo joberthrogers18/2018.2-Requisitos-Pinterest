@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>NFR - Pinterest</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "NFR";
+    var mkdocs_page_input_path = "analise_NFR.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Pinterest</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">HOME</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">PRÉ-RASTREABILIDADE</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../argumentacao/">Argumentação</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../rich_picture/">RichPicture</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">ELICITAÇÃO DE REQUISITOS</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../analise_discurso/">Análise de Discurso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../analise_protocolo/">Análise de Protocolo</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../entrevista/">Entrevista</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../introspeccao/">Introspecção</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../questionario/">Questionário</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../storytelling/">Storytelling</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../conclusao_elicitacao/">Conclusão</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">MODELAGEM</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../cenarios/">Cenários</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../lexicos/">Léxicos</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../diagramas_caso_uso/">Diagramas de Caso de Uso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../especificacoes_caso_uso/">Especificações de Caso de Uso</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../backlog/">Backlog do Produto</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../nfr/">NFR</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../iStar/">i*</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">ANÁLISE</span>
+    <ul class="subnav">
+                <li class=" current">
+                    
+    <a class="current" href="./">NFR</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#introducao">Introdução</a></li>
+    
+
+    <li class="toctree-l3"><a href="#objetivo">Objetivo</a></li>
+    
+
+    <li class="toctree-l3"><a href="#metodologia">Metodologia</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#checklist">Checklist</a></li>
+        
+            <li><a class="toctree-l4" href="#registro-de-inspecao">Registro de Inspeção</a></li>
+        
+            <li><a class="toctree-l4" href="#tabela-de-medicao">Tabela de medição</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#inspecoes">Inspeções</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#relacao-de-inspecoes">Relação de inspeções</a></li>
+        
+            <li><a class="toctree-l4" href="#idcu-1">IDCU-1</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l3"><a href="#resultados">Resultados</a></li>
+    
+
+    <li class="toctree-l3"><a href="#conclusao">Conclusão</a></li>
+    
+
+    <li class="toctree-l3"><a href="#referencias">Referências</a></li>
+    
+
+    </ul>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../pre_rastreabilidade_analise/">Pré-rastreabilidade</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../Istar_analise_inspecao/">Istar</a>
+                </li>
+    </ul>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Pinterest</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>ANÁLISE &raquo;</li>
+        
+      
+    
+    <li>NFR</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="introducao">Introdução</h2>
+<p>O presente documento visa apresentar a inspeção dos modelos de <strong><em>NFR</em></strong> (<em>Non-functional requirements</em>), trabalho desenvolvido no módulo de Modelagem de Requisitos.</p>
+<h2 id="objetivo">Objetivo</h2>
+<p>A inspeção dos modelos de <strong><em>NFR Framework</em></strong> permite a verificação da aplicação das métricas necessárias para a correta representação do modelo, garantindo ainda uma análise quanto à abrangência, completude e qualidade dos modelos analisados. Um dos focos principais desta inspeção é realizar a verificação da consistência técnica validação através de métricas dos modelos de <em>NFR Framework</em> elaborados. Esse conjunto de dados permite descobrir as fraquezas existentes no trabalho e facilita a melhoria da qualidade dos casos de uso nas métricas levantadas como passíveis de melhorias.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para a inspeção dos modelos <em>NFR Framework</em> será utilizada uma metodologia de avaliação padronizada, em que cada <em>NFR</em>, será julgado de acordo com sua não-conformidade com a métrica em análise, ou seja, se a opção “não” for marcada, quer dizer que o modelo <em>NFR</em> não está em conformidade com a métrica. Cada métrica está disposta em uma escala de impacto, sendo estes <strong>alto, médio</strong> ou <strong>baixo</strong>. Além disso, também há espaço para a adição de observações pelo avaliador, quando necessário. A inspeção será montada em forma de tabela, sendo cada tabela baseada no checklist geral criado para este documento, em que contém as métricas necessárias para avaliação de um <em>NFR Framework</em>.</p>
+<p>Após a aplicação da checklist na descrição de uma inspeção de um <em>NFR</em> selecionado, será compilada a tabela de medição de inspeção. Em que é compilado um valor que representa de forma quantitativa a qualidade do modelo elaborado, segundo os seguintes critérios:
+<em> A tabela de medição necessita de pesos para os impactos e para essa análise os pesos adotados serão:
+ * Peso 1 para métricas com Impacto Baixo;
+ * Peso 2 para métricas com Impacto Médio;
+ * Peso 3 para métricas com Impacto Alto;
+</em> Com os pesos e as métricas será calculada uma <strong>Taxa de Não Conformidade</strong> que expressa em que nível aquele <em>NFR</em> se encontra em desacordo com as métricas estabelecidas;
+<em> O Valor máximo estabelecido para a </em>Taxa de Não Conformidade<em> é de <strong>35%</strong>.
+</em> O Resultado de classificação final do modelo analisado é tido como <strong>Aprovado</strong> caso sua <em>Taxa de Não Conformidade</em> esteja abaixo de 35% e tido como <strong>Reprovado</strong> caso sua <em>Taxa de Não Conformidade</em> seja maior ou igual a 35%.</p>
+<p>As métricas utilizadas e a metodologia são elaboradas a partir do estudo “Uma proposta de inspeção em modelos de caso de uso” de Rosângela Gregolin <a href="#referencias"> [1] </a>. Neste estudo a autora levanta critérios, regras e modelos para a melhor inspeção de casos de uso, tanto em formato de diagrama, quanto sua descrição.</p>
+<p>A metodologia possui certas adaptações para melhor adequá-la ao contexto da disciplina, pois não é feito desenvolvimento de protótipos e documentos específicos requisitados pelo modelo.</p>
+<p>Para uma melhor avaliação e observações das métricas foram utilizadas referenciais teóricos da IBM que auxiliam na produção de um bom caso de uso e com isso consegue-se visualizar melhor os erros cometidos no caso de uso desenvolvidos no projeto da matéria e elaborar melhores observações a respeito da métrica analisada.</p>
+<p>A seguir pode-se conferir os modelos utilizados para a realização da inspeção:</p>
+<h3 id="checklist">Checklist</h3>
+<p>[EXCEL] inserir a tabela do checklist</p>
+<h3 id="registro-de-inspecao">Registro de Inspeção</h3>
+<p>[EXCEL]</p>
+<h3 id="tabela-de-medicao">Tabela de medição</h3>
+<h2 id="inspecoes">Inspeções</h2>
+<h3 id="relacao-de-inspecoes">Relação de inspeções</h3>
+<p>{tabela de resumo} inserir a tabela da lista de inspeçoes</p>
+<h3 id="idcu-1">IDCU-1</h3>
+<p>Rastreabilidade: [UCXX -Nome] ( link com o caso de uso)
+{imagem da tabela}</p>
+<h2 id="resultados">Resultados</h2>
+<p>Com a realização da inspeção dos casos de uso foi verificado que todos eles possuem algum ponto em que precisam de melhoria, porém tivemos um resultado de X aprovados e X reprovados dentre os 26 casos de uso feitos pelo grupo no módulo de Modelagem de Requisitos.</p>
+<h2 id="conclusao">Conclusão</h2>
+<p>A inspeção dos casos de uso com base nos referenciais teóricos possibilitou a avaliação de métricas essenciais e a identificação de erros. Com as tabelas de inspeção a correção de cada caso de uso será facilitada com os pontos fracos já listados.</p>
+<h2 id="referencias">Referências</h2>
+<p>[1] - PAIM, Fá Rilston Silva; CASTRO, Jaelson. Enhancing Data Warehouse Design with the NFR Framework. Wer, v. 2, p. 40-57, 2002. Disponível em: http://wer.inf.puc-rio.br/WERpapers/pdf_counter.lua?wer=WER02&amp;file_name=paim.pdf</p>
+<p>[2] - COUTO, Anselmo; MARTINS, Luiz Eduardo. (2009). Um Processo de Validação de Requisitos Não-Funcionais Baseado no NFR-Framework. Disponível em: https://www.researchgate.net/publication/221235239_Um_Processo_de_Validacao_de_Requisitos_Nao-Funcionais_Baseado_no_NFR-Framework</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../pre_rastreabilidade_analise/" class="btn btn-neutral float-right" title="Pré-rastreabilidade">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../iStar/" class="btn btn-neutral" title="i*"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../iStar/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../pre_rastreabilidade_analise/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
