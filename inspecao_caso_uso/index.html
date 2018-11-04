@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Introdução - Pinterest</title>
+  <title>Caso de Uso - Pinterest</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Introdu\u00e7\u00e3o";
+    var mkdocs_page_name = "Caso de Uso";
     var mkdocs_page_input_path = "inspecao_caso_uso.md";
     var mkdocs_page_url = null;
   </script>
@@ -153,7 +153,41 @@
                 </li>
                 <li class="">
                     
-    <a class="" href="../Istar_analise_inspecao/">Istar</a>
+    <a class="" href="../Istar_analise_inspecao/">iStar</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Caso de Uso</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#introducao">Introdução</a></li>
+    
+
+    <li class="toctree-l3"><a href="#objetivo">Objetivo</a></li>
+    
+
+    <li class="toctree-l3"><a href="#metodologia">Metodologia</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#checklist">Checklist</a></li>
+        
+            <li><a class="toctree-l4" href="#registro-de-inspecao">Registro de Inspeção</a></li>
+        
+            <li><a class="toctree-l4" href="#tabela-de-medicao">Tabela de medição</a></li>
+        
+            <li><a class="toctree-l4" href="#inspecoes">Inspeções</a></li>
+        
+            <li><a class="toctree-l4" href="#resultados">Resultados</a></li>
+        
+            <li><a class="toctree-l4" href="#conclusao">Conclusão</a></li>
+        
+            <li><a class="toctree-l4" href="#referencias">Referências</a></li>
+        
+        </ul>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -179,8 +213,12 @@
     <li><a href="..">Docs</a> &raquo;</li>
     
       
+        
+          <li>ANÁLISE &raquo;</li>
+        
+      
     
-    <li>Introdução</li>
+    <li>Caso de Uso</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -197,7 +235,7 @@
 <h1 id="metodologia">Metodologia</h1>
 <p>Para a inspeção dos casos de uso será utilizada uma metodologia de avaliação padronizada, em que cada caso de uso, será julgado de acordo com sua não-conformidade com a métrica em análise, ou seja, se a opção “não” for marcada, quer dizer que a descrição de caso de uso não está em conformidade com a métrica. Cada métrica está disposta em uma escala de impacto, sendo este alto, médio ou baixo. Além disso, também há espaço para a adição de observações pelo avaliador, quando necessário. A inspeção será montada em forma de tabela, sendo cada tabela uma tabela de inspeção baseada no checklist geral criado para este documento, em que contém as métricas necessárias para avaliação de um caso de uso.</p>
 <p>Após a aplicação da checklist na descrição de uma inspeção de um caso de uso selecionado será compilada a tabela de medição de inspeção. Em que é compilado um valor que representa de forma quantitativa a qualidade da descrição de caso de uso. A tabela de medição necessita de pesos para os impactos e neste trabalho será usado como convenção o peso 3 para métricas com alto impacto, 2 para impacto médio e 1 para impacto baixo. Nesta tabela é calculado a proporção de não conformidades encontradas, tendo como parâmetro de aceitação uma taxa máxima de 35% das questões aplicadas. Sendo que o resultado classificatório final é “Aprovado” quando a taxa de não conformidade é menor que a taxa máxima e “Reprovado” caso contrário.</p>
-<p>As métricas utilizadas e a metodologia são elaboradas a partir do estudo “Uma proposta de inspeção em modelos de caso de uso” de Rosângela Gregolin <a href="#referencias"> [1] </a>. Neste estudo a autora levanta critérios, regras e modelos para a melhor inspeção de casos de uso, tanto em formato de diagrama, quanto sua descrição.</p>
+<p>As métricas utilizadas e a metodologia são elaboradas a partir do estudo “Uma proposta de inspeção em modelos de caso de uso” de Rosângela Gregolin <a href="#referencias">1</a>. Neste estudo a autora levanta critérios, regras e modelos para a melhor inspeção de casos de uso, tanto em formato de diagrama, quanto sua descrição.</p>
 <p>A metodologia possui certas adaptações para melhor adequá-la ao contexto da disciplina, pois não é feito desenvolvimento de protótipos e documentos específicos requisitados pelo modelo.
 Para uma melhor avaliação e observações das métricas foram utilizadas referenciais teóricos da IBM que auxiliam na produção de um bom caso de uso e com isso consegue-se visualizar melhor os erros cometidos no caso de uso desenvolvidos no projeto da matéria e elaborar melhores observações a respeito da métrica analisada.</p>
 <p>A seguir pode-se conferir os modelos utilizados para a realização da inspeção:</p>
@@ -211,107 +249,107 @@ Para uma melhor avaliação e observações das métricas foram utilizadas refer
 <h3 id="relacao-de-inspecoes">Relação de inspeções</h3>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resumo_inspecao_caso_de_uso.png" /></p>
 <h3 id="iduc-1-receber-notificacoes">IDUC-1 Receber Notificações</h3>
-<p>Rastreabilidade: <a href="">UC - Receber Notificações</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#receber-notificacoes">UC - Receber Notificações</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc1.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc1.png" /></p>
 <h3 id="iduc-2-editar-um-pin">IDUC-2 Editar um Pin</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#editar-um-pin">UC - Editar um Pin</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc2.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc2.png" /></p>
 <h3 id="iduc-3-realizar-primeiro-login">IDUC-3 Realizar primeiro login</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#realizar-primeiro-login">UC - Realizar primeiro login</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc3.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc3.png" /></p>
 <h3 id="iduc-4-classificar-um-pin-como-experimentado">IDUC-4 Classificar um Pin como Experimentado</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#classificar-um-pin-como-experimentado">UC - Classificar um Pin como Experimentado</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc4.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc4.png" /></p>
 <h3 id="iduc-5-denunciar-um-pin">IDUC-5 Denunciar um Pin</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#denunciar-um-pin">UC - Denunciar um Pin</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc5.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc5.png" /></p>
 <h3 id="iduc-6-seguir-outro-usuario">IDUC-6 Seguir outro usuário</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#seguir-outro-usuario">UC - Seguir outro usuário</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc6.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc6.png" /></p>
 <h3 id="iduc-7-pesquisar-por-foto">IDUC-7 Pesquisar por foto</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#pesquisar-por-foto">UC - Pesquisar por foto</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc7.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc7.png" /></p>
 <h3 id="iduc-8-organizar-pasta">IDUC-8 Organizar Pasta</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#organizar-pasta">UC - Organizar Pasta</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc8.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc8.png" /></p>
 <h3 id="iduc-9-visualizar-feed">IDUC-9 Visualizar Feed</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#visualizar-feed">UC - Visualizar Feed</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc9.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc9.png" /></p>
 <h3 id="iduc-10-fazer-login">IDUC-10 Fazer login</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#fazer-login">UC - Fazer login</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc10.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc10.png" /></p>
 <h3 id="iduc-11-visualizar-pin">IDUC-11 Visualizar Pin</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#visualizar-pin">UC - Visualizar Pin</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc11.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc11.png" /></p>
 <h3 id="iduc-12-cadastro-de-usuario">IDUC-12 Cadastro de usuário</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#cadastro-de-usuario">UC - Cadastro de usuário</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc12.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc12.png" /></p>
 <h3 id="iduc-13-enviar-mensagem-para-outros-usuarios">IDUC-13 Enviar mensagem para outros usuários</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#enviar-mensagem-para-outros-usuarios">UC - Enviar mensagem para outros usuários</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc13.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc13.png" /></p>
 <h3 id="iduc-14-ocultar-um-pin">IDUC-14 Ocultar um Pin</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#ocultar-um-pin">UC - Ocultar um Pin</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc14.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc14.png" /></p>
 <h3 id="iduc-15-salvar-um-pin">IDUC-15 Salvar um Pin</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#salvar-um-pin">UC - Salvar um Pin</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc15.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc15.png" /></p>
 <h3 id="iduc-16-enviar-um-pin">IDUC-16 Enviar um Pin</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#enviar-um-pin">UC - Enviar um Pin</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc16.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc16.png" /></p>
 <h3 id="iduc-17-editar-perfil">IDUC-17 Editar Perfil</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#editar-perfil">UC - Editar Perfil</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc17.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc17.png" /></p>
 <h3 id="iduc-18-compartilhar-pasta">IDUC-18 Compartilhar Pasta</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#compartilhar-pasta">UC - Compartilhar Pasta</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc18.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc18.png" /></p>
 <h3 id="iduc-19-criar-pasta">IDUC-19 Criar Pasta</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#criar-pasta">UC - Criar Pasta</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc19.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc19.png" /></p>
 <h3 id="iduc-20-comentar-em-um-pin">IDUC-20 Comentar em um Pin</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#comentar-em-um-pin">UC - Comentar em um Pin</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc20.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc20.png" /></p>
 <h3 id="iduc-21-definir-interesses">IDUC-21 Definir interesses</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#definir-interesses">UC - Definir interesses</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc21.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc21.png" /></p>
 <h3 id="iduc-22-pesquisar-por-tema">IDUC-22 Pesquisar por tema</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#pesquisar-por-tema">UC - Pesquisar por tema</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc22.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc22.png" /></p>
 <h3 id="iduc-23-classificacao-de-pastas">IDUC-23 Classificação de Pastas</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#classificacao-de-pastas">UC - Classificação de Pastas</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc23.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc23.png" /></p>
 <h3 id="iduc-24-ir-para-a-fonte-de-um-pin">IDUC-24 Ir para a fonte de um Pin</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#ir-para-a-fonte-de-um-pin">UC - Ir para a fonte de um Pin</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc24.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc24.png" /></p>
 <h3 id="iduc-25-visualizar-aba-seguindo">IDUC-25 Visualizar aba seguindo</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#visualizar-aba-seguindo">UC - Visualizar aba seguindo</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc25.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc25.png" /></p>
 <h3 id="iduc-26-sair-do-aplicativo-pinterest">IDUC-26 Sair do aplicativo Pinterest</h3>
-<p>Rastreabilidade: <a href="">UC - Nome</a></p>
+<p>Rastreabilidade: <a href="../especificacoes_caso_uso/#sair-do-aplicativo-pinterest">UC - Sair do aplicativo Pinterest</a></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc26.png" /></p>
 <p><img alt="" src="../img/inspecao_caso_de_uso/resultado_caso_de_uso_iduc26.png" /></p>
 <h2 id="resultados">Resultados</h2>
@@ -327,6 +365,13 @@ Para uma melhor avaliação e observações das métricas foram utilizadas refer
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="../Istar_analise_inspecao/" class="btn btn-neutral" title="iStar"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -349,6 +394,8 @@ Para uma melhor avaliação e observações das métricas foram utilizadas refer
   <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
+      
+        <span><a href="../Istar_analise_inspecao/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
     </span>
