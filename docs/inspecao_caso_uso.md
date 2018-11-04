@@ -12,7 +12,7 @@ Para a inspeção dos casos de uso será utilizada uma metodologia de avaliaçã
 
 Após a aplicação da checklist na descrição de uma inspeção de um caso de uso selecionado será compilada a tabela de medição de inspeção. Em que é compilado um valor que representa de forma quantitativa a qualidade da descrição de caso de uso. A tabela de medição necessita de pesos para os impactos e neste trabalho será usado como convenção o peso 3 para métricas com alto impacto, 2 para impacto médio e 1 para impacto baixo. Nesta tabela é calculado a proporção de não conformidades encontradas, tendo como parâmetro de aceitação uma taxa máxima de 35% das questões aplicadas. Sendo que o resultado classificatório final é “Aprovado” quando a taxa de não conformidade é menor que a taxa máxima e “Reprovado” caso contrário.
 
-As métricas utilizadas e a metodologia são elaboradas a partir do estudo “Uma proposta de inspeção em modelos de caso de uso” de Rosângela Gregolin [ [1] ](#referencias). Neste estudo a autora levanta critérios, regras e modelos para a melhor inspeção de casos de uso, tanto em formato de diagrama, quanto sua descrição.
+As métricas utilizadas e a metodologia são elaboradas a partir do estudo “Uma proposta de inspeção em modelos de caso de uso” de Rosângela Gregolin [1](#referencias). Neste estudo a autora levanta critérios, regras e modelos para a melhor inspeção de casos de uso, tanto em formato de diagrama, quanto sua descrição.
 
 A metodologia possui certas adaptações para melhor adequá-la ao contexto da disciplina, pois não é feito desenvolvimento de protótipos e documentos específicos requisitados pelo modelo.
 Para uma melhor avaliação e observações das métricas foram utilizadas referenciais teóricos da IBM que auxiliam na produção de um bom caso de uso e com isso consegue-se visualizar melhor os erros cometidos no caso de uso desenvolvidos no projeto da matéria e elaborar melhores observações a respeito da métrica analisada.
@@ -40,7 +40,7 @@ A seguir pode-se conferir os modelos utilizados para a realização da inspeçã
 
 ### IDUC-1 Receber Notificações
 
-Rastreabilidade: [UC - Receber Notificações]()
+Rastreabilidade: [UC - Receber Notificações](especificacoes_caso_uso.md#receber-notificacoes)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc1.png)
 
@@ -48,7 +48,7 @@ Rastreabilidade: [UC - Receber Notificações]()
 
 ### IDUC-2 Editar um Pin
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc2.png)
 
@@ -56,7 +56,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-3 Realizar primeiro login
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc3.png)
 
@@ -64,7 +64,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-4 Classificar um Pin como Experimentado
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Classificar um Pin como Experimentado](especificacoes_caso_uso.md#classificar-um-pin-como-experimentado)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc4.png)
 
@@ -72,7 +72,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-5 Denunciar um Pin
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc5.png)
 
@@ -80,7 +80,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-6 Seguir outro usuário
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Seguir outro usuário](especificacoes_caso_uso.md#seguir-outro-usuario)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc6.png)
 
@@ -88,7 +88,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-7 Pesquisar por foto
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Pesquisar por foto](especificacoes_caso_uso.md#pesquisar-por-foto)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc7.png)
 
@@ -96,7 +96,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-8 Organizar Pasta
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc8.png)
 
@@ -104,7 +104,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-9 Visualizar Feed
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Visualizar Feed](especificacoes_caso_uso.md#visualizar-feed)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc9.png)
 
@@ -112,7 +112,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-10 Fazer login
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Fazer login](especificacoes_caso_uso.md#fazer-login)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc10.png)
 
@@ -120,7 +120,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-11 Visualizar Pin
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Visualizar Pin](especificacoes_caso_uso.md#visualizar-pin)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc11.png)
 
@@ -128,7 +128,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-12 Cadastro de usuário
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Cadastro de usuário](especificacoes_caso_uso.md#cadastro-de-usuario)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc12.png)
 
@@ -136,7 +136,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-13 Enviar mensagem para outros usuários
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Enviar mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc13.png)
 
@@ -144,7 +144,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-14 Ocultar um Pin
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc14.png)
 
@@ -152,7 +152,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-15 Salvar um Pin
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc15.png)
 
@@ -160,7 +160,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-16 Enviar um Pin
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc16.png)
 
@@ -168,7 +168,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-17 Editar Perfil
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Editar Perfil](especificacoes_caso_uso.md#editar-perfil)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc17.png)
 
@@ -176,7 +176,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-18 Compartilhar Pasta
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Compartilhar Pasta](especificacoes_caso_uso.md#compartilhar-pasta)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc18.png)
 
@@ -184,7 +184,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-19 Criar Pasta
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Criar Pasta](especificacoes_caso_uso.md#criar-pasta)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc19.png)
 
@@ -192,7 +192,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-20 Comentar em um Pin
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Comentar em um Pin](especificacoes_caso_uso.md#comentar-em-um-pin)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc20.png)
 
@@ -200,7 +200,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-21 Definir interesses
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Definir interesses](especificacoes_caso_uso.md#definir-interesses)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc21.png)
 
@@ -208,7 +208,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-22 Pesquisar por tema
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc22.png)
 
@@ -216,7 +216,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-23 Classificação de Pastas
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Classificação de Pastas](especificacoes_caso_uso.md#classificacao-de-pastas)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc23.png)
 
@@ -224,7 +224,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-24 Ir para a fonte de um Pin
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Ir para a fonte de um Pin](especificacoes_caso_uso.md#ir-para-a-fonte-de-um-pin)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc24.png)
 
@@ -232,7 +232,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-25 Visualizar aba seguindo
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Visualizar aba seguindo](especificacoes_caso_uso.md#visualizar-aba-seguindo)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc25.png)
 
@@ -240,7 +240,7 @@ Rastreabilidade: [UC - Nome]()
 
 ### IDUC-26 Sair do aplicativo Pinterest
 
-Rastreabilidade: [UC - Nome]()
+Rastreabilidade: [UC - Sair do aplicativo Pinterest](especificacoes_caso_uso.md#sair-do-aplicativo-pinterest)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc26.png)
 
@@ -255,7 +255,6 @@ Com a realização da inspeção dos casos de uso foi verificado que todos eles 
 A inspeção dos casos de uso com base nos referenciais teóricos possibilitou a avaliação de métricas essenciais e a identificação de erros. Com as tabelas de inspeção, a correção de cada caso de uso será facilitada com os pontos fracos já listados.
 
 ## Referências
-
 
 IBM. Creating use case. Disponível em: <https://www.ibm.com/support/knowledgecenter/SSB2MU_8.1.3/com.ibm.rhp.uml.diagrams.doc/topics/rhp_c_dm_use_case_diagrams.html>. Acesso em: 02 nov. 2018.
 
