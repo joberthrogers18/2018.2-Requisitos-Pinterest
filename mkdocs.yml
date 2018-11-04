@@ -24,5 +24,6 @@ pages:
   - ANÁLISE:
     - NFR: analise_NFR.md
     - Pré-rastreabilidade: pre_rastreabilidade_analise.md
-    - Istar: Istar_analise_inspecao.md
+    - iStar: Istar_analise_inspecao.md
+    - Caso de Uso: inspecao_caso_uso.md
 theme: readthedocs
