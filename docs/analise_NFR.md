@@ -37,7 +37,7 @@ A seguir pode-se conferir os modelos utilizados para a realização da inspeçã
 
 ### Tabela de medição
 
-![Medição do NFR](/home/helena/Documentos/2018.2-Requisitos/docs/img/inspecao_NFR/NFR_medicao.png)
+![Medição do NFR](img/inspecao_NFR/NFR_medicao.png)
 
 ## Inspeções
 
@@ -49,7 +49,7 @@ A seguir pode-se conferir os modelos utilizados para a realização da inspeçã
 
 ### ANFR-01
 
-Rastreabilidade: [ANFR01 - Usabilidade do Sistema] (nfr.md#usabilidade)
+Rastreabilidade: [ANFR01 - Usabilidade do Sistema](nfr.md#Usabilidade)
 
 ![ANFR1](/img/inspecao_NFR/Inspecao_ANFR1.1.png)
 
@@ -57,7 +57,7 @@ Rastreabilidade: [ANFR01 - Usabilidade do Sistema] (nfr.md#usabilidade)
 
 ### ANFR-02
 
-Rastreabilidade: [ANFR02 - Suporte] ()
+Rastreabilidade: [ANFR02 - Suporte](nfr.md#suporte)
 
 ![ANFR2](img/inspecao_NFR/Inspecao_ANFR2.1.png)
 
@@ -65,7 +65,7 @@ Rastreabilidade: [ANFR02 - Suporte] ()
 
 ### ANFR-03
 
-Rastreablidade: [ANFRO3 - Confiabilidade]
+Rastreablidade: [ANFRO3 - Confiabilidade](nfr.md#confiabilidade)
 
 ![ANFR03](img/inspecao_NFR/Inspecao_NFR3.1.png)
 
@@ -73,7 +73,7 @@ Rastreablidade: [ANFRO3 - Confiabilidade]
 
 ### ANFR-04
 
-Rastreabilidade: [ANFR04 - Conectividade]
+Rastreabilidade: [ANFR04 - Conectividade](nfr.md#Conectividade)
 
 ![](img/inspecao_NFR/Inspecao_NFR4.1.png)
 
@@ -81,7 +81,7 @@ Rastreabilidade: [ANFR04 - Conectividade]
 
 ### ANFR-05
 
-Rastreabilidade: [ANFR05 - Usabilidade - Design]
+Rastreabilidade: [ANFR05 - Usabilidade - Design](nfr.md#usabilidade_design)
 
 ![](img/inspecao_NFR/Inspecao_NFR5.1.png)
 
@@ -89,7 +89,7 @@ Rastreabilidade: [ANFR05 - Usabilidade - Design]
 
 ### ANFR-06
 
-Rastreabilidade: [ANFR06 - Desempenho]
+Rastreabilidade: [ANFR06 - Desempenho](nfr.md#desempenho)
 
 ![](img/inspecao_NFR/Inspecao_NFR6.1.png)
 
@@ -97,7 +97,7 @@ Rastreabilidade: [ANFR06 - Desempenho]
 
 ### ANFR-07
 
-Rastreabilidade: [ANFR07 - Segurança]
+Rastreabilidade: [ANFR07 - Segurança](nfr.md#seguranca)
 
 ![](img/inspecao_NFR/Inspecao_NFR7.1.png)
 
@@ -105,7 +105,7 @@ Rastreabilidade: [ANFR07 - Segurança]
 
 ### ANFR-08
 
-Rastreabilidade: [ANFR06 - Segurança
+Rastreabilidade: [ANFR08 - Suportabilidade](nfr.md#suportabilidade)
 
 ![](img/inspecao_NFR/Inspecao_NFR8.1.png)
 
