@@ -20,8 +20,6 @@
 ## Argumentação 4
 
 ![Argumentation](img/argumentacao_4.jpg)
-<<<<<<< HEAD
-=======
 
 ## Argumentação 5
 
@@ -30,4 +28,3 @@
 ## Argumentação 6
 
 ![Argumentation6](img/ArgumentaçãoIndividualHelena.png)
->>>>>>> ef3a7c12a57a55784e713d7b2c58483bd85b5834
