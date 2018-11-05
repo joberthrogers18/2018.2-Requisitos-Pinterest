@@ -24,3 +24,7 @@
 ## Argumentação 5
 
 ![Argumentation2](img/argumentacao6.png)
+
+## Argumentação 6
+
+![Argumentation6](img/ArgumentaçãoIndividualHelena.png)
