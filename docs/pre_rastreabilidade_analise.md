@@ -53,8 +53,6 @@ Foram analisados todos os rich pictures e argumentações postadas neste reposit
 | 1 | A simbologia está coerente? | S |  |
 | 2 | Existe equilíbrio entre palavras e desenhos? | N | Alguns ícones não possuem descrição e podem não ser intuitivos |
 | 3 | Os atores estão bem definidos? | N | Deve explicitar o ator |
-
-
 | 4 | O fluxo e as operações fazem sentido? | S |  |
 | 5 | Possui operações suficientes para atender a proposta? | S |  |
 | 6 | Usa linguagem compreensível? | S |  |
@@ -103,6 +101,41 @@ Foram analisadas as argumentações de 6 integrantes do grupo.
 |Guilherme Guy|
 |Helena Bretas|
 |Letícia Meneses|
+
+### Critérios de Avaliação
+* "Chegou a conclusão de forma verbal" <br>
+    - **Prioridade Alta**
+
+* "Mais de uma pessoa participou da discussão" <br>
+    - **Prioridade Alta**
+
+
+* "Teve uma inferência de argumentos" <br>
+    - **Prioridade Alta**
+
+
+* "Argumentos diferentes geraram conflitos" <br>
+    - **Prioridade Alta**
+
+
+* "Chegou-se a uma preferência para um dos argumentos" <br>
+    - **Prioridade Alta**
+
+
+* "Outra discordância gerou um novo argumento" <br>
+
+    - **Prioridade Baixa**
+
+
+* "O novo argumento gerou conflito com o argumento preferido" <br>
+
+    - **Prioridade Alta**
+
+
+* "Os participantes chegaram a uma conclusão" <br>
+    - **Prioridade Alta**
+
+
 
 &nbsp;
 
@@ -205,12 +238,24 @@ O argumento analisado, embora contenha partes do modelo, não tem uma conexão e
 
 #### Argumentação 6
 
-Analisando a [Argumentação 6](argumentacao.md#argumentacao6), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
+Analisando a [Argumentação 6](argumentacao.md#Argumentation2), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
 
 
 &nbsp;
 
 
-![](img/arg5.png)
+![](img/arg6.png)
 
 Pode-se notar que o caso seguiu o proposto pelo modelo de Argumentação, os argumentos seguiram a linha do conflito e preferência, resultando em um argumento que inferiu com um novo, e foi sobre o consentimento de todos da equipe, que concluíram a melhor forma de implementar.
+
+
+&nbsp;
+
+Pelas prioridades dos critérios seguem os argumentos que atenderam ao modelo
+
+|Atendem o modelo|
+|--|
+|Argumento 2|
+|Argumento 3|
+|Argumento 4|
+|Argumento 6|
