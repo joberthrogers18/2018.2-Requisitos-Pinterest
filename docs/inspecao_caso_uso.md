@@ -256,10 +256,10 @@ A inspeção dos casos de uso com base nos referenciais teóricos possibilitou a
 
 ## Referências
 
-IBM. Creating use case. Disponível em: <https://www.ibm.com/support/knowledgecenter/SSB2MU_8.1.3/com.ibm.rhp.uml.diagrams.doc/topics/rhp_c_dm_use_case_diagrams.html>. Acesso em: 02 nov. 2018.
+[1] - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: <http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf>. Acesso em: 01 nov. 2018.
 
-IBM. Use-cases. Disponível em: <https://www.ibm.com/developerworks/rational/library/content/RationalEdge/may02/m_chapter4_jr.pdf>. Acesso em: 02 nov. 2018.
+[2] - IBM. Creating use case. Disponível em: <https://www.ibm.com/support/knowledgecenter/SSB2MU_8.1.3/com.ibm.rhp.uml.diagrams.doc/topics/rhp_c_dm_use_case_diagrams.html>. Acesso em: 02 nov. 2018.
 
-IBM. Creating use case models. Disponível em: <https://www.ibm.com/support/knowledgecenter/SSB2MU_8.1.4/com.ibm.rhp.harmonyse.doc/topics/t_createusecases.htmll>. Acesso em: 02 nov. 2018.
+[3] - IBM. Use-cases. Disponível em: <https://www.ibm.com/developerworks/rational/library/content/RationalEdge/may02/m_chapter4_jr.pdf>. Acesso em: 02 nov. 2018.
 
-Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: <http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf>. Acesso em: 01 nov. 2018.
+[4] - IBM. Creating use case models. Disponível em: <https://www.ibm.com/support/knowledgecenter/SSB2MU_8.1.4/com.ibm.rhp.harmonyse.doc/topics/t_createusecases.htmll>. Acesso em: 02 nov. 2018.
