@@ -107,7 +107,7 @@ Foram analisadas as argumentações de 6 integrantes do grupo.
 &nbsp;
 
 #### Argumentação 1
-Analisando a [Argumentação 1](argumentacao.md), podemos ver onde ocorreram falhas nas adequações do modelo de Argumentação.
+Analisando a [Argumentação 1](argumentacao.md#Screenshot1), podemos ver onde ocorreram falhas nas adequações do modelo de Argumentação.
 
 
 &nbsp;
@@ -126,7 +126,7 @@ Embora tivesse argumentos, conflitos e preferências, o caso analisado não tinh
 
 
 #### Argumentação 2
-Analisando a [Argumentação 2](argumentacao.md), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
+Analisando a [Argumentação 2](argumentacao.md#Screenshot2), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
 
 &nbsp;
 
@@ -146,7 +146,7 @@ E novos argumentos surgiram e passaram pelo mesmo processo ou inferiram com outr
 
 
 #### Argumentação 3
-Analisando a [Argumentação 3](argumentacao.md), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
+Analisando a [Argumentação 3](argumentacao.md#Argumentacao1), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
 
 
 &nbsp;
@@ -167,7 +167,7 @@ Tiveram argumentos contrários, gerando conflitos e resultando em preferências,
 
 #### Argumentação 4
 
-Analisando a [Argumentação 4](argumentacao.md), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
+Analisando a [Argumentação 4](argumentacao.md#Argumentation), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
 
 
 &nbsp;
@@ -205,7 +205,7 @@ O argumento analisado, embora contenha partes do modelo, não tem uma conexão e
 
 #### Argumentação 6
 
-Analisando a [Argumentação 6](argumentacao.md), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
+Analisando a [Argumentação 6](argumentacao.md#Argumentation2), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
 
 
 &nbsp;
