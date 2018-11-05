@@ -43,9 +43,9 @@ A seguir pode-se conferir os modelos utilizados para a realização da inspeçã
 
 ### Relação de inspeções
 
-![Resumo1](img/inspecao_NFR/NFR_resumo1.png)
+![Resumo1](img/inspecao_NFR/relacao1.png)
 
-![Resumo2](img/inspecao_NFR/NFR_resumo2.png)
+![Resumo2](img/inspecao_NFR/relacao2.png)
 
 ### ANFR-01
 
