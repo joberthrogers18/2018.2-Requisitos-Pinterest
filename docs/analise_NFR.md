@@ -49,7 +49,7 @@ A seguir pode-se conferir os modelos utilizados para a realização da inspeçã
 
 ### ANFR-01
 
-Rastreabilidade: [ANFR01 - Usabilidade do Sistema](nfr.md#Usabilidade)
+Rastreabilidade: [ANFR01 - Usabilidade do Sistema](nfr.md#usabilidade)
 
 ![ANFR1](/img/inspecao_NFR/Inspecao_ANFR1.1.png)
 
@@ -73,7 +73,7 @@ Rastreablidade: [ANFRO3 - Confiabilidade](nfr.md#confiabilidade)
 
 ### ANFR-04
 
-Rastreabilidade: [ANFR04 - Conectividade](nfr.md#Conectividade)
+Rastreabilidade: [ANFR04 - Conectividade](nfr.md#conectividade)
 
 ![](img/inspecao_NFR/Inspecao_NFR4.1.png)
 
@@ -81,7 +81,7 @@ Rastreabilidade: [ANFR04 - Conectividade](nfr.md#Conectividade)
 
 ### ANFR-05
 
-Rastreabilidade: [ANFR05 - Usabilidade - Design](nfr.md#usabilidade_design)
+Rastreabilidade: [ANFR05 - Usabilidade - Design](nfr.md#usabilidade-design)
 
 ![](img/inspecao_NFR/Inspecao_NFR5.1.png)
 
