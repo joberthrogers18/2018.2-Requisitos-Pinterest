@@ -29,24 +29,87 @@ A seguir pode-se conferir os modelos utilizados para a realização da inspeçã
 
 ### Checklist
 
-[EXCEL] inserir a tabela do checklist
+![Checklist](img/inspecao_NFR/NFR_checklist.png)
 
 ### Registro de Inspeção
 
-[EXCEL]
+![Registro de Inspeção](img/inspecao_NFR/NFR_inspecao.png)
 
 ### Tabela de medição
+
+![Medição do NFR](img/inspecao_NFR/NFR_medicao.png)
 
 ## Inspeções
 
 ### Relação de inspeções
 
-{tabela de resumo} inserir a tabela da lista de inspeçoes
+![Resumo1](img/inspecao_NFR/relacao1.png)
 
-### IDCU-1
+![Resumo2](img/inspecao_NFR/relacao2.png)
 
-Rastreabilidade: [UCXX -Nome] ( link com o caso de uso)
-{imagem da tabela}
+### ANFR-01
+
+Rastreabilidade: [ANFR01 - Usabilidade do Sistema](nfr.md#usabilidade)
+
+![ANFR1](img/inspecao_NFR/Inspecao_ANFR1.1.png)
+
+![Inspecao](img/inspecao_NFR/Inspecao_ANFR1.2.png)
+
+### ANFR-02
+
+Rastreabilidade: [ANFR02 - Suporte](nfr.md#suporte)
+
+![ANFR2](img/inspecao_NFR/Inspecao_ANFR2.1.png)
+
+![Inspecao](img/inspecao_NFR/Inspecao_ANFR2.2.png)
+
+### ANFR-03
+
+Rastreablidade: [ANFRO3 - Confiabilidade](nfr.md#confiabilidade)
+
+![ANFR03](img/inspecao_NFR/Inspecao_NFR3.1.png)
+
+![Inspeção](img/inspecao_NFR/Inspecao_NFR3.2.png)
+
+### ANFR-04
+
+Rastreabilidade: [ANFR04 - Conectividade](nfr.md#conectividade)
+
+![](img/inspecao_NFR/Inspecao_NFR4.1.png)
+
+![](img/inspecao_NFR/Inspecao_NFR4.2.png)
+
+### ANFR-05
+
+Rastreabilidade: [ANFR05 - Usabilidade - Design](nfr.md#usabilidade-design)
+
+![](img/inspecao_NFR/Inspecao_NFR5.1.png)
+
+![](img/inspecao_NFR/Inspecao_NFR5.2.png)
+
+### ANFR-06
+
+Rastreabilidade: [ANFR06 - Desempenho](nfr.md#desempenho)
+
+![](img/inspecao_NFR/Inspecao_NFR6.1.png)
+
+![](img/inspecao_NFR/Inspecao_NFR6.2.png)
+
+### ANFR-07
+
+Rastreabilidade: [ANFR07 - Segurança](nfr.md#seguranca)
+
+![](img/inspecao_NFR/Inspecao_NFR7.1.png)
+
+![](img/inspecao_NFR/Inspecao_NFR7.2.png)
+
+### ANFR-08
+
+Rastreabilidade: [ANFR08 - Suportabilidade](nfr.md#suportabilidade)
+
+![](img/inspecao_NFR/Inspecao_NFR8.1.png)
+
+![](img/inspecao_NFR/Inspecao_NFR8.2.png)
 
 ## Resultados
 
