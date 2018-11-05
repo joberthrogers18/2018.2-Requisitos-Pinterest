@@ -205,7 +205,7 @@ O argumento analisado, embora contenha partes do modelo, não tem uma conexão e
 
 #### Argumentação 6
 
-Analisando a [Argumentação 6](argumentacao.md#Argumentation6), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
+Analisando a [Argumentação 6](argumentacao.md#argumentacao6), vemos que todos os casos que seguem o modelo de Argumentação foram atendidos.
 
 
 &nbsp;
