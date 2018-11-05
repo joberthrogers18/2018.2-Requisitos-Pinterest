@@ -45,13 +45,13 @@ A seguir pode-se conferir os modelos utilizados para a realização da inspeçã
 
 ![Resumo1](img/inspecao_NFR/NFR_resumo1.png)
 
-![Resumo2](img/inspecao_NFR/NFR _resumo2.png)
+![Resumo2](img/inspecao_NFR/NFR_resumo2.png)
 
 ### ANFR-01
 
 Rastreabilidade: [ANFR01 - Usabilidade do Sistema](nfr.md#usabilidade)
 
-![ANFR1](/img/inspecao_NFR/Inspecao_ANFR1.1.png)
+![ANFR1](img/inspecao_NFR/Inspecao_ANFR1.1.png)
 
 ![Inspecao](img/inspecao_NFR/Inspecao_ANFR1.2.png)
 
