@@ -26,4 +26,7 @@ pages:
     - Pré-rastreabilidade: pre_rastreabilidade_analise.md
     - iStar: Istar_analise_inspecao.md
     - Caso de Uso: inspecao_caso_uso.md
+  - PÓS-RASTREABILIDADE:
+    - Backward-From: backward_from.md
+    - Forward-From: forward_from.md
 theme: readthedocs
