@@ -14,6 +14,11 @@ Rich Picture que descreve todas as ações realizadas referentes á um pin. As  
 Rich Picture que descreve as funcionalidades e recursos dos Pins Especiais.
 ![rich4](img/rich4.png)
 
+## Tipos de Pins
+
+Rich Picture que descreve os tipos de Pins.
+![rich4](img/rich_picture_tipos_de_pin.jpg)
+
 ## Usuário
 
 Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema.
