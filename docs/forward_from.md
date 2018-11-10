@@ -29,33 +29,58 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 | R19 | A aplicação deve conter um sistema de scroll infinito que possibilite ao usuário uma visualização mais orgânica do feed. |Funcionalidade |
 | R20 | A plataforma deve disponibilizar uma forma de pesquisa por imagem. |Funcionalidade |
 | R21 | O usuário deve poder ser redirecionado para o link da imagem de um pin, caso haja um. |Funcionalidade |
-| R22 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. |Funcionalidade |
-| R23 | O usuário deve conseguir compartilhar pins com outros usuários|Funcionalidade |
-| R24 | O usuário deve conseguir compartilhar pins en redes sociais |Funcionalidade |
-| R25 | A aplicação deve colocar nos pins a opção de "comentários"|Funcionalidade |
-| R26 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado |Funcionalidade |
-| R27 | O Pinterest deve oferecer a opção de seguir usuários|Funcionalidade |
+| R22 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. | - |
+| R23 | O usuário deve conseguir compartilhar pins com outros usuários|[Funcionalidade](forward_from.md#img22) |
+| R24 | O usuário deve conseguir compartilhar pins en redes sociais |[Funcionalidade](forward_from.md#img22) |
+| R25 | A aplicação deve colocar nos pins a opção de "comentários"|[Funcionalidade](forward_from.md#img23) |
+| R26 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado |[Funcionalidade](forward_from.md#img24) |
+| R27 | O Pinterest deve oferecer a opção de seguir usuários|[Funcionalidade](forward_from.md#img25) |
 | R28 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário. |Funcionalidade |
-| R29 | O usuário deve poder ocultar denunciar pins. |Funcionalidade |
-| R30 | O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins. |Funcionalidade |
-| R31 | O app deve possuir a função de compartilhar a edição de pastas com outros usuários. |Funcionalidade |
+| R29 | O usuário deve poder ocultar denunciar pins. |[Funcionalidade](forward_from.md#img26) |
+| R30 | O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins. |[Funcionalidade](forward_from.md#img27) |
+| R31 | O app deve possuir a função de compartilhar a edição de pastas com outros usuários. |[Funcionalidade](forward_from.md#img28)  |
 | R32 | O app deve oferecer mais conteúdo relacionado às atividades recentes. |Funcionalidade |
-| R33 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. |Funcionalidade |
-| R34 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app |Funcionalidade |
-| R35 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. |Funcionalidade |
-| R36 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. |Funcionalidade |
-| R37 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.|Funcionalidade |
+| R33 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. |[Funcionalidade](forward_from.md#img29)  |
+| R34 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app |[Funcionalidade](forward_from.md#img29)  |
+| R35 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. | [Funcionalidade](forward_from.md#img30) |
+| R36 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. |[Funcionalidade](forward_from.md#img30) |
+| R37 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.|[Funcionalidade](forward_from.md#img27) |
 | R38 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.|Funcionalidade |
 | R39 | O app deve ser de rápida aprendizagem. |Funcionalidade |
-| R40 | O usuário deve poder enviar mensagem para outros usuários. |Funcionalidade |
-| R41 | O usuário deve receber notificações sobre novidades no app. |Funcionalidade |
-| R42 | O usuário deve poder editar seu perfil. |Funcionalidade |
-| R43 | Os pins que se referem a artigos devem mostrar seu autor e descrição. |Funcionalidade |
-| R44 | Os pins que se referem a aplicativos devem mostrar a opção de instalar.|Funcionalidade |
+| R40 | O usuário deve poder enviar mensagem para outros usuários. |[Funcionalidade](forward_from.md#img31) |
+| R41 | O usuário deve receber notificações sobre novidades no app. |[Funcionalidade](forward_from.md#img32) |
+| R42 | O usuário deve poder editar seu perfil. |[Funcionalidade](forward_from.md#img33) |
+| R43 | Os pins que se referem a artigos devem mostrar seu autor e descrição. |[Funcionalidade](forward_from.md#img34) |
+| R44 | Os pins que se referem a aplicativos devem mostrar a opção de instalar.|[Funcionalidade](forward_from.md#img35) |
 
 
 ## Imagens
 
-#### IMG1
-(adicionar prints)
-#### IMG2
+#### IMG22
+![](img/forward/R23-R24.jpeg)
+#### IMG23
+![](img/forward/R25.jpeg)
+#### IMG24
+![](img/forward/R26.jpeg)
+#### IMG25
+![](img/forward/R27.jpeg)
+#### IMG26
+![](img/forward/R29.jpeg)
+#### IMG27
+![](img/forward/R30-R37.jpeg)
+#### IMG28
+![](img/forward/R31.jpeg)
+#### IMG29
+![](img/forward/R33-R34.jpeg)
+#### IMG30
+![](img/forward/R35-R36.jpeg)
+#### IMG31
+![](img/forward/R40.jpeg)
+#### IMG32
+![](img/forward/R41.jpeg)
+#### IMG33
+![](img/forward/R42.jpeg)
+#### IMG34
+![](img/forward/R43.jpeg)
+#### IMG35
+![](img/forward/R44.jpeg)
