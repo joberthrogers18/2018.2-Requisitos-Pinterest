@@ -8,7 +8,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 
 | ID | Requisito |Funcionalidade |
 |--|--|--|
-| R1 | Apresentar micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. |Funcionalidade |
+| R1 | Apresentar micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. |[Login](forward_from.md#img01-login) |
 | R2 | O app deve permitir a escolha de interesses no primeiro acesso (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. |Funcionalidade |
 | R3| Ter um feed baseado nos interesses do usuário. |Funcionalidade |
 | R4 | Manter os interesses do usuário. |Funcionalidade |
@@ -55,6 +55,12 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 
 
 ## Imagens
+
+### IMG01 - Login
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R01_Mobile.png)| ![](img/forward/R01_Web.png)|
 
 #### IMG22
 ![](img/forward/R23-R24.jpeg)
