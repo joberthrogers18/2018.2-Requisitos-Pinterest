@@ -62,7 +62,6 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |---|---|
 |![](img/forward/R01_Mobile.png)| ![](img/forward/R01_Web.png)|
 
-<<<<<<< HEAD
 ### IMG02 - Feed
 
 | Versão Mobile | Versão Web |
@@ -168,7 +167,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 #### IMG28
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R31.jpeg) x |
+|![](img/forward/R31.jpeg)| x |
 
 
 #### IMG29
@@ -204,10 +203,40 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 #### IMG34
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R43.jpeg)| x |
+|![](img/forward/R43.jpg)| x |
 
+
+#### IMG35 - Gabi
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R44.jpg)| x |
 
 #### IMG35
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R44.jpeg)| x |
+|![](img/forward/RF35_Mobile.PNG)| x |
+
+#### IMG38
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RF38_Mobile.PNG)| x |
+
+#### IMG40
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RF40_Mobile.PNG)| x |
+
+#### IMG41
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RF41_Mobile.PNG)| ![](img/forward/RF41_Web.png)|
+
+#### IMG43
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RF43_Mobile.PNG)| ![](img/forward/RF43_Web.png)|
+
+#### IMG45
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RF45_Mobile.PNG)| ![](img/forward/RF45_Web.png)|
