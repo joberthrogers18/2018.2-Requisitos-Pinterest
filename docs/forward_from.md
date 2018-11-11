@@ -30,28 +30,28 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 | R20 | A plataforma deve disponibilizar uma forma de pesquisa por imagem. |Funcionalidade |
 | R21 | O usuário deve poder ser redirecionado para o link da imagem de um pin, caso haja um. |Funcionalidade |
 | R22 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. | - |
-| R23 | O usuário deve conseguir compartilhar pins com outros usuários|[Funcionalidade](forward_from.md#img22) |
-| R24 | O usuário deve conseguir compartilhar pins en redes sociais |[Funcionalidade](forward_from.md#img22) |
-| R25 | A aplicação deve colocar nos pins a opção de "comentários"|[Funcionalidade](forward_from.md#img23) |
-| R26 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado |[Funcionalidade](forward_from.md#img24) |
-| R27 | O Pinterest deve oferecer a opção de seguir usuários|[Funcionalidade](forward_from.md#img25) |
-| R28 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário. |Funcionalidade |
-| R29 | O usuário deve poder ocultar denunciar pins. |[Funcionalidade](forward_from.md#img26) |
-| R30 | O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins. |[Funcionalidade](forward_from.md#img27) |
-| R31 | O app deve possuir a função de compartilhar a edição de pastas com outros usuários. |[Funcionalidade](forward_from.md#img28)  |
-| R32 | O app deve oferecer mais conteúdo relacionado às atividades recentes. |Funcionalidade |
-| R33 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. |[Funcionalidade](forward_from.md#img29)  |
-| R34 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app |[Funcionalidade](forward_from.md#img29)  |
-| R35 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. | [Funcionalidade](forward_from.md#img30) |
-| R36 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. |[Funcionalidade](forward_from.md#img30) |
-| R37 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.|[Funcionalidade](forward_from.md#img27) |
-| R38 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.|Funcionalidade |
-| R39 | O app deve ser de rápida aprendizagem. |Funcionalidade |
-| R40 | O usuário deve poder enviar mensagem para outros usuários. |[Funcionalidade](forward_from.md#img31) |
-| R41 | O usuário deve receber notificações sobre novidades no app. |[Funcionalidade](forward_from.md#img32) |
-| R42 | O usuário deve poder editar seu perfil. |[Funcionalidade](forward_from.md#img33) |
-| R43 | Os pins que se referem a artigos devem mostrar seu autor e descrição. |[Funcionalidade](forward_from.md#img34) |
-| R44 | Os pins que se referem a aplicativos devem mostrar a opção de instalar.|[Funcionalidade](forward_from.md#img35) |
+| R23 | O usuário deve conseguir compartilhar pins com outros usuários|[Imagem](forward_from.md#img22) |
+| R24 | O usuário deve conseguir compartilhar pins en redes sociais |[Imagem](forward_from.md#img22) |
+| R25 | A aplicação deve colocar nos pins a opção de "comentários"|[Imagem](forward_from.md#img23) |
+| R26 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado |[Imagem](forward_from.md#img24) |
+| R27 | O Pinterest deve oferecer a opção de seguir usuários|[Imagem](forward_from.md#img25) |
+| R28 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário. |Imagem |
+| R29 | O usuário deve poder ocultar denunciar pins. |[Imagem](forward_from.md#img26) |
+| R30 | O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins. |[Imagem](forward_from.md#img27) |
+| R31 | O app deve possuir a função de compartilhar a edição de pastas com outros usuários. |[Imagem](forward_from.md#img28)  |
+| R32 | O app deve oferecer mais conteúdo relacionado às atividades recentes. |Imagem |
+| R33 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. |[Imagem](forward_from.md#img29)  |
+| R34 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app |[Imagem](forward_from.md#img29)  |
+| R35 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. | [Imagem](forward_from.md#img30) |
+| R36 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. |[Imagem](forward_from.md#img30) |
+| R37 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.|[Imagem](forward_from.md#img27) |
+| R38 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.|Imagem |
+| R39 | O app deve ser de rápida aprendizagem. |Imagem |
+| R40 | O usuário deve poder enviar mensagem para outros usuários. |[Imagem](forward_from.md#img31) |
+| R41 | O usuário deve receber notificações sobre novidades no app. |[Imagem](forward_from.md#img32) |
+| R42 | O usuário deve poder editar seu perfil. |[Imagem](forward_from.md#img33) |
+| R43 | Os pins que se referem a artigos devem mostrar seu autor e descrição. |[Imagem](forward_from.md#img34) |
+| R44 | Os pins que se referem a aplicativos devem mostrar a opção de instalar.|[Imagem](forward_from.md#img35) |
 
 
 ## Imagens
