@@ -124,22 +124,29 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 #### IMG16
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF16.jpeg)| x |
+|![](img/forward/RF16.jpeg)| ![](img/forward/RF18_Web.png) |
 
 #### IMG17
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF17.jpeg)| x |
 
-### IMG20
+#### IMG18
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R23-R24.jpeg)| x |
+| x | ![](img/forward/RF18_Web.png) |
 
-### IMG21
+#### IMG19
+link para acesso: https://pin.it/sdi4d5gzapervm
+
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R23-R24.jpeg)| x |
+| x | ![](img/forward/RF19_Web.png) |
+
+### IMG20 - 21
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R23-R24.jpeg)| ![](img/forward/RF20-RF21_Web.png) |
 
 ### IMG22
 | Versão Mobile | Versão Web |
