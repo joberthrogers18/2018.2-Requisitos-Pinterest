@@ -94,29 +94,42 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 
 #### IMG22
 ![](img/forward/R23-R24.jpeg)
+
 #### IMG23
 ![](img/forward/R25.jpeg)
+
 #### IMG24
 ![](img/forward/R26.jpeg)
+
 #### IMG25
 ![](img/forward/R27.jpeg)
+
 #### IMG26
 ![](img/forward/R29.jpeg)
+
 #### IMG27
 ![](img/forward/R30-R37.jpeg)
+
 #### IMG28
 ![](img/forward/R31.jpeg)
+
 #### IMG29
 ![](img/forward/R33-R34.jpeg)
+
 #### IMG30
 ![](img/forward/R35-R36.jpeg)
+
 #### IMG31
 ![](img/forward/R40.jpeg)
+
 #### IMG32
 ![](img/forward/R41.jpeg)
+
 #### IMG33
 ![](img/forward/R42.jpeg)
+
 #### IMG34
 ![](img/forward/R43.jpeg)
+
 #### IMG35
 ![](img/forward/R44.jpeg)
