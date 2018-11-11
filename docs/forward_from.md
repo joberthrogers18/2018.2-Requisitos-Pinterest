@@ -98,6 +98,12 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |---|---|
 |![](img/forward/RF7-RF15.jpeg)| ![](img/forward/R07_Web.png)|
 
+### IMG10
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R10_Mobile.jpeg)| ![](img/forward/R10_Web.png)|
+
 #### IMG12
 
 | Versão Mobile | Versão Web |
