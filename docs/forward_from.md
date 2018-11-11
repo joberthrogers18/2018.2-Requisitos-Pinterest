@@ -128,115 +128,135 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |![](img/forward/RF17.jpeg)| x |
 
 
-#### IMG22
+### IMG20
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R23-R24.jpeg)| x |
 
+### IMG21
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R23-R24.jpeg)| x |
 
-#### IMG23
+### IMG22
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R25.jpeg)| x |
 
 
-#### IMG24
-| Versão Mobile | Versão Web |
-|---|---|
-|![](img/forward/R26.jpeg)| x |
 
-
-#### IMG25
+### IMG23
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R27.jpeg)| x |
 
 
-#### IMG26
+### IMG24
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R29.jpeg)| x |
 
 
-#### IMG27
+### IMG25
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R30-R37.jpeg)| x |
 
 
-#### IMG28
+### IMG26
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R31.jpeg)| x |
 
 
-#### IMG29
+### IMG27
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R33-R34.jpeg)| x |
 
 
-#### IMG30
+### IMG28
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R35-R36.jpeg)| x |
 
 
-#### IMG31
+### IMG29
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R40.jpeg)| x |
 
 
-#### IMG32
+### IMG30
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R41.jpeg)| x |
 
 
-#### IMG33
+### IMG31
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R42.jpeg)| x |
 
 
-#### IMG34
+### IMG32
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R43.jpg)| x |
 
 
-#### IMG35 - Gabi
+### IMG33
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R44.jpg)| x |
 
-#### IMG35
+### IMG35
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF35_Mobile.PNG)| x |
 
-#### IMG38
+### IMG36
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF38_Mobile.PNG)| x |
+|Aguardando Notificação| Aguardando notificação|
 
-#### IMG40
+### IMG37
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF40_Mobile.PNG)| x |
+|![](img/forward/RF37_Mobile.PNG)| ![](img/forward/RF37_Web.png)  |
 
-#### IMG41
+### IMG38
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RF38_Mobile.PNG)| ![](img/forward/RF38_Web.png)  |
+
+### IMG39
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RF39_Mobile_1.PNG) - ![](img/forward/RF39_Mobile_2.PNG)| ![](img/forward/RF39_Web_1.png) - ![](img/forward/RF39_Web_2.png) |
+
+### IMG40
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RF39_Mobile_1.PNG)| ![](img/forward/RF40_Web.png) |
+
+### IMG41
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF41_Mobile.PNG)| ![](img/forward/RF41_Web.png)|
 
-#### IMG43
+### IMG43
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF43_Mobile.PNG)| ![](img/forward/RF43_Web.png)|
 
-#### IMG45
+### IMG45
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF45_Mobile.PNG)| ![](img/forward/RF45_Web.png)|
+
+
+### IMG46
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R26.jpeg)| x |
