@@ -98,35 +98,32 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |---|---|
 |![](img/forward/RF7-RF15.jpeg)| ![](img/forward/R07_Web.png)|
 
-#### IMG08
+#### IMG12
 
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF12.jpeg)| x |
 
-#### IMG09
+#### IMG13
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF13.jpeg)| x |
 
 
-#### IMG10
+#### IMG14
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF14.jpeg)| x |
 
-
-#### IMG11
+#### IMG16
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF16.jpeg)| x |
 
-
-#### IMG12
+#### IMG17
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RF17.jpeg)| x |
-
 
 ### IMG20
 | Versão Mobile | Versão Web |
@@ -143,13 +140,10 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |---|---|
 |![](img/forward/R25.jpeg)| x |
 
-
-
 ### IMG23
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R27.jpeg)| x |
-
 
 ### IMG24
 | Versão Mobile | Versão Web |
