@@ -62,6 +62,36 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |---|---|
 |![](img/forward/R01_Mobile.png)| ![](img/forward/R01_Web.png)|
 
+#### IMG03
+![](img/forward/RF3.jpeg)
+
+#### IMG04
+![](img/forward/RF4.jpeg)
+
+#### IMG05
+![](img/forward/RF5.jpeg)
+
+#### IMG06
+![](img/forward/RF6.jpeg)
+
+#### IMG07
+![](img/forward/RF7-RF15.jpeg)
+
+#### IMG08
+![](img/forward/RF12.jpeg)
+
+#### IMG09
+![](img/forward/RF13.jpeg)
+
+#### IMG10
+![](img/forward/RF14.jpeg)
+
+#### IMG11
+![](img/forward/RF16.jpeg)
+
+#### IMG12
+![](img/forward/RF17.jpeg)
+
 #### IMG22
 ![](img/forward/R23-R24.jpeg)
 #### IMG23
