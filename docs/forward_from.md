@@ -62,6 +62,42 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |---|---|
 |![](img/forward/R01_Mobile.png)| ![](img/forward/R01_Web.png)|
 
+### IMG02 - Feed
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R02_Mobile_1.PNG) - ![](img/forward/R02_Mobile_2.PNG)| ![](img/forward/R02_Web_1.png)  - ![](img/forward/R02_Web_2.png)|
+
+### IMG03
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R03_Mobile.png)| ![](img/forward/R03_Web.png)|
+
+### IMG04
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R04_Mobile.png)| ![](img/forward/R04_Web.png)|
+
+### IMG05
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R05_Mobile.png)| ![](img/forward/R05_Web.png)|
+
+### IMG06
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R06_Mobile.png)| ![](img/forward/R06_Web.png)|
+
+### IMG07
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R07_Mobile.png)| ![](img/forward/R07_Web.png)|
+
 #### IMG22
 ![](img/forward/R23-R24.jpeg)
 #### IMG23
