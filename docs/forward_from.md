@@ -138,76 +138,75 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 ### IMG22
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R25.jpeg)| x |
+|![](img/forward/R25.jpeg)| ![](img/forward/RF22_Web.png)  |
 
 ### IMG23
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R27.jpeg)| x |
+|![](img/forward/R27.jpeg)| ![](img/forward/RF23_Web.png)  |
 
 ### IMG24
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R29.jpeg)| x |
+|![](img/forward/R29.jpeg)| ![](img/forward/RF24_Web.png)  |
 
 
 ### IMG25
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R30-R37.jpeg)| x |
+|![](img/forward/R30-R37.jpeg)| Não disponível |
 
 
 ### IMG26
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R31.jpeg)| x |
+|![](img/forward/R31.jpeg)| ![](img/forward/RF26_Web.png) |
 
 
 ### IMG27
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R33-R34.jpeg)| x |
+|![](img/forward/R33-R34.jpeg)| ![](img/forward/RF27_Web.png)  |
 
 
 ### IMG28
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R35-R36.jpeg)| x |
+| X | ![](img/forward/RF28_Web.png)  |
 
 
 ### IMG29
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R40.jpeg)| x |
+|![](img/forward/R40.jpeg)| ![](img/forward/RF29_Web.png) |
 
 
 ### IMG30
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R41.jpeg)| x |
+| x | ![](img/forward/RF31_Web.png) |
 
 
 ### IMG31
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R42.jpeg)| x |
+|![](img/forward/R42.jpeg)| ![](img/forward/RF31_Web.png) |
 
 
 ### IMG32
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R43.jpg)| x |
-
+|![](img/forward/R43.jpg)| ![](img/forward/RF32_Web.png) |
 
 ### IMG33
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R44.jpg)| x |
+|![](img/forward/R44.jpg)| x  |
 
 ### IMG35
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF35_Mobile.PNG)| x |
+|![](img/forward/RF35_Mobile.PNG)| ![](img/forward/RF35_Web.png) |
 
 ### IMG36
 | Versão Mobile | Versão Web |
@@ -217,7 +216,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 ### IMG37
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF37_Mobile.PNG)| ![](img/forward/RF37_Web.png)  |
+|X| ![](img/forward/RF37_Web.png)  |
 
 ### IMG38
 | Versão Mobile | Versão Web |
