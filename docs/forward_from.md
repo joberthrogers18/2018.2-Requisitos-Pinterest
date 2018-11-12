@@ -6,53 +6,53 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 
 ## Tabela
 
-| ID | Requisito |Funcionalidade |
-|--|--|--|
-| R1 | Apresentar micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. |[Login](forward_from.md#img01-login) |
-| R2 | O app deve permitir a escolha de interesses no primeiro acesso (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. |Funcionalidade |
-| R3| Ter um feed baseado nos interesses do usuário. |Funcionalidade |
-| R4 | Manter os interesses do usuário. |Funcionalidade |
-| R5 | O usuário deve ter a opção de salvar pins em um pasta |Funcionalidade |
-| R6 | O app deve possuir uma barra para pesquisa por texto. |Funcionalidade |
-| R7 | O App deve possibilitar a transferência de Pins entre pastas.|Funcionalidade |
-| R8 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado em seu feed. |Funcionalidade |
-| R9 | O App deve obter vários dados de Pins bloqueados para identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar. |Funcionalidade |
-| R10 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações |Funcionalidade |
-| R11 | O app deve separar os pins por categorias |Funcionalidade |
-| R12 | O usuário deve ter a opção de avaliar pins e essa avaliação deve ser aberta a outros usuários |Funcionalidade |
-| R13 |  O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas.  |Funcionalidade |
-| R14 | Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição |Funcionalidade |
-| R15 | O usuário deve poder alterar seus interesses a qualquer momento. |Funcionalidade |
-| R16 | O usuário deve poder salvar seus pins no seu dispositivo|Funcionalidade |
-| R17 | Manter pastas. |Funcionalidade |
-| R18 | Manter subpastas. |Funcionalidade |
-| R19 | A aplicação deve conter um sistema de scroll infinito que possibilite ao usuário uma visualização mais orgânica do feed. |Funcionalidade |
-| R20 | A plataforma deve disponibilizar uma forma de pesquisa por imagem. |Funcionalidade |
-| R21 | O usuário deve poder ser redirecionado para o link da imagem de um pin, caso haja um. |Funcionalidade |
-| R22 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. | - |
-| R23 | O usuário deve conseguir compartilhar pins com outros usuários|[Imagem](forward_from.md#img22) |
-| R24 | O usuário deve conseguir compartilhar pins en redes sociais |[Imagem](forward_from.md#img22) |
-| R25 | A aplicação deve colocar nos pins a opção de "comentários"|[Imagem](forward_from.md#img23) |
-| R26 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado |[Imagem](forward_from.md#img24) |
-| R27 | O Pinterest deve oferecer a opção de seguir usuários|[Imagem](forward_from.md#img25) |
-| R28 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário. |Imagem |
-| R29 | O usuário deve poder ocultar denunciar pins. |[Imagem](forward_from.md#img26) |
-| R30 | O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins. |[Imagem](forward_from.md#img27) |
-| R31 | O app deve possuir a função de compartilhar a edição de pastas com outros usuários. |[Imagem](forward_from.md#img28)  |
-| R32 | O app deve oferecer mais conteúdo relacionado às atividades recentes. |Imagem |
-| R33 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. |[Imagem](forward_from.md#img29)  |
-| R34 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app |[Imagem](forward_from.md#img29)  |
-| R35 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. | [Imagem](forward_from.md#img30) |
-| R36 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. |[Imagem](forward_from.md#img30) |
-| R37 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.|[Imagem](forward_from.md#img27) |
-| R38 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.|Imagem |
-| R39 | O app deve ser de rápida aprendizagem. |Imagem |
-| R40 | O usuário deve poder enviar mensagem para outros usuários. |[Imagem](forward_from.md#img31) |
-| R41 | O usuário deve receber notificações sobre novidades no app. |[Imagem](forward_from.md#img32) |
-| R42 | O usuário deve poder editar seu perfil. |[Imagem](forward_from.md#img33) |
-| R43 | Os pins que se referem a artigos devem mostrar seu autor e descrição. |[Imagem](forward_from.md#img34) |
-| R44 | Os pins que se referem a aplicativos devem mostrar a opção de instalar.|[Imagem](forward_from.md#img35) |
-
+|  Código | Descrição | Funcionalidade |
+|  :------: | :------: | :------: |
+|  RF1 | O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | [IMG01](forward_from.md#img01-login) |
+|  RF2 | O app deve ter um feed baseado nos interesses do usuário. | [IMG02](forward_from.md#img02-feed) |
+|  RF3 | Manter os interesses do usuário. | [IMG03](forward_from.md#img03) |
+|  RF4 | O usuário deve ter a opção de salvar pins em um pasta | [IMG04](forward_from.md#img04) |
+|  RF5 | O app deve possuir uma barra para pesquisa por texto. | [IMG05](forward_from.md#img05) |
+|  RF6 | O App deve possibilitar a transferência de Pins entre pastas. | [IMG06](forward_from.md#img06) |
+|  RF7 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado em seu feed. | [IMG07](forward_from.md#img07) |
+|  RF8 | O App deve obter vários dados de Pins bloqueados para identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar. | [IMG08](forward_from.md#img08) |
+|  RF9 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações | [IMG09](forward_from.md#img09) |
+|  RF10 | O app deve separar os pins por categorias | [IMG10](forward_from.md#img10) |
+|  RF11 | O usuário deve ter a opção de avaliar pins e essa avaliação deve ser aberta a outros usuários | [IMG11](forward_from.md#img11) |
+|  RF12 | O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas. | [IMG12](forward_from.md#img12) |
+|  RF13 | Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição | [IMG13](forward_from.md#img13) |
+|  RF14 | O usuário deve poder alterar seus interesses a qualquer momento. | [IMG14](forward_from.md#img14) |
+|  RF15 | O usuário deve poder salvar seus pins no seu dispositivo | [IMG15](forward_from.md#img15) |
+|  RF16 | Manter pastas. | [IMG16](forward_from.md#img16) |
+|  RF17 | Manter subpastas. | [IMG17](forward_from.md#img17) |
+|  RF18 | A plataforma deve disponibilizar uma forma de pesquisa por imagem. | [IMG20](forward_from.md#img18) |
+|  RF19 | O usuário deve poder ser redirecionado para o link da imagem de um pin, caso haja um. | [IMG20](forward_from.md#img19) |
+|  RF20 | O usuário deve conseguir compartilhar pins com outros usuários | [IMG20](forward_from.md#img20-21) |
+|  RF21 | O usuário deve conseguir compartilhar pins em redes sociais | [IMG21](forward_from.md#img20-21) |
+|  RF22 | A aplicação deve colocar nos pins a opção de "comentários" | [IMG22](forward_from.md#img22) |
+|  RF23 | O Pinterest deve oferecer a opção de seguir usuários | [IMG23](forward_from.md#img23) |
+|  RF24 | O usuário deve poder ocultar e denunciar pins. | [IMG24](forward_from.md#img24) |
+|  RF25 | O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins. | [IMG25](forward_from.md#img25) |
+|  RF26 | O app deve possuir a função de compartilhar a edição de pastas com outros usuários. | [IMG26](forward_from.md#img26) |
+|  RF27 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. | [IMG27](forward_from.md#img27) |
+|  RF28 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário. | [IMG28](forward_from.md#img28) |
+|  RF29 | O usuário deve poder enviar mensagem para outros usuários. | [IMG29](forward_from.md#img29)  |
+|  RF30 | O usuário deve receber notificações sobre novidades no app. | [IMG30](forward_from.md#img30)  |
+|  RF31 | O usuário deve poder editar seu perfil. | [IMG31](forward_from.md#img31)  |
+|  RF32 | Os pins que se referem a artigos devem mostrar seu autor e descrição. | [IMG32](forward_from.md#img32) |
+|  RF33 | Os pins que se referem a aplicativos devem mostrar a opção de instalar. | [IMG33](forward_from.md#img33) |
+|  RF34 | O Usuário deve poder retirar e adicionar interesses após realizar o cadastro, acessando essa opção na aba de perfil | [IMG34](forward_from.md#img10) |
+|  RF35 | O Usuário deve possuir mais de uma opção de formas de ordenação das pastas na página de perfil, como ordem alfabética, últimos salvos, mais antigas, mais recentes ou pelo arraste dos elementos. | [IMG35](forward_from.md#img35) |
+|  RF36 | O Pinterest deve notificar usuários de outros usuários com interesses semelhantes | [IMG36](forward_from.md#img36) |
+|  RF37 | O Usuário deve poder ocultar seu perfil e seus dados de mecanismos de pesquisa | [IMG37](forward_from.md#img37) |
+|  RF38 | O Pinterest deve poder utilizar dados, como cookies, para identificar informações de perfil do usuário e direcionar recomendações de pins | [IMG38](forward_from.md#img38) |
+|  RF39 | O Usuário deve poder definir informações pessoais, como seu gênero, nome de usuário, imagem de perfil e descrição, por meio de uma opção ao editar perfil ou se cadastrar | [IMG39](forward_from.md#img39) |
+|  RF40 | O Usuário deve poder definir em qual língua irá utilizar o aplicativo, seja na edição do perfil ou no cadastro | [IMG40](forward_from.md#img40) |
+|  RF41 | O Usuário deve poder postar e editar posteriormente um Pin | [IMG41](forward_from.md#img41) |
+|  RF42 | O Usuário deve poder postar pins a partir de imagens da galeria do dispositivo | [IMG42](forward_from.md#img42) |
+|  RF43 | O Usuário deve definir informações do pin postado, como categorias, título e descrição | [IMG43](forward_from.md#img43) |
+|  RF44 | O pinterest deve possuir interação fluida entre as funcionalidades, de modo que em poucos clique a ação seja feita. | [IMG44](forward_from.md#img44) |
+|  RF45 | O pinterest deve manter algum canal de comunicação com usuário no caso de dúvidas ou problemas ocorridos com o usuário. | [IMG45](forward_from.md#img45) |
 
 ## Imagens
 
@@ -98,38 +98,62 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |---|---|
 |![](img/forward/RF7-RF15.jpeg)| ![](img/forward/R07_Web.png)|
 
+### IMG08
+
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/R29.jpeg)| ![](img/forward/RF24_Web.png)  |
+
+### IMG09
+
+| Versão Mobile | Versão Web |
+|---|---|
+|X| ![](img/forward/R09_Web.png) |
+
+
 ### IMG10
 
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R10_Mobile.jpeg)| ![](img/forward/R10_Web.png)|
 
+### IMG11
+
+| Versão Mobile | Versão Web |
+|---|---|
+|X| ![](img/forward/RF11_Web.png) |
+
 #### IMG12
 
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF12.jpeg)| x |
+|![](img/forward/RF12.jpeg)| ![](img/forward/RF12_Web.png) |
 
 #### IMG13
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF13.jpeg)| x |
+|![](img/forward/RF13.jpeg)| ![](img/forward/RF13_Web.png) |
 
 
 #### IMG14
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF14.jpeg)| x |
+|![](img/forward/RF14.jpeg)| ![](img/forward/RF14_Web.png) |
+
+#### IMG15
+| Versão Mobile | Versão Web |
+|---|---|
+| X | ![](img/forward/RF15_Web.png)  |
 
 #### IMG16
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF16.jpeg)| ![](img/forward/RF18_Web.png) |
+|![](img/forward/RF16.jpeg)| ![](img/forward/RF16_Web.png) |
 
 #### IMG17
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF17.jpeg)| x |
+|![](img/forward/RF17.jpeg)| ![](img/forward/RF17_Web.png) |
 
 #### IMG18
 | Versão Mobile | Versão Web |
@@ -214,7 +238,7 @@ link para acesso: https://pin.it/sdi4d5gzapervm
 ### IMG33
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R44.jpg)| x  |
+|![](img/forward/R44.jpg)| Não Disponível |
 
 ### IMG35
 | Versão Mobile | Versão Web |
