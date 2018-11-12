@@ -4,7 +4,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 
 # Forward-From
 
-## Tabela
+## Tabela de Requisitos Funcionais
 
 |  Código | Descrição | Funcionalidade |
 |  :------: | :------: | :------: |
@@ -41,7 +41,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |  RF31 | O usuário deve poder editar seu perfil. | [IMG31](forward_from.md#img31)  |
 |  RF32 | Os pins que se referem a artigos devem mostrar seu autor e descrição. | [IMG32](forward_from.md#img32) |
 |  RF33 | Os pins que se referem a aplicativos devem mostrar a opção de instalar. | [IMG33](forward_from.md#img33) |
-|  RF34 | O Usuário deve poder retirar e adicionar interesses após realizar o cadastro, acessando essa opção na aba de perfil | [IMG34](forward_from.md#img10) |
+|  RF34 | O Usuário deve poder retirar e adicionar interesses após realizar o cadastro, acessando essa opção na aba de perfil | - |
 |  RF35 | O Usuário deve possuir mais de uma opção de formas de ordenação das pastas na página de perfil, como ordem alfabética, últimos salvos, mais antigas, mais recentes ou pelo arraste dos elementos. | [IMG35](forward_from.md#img35) |
 |  RF36 | O Pinterest deve notificar usuários de outros usuários com interesses semelhantes | [IMG36](forward_from.md#img36) |
 |  RF37 | O Usuário deve poder ocultar seu perfil e seus dados de mecanismos de pesquisa | [IMG37](forward_from.md#img37) |
@@ -51,7 +51,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |  RF41 | O Usuário deve poder postar e editar posteriormente um Pin | [IMG41](forward_from.md#img41) |
 |  RF42 | O Usuário deve poder postar pins a partir de imagens da galeria do dispositivo | [IMG42](forward_from.md#img42) |
 |  RF43 | O Usuário deve definir informações do pin postado, como categorias, título e descrição | [IMG43](forward_from.md#img43) |
-|  RF44 | O pinterest deve possuir interação fluida entre as funcionalidades, de modo que em poucos clique a ação seja feita. | [IMG44](forward_from.md#img44) |
+|  RF44 | O pinterest deve possuir interação fluida entre as funcionalidades, de modo que em poucos clique a ação seja feita. | - |
 |  RF45 | O pinterest deve manter algum canal de comunicação com usuário no caso de dúvidas ou problemas ocorridos com o usuário. | [IMG45](forward_from.md#img45) |
 
 ## Imagens
@@ -108,7 +108,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 
 | Versão Mobile | Versão Web |
 |---|---|
-|X| ![](img/forward/R09_Web.png) |
+| ![](img/forward/RF09_Mobile.PNG) | ![](img/forward/R09_Web.png) |
 
 
 ### IMG10
@@ -121,7 +121,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 
 | Versão Mobile | Versão Web |
 |---|---|
-|X| ![](img/forward/RF11_Web.png) |
+| ![](img/forward/RF11_Mobile.PNG)| ![](img/forward/RF11_Web.png) |
 
 #### IMG12
 
@@ -143,7 +143,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 #### IMG15
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF15_Web.png)  |
+| ![](img/forward/RF15_Mobile.PNG) | ![](img/forward/RF15_Web.png)  |
 
 #### IMG16
 | Versão Mobile | Versão Web |
@@ -158,14 +158,14 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 #### IMG18
 | Versão Mobile | Versão Web |
 |---|---|
-| x | ![](img/forward/RF18_Web.png) |
+| ![](img/forward/RF18_Mobile_1.PNG) - ![](img/forward/RF18_Mobile_2.PNG) | ![](img/forward/RF18_Web_1.png) - ![](img/forward/RF18_Web_2.png) |
 
 #### IMG19
 link para acesso: https://pin.it/sdi4d5gzapervm
 
 | Versão Mobile | Versão Web |
 |---|---|
-| x | ![](img/forward/RF19_Web.png) |
+| ![](img/forward/RF19_Mobile.PNG) | ![](img/forward/RF19_Web.png) |
 
 ### IMG20 - 21
 | Versão Mobile | Versão Web |
@@ -209,7 +209,7 @@ link para acesso: https://pin.it/sdi4d5gzapervm
 ### IMG28
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF28_Web.png)  |
+| ![](img/forward/RF28_Mobile.PNG) | ![](img/forward/RF28_Web.png)  |
 
 
 ### IMG29
@@ -221,7 +221,7 @@ link para acesso: https://pin.it/sdi4d5gzapervm
 ### IMG30
 | Versão Mobile | Versão Web |
 |---|---|
-| x | ![](img/forward/RF31_Web.png) |
+| ![](img/forward/RF30_Mobile.PNG) | ![](img/forward/RF31_Web.png) |
 
 
 ### IMG31
@@ -253,7 +253,7 @@ link para acesso: https://pin.it/sdi4d5gzapervm
 ### IMG37
 | Versão Mobile | Versão Web |
 |---|---|
-|X| ![](img/forward/RF37_Web.png)  |
+|![](img/forward/RF37_Mobile.PNG)| ![](img/forward/RF37_Web.png)  |
 
 ### IMG38
 | Versão Mobile | Versão Web |
