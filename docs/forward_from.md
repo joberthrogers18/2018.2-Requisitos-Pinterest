@@ -54,6 +54,29 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |  RF44 | O pinterest deve possuir interação fluida entre as funcionalidades, de modo que em poucos clique a ação seja feita. | - |
 |  RF45 | O pinterest deve manter algum canal de comunicação com usuário no caso de dúvidas ou problemas ocorridos com o usuário. | [IMG45](forward_from.md#img45) |
 
+## Tabela de Requisitos Não Funcionais
+
+|  Código | Descrição | Funcionalidade |
+|  :------: | :------: | :------: |
+|  RNF1 | O app deve permitir a escolha de interesses no primeiro acesso (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. | [IMG46](forward_from.md#img46) |
+|  RNF2 | A aplicação deve conter um sistema de scroll infinito que possibilite ao usuário uma visualização mais orgânica do feed. | [IMG47](forward_from.md#img47) |
+|  RNF3 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. | [IMG48](forward_from.md#img48) |
+|  RNF4 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filtro sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado | [IMG49](forward_from.md#img49) |
+|  RNF5 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário.| [IMG50](forward_from.md#img50) |
+|  RNF6 | O app deve oferecer mais conteúdo relacionado às atividades recentes. | [IMG51](forward_from.md#img51) |
+|  RNF7 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app | [IMG52](forward_from.md#img52) |
+|  RNF8 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. | [IMG53](forward_from.md#img53) |
+|  RNF9 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. | [IMG54](forward_from.md#img54) |
+|  RNF10 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas. | [IMG55](forward_from.md#img55) |
+|  RNF11 | O app deve ser de rápida aprendizagem. | [IMG56](forward_from.md#img56) |
+|  RNF12 | O Usuário deve possuir a possibilidade de personalizar a ordem em que suas pastas serão visualizadas | [IMG57](forward_from.md#img57) |
+|  RNF13 | O Pinterest deve identificar gostos de usuários em diferentes ambientes ou aplicativos, permitindo um conteúdo mais personalizado e direcionado, aumentando a identificação com os interesses definidos | [IMG58](forward_from.md#img58) |
+|  RNF14 | O Pinterest deve possuir feedbacks objetivos para informar o usuário da realização de tarefas pouco visuais, como copiar um link, aplicados principalmente para a versão mobile | [IMG59](forward_from.md#img59) |
+|  RNF15 | O Usuário deve possuir formas de alterar escolhas em qualquer momento, como informações de perfil ou de postagem de pins, permitindo a correção de erros | [IMG60](forward_from.md#img60) |
+|  RNF16 | O pinterest deve possuir o menor tempo possível para responder as ações requisitada pelo usuário. | [IMG61](forward_from.md#img61) |
+|  RNF17 | O pinterest deve manter políticas de moderação de seu conteúdo dentro da aplicação. | [IMG62](forward_from.md#img62) |
+|  RNF18 | O pinterest deve manter a integridade dos dados fornecidos pelo usuário em sua conta. | [IMG63](forward_from.md#img63) |
+
 ## Imagens
 
 ### IMG01 - Login
@@ -290,3 +313,93 @@ link para acesso: https://pin.it/sdi4d5gzapervm
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/R26.jpeg)| x |
+
+### IMG47
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF01_Mobile.jpeg)| ![](img/forward/RNF01_Web.png) |
+
+### IMG48
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF02_Mobile.jpeg)| ![](img/forward/RNF02_Web.png) |
+
+### IMG49
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF03_Mobile.jpeg)| ![](img/forward/RNF03_Web.png) |
+
+### IMG50
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF04_Mobile.jpeg)| ![](img/forward/RNF04_Web.png) |
+
+### IMG51
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF05_Mobile.jpeg)| x |
+
+### IMG52
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF06_Mobile.jpeg)| ![](img/forward/RNF06_Web.png) |
+
+### IMG53
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF07_Mobile.jpeg)| ![](img/forward/RNF07_Web.png) |
+
+### IMG54
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF08_Mobile.jpeg)| ![](img/forward/RNF08_Web.png) |
+
+### IMG55
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF09_Mobile.jpeg)| ![](img/forward/RNF09_Web.png) |
+
+### IMG56
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF10_Mobile.jpeg)| ![](img/forward/RNF10_Web.png) |
+
+### IMG57
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF11_Mobile.jpeg)| ![](img/forward/RNF11_Web.png) |
+
+### IMG58
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF12_Mobile.jpeg)| ![](img/forward/RNF12_Web.png) |
+
+### IMG59
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF13_Mobile.jpeg)| ![](img/forward/RNF13_Web.png) |
+
+### IMG60
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF14_Mobile.jpeg)| x |
+
+### IMG61
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF15_Mobile.jpeg)| ![](img/forward/RNF15_Web.png) |
+
+### IMG62
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF16_Mobile.jpeg)| ![](img/forward/RNF16_Web.png) |
+
+### IMG63
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF17_Mobile.jpeg)| ![](img/forward/RNF17_Web.png) |
+
+### IMG64
+| Versão Mobile | Versão Web |
+|---|---|
+|![](img/forward/RNF18_Mobile.jpeg)| ![](img/forward/RNF18_Web.png) |
