@@ -259,7 +259,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG33
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF45_Mobile.PNG)| ![](img/forward/RF45_Web.png)|
+|![](img/forward/RF33_Mobile.PNG)| ![](img/forward/RF33_Web.png)|
 
 ### IMG34
 | Versão Mobile | Versão Web |
@@ -299,12 +299,12 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG41
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+|![](img/forward/RF41_Mobile.PNG)| ![](img/forward/RF41_Web.png)|
 
 ### IMG42
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF41_Mobile.PNG)| ![](img/forward/RF41_Web.png)|
+| X | ![](img/forward/RF42_Web.png)|
 
 ### IMG43
 | Versão Mobile | Versão Web |
@@ -320,22 +320,22 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG45
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| X | ![](img/forward/RF45_Web.png) |
 
 ### IMG46
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| X | ![](img/forward/RF46_Web.png) |
 
 ### IMG47
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| X | ![](img/forward/RF47_Web.png) |
 
 ### IMG48
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| X | ![](img/forward/RF48_Web.png) |
 
 ### IMG49
 | Versão Mobile | Versão Web |
