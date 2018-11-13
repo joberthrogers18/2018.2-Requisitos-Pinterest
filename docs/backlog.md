@@ -102,7 +102,7 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
 | [US21](#us21) | Usuário | Denunciar um Pin | Não ser mais exposto àquele tipo de conteúdo impróprio |13 | Should |
 | [US22](#us22) | Usuário | Salvar um Pin | Ter acesso posteriormente ao conteúdo do meu interesse | 8 | Must |
 | [US23](#us23) | Usuário | Seguir outro usuário do Pinterest | Acompanhar suas atividades na plataforma | 5 | Must |
-| [US24](#us24) | Usuário | Receber Notificações | Ser avisado sobres quaisquer atividasdes relacionadas ao meu perfil | 5 | Should |
+| [US24](#us24) | Usuário | Receber Notificações | Ser avisado sobres quaisquer atividasdes relacionadas ao meu perfil e receber recomendações | 5 | Should |
 | [US25](#us25) | Usuário | Classificar Pastas | Organizá-las de acordo com a minha preferência. | 5 | Could |
 | [US26](#us26) | Usuário | Classificar um Pin como experimentado | Diferenciar dos Pins que ainda não coloquei em prática |  5 | Could |
 | [US27](#us27) | Usuário | Sair do Pinterest | Parar de ter a minha conta logada no aplicativo |  5 | Must |
@@ -114,7 +114,7 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
 | [US33](#us33) | Usuário | Adicionar Colaboradores em uma pasta | Permitir que outros usuários possam editar e adicionar Pins a uma pasta | 5 | Could|
 | [US34](#us34) | Usuário | Pesquisar por tema | Pesquisar itens diretamente relacionados a interesses específicos |  5 | Must|
 | [US35](#us35) | Usuário | Pesquisar por foto | Encontrar pins semelhantes a uma imagem obtida pelo dispositivo do usuário | 13 | Should |
-| [US36](#us36) | Usuário | Redefinir interesses | Atualizar as categorias de tipos de conteúdo que deseja-se receber e visualizar no feed do usuário | 5 | Should |
+| [US36](#us36) | Usuário | Visualizar e redefinir interesses | Atualizar as categorias de tipos de conteúdo que deseja-se receber e visualizar no feed do usuário | 5 | Should |
 | [US37](#us37) | Usuário | Editar perfil | Alterar minhas informações pessoais |  5 | Must|
 | [US38](#us38) | Usuário | Editar informações básicas de conta | Atualizar ou alterar informações que eu julgue necessário |  8 | Must|
 | [US39](#us39) | Usuário | Definir os níveis de privacidade de pesquisa que o Pinterest utiliza como dados | Delimitar em quais aplicações e em que nível quero fornecer dados para que o Pinterest utilize como seleção de temas | 5 | Should |
@@ -177,35 +177,48 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
   - Integração do sistema de login com confirmação por email.  
 ## US13
   - Implementação do sistema de escolha de temas na segunda etapa do processo de cadastro
+  - Escolher no mínimo 5 temas no cadastro
   - Seleção das imagens de representação de cada tema
   - Disposição dos elementos da imagem na tela
   - Passagem dos dados de elementos selecionados para o banco de dados local
 ## US14
-  - Opção para logar com outras redes<br>- Opção para logar com a conta Pinterest
+  - Opção para logar com outras redes
+  - Opção para logar com a conta Pinterest
 ## US15
+  - Cada pin pode ser visualizado com mais detalhes, mostrando descrição e título ou até instruções
+  - Cada pin poderá receber uma avaliação e comentários do usuário
   - Cada pin deve oferecer botões de sub-opções
   - Ao descer a página deve aparecer um botão que leve ao topo
+  - A página deve dispor de um scroll infinito que possibilite ao usuário uma visualização mais orgânica do feed
+  - Deve oferecer mais conteúdo relacionado às atividades recentes do usuário
 ## US16
   - O link deve ser aberto dentro do navegador do Pinterest, caso isso esteja permitido pelo usuário nas configurações de conta  
+  - Os pins que se referem a aplicativos devem mostrar a opção de instalar
 ## US17
   - Deve ser possível compartilhar com os contatos que sejam usuários do Pinterest
   - Deve ser possível compartilhar com aplicativos sociais externos
 ## US18
-  - Caso seja a primeira imagem salva, deve ser criada uma pasta "pintest" na galeria
+  - Cada pin deve haver um título e uma descrição
+  - O Usuário deve poder postar pins a partir de imagens da galeria do dispositivo
+  - O Usuário deve poder postar e editar posteriormente um Pin
 ## US19
   - Cada pin deve ter uma mensagem indicando qual ação do usuário fez com que ele aparecesse em seu feed
 ## US20
   - Para todas as fotos deve haver um botão com a opção de "Ocultar"
   - Deve haver a opção de desfazer a ação de ocultar através do botão "Desfazer"
   - Quando o usuário selecionar "Ocultar", a imagem deve ser borrada de modo que o seu conteúdo não permaneça aparente.
+  - Os pins ocultados devem ser filtrados para que não sejam mostrados conteúdos que não agradam o usuário
 ## US21
   - Para todas as fotos deve haver um botão com a opção de "Denunciar"
   - Quando o usuário selecionar "Denunciar", deve haver uma mensagem informando que a equipe do projeto irá analisar o conteúdo e que lamenta por quaisquer transtornos causados
   - A imagem deve ser reportada para a equipe do projeto.
+  -
 ## US22
   - Deve haver uma opção chamada "Salvar"
   - Quando o usuário "Salvar", deve abrir a aba para selecionar a pasta em que será salvo
   - Deve haver na aba de selecionar pasta, a opção de criar uma nova pasta.
+  - Caso seja a primeira imagem salva, deve ser criada uma pasta "pintest" na galeria
+  - Deve haver uma opção de salvar o pin na galeria do celular
 ## US23
   - Deve haver um botão com a opção de "Seguir" qualquer usuário que não seja o usuário logado
   - O usuário logado deve receber atualizações de pins salvos pelo outro usuário
@@ -219,6 +232,9 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
   - As notificações devem ser organizadas em ordem cronológica
   - Sempre que outro usuário salvar um pin do usuário logado, o usuário logado deverá ser notificado
   - Sempre que outro usuário seguir uma pasta do usuário logado, o usuário logado deverá ser notificado.
+  - Os itens mais visualizados e pesquisados do Pinterest devem ser recomendados aos usuários
+  - Deve recomendar pins sobre assuntos pesquisados recentemente pelo usuário
+  - Usuários com interesses semelhantes ao de outro usuário devem ser recomendados
 ## US25
   - Poder classificar em "Salvo pela última vez"
   - Poder classificar de "A a Z"
@@ -263,12 +279,14 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
 ## US34
   - Os pins devem possuir tags relacionadas às suas categorias
   - Deve haver uma barra de pesquisa para a procura ser efetivada
+  - A pesquisa deve mostrar opções de filtro sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado
 ## US35
   - A Opção de pesquisa por foto deve ser acessada por um ícone de foto na barra de pesquisa
   - O usuário deve poder enviar imagem tirada com a câmera do dispostivo sendo utilizado
   - O Usuário deve poder enviar mensagem da galeria do dispositivo utilizado
-  - A Pesquisa deve retornar imagens com maior semelhança conforme o algorítmo de identificação de imagens.
+  - A Pesquisa deve retornar imagens com maior semelhança conforme o algorítmo de identificação de imagens
 ## US36
+  - Deve ser possível visualizar a lista de interesses em uma opção no perfil
   - Deve ser possível adicionar novas categorias de interesses no perfil do usuário
   - Deve ser possível remover categorias de interesses do perfil do usuário
 ## US37
@@ -277,6 +295,7 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
   - O Usuário deve poder alterar o nome de usuário cadastrado
   - O Usuário deve poder editar informações sobre ele em uma única caixa de texto
   - O Usuário deve poder editar o local em que reside  
+  - O Usuário deve poder ocultar seu perfil e seus dados de mecanismos de pesquisa
 ## US38
   - O Usuário deve poder alterar o endereço de e-mail cadastrado
   - O Usuário deve poder alterar a senha cadastrada
@@ -287,5 +306,7 @@ Gerenciar e modificar as opções da conta do usuário. Inclui ações como edi�
   - O Usuário deve poder optar por apagar o histórico de pesquisas recente.
 ## US39
   - As opções de delimitação devem estar na página de edição de configurações
+  - O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário
+  - O Pinterest deve poder utilizar dados, como cookies, para identificar informações de perfil do usuário e direcionar recomendações de pins
   - O Usuário deve escolher, por um *switch button*, se o Pinterest poderá rastrear suas pesquisas em outros sites, como o Google, ou não
   - O Usuário deve escolher, por *switch buttons*, se o Pinterest fará uso de informaçoes de sites visitados e parceiros para aprimorar anúncios exibidos

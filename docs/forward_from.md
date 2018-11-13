@@ -312,94 +312,91 @@ link para acesso: https://pin.it/sdi4d5gzapervm
 ### IMG46
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/R26.jpeg)| x |
+|![](img/forward/RNF01_Mobile.jpeg)| ![](img/forward/RNF01_Web.png) |
 
 ### IMG47
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF01_Mobile.jpeg)| ![](img/forward/RNF01_Web.png) |
+|![](img/forward/RNF02_Mobile.jpeg)| ![](img/forward/RNF02_Web.png) |
 
 ### IMG48
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF02_Mobile.jpeg)| ![](img/forward/RNF02_Web.png) |
+|![](img/forward/RNF03_Mobile.jpeg)| ![](img/forward/RNF03_Web.png) |
 
 ### IMG49
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF03_Mobile.jpeg)| ![](img/forward/RNF03_Web.png) |
+|![](img/forward/RNF04_Mobile.jpeg)| ![](img/forward/RNF04_Web.png) |
 
 ### IMG50
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF04_Mobile.jpeg)| ![](img/forward/RNF04_Web.png) |
+|![](img/forward/RNF05_Mobile.jpeg)| x |
 
 ### IMG51
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF05_Mobile.jpeg)| x |
+|![](img/forward/RNF06_Mobile.jpeg)| ![](img/forward/RNF06_Web.png) |
 
 ### IMG52
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF06_Mobile.jpeg)| ![](img/forward/RNF06_Web.png) |
+|![](img/forward/RNF07_Mobile.jpeg)| ![](img/forward/RNF07_Web.png) |
 
 ### IMG53
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF07_Mobile.jpeg)| ![](img/forward/RNF07_Web.png) |
+|![](img/forward/RNF08_Mobile.jpeg)| ![](img/forward/RNF08_Web.png) |
 
 ### IMG54
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF08_Mobile.jpeg)| ![](img/forward/RNF08_Web.png) |
+|![](img/forward/RNF09_Mobile.jpeg)| ![](img/forward/RNF09_Web.png) |
 
 ### IMG55
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF09_Mobile.jpeg)| ![](img/forward/RNF09_Web.png) |
+|![](img/forward/RNF10_Mobile.jpeg)| ![](img/forward/RNF10_Web.png) |
 
 ### IMG56
-| Versão Mobile | Versão Web |
+| Versão Mobile Fluxo 1|  Versão Mobile Fluxo 2|
 |---|---|
-|![](img/forward/RNF10_Mobile.jpeg)| ![](img/forward/RNF10_Web.png) |
+|![](img/forward/RNF11_Mobile_1.jpeg)|![](img/forward/RNF11_Mobile_2.jpeg)|
+|Versão Web Fluxo 1| Versão Web Fluxo 2 |
+![](img/forward/RNF11_Web_1.png) |![](img/forward/RNF11_Web_2.png)|
 
 ### IMG57
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF11_Mobile.jpeg)| ![](img/forward/RNF11_Web.png) |
+|![](img/forward/RNF12_Mobile.jpeg)| ![](img/forward/RNF12_Web.png) |
 
 ### IMG58
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF12_Mobile.jpeg)| ![](img/forward/RNF12_Web.png) |
+|![](img/forward/RNF13_Mobile.jpeg)| ![](img/forward/RNF13_Web.png) |
 
 ### IMG59
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF13_Mobile.jpeg)| ![](img/forward/RNF13_Web.png) |
+|![](img/forward/RNF14_Mobile.jpeg)| x |
 
 ### IMG60
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF14_Mobile.jpeg)| x |
+|![](img/forward/RNF15_Mobile.jpeg)| ![](img/forward/RNF15_Web.png) |
 
 ### IMG61
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF15_Mobile.jpeg)| ![](img/forward/RNF15_Web.png) |
+|![](img/forward/RNF16_Mobile.jpeg)| ![](img/forward/RNF16_Web.png) |
 
 ### IMG62
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF16_Mobile.jpeg)| ![](img/forward/RNF16_Web.png) |
-
-### IMG63
-| Versão Mobile | Versão Web |
-|---|---|
 |![](img/forward/RNF17_Mobile.jpeg)| ![](img/forward/RNF17_Web.png) |
 
-### IMG64
+### IMG63
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RNF18_Mobile.jpeg)| ![](img/forward/RNF18_Web.png) |
