@@ -108,20 +108,17 @@ Este artefato busca ligar cada requisito levantado aos respectivos métodos de e
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[L - Login](lexicos.md#login); <br>
- [C - Fazer Login](cenarios.md#fazer-login); <br>
- [DC - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login); <br>
+[L - Login](lexicos.md#login); <br> [C - Fazer Login](cenarios.md#fazer-login); <br>
+[DC - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login); <br>
 [DC Fazer Login](diagramas_caso_uso.md#fazer-login); <br>
-[DC - Cadastro de Usuário](diagramas_caso_uso.md#cadastro-de-usuario) ; <br>
+[DC - Cadastro de Usuário](diagramas_caso_uso.md#cadastro-de-usuario) ;<br>
 [ECU - Fazer login](especificacoes_caso_uso.md#fazer-login); <br>
-[IStar- Cadastro no Pinterest](iStar.md#cadastro-no-pinterest)
+ [IStar- Cadastro no Pinterest](iStar.md#cadastro-no-pinterest) <br>
+[US12](backlog.md#us12);
 ### Elo
-**Representação**: [DC Fazer Login](diagramas_caso_uso.md#fazer-login) representa [C - Fazer Login](cenarios.md#fazer-login);
-**Representação**: [IStar- Cadastro no Pinterest](iStar.md#cadastro-no-pinterest) representa [DC - Cadastro de Usuário](diagramas_caso_uso.md#cadastro-de-usuario) ;
-**Agregação**:   [C - Fazer Login](cenarios.md#fazer-login),  [DC - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login) e [DC Fazer Login](diagramas_caso_uso.md#fazer-login) são compostos por C - Fazer Login](cenarios.md#fazer-login);
-
-
-
+**Representação**: [DC Fazer Login](diagramas_caso_uso.md#fazer-login) representa [C - Fazer Login](cenarios.md#fazer-login); <br>
+**Representação**: [IStar- Cadastro no Pinterest](iStar.md#cadastro-no-pinterest) representa [DC - Cadastro de Usuário](diagramas_caso_uso.md#cadastro-de-usuario) ; <br>
+**Alocação** : [ECU - Fazer login](especificacoes_caso_uso.md#fazer-login) alocado em [US12](backlog.md#us12)
 
 ## EF2
 ### Categoria
@@ -129,29 +126,29 @@ Desenvolvimento
 
 ### Elementos Rastreáveis
 [C- Definir interesses](cenarios.md#definir-interesses); <br>
- [L - Interesses](lexicos.md#interesse); <br>
+[L - Interesses](lexicos.md#interesse); <br>
 [DC - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br>
- [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses); <br>
-[IStar - Definir interesses](iStar.md#definir-interesses)
+[ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses); <br>
+[IStar - Definir interesses](iStar.md#definir-interesses) <br>
+[US15](backlog.md#us15); <br>
 ### Elo
-**Agregação**: [C- Definir interesses](cenarios.md#definir-interesses), [DC - Definir Interesses](diagramas_caso_uso.md#definir-interesses), [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses) e [IStar - Definir interesses](iStar.md#definir-interesses) são compostos por [L - Interesses](lexicos.md#interesse)
-**Representação**:  [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses) representa [DC - Definir Interesses](diagramas_caso_uso.md#definir-interesses) e [C- Definir interesses](cenarios.md#definir-interesses)
-**Representação**: [IStar - Definir interesses](iStar.md#definir-interesses) representa [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses)
+**Representação**:  [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses) representa [DC - Definir Interesses](diagramas_caso_uso.md#definir-interesses) e [C- Definir interesses](cenarios.md#definir-interesses) <br>
+**Representação**: [IStar - Definir interesses](iStar.md#definir-interesses) representa [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses) <br>
+**Alocação** :[ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses) alocado em [US15](backlog.md#us15)  <br>
 
 
 ## EF3
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AD2](analise_discurso.md#requisitos-elicitados); <br> [AD7](analise_discurso.md#requisitos-elicitados); <br> [AP3](analise_protocolo.md#resultado-dos-requisitos); <br>
 [L - Interesse](lexicos.md#interesse); <br>
- [C - Definir Interessse](cenarios.md#definir-interesse); <br>
- [IS - Definir Interesses (Usuário)](iStar.md#definir-interesses); <br>
- [ DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses);
+[C - Definir Interessse](cenarios.md#definir-interesse); <br>
+[IS - Definir Interesses (Usuário)](iStar.md#definir-interesses); <br>
+[ DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br> [US36](backlog.md#us36); <br>
 ### Elo
-**Satisfação**: [NFR - Segurança](nfr.md#seguranca);
 
-**Representação**:   [IStar - Definir interesses](iStar.md#definir-interesses) representa [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses)
+**Representação**:   [IStar - Definir interesses](iStar.md#definir-interesses) representa [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses)  <br>
+**Alocação** :  [ DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses) alocado em [US36](backlog.md#us36)
 
 
 
@@ -162,11 +159,12 @@ Desenvolvimento
 ### Elementos Rastreáveis
 [C - Salvar um Pin](cenarios.md#salvar-um-Pin); <br>
 [L - Pinar](lexicos.md#pinar)<br>
-[DC - Salvar um Pin ](diagramas_caso_uso.md#salvar-um-pin); <br>
-[ECU - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin); <br>
+ [DC - Salvar um Pin ](diagramas_caso_uso.md#salvar-um-pin); <br>
+ [ECU - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin); <br>
+[US22](backlog.md#us22);
 ### Elo
-**Representação**: [ECU - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin) representa [DC - Salvar um Pin ](diagramas_caso_uso.md#salvar-um-pin) e [C - Salvar um Pin](cenarios.md#salvar-um-Pin)
-**Satisfação**: [C - Salvar um Pin](cenarios.md#salvar-um-Pin), [DC - Salvar um Pin ](diagramas_caso_uso.md#salvar-um-pin) e [ECU - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin satisfazem  [L - Pinar](lexicos.md#pinar),
+**Representação**: [ECU - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin) representa [DC - Salvar um Pin ](diagramas_caso_uso.md#salvar-um-pin) e [C - Salvar um Pin](cenarios.md#salvar-um-Pin) <br>
+**Alocação** :  [ DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses) alocado em [US36](backlog.md#us22) <br>
 
 ## EF5
 ### Categoria
@@ -176,120 +174,132 @@ Desenvolvimento
 [C - Pesquisar por tema](cenarios.md#pesquisar-por-tema); <br>
  [L - Pesquisa](lexicos.md#pesquisa); <br>
  [DC - Pesquisar por tema ](diagramas_caso_uso.md#pesquisar-por-tema); <br>
- [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema); <br> [IStar - Pesquisar Pins](iStar.md#pesquisar-pins);
+ [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema); <br>
+ [IStar - Pesquisar Pins](iStar.md#pesquisar-pins); <br>
+ [US34](backlog.md#us34);<br>
 ### Elo
-**Representação**: [ECU - Pesquisar por tema](especificacoes_caso_uso.md#salvar-um-pin),  [DC - Pesquisar por tema ](diagramas_caso_uso.md#pesquisar-por-tema) representa [C - Pesquisar por tema](cenarios.md#pesquisar-por-tema)
+**Representação**: [ECU - Pesquisar por tema](especificacoes_caso_uso.md#salvar-um-pin),  [DC - Pesquisar por tema ](diagramas_caso_uso.md#pesquisar-por-tema) representa [C - Pesquisar por tema](cenarios.md#pesquisar-por-tema) <br>
+**Alocação**:  [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema)  alocado em [US34](backlog.md#us34). <br>
 
 
 ## EF6
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[ENT11](entrevista.md#requisitos-elicitados)<br>
 [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas); <br>
  [L- Organizar](lexicos.md#organizar); <br>
-[C - Organizar Pastas](cenarios.md#organizar-pastas); <br>
-[US31](backlog.md#us31);
+ [C - Organizar Pastas](cenarios.md#organizar-pastas); <br>
+ [US31](backlog.md#us31); <br>
 ### Elo
-**Alocação** : [ECU - Organizar Pastas](especificacoes_caso_uso.md#organizar-pasta) alocado em [US31](backlog.md#us31)
-**Representação**: [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas), [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas) representa [C - Organizar Pastas](cenarios.md#organizar-pastas)
+
+**Representação**: [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas), [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas) representa [C - Organizar Pastas](cenarios.md#organizar-pastas). <br>
+**Alocação** : [ECU - Organizar Pastas](especificacoes_caso_uso.md#organizar-pasta) alocado em [US31](backlog.md#us31). <br>
 
 
 ## EF7
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AD2](analise_discurso.md#requisitos-elicitados); <br>
 [L - Interesse](lexicos.md#interesse); <br>
 [C - Definir Interessse](cenarios.md#definir-interesse); <br>
  [L - Ocultar](lexicos.md#ocultar); <br>
- [C - Ocultar um Pin](cenarios.md#ocultar-um-pin); <br> [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin); <br> [US20](backlog.md#us20);
+ [C - Ocultar um Pin](cenarios.md#ocultar-um-pin); <br>
+ [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin); <br>
+[US20](backlog.md#us20); <br>
 ### Elo
+**Representação**: [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin) representa [C - Ocultar um Pin](cenarios.md#ocultar-um-pin), [L - Ocultar](lexicos.md#ocultar). <br>
+**Alocação** : [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin) alocado em [US20](backlog.md#us20)
 
 
 ## EF8
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[L - Denunciar](lexicos.md#denunciar); <br>
-[C - Denunciar Pin](cenarios.md#denunciar-pin); <br>
-[DCU - Denunciar um Pin](diagramas_caso_uso.md#denunciar-um-pin); <br>
- [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin);
+[L - Ocultar](lexicos.md#ocultar); <br>
+ [C - Ocultar um Pin](cenarios.md#ocultar-um-pin); <br>
+ [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin); <br>
+[ECU - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin); <br> [US20](backlog.md#us20); <br>
 ### Elo
-**Representação**:  [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin) representa [DCU - Denunciar um Pin](diagramas_caso_uso.md#denunciar-um-pin) e [C - Denunciar Pin](cenarios.md#denunciar-pin)
-**Agregação**:   [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin),   [DCU - Denunciar um Pin](diagramas_caso_uso.md#denunciar-um-pin) e [C - Denunciar Pin](cenarios.md#denunciar-pin) são compostos por [L - Denunciar](lexicos.md#denunciar)
+**Representação**:  [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin) representa [DCU - Denunciar um Pin](diagramas_caso_uso.md#denunciar-um-pin) e [C - Denunciar Pin](cenarios.md#denunciar-pin) <br>
+**Alocação**: [ECU - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin) esta alocado em [US20](backlog.md#us20). <br>
 
 ## EF9
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[L - Interesse](lexicos.md#interesse);
+[L - Interesse](lexicos.md#interesse); <br>
+ [US24](backlog.md#us24); <br>
+
 ### Elo
 
 ## EF10
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[L - Pin](lexicos.md#pin); <br>
-[L - Pesquisa](lexicos.md#pesquisa);
+ [L - Pin](lexicos.md#pin); <br>
+ [L - Pesquisa](lexicos.md#pesquisa); <br>
+ [US34](backlog.md#us34); <br>
 ### Elo
-**Agregação**: [L - Pesquisa](lexicos.md#pesquisa) é composto por [L - Pin](lexicos.md#pin)
-
+  *---*
 ## EF11
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[L - Comentar](lexicos.md#comentar); <br>
-[C - Comentar em um Pin](cenarios.md#comentar-em-um-pin); <br>
-[DCU - Comentar em um Pin](diagramas_caso_uso.md#comentar-em-um-pin);
+ [L - Comentar](lexicos.md#comentar); <br>
+ [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin); <br>
+ [DCU - Comentar em um Pin](diagramas_caso_uso.md#comentar-em-um-pin); <br> [US15](backlog.md#us15);<br>
 ### Elo
-**Representação**: [DCU - Comentar em um Pin](diagramas_caso_uso.md#comentar-em-um-pin) representa [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin)
-**Agregação**: [DCU - Comentar em um Pin](diagramas_caso_uso.md#comentar-em-um-pin) e [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin) são compostos por [L - Comentar](lexicos.md#comentar)
-
+  *---*
 ## EF12
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
 [L - Organizar](lexicos.md#organizar); <br>
 [L - Subpasta](lexicos.md#subpasta); <br>
+ [C- Orgaizar Pasta](cenarios.md#organizar-pasta); <br>
+[DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta);<br>
 [US30](backlog.md#us30); <br>
  [US31](backlog.md#us31); <br>
- [C- Orgaizar Pasta](cenarios.md#organizar-pasta); <br>
-[DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta);
 ### Elo
-**Representação**: [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) representa  [C- Orgaizar Pasta](cenarios.md#organizar-pasta)
-**Alocação**: [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) está alocado em [US30](backlog.md#us30) e [US31](backlog.md#us31)
-
+**Representação**: [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) representa  [C- Orgaizar Pasta](cenarios.md#organizar-pasta) <br>
+**Alocação**: [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) está alocado em [US30](backlog.md#us30) e [US31](backlog.md#us31) <br>
 
 ## EF13
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[ST2.3](storytelling.md#storytelling-2-aprendendo-receitas-no-pinterest); <br> [INT2.4](introspeccao.md#introspeccao-2); <br>
 [DCU - Visualizar Pin](diagramas_caso_uso.md#visualizar-pin); <br>
- [ECU - Visualizar Pin](especificacoes_caso_uso.md#visualizar-pin);
+[ECU - Visualizar Pin](especificacoes_caso_uso.md#visualizar-pin); <br>
+[US15](backlog.md#us15); <br>
 ### Elo
 
+**Representação**:  [ECU - Visualizar Pin](especificacoes_caso_uso.md#visualizar-pin) representa [DCU - Visualizar Pin](diagramas_caso_uso.md#visualizar-pin). <br>
+**Agregação**: [ECU - Visualizar Pin](especificacoes_caso_uso.md#visualizar-pin) alocado em [US15](backlog.md#us15). <br>
 
 ## EF14
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
+[C - Definir Interesses](cenarios.md#definir-interesses); <br>
+ [L - Interesses](lexicos.md#definir-interesses); <br>
+[DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br> [US36](backlog.md#us36); <br>
+ [IS - Definir Interesses](iStar.md#definir-interesses); <br>
 ### Elo
+**Alocação**: [DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses) alocado em  [US36](backlog.md#us36). <br>
+**Representação**: [DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses) representa  [L - Interesses](lexicos.md#definir-interesses), [DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses). <br>
 
 ## EF15
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AP4](analise_protocolo.md#resultado-dos-requisitos)<br>
-[US22](backlog.md#usa22); <br>
- [L - Pinar](lexicos.md#pinar); <br>
-[C- Salvar um Pin](cenarios.md#salvar-um-pin); <br>
-[DCU - Salvar um Pin](diagramas_caso_uso.md#salvar-um-pin);
+[L - Pinar](lexicos.md#pinar); <br>
+ [C- Salvar um Pin](cenarios.md#salvar-um-pin); <br>
+[DCU - Salvar um Pin](diagramas_caso_uso.md#salvar-um-pin); <br>
+[US22](backlog.md#us22);<br>
 ### Elo
-**Representação**: [L - Pinar](lexicos.md#pinar), [DCU - Salvar um Pin](diagramas_caso_uso.md#salvar-um-pin) representa [C- Salvar um Pin](cenarios.md#salvar-um-pin)
-**Alocação**: [DCU - Salvar um Pin](diagramas_caso_uso.md#organizar-pasta) está alocado em [US30](backlog.md#us30);  
 
+**Representação**: [L - Pinar](lexicos.md#pinar), [DCU - Salvar um Pin](diagramas_caso_uso.md#salvar-um-pin) representa [C- Salvar um Pin](cenarios.md#salvar-um-pin)<br>
+**Alocação**: [DCU - Salvar um Pin](diagramas_caso_uso.md#organizar-pasta) está alocado em [US30](backlog.md#us30);  <br>
 
 ## EF16
 ### Categoria
@@ -304,170 +314,468 @@ Desenvolvimento
 [C - Criar Pasta](cenarios.md#criar-pasta); <br>
 [C - Organizar Pastas](cenarios.md#organizar-pastas); <br>
 [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br>
- [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta);
+ [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta);<br>
 
 ### Elo
+**Representação**: [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta) representa [C - Criar Pasta](cenarios.md#criar-pasta).<br>
+**Representação**:  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pastas).<br>
+**Alocação**: [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta) alocado em [US29](backlog.md#us29) e  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) alocado em [US31](backlog.md#us31).<br>
 
 
 ## EF17
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[ENT10](entrevista.md#requisitos-elicitados)<br>
-[US30](backlog.md#us30); <br>
- [L - Subpasta](lexicos.md#subpasta); <br>
-[US31](backlog.md#us31); <br>
- [L - Organizar](lexicos.md#organizar); <br>
+[L - Subpasta](lexicos.md#subpasta); <br>
+[L - Organizar](lexicos.md#organizar); <br>
 [L - Excluir](lexicos.md#excluir); <br>
- [C - Criar Pasta](cenarios.md#criar-pasta); <br>
-[C - Organizar Pastas](cenarios.md#organizar-pastas); <br>
- [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br>
- [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta);
+[C - Criar Pasta](cenarios.md#criar-pasta); <br>
+[C - Organizar Pastas](cenarios.md#organizar-pastas); <br>  
+[DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br>
+[DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta); <br>
+[US31](backlog.md#us31);<br>
+[US30](backlog.md#us30); <br>
 ### Elo
+**Representação**: [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pastas). <br>
+**Alocação**: [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta) está alocado em [US30](backlog.md#us30). <br>
 
 ## EF18
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AP12](analise_protocolo.md#resultado-dos-requisitos); <br> [AD14](analise_discurso.md#requisitos-elicitados); <br>
-[US35](backlog.md#us35); <br>
+
  [L - Pesquisar](lexicos.md#pesquisar); <br>
  [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto); <br>
-[DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto);
+[DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto); <br>
+[US35](backlog.md#us35); <br>
 ### Elo
-**Representação**:  [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) representa  [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto)
-**Alocação**: [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) está alocado em [US35](backlog.md#us35);
+**Representação**:  [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) representa  [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto). <br>
+**Alocação**: [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) está alocado em [US35](backlog.md#us35). <br>
 **Agregação** :   [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto),
-[DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) são compostos por  [L - Pesquisar](lexicos.md#pesquisar);
+[DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) são compostos por  [L - Pesquisar](lexicos.md#pesquisar). <br>
 
 ## EF19
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AP14](analise_protocolo.md#resultado-dos-requisitos);<br>
-[US16](backlog.md#us16); <br>
  [L - Link](lexicos.md#link); <br>
- [C - Ir para a fonte de um Pin](cenarios.md#ir-para-a-fonte-de-um-pin);
+ [C - Ir para a fonte de um Pin](cenarios.md#ir-para-a-fonte-de-um-pin); <br>
+[US16](backlog.md#us16); <br>
 ### Elo
-**Representação**:  [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) representa  [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto)
-**Alocação**: [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) está alocado em [US35](backlog.md#us35);
-**Agregação** :   [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto),
-[DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) são compostos por  [L - Pesquisar](lexicos.md#pesquisar);
+**Representação**:  [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) representa  [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto). <br>
+**Alocação**: [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) está alocado em [US35](backlog.md#us35). <br>
 
 ## EF20
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AD12](analise_discurso.md#requisitos-elicitados); <br>
-[US17](backlog.md#us17); <br>
- [L - Compartilhar](lexicos.md#compartilhar); <br>
+[L - Compartilhar](lexicos.md#compartilhar); <br>
  [L - Usuário](lexicos.md#usuario); <br>
-[C - Enviar um Pin](cenarios.md#enviar-um-pin); <br>
+ [C - Enviar um Pin](cenarios.md#enviar-um-pin); <br>
  [IS - Enviar Pin (Usuário)](iStar.md#enviar-pin); <br>
-[DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin);
+ [DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin);<br>
+[US17](backlog.md#us17);
 ### Elo
+
+**Representação**: [DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin) representa [C - Enviar um Pin](cenarios.md#enviar-um-pin).<br>  **Alocação**: [C - Enviar um Pin](cenarios.md#enviar-um-pin) está alocado em [US17](backlog.md#us17). <br>
 
 ## EF21
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[INT2.2](introspeccao.md#introspeccao-2); <br>
-[L - Compartilhar](lexicos.md#compartilhar); <br>
- [C - Enviar um Pin](cenarios.md#enviar-um-pin); <br>
-[DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin); <br>
+ [L - Compartilhar](lexicos.md#compartilhar); <br>
+  [C - Enviar um Pin](cenarios.md#enviar-um-pin); <br>
+ [DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin); <br>
 [ECU - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin); <br>
-[US17](backlog.md#us17); <br> [IS - Enviar Pin](iStar.md#enviar-pin)
+ [US17](backlog.md#us17); <br>
+ [IS - Enviar Pin](iStar.md#enviar-pin);<br>
 ### Elo
+**Alocação**: [ECU - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin) está alocado em [US17](backlog.md#us17).<br>
+**Representa**:  [ECU - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin), [DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin)  representa  [C - Enviar um Pin](cenarios.md#enviar-um-pin).<br>
 
 ## EF22
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[INT2.3](introspeccao.md#introspeccao-2);<br>
 [L - Comentar](lexicos.md#comentar); <br>
 [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin); <br>
 [DCU - Comentar em um Pin](diagramas_caso_uso.md#comentar-em-um-pin); <br>
- [ECU - Comentar em um Pin](especificacoes_caso_uso.md#comentar-em-um-pin);
+[ECU - Comentar em um Pin](especificacoes_caso_uso.md#comentar-em-um-pin); <br>
+[US15](backlog.md#us15); <br>
+
 ### Elo
+**Representação**: [ECU - Comentar em um Pin](especificacoes_caso_uso.md#comentar-em-um-pin) representa [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin) <br>
+	**Alocação**: [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin) está alocado em [US15](backlog.md#us15). <br>
 
 ## EF23
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[INT2.7](introspeccao.md#introspeccao-2); <br>
-[L - Seguir](lexicos.md#seguir); <br>
-[C - Seguir outro usuário](cenarios.md#seguir-outro-usuario); <br>
+ [L - Seguir](lexicos.md#seguir); <br>
+ [C - Seguir outro usuário](cenarios.md#seguir-outro-usuario); <br>
  [ECU - Seguir outro usuário](especificacoes_caso_uso.md#seguir-outro-usuario); <br>
-[DCU - Seguir outro usuário](diagramas_caso_uso.md#seguir-outro-usuario); <br> [US23](backlog.md#us23); <br> [IS - Seguir usuário](iStar.md#seguir-usuario);
+ [DCU - Seguir outro usuário](diagramas_caso_uso.md#seguir-outro-usuario); <br> [US23](backlog.md#us23); <br>
+ [IS - Seguir usuário](iStar.md#seguir-usuario); <br>
 ### Elo
+**Representação**:  [ECU - Seguir outro usuário](especificacoes_caso_uso.md#seguir-outro-usuario) representa [C - Seguir outro usuário](cenarios.md#seguir-outro-usuario). <br>
+**Alocação**: [C - Seguir outro usuário](cenarios.md#seguir-outro-usuario) está alocado em [US23](backlog.md#us23). <br>
 
 ## EF24
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[ST1.5](storytelling.md#storytelling-1-definindo-interesses-no-pinterest);<br>
- [L - Denunciar](lexicos.md#denunciar); <br>
+[L - Denunciar](lexicos.md#denunciar); <br>
 [C - Denunciar Pin](cenarios.md#denunciar-pin); <br>
-[ECU - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin); <br>
+[C - Ocultar um Pin](cenarios.md#ocultar-um-pin); <br>
+ [ECU - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin); <br>
  [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin); <br>
-[ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin); <br>
-[DCU - Denunciar Pin](diagramas_caso_uso.md#denuncar-pin); <br>
-[US20](backlog.md#us20); <br> [US21](backlog.md#us21);
+ [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin); <br>[DCU - Denunciar Pin](diagramas_caso_uso.md#denuncar-pin); <br> [US20](backlog.md#us20); <br>  [US21](backlog.md#us21); <br>
 ### Elo
+**Representação**: [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin) representa [C - Denunciar Pin](cenarios.md#denunciar-pin). <br>
+**Representação**: [ECU - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin) representa [C - Ocultar um Pin](cenarios.md#ocultar-um-pin)
+**Recurso**: [C - Denunciar Pin](cenarios.md#denunciar-pin) depende de um recurso provido em [L - Pin](lexicos.md#pin). <br>
+**Alocação**: [C - Denunciar Pin](cenarios.md#denunciar-pin) está alocado em [US21](backlog.md#us21). <br>
+**Alocação**: [C - Ocultar um Pin](cenarios.md#ocultar-um-pin) está alocado em [US20](backlog.md#us20). <br>
+
 
 ## EF25
 ### Categoria
 Desenvolvimento
-### Elementos Rastreáveis[AP8](analise_protocolo.md#resultado-dos-requisitos); <br>
-[US16](backlog.md#us16);
+### Elementos Rastreáveis
+[US16](backlog.md#us16);<br>
 ### Elo
+*---*
 
 ## EF26
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[ENT3](entrevista.md#requisitos-elicitados); <br>
 [L - Colaborar](lexicos.md#colaborar); <br>
 [C - Compartilhar Pasta](cenarios.md#compartilhar-pasta); <br>
  [DCU - Compartilhar Pasta](diagramas_caso_uso.md#compartilhar-pasta); <br>
- [ECU - Compartilhar Pasta](especificacoes_caso_uso.md#compartilhar-pasta); <br> [US32](backlog.md#us32); <br> [US33](backlog.md#us33);
+ [ECU - Compartilhar Pasta](especificacoes_caso_uso.md#compartilhar-pasta); <br> [US32](backlog.md#us32); <br>
+ [US33](backlog.md#us33); <br>
 ### Elo
+**Alocação**:  [ECU - Compartilhar Pasta](especificacoes_caso_uso.md#compartilhar-pasta) alocado em [US32](backlog.md#us32) e   [US33](backlog.md#us33). <br>
+**Representação**: [DCU - Compartilhar Pasta](diagramas_caso_uso.md#compartilhar-pasta) e
+ [ECU - Compartilhar Pasta](especificacoes_caso_uso.md#compartilhar-pasta) representa [C - Compartilhar Pasta](cenarios.md#compartilhar-pasta). <br>
+
 
 ## EF27
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[INT2.4](introspeccao.md#introspeccao-2);
+[US15](backlog.md#us15); <br>
 ### Elo
+*---*
 
 ## EF28
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AD4](analise_discurso.md#requisitos-elicitados);
+[US39](backlog.md#us39); <br>
 ### Elo
+*---*
 
 ## EF29
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AD10](analise_discurso.md#requisitos-elicitados); <br> [AD11](analise_discurso.md#requsiitos-elicitados); <br>
 [L - Mensagem](lexicos.md#mensagem); <br>
-[C - Enviar mensagem para outros usuários](cenarios.md#enviar-mensagem-para-outro-usuario); <br>
- [ECU - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin); <br>
- [ECU - Enviar Mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios); <br>
+ [C - Enviar mensagem para outros usuários](cenarios.md#enviar-mensagem-para-outro-usuario); <br> [ECU - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin); <br>
+[ECU - Enviar Mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios); <br>
  [DCU - Enviar Mensagem](diagramas_caso_uso.md#enviar-mensagem); <br>
  [IS - Enviar Pin (Usuário)](iStar.md#enviar-pin); <br>
-[DCU - Enviar Pin](diagramas_caso_uso.md#enviar-um-pin);
+ [DCU - Enviar Pin](diagramas_caso_uso.md#enviar-um-pin); <br>
+ [US28](backlog.md#us28);<br>
 ### Elo
+**Representação**: [ECU - Enviar Mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios) representa [L - Mensagem](lexicos.md#mensagem),  [C - Enviar mensagem para outros usuários](cenarios.md#enviar-mensagem-para-outro-usuario), [DCU - Enviar Mensagem](diagramas_caso_uso.md#enviar-mensagem) e  [IS - Enviar Pin (Usuário)](iStar.md#enviar-pin). <br>
+**Representação**: [ECU - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin) representa  [IS - Enviar Pin (Usuário)](iStar.md#enviar-pin) e [DCU - Enviar Pin](diagramas_caso_uso.md#enviar-um-pin). <br>
+ **Alocação**: [ECU - Enviar Mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios) está alocado em [US28](backlog.md#us28). <br>
 
 ## EF30
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[AD8](analise_discurso.md#requisitos-elicitados); <br>
 [L - Notificação](lexicos.md#notificacao); <br>
 [C - Receber notificações](cenarios.md#receber-notificacoes); <br>
 [DCU - Receber notificações](diagramas_caso_uso.md#receber-notificacoes); <br>
-[ECU - Receber notificações](especificacoes_caso_uso.md#receber-notificacoes); <br> [US24](backlog.md#us24);
+[ECU - Receber notificações](especificacoes_caso_uso.md#receber-notificacoes); <br> [US24](backlog.md#us24);<br>
 ### Elo
+**Representação** [ECU - Receber notificações](especificacoes_caso_uso.md#receber-notificacoes) representa [L - Notificação](lexicos.md#notificacao), [C - Receber notificações](cenarios.md#receber-notificacoes) e [DCU - Receber notificações](diagramas_caso_uso.md#receber-notificacoes)<br>
+**Alocação** [ECU - Receber notificações](especificacoes_caso_uso.md#receber-notificacoes) está alcoado em [US24](backlog.md#us24) <br>
+
+## EF31
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[C - Editar Perfil](cenarios.md#editar-perfil); <br>
+ [ECU - Editar perfil](especificacoes_caso_uso.md#editar-perfil); <br>
+[DCU - Editar Perfil](diagramas_caso_uso.md#editar-perfil); <br>
+[US37](backlog.md#us37); <br>
+[IS - Editar configurações de conta](iStar.md#editar-configuracoes-de-conta); <br>
+### Elo
+**Representação**:  [ECU - Editar perfil](especificacoes_caso_uso.md#editar-perfil) representa [C - Editar Perfil](cenarios.md#editar-perfil), [DCU - Editar Perfil](diagramas_caso_uso.md#editar-perfil) e [IS - Editar configurações de conta](iStar.md#editar-configuracoes-de-conta) <br>
+**Alocação**: [ECU - Editar perfil](especificacoes_caso_uso.md#editar-perfil)  está alocado em [US37](backlog.md#us37) <br>
+
+## EF32
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[US16](backlog.md#us16); <br>
+### Elo
+  *---*
+
+## EF33
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[NFR - Suporte](nfr.md#usuporte); <br>
+[C - Denunciar um Pin](cenarios.md#denunciar-um-pin); <br>
+[L - Denunciar](lexicos.md#denunciar); <br>
+[DCU - Denunciar um Pin](diagramas_caso_uso.md#denunciar-um-pin); <br> [US21](backlog.md#us21); <br>
+### Elo
+**Representação**: [C - Denunciar um Pin](cenarios.md#denunciar-um-pin) representa [DCU - Denunciar um Pin](diagramas_caso_uso.md#denunciar-um-pin), [L - Denunciar](lexicos.md#denunciar) e [NFR - Suporte](nfr.md#usuporte) <br>
+
+## EF34
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[C - Definir Interesses](cenarios.md#definir-interesses); <br>
+[L - Interesses](lexicos.md#definir-interesses); <br>
+[DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br>
+(US36)[backlog.md#us36); <br>
+ [IS - Definir Interesses](iStar.md#definir-interesses);
+### Elo
+**Representação**: [C - Definir Interesses](cenarios.md#definir-interesses) representa [L - Interesses](lexicos.md#definir-interesses), [DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses) e  [IS - Definir Interesses](iStar.md#definir-interesses) <br>
+**Alocação**: [C - Definir Interesses](cenarios.md#definir-interesses)  está alocado em (US36)[backlog.md#us36)
+
+## EF35
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+ [L - Organizar](lexicos.md#organizar); <br>
+ [C - Organizar Pasta](cenarios.md#organizar-pasta); <br>
+ [ECU - Classificação de Pastas](especificacoes_caso_uso.md#classificacao-de-pastas); <br>
+ [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta); <br>
+ [IS - Classificar Pastas](iStar.md#classificar-pastas); <br>
+ [DCU - Classificar Pastas](diagramas_caso_uso.md#classificar-pastas); <br> [US31](backlog.md#us31); <br>
+ [US25](backlog.md#us25);
+### Elo
+**Representação**: [ECU - Classificação de Pastas](especificacoes_caso_uso.md#classificacao-de-pastas) representa  [DCU - Classificar Pastas](diagramas_caso_uso.md#classificar-pastas) e [IS - Classificar Pastas](iStar.md#classificar-pastas)<br>
+**Representação**: [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta) representa  [L - Organizar](lexicos.md#organizar) e [C - Organizar Pasta](cenarios.md#organizar-pasta) <br>
+**Alocação**: [ECU - Classificação de Pastas](especificacoes_caso_uso.md#classificacao-de-pastas) está alocado em  [US25](backlog.md#us25)<br>
+**Alocação**: [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta)  está alocado em [US31](backlog.md#us31)
+
+## EF36
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[L - Notificação](lexicos.md#notificacao); <br>
+[C - Receber notificações](cenarios.md#receber-notificacoes); <br>
+ [IS- Seguir Usuário](iStar.md#seguir-usuario) <br>
+[US24](backlog.md#us24);
+### Elo
+**Representação**: [C - Receber notificações](cenarios.md#receber-notificacoes) representa [L - Notificação](lexicos.md#notificacao) <br>
+**Alocação**:  [C - Receber notificações](cenarios.md#receber-notificacoes) está alcoado em [US24](backlog.md#us24);
+
+## EF37
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[US37](backlog.md#us37); <br>
+ [IS - Editar Configurações de Conta](iStar.md#editar-configuracoes-de-conta)
+### Elo
+**Alocação**:  [IS - Editar Configurações de Conta](iStar.md#editar-configuracoes-de-conta) está alocado em [US37](backlog.md#us37)
+
+## EF38
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[IS - Editar Configurações de Conta](iStar.md#editar-configuracoes-de-conta) <br> [US39](backlog.md#us39);
+### Elo
+**Alocação**: [IS - Editar Configurações de Conta](iStar.md#editar-configuracoes-de-conta)  está alocado em [US39](backlog.md#us39)
+
+## EF39
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+ [IS - Cadastro no Pinterest](iStar.md#cadastro-no-pinterest); <br>
+ [DCU - Editar Perfil](diagramas_caso_uso.md#editar-perfil); <br>
+ [ECU - Editar Perfil](especificacoes_caso_uso.md#editar-perfil); <br>
+ [C - Editar Perfil](cenarios.md#editar-perfil) <br>
+[US37](backlog.md#us37); <br>
+[US38](backlog.md#us38);
+### Elo
+**Repreentação**:  [ECU - Editar Perfil](especificacoes_caso_uso.md#editar-perfil) representa  [DCU - Editar Perfil](diagramas_caso_uso.md#editar-perfil) e  [C - Editar Perfil](cenarios.md#editar-perfil) <br>
+**Alocação**: [ECU - Editar Perfil](especificacoes_caso_uso.md#editar-perfil) está alocado em [US37](backlog.md#us37) e [US38](backlog.md#us38)
+
+## EF40
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[IS - Cadastro no Pinterest](iStar.md#cadastro-no-pinterest); <br>
+[DCU - Editar Perfil](diagramas_caso_uso.md#editar-perfil); <br>
+ [US38](backlog.md#us38);
+### Elo
+**Alocação**:[DCU - Editar Perfil](diagramas_caso_uso.md#editar-perfil) está alocado em [US38](backlog.md#us38)
+
+## EF41
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[C - Editar um Pin](cenarios.md#editar-um-pin); <br>
+ [DCU - Editar um Pin](diagramas_caso_uso.md#editar-um-pin); <br>
+ [ECU - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin); <br>
+ [IS - Enviar Pin (Outro Usuário)](iStar.md#enviar-pin); <br>
+ [US18](backlog.md#us18)
+### Elo
+**Representação**: [ECU - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin) representa [C - Editar um Pin](cenarios.md#editar-um-pin), [DCU - Editar um Pin](diagramas_caso_uso.md#editar-um-pin) e  [IS - Enviar Pin (Outro Usuário)](iStar.md#enviar-pin) <br>
+**Alocação**: [ECU - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin) está alocado em   [US18](backlog.md#us18)
+## EF42
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[IS - Enviar Pin (Outro Usuário)](iStar.md#enviar-pin) <br>
+[US18](backlog.md#us18)
+### Elo
+**Alocação**: [IS - Enviar Pin (Outro Usuário)](iStar.md#enviar-pin) está alocado em [US18](backlog.md#us18)
+
+## EF43
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[C - Editar um Pin](cenarios.md#editar-um-pin); <br>
+ [DCU - Editar um Pin](diagramas_caso_uso.md#editar-um-pin); <br>
+ [ECU - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin); <br>
+[IS - Enviar Pin (Outro Usuário)](iStar.md#enviar-pin) <br>
+ [US15](backlog.md#us15);
+### Elo
+**Representação**: [ECU - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin) representa [C - Editar um Pin](cenarios.md#editar-um-pin), [DCU - Editar um Pin](diagramas_caso_uso.md#editar-um-pin) e [IS - Enviar Pin (Outro Usuário)](iStar.md#enviar-pin) <br>
+**Alocação**: [ECU - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin) está alocado em [US15](backlog.md#us15)
+
+## EF44
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[NFR - Usabilidade](nfr.md#usabilidade); <br>
+ [US37](backlog.md#us37); <br>
+ [US38](backlog.md#us38);
+### Elo
+**Alocação**: [NFR - Usabilidade](nfr.md#usabilidade) está alocado em [US37](backlog.md#us37) e [US38](backlog.md#us38)
+
+## EF45
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[DCU - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login); <br>
+ [ECU - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login); <br>
+ [IS - Cadastro no Pinterest](iStar.md#cadastro-no-pinterest); <br>
+ [US13](backlog.md#us13);
+### Elo
+**Representação**:  [ECU - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login)  representa [DCU - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login)  <br>
+**Alocação**:  [ECU - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login) alocado em [US13](backlog.md#us13).
+
+## EF46
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[L - Feed](lexicos.md#feed); <br>
+ [DCU - Visualizar fedd](diagramas_caso_uso.md#visualizar-feed); <br>
+ [C - Visualizar Feed](cenarios.md#visualizar-feed); <br>
+ [ECU - Visualizar Feed](especificacoes_caso_uso.md#visualizar-feed); <br> [US15](backlog.md#us15);
+### Elo
+**Representação**: [ECU - Visualizar Feed](especificacoes_caso_uso.md#visualizar-feed) representa [DCU - Visualizar fedd](diagramas_caso_uso.md#visualizar-feed),  [C - Visualizar Feed](cenarios.md#visualizar-feed), [L - Feed](lexicos.md#feed)  <br>
+**Alocação**: [ECU - Visualizar Feed](especificacoes_caso_uso.md#visualizar-feed) alocado em [US15](backlog.md#us15).
+
+## EF47
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+ [C - Definir Interesses](cenarios.md#definir-interesses); <br>
+ [C - Pesquisar por Tema](cenarios.md#pesquisar-por-tema); <br>
+ [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto); <br>
+[L - Explorar](lexicos.md#explorar); <br>
+ [DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br>
+ [DCU - Pesquisar por Tema](diagramas_caso_uso.md#pesquisar-por-tema); <br>
+ [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto); <br>
+[ECU - Pesquisar por Tema](especificacoes_caso_uso.md#pesquisar-por-tema); <br>
+ [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto); <br>
+ [NFR - Definir Interesses](nfr.md#definir-interesses); <br>
+ [NFR - Pesquisar Pins](nfr.md#pesquisar-pins);
+[US24](backlog.md#us24); <br>
+ [US36](backlog.md#us36);<br>
+### Elo
+**Representação**: [ECU - Pesquisar por Tema](especificacoes_caso_uso.md#pesquisar-por-tema) representa [C - Pesquisar por Tema](cenarios.md#pesquisar-por-tema),  [DCU - Pesquisar por Tema](diagramas_caso_uso.md#pesquisar-por-tema) . <br>
+**Representação**:  [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto),   [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto) representa [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto). <br>
+**Alocação**:  [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto) alocado em [US24](backlog.md#us24). <br>
+**Alocação**:    [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto) alocado em [US24](backlog.md#us36).
+## EF48
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[C - Pesquisar por tema](cenarios.md#pesquisar-por-tema); <br>
+ [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema); <br>
+ [DCU - Pesquisar por tema](diagramas_caso_uso.md#pesquisar-por-tema); <br>
+ [IS - Pesquisar Pins](iStar.md#pesquisar-pins); <br>
+[C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto); <br>
+ [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto); <br>
+ [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto) <br> [US34](backlog.md#us34); <br>
+ [US35](backlog.md#us35)
+### Elo
+**Representação**: [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema) representa [C - Pesquisar por tema](cenarios.md#pesquisar-por-tema),  [DCU - Pesquisar por tema](diagramas_caso_uso.md#pesquisar-por-tema) e [IS - Pesquisar Pins](iStar.md#pesquisar-pins)<br>
+**Representação**:  [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto)  representa [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto, [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto) e  [IS - Pesquisar Pins](iStar.md#pesquisar-pins)<br>
+**Alocação**: [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema)  está alocado em [US34](backlog.md#us34)<br>
+**Alocação**: [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto)  está alocado em [US35](backlog.md#us35)
+
+## EF49
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[US19](backlog.md#us19);
+### Elo
+*---*-
+
+## EF50
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[DCU - Visualizar Pin](diagramas_caso_uso.md#visualizar-pin); <br>
+[L - Experimentar](lexicos.md#experimentar); <br>
+ [US15](backlog.md#us15);
+### Elo
+*---*-
+
+## EF51
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[US15](backlog.md#us15); <br>
+ [US36](backlog.md#us36); <br>
+ [C - Definir Interesses](cenarios.md#definir-interesses); <br>
+ [C - Pesquisar por Tema](cenarios.md#pesquisar-por-tema); <br>
+[C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto); <br>
+ [L - Explorar](lexicos.md#explorar); <br>
+ [DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br>
+ [DCU - Pesquisar por Tema](diagramas_caso_uso.md#pesquisar-por-tema); <br>
+ [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto); <br>
+ [ECU - Pesquisar por Tema](especificacoes_caso_uso.md#pesquisar-por-tema); <br>
+ [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto); <br>
+ [NFR - Definir Interesses](nfr.md#definir-interesses); <br>
+ [NFR - Pesquisar Pins](nfr.md#pesquisar-pins)
+### Elo
+**Representação**: [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema) representa [C - Pesquisar por tema](cenarios.md#pesquisar-por-tema),  [DCU - Pesquisar por tema](diagramas_caso_uso.md#pesquisar-por-tema) e [IS - Pesquisar Pins](iStar.md#pesquisar-pins)<br>
+**Repreentação**:  [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto)  representa [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto, [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto) e  [IS - Pesquisar Pins](iStar.md#pesquisar-pins)<br>
+**Alocação**: [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema)  está alocado em [US34](backlog.md#us15)<br>
+**Alocação**: [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto)  está alocado em [US35](backlog.md#us36)
+
+## EF52
+### Categoria
+Desenvolvimento
+### Elementos Rastreáveis
+[IS - Classificar Pastas](iStar.md#classificar-pastas); <br>
+ [L - Classificar](lexicos.md#classificar); <br>
+[US25](backlog.md#us25);
+### Elo
+**Representação**: [IS - Classificar Pastas](iStar.md#classificar-pastas) representa  [L - Classificar](lexicos.md#classificar)<br>
+**Alocação**: [IS - Classificar Pastas](iStar.md#classificar-pastas)  está alocado em [US25](backlog.md#us25)
