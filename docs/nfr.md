@@ -4,7 +4,7 @@
 
 # Conectividade
 
-![](img/NFR_Conectividade.png)
+![](img/NFR_Adaptabilidade.png)
 
 # Usabilidade
 
