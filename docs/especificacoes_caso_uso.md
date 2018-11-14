@@ -1,7 +1,7 @@
 # Introdução
 
 
-## Cadastro de [usuário](lexicos.md#usuario)
+## Cadastro de [usuário](lexicos.md#l14)
 
 | Descrição|
 | -- |
@@ -21,7 +21,7 @@
 | **Rastreabilidade** |
 | [Cenário: Cadastro de Usuário](cenarios.md#cadastro-de-usuario) |
 
-## Visualizar [Pin](lexicos.md#pin)
+## Visualizar [Pin](lexicos.md#l1)
 
 | Descrição|
 | -- |
@@ -39,7 +39,7 @@
 | **Pós Condições**|
 | Usuário visualiza pin. |
 
-## Comentar em um [Pin](lexicos.md#pin)
+## Comentar em um [Pin](lexicos.md#l1)
 
 | Descrição|
 | -- |
@@ -59,7 +59,7 @@
 | **Rastreabilidade** |
 | [Cenário: Comentar em um Pin](cenarios.md#comentar-em-um-pin) |
 
-## Definir [interesses](lexicos.md#interesse)
+## Definir [interesses](lexicos.md#l10)
 
 | Descrição|
 | -- |
@@ -79,7 +79,7 @@
 | **Rastreabilidade** |
 | [Cenário: Definir interesses](cenarios.md#definir-interesses) |
 
-## Editar um [Pin](lexicos.md#pin)
+## Editar um [Pin](lexicos.md#l1)
 
 | Descrição|
 | -- |
@@ -100,7 +100,7 @@
 | [Cenário: Editar um Pin](cenarios.md#editar-um-pin) |
 
 
-## Fazer [login](lexicos.md#login)
+## Fazer [login](lexicos.md#l16)
 
 | Descrição|
 | -- |
@@ -120,7 +120,7 @@
 | **Rastreabilidade** |
 | [Cenário: Fazer login](cenarios.md#fazer-login) |
 
-## Ir para a fonte de um [Pin](lexicos.md#pin)
+## Ir para a fonte de um [Pin](lexicos.md#l1)
 
 | Descrição|
 | -- |
@@ -140,7 +140,7 @@
 | **Rastreabilidade** |
 | [Cenário: Ir para a fonte de um Pin](cenarios.md#ir-para-a-fonte-de-um-pin) |
 
-## Seguir outro [usuário](lexicos.md#usuario)
+## Seguir outro [usuário](lexicos.md#l14)
 
 | Descrição|
 | -- |
@@ -179,7 +179,7 @@
 | Usuário visualizará a aba "Seguindo". |
 | [Cenário: Visualizar aba Seguindo](cenarios.md#visualizar-aba-seguindo) |
 
-## Enviar mensagem para outros [usuários](lexicos.md#usuario)
+## Enviar mensagem para outros [usuários](lexicos.md#l14)
 
 | Descrição|
 | -- |
@@ -198,7 +198,7 @@
 |Usuário envia mensagem|
 | [Cenário: Enviar mensagem para outros usuários](cenarios.md#enviar-mensagem-para-outros-usuarios) |
 
-## [Ocultar](lexicos.md#ocultar) um [Pin](lexicos.md#pin)
+## [Ocultar](lexicos.md#l13) um [Pin](lexicos.md#l1)
 
 | Descrição |
 | -- |
@@ -217,7 +217,7 @@
 | Usuário oculta o pin. |
 | [Cenário: Ocultar um Pin](cenarios.md#ocultar-um-pin) |
 
-## [Salvar](lexicos.md#pinar) um [Pin](lexicos.md#pin)
+## [Salvar](lexicos.md#l2) um [Pin](lexicos.md#l1)
 
 | Descrição |
 | -- |
@@ -236,7 +236,7 @@
 | Usuário salva Pin em uma pasta do Pinterest |
 | [Cenário: Salvar um Pin](cenarios.md#salvar-um-pin) |
 
-## Enviar um [Pin](lexicos.md#pin)
+## Enviar um [Pin](lexicos.md#l1)
 
 | Descrição |
 | -- |
@@ -255,7 +255,7 @@
 | Usuário envia o Pin para outra pessoa |
 | [Cenário: Enviar um Pin](cenarios.md#enviar-um-pin) |
 
-## Realizar primeiro [login](lexicos.md#login)
+## Realizar primeiro [login](lexicos.md#l16)
 
 | Descrição |
 | -- |
@@ -271,7 +271,7 @@
 | **Pós Condições**|
 | Usuário efetua primeiro login no Pinterest |
 
-## Sair do aplicativo [Pinterest](lexicos.md#pinterest)
+## Sair do aplicativo [Pinterest](lexicos.md#l9)
 
 | Descrição |
 | -- |
@@ -291,7 +291,7 @@
 | [Cenário: Sair do aplicativo Pinterest](cenarios.md#sair-do-aplicativo-pinterest) |
 
 
-## [Denunciar](lexicos.md#denunciar) um [Pin](lexicos.md#pin)
+## [Denunciar](lexicos.md#l34) um [Pin](lexicos.md#l1)
 
 | Descrição |
 | -- |
@@ -311,7 +311,7 @@
 | [Cenário: Denunciar um Pin](cenarios.md#denunciar-um-pin) |
 
 
-## Classificar um [Pin](lexicos.md#pin) como [Experimentado](lexicos.md#experimentar)
+## Classificar um [Pin](lexicos.md#l1) como [Experimentado](lexicos.md#l22)
 | Descrição |
 | -- |
 | Experimentar o conteúdo de um pin e classificá-lo na aba do Pinterest de Experimentados |
@@ -329,7 +329,7 @@
 |  O pin ficará salvo na aba Experimentar do Pinterest junto com uma foto do que foi experimentado.|
 | [Cenário: Classificar um Pin como Experimentado](cenarios.md#classificar-um-pin-como-experimentado) |
 
-## Editar [Perfil](lexicos.md#perfil)
+## Editar [Perfil](lexicos.md#l17)
 | Descrição |
 | -- |
 | O usuário editar seu perfil com suas informações, podendo adionar novas ou mudá-las. |
@@ -348,7 +348,7 @@
 | [Cenário: Editar Perfil](cenarios.md#editar-perfil) |
 
 
-## Visualizar [Feed](lexicos.md#feed)
+## Visualizar [Feed](lexicos.md#l15)
 | Descrição |
 | -- |
 |  Visualizar pins de interesse do usuário pelo feed|
@@ -366,7 +366,7 @@
 | O usuário visualizará o conteúdo oferecido pelo Pinterest |
 | [Cenário: Visualizar Feed](cenarios.md#visualizar-feed) |
 
-## Receber [notificações](lexicos.md#notificacao)
+## Receber [notificações](lexicos.md#l19)
 | Descrição |
 | -- |
 | O usuário recebe notificações de pins relacionados aos seus e pins salvos por amigos. |
@@ -385,7 +385,7 @@
 | [Cenário: Receber notificações](cenarios.md#receber-notificacoes) |
 
 
-## [Classificação](lexicos.md#classificar) de [pastas](lexicos.md#pasta)
+## [Classificação](lexicos.md#l30) de [pastas](lexicos.md#l3)
 | Descrição |
 | -- |
 | O usuário escolhe a forma que quer ordenar suas pastas. |
@@ -404,7 +404,7 @@
 | [Cenário: Classificação de pastas](cenarios.md#classificacao-de-pastas) |
 
 
-## Organizar [Pasta](lexicos.md#pasta)
+## Organizar [Pasta](lexicos.md#l3)
 | Descrição |
 | -- |
 | Realocar pins em pastas ou subpastas e excluir pins |
@@ -423,7 +423,7 @@
 | [Cenário: Organizar Pasta](cenarios.md#organizar-pasta) |
 
 
-## [Pesquisar](lexicos.md#pesquisa) por tema
+## [Pesquisar](lexicos.md#l31) por tema
 
 | Descrição|
 | -- |
@@ -442,7 +442,7 @@
 | O usuário encontrará uma página repleta de pins de acordo com a temática desejada.  |
 | [Cenário: Pesquisar por tema](cenarios.md#pesquisar-por-tema) |
 
-## [Pesquisar](lexicos.md#pesquisa) por foto
+## [Pesquisar](lexicos.md#l31) por foto
 | Descrição|
 | -- |
 | Utilizar uma imagem como base de pesquisa para encontrar pins semelhantes. |
@@ -461,7 +461,7 @@
 | [Cenário: Pesquisar por foto](cenarios.md#pesquisar-por-foto) |
 
 
-## Compartilhar [Pasta](lexicos.md#pasta)
+## Compartilhar [Pasta](lexicos.md#l3)
 | Descrição|
 | -- |
 | Permitir que um outro usuário possa editar uma pasta, adicionando e removendo pins ou criando subpastas. |
@@ -479,7 +479,7 @@
 | O Usuário Convidado agora pode modificar a pasta compartilhada.  |
 | [Cenário: Compartilhar Pasta](cenarios.md#compartilhar-pasta) |
 
-## Criar [Pasta](lexicos.md#pasta)
+## Criar [Pasta](lexicos.md#l3)
 
 | Descrição|
 | -- |

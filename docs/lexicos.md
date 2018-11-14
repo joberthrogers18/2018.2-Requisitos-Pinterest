@@ -11,7 +11,7 @@
 |--|
 |  Uma imagem ou conteúdo exibido dentro do [Pinterest](#l9). <br> É a principal moeda de interação do [usuário](#l14). <br> A interação ocorre a partir deste construto. <br> Os pins estão presentes dentro do [feed](#l15). <br> Os pins possuem [interesses](#l10) relacionados a eles. <br> Os pins são salvos em [pastas](#l3). |
 |**Impacto** |
-| O Pin pode ser [compartilhado](#compartihar), comentado, [pinado](#pinar) em uma [pasta](#l3) ou [subpasta](#l4) e [baixado](#l24). <br> O [usuário](#l14) consome pins do [Pinterest](#l9) para buscar inspiração. <br> O [usuário](#l14) pode denunciar um [pin](#l1) caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#l9). <br> O [usuário](#l14) pode marcar o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#l9). |
+| O Pin pode ser [compartilhado](#compartihar), comentado, [pinado](#l2) em uma [pasta](#l3) ou [subpasta](#l4) e [baixado](#l24). <br> O [usuário](#l14) consome pins do [Pinterest](#l9) para buscar inspiração. <br> O [usuário](#l14) pode denunciar um [pin](#l1) caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#l9). <br> O [usuário](#l14) pode marcar o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#l9). |
 |**Sinônimos**|
 |Pins, Imagem, Imagens, Foto, Fotos, Post, Posts, Postagem|
 
@@ -31,9 +31,9 @@
 
 |**Noção**|
 |--|
-|	É uma coleção de [pins](#l1), contendo título para poder se diferenciar de outras coleções. <br> É utilizado pelos [usuários](#l14) para [organizar](#l33) os seus [pins](#l1) [pinados](#pinar). <br> Pode possuír sub-conjuntos denominados [subpastas](#l4). |
+|	É uma coleção de [pins](#l1), contendo título para poder se diferenciar de outras coleções. <br> É utilizado pelos [usuários](#l14) para [organizar](#l33) os seus [pins](#l1) [pinados](#l2). <br> Pode possuír sub-conjuntos denominados [subpastas](#l4). |
 |**Impacto** |
-| O [usuário](#l14) [pina](#pinar) [pins](#l1) em um pasta. <br> O [usuário](#l14) pode criar subpastas para [organizar](#l33) os [pins](#l1) da pasta. <br> O [usuário](#l14) pode convidar outros [usuários](#l14) para [colaborar](#l26) com outros [pins](#l1) dentro do [pasta](#l3). <br> Uma pasta pode ser [seguida](#l8) por outro [usuário](#l14) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#l27) para [usuários](#l14) por determinados [interesses](#l10). |
+| O [usuário](#l14) [pina](#l2) [pins](#l1) em um pasta. <br> O [usuário](#l14) pode criar subpastas para [organizar](#l33) os [pins](#l1) da pasta. <br> O [usuário](#l14) pode convidar outros [usuários](#l14) para [colaborar](#l26) com outros [pins](#l1) dentro do [pasta](#l3). <br> Uma pasta pode ser [seguida](#l8) por outro [usuário](#l14) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#l27) para [usuários](#l14) por determinados [interesses](#l10). |
 |**Sinônimos**|
 | Pastas, Board, Boards |
 
@@ -45,7 +45,7 @@
 |--|
 |	É uma coleção de [pins](#l1) interna a uma [pasta](#l3) <br> Uma pasta de [Pins](#l1) dentro de uma outra [pasta](#l3). |
 |**Impacto** |
-| O [usuário](#l14) [pina](#pinar) [pins](#l1) em uma [subpasta](#l4). <br> O [usuário](#l14) pode criar várias subpastas dentro de uma mesma [pasta](#l3). <br> O [usuário](#l14) que [colabora](#l26) com a [pasta](#l3) também colabora com suas subpastas. <br> Os [Pins](#l1) do [usuário](#l14) ficam organizados por subtemas pertencentes ao tema da pasta. <br> O conteúdo dos [pins](#l1) em uma subpasta costuma possuir alguma relação com o conteúdo da [pasta](#l3), mas formam um subconjunto próprio dentro da temática maior da [pasta](#l3) <br> É utilizado pelos [usuários](#l14) para [organizar](#l33) os seus [pins](#l1) dentro de uma [pasta](#l3). |
+| O [usuário](#l14) [pina](#l2) [pins](#l1) em uma [subpasta](#l4). <br> O [usuário](#l14) pode criar várias subpastas dentro de uma mesma [pasta](#l3). <br> O [usuário](#l14) que [colabora](#l26) com a [pasta](#l3) também colabora com suas subpastas. <br> Os [Pins](#l1) do [usuário](#l14) ficam organizados por subtemas pertencentes ao tema da pasta. <br> O conteúdo dos [pins](#l1) em uma subpasta costuma possuir alguma relação com o conteúdo da [pasta](#l3), mas formam um subconjunto próprio dentro da temática maior da [pasta](#l3) <br> É utilizado pelos [usuários](#l14) para [organizar](#l33) os seus [pins](#l1) dentro de uma [pasta](#l3). |
 |**Sinônimos**|
 | Subpastas |
 
@@ -157,7 +157,7 @@
 |--|
 | Utilizador do [Pinterest](#l9).|
 |**Impacto** |
-| [Pinterest](#l9) fornece todos os seus serviços e ferramentas ao usuário. <br> O usuário pode [compartilhar](#l12), [pinar](#pinar), [comentar](#l23) nos [pins](#l1). <br> O [usuário](#l14) pode [seguir](#l8) outros usuários, definir seus [interesses](#l10) e [explorar](#l11) no [Pinterest](#l9).  |
+| [Pinterest](#l9) fornece todos os seus serviços e ferramentas ao usuário. <br> O usuário pode [compartilhar](#l12), [pinar](#l2), [comentar](#l23) nos [pins](#l1). <br> O [usuário](#l14) pode [seguir](#l8) outros usuários, definir seus [interesses](#l10) e [explorar](#l11) no [Pinterest](#l9).  |
 |**Sinônimos**|
 |Usuários|
 
@@ -237,7 +237,7 @@
 
 |**Noção**|
 |--|
-| Aquilo que foi mostrado por um (pin)[#pin] e aplicado na vida real, podendo conter informações extras sobre essa experiência. |
+| Aquilo que foi mostrado por um [pin](#l1) e aplicado na vida real, podendo conter informações extras sobre essa experiência. |
 |**Impacto** |
 | [Usuário](#l14) experimenta [pin](#l1) <br> [Usuário](#l14) adiciona foto de experiência ao [pin](#l1) <br> [Usuário](#l14) comenta experiência <br>   |
 |**Sinônimos** |
@@ -298,9 +298,9 @@
 
 |**Noção**|
 |--|
-| Poder apagar um [pin](#l1) [salvo](#pinar) de uma [pasta](#l3) ou a própria [pasta](#l3). |
+| Poder apagar um [pin](#l1) [salvo](#l2) de uma [pasta](#l3) ou a própria [pasta](#l3). |
 |**Impacto**|
-| O [usuário](#l14) consegue deletar os [pins](#l1) [salvos](#pinar) que não são mais de seu [interesse](#l10) ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#l3), pode-se apaga-la.
+| O [usuário](#l14) consegue deletar os [pins](#l1) [salvos](#l2) que não são mais de seu [interesse](#l10) ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#l3), pode-se apaga-la.
 |**Sinônimos**|
 |Deletar, Apagar|
 
@@ -311,7 +311,7 @@
 |--|
 | Mudar um [pin](#l1) de uma [pasta](#l3) para outra ou de uma [subpasta](#l4). |
 |**Impacto**|
-| O [usuário](#l14) pode trocar a [pasta](#l3) em que um [pin](#l1) foi [salvo](#pinar). |
+| O [usuário](#l14) pode trocar a [pasta](#l3) em que um [pin](#l1) foi [salvo](#l2). |
 |**Sinônimos**|
 |Mudar de lugar, trocar|
 
@@ -331,7 +331,7 @@
 |--|
 | Ato de procurar [pins](#l1) por meio de palavras chave que estão relacionadas ao seu conteúdo, ou por imagens que seguem o mesmo padrão. |
 |**Impacto**|
-|  O [usuário](#l14) [pina](#pinar) o resultado de uma pesquisa. <br>  O [usuário](#l14) pesquisa por texto. <br> O [usuário](#l14) pesquisa por imagem. <br> O [usuário](#l14) pesquisa [pins](#l1) de um determinado [interesse](#l10). |
+|  O [usuário](#l14) [pina](#l2) o resultado de uma pesquisa. <br>  O [usuário](#l14) pesquisa por texto. <br> O [usuário](#l14) pesquisa por imagem. <br> O [usuário](#l14) pesquisa [pins](#l1) de um determinado [interesse](#l10). |
 
 ## L32
 **Conta de Usuário**
