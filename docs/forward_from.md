@@ -306,7 +306,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG42
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF42_Web.png)|
+| ![](img/forward/RF42_Mobile.png) | ![](img/forward/RF42_Web.png)|
 
 ### IMG43
 | Versão Mobile | Versão Web |
@@ -317,7 +317,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG44
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| ![](img/forward/RF44_MobilePin.jpeg) <br> ![](img/forward/RF44_MobilePerfil.jpeg) | ![](img/forward/RF44_WebPin.png) <br> ![](img/forward/RF44_WebPerfil.png) |
 
 ### IMG45
 | Versão Mobile | Versão Web |
@@ -327,17 +327,17 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG46
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF46_Web.png) |
+| ![](img/forward/RF46_Mobile2.jpeg) | ![](img/forward/RF46_Web.png) |
 
 ### IMG47
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF47_Web.png) |
+| ![](img/forward/RF47_MobileEXTRA.jpeg) | ![](img/forward/RF47_Web.png) |
 
 ### IMG48
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF48_Web.png) |
+| ![](img/forward/RF48_MobileEXTRA.jpeg) | ![](img/forward/RF48_Web.png) |
 
 ### IMG49
 | Versão Mobile | Versão Web |
@@ -347,7 +347,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG50
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF50_Web.png) |
+| ![](img/forward/RF50_Mobile.jpeg) | ![](img/forward/RF50_Web.png) |
 
 ### IMG51
 | Versão Mobile | Versão Web |
@@ -357,7 +357,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG52
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF52_Web.png) |
+| ![](img/forward/RF52_Mobile.jpeg) | ![](img/forward/RF52_Web.png) |
 
 
 ## Não funcionais
@@ -432,7 +432,9 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG66
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF14_Mobile.jpeg)| - |
+|![](img/forward/RNF14_Mobile.jpeg)| ![](img/forward/RNF14_Web.png)
+### IMG67
+ |
 
 ### IMG67
 | Versão Mobile | Versão Web |
@@ -442,7 +444,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG68
 | Versão Mobile | Versão Web |
 |---|---|
-| - | - |
+| ![](img/forward/RNF16_Mobile.png) | ![](img/forward/RNF16_Web.png) |
 
 ### IMG69
 | Versão Mobile | Versão Web |
