@@ -39,7 +39,7 @@ Este artefato busca ligar cada requisito levantado aos respectivos métodos de e
 |  RF3 | O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AD2](analise_discurso.md#requisitos-elicitados); <br> [AD7](analise_discurso.md#requisitos-elicitados); <br> [AP3](analise_protocolo.md#resulyado-dos-requisitos);  | [L - Interesse](lexicos.md#interesse); <br> [C - Definir Interesses](cenarios.md#definir-interesses); <br> [IS - Definir Interesses (Usuário)](iStar.md#definir-interesses); <br> [ DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br> [US36](backlog.md#us36); | [EF3](#ef3) |
 |  RF4 | O usuário deve ter a opção de salvar pins em um pasta | [Salvar Pins no Pinterest](backward_from.md#salvar-pins-no-pinterest) | [ST2.4](storytelling.md#storytelling-2-aprendendo-receitas-no-pinterest) | [C - Salvar um Pin](cenarios.md#salvar-um-Pin); <br> [L - Pinar](lexicos.md#pinar)<br> [DC - Salvar um Pin ](diagramas_caso_uso.md#salvar-um-pin); <br> [ECU - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin); <br> [US22](backlog.md#us22); | [EF4](#ef4) |
 |  RF5 | O app deve possuir uma barra para pesquisa por texto. | [Produtos do Pinterest](backward_from.md#produtos-do-pinterest) | [AP13](analise_protocolo.md#resultado-dos-requisitos) | [C - Pesquisar por tema](cenarios.md#pesquisar-por-tema); <br> [L - Pesquisa](lexicos.md#pesquisa); <br> [DC - Pesquisar por tema ](diagramas_caso_uso.md#pesquisar-por-tema); <br> [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema); <br> [IStar - Pesquisar Pins](iStar.md#pesquisar-pins); <br> [US34](backlog.md#us34); | [EF5](#ef5) |
-|  RF6 | O App deve possibilitar a transferência de Pins entre pastas. | [Mover Pins para outra Pasta](backward_from.md#mover-pins-para-outra-pasta) | [ENT11](entrevista.md#requisitos-elicitados) | [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas); <br> [L- Organizar](lexicos.md#organizar); <br> [C - Organizar Pastas](cenarios.md#organizar-pastas); <br> [US31](backlog.md#us31); | [EF6](#ef6) |
+|  RF6 | O App deve possibilitar a transferência de Pins entre pastas. | [Mover Pins para outra Pasta](backward_from.md#mover-pins-para-outra-pasta) | [ENT11](entrevista.md#requisitos-elicitados) | [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pasta); <br> [L- Organizar](lexicos.md#organizar); <br> [C - Organizar Pastas](cenarios.md#organizar-pasta); <br> [US31](backlog.md#us31); | [EF6](#ef6) |
 |  RF7 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado em seu feed. | [Ocultar um Pin](backward_from.md#ocultar-um-pin) | [AD2](analise_discurso.md#requisitos-elicitados); | [L - Interesse](lexicos.md#interesse); <br> [C - Definir Interesses](cenarios.md#definir-interesses); <br> [L - Ocultar](lexicos.md#ocultar); <br> [C - Ocultar um Pin](cenarios.md#ocultar-um-pin); [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin); <br> [US20](backlog.md#us20); | [EF7](#ef7) |
 |  RF8 | O App deve obter vários dados de Pins bloqueados para identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar. | [Ocultar um Pin](backward_from.md#ocultar-um-pin) | [ENT15](entrevista.md#requisitos-elicitados) | [L - Ocultar](lexicos.md#ocultar); <br> [C - Ocultar um Pin](cenarios.md#ocultar-um-pin); <br>  [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin); <br> [ECU - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin); <br> [US20](backlog.md#us20); | [EF8](#ef8) |
 |  RF9 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações | [Política de Cookies](backward_from.md#politica-de-cookies) | [INT1.5](introspeccao.md#introspeccao-1) | [L - Interesse](lexicos.md#interesse); <br> [US24](backlog.md#us24); | [EF9](#ef9) |
@@ -49,8 +49,8 @@ Este artefato busca ligar cada requisito levantado aos respectivos métodos de e
 |  RF13 | Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição | [Pins patrocinados](backward_from.md#pins-patrocinados) | [ST2.3](storytelling.md#storytelling-2-aprendendo-receitas-no-pinterest); <br> [INT2.4](introspeccao.md#introspeccao-2); | [DCU - Visualizar Pin](diagramas_caso_uso.md#visualizar-pin); <br> [ECU - Visualizar Pin](especificacoes_caso_uso.md#visualizar-pin); <br> [US15](backlog.md#us15); | [EF13](#ef13) |
 |  RF14 | O usuário deve poder adicionar novos interesses a qualquer momento após o cadastro, através de uma opção em seu perfil | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [ST1.3](storytelling.md#storytelling-1-definindo-interesses-no-pinterest); | [C - Definir Interesses](cenarios.md#definir-interesses); <br> [L - Interesses](lexicos.md#definir-interesses); <br> [DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br> [US36](backlog.md#us36); <br> [IS - Definir Interesses](iStar.md#definir-interesses); | [EF14](#ef14) |
 |  RF15 | O usuário deve poder salvar seus pins no seu dispositivo | [Pinterest Labs](backward_from.md#pinterest-labs) | [AP4](analise_protocolo.md#resultado-dos-requisitos) | [US22](backlog.md#us22); <br> [L - Pinar](lexicos.md#pinar); <br> [C- Salvar um Pin](cenarios.md#salvar-um-pin); <br> [DCU - Salvar um Pin](diagramas_caso_uso.md#salvar-um-pin); | [EF15](#ef15) |
-|  RF16 | Manter pastas | [Organizar Pastas no Pinterest](backward_from.md#organizar-pastas-no-pinterest) | [ENT11](entrevista.md#requisitos-elicitados); <br> [ST2.5](storytelling.md#storytelling-2-aprendendo-receitas-no-pinterest); <br> [ENT3](entrevista.md#requisitos-elicitados);   | [US29](backlog.md#us29); <br> [US31](backlog.md#us31); <br> [L - Pasta](lexicos.md#pasta); <br> [L - Organizar](lexicos.md#organizar); <br> [L - Excluir](lexicos.md#excluir); <br> [C - Criar Pasta](cenarios.md#criar-pasta); <br> [C - Organizar Pastas](cenarios.md#organizar-pastas); <br>  [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br> [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta); | [EF16](#ef16) |
-|  RF17 | Manter subpastas | [Organizar Pastas no Pinterest](backward_from.md#organizar-pastas-no-pinterest) | [ENT10](entrevista.md#requisitos-elicitados) | [US30](backlog.md#us30); <br> [L - Subpasta](lexicos.md#subpasta); <br> [US31](backlog.md#us31); <br> [L - Organizar](lexicos.md#organizar); <br> [L - Excluir](lexicos.md#excluir); <br> [C - Criar Pasta](cenarios.md#criar-pasta); <br> [C - Organizar Pastas](cenarios.md#organizar-pastas); <br>  [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br> [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta); <br> [ECU - Criar Pasta](especificacoes_caso_uso.md#criar-pasta); <br> [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta); | [EF17](#ef17) |
+|  RF16 | Manter pastas | [Organizar Pastas no Pinterest](backward_from.md#organizar-pastas-no-pinterest) | [ENT11](entrevista.md#requisitos-elicitados); <br> [ST2.5](storytelling.md#storytelling-2-aprendendo-receitas-no-pinterest); <br> [ENT3](entrevista.md#requisitos-elicitados);   | [US29](backlog.md#us29); <br> [US31](backlog.md#us31); <br> [L - Pasta](lexicos.md#pasta); <br> [L - Organizar](lexicos.md#organizar); <br> [L - Excluir](lexicos.md#excluir); <br> [C - Criar Pasta](cenarios.md#criar-pasta); <br> [C - Organizar Pastas](cenarios.md#organizar-pasta); <br>  [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br> [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta); | [EF16](#ef16) |
+|  RF17 | Manter subpastas | [Organizar Pastas no Pinterest](backward_from.md#organizar-pastas-no-pinterest) | [ENT10](entrevista.md#requisitos-elicitados) | [US30](backlog.md#us30); <br> [L - Subpasta](lexicos.md#subpasta); <br> [US31](backlog.md#us31); <br> [L - Organizar](lexicos.md#organizar); <br> [L - Excluir](lexicos.md#excluir); <br> [C - Criar Pasta](cenarios.md#criar-pasta); <br> [C - Organizar Pastas](cenarios.md#organizar-pasta); <br>  [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br> [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta); <br> [ECU - Criar Pasta](especificacoes_caso_uso.md#criar-pasta); <br> [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta); | [EF17](#ef17) |
 |  RF18 | A plataforma deve disponibilizar uma forma de pesquisa por imagem. | [Produtos do Pinterest](backward_from.md#produtos-do-pinterest) | [AP12](analise_protocolo.md#resultado-dos-requisitos); <br> [AD14](analise_discurso.md#requisitos-elicitados) | [US35](backlog.md#us35); [L - Pesquisar](lexicos.md#pesquisar); <br> [C - Pesquisar por Foto](cenarios.md#pesquisar-por-foto); <br> [DCU - Pesquisar por Foto](diagramas_caso_uso.md#pesquisar-por-foto); | [EF18](#ef18) |
 |  RF19 | O usuário deve poder ser redirecionado para o link da imagem de um pin, caso haja um. | [Pins patrocinados](backward_from.md#pins-patrocinados) | [AP14](analise_protocolo.md#resultado-dos-requisitos) | [US16](backlog.md#us16); <br> [L - Link](lexicos.md#link); <br> [C - Ir para a fonte de um Pin](cenarios.md#ir-para-a-fonte-de-um-pin);  | [EF19](#ef19) |
 |  RF20 | O usuário deve conseguir compartilhar pins com outros usuários | [Enviar pins, pastas e perfis](backward_from.md#enviar-pins-pastas-e-perfis) | [AD12](analise_discurso.md#requisitos-elicitados) | [US17](backlog.md#us17); <br> [L - Compartilhar](lexicos.md#compartilhar); <br> [L - Usuário](lexicos.md#usuario); <br> [C - Enviar um Pin](cenarios.md#enviar-um-pin); <br> [IS - Enviar Pin (Usuário)](iStar.md#enviar-pin); <br> [DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin); | [EF20](#ef20) |
@@ -188,12 +188,12 @@ Desenvolvimento
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas); <br>
+[DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pasta); <br>
  [L- Organizar](lexicos.md#organizar); <br>
- [C - Organizar Pastas](cenarios.md#organizar-pastas); <br>
+ [C - Organizar Pastas](cenarios.md#organizar-pasta); <br>
  [US31](backlog.md#us31); <br>
 ### Elo
-**Representação**: [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas), [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pastas) representa [C - Organizar Pastas](cenarios.md#organizar-pastas). <br>
+**Representação**: [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pasta), [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pasta). <br>
 **Alocação** : [ECU - Organizar Pastas](especificacoes_caso_uso.md#organizar-pasta) alocado em [US31](backlog.md#us31). <br>
 
 ## EF7
@@ -310,12 +310,12 @@ Desenvolvimento
  [L - Organizar](lexicos.md#organizar); <br>
  [L - Excluir](lexicos.md#excluir); <br>
 [C - Criar Pasta](cenarios.md#criar-pasta); <br>
-[C - Organizar Pastas](cenarios.md#organizar-pastas); <br>
+[C - Organizar Pastas](cenarios.md#organizar-pasta); <br>
 [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br>
  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta);<br>
 ### Elo
 **Representação**: [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta) representa [C - Criar Pasta](cenarios.md#criar-pasta).<br>
-**Representação**:  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pastas).<br>
+**Representação**:  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pasta).<br>
 **Alocação**: [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta) alocado em [US29](backlog.md#us29) e  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) alocado em [US31](backlog.md#us31).<br>
 
 ## EF17
@@ -327,13 +327,13 @@ Desenvolvimento
  [L - Organizar](lexicos.md#organizar); <br>
  [L - Excluir](lexicos.md#excluir); <br>
  [C - Criar Pasta](cenarios.md#criar-pasta); <br>
-[C - Organizar Pastas](cenarios.md#organizar-pastas); <br>  
+[C - Organizar Pastas](cenarios.md#organizar-pasta); <br>  
 [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br>
  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta); <br>
  [US31](backlog.md#us31);<br>
 [US30](backlog.md#us30); <br>
 ### Elo
-**Representação**: [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pastas). <br>
+**Representação**: [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pasta). <br>
 **Alocação**: [ECU - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta) está alocado em [US30](backlog.md#us30). <br>
 
 ## EF18
