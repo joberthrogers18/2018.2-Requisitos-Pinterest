@@ -702,7 +702,7 @@ Desenvolvimento
 [ECU - Pesquisar por Tema](especificacoes_caso_uso.md#pesquisar-por-tema); <br>
  [ECU - Pesquisar por Foto](especificacoes_caso_uso.md#pesquisar-por-foto); <br>
  [NFR - Definir Interesses](nfr.md#definir-interesses); <br>
- [NFR - Pesquisar Pins](nfr.md#pesquisar-pins);
+ [NFR - Pesquisar Pins](nfr.md#pesquisar-pins); <br>
 [US24](backlog.md#us24); <br>
  [US36](backlog.md#us36);<br>
 ### Elo
@@ -857,4 +857,4 @@ Disponível em: <https://help.pinterest.com/pt-br/article/create-a-pin-from-your
 Disponível em: <https://help.pinterest.com/pt-br/article/edit-or-delete-a-pin>
 
 ### Diretrizes da Comunidade do Pinterest
-Disponível em: https://policy.pinterest.com/pt-br/community-guidelines
+Disponível em: <https://policy.pinterest.com/pt-br/community-guidelines>
