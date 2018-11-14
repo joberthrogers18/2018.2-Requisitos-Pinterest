@@ -4,334 +4,386 @@
 
 # Léxicos
 
-## Pin
+## L1
+**Pin**
 
 |**Noção**|
 |--|
-|  Uma imagem ou conteúdo exibido dentro do [Pinterest](#pinterest). <br> É a principal moeda de interação do [usuário](#usuario). <br> A interação ocorre a partir deste construto. <br> Os pins estão presentes dentro do [feed](#feed). <br> Os pins possuem [interesses](#interesse) relacionados a eles. <br> Os pins são salvos em [pastas](#pasta). |
+|  Uma imagem ou conteúdo exibido dentro do [Pinterest](#l9). <br> É a principal moeda de interação do [usuário](#l14). <br> A interação ocorre a partir deste construto. <br> Os pins estão presentes dentro do [feed](#l15). <br> Os pins possuem [interesses](#l10) relacionados a eles. <br> Os pins são salvos em [pastas](#l3). |
 |**Impacto** |
-| O Pin pode ser [compartilhado](#compartihar), comentado, [pinado](#pinar) em uma [pasta](#pasta) ou [subpasta](#subpasta) e [baixado](#baixar-imagem). <br> O [usuário](#usuario) consome pins do [Pinterest](#pinterest) para buscar inspiração. <br> O [usuário](#usuario) pode denunciar um [pin](#pin) caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#pinterest). <br> O [usuário](#usuario) pode marcar o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#pinterest). |
+| O Pin pode ser [compartilhado](#compartihar), comentado, [pinado](#pinar) em uma [pasta](#l3) ou [subpasta](#l4) e [baixado](#l24). <br> O [usuário](#l14) consome pins do [Pinterest](#l9) para buscar inspiração. <br> O [usuário](#l14) pode denunciar um [pin](#l1) caso ele seja contra as Diretrizes da Comunidade do [Pinterest](#l9). <br> O [usuário](#l14) pode marcar o Pin como já [experimentado](#experimentado). <br> Dentro de um Pin é possível pesquisar por itens visualmente semelhantes. <br> Dentro de um Pin é possível copiar o link da imagem que redireciona para o [Pinterest](#l9). |
 |**Sinônimos**|
 |Pins, Imagem, Imagens, Foto, Fotos, Post, Posts, Postagem|
 
-## Pinar
+## L2
+**Pinar**
 
 |**Noção**|
 |--|
-| É o ato do [usuário](#usuario) [salvar um pin](cenarios.md#salvar-um-pin) em um [pasta](#pasta) para poder acessar mais tarde ou para categorizar seus [pins](#pin).  |
+| É o ato do [usuário](#l14) [salvar um pin](cenarios.md#salvar-um-pin) em um [pasta](#l3) para poder acessar mais tarde ou para categorizar seus [pins](#l1).  |
 |**Impacto** |
-| O [usuário](#usuario) pode pinar um [pin](#pin) de que ele goste. <br> O usuário guarda seus [pins](#pin) em um [pasta](#pasta).<br> O [usuário](#usuario) pode acessar posteriormente os [pins](#pin) salvos em suas [pastas](#pasta). <br> A interação de pinar aumenta a classificação de relevância do [interesse](#interesse) relacionado ao [pin](#pin) pinado, o que faz com que mais pins relacionados a este interesse apareça no [feed](#feed) do [usuário](#usuario). |
+| O [usuário](#l14) pode pinar um [pin](#l1) de que ele goste. <br> O usuário guarda seus [pins](#l1) em um [pasta](#l3).<br> O [usuário](#l14) pode acessar posteriormente os [pins](#l1) salvos em suas [pastas](#l3). <br> A interação de pinar aumenta a classificação de relevância do [interesse](#l10) relacionado ao [pin](#l1) pinado, o que faz com que mais pins relacionados a este interesse apareça no [feed](#l15) do [usuário](#l14). |
 |**Sinônimos**|
 | Pinado, Salvar, Salvo, Salva |
 
-## Pasta
+## L3
+**Pasta**
 
 |**Noção**|
 |--|
-|	É uma coleção de [pins](#pin), contendo título para poder se diferenciar de outras coleções. <br> É utilizado pelos [usuários](#usuario) para [organizar](#organizar) os seus [pins](#pin) [pinados](#pinar). <br> Pode possuír sub-conjuntos denominados [subpastas](#subpasta). |
+|	É uma coleção de [pins](#l1), contendo título para poder se diferenciar de outras coleções. <br> É utilizado pelos [usuários](#l14) para [organizar](#l33) os seus [pins](#l1) [pinados](#pinar). <br> Pode possuír sub-conjuntos denominados [subpastas](#l4). |
 |**Impacto** |
-| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em um pasta. <br> O [usuário](#usuario) pode criar subpastas para [organizar](#organizar) os [pins](#pin) da pasta. <br> O [usuário](#usuario) pode convidar outros [usuários](#usuario) para [colaborar](#colaborar) com outros [pins](#pin) dentro do [pasta](#pasta). <br> Uma pasta pode ser [seguida](#seguir) por outro [usuário](#usuario) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#recomendar) para [usuários](#usuario) por determinados [interesses](#interesse). |
+| O [usuário](#l14) [pina](#pinar) [pins](#l1) em um pasta. <br> O [usuário](#l14) pode criar subpastas para [organizar](#l33) os [pins](#l1) da pasta. <br> O [usuário](#l14) pode convidar outros [usuários](#l14) para [colaborar](#l26) com outros [pins](#l1) dentro do [pasta](#l3). <br> Uma pasta pode ser [seguida](#l8) por outro [usuário](#l14) para ser acompanhada. <br> Uma pasta pode ser [recomendada](#l27) para [usuários](#l14) por determinados [interesses](#l10). |
 |**Sinônimos**|
 | Pastas, Board, Boards |
 
 
-## Subpasta
+## L4
+**Subpasta**
 
 |**Noção**|
 |--|
-|	É uma coleção de [pins](#pin) interna a uma [pasta](#pasta) <br> Uma pasta de [Pins](#pin) dentro de uma outra [pasta](#pasta). |
+|	É uma coleção de [pins](#l1) interna a uma [pasta](#l3) <br> Uma pasta de [Pins](#l1) dentro de uma outra [pasta](#l3). |
 |**Impacto** |
-| O [usuário](#usuario) [pina](#pinar) [pins](#pin) em uma [subpasta](#subpasta). <br> O [usuário](#usuario) pode criar várias subpastas dentro de uma mesma [pasta](#pasta). <br> O [usuário](#usuario) que [colabora](#colaborar) com a [pasta](#pasta) também colabora com suas subpastas. <br> Os [Pins](#pin) do [usuário](#usuario) ficam organizados por subtemas pertencentes ao tema da pasta. <br> O conteúdo dos [pins](#pin) em uma subpasta costuma possuir alguma relação com o conteúdo da [pasta](#pasta), mas formam um subconjunto próprio dentro da temática maior da [pasta](#pasta) <br> É utilizado pelos [usuários](#usuario) para [organizar](#organizar) os seus [pins](#pin) dentro de uma [pasta](#pasta). |
+| O [usuário](#l14) [pina](#pinar) [pins](#l1) em uma [subpasta](#l4). <br> O [usuário](#l14) pode criar várias subpastas dentro de uma mesma [pasta](#l3). <br> O [usuário](#l14) que [colabora](#l26) com a [pasta](#l3) também colabora com suas subpastas. <br> Os [Pins](#l1) do [usuário](#l14) ficam organizados por subtemas pertencentes ao tema da pasta. <br> O conteúdo dos [pins](#l1) em uma subpasta costuma possuir alguma relação com o conteúdo da [pasta](#l3), mas formam um subconjunto próprio dentro da temática maior da [pasta](#l3) <br> É utilizado pelos [usuários](#l14) para [organizar](#l33) os seus [pins](#l1) dentro de uma [pasta](#l3). |
 |**Sinônimos**|
 | Subpastas |
 
-## Link
+## L5
+**Link**
 
 |**Noção**|
 |--|
-|	Texto que redireciona o [usuário](#usuario) para outra [Aba](#aba). <br> Conexão entre duas [abas](#aba) diferentes. |
+|	Texto que redireciona o [usuário](#l14) para outra [Aba](#l7). <br> Conexão entre duas [abas](#l7) diferentes. |
 |**Impacto** |
-|  Abre uma outra [aba](#aba) de acordo com o link utilizado. <br> Conecta duas [abas](#aba) diferentes do aplicativo. <br> Permite que o [usuário](#usuario) acesse a [aba](#aba) referente a um [pin](#pin) específico. <br> O Link enviado permite que qualquer [usuário](#usuario) com conta no [Pinterest](#pinterest) possa acessar a [aba](#aba) de um [pin](#pin), [pasta](#pasta) ou [subpasta](#subpasta). |
+|  Abre uma outra [aba](#l7) de acordo com o link utilizado. <br> Conecta duas [abas](#l7) diferentes do aplicativo. <br> Permite que o [usuário](#l14) acesse a [aba](#l7) referente a um [pin](#l1) específico. <br> O Link enviado permite que qualquer [usuário](#l14) com conta no [Pinterest](#l9) possa acessar a [aba](#l7) de um [pin](#l1), [pasta](#l3) ou [subpasta](#l4). |
 |**Sinônimos**|
 |linkar, linkado|
 
-## Logado
+## L6
+**Logado**
 
 |**Noção**|
 |--|
-|	Estado do [usuário](#usuario) após ter feito o [login](#login) com uma [conta de usuário](#conta-de-usuario), podendo usufruir das funcionalidades do aplicativo.|
+|	Estado do [usuário](#l14) após ter feito o [login](#l16) com uma [conta de usuário](#l32), podendo usufruir das funcionalidades do aplicativo.|
 |**Impacto** |
-| Permite que o [usuário](#usuario) preserve um histórico de pesquisas e [mensagens](mensagens). <br> Permite que o [usuário](#usuario) crie [pastas](#pastas) e as [compartilhe](#compartilhar). <br> Permite que o usuário edite informações do seu [perfil](#perfil).|
+| Permite que o [usuário](#l14) preserve um histórico de pesquisas e [mensagens](mensagens). <br> Permite que o [usuário](#l14) crie [pastas](#pastas) e as [compartilhe](#l12). <br> Permite que o usuário edite informações do seu [perfil](#l17).|
 |**Sinônimos**|
 | Autenticado |
 
-## Aba
+## L7
+**Aba**
 
 |**Noção**|
 |--|
-|	Representação da divisão de conteúdos do [Pinterest](#pinterest). <br> Tela visualizada em alguma opção selecionada do aplicativo. <br> Ambiente virtual em que se realizam ações no [Pinterest](#pinterest).|
+|	Representação da divisão de conteúdos do [Pinterest](#l9). <br> Tela visualizada em alguma opção selecionada do aplicativo. <br> Ambiente virtual em que se realizam ações no [Pinterest](#l9).|
 |**Impacto** |
-| Permite que o [usuário](#usuario) realize as ações referentes àquela aba específica. <br> Categoriza o aplicativo em diferentes ambientes e funcionalidades. <br> Modulariza o [Pinterest](#pinterest) de acordo com a usabilidade do [usuário](#usuario).  |
+| Permite que o [usuário](#l14) realize as ações referentes àquela aba específica. <br> Categoriza o aplicativo em diferentes ambientes e funcionalidades. <br> Modulariza o [Pinterest](#l9) de acordo com a usabilidade do [usuário](#l14).  |
 |**Sinônimos**|
 | Página, Páginas, Abas |
 
-## Seguir
+## L8
+**Seguir**
 
 |**Noção**|
 |--|
 |		Ato de acompanhar as publicações de outros [usuários](#usuarios) e receber todas as atualizações de [pins](#pins). |
 |**Impacto** |
-| O [Usuário](#usuario) que segue recebe [notificações](#notificacao) do conteúdo publicado por outro [usuário](#usuario). <br> O [Usuário](#usuario) que segue uma [pasta](#pasta) recebe [notficiações](#notificacao) de alterações nos [pins](#pin) e [subpastas](#subpasta). |
+| O [Usuário](#l14) que segue recebe [notificações](#l19) do conteúdo publicado por outro [usuário](#l14). <br> O [Usuário](#l14) que segue uma [pasta](#l3) recebe [notficiações](#l19) de alterações nos [pins](#l1) e [subpastas](#l4). |
 |**Sinônimos**|
 |Seguidores, Seguido, Seguidos, Seguindo, Seguidor|
 
-## Pinterest
+## L9
+**Pinterest**
 
 |**Noção**|
 |--|
-|		Serviço de compartilhamento de imagens ([pins](#pin)) em que os [usuários](#usuario) acessam em busca de inspiração e de ver imagens relacionadas aos seus [interesses](#interesse) profissionais ou pessoais. |
+|		Serviço de compartilhamento de imagens ([pins](#l1)) em que os [usuários](#l14) acessam em busca de inspiração e de ver imagens relacionadas aos seus [interesses](#l10) profissionais ou pessoais. |
 |**Impacto** |
-| O Pinterest é uma plataforma de [compartilhamento](#compartilhar) de [pins](#pin) <br> O [usuário](#usuario) do Pinterest gosta de ver [pins](#pin) e pode adicioná-los a um [pasta](#pasta). <br> O [Usuário](#usuario) pode [organizar](#organizar) as [imagens](#pin) de seu [interesse](#interesse) e de um mesmo tema em conjuntos [organizados](#organizar) como [pastas](#pasta) |
+| O Pinterest é uma plataforma de [compartilhamento](#l12) de [pins](#l1) <br> O [usuário](#l14) do Pinterest gosta de ver [pins](#l1) e pode adicioná-los a um [pasta](#l3). <br> O [Usuário](#l14) pode [organizar](#l33) as [imagens](#l1) de seu [interesse](#l10) e de um mesmo tema em conjuntos [organizados](#l33) como [pastas](#l3) |
 |**Sinônimos**|
 | - |
 
 
-## Interesse
+## L10
+**Interesse**
 
 |**Noção**|
 |--|
-| Tema recorrente e em comum entre os [Pins](#pin) que o [usuário](#usuario) acessa ou salva. <br> Correlação das temáticas mais acessadas pelo [usuário](#usuario)  |
+| Tema recorrente e em comum entre os [Pins](#l1) que o [usuário](#l14) acessa ou salva. <br> Correlação das temáticas mais acessadas pelo [usuário](#l14)  |
 |**Impacto** |
-| Os [usuários](#usuario) definem seus interesses de seus [pins](#pin) mostrados. <br> O [Pinterest](#pinterest) pode definir os temas dos [pins](#pin) que aparecerão no [feed](#feed) do usuário <br> As indicações de [pastas](#pasta) que o [usuário](#usuario) recebe passam a ser direcionadas para seus interesses. <br> O [Usuário](#usuario) passa a ter mais facilidade em encontrar [Pins](#pin) que lhe agradem. <br> O interesse é afetado pela interação do [usuário](#usuario) com os [pins](#pin) de seu [feed](#feed). |
+| Os [usuários](#l14) definem seus interesses de seus [pins](#l1) mostrados. <br> O [Pinterest](#l9) pode definir os temas dos [pins](#l1) que aparecerão no [feed](#l15) do usuário <br> As indicações de [pastas](#l3) que o [usuário](#l14) recebe passam a ser direcionadas para seus interesses. <br> O [Usuário](#l14) passa a ter mais facilidade em encontrar [Pins](#l1) que lhe agradem. <br> O interesse é afetado pela interação do [usuário](#l14) com os [pins](#l1) de seu [feed](#l15). |
 |**Sinônimos**|
 | Interesses, Gosto, Gostos |
 
-## Explorar
+## L11
+**Explorar**
 
 |**Noção**|
 |--|
-| Ato de descoberta orgânica de novos [pins](#pin) e [interesses](#interesse) dentro do [Pinterest](#pinterest). Também pode se referir a [aba](#aba) de exploração, que fornece funcionalidade de auxílio à descoberta de conteúdo. |
+| Ato de descoberta orgânica de novos [pins](#l1) e [interesses](#l10) dentro do [Pinterest](#l9). Também pode se referir a [aba](#l7) de exploração, que fornece funcionalidade de auxílio à descoberta de conteúdo. |
 |**Impacto** |
-| Os [usuários](#usuario) definem seus [interesses](#interesse) que impactam os [pins](#pin) que são mostrados atravéz da exploração do conteúdo. <br> O [Usuário](#usuario) tem acesso a [Pins](#pin) recentes conforme seus [interesses](#interesse). <br> O [Usuário](#usuario) pode encontrar [Pins](#pin) que o ajudem a definir novos [interesses](#interesse) |
+| Os [usuários](#l14) definem seus [interesses](#l10) que impactam os [pins](#l1) que são mostrados atravéz da exploração do conteúdo. <br> O [Usuário](#l14) tem acesso a [Pins](#l1) recentes conforme seus [interesses](#l10). <br> O [Usuário](#l14) pode encontrar [Pins](#l1) que o ajudem a definir novos [interesses](#l10) |
 |**Sinônimos**|
 | - |
 
-## Compartilhar
+## L12
+**Compartilhar**
 
 |**Noção**|
 |--|
-| Ato de enviar os [pins](#pin) de seu [interesse](#interesse) para outros [usuários](#usuario) e também para pessoas que não possuam conta no [Pinterest](#pinterest). <br> Enviar o [link](#link) de um [pin](#pin) para uma outra rede social |
+| Ato de enviar os [pins](#l1) de seu [interesse](#l10) para outros [usuários](#l14) e também para pessoas que não possuam conta no [Pinterest](#l9). <br> Enviar o [link](#l5) de um [pin](#l1) para uma outra rede social |
 |**Impacto** |
-| Os [usuários](#usuario) compartilham [pins](#pin), [pastas](#pasta). <br> Pessoas que não utilizam o [Pinterest](#pinterest) podem acessar um determinado [pin](#pin) <br> [Usuários](#usuario) podem acessar uma [aba](#aba) específica ao se compartilhar o [link](#link) dessa aba. |
+| Os [usuários](#l14) compartilham [pins](#l1), [pastas](#l3). <br> Pessoas que não utilizam o [Pinterest](#l9) podem acessar um determinado [pin](#l1) <br> [Usuários](#l14) podem acessar uma [aba](#l7) específica ao se compartilhar o [link](#l5) dessa aba. |
 |**Sinônimos**|
 |Compartilhado|
 
 
-## Ocultar
+## L13
+**Ocultar**
 
 |**Noção**|
 |--|
-| Remove o [pin](#pin) do [feed](#feed) do [usuário](#usuario) do Pinterest. <br> Indicar que o [interesse](#interesse) que gerou aquele [pin](#pin) pode não mais ser relevante.|
+| Remove o [pin](#l1) do [feed](#l15) do [usuário](#l14) do Pinterest. <br> Indicar que o [interesse](#l10) que gerou aquele [pin](#l1) pode não mais ser relevante.|
 |**Impacto** |
-| Conforme o [usuário](#usuario) oculte [pins](#pin) de determinado interesse, a relevância desse interesse diminui. <br> O [Pinterest](#pinterest) impede que [Pins](#pin) daquele mesmo [interesse](#interesse) seja mostrado ao [usuário](#usuario) no [feed](#feed). <br> O [Pinterest](#pinterest) pode fazer com que aquele [pin](#pin) seja removido ao ser ocultado de muitos [feeds](#feed)|
+| Conforme o [usuário](#l14) oculte [pins](#l1) de determinado interesse, a relevância desse interesse diminui. <br> O [Pinterest](#l9) impede que [Pins](#l1) daquele mesmo [interesse](#l10) seja mostrado ao [usuário](#l14) no [feed](#l15). <br> O [Pinterest](#l9) pode fazer com que aquele [pin](#l1) seja removido ao ser ocultado de muitos [feeds](#l15)|
 |**Sinônimos**|
 | Bloquear |
 
-## Usuário
+## L14
+**Usuário**
 
 |**Noção**|
 |--|
-| Utilizador do [Pinterest](#pinterest).|
+| Utilizador do [Pinterest](#l9).|
 |**Impacto** |
-| [Pinterest](#pinterest) fornece todos os seus serviços e ferramentas ao usuário. <br> O usuário pode [compartilhar](#compartilhar), [pinar](#pinar), [comentar](#comentar) nos [pins](#pin). <br> O [usuário](#usuario) pode [seguir](#seguir) outros usuários, definir seus [interesses](#interesse) e [explorar](#explorar) no [Pinterest](#pinterest).  |
+| [Pinterest](#l9) fornece todos os seus serviços e ferramentas ao usuário. <br> O usuário pode [compartilhar](#l12), [pinar](#pinar), [comentar](#l23) nos [pins](#l1). <br> O [usuário](#l14) pode [seguir](#l8) outros usuários, definir seus [interesses](#l10) e [explorar](#l11) no [Pinterest](#l9).  |
 |**Sinônimos**|
 |Usuários|
 
-## Feed
+## L15
+**Feed**
 
 |**Noção**|
 |--|
-| Formato de dados usado em formas de comunicação com conteúdo atualizado frequentemente. Visualização do conteúdo disponibilizado no [Pinterest](#pinterest) em formato de entrega contínua e infinita.  |
+| Formato de dados usado em formas de comunicação com conteúdo atualizado frequentemente. Visualização do conteúdo disponibilizado no [Pinterest](#l9) em formato de entrega contínua e infinita.  |
 |**Impacto** |
-| Após [logar](#login) e definir os interesses, o feed do [Pinterest](#pinterest) tende a mostrar [pins](#pin) que agrada o [usuário](#usuario). <br> Um feed pode ser alterado pela pesquisa para exibir pins relacionados a determinado interesse ou a palavra chave de pesquisa. |
+| Após [logar](#l16) e definir os interesses, o feed do [Pinterest](#l9) tende a mostrar [pins](#l1) que agrada o [usuário](#l1). <br> Um feed pode ser alterado pela pesquisa para exibir pins relacionados a determinado interesse ou a palavra chave de pesquisa. |
 
-## Login
+## L16
+**Login**
 
 |**Noção**|
 |--|
-| Ter acesso a uma [conta](#perfil) previamente cadastrada usando os dados do [usuario](#usuario). |
+| Ter acesso a uma [conta](#l17) previamente cadastrada usando os dados do [usuario](#l14). |
 |**Impacto** |
-| Logando com a [conta](#perfil), o [usuário](#usuario) pode definir seus [interesses](#interesse), vizualizar [pins](#pin), além de poder desfrutar de outras funcionalidades no [Pinterest](#pinterest). |
+| Logando com a [conta](#l17), o [usuário](#l14) pode definir seus [interesses](#l10), vizualizar [pins](#l1), além de poder desfrutar de outras funcionalidades no [Pinterest](#l9). |
 |**Sinônimos**|
 | autenticar |
 
-## Perfil
+## L17
+**Perfil**
 
 |**Noção**|
 |--|
-| Conjuto de dados cadastrados e [interesses](#interesse) definidos pelo [usuário](#usuario) para identifica-lo. Criado a partir do término do [cadastro](#cadastro).|
+| Conjuto de dados cadastrados e [interesses](#l10) definidos pelo [usuário](#l14) para identifica-lo. Criado a partir do término do [cadastro](#cadastro).|
 |**Impacto** |
-| Com o perfil de [usuário](#usuario) é possivel que outros [usuários](#usuario) possam reconhecê-lo, [seguir](#seguir) uns ao outros, mandar [mensagens](#mensagem) ou [compartilhar](#compartilhar) [pins](#pin) e [pastas](#pasta). |
+| Com o perfil de [usuário](#l14) é possivel que outros [usuários](#l14) possam reconhecê-lo, [seguir](#l8) uns ao outros, mandar [mensagens](#l18) ou [compartilhar](#l12) [pins](#l1) e [pastas](#l3). |
 |**Sinônimos**|
 |Conta|
 
-## Mensagem
+## L18
+**Mensagem**
 
 |**Noção**|
 |--|
-| Forma de comunicação com um ou mais [usuários](#usuario) no formato de texto, também podendo conter um [pin](#pin) dentro dela. |
+| Forma de comunicação com um ou mais [usuários](#l14) no formato de texto, também podendo conter um [pin](#l1) dentro dela. |
 |**Impacto** |
-| O [usuário](#usuario) pode se comunicar com outros usuários podendo começar uma conversa de texto ou [compartilhar](#compartilhar) um [pin](#pin). |
-| Quando o [usuário](#usuario) destinatário vizualiza a mensagem, aparece uma indicação de leitura para quem enviou a mensagem. |
+| O [usuário](#l14) pode se comunicar com outros usuários podendo começar uma conversa de texto ou [compartilhar](#l12) um [pin](#l1). |
+| Quando o [usuário](#l14) destinatário vizualiza a mensagem, aparece uma indicação de leitura para quem enviou a mensagem. |
 
-## Notificação
+## L19
+**Notificação**
 
 |**Noção**|
 |--|
-| Ato de mandar um aviso ao [usuário](#usuario) sobre novas relações com suas [pastas](#pasta), novos [seguidores](#seguir), ou [recomendações](#recomendar). |
+| Ato de mandar um aviso ao [usuário](#l14) sobre novas relações com suas [pastas](#l3), novos [seguidores](#l8), ou [recomendações](#l27). |
 |**Impacto** |
-|O [usuário](#usuario) é comunicado de novas interações por um ícone em seu [feed](#feed) deixando-o informado.
+|O [usuário](#l14) é comunicado de novas interações por um ícone em seu [feed](#l15) deixando-o informado.
 |**Sinônimos**|
 |Aviso, notificado, informado, avisado|
 
-## Crash
+## L20
+**Crash**
 
 |**Noção**|
 |--|
 | Termo da computação que indica encerramento inesperado da aplicação em execução. |
 |**Impacto** |
-|O aplicativo fecha e o [usuário](#usuario) deixa de concluir qualquer ação no app. |
+|O aplicativo fecha e o [usuário](#l14) deixa de concluir qualquer ação no app. |
 
 
-## Aba Salvos
+## L21
+**Aba Salvos**
+
 |**Noção**|
 |--|
-| [Aba](#aba) que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#pasta), [pins](#pin), [experiências](#experimentar) e [interesses](#interesse) do [usuário](#usuario), além de dados do [perfil](#perfil). |
+| [Aba](#l7) que se encontra na barra inferior e fica disponível durante toda a navegação. Guarda as [pastas](#l3), [pins](#l1), [experiências](#l22) e [interesses](#l10) do [usuário](#l14), além de dados do [perfil](#l17). |
 |**Impacto** |
-| O [usuário](#usuario) pode  por suas [pastas](#pasta) e [pins](#pin). <br> Na aba salvo o [usuário](#usuario) pode visualizar dados, [pins](#pin) e [pastas](#pasta). |
+| O [usuário](#l14) pode  por suas [pastas](#l3) e [pins](#l1). <br> Na aba salvo o [usuário](#l14) pode visualizar dados, [pins](#l1) e [pastas](#l3). |
 
-## Experimentar
+## L22
+**Experimentar**
+
 |**Noção**|
 |--|
 | Aquilo que foi mostrado por um (pin)[#pin] e aplicado na vida real, podendo conter informações extras sobre essa experiência. |
 |**Impacto** |
-| [Usuário](#usuario) experimenta [pin](#pin) <br> [Usuário](#usuario) adiciona foto de experiência ao [pin](#pin) <br> [Usuário](#usuario) comenta experiência <br>   |
+| [Usuário](#l14) experimenta [pin](#l1) <br> [Usuário](#l14) adiciona foto de experiência ao [pin](#l1) <br> [Usuário](#l14) comenta experiência <br>   |
 |**Sinônimos** |
 | Experiências |
 
-## Comentar
+## L23
+**Comentar**
+
 |**Noção**|
 |--|
-| Ato do [usuário](#usuario) fazer observações e deixar opniões sobre o [pin](#pin).|
+| Ato do [usuário](#l14) fazer observações e deixar opniões sobre o [pin](#l1).|
 |**Impacto**|
-|O [usuário](#usuario) pode comentar em [pins](#pin) de seu interesse. <br> O [usuário](#usuario) tem a opção de comentar em [pins](#pin) que não concorda. <br> Qualquer [usuário](#usuario) que acesse o [pin](#pin) pode ver seus comentários. |
+|O [usuário](#l14) pode comentar em [pins](#l1) de seu interesse. <br> O [usuário](#l14) tem a opção de comentar em [pins](#l1) que não concorda. <br> Qualquer [usuário](#l14) que acesse o [pin](#l1) pode ver seus comentários. |
 | **Sinônimos**|
 |Comentário, Comentários|
 
 
-## Baixar Imagem
-|**Noção**|
-|--|
-| Ato de o [usuário](#usuario) fazer download de uma [imagem](#pin) para seu dispositivo pessoal. |
-|**Impacto**|
-| O [usuaŕio](#usuario) pode baixar [imagem](#pin) para usar como papel de parede em seu dispositivo. <br>  O [usuário](#usuario) pode baixar a [imagem](#pin) e poder usar em outros lugares. |
+## L24
+**Baixar Imagem**
 
-## Copiar Imagem
 |**Noção**|
 |--|
-| Ato de copiar o link do caminho do [pin](#pin) no [Pinterest](#pinterest). |
+| Ato de o [usuário](#l14) fazer download de uma [imagem](#l1) para seu dispositivo pessoal. |
 |**Impacto**|
-| O [usuaŕio](#usuario) pode copiar a imagem para enviar para outros [usuários](#usuario) em outras rede sociais. <br> O [usuário](#usuario) pode copiar a [imagem](#pin) e poder usar em outros lugares.  |
+| O [usuaŕio](#l14) pode baixar [imagem](#l1) para usar como papel de parede em seu dispositivo. <br>  O [usuário](#l14) pode baixar a [imagem](#l1) e poder usar em outros lugares. |
 
-## Colaborar
+## L25
+**Copiar Imagem**
+
 |**Noção**|
 |--|
-| [Usuários](#usuario) recebe permissão para gerênciar [pastas](#pasta) e subpastas. |
+| Ato de copiar o link do caminho do [pin](#l1) no [Pinterest](#l9). |
 |**Impacto**|
-| [Usuários](#usuario) pode salvar [pins](#pin). <br> [Usuários](#usuario) pode remove [pins](#pin). <br> [Usuários](#usuario) pode criar [subpastas](#pasta).|
+| O [usuaŕio](#l14) pode copiar a imagem para enviar para outros [usuários](#l14) em outras rede sociais. <br> O [usuário](#l14) pode copiar a [imagem](#l1) e poder usar em outros lugares.  |
+
+## L26
+**Colaborar**
+
+|**Noção**|
+|--|
+| [Usuários](#l14) recebe permissão para gerênciar [pastas](#l3) e subpastas. |
+|**Impacto**|
+| [Usuários](#l14) pode salvar [pins](#l1). <br> [Usuários](#l14) pode remove [pins](#l1). <br> [Usuários](#l14) pode criar [subpastas](#l3).|
 |**Sinônimos**|
 | Colabora |
 
-## Recomendar
-|**Noção**|
-|--|
-| O [Pinterest](#pinterest) pode indicar novos [pins](#pin) de acordo com as atividades recentes do [usuários](#usuario). |
-|**Impacto**|
-| O [Pinterest](#pinterest) recomenda [pins](#pin) mais próximos ao [interesses](#interesse) e ao uso do [usuário](#usuario). <br> O [usuário](#usuario) pode receber recomendações de [pins](#pin) relacionado a [usuários](#usuario) a qual essa pessoa [segue](#seguir). |
+## L27
+**Recomendar**
 
-## Excluir
 |**Noção**|
 |--|
-| Poder apagar um [pin](#pin) [salvo](#pinar) de uma [pasta](#pasta) ou a própria [pasta](#pasta). |
+| O [Pinterest](#l9) pode indicar novos [pins](#l1) de acordo com as atividades recentes do [usuários](#l14). |
 |**Impacto**|
-| O [usuário](#usuario) consegue deletar os [pins](#pin) [salvos](#pinar) que não são mais de seu [interesse](#interesse) ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#pasta), pode-se apaga-la.
+| O [Pinterest](#l9) recomenda [pins](#l1) mais próximos ao [interesses](#l10) e ao uso do [usuário](#l14). <br> O [usuário](#l14) pode receber recomendações de [pins](#l1) relacionado a [usuários](#l14) a qual essa pessoa [segue](#l8). |
+
+## L28
+**Excluir**
+
+|**Noção**|
+|--|
+| Poder apagar um [pin](#l1) [salvo](#pinar) de uma [pasta](#l3) ou a própria [pasta](#l3). |
+|**Impacto**|
+| O [usuário](#l14) consegue deletar os [pins](#l1) [salvos](#pinar) que não são mais de seu [interesse](#l10) ou não queira mais em seus arquivos, assim também se não quiser mais alguma [pasta](#l3), pode-se apaga-la.
 |**Sinônimos**|
 |Deletar, Apagar|
 
-## Mover [Pin](#pin)
+## L29
+**Mover [Pin](#l1)**
+
 |**Noção**|
 |--|
-| Mudar um [pin](#pin) de uma [pasta](#pasta) para outra ou de uma [subpasta](#subpasta). |
+| Mudar um [pin](#l1) de uma [pasta](#l3) para outra ou de uma [subpasta](#l4). |
 |**Impacto**|
-| O [usuário](#usuario) pode trocar a [pasta](#pasta) em que um [pin](#pin) foi [salvo](#pinar). |
+| O [usuário](#l14) pode trocar a [pasta](#l3) em que um [pin](#l1) foi [salvo](#pinar). |
 |**Sinônimos**|
 |Mudar de lugar, trocar|
 
-## Classificar
+## L30
+**Classificar**
+
 |**Noção**|
 |--|
 | Organizar suas pastas em categorias. |
 |**Impacto**|
-| O [usuário](#usuario) pode poder mudar a ordem da organização das suas [pastas](#pasta). |
+| O [usuário](#l14) pode poder mudar a ordem da organização das suas [pastas](#l3). |
 
-## Pesquisa
+## L31
+**Pesquisa**
+
 |**Noção**|
 |--|
-| Ato de procurar [pins](#pin) por meio de palavras chave que estão relacionadas ao seu conteúdo, ou por imagens que seguem o mesmo padrão. |
+| Ato de procurar [pins](#l1) por meio de palavras chave que estão relacionadas ao seu conteúdo, ou por imagens que seguem o mesmo padrão. |
 |**Impacto**|
-|  O [usuário](#usuario) [pina](#pinar) o resultado de uma pesquisa. <br>  O [usuário](#usuario) pesquisa por texto. <br> O [usuário](#usuario) pesquisa por imagem. <br> O [usuário](#usuario) pesquisa [pins](#pin) de um determinado [interesse](#interesse). |
+|  O [usuário](#l14) [pina](#pinar) o resultado de uma pesquisa. <br>  O [usuário](#l14) pesquisa por texto. <br> O [usuário](#l14) pesquisa por imagem. <br> O [usuário](#l14) pesquisa [pins](#l1) de um determinado [interesse](#l10). |
 
-## Conta de Usuário
+## L32
+**Conta de Usuário**
+
 |**Noção**|
 |--|
-|	Agrupamento de dados que representa um [usuário](#usuario) registrado do [pinterest](#pinterest), criado após o [cadastro](cenarios.md#cadastro-de-usuario) de uma pessoa no serviço. |
+|	Agrupamento de dados que representa um [usuário](#l14) registrado do [pinterest](#l9), criado após o [cadastro](cenarios.md#cadastro-de-usuario) de uma pessoa no serviço. |
 |**Impacto** |
-| Para que o [usuário](#usuario) interaja com o várias funções do sistema é necessário possuir uma conta de usuário. |
+| Para que o [usuário](#l14) interaja com o várias funções do sistema é necessário possuir uma conta de usuário. |
 |**Sinônimos**|
 | Conta |
 
-## Organizar
+## L33
+**Organizar**
+
 |**Noção**|
 |--|
-|	Permite ao [usuário](#usuario) modificar o agrupamento de [pins](#pin) em [pastas](#pasta) e [subpastas](#subpasta). |
+|	Permite ao [usuário](#l14) modificar o agrupamento de [pins](#l1) em [pastas](#l3) e [subpastas](#l4). |
 |**Impacto** |
-| O [usuário](#usuario) move [pins](#pin) entre [pastas](#pasta) e [subpastas](#subpasta). <br> O [usuário](#usuario) pode excluir [pins](#pin) de [pastas](#pasta) e [subpastas](#subpasta). <br> O [usuário](#usuario) pode excluir [pastas](#pasta) e [subpastas](#subpasta).|
+| O [usuário](#l14) move [pins](#l1) entre [pastas](#l3) e [subpastas](#l4). <br> O [usuário](#l14) pode excluir [pins](#l1) de [pastas](#l3) e [subpastas](#l4). <br> O [usuário](#l14) pode excluir [pastas](#l3) e [subpastas](#l4).|
 |**Sinônimos**|
 | Reorganizar, Reordenar, Modificar Pasta |
 
-## Denunciar
+## L34
+**Denunciar**
+
 |**Noção**|
 |--|
-|	Ato de relatar a [comunidade](#comunidade) do [Pinterest](#pinterest) um [pin](#pin) com conteúdo indevido. |
+|	Ato de relatar a [comunidade](#l35) do [Pinterest](#l9) um [pin](#l1) com conteúdo indevido. |
 |**Impacto** |
-| O [pin](#pin) é [ocultado](#ocultar) para o [usuário](#usuario). <br> O [pin](#pin) é avaliado pela [comunidade](#comunidade) do [Pinterest](#pinterest) se ele realmente possui conteúdo impróprio ao app. |
+| O [pin](#l1) é [ocultado](#l13) para o [usuário](#l14). <br> O [pin](#l1) é avaliado pela [comunidade](#l35) do [Pinterest](#l9) se ele realmente possui conteúdo impróprio ao app. |
 |**Sinônimos**|
 | Reportar, Denunciado, Denunciados |
 
-## Comunidade
+## L35
+**Comunidade**
+
 |**Noção**|
 |--|
-|	Grupo de pessoas que administram o [Pinterest](#pinterest). |
+|	Grupo de pessoas que administram o [Pinterest](#l9). |
 |**Impacto** |
-| Pessoas administram os [pins](#pin) do [Pinterest](#pinterest) para os [usuários](#usuario). <br> Grupo que avalia os [pins](#pin) [denunciados](#denunciar) pelos [usuários](#usuario). <br> Grupo que fiscaliza se há conteúdo impróprio nos [pins](#pin) postados pelos [usuários](#usuario). |
+| Pessoas administram os [pins](#l1) do [Pinterest](#l9) para os [usuários](#l14). <br> Grupo que avalia os [pins](#l1) [denunciados](#l34) pelos [usuários](#l14). <br> Grupo que fiscaliza se há conteúdo impróprio nos [pins](#l1) postados pelos [usuários](#l14). |
 |**Sinônimos**|
 | Administradores |
 
-## Navegar
+## L36
+**Navegar**
+
 |**Noção**|
 |--|
-|	Percorrer as [abas](#aba) do [Pinterest](#pinterest). |
+|	Percorrer as [abas](#l7) do [Pinterest](#l9). |
 |**Impacto** |
-| [Usuários](#usuario) acessam as funcionalidades do [Pinterest](#pinterest). <br> [Usuário](#usuario) percorre [página](#aba) inicial. <br> [Usuário](#usuario) navega pelas [pastas](#pasta) de [pins](#pin) salvos. <br> [Usuário](#usuario) entra na página de notificações. <br> [Usuário](#usuario) acessa [página](#aba) de [interesses](#interesse) e [usuários](#usuario) que está seguindo. |
+| [Usuários](#l14) acessam as funcionalidades do [Pinterest](#l9). <br> [Usuário](#l14) percorre [página](#l7) inicial. <br> [Usuário](#l14) navega pelas [pastas](#l3) de [pins](#l1) salvos. <br> [Usuário](#l14) entra na página de notificações. <br> [Usuário](#l14) acessa [página](#l7) de [interesses](#l10) e [usuários](#l14) que está seguindo. |
 |**Sinônimos**|
 | Percorrer |
