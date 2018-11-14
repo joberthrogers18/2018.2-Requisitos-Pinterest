@@ -84,7 +84,9 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |  RNF17 | O pinterest deve manter políticas de moderação de seu conteúdo dentro da aplicação. | [NFR - Segurança](nfr.md#seguranca) |  "Ferramentas de moderação"; <br>"Regras claras sobre conteúdo permitido". | [IMG69](forward_from.md#img69) |
 |  RNF18 | O pinterest deve manter a integridade dos dados fornecidos pelo usuário em sua conta. | [NFR - Segurança](nfr.md#seguranca) | "Tráfego de rede criptografado"; <br> "Criptografia nas informações de conta de usuário dentro da base de dados do sistema". | [IMG70](forward_from.md#img70) |
 
-## Imagens
+# Imagens
+
+## Funcionais
 
 ### IMG01
 
@@ -358,17 +360,17 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 | X | ![](img/forward/RF52_Web.png) |
 
 
-//////////////// Não Funcionais
+## Não funcionais
 
 ### IMG53
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF01_Mobile.jpeg)| ![](img/forward/RNF01_Web.png) |
+|-| - |
 
 ### IMG54
-| Versão Mobile | Versão Web |
-|---|---|
-|![](img/forward/RNF02_Mobile.jpeg)| ![](img/forward/RNF02_Web.png) |
+| Site |
+|---|
+|![](img/forward/RNF02.png)|
 
 ### IMG55
 | Versão Mobile | Versão Web |
@@ -378,17 +380,17 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG56
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF04_Mobile.jpeg)| ![](img/forward/RNF04_Web.png) |
+|![](img/forward/RNF04_Mobile.jpeg)| - |
 
 ### IMG57
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF05_Mobile.jpeg)| x |
+|-| - |
 
 ### IMG58
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+|![](img/forward/RNF06_Mobile.jpeg)| ![](img/forward/RNF06_Web.png) |
 
 ### IMG59
 | Site |
@@ -403,12 +405,12 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG61
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+|-| ![](img/forward/RNF09_Web.png) |
 
 ### IMG62
 | Versão Mobile | Versão Web |
 |---|---|
-| Não possui representação visual na aplicação | Não possui representação visual na aplicação |
+|-| - |
 
 ### IMG63
 | Versão Mobile Fluxo 1|  Versão Mobile Fluxo 2|
@@ -420,27 +422,27 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG64
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF12_Mobile.jpeg)| ![](img/forward/RNF12_Web.png) |
+|-|![](img/forward/RNF12_Web.png)|
 
 ### IMG65
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+|-|![](img/forward/RNF13_Web.png)|
 
 ### IMG66
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF14_Mobile.jpeg)| Não possui representação visual na aplicação |
+|![](img/forward/RNF14_Mobile.jpeg)| - |
 
 ### IMG67
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF15_Mobile.jpeg)| Não possui representação visual na aplicação |
+|![](img/forward/RNF15_Mobile.jpeg)| - |
 
 ### IMG68
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| - | - |
 
 ### IMG69
 | Versão Mobile | Versão Web |
@@ -450,4 +452,4 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG70
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| - | - |
