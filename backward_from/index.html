@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Backward-From";
     var mkdocs_page_input_path = "backward_from.md";
-    var mkdocs_page_url = "/backward_from/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -629,7 +630,7 @@
 <tr>
 <td align="center">RF24</td>
 <td align="center">O usuário deve poder ocultar e denunciar pins.</td>
-<td align="center"><a href="./#ocultar-um-pin">Ocultar um Pin</a> e <a href="../backward_from.dm#denunciar-algo-no-pinterest">Denunciar algo no Pinterest</a></td>
+<td align="center"><a href="./#ocultar-um-pin">Ocultar um Pin</a> e <a href="backward_from.dm#denunciar-algo-no-pinterest">Denunciar algo no Pinterest</a></td>
 <td align="center"><a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.5</a>;</td>
 <td align="center"><a href="../lexicos/#denunciar">L - Denunciar</a>; <br> <a href="../cenarios/#denunciar-pin">C - Denunciar Pin</a>; <br> <a href="../especificacoes_caso_uso/#ocultar-um-pin">ECU - Ocultar um Pin</a>; <br> <a href="../diagramas_caso_uso/#ocultar-um-pin">DCU - Ocultar um Pin</a>; <br> <a href="../especificacoes_caso_uso/#denunciar-um-pin">ECU - Denunciar um Pin</a>; <br><a href="../diagramas_caso_uso/#denuncar-pin">DCU - Denunciar Pin</a>; <br> <a href="../backlog/#us20">US20</a>; <br>  <a href="../backlog/#us21">US21</a>;</td>
 <td align="center"><a href="#ef24">EF24</a></td>
@@ -773,7 +774,7 @@
 <tr>
 <td align="center">RF42</td>
 <td align="center">O Usuário deve poder postar pins a partir de imagens da galeria do dispositivo</td>
-<td align="center"><a href="../backward_from#criar-um-pin-a-partir-da-galeria-de-fotos">Criar um Pin a partir da galeria de fotos</a></td>
+<td align="center"><a href="backward_from#criar-um-pin-a-partir-da-galeria-de-fotos">Criar um Pin a partir da galeria de fotos</a></td>
 <td align="center">-</td>
 <td align="center"><a href="../iStar/#enviar-pin">IS - Enviar Pin (Outro Usuário)</a> <br> <a href="../backlog/#us18">US18</a></td>
 <td align="center"><a href="#ef42">EF42</a></td>
@@ -1491,7 +1492,7 @@
 <a href="../especificacoes_caso_uso/#pesquisar-por-tema">ECU - Pesquisar por Tema</a>; <br>
  <a href="../especificacoes_caso_uso/#pesquisar-por-foto">ECU - Pesquisar por Foto</a>; <br>
  <a href="../nfr/#definir-interesses">NFR - Definir Interesses</a>; <br>
- <a href="../nfr/#pesquisar-pins">NFR - Pesquisar Pins</a>;
+ <a href="../nfr/#pesquisar-pins">NFR - Pesquisar Pins</a>; <br>
 <a href="../backlog/#us24">US24</a>; <br>
  <a href="../backlog/#us36">US36</a>;<br></p>
 <h3 id="elo_46">Elo</h3>
@@ -1615,7 +1616,7 @@
 <h3 id="editar-ou-excluir-um-pin">Editar ou Excluir um Pin</h3>
 <p>Disponível em: <a href="https://help.pinterest.com/pt-br/article/edit-or-delete-a-pin">https://help.pinterest.com/pt-br/article/edit-or-delete-a-pin</a></p>
 <h3 id="diretrizes-da-comunidade-do-pinterest">Diretrizes da Comunidade do Pinterest</h3>
-<p>Disponível em: https://policy.pinterest.com/pt-br/community-guidelines</p>
+<p>Disponível em: <a href="https://policy.pinterest.com/pt-br/community-guidelines">https://policy.pinterest.com/pt-br/community-guidelines</a></p>
               
             </div>
           </div>
@@ -1640,12 +1641,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -1659,7 +1660,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
