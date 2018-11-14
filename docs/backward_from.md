@@ -238,7 +238,7 @@ Desenvolvimento
  [L - Pesquisa](lexicos.md#pesquisa); <br>
  [US34](backlog.md#us34); <br>
 ### Elo
- 	--
+--
 
 ## EF11
 ### Categoria
@@ -248,7 +248,7 @@ Desenvolvimento
  [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin); <br>
  [DCU - Comentar em um Pin](diagramas_caso_uso.md#comentar-em-um-pin); <br> [US15](backlog.md#us15);<br>
 ### Elo
-	--
+--
 
 ## EF12
 ### Categoria
@@ -314,9 +314,9 @@ Desenvolvimento
 [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta); <br>
  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta);<br>
 ### Elo
-	**Representação**: [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta) representa [C - Criar Pasta](cenarios.md#criar-pasta).<br>
-  **Representação**:  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pastas).<br>
-  **Alocação**: [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta) alocado em [US29](backlog.md#us29) e  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) alocado em [US31](backlog.md#us31).<br>
+**Representação**: [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta) representa [C - Criar Pasta](cenarios.md#criar-pasta).<br>
+**Representação**:  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) representa [C - Organizar Pastas](cenarios.md#organizar-pastas).<br>
+**Alocação**: [DCU - Criar Pasta](diagramas_caso_uso.md#criar-pasta) alocado em [US29](backlog.md#us29) e  [DCU - Organizar Pasta](diagramas_caso_uso.md#organizar-pasta) alocado em [US31](backlog.md#us31).<br>
 
 ## EF17
 ### Categoria
@@ -372,8 +372,8 @@ Desenvolvimento
  [DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin);<br>
 [US17](backlog.md#us17);
 ### Elo
-	**Representação**: [DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin) representa [C - Enviar um Pin](cenarios.md#enviar-um-pin).<br>  
-	**Alocação**: [C - Enviar um Pin](cenarios.md#enviar-um-pin) está alocado em [US17](backlog.md#us17). <br>
+**Representação**: [DCU - Enviar um Pin](diagramas_caso_uso.md#enviar-um-pin) representa [C - Enviar um Pin](cenarios.md#enviar-um-pin).<br>  
+**Alocação**: [C - Enviar um Pin](cenarios.md#enviar-um-pin) está alocado em [US17](backlog.md#us17). <br>
 
 ## EF21
 ### Categoria
@@ -400,7 +400,7 @@ Desenvolvimento
 [US15](backlog.md#us15); <br>
 ### Elo
 **Representação**: [ECU - Comentar em um Pin](especificacoes_caso_uso.md#comentar-em-um-pin) representa [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin) <br>
-	**Alocação**: [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin) está alocado em [US15](backlog.md#us15). <br>
+**Alocação**: [C - Comentar em um Pin](cenarios.md#comentar-em-um-pin) está alocado em [US15](backlog.md#us15). <br>
 
 ## EF23
 ### Categoria
@@ -412,8 +412,8 @@ Desenvolvimento
  [DCU - Seguir outro usuário](diagramas_caso_uso.md#seguir-outro-usuario); <br> [US23](backlog.md#us23); <br>
  [IS - Seguir usuário](iStar.md#seguir-usuario); <br>
 ### Elo
-	**Representação**:  [ECU - Seguir outro usuário](especificacoes_caso_uso.md#seguir-outro-usuario) representa [C - Seguir outro usuário](cenarios.md#seguir-outro-usuario). <br>
-	**Alocação**: [C - Seguir outro usuário](cenarios.md#seguir-outro-usuario) está alocado em [US23](backlog.md#us23). <br>
+**Representação**:  [ECU - Seguir outro usuário](especificacoes_caso_uso.md#seguir-outro-usuario) representa [C - Seguir outro usuário](cenarios.md#seguir-outro-usuario). <br>
+**Alocação**: [C - Seguir outro usuário](cenarios.md#seguir-outro-usuario) está alocado em [US23](backlog.md#us23). <br>
 
 ## EF24
 ### Categoria
@@ -426,7 +426,7 @@ Desenvolvimento
  [DCU - Ocultar um Pin](diagramas_caso_uso.md#ocultar-um-pin); <br>
  [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin); <br>[DCU - Denunciar Pin](diagramas_caso_uso.md#denuncar-pin); <br> [US20](backlog.md#us20); <br>  [US21](backlog.md#us21); <br>
 ### Elo
-	**Representação**: [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin) representa [C - Denunciar Pin](cenarios.md#denunciar-pin). <br>
+**Representação**: [ECU - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin) representa [C - Denunciar Pin](cenarios.md#denunciar-pin). <br>
 **Representação**: [ECU - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin) representa [C - Ocultar um Pin](cenarios.md#ocultar-um-pin)
 **Recurso**: [C - Denunciar Pin](cenarios.md#denunciar-pin) depende de um recurso provido em [L - Pin](lexicos.md#pin). <br>
 **Alocação**: [C - Denunciar Pin](cenarios.md#denunciar-pin) está alocado em [US21](backlog.md#us21). <br>
@@ -485,7 +485,7 @@ Desenvolvimento
 ### Elo
 **Representação**: [ECU - Enviar Mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios) representa [L - Mensagem](lexicos.md#mensagem),  [C - Enviar mensagem para outros usuários](cenarios.md#enviar-mensagem-para-outro-usuario), [DCU - Enviar Mensagem](diagramas_caso_uso.md#enviar-mensagem) e  [IS - Enviar Pin (Usuário)](iStar.md#enviar-pin). <br>
 **Representação**: [ECU - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin) representa  [IS - Enviar Pin (Usuário)](iStar.md#enviar-pin) e [DCU - Enviar Pin](diagramas_caso_uso.md#enviar-um-pin). <br>
- **Alocação**: [ECU - Enviar Mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios) está alocado em [US28](backlog.md#us28). <br>
+**Alocação**: [ECU - Enviar Mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios) está alocado em [US28](backlog.md#us28). <br>
 
 ## EF30
 ### Categoria
@@ -518,7 +518,7 @@ Desenvolvimento
 ### Elementos Rastreáveis
 [US16](backlog.md#us16); <br>
 ### Elo
-	--
+--
 
 ## EF33
 ### Categoria
