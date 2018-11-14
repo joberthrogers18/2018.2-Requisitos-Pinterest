@@ -65,24 +65,24 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 
 |  Código | Descrição | NFR | Operacionalizações | Funcionalidade |
 |  :------: | :------: | :------: | :------: | :------: |
-|  RNF1 | O sistema deve prever e tratar falhas | [NFR - Confiabilidade](nfr.md#confiabilidade) | "Inspecionar dinamicamente"; <br>"Fazer testes"; <br>"Realizar monitoramento automatizado". | [IMG53](forward_from.md#img53) |
-|  RNF2 | O Pinterest deve se proteger e proteger ao usuário juridicamente | [NFR - Suporte](nfr.md#suporte) |  "Termos e privacidade"; <br>"Copyright". | [IMG54](forward_from.md#img54) |
-|  RNF3 | O app deve ter semelhança de design entre suas diferentes plataformas | [NFR - Conectividade](nfr.md#conectividade) | "Acesso por aplicação web"; <br>"Acesso por aplicação mobile". | [IMG55](forward_from.md#img55) |
-|  RNF4 | As mensagens do Pinterest para o usuário devem ser claras e de fácil entendimento | [NFR - Segurança](nfr.md#seguranca) | "Regras claras sobre conteúdo permitido"; <br>"Mensagens claras para o usuário". | [IMG56](forward_from.md#img56) |
-|  RNF5 | A aplicação deve buscar utilizar o menor espaço possível de armazenamento no dispositivo  do usuário | [NFR - Desempenho](nfr.md#desempenho) | "Restringir dados em segundo plano"; <br>"Diminuir resolução da imagem". | [IMG57](forward_from.md#img57) |
-|  RNF6 | O app deve oferecer mais conteúdo relacionado às atividades recentes | [NFR - Conectividade](nfr.md#conectividade): | "Identificar padrão de pins acessados"; <br>"Traçar perfil do usuário conforme dados de uso". | [IMG58](forward_from.md#img58) |
-|  RNF7 | O sistema deve combater conteúdos indesejados | [NFR - Segurança](nfr.md#seguranca) | "Ferramentas de moderação"; <br>"Regras claras sobre conteúdo permitido". | [IMG59](forward_from.md#img59) |
-|  RNF8 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes | [NFR - Usabilidade](nfr.md#usabilidade)  | "Repetição de padrões". | [IMG60](forward_from.md#img60) |
-|  RNF9 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo | [NFR - Conectividade](nfr.md#conectividade): | "Encontrar interesses de usuários com perfil semelhante"; <br>"Interpretado dados de busca de sites de pesquisa". | [IMG61](forward_from.md#img61) |
-|  RNF10 | O sistema deve prover uma autenticação segura | [NFR - Segurança](nfr.md#seguranca) |  "Login por third party"; <br>"Tráfego de rede criptografado". | [IMG62](forward_from.md#img62) |
-|  RNF11 | O app deve ser de rápida aprendizagem. | [NFR - Usabilidade](nfr.md#usabilidade) |  "Gerar caminhos alternativos"; <br>"Repetição de padrões". | [IMG63](forward_from.md#img63) |
-|  RNF12 | O Pinterest deve oferecer oportunidade de expensão de interesses para o usuário | [NFR - Conectividade](nfr.md#conectividade) | "Permitir acesso a dados de outras contas"; <br>"Interpretar dados de buscas em sites de pesquisa". | [IMG64](forward_from.md#img64) |
-|  RNF13 | O Pinterest deve identificar gostos de usuários em diferentes ambientes ou aplicativos, permitindo um conteúdo mais personalizado e direcionado, aumentando a identificação com os interesses definidos | [NFR - Conectividade](nfr.md#conectividade): | "Encontrar interesses de usuários com perfil semelhante"; <br>"Interpretado dados de busca de sites de pesquisa"; <br>"Permitir acesso a dados de outras contas". | [IMG65](forward_from.md#img65) |
-|  RNF14 | O Pinterest deve possuir feedbacks objetivos para informar o usuário da realização de tarefas pouco visuais, como copiar um link, aplicados principalmente para a versão mobile | [NFR - Usabilidade](nfr.md#usabilidade) |  "Mensagens de erro"; <br>"Mensagens de carregamento"; <br> "Mensagens de sucesso"; <br>"Alertas de ações negativas(excluir, sair, apagar, etc)". | [IMG66](forward_from.md#img66) |
-|  RNF15 | O pinterest deve possuir interação fluida entre as funcionalidades, de maneira que o usuário entenda todo o processo do fluxo. | [NFR - Usabilidade](nfr.md#usabilidade) |  "Mensagens de erro"; <br>"Mensagens de carregamento"; <br>"Alertas para ações negativas"; <br> "Aviso de ação concluída". | [IMG67](forward_from.md#img67) |
-|  RNF16 | O pinterest deve possuir o menor tempo possivel para responder as ações requisitada pelo usuário.  | [NFR - Design](nfr.md#usabilidade---design) |  "Diminuir resolução da imagem" | [IMG68](forward_from.md#img68) |
-|  RNF17 | O pinterest deve manter políticas de moderação de seu conteúdo dentro da aplicação. | [NFR - Segurança](nfr.md#seguranca) |  "Ferramentas de moderação"; <br>"Regras claras sobre conteúdo permitido". | [IMG69](forward_from.md#img69) |
-|  RNF18 | O pinterest deve manter a integridade dos dados fornecidos pelo usuário em sua conta. | [NFR - Segurança](nfr.md#seguranca) | "Tráfego de rede criptografado"; <br> "Criptografia nas informações de conta de usuário dentro da base de dados do sistema". | [IMG70](forward_from.md#img70) |
+|  RNF1 | O sistema deve prever e tratar falhas | [NFR - Confiabilidade](nfr.md#confiabilidade) | "Inspecionar dinamicamente"; <br>"Fazer testes"; <br>"Realizar monitoramento automatizado". | - |
+|  RNF2 | O Pinterest deve se proteger e proteger ao usuário juridicamente | [NFR - Suporte](nfr.md#suporte) |  "Termos e privacidade"; <br>"Copyright". | [IMG53](forward_from.md#img53) |
+|  RNF3 | O app deve ter semelhança de design entre suas diferentes plataformas | [NFR - Conectividade](nfr.md#conectividade) | "Acesso por aplicação web"; <br>"Acesso por aplicação mobile". | [IMG54](forward_from.md#img54) |
+|  RNF4 | As mensagens do Pinterest para o usuário devem ser claras e de fácil entendimento | [NFR - Segurança](nfr.md#seguranca) | "Regras claras sobre conteúdo permitido"; <br>"Mensagens claras para o usuário". | [IMG55](forward_from.md#img55) |
+|  RNF5 | A aplicação deve buscar utilizar o menor espaço possível de armazenamento no dispositivo  do usuário | [NFR - Desempenho](nfr.md#desempenho) | "Restringir dados em segundo plano"; <br>"Diminuir resolução da imagem". | - |
+|  RNF6 | O app deve oferecer mais conteúdo relacionado às atividades recentes | [NFR - Conectividade](nfr.md#conectividade): | "Identificar padrão de pins acessados"; <br>"Traçar perfil do usuário conforme dados de uso". | [IMG56](forward_from.md#img56) |
+|  RNF7 | O sistema deve combater conteúdos indesejados | [NFR - Segurança](nfr.md#seguranca) | "Ferramentas de moderação"; <br>"Regras claras sobre conteúdo permitido". | [IMG57](forward_from.md#img57) |
+|  RNF8 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes | [NFR - Usabilidade](nfr.md#usabilidade)  | "Repetição de padrões". | [IMG58](forward_from.md#img58) |
+|  RNF9 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo | [NFR - Conectividade](nfr.md#conectividade): | "Encontrar interesses de usuários com perfil semelhante"; <br>"Interpretado dados de busca de sites de pesquisa". | [IMG59](forward_from.md#img59) |
+|  RNF10 | O sistema deve prover uma autenticação segura | [NFR - Segurança](nfr.md#seguranca) |  "Login por third party"; <br>"Tráfego de rede criptografado". | - |
+|  RNF11 | O app deve ser de rápida aprendizagem. | [NFR - Usabilidade](nfr.md#usabilidade) |  "Gerar caminhos alternativos"; <br>"Repetição de padrões". | [IMG60](forward_from.md#img60) |
+|  RNF12 | O Pinterest deve oferecer oportunidade de expensão de interesses para o usuário | [NFR - Conectividade](nfr.md#conectividade) | "Permitir acesso a dados de outras contas"; <br>"Interpretar dados de buscas em sites de pesquisa". | [IMG61](forward_from.md#img61) |
+|  RNF13 | O Pinterest deve identificar gostos de usuários em diferentes ambientes ou aplicativos, permitindo um conteúdo mais personalizado e direcionado, aumentando a identificação com os interesses definidos | [NFR - Conectividade](nfr.md#conectividade): | "Encontrar interesses de usuários com perfil semelhante"; <br>"Interpretado dados de busca de sites de pesquisa"; <br>"Permitir acesso a dados de outras contas". | [IMG62](forward_from.md#img62) |
+|  RNF14 | O Pinterest deve possuir feedbacks objetivos para informar o usuário da realização de tarefas pouco visuais, como copiar um link, aplicados principalmente para a versão mobile | [NFR - Usabilidade](nfr.md#usabilidade) |  "Mensagens de erro"; <br>"Mensagens de carregamento"; <br> "Mensagens de sucesso"; <br>"Alertas de ações negativas(excluir, sair, apagar, etc)". | [IMG63](forward_from.md#img63) |
+|  RNF15 | O pinterest deve possuir interação fluida entre as funcionalidades, de maneira que o usuário entenda todo o processo do fluxo. | [NFR - Usabilidade](nfr.md#usabilidade) |  "Mensagens de erro"; <br>"Mensagens de carregamento"; <br>"Alertas para ações negativas"; <br> "Aviso de ação concluída". | [IMG64](forward_from.md#img64) |
+|  RNF16 | O pinterest deve possuir o menor tempo possivel para responder as ações requisitada pelo usuário.  | [NFR - Usabilidade - Design<br/>](nfr.md#usabilidade---design) |  "Diminuir resolução da imagem" | [IMG65](forward_from.md#img65) |
+|  RNF17 | O pinterest deve manter políticas de moderação de seu conteúdo dentro da aplicação. | [NFR - Segurança](nfr.md#seguranca) |  "Ferramentas de moderação"; <br>"Regras claras sobre conteúdo permitido". | [IMG66](forward_from.md#img66) |
+|  RNF18 | O pinterest deve manter a integridade dos dados fornecidos pelo usuário em sua conta. | [NFR - Segurança](nfr.md#seguranca) | "Tráfego de rede criptografado"; <br> "Criptografia nas informações de conta de usuário dentro da base de dados do sistema". | - |
 
 # Imagens
 
@@ -322,7 +322,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG45
 | Versão Mobile | Versão Web |
 |---|---|
-| X | ![](img/forward/RF45_Web.png) |
+| ![](img/forward/RF3.jpeg)  | ![](img/forward/RF45_Web.png) |
 
 ### IMG46
 | Versão Mobile | Versão Web |
@@ -342,7 +342,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG49
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| ![](img/forward/RF49_Mobile.jpeg) | ![](img/forward/RF49_Web.png) |
 
 ### IMG50
 | Versão Mobile | Versão Web |
@@ -352,7 +352,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG51
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| ![](img/forward/RF51_Mobile.PNG) | ![](img/forward/RF51_Web.png) |
 
 ### IMG52
 | Versão Mobile | Versão Web |
@@ -362,96 +362,81 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 
 ## Não funcionais
 
-### IMG53
-| Versão Mobile | Versão Web |
-|---|---|
-|-| - |
 
-### IMG54
+### IMG53
 | Site |
 |---|
 |![](img/forward/RNF02.png)|
 
-### IMG55
+### IMG54
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RNF03_Mobile.jpeg)| ![](img/forward/RNF03_Web.png) |
 
+### IMG55
+| Aplicativo |
+|---|
+|![](img/forward/RNF04_Mobile.jpeg)|
+
+
 ### IMG56
-| Versão Mobile | Versão Web |
-|---|---|
-|![](img/forward/RNF04_Mobile.jpeg)| - |
-
-### IMG57
-| Versão Mobile | Versão Web |
-|---|---|
-|-| - |
-
-### IMG58
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RNF06_Mobile.jpeg)| ![](img/forward/RNF06_Web.png) |
 
-### IMG59
+### IMG57
 | Site |
 |---|
 |![](img/forward/RNF07.png)|
 
-### IMG60
+### IMG58
 | Versão Mobile | Versão Web |
 |---|---|
 |![](img/forward/RNF08_Mobile.jpeg)| ![](img/forward/RNF08_Web.png) |
 
-### IMG61
-| Versão Mobile | Versão Web |
+### IMG59
+| Site |
+|---|
+| ![](img/forward/RNF09_Web.png) |
+
+### IMG60
+
+##### Fluxo 1
+| Versão Mobile |  Versão Web |
 |---|---|
-|-| ![](img/forward/RNF09_Web.png) |
+|![](img/forward/RNF11_Mobile_1.jpeg)| ![](img/forward/RNF11_Web_1.png)|
+
+##### Fluxo 2
+|Versão Mobile| Versão Web |
+|---|---|
+| ![](img/forward/RNF11_Mobile_2.jpeg)| ![](img/forward/RNF11_Web_2.png)|
+
+### IMG61
+| Site |
+|---|
+|![](img/forward/RNF12_Web.png)|
 
 ### IMG62
-| Versão Mobile | Versão Web |
-|---|---|
-|-| - |
+| Site |
+|---|
+|![](img/forward/RNF13_Web.png)|
 
 ### IMG63
-| Versão Mobile Fluxo 1|  Versão Mobile Fluxo 2|
-|---|---|
-|![](img/forward/RNF11_Mobile_1.jpeg)|![](img/forward/RNF11_Mobile_2.jpeg)|
-|Versão Web Fluxo 1| Versão Web Fluxo 2 |
-![](img/forward/RNF11_Web_1.png) |![](img/forward/RNF11_Web_2.png)|
-
-### IMG64
 | Versão Mobile | Versão Web |
 |---|---|
-|-|![](img/forward/RNF12_Web.png)|
+|![](img/forward/RNF14_Mobile.jpeg)| ![](img/forward/RNF14_Web.png) |
+
+### IMG64
+| Aplicativo |
+|---|
+|![](img/forward/RNF15_Mobile.jpeg)|
 
 ### IMG65
 | Versão Mobile | Versão Web |
 |---|---|
-|-|![](img/forward/RNF13_Web.png)|
+| ![](img/forward/RNF16_Mobile.png) | ![](img/forward/RNF16_Web.png) |
 
 ### IMG66
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF14_Mobile.jpeg)| ![](img/forward/RNF14_Web.png)
-### IMG67
- |
-
-### IMG67
-| Versão Mobile | Versão Web |
-|---|---|
-|![](img/forward/RNF15_Mobile.jpeg)| - |
-
-### IMG68
-| Versão Mobile | Versão Web |
-|---|---|
-| ![](img/forward/RNF16_Mobile.png) | ![](img/forward/RNF16_Web.png) |
-
-### IMG69
-| Versão Mobile | Versão Web |
-|---|---|
 |![](img/forward/RNF17_Mobile.jpeg)| ![](img/forward/RNF17_Web.png) |
-
-### IMG70
-| Versão Mobile | Versão Web |
-|---|---|
-| - | - |
