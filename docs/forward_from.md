@@ -80,7 +80,7 @@ Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas po
 |  RNF13 | O Pinterest deve identificar gostos de usuários em diferentes ambientes ou aplicativos, permitindo um conteúdo mais personalizado e direcionado, aumentando a identificação com os interesses definidos | [IMG65](forward_from.md#img65) | NOVO NFR DE CONTEÚDO |
 |  RNF14 | O Pinterest deve possuir feedbacks objetivos para informar o usuário da realização de tarefas pouco visuais, como copiar um link, aplicados principalmente para a versão mobile | [IMG66](forward_from.md#img66) | [NFR - Usabilidade](nfr.md#usabilidade): "Mensagens de erro", "Mensagens de carregamento", "Mensagens de sucesso", "Alertas de ações negativas(excluir, sair, apagar, etc)" |
 |  RNF15 | O pinterest deve possuir interação fluida entre as funcionalidades, de maneira que o usuário entenda todo o processo do fluxo. | [IMG67](forward_from.md#img67) | [NFR - Usabilidade](nfr.md#usabilidade): "Mensagens de erro", "Mensagens de carregamento", "Alertas para ações negativas",  "Aviso de ação concluída" |
-|  RNF16 | O pinterest deve possuir o menor tempo possivel para responder as ações requisitada pelo usuário.  | [IMG68](forward_from.md#img68) | [NFR - Design](nfr.md#usabilidade---design): "Diminuir resolução da imagem" |
+|  RNF16 | O pinterest deve possuir o menor tempo possivel para responder as ações requisitada pelo usuário.  | Não possui representação, pois é feito automaticamente pelo aplicativo. | [NFR - Design](nfr.md#usabilidade---design): "Diminuir resolução da imagem" |
 |  RNF17 | O pinterest deve manter políticas de moderação de seu conteúdo dentro da aplicação. | [IMG69](forward_from.md#img69) | [NFR - Segurança](nfr.md#seguranca): "Ferramentas de moderação", "Regras claras sobre conteúdo permitido") |
 |  RNF18 | O pinterest deve manter a integridade dos dados fornecidos pelo usuário em sua conta. | [IMG70](forward_from.md#img70) | [NFR - Segurança](nfr.md#seguranca); |
 
@@ -408,7 +408,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG62
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+| Não possui representação visual na aplicação | Não possui representação visual na aplicação |
 
 ### IMG63
 | Versão Mobile Fluxo 1|  Versão Mobile Fluxo 2|
@@ -430,12 +430,12 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG66
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF14_Mobile.jpeg)| x |
+|![](img/forward/RNF14_Mobile.jpeg)| Não possui representação visual na aplicação |
 
 ### IMG67
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+|![](img/forward/RNF15_Mobile.jpeg)| Não possui representação visual na aplicação |
 
 ### IMG68
 | Versão Mobile | Versão Web |
