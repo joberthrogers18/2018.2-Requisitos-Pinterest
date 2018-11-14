@@ -274,7 +274,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG36
 | Versão Mobile | Versão Web |
 |---|---|
-|Aguardando Notificação| Aguardando notificação|
+|![](img/forward/RF36_MobileFinal.png)| ![](img/forward/RF36_WebFinal.png)|
 
 ### IMG37
 | Versão Mobile | Versão Web |
@@ -299,7 +299,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG41
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RF41_Mobile.PNG)| ![](img/forward/RF41_Web.png)|
+|![](img/forward/RF41_Mobile.PNG)| ![](img/forward/RF41_WebFinal.png)|
 
 ### IMG42
 | Versão Mobile | Versão Web |
