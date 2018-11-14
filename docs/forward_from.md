@@ -373,7 +373,7 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 ### IMG55
 | Versão Mobile | Versão Web |
 |---|---|
-| X | X |
+|![](img/forward/RNF03_Mobile.jpeg)| ![](img/forward/RNF03_Web.png) |
 
 ### IMG56
 | Versão Mobile | Versão Web |
@@ -391,14 +391,14 @@ link para acesso: [https://pin.it/sdi4d5gzapervm](https://pin.it/sdi4d5gzapervm)
 | X | X |
 
 ### IMG59
-| Versão Mobile | Versão Web |
-|---|---|
-| X | X |
+| Site |
+|---|
+|![](img/forward/RNF07.png)|
 
 ### IMG60
 | Versão Mobile | Versão Web |
 |---|---|
-|![](img/forward/RNF08_Mobile.jpeg)| X |
+|![](img/forward/RNF08_Mobile.jpeg)| ![](img/forward/RNF08_Web.png) |
 
 ### IMG61
 | Versão Mobile | Versão Web |
