@@ -13,20 +13,19 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link rel="stylesheet" href="../css/highlight.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Conclus\u00e3o";
     var mkdocs_page_input_path = "conclusao_elicitacao.md";
-    var mkdocs_page_url = null;
+    var mkdocs_page_url = "/conclusao_elicitacao/";
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
   
 </head>
 
@@ -40,7 +39,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+    <input type="text" name="q" placeholder="Search docs" />
   </form>
 </div>
       </div>
@@ -104,8 +103,13 @@
             
     <li class="toctree-l3"><a href="#total-de-requisitos">Total de Requisitos</a></li>
     
-
-    <li class="toctree-l3"><a href="#resultados">Resultados</a></li>
+        <ul>
+        
+            <li><a class="toctree-l4" href="#versao-10">Versão 1.0</a></li>
+        
+            <li><a class="toctree-l4" href="#versao-20">Versão 2.0</a></li>
+        
+        </ul>
     
 
     </ul>
@@ -222,7 +226,8 @@
           <div role="main">
             <div class="section">
               
-                <h3 id="total-de-requisitos">Total de Requisitos</h3>
+                <h1 id="total-de-requisitos">Total de Requisitos</h1>
+<h2 id="versao-10">Versão 1.0</h2>
 <table>
 <thead>
 <tr>
@@ -592,6 +597,86 @@
 <h3 id="resultados">Resultados</h3>
 <p>A equipe executou vários processos de elicitação, e a que mais gerou requisitos foi a entrevista. Porém, deve ser levado em conta o fato de que a entrevista foi mais abrangente em relação às funcionalidades do app Pinterest, enquanto o Storytelling e Análise de Discurso, por exemplo, estão voltados apenas para algumas funcionalidades, focando em situações específicas. Além disso, a entrevista também forneceu uma visão da perpesctiva de um de usuário muito ativo, enquanto nas outras técnicas os usuários consultados eram menos experientes no uso do app. Dentre as técnicas, a análise de protocolo também se destacou devido à sua abrangência e supõe-se que, caso o usuário fosse mais experiente, mais requisitos seriam levantados.
 Por fim, o questionário não foi muito eficiente para o levantamento de requisitos, já que está mais voltado para o perfil de usuário.</p>
+<h2 id="versao-20">Versão 2.0</h2>
+<h3 id="requisitos-funcionais">Requisitos funcionais</h3>
+<p>|  Código | Descrição | Elicitação |
+|  :------: | :------: | :------: | :------: |
+|  RF1 | O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | <a href="../analise_protocolo/#resultado-dos-requisitos">AP1</a> |
+|  RF2 | Ter um feed baseado nos interesses do usuário. | <a href="../analise_protocolo/#resultado-dos-requisitos">AP3</a> |
+|  RF3 | O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil | <a href="../analise_discurso/#requisitos-elicitados">AD2</a>; <br> <a href="../analise_discurso/#requisitos-elicitados">AD7</a>; <br> <a href="../analise_protocolo/#resulyado-dos-requisitos">AP3</a>;  |
+|  RF4 | O usuário deve ter a opção de salvar pins em um pasta | <a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.4</a> |
+|  RF5 | O app deve possuir uma barra para pesquisa por texto. | <a href="../analise_protocolo/#resultado-dos-requisitos">AP13</a> |
+|  RF6 | O App deve possibilitar a transferência de Pins entre pastas. | <a href="../entrevista/#requisitos-elicitados">ENT11</a> |
+|  RF7 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado em seu feed. | <a href="../analise_discurso/#requisitos-elicitados">AD2</a>; |
+|  RF8 | O App deve obter vários dados de Pins bloqueados para identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar. | <a href="../entrevista/#requisitos-elicitados">ENT15</a> |
+|  RF9 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações | <a href="../introspeccao/#introspeccao-1">INT1.5</a> |
+|  RF10 | O app deve separar os pins por categorias | <a href="../introspeccao/#introspeccao-1">INT1.6</a> |
+|  RF11 | O usuário deve ter a opção de avaliar pins e essa avaliação deve ser aberta a outros usuários | <a href="../introspeccao/#introspeccao-1">INT1.8</a> |
+|  RF12 | O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas. | <a href="../entrevista/#requisitos-elicitados">ENT10</a> |
+|  RF13 | Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição | <a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.3</a>; <br> <a href="../introspeccao/#introspeccao-2">INT2.4</a>; |
+|  RF14 | O usuário deve poder adicionar novos interesses a qualquer momento após o cadastro, através de uma opção em seu perfil | <a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.3</a>; |
+|  RF15 | O usuário deve poder salvar seus pins no seu dispositivo | <a href="../analise_protocolo/#resultado-dos-requisitos">AP4</a> |
+|  RF16 | Manter pastas | <a href="../entrevista/#requisitos-elicitados">ENT11</a>; <br> <a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.5</a>; <br> <a href="../entrevista/#requisitos-elicitados">ENT3</a>;   |
+|  RF17 | Manter subpastas | <a href="../entrevista/#requisitos-elicitados">ENT10</a> |
+|  RF18 | A plataforma deve disponibilizar uma forma de pesquisa por imagem. | <a href="../analise_protocolo/#resultado-dos-requisitos">AP12</a>; <br> <a href="../analise_discurso/#requisitos-elicitados">AD14</a> |
+|  RF19 | O usuário deve poder ser redirecionado para o link da imagem de um pin, caso haja um. | <a href="../analise_protocolo/#resultado-dos-requisitos">AP14</a> |
+|  RF20 | O usuário deve conseguir compartilhar pins com outros usuários | <a href="../analise_discurso/#requisitos-elicitados">AD12</a> |
+|  RF21 | O usuário deve conseguir compartilhar pins em redes sociais | <a href="../introspeccao/#introspeccao-2">INT2.2</a> |
+|  RF22 | A aplicação deve colocar nos pins a opção de "comentários" | <a href="../introspeccao/#introspeccao-2">INT2.3</a> |
+|  RF23 | O Pinterest deve oferecer a opção de seguir usuários | <a href="../introspeccao/#introspeccao-2">INT2.7</a> |
+|  RF24 | O usuário deve poder ocultar e denunciar pins. | <a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.5</a>; |
+|  RF25 | O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins. | <a href="../analise_protocolo/#resultado-dos-requisitos">AP8</a> |
+|  RF26 | O app deve possuir a função de compartilhar a edição de pastas com outros usuários. | <a href="../entrevista/#requisitos-elicitados">ENT3</a> |
+|  RF27 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. | <a href="../introspeccao/#introspeccao-2">INT2.4</a>; |
+|  RF28 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário. | <a href="../analise_discurso/#requisitos-elicitados">AD4</a> |
+|  RF29 | O usuário deve poder enviar mensagem para outros usuários. | <a href="../analise_discurso/#requisitos-elicitados">AD10</a>; <br> <a href="../analise_discurso/#requsiitos-elicitados">AD11</a>; |
+|  RF30 | O usuário deve receber notificações sobre novidades no app. | <a href="../analise_discurso/#requisitos-elicitados">AD8</a>;  |
+|  RF31 | Os pins que se referem a aplicativos devem mostrar a opção de instalar. | <a href="../introspeccao/#introspeccao-2">INT2.4</a>; |
+|  RF32 | O Usuário deve poder remover interesses em qualquer momento após o cadastro, acessando essa opção na aba de perfil | <a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.3</a>; |
+|  RF33 | O Usuário deve possuir mais de uma opção de formas de ordenação das pastas na página de perfil, como ordem alfabética, últimos salvos, mais antigas, mais recentes ou pelo arraste dos elementos. | <a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.5</a>;  |
+|  RF34 | O Pinterest deve poder utilizar dados, como cookies, para identificar informações de perfil do usuário e direcionar recomendações de pins | <a href="../analise_discurso/#requisitos-elicitados">AD4</a>;  |
+|  RF35 | O Usuário deve poder definir em qual língua irá utilizar o aplicativo, seja na edição do perfil ou no cadastro | <a href="../analise_discurso/#requisitos-elicitados">AD6</a>;  |
+|  RF36 | O Usuário deve definir informações do pin postado, como categorias, título e descrição | <a href="../introspeccao/#introspeccao-2">INT2.4</a>; |
+|  RF37 | O app deve permitir a escolha de interesses no primeiro acesso (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. | <a href="../analise_protocolo/#resultado-dos-requisitos">AP2</a>; <br> <a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.1</a>; |
+|  RF38 | A aplicação deve conter um sistema de scroll infinito que possibilite ao usuário uma visualização mais orgânica do feed. | <a href="../analise_protocolo/#resultado-dos-requisitos">AP7</a> |
+|  RF39 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. | <a href="../analise_discurso/#requisitos-elicitados">AD5</a><br> <a href="../entrevista/#requisitos-elicitados">ENT12</a> |
+|  RF40 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filtro sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado | <a href="../introspeccao/#introspeccao-2">INT2.5</a> |
+|  RF41 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário. | <a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.4</a> |
+|  RF42 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app | <a href="../introspeccao/#introspeccao-1">INT1.10</a> |
+|  RF43 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas. | <a href="../analise_discurso/#requisitos-elicitados">AD7</a>; <br> |
+|  RF44 | O Usuário deve possuir a possibilidade de personalizar a forma em que suas pastas serão visualizadas | <a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.5</a> |</p>
+<h3 id="requisitos-nao-funcionais">Requisitos não funcionais</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Código</th>
+<th align="center">Descrição</th>
+<th align="center">Elicitação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">RNF1</td>
+<td align="center">O app deve oferecer mais conteúdo relacionado às atividades recentes</td>
+<td align="center"><a href="../entrevista/#requisitos-elicitados">ENT12</a>; <br> <a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.1</a></td>
+</tr>
+<tr>
+<td align="center">RNF2</td>
+<td align="center">A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes</td>
+<td align="center"><a href="../questionario/#requisitos-elicitados">Q4</a>;</td>
+</tr>
+<tr>
+<td align="center">RNF3</td>
+<td align="center">A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo</td>
+<td align="center"><a href="../questionario/#requisitos-elicitados">Q5</a>;</td>
+</tr>
+<tr>
+<td align="center">RNF4</td>
+<td align="center">O Pinterest deve identificar gostos de usuários em diferentes ambientes ou aplicativos, permitindo um conteúdo mais personalizado e direcionado, aumentando a identificação com os interesses definidos</td>
+<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD7</a>;</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>
@@ -616,12 +701,12 @@ Por fim, o questionário não foi muito eficiente para o levantamento de requisi
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-      
+	  
         </div>
       </div>
 
     </section>
-
+    
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -635,9 +720,7 @@ Por fim, o questionário não foi muito eficiente para o levantamento de requisi
       
     </span>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
+    <script src="../js/theme.js"></script>
 
 </body>
 </html>
