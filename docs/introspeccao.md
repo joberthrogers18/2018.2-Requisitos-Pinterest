@@ -90,3 +90,50 @@ Este tópico aborda as necessidades obtidas nessa introspecção.
 | INT2.6 | O Pinterest deve mostrar diversos pins relacionados ao pin clicado | Must |
 | INT2.7 | O Pinterest deve oferecer a opção de seguir o usuário que postou o pin selecionado| Should |
 | INT2.8 | O Pinterest deve oferecer uma grande quantidade de pins fazendo com que o usuário tenha uma enorme quantidade de resultados | Must |
+
+# Introspecção 3
+
+#### Rastreabilidade
+
+| Nome | Papel | Observação |
+|--|--|--|
+| Daniel Maike | Autor | Membro da equipe e Usuário do Pinterest |
+
+#### Contexto
+
+Esta Instrospecção consiste em uma pessoa que está iniciando na musculação e que procura por dicas e inspirações para atingir seu objetivo, que possa guardá-los em sua conta para que possa acessar também posteriormente e compartilhar com seus amigos da musculação. Desejável também pelo usuário que seja um app mobile para que seja possível acessar de forma eficiente em qualquer lugar utilizando apenas o acesso a internet em seu dispositivo smartphone, pois o usuário não tem acesso a um computador.
+
+### Necessidades do Contexto
+
+Este tópico aborda as necessidades oriundas do contexto específico da pessoa citada no contexto da Instrospecção.
+
+##### Necessidades Técnicas
+* Haver versão mobile do sistema
+* Não ser um app que ocupe muito espaço para que seja acessível de celular com menos memória
+* App possuir design intuitivo para usuários leigos conseguirem utilizar sem muita dificuldade
+
+##### Necessidades Sociais
+* Haver forma de enviar as dicas e inspirações para outras pessoas pelo app
+* Haver forma de compartilhamento para pessoas que não tenham o app
+* Conecte com outras redes sociais para que ache mais amigos que utilizem o app
+
+##### Necessidades Individuais
+* O feed do app possuir muito conteúdo do interesse do usuário
+* Salvar dicas e inspirações em sua conta
+* Haver uma forma de organizar suas dicas e inspirações salvas para que não fique tudo junto, para uma forma mais eficiente de achá-las depois
+* Haver uma forma de escolha de interesses para mostrar apenas coisas que o usuário desejar
+
+#### Requisitos Elicitados
+
+| Código | Descrição | Prioridade | Classificação |
+|--|--|--|--|
+| INT3.1 | A aplicação deve disponibilizar versão mobile multiplataforma para iOS, Windows Phone e Android | Must | Não Funcional |
+| INT3.2 | O aplicativo não deve ocupar muita memória do celular | Should | Não Funcional |
+| INT3.3 | O aplicativo deve possuir um design intuitivo para usuários leigos conseguirem utilizá-lo | Should | Não Funcional |
+| INT3.4 | O aplicativo deve possuir um chat para que possa haver interação com outros usuários, por meio de envio texto ou envio de fotos | Must | Funcional |
+| INT3.5 | A aplicação deve possuir a função de compartilhar fotos para outras redes sociais como Facebook e WhatsApp | Should | Funcional |
+| INT3.6 | O aplicativo deve oferecer um feed com scroll infinito para visualizar muitas fotos dos interesses do usuário | Should | Funcional |
+| INT3.7 | A aplicação deve oferecer a funcionalidade de escolha de interesses pré-determinados para que o usuário tenha no seu feed apenas o que deseja | Must | Funcional |
+| INT3.8 | A aplicação deve oferecer a função de salvamento de fotos em sua conta | Must | Funcional |
+| INT3.9 | O app deve oferecer criação de pastas para salvamento de fotos, com o objetivo de organizar melhor as fotos salvas | Should | Funcional |
+| INT3.10 | A aplicação possuir meio de login por micro serviço como Facebook e Google | Must | Funcional |
