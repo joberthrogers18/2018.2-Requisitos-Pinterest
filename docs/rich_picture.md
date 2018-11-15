@@ -34,7 +34,13 @@ Rich Picture que apresenta as funcionalidades existentes dentro da aba "Salvos".
 
 Rich Picture que apresenta a interação do usuário comum com um usuário que desfruta do poder do marketing no Pinterest divulgando seus produtos.
 
+### Versão 1.0
+
 ![Vendedor](img/Richpicture3.jpg)
+
+### Versão 2.0
+
+![Vendedor2](img/Richpicture3_new.png)
 
 ## Pinterest e entrega de conteúdo ao Usuário
 
