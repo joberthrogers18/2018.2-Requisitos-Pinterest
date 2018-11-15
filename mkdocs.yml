@@ -2,6 +2,8 @@ site_name: Pinterest
 extra_css: [extra.css]
 pages:
   - HOME: index.md
+  - RASTREABILIDADE:
+    - Rastros: rastreabilidade.md
   - PRÉ-RASTREABILIDADE:
     - Argumentação: argumentacao.md
     - RichPicture: rich_picture.md
