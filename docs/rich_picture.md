@@ -36,10 +36,13 @@ Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema
 ![RichPicture2](img/RichPictureUserv2.png)
 
 ## Aba Salvos
-
 Rich Picture que apresenta as funcionalidades existentes dentro da aba "Salvos".
+### Versão 1.0
+![AS2](img/rp_abasalvo.png)
 
-![AbaSalvos](img/rp_abasalvo.png)
+### Versão 2.0
+![AS2](img/rp_abasalvo_2.png)
+
 
 ## Usuário vendedor e Usuário comum
 
