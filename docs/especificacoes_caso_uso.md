@@ -240,6 +240,8 @@
 ## ECU 12
 ### [Salvar](lexicos.md#l2) um [Pin](lexicos.md#l1)
 
+#### Versão 1.0
+
 | Descrição |
 | -- |
 | Salvar um Pin do Pinterest |
@@ -258,8 +260,30 @@
 | **Rastreabilidade** |
 |[Diagrama: DCU 17](diagramas_caso_uso.md#dcu-17)<br> [Cenário: Salvar um Pin](cenarios.md#salvar-um-pin) |
 
+#### Versão 2.0
+
+| Descrição |
+| -- |
+| Salvar um Pin do Pinterest |
+| **Atores** |
+| Usuário do Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet <br> Usuário estar com o Pinterest aberto |
+| **Fluxo Principal** |
+|  1- Usuário efetua Login no Pinterest [FA1] <br> 2- O sistema redireciona para a página principal <br> 3- Usuário acessa Página Principal [FA2] <br> 4- Usuário visualiza Feed <br> 5- Usuário visualiza um Pin <br> 6- Usuário acessa funcionalidade "Salvar o Pin" [FE1] <br> 7- Usuário cria uma pasta para salvar um Pin [FA3] <br> 8- Usuário escolhe o nome da pasta <br> 9- Usuário salva o Pin na pasta |
+| **Fluxos Alternativos** |
+|  *FA1 - Usuário efetuar primeiro login na aplicação* <br>  1- Usuário escolhe no mínimo cinco categorias de interesses <br> 2- Usuário acessa Página Inicial <br>  3- Continua o Fluxo Principal a partir do 4 <br><br>  *FA2 - Usuário pesquisa por conteúdo específico* <br> 1- Usuário visualiza um Pin <br> 2- Continua o Fluxo Principal a partir do 6 <br><br> *FA3 - Usuário salva Pin em uma pasta já criada* <br>|
+| **Fluxos de Exceção**|
+| * FE1 - O Pin ser excluído do Pinterest * |
+| **Pós Condições**|
+| Usuário salva Pin em uma pasta do Pinterest |
+| **Rastreabilidade** |
+|[Diagrama: DCU 17](diagramas_caso_uso.md#dcu-17)<br> [Cenário: Salvar um Pin](cenarios.md#salvar-um-pin) |
+
 ## ECU 13
 ### Enviar um [Pin](lexicos.md#l1)
+
+#### Versão 1.0
 
 | Descrição |
 | -- |
@@ -279,9 +303,31 @@
 | **Rastreabilidade** |
 |[Diagrama: DCU 9](diagramas_caso_uso.md#dcu-9)<br> [Cenário: Enviar um Pin](cenarios.md#enviar-um-pin) |
 
+#### Versão 2.0
+
+| Descrição |
+| -- |
+| Enviar um Pin do Pinterest |
+| **Atores** |
+| Usuário do Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet <br> Usuário estar com o Pinterest aberto |
+| **Fluxo Principal** |
+| 1- Usuário efetua Login no Pinterest [FA1] <br> 2- O sistema redireciona para a página principal <br> 3- Usuário acessa Página Principal [FA2] <br>  4- Usuário visualiza Feed <br> 5- Usuário visualiza um Pin <br> 6- Usuário acessa funcionalidade "Enviar o Pin" [FE1] <br> 7- Usuário escolhe para que amigo do Pinterest quer enviar o Pin [FA3][FA4][FA5] <br> 8- Usuário envia o Pin [FA6] |
+| **Fluxos Alternativos** |
+| *FA01 - Usuário efetuar primeiro login na aplicação* <br> 1- Usuário escolhe no mínimo cinco categorias de interesses <br> 2- Usuário acessa Página Inicial <br>  3- Continua o Fluxo Principal a partir do 4 <br><br> *FA2 - Usuário pesquisa por conteúdo específico* <br> 1- Usuário visualiza um Pin <br>  2- Continua o Fluxo Principal a partir do 6 <br><br> *FA3 - Usuário copia o link do Pin para enviar por e-mail, SMS ou outra plataforma* <br><br> *FA4 - Usuário compartilha o link do Pin para o Facebook* <br><br>*FA5 - Usuário envia o link do Pin para um contato do WhatsApp* <br><br> *FA6 - Usuário escreve uma mensagem para enviar junto ao Pin para um usuário do Pinterest* <br> Usuário envia o Pin |
+| **Fluxos de Exceção**|
+| * FE1 - O Pin ser excluído do Pinterest * |
+| **Pós Condições**|
+| Usuário envia o Pin para outra pessoa |
+| **Rastreabilidade** |
+|[Diagrama: DCU 9](diagramas_caso_uso.md#dcu-9)<br> [Cenário: Enviar um Pin](cenarios.md#enviar-um-pin) |
+
 ## ECU 14
 
 ### Realizar primeiro [login](lexicos.md#l16)
+
+#### Versão 1.0
 
 | Descrição |
 | -- |
@@ -292,6 +338,24 @@
 | Usuário possuir cadastro no Pinterest <br> Usuário não ter efetuado seu primeiro login <br> Usuário ter conexão de internet |
 | **Fluxo Principal** |
 | Usuário abre o Pinterest <br>Usuário efetua o primeiro Login no Pinterest <br> Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> Usuário acessa página principal [FA02][FA03][FA04] <br>  Usuário visualiza Feed <br> Usuário visiualiza um Pin |
+| **Fluxos Alternativos** |
+| *FA01 - Usuário faz o tutorial para aprender as funcionalidades do Pinterest* <br>  Usuário escolhe no mínimo cinco categorias de interesses <br> Continua o fluxo principal a partir do 4 <br><br> *FA02 - Usuário procura pessoas para seguir no Pinterest* <br><br> *FA03 Usuário procura por conteúdos específicos no Pinterest* <br><br> *FA04 - Usuário procura mais interesses para seguir* |
+| **Pós Condições**|
+| Usuário efetua primeiro login no Pinterest |
+| **Rastreabilidade** |
+|[Diagrama: DCU 10](diagramas_caso_uso.md#dcu-10)<br>|
+
+#### Versão 2.0
+
+| Descrição |
+| -- |
+| Realizar primeiro login no Pinterest |
+| **Atores** |
+| Usuário recém cadastrado no Pinterest |
+| **Pré Condições** |
+| Usuário possuir cadastro no Pinterest <br> Usuário não ter efetuado seu primeiro login <br> Usuário ter conexão de internet <br> Usuário estar com o Pinterest aberto |
+| **Fluxo Principal** |
+| 1- Usuário efetua o primeiro Login no Pinterest <br> 2- O sistema redireciona para escolha de interesses <br> 3- Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> 4- O sistema redireciona para página principal <br> 5- Usuário acessa página principal [FA02][FA03][FA04] <br>  6- Usuário visualiza Feed <br> 7- Usuário visiualiza um Pin |
 | **Fluxos Alternativos** |
 | *FA01 - Usuário faz o tutorial para aprender as funcionalidades do Pinterest* <br>  Usuário escolhe no mínimo cinco categorias de interesses <br> Continua o fluxo principal a partir do 4 <br><br> *FA02 - Usuário procura pessoas para seguir no Pinterest* <br><br> *FA03 Usuário procura por conteúdos específicos no Pinterest* <br><br> *FA04 - Usuário procura mais interesses para seguir* |
 | **Pós Condições**|
