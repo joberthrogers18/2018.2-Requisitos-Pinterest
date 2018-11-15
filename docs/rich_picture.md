@@ -22,7 +22,12 @@ Rich Picture que descreve os tipos de Pins.
 ## Usuário
 
 Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema.
+
+### Versão 1.0
 ![RichPicture1](img/RichPicture.png)
+
+### Versão 2.0
+![RichPicture2](img/RichPictureUserv2.png)
 
 ## Aba Salvos
 
