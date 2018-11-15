@@ -118,7 +118,7 @@
 |--|
 | Enviar um [Pin](lexicos.md#l1) para outro [usuário](lexicos.md#l14) do [Pinterest](lexicos.md#l9) por meio de chat ou enviá-lo para outras pessoas que não utilizam o [Pinterest](lexicos.md#l9) por meio de outras redes sociais (WhatsApp, Facebook) ou até por SMS e e-mail |
 |**Contexto** |
-| Local: Página de detalhes de um [Pin](lexicos.md#l1) <br>  Pré-Condição: O [usuário](lexicos.md#l14) deverá estar [logado](lexicos.md#l6) em sua conta do [Pinterest](lexicos.md#l9) <br>  Pós-Condição: O [Pin](lexicos.md#l1) é enviado a outro usuário. |
+| Local: Página de detalhes de um [Pin](lexicos.md#l1) <br>  Pré-Condição: O [usuário](lexicos.md#l14) deverá estar [logado](lexicos.md#l6) em sua conta do [Pinterest](lexicos.md#l9) <br> [Usuário](lexicos.md#l14) estar com o aplicativo Pinterest aberto <br> Pós-Condição: O [Pin](lexicos.md#l1) é enviado a outro usuário. |
 |**Atores** |
 | [Usuário](lexicos.md#l14) |
 |**Recursos** |
@@ -128,7 +128,7 @@
 |**Exceção** |
 | Internet cair <br> App dar [crash](lexicos.md#l20) <br> [Pin](lexicos.md#l1) ser excluído ao ser enviado <br> [Usuário](lexicos.md#l14) que for receber o [Pin](lexicos.md#l1) ter bloqueado o que for enviá-lo |
 |**Episódios** |
-| [Usuário](lexicos.md#l14) abre o aplicativo <br> [Usuário](lexicos.md#l14) entra na página inicial para visualizar e navegar pelo [feed](lexicos.md#l15) de [Pins](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) seleciona um [Pin](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) clica no botão Enviar <br> [Usuário](lexicos.md#l14) escolhe a forma de envio <br> [Usuário](lexicos.md#l14) enviar o [Pin](lexicos.md#l1) para outra pessoa |
+| [Usuário](lexicos.md#l14) entra na página inicial para visualizar e navegar pelo [feed](lexicos.md#l15) de [Pins](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) seleciona um [Pin](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) clica no botão Enviar <br> [Usuário](lexicos.md#l14) escolhe a forma de envio <br> [Usuário](lexicos.md#l14) enviar o [Pin](lexicos.md#l1) para outra pessoa |
 
 ## Fazer [login](lexicos.md#l16)
 
@@ -241,6 +241,8 @@
 
 ## [Salvar](lexicos.md#l2) um [Pin](lexicos.md#l1)
 
+### Versão 1.0
+
 |**Objetivo** |
 |--|
 | [Salvar](lexicos.md#l2) um [Pin](lexicos.md#l1) em uma [pasta](lexicos.md#l3) criada pelo [usuário](lexicos.md#l14) do [Pinterest](lexicos.md#l9) |
@@ -256,6 +258,24 @@
 | Internet cair <br> App dar [crash](lexicos.md#l20) <br> [Pin](lexicos.md#l1) ser excluído ao ser [salvo](lexicos.md#salvar) <br> Não existir [pastas](lexicos.md#l3) para [salvá-lo](lexicos.md#salvar) |
 |**Episódios** |
 | [Usuário](lexicos.md#l14) abre o aplicativo <br> [Usuário](lexicos.md#l14) entra na [página](lexicos.md#l7) inicial para visualizar e [navegar](lexicos.md#l36) pelo [feed](lexicos.md#l15) de [Pins](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) seleciona um [Pin](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) clica no botão [Salvar](lexicos.md#salvar) <br> [Usuário](lexicos.md#l14) escolhe a [pasta](lexicos.md#l3) para [salvá-lo](lexicos.md#salvar) e se não houverem [pastas](lexicos.md#l3) criadas, cria uma [pasta](lexicos.md#l3) para poder [salvar](lexicos.md#salvar) o [Pin](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) [salvar](lexicos.md#salvar) o [Pin](lexicos.md#l1) na [pasta](lexicos.md#l3) |
+
+### Versão 2.0
+
+|**Objetivo** |
+|--|
+| [Salvar](lexicos.md#l2) um [Pin](lexicos.md#l1) em uma [pasta](lexicos.md#l3) criada pelo [usuário](lexicos.md#l14) do [Pinterest](lexicos.md#l9) |
+|**Contexto** |
+| Local: Página de detalhes de um [Pin](lexicos.md#l1) <br>  Pré-Condição: o [usuário](lexicos.md#l14) deverá estar [logado](lexicos.md#l6) em sua conta do [Pinterest](lexicos.md#l9) <br> [Usuário](lexicos.md#l14) estar com o aplicativo Pinterest aberto <br>  Pós-Condição: O [Pin](lexicos.md#l1) é [salvo](lexicos.md#salvar) em uma [pasta](lexicos.md#l3). |
+|**Atores** |
+| [Usuário](lexicos.md#l14) |
+|**Recursos** |
+| Internet, aplicativo, [conta de usuário](lexicos.md#l32), [pin](lexicos.md#l1) |
+|**Restrição**|
+| - |
+|**Exceção** |
+| Internet cair <br> App dar [crash](lexicos.md#l20) <br> [Pin](lexicos.md#l1) ser excluído ao ser [salvo](lexicos.md#salvar) <br> Não existir [pastas](lexicos.md#l3) para [salvá-lo](lexicos.md#salvar) |
+|**Episódios** |
+| [Usuário](lexicos.md#l14) entra na [página](lexicos.md#l7) inicial para visualizar e [navegar](lexicos.md#l36) pelo [feed](lexicos.md#l15) de [Pins](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) seleciona um [Pin](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) clica no botão [Salvar](lexicos.md#salvar) <br> [Usuário](lexicos.md#l14) escolhe a [pasta](lexicos.md#l3) para [salvá-lo](lexicos.md#salvar) e se não houverem [pastas](lexicos.md#l3) criadas, cria uma [pasta](lexicos.md#l3) para poder [salvar](lexicos.md#salvar) o [Pin](lexicos.md#l1) <br> [Usuário](lexicos.md#l14) [salvar](lexicos.md#salvar) o [Pin](lexicos.md#l1) na [pasta](lexicos.md#l3) |
 
 ## Visualizar [Feed](lexicos.md#l15)
 
