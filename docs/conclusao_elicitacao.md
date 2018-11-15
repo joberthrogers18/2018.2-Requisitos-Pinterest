@@ -86,7 +86,7 @@ Por fim, o questionário não foi muito eficiente para o levantamento de requisi
 ### Requisitos funcionais
 
 |  Código | Descrição | Elicitação |
-|  :------: | :------: | :------: | :------: |
+|  :------: | :------: | :------: |
 |  RF1 | O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | [AP1](analise_protocolo.md#resultado-dos-requisitos) |
 |  RF2 | Ter um feed baseado nos interesses do usuário. | [AP3](analise_protocolo.md#resultado-dos-requisitos) |
 |  RF3 | O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil | [AD2](analise_discurso.md#requisitos-elicitados); <br> [AD7](analise_discurso.md#requisitos-elicitados); <br> [AP3](analise_protocolo.md#resulyado-dos-requisitos);  |
