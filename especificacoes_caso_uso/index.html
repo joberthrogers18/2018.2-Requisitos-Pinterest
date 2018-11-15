@@ -905,6 +905,7 @@
 </table>
 <h2 id="ecu-12">ECU 12</h2>
 <h3 id="salvar-um-pin"><a href="../lexicos/#l2">Salvar</a> um <a href="../lexicos/#l1">Pin</a></h3>
+<h4 id="versao-10">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -959,8 +960,64 @@
 </tr>
 </tbody>
 </table>
+<h4 id="versao-20">Versão 2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Salvar um Pin do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet <br> Usuário estar com o Pinterest aberto</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1- Usuário efetua Login no Pinterest [FA1] <br> 2- O sistema redireciona para a página principal <br> 3- Usuário acessa Página Principal [FA2] <br> 4- Usuário visualiza Feed <br> 5- Usuário visualiza um Pin <br> 6- Usuário acessa funcionalidade "Salvar o Pin" [FE1] <br> 7- Usuário cria uma pasta para salvar um Pin [FA3] <br> 8- Usuário escolhe o nome da pasta <br> 9- Usuário salva o Pin na pasta</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Usuário efetuar primeiro login na aplicação</em> <br>  1- Usuário escolhe no mínimo cinco categorias de interesses <br> 2- Usuário acessa Página Inicial <br>  3- Continua o Fluxo Principal a partir do 4 <br><br>  <em>FA2 - Usuário pesquisa por conteúdo específico</em> <br> 1- Usuário visualiza um Pin <br> 2- Continua o Fluxo Principal a partir do 6 <br><br> <em>FA3 - Usuário salva Pin em uma pasta já criada</em> <br></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>* FE1 - O Pin ser excluído do Pinterest *</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário salva Pin em uma pasta do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas_caso_uso/#dcu-17">Diagrama: DCU 17</a><br> <a href="../cenarios/#salvar-um-pin">Cenário: Salvar um Pin</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="ecu-13">ECU 13</h2>
 <h3 id="enviar-um-pin">Enviar um <a href="../lexicos/#l1">Pin</a></h3>
+<h4 id="versao-10_1">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -1015,8 +1072,64 @@
 </tr>
 </tbody>
 </table>
+<h4 id="versao-20_1">Versão 2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enviar um Pin do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário do Pinterest</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir cadastro no Pinterest <br> Usuário ter efetuado seu primeiro login <br> Usuário ter escolhido seus interesses <br> Usuário ter conexão de internet <br> Usuário estar com o Pinterest aberto</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1- Usuário efetua Login no Pinterest [FA1] <br> 2- O sistema redireciona para a página principal <br> 3- Usuário acessa Página Principal [FA2] <br>  4- Usuário visualiza Feed <br> 5- Usuário visualiza um Pin <br> 6- Usuário acessa funcionalidade "Enviar o Pin" [FE1] <br> 7- Usuário escolhe para que amigo do Pinterest quer enviar o Pin [FA3][FA4][FA5] <br> 8- Usuário envia o Pin [FA6]</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA01 - Usuário efetuar primeiro login na aplicação</em> <br> 1- Usuário escolhe no mínimo cinco categorias de interesses <br> 2- Usuário acessa Página Inicial <br>  3- Continua o Fluxo Principal a partir do 4 <br><br> <em>FA2 - Usuário pesquisa por conteúdo específico</em> <br> 1- Usuário visualiza um Pin <br>  2- Continua o Fluxo Principal a partir do 6 <br><br> <em>FA3 - Usuário copia o link do Pin para enviar por e-mail, SMS ou outra plataforma</em> <br><br> <em>FA4 - Usuário compartilha o link do Pin para o Facebook</em> <br><br><em>FA5 - Usuário envia o link do Pin para um contato do WhatsApp</em> <br><br> <em>FA6 - Usuário escreve uma mensagem para enviar junto ao Pin para um usuário do Pinterest</em> <br> Usuário envia o Pin</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td>* FE1 - O Pin ser excluído do Pinterest *</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário envia o Pin para outra pessoa</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas_caso_uso/#dcu-9">Diagrama: DCU 9</a><br> <a href="../cenarios/#enviar-um-pin">Cenário: Enviar um Pin</a></td>
+</tr>
+</tbody>
+</table>
 <h2 id="ecu-14">ECU 14</h2>
 <h3 id="realizar-primeiro-login">Realizar primeiro <a href="../lexicos/#l16">login</a></h3>
+<h4 id="versao-10_2">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -1044,6 +1157,55 @@
 </tr>
 <tr>
 <td>Usuário abre o Pinterest <br>Usuário efetua o primeiro Login no Pinterest <br> Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> Usuário acessa página principal [FA02][FA03][FA04] <br>  Usuário visualiza Feed <br> Usuário visiualiza um Pin</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA01 - Usuário faz o tutorial para aprender as funcionalidades do Pinterest</em> <br>  Usuário escolhe no mínimo cinco categorias de interesses <br> Continua o fluxo principal a partir do 4 <br><br> <em>FA02 - Usuário procura pessoas para seguir no Pinterest</em> <br><br> <em>FA03 Usuário procura por conteúdos específicos no Pinterest</em> <br><br> <em>FA04 - Usuário procura mais interesses para seguir</em></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário efetua primeiro login no Pinterest</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas_caso_uso/#dcu-10">Diagrama: DCU 10</a><br></td>
+</tr>
+</tbody>
+</table>
+<h4 id="versao-20_2">Versão 2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Realizar primeiro login no Pinterest</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário recém cadastrado no Pinterest</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir cadastro no Pinterest <br> Usuário não ter efetuado seu primeiro login <br> Usuário ter conexão de internet <br> Usuário estar com o Pinterest aberto</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1- Usuário efetua o primeiro Login no Pinterest <br> 2- O sistema redireciona para escolha de interesses <br> 3- Usuário escolhe no mínimo cinco categorias de interesses [FA01] <br> 4- O sistema redireciona para página principal <br> 5- Usuário acessa página principal [FA02][FA03][FA04] <br>  6- Usuário visualiza Feed <br> 7- Usuário visiualiza um Pin</td>
 </tr>
 <tr>
 <td><strong>Fluxos Alternativos</strong></td>
