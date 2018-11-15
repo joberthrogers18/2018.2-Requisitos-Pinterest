@@ -1,30 +1,30 @@
-# Confiabilidade
+# NFR1 - Confiabilidade
 
 ![](img/NFR-confiabilidade.png)
 
-# Conectividade
+# NFR2 - Conectividade
 
 ![](img/NFR_Adaptabilidade.png)
 
-# Usabilidade
+# NFR3 - Usabilidade
 
 ![](img/NFR-Usabilidade.png)
 
-# Usabilidade - Design
+# NFR4 - Usabilidade (Design)
 ![](img/NFR-Design.png)
 
-# Desempenho
+# NFR5 - Desempenho
 
 ![](img/NFR_desempenho.png)
 
-# Suporte
+# NFR6 - Suporte
 
 ![](img/NFR-suporte.png)
 
-# Segurança
+# NFR7 - Segurança
 
 ![](img/NFR_Seguranca.png)
 
-# Suportabilidade
+# NFR8 - Suportabilidade
 
 ![](img/NFR_Suportabilidade.png)

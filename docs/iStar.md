@@ -5,40 +5,40 @@
 
 # Strategic Rationale Models
 
-### Definir interesses
+### IS1 - Definir interesses
 ![](img/rationale_definir_interesses2.png)
 
-## Classificar pastas
+## IS2 - Classificar pastas
 ![](img/Rationale-Classificar_Pastas.png)
 
-## Pesquisar Pins
+## IS3 - Pesquisar Pins
 ![](img/Rationale_Pesquisar_Pins.png)
 
-## Seguir usuário
+## IS4 - Seguir usuário
 ![](img/rationale_seguir_usuario.png)
 
-## Editar configurações de conta
+## IS5 - Editar configurações de conta
 ![](img/rationale_editar_configuracoes.png)
 
-## Cadastro no Pinterest
+## IS6 - Cadastro no Pinterest
 ![](img/rationale_cadastro.png)
 
 ## Enviar Pin
 
-## Usuário
+## IS7 - Usuário
 
 ![](img/istar-enviar-pin.png)
 
-## Outro Usuário
+## IS8 - Outro Usuário
 
 ![](img/istar-postar-pin-outro-usuario.png)
 
 ## Pinterest
 
-### Enviar Pin
+## IS9 - Enviar Pin
 
 ![](img/istart-pinterest-enviar-pin.png)
 
-### Geral
+## IS10 - Geral
 
 ![](img/rationale_pinterest.png)
