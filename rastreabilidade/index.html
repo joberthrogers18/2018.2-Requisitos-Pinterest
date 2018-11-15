@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Storytelling - Pinterest</title>
+  <title>Rastros - Pinterest</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
@@ -18,9 +18,9 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Storytelling";
-    var mkdocs_page_input_path = "storytelling.md";
-    var mkdocs_page_url = "/storytelling/";
+    var mkdocs_page_name = "Rastros";
+    var mkdocs_page_input_path = "rastreabilidade.md";
+    var mkdocs_page_url = "/rastreabilidade/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -57,9 +57,24 @@
 		
     <span class="caption-text">RASTREABILIDADE</span>
     <ul class="subnav">
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../rastreabilidade/">Rastros</a>
+    <a class="current" href="./">Rastros</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#rastreabilidade">Rastreabilidade</a></li>
+    
+
+    <li class="toctree-l3"><a href="#introducao">Introdução</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#rich-picture-e-argumetnacao">Rich Picture e Argumetnação</a></li>
+        
+        </ul>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -103,23 +118,9 @@
                     
     <a class="" href="../questionario/">Questionário</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Storytelling</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#introducao">Introdução</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#storytelling-1-definindo-interesses-no-pinterest">Storytelling 1 -  Definindo interesses no Pinterest</a></li>
-        
-            <li><a class="toctree-l4" href="#storytelling-2-aprendendo-receitas-no-pinterest">Storytelling 2 -  Aprendendo receitas no Pinterest</a></li>
-        
-        </ul>
-    
-
-    </ul>
+    <a class="" href="../storytelling/">Storytelling</a>
                 </li>
                 <li class="">
                     
@@ -223,11 +224,11 @@
     
       
         
-          <li>ELICITAÇÃO DE REQUISITOS &raquo;</li>
+          <li>RASTREABILIDADE &raquo;</li>
         
       
     
-    <li>Storytelling</li>
+    <li>Rastros</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -237,144 +238,23 @@
           <div role="main">
             <div class="section">
               
-                <h1 id="introducao">Introdução</h1>
-<p>A técnica de elicitação por storytelling consiste no compartilhamento de conhecimento por meio da narração de  histórias em grupo. A equipe realizou dois storytellings com membros da própria equipe, relacionados à experiência de uso do aplicativo Pinterest. Os narradores contaram sua experência enquanto os outros membros escutavam, anotavam e gravavam. Segue abaixo o relatório das narrativas.</p>
-<h2 id="storytelling-1-definindo-interesses-no-pinterest">Storytelling 1 -  Definindo interesses no Pinterest</h2>
-<h4 id="rastreabilidade">Rastreabilidade</h4>
-<table>
-<thead>
-<tr>
-<th>Nome</th>
-<th>Papel</th>
-<th>Observação</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Guilherme Guy</td>
-<td>Narração</td>
-<td>Membro da equipe/Usuário</td>
-</tr>
-<tr>
-<td>Geovana Ramos</td>
-<td>Relatório</td>
-<td>Membro da equipe</td>
-</tr>
-<tr>
-<td>Alexandre Miguel</td>
-<td>Gravação</td>
-<td>Membro da equipe</td>
-</tr>
-</tbody>
-</table>
-<p><em>Demais membros como ouvintes</em></p>
-<h4 id="resumo-da-narracao">Resumo da Narração</h4>
-<p>O usuário estava navegando em seu feed do Pinterest quando começaram a aparecer pins que não eram de seu interesse e, portanto, ele não gostaria de vê-los. Então, ele começou a explorar o app em busca da funcionalidade que permitisse redefinir seus interesses. Acabou não achando a funcionalidade -  mais tarde descobriu que foi devido a um carregamento lento - e então teve de recorrer ao site. Ao achar a funcionalidade, percebeu que nenhum dos interesses que marcou estava relacionado aos pins estranhos que estavam aparecendo. Ainda em busca de algum esclarecimento, acabou descobrindo que os pins oferecem uma funcionalidade que informa o usuário o porquê daquele pin estar em seu feed, e no seu caso, aqueles pins eram resultados de buscas recentes.</p>
-<h4 id="requisitos-elicitados">Requisitos Elicitados</h4>
-<table>
-<thead>
-<tr>
-<th>Código</th>
-<th>Descrição</th>
-<th>Prioridade</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ST1.1</td>
-<td>O app deve permitir a escolha de interesses no primeiro acesso.</td>
-<td>Must</td>
-</tr>
-<tr>
-<td>ST1.2</td>
-<td>O usuário deve poder reagir aos pins que aparecem indicando se eles os agrada.</td>
-<td>Could</td>
-</tr>
-<tr>
-<td>ST1.3</td>
-<td>O usuário deve poder alterar seus interesses a qualquer momento.</td>
-<td>Must</td>
-</tr>
-<tr>
-<td>ST1.4</td>
-<td>Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário.</td>
-<td>Should</td>
-</tr>
-<tr>
-<td>ST1.5</td>
-<td>O usuário deve poder ocultar pins.</td>
-<td>Should</td>
-</tr>
-</tbody>
-</table>
-<h2 id="storytelling-2-aprendendo-receitas-no-pinterest">Storytelling 2 -  Aprendendo receitas no Pinterest</h2>
-<h4 id="rastreabilidade_1">Rastreabilidade</h4>
-<table>
-<thead>
-<tr>
-<th>Nome</th>
-<th>Papel</th>
-<th>Observação</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Letícia Meneses</td>
-<td>Narração</td>
-<td>Membro da equipe/Usuário</td>
-</tr>
-<tr>
-<td>Geovana Ramos</td>
-<td>Relatório</td>
-<td>Membro da equipe</td>
-</tr>
-<tr>
-<td>Alexandre Miguel</td>
-<td>Gravação</td>
-<td>Membro da equipe</td>
-</tr>
-</tbody>
-</table>
-<p><em>Demais membros como ouvintes</em></p>
-<h4 id="resumo-da-narracao_1">Resumo da Narração</h4>
-<p>No seu uso habitual do app Pinterest, a usuária definiu como seu interesse os pins de comida. A partir disso, a aplicação passou a mostrar pins de comida no seu feed do explorar, e isso fez com que ela adicionasse um pin de sanduíche em uma pasta pessoal. Dessa forma, mais sanduíches começaram a aparecer no seu feed e eles vinham acompanhados da receita. Isso acabou despertando o interesse da usuária em fazer o sanduíche, acompanhando a receita fornecida pelo app.</p>
-<h4 id="requisitos-elicitados_1">Requisitos Elicitados</h4>
-<table>
-<thead>
-<tr>
-<th>Código</th>
-<th>Descrição</th>
-<th>Prioridade</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>ST2.1</td>
-<td>O app deve oferecer mais conteúdo relacionado às atividades recentes.</td>
-<td>Could</td>
-</tr>
-<tr>
-<td>ST2.2</td>
-<td>A aba explorar deve mostrar potenciais interesses.</td>
-<td>Should</td>
-</tr>
-<tr>
-<td>ST2.3</td>
-<td>As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la.</td>
-<td>Could</td>
-</tr>
-<tr>
-<td>ST2.4</td>
-<td>O usuário deve poder salvar seus pins em uma pasta.</td>
-<td>Must</td>
-</tr>
-<tr>
-<td>ST2.5</td>
-<td>As pastas devem ser personalizáveis.</td>
-<td>Should</td>
-</tr>
-</tbody>
-</table>
+                <h1 id="rastreabilidade">Rastreabilidade</h1>
+<h1 id="introducao">Introdução</h1>
+<p>É certo que para encontrar os requisitos de um projeto, além do desenvolvimento da modelagem e da elicitação de requisitos, existem diversas discussões a respeito das técnicas utilizadas. Este arquivo contém toda a rastreabilidade das entregas referente à materia de Requisitos de Software, contendo as conversas através do Slack do grupo e até mesmo áudios de conversas gravadas com a autroização da equipe.  </p>
+<h2 id="rich-picture-e-argumetnacao">Rich Picture e Argumetnação</h2>
+<p>Para o desenvolvimento dessas duas técnicas as discussões desenvolveram-se a princípio com as primeiras ideias para a argumentação. Contudo, ainda haviam dúvidas a respeito das técnicas e até mesmo do Pinterest:</p>
+<p><img alt="Part1" src="../img/Rastreabilidade/RastroArgpt1.png" /></p>
+<p><img alt="Part2" src="../img/Rastreabilidade/rich1.png" /></p>
+<p><img alt="Part3" src="../img/Rastreabilidade/rich2.png" /></p>
+<p><img alt="Part4" src="../img/Rastreabilidade/rich3.png" /></p>
+<p><img alt="Part5" src="../img/Rastreabilidade/rich4.png" /></p>
+<p><img alt="Part6" src="../img/Rastreabilidade/rich5.png" /></p>
+<p><img alt="Part7" src="../img/Rastreabilidade/rich6.png" /></p>
+<p>Após a entrega geral da equipe, coube ao grupo a discussão a respeito do desenvolvimento dos Rich Pictures individuais:</p>
+<p><img alt="RichRastro1" src="../img/Rastreabilidade/richpt1.png" /></p>
+<p><img alt="RichRastro2" src="../img/Rastreabilidade/richpt2.png" /></p>
+<p><img alt="RichRastro3" src="../img/Rastreabilidade/richpt3.png" /></p>
+<p>Desse modo, foram feitos x <a href="../rich_picture/#rich-picture">Rich Pictures</a> com os temas [...]</p>
               
             </div>
           </div>
@@ -382,10 +262,10 @@
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../conclusao_elicitacao/" class="btn btn-neutral float-right" title="Conclusão">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../argumentacao/" class="btn btn-neutral float-right" title="Argumentação">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
-        <a href="../questionario/" class="btn btn-neutral" title="Questionário"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href=".." class="btn btn-neutral" title="HOME"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -411,10 +291,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../questionario/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href=".." style="color: #fcfcfc;">&laquo; Previous</a></span>
       
       
-        <span style="margin-left: 15px"><a href="../conclusao_elicitacao/" style="color: #fcfcfc">Next &raquo;</a></span>
+        <span style="margin-left: 15px"><a href="../argumentacao/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
