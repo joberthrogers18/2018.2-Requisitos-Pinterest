@@ -347,11 +347,25 @@
 ## L33
 **Organizar**
 
+### Versão 1.0
+
 |**Noção**|
 |--|
 |	Permite ao [usuário](#l14) modificar o agrupamento de [pins](#l1) em [pastas](#l3) e [subpastas](#l4). |
 |**Impacto** |
 | O [usuário](#l14) move [pins](#l1) entre [pastas](#l3) e [subpastas](#l4). <br> O [usuário](#l14) pode excluir [pins](#l1) de [pastas](#l3) e [subpastas](#l4). <br> O [usuário](#l14) pode excluir [pastas](#l3) e [subpastas](#l4).|
+|**Sinônimos**|
+| Reorganizar, Reordenar, Modificar Pasta |
+
+### Versão 2.0
+
+|**Noção**|
+|--|
+|	Permite ao [usuário](#l14) modificar o agrupamento de [pins](#l1) em [pastas](#l3) e [subpastas](#l4). |
+|**Classificação** |
+| Verbo |
+|**Impacto** |
+| O [usuário](#l14) move [pins](#l1) entre [pastas](#l3) e [subpastas](#l4). <br> O [usuário](#l14) exclui [pins](#l1) de [pastas](#l3) e [subpastas](#l4). <br> O [usuário](#l14) exclui [pastas](#l3) e [subpastas](#l4).|
 |**Sinônimos**|
 | Reorganizar, Reordenar, Modificar Pasta |
 
@@ -369,6 +383,8 @@
 ## L35
 **Comunidade**
 
+### Versão 1.0
+
 |**Noção**|
 |--|
 |	Grupo de pessoas que administram o [Pinterest](#l9). |
@@ -377,13 +393,39 @@
 |**Sinônimos**|
 | Administradores |
 
+### Versão 2.0
+
+|**Noção**|
+|--|
+|	Grupo de pessoas que administram o [Pinterest](#l9). <br> Pessoas administram os [pins](#l1) do [Pinterest](#l9) para os [usuários](#l14). |
+|**Classificação** |
+| Objeto |
+|**Impacto** |
+| Grupo avalia os [pins](#l1) [denunciados](#l34) pelos [usuários](#l14). <br> Grupo fiscaliza se há conteúdo impróprio nos [pins](#l1) postados pelos [usuários](#l14). |
+|**Sinônimos**|
+| Administradores |
+
 ## L36
 **Navegar**
+
+### Versão 1.0
 
 |**Noção**|
 |--|
 |	Percorrer as [abas](#l7) do [Pinterest](#l9). |
 |**Impacto** |
 | [Usuários](#l14) acessam as funcionalidades do [Pinterest](#l9). <br> [Usuário](#l14) percorre [página](#l7) inicial. <br> [Usuário](#l14) navega pelas [pastas](#l3) de [pins](#l1) salvos. <br> [Usuário](#l14) entra na página de notificações. <br> [Usuário](#l14) acessa [página](#l7) de [interesses](#l10) e [usuários](#l14) que está seguindo. |
+|**Sinônimos**|
+| Percorrer |
+
+### Versão 2.0
+
+|**Noção**|
+|--|
+|	Percorrer as [abas](#l7) do [Pinterest](#l9). <br> [Usuários](#l14) acessam as abas de funcionalidades do [Pinterest](#l9). |
+|**Classificação** |
+| Verbo |
+|**Impacto** |
+| [Usuário](#l14) percorre [página](#l7) inicial. <br> [Usuário](#l14) navega pelas [pastas](#l3) de [pins](#l1) salvos. <br> [Usuário](#l14) entra na página de notificações. <br> [Usuário](#l14) acessa [página](#l7) de [interesses](#l10) e [usuários](#l14) que está seguindo. |
 |**Sinônimos**|
 | Percorrer |
