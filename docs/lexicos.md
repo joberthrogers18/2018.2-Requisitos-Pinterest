@@ -20,7 +20,7 @@
 
 |**Noção**|
 |--|
-| É o ato do [usuário](#l14) [salvar um pin](cenarios.md#salvar-um-pin) em um [pasta](#l3) para poder acessar mais tarde ou para categorizar seus [pins](#l1).  |
+| É o ato do [usuário](#l14) [salvar um pin](cenarios.md#c14) em um [pasta](#l3) para poder acessar mais tarde ou para categorizar seus [pins](#l1).  |
 |**Impacto** |
 | O [usuário](#l14) pode pinar um [pin](#l1) de que ele goste. <br> O usuário guarda seus [pins](#l1) em um [pasta](#l3).<br> O [usuário](#l14) pode acessar posteriormente os [pins](#l1) salvos em suas [pastas](#l3). <br> A interação de pinar aumenta a classificação de relevância do [interesse](#l10) relacionado ao [pin](#l1) pinado, o que faz com que mais pins relacionados a este interesse apareça no [feed](#l15) do [usuário](#l14). |
 |**Sinônimos**|
@@ -338,7 +338,7 @@
 
 |**Noção**|
 |--|
-|	Agrupamento de dados que representa um [usuário](#l14) registrado do [pinterest](#l9), criado após o [cadastro](cenarios.md#cadastro-de-usuario) de uma pessoa no serviço. |
+|	Agrupamento de dados que representa um [usuário](#l14) registrado do [pinterest](#l9), criado após o [cadastro](cenarios.md#c1) de uma pessoa no serviço. |
 |**Impacto** |
 | Para que o [usuário](#l14) interaja com o várias funções do sistema é necessário possuir uma conta de usuário. |
 |**Sinônimos**|
