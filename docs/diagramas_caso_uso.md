@@ -70,7 +70,13 @@
 
 [especificação de caso de uso: ECU 13 ](especificacoes_caso_uso.md#ecu-13)
 
+#### Versão 1.0
+
 ![EnviarUmPin](img/CasoDeUsoEnviarUmPin.png)
+
+#### Versão 2.0
+
+![EnviarUmPinv2](img/ucenviarpinv2.png)
 
 ## DCU 10
 
@@ -78,7 +84,13 @@
 
 [especificação de caso de uso: ECU 14 ](especificacoes_caso_uso.md#ecu-14)
 
+#### Versão 1.0
+
 ![RealizarPrimeiroLogin](img/CasoDeUsoRealizarPrimeiroLogin.jpeg)
+
+#### Versão 2.0
+
+![RealizarPrimeiroLoginv2](img/ucrealizarprimeirologinv2.png)
 
 ## DCU 11
 
@@ -134,7 +146,13 @@
 
 [especificação de caso de uso: ECU 12 ](especificacoes_caso_uso.md#ecu-12)
 
+#### Versão 1.0
+
 ![SalvarUmPin](img/CasoDeUsoSalvarUmPin.png)
+
+#### Versão 2.0
+
+![SalvarUmPinv2](img/ucsalvarpinv2.png)
 
 
 ## DCU 18
