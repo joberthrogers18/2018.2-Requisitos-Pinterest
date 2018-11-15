@@ -1,7 +1,9 @@
 # Introdução
 
 
-## Cadastro de [usuário](lexicos.md#l14)
+## ECU 1
+
+### Cadastro de [usuário](lexicos.md#l14)
 
 | Descrição|
 | -- |
@@ -19,9 +21,11 @@
 | **Pós Condições**|
 |Usuário possui conta no Pinterest|
 | **Rastreabilidade** |
-| [Cenário: Cadastro de Usuário](cenarios.md#cadastro-de-usuario) |
+| [Diagrama: DCU 2](diagramas_caso_uso.md#dcu-2)<br>[Cenário: Cadastro de Usuário](cenarios.md#cadastro-de-usuario) |
 
-## Visualizar [Pin](lexicos.md#l1)
+## ECU 2
+
+### Visualizar [Pin](lexicos.md#l1)
 
 | Descrição|
 | -- |
@@ -38,8 +42,12 @@
 | *FE1 - Usuário excluir pin na hora que outro visualiza*<br>Sistema apresenta erro quando um usuário visualiza e ao mesmo momento o criador do pin apaga.|
 | **Pós Condições**|
 | Usuário visualiza pin. |
+| **Rastreabilidade** |
+| [Diagrama: DCU 3](diagramas_caso_uso.md#dcu-3)|
 
-## Comentar em um [Pin](lexicos.md#l1)
+## ECU 3
+
+### Comentar em um [Pin](lexicos.md#l1)
 
 | Descrição|
 | -- |
@@ -57,9 +65,11 @@
 | **Pós Condições**|
 | Usuário cria um comentário em um pin. |
 | **Rastreabilidade** |
-| [Cenário: Comentar em um Pin](cenarios.md#comentar-em-um-pin) |
+| [Diagrama: DCU 4](diagramas_caso_uso.md#dcu-4)<br>[Cenário: Comentar em um Pin](cenarios.md#comentar-em-um-pin) |
 
-## Definir [interesses](lexicos.md#l10)
+## ECU 4
+
+### Definir [interesses](lexicos.md#l10)
 
 | Descrição|
 | -- |
@@ -77,9 +87,10 @@
 | **Pós Condições**|
 | O feed terá conteúdos que estejam de acordo com os interesses do usuário. |
 | **Rastreabilidade** |
-| [Cenário: Definir interesses](cenarios.md#definir-interesses) |
+|[Diagrama: DCU 4](diagramas_caso_uso.md#dcu-4)<br>[Cenário: Definir interesses](cenarios.md#definir-interesses) |
 
-## Editar um [Pin](lexicos.md#l1)
+## ECU 5
+### Editar um [Pin](lexicos.md#l1)
 
 | Descrição|
 | -- |
@@ -97,10 +108,11 @@
 | **Pós Condições**|
 | As características modificadas serem vistas pelo usuário na descrição do pin. |
 | **Rastreabilidade** |
-| [Cenário: Editar um Pin](cenarios.md#editar-um-pin) |
+|[Diagrama: DCU 8](diagramas_caso_uso.md#dcu-8)<br> [Cenário: Editar um Pin](cenarios.md#editar-um-pin) |
 
 
-## Fazer [login](lexicos.md#l16)
+## ECU 6
+### Fazer [login](lexicos.md#l16)
 
 | Descrição|
 | -- |
@@ -118,9 +130,10 @@
 | **Pós Condições**|
 | Conseguir acessar a página principal e outras funcionalidades exclusivas para usuários logados |
 | **Rastreabilidade** |
-| [Cenário: Fazer login](cenarios.md#fazer-login) |
+| [Diagrama: DCU 11](diagramas_caso_uso.md#dcu-11)<br> [Cenário: Fazer login](cenarios.md#fazer-login) |
 
-## Ir para a fonte de um [Pin](lexicos.md#l1)
+## ECU 7
+### Ir para a fonte de um [Pin](lexicos.md#l1)
 
 | Descrição|
 | -- |
@@ -138,9 +151,10 @@
 | **Pós Condições**|
 | Estar na página na qual está o pin. |
 | **Rastreabilidade** |
-| [Cenário: Ir para a fonte de um Pin](cenarios.md#ir-para-a-fonte-de-um-pin) |
+| [Diagrama: DCU 12](diagramas_caso_uso.md#dcu-12)<br>[Cenário: Ir para a fonte de um Pin](cenarios.md#ir-para-a-fonte-de-um-pin) |
 
-## Seguir outro [usuário](lexicos.md#l14)
+## ECU 8
+### Seguir outro [usuário](lexicos.md#l14)
 
 | Descrição|
 | -- |
@@ -158,9 +172,10 @@
 | **Pós Condições**|
 |Usuário passa a seguir outro usuário. |
 | **Rastreabilidade** |
-| [Cenário: Seguir outro usuário](cenarios.md#seguir-outro-usuario) |
+| [Diagrama: DCU 16](diagramas_caso_uso.md#dcu-16)<br>[Cenário: Seguir outro usuário](cenarios.md#seguir-outro-usuario) |
 
-## Visualizar aba Seguindo
+## ECU 9
+### Visualizar aba Seguindo
 
 | Descrição|
 | -- |
@@ -177,9 +192,11 @@
 | - |
 | **Pós Condições**|
 | Usuário visualizará a aba "Seguindo". |
-| [Cenário: Visualizar aba Seguindo](cenarios.md#visualizar-aba-seguindo) |
+| **Rastreabilidade** |
+| [Diagrama: DCU 19](diagramas_caso_uso.md#dcu-19)<br> [Cenário: Visualizar aba Seguindo](cenarios.md#visualizar-aba-seguindo) |
 
-## Enviar mensagem para outros [usuários](lexicos.md#l14)
+## ECU 10
+### Enviar mensagem para outros [usuários](lexicos.md#l14)
 
 | Descrição|
 | -- |
@@ -196,9 +213,11 @@
 | *FE1 - Usuário não encontrado*<br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><br>*FE2 - Mensagem não entregue*<br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.|
 | **Pós Condições**|
 |Usuário envia mensagem|
-| [Cenário: Enviar mensagem para outros usuários](cenarios.md#enviar-mensagem-para-outros-usuarios) |
+| **Rastreabilidade** |
+| [Diagrama: DCU 1](diagramas_caso_uso.md#dcu-1)<br>[Cenário: Enviar mensagem para outros usuários](cenarios.md#enviar-mensagem-para-outros-usuarios) |
 
-## [Ocultar](lexicos.md#l13) um [Pin](lexicos.md#l1)
+## ECU 11
+### [Ocultar](lexicos.md#l13) um [Pin](lexicos.md#l1)
 
 | Descrição |
 | -- |
@@ -215,9 +234,11 @@
 | - |
 | **Pós Condições**|
 | Usuário oculta o pin. |
-| [Cenário: Ocultar um Pin](cenarios.md#ocultar-um-pin) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 22](diagramas_caso_uso.md#dcu-22)<br> [Cenário: Ocultar um Pin](cenarios.md#ocultar-um-pin) |
 
-## [Salvar](lexicos.md#l2) um [Pin](lexicos.md#l1)
+## ECU 12
+### [Salvar](lexicos.md#l2) um [Pin](lexicos.md#l1)
 
 | Descrição |
 | -- |
@@ -234,9 +255,11 @@
 | - |
 | **Pós Condições**|
 | Usuário salva Pin em uma pasta do Pinterest |
-| [Cenário: Salvar um Pin](cenarios.md#salvar-um-pin) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 17](diagramas_caso_uso.md#dcu-17)<br> [Cenário: Salvar um Pin](cenarios.md#salvar-um-pin) |
 
-## Enviar um [Pin](lexicos.md#l1)
+## ECU 13
+### Enviar um [Pin](lexicos.md#l1)
 
 | Descrição |
 | -- |
@@ -253,9 +276,12 @@
 | - |
 | **Pós Condições**|
 | Usuário envia o Pin para outra pessoa |
-| [Cenário: Enviar um Pin](cenarios.md#enviar-um-pin) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 9](diagramas_caso_uso.md#dcu-9)<br> [Cenário: Enviar um Pin](cenarios.md#enviar-um-pin) |
 
-## Realizar primeiro [login](lexicos.md#l16)
+## ECU 14
+
+### Realizar primeiro [login](lexicos.md#l16)
 
 | Descrição |
 | -- |
@@ -270,8 +296,11 @@
 | *FA01 - Usuário faz o tutorial para aprender as funcionalidades do Pinterest* <br>  Usuário escolhe no mínimo cinco categorias de interesses <br> Continua o fluxo principal a partir do 4 <br><br> *FA02 - Usuário procura pessoas para seguir no Pinterest* <br><br> *FA03 Usuário procura por conteúdos específicos no Pinterest* <br><br> *FA04 - Usuário procura mais interesses para seguir* |
 | **Pós Condições**|
 | Usuário efetua primeiro login no Pinterest |
+| **Rastreabilidade** |
+|[Diagrama: DCU 10](diagramas_caso_uso.md#dcu-10)<br>|
 
-## Sair do aplicativo [Pinterest](lexicos.md#l9)
+## ECU 15
+### Sair do aplicativo [Pinterest](lexicos.md#l9)
 
 | Descrição |
 | -- |
@@ -289,9 +318,13 @@
 | **Pós Condições**|
 | O usuário deslogado. |
 | [Cenário: Sair do aplicativo Pinterest](cenarios.md#sair-do-aplicativo-pinterest) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 25](diagramas_caso_uso.md#dcu-25)<br>|
 
 
-## [Denunciar](lexicos.md#l34) um [Pin](lexicos.md#l1)
+## ECU 16
+
+### [Denunciar](lexicos.md#l34) um [Pin](lexicos.md#l1)
 
 | Descrição |
 | -- |
@@ -308,10 +341,12 @@
 | - |
 | **Pós Condições**|
 | O usuário deslogado. |
-| [Cenário: Denunciar um Pin](cenarios.md#denunciar-um-pin) |
+| **Rastreabilidade** |
+| [Diagrama: DCU 23](diagramas_caso_uso.md#dcu-23)<br>[Cenário: Denunciar um Pin](cenarios.md#denunciar-um-pin) |
 
 
-## Classificar um [Pin](lexicos.md#l1) como [Experimentado](lexicos.md#l22)
+## ECU 17
+### Classificar um [Pin](lexicos.md#l1) como [Experimentado](lexicos.md#l22)
 | Descrição |
 | -- |
 | Experimentar o conteúdo de um pin e classificá-lo na aba do Pinterest de Experimentados |
@@ -327,9 +362,11 @@
 | -  |
 | **Pós Condições**|
 |  O pin ficará salvo na aba Experimentar do Pinterest junto com uma foto do que foi experimentado.|
-| [Cenário: Classificar um Pin como Experimentado](cenarios.md#classificar-um-pin-como-experimentado) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 24](diagramas_caso_uso.md#dcu-24)<br> [Cenário: Classificar um Pin como Experimentado](cenarios.md#classificar-um-pin-como-experimentado) |
 
-## Editar [Perfil](lexicos.md#l17)
+## ECU 18
+### Editar [Perfil](lexicos.md#l17)
 | Descrição |
 | -- |
 | O usuário editar seu perfil com suas informações, podendo adionar novas ou mudá-las. |
@@ -345,10 +382,12 @@
 | *FE1* – Não salvar as alterações. |
 | **Pós Condições**|
 | Alteração ou adição de informações no perfil do usuário. |
-| [Cenário: Editar Perfil](cenarios.md#editar-perfil) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 26](diagramas_caso_uso.md#dcu-26)<br> [Cenário: Editar Perfil](cenarios.md#editar-perfil) |
 
 
-## Visualizar [Feed](lexicos.md#l15)
+## ECU 19
+### Visualizar [Feed](lexicos.md#l15)
 | Descrição |
 | -- |
 |  Visualizar pins de interesse do usuário pelo feed|
@@ -364,9 +403,11 @@
 | -  |
 | **Pós Condições**|
 | O usuário visualizará o conteúdo oferecido pelo Pinterest |
-| [Cenário: Visualizar Feed](cenarios.md#visualizar-feed) |
+| **Rastreabilidade** |
+| [Diagrama: DCU 18](diagramas_caso_uso.md#dcu-18)<br>[Cenário: Visualizar Feed](cenarios.md#visualizar-feed) |
 
-## Receber [notificações](lexicos.md#l19)
+## ECU 20
+### Receber [notificações](lexicos.md#l19)
 | Descrição |
 | -- |
 | O usuário recebe notificações de pins relacionados aos seus e pins salvos por amigos. |
@@ -382,10 +423,12 @@
 | *FE1* – Não estar seguindo outros usuários e não ter nenhum pin salvo  |
 | **Pós Condições**|
 | O usuário é notificado sobre qualquer interação de novos pins ou usuários seguidos. |
-| [Cenário: Receber notificações](cenarios.md#receber-notificacoes) |
+| **Rastreabilidade** |
+| [Diagrama: DCU 20](diagramas_caso_uso.md#dcu-20)<br>[Cenário: Receber notificações](cenarios.md#receber-notificacoes) |
 
 
-## [Classificação](lexicos.md#l30) de [pastas](lexicos.md#l3)
+## ECU 21
+### [Classificação](lexicos.md#l30) de [pastas](lexicos.md#l3)
 | Descrição |
 | -- |
 | O usuário escolhe a forma que quer ordenar suas pastas. |
@@ -401,10 +444,12 @@
 | - |
 | **Pós Condições**|
 | As pastas do usuário estarão ordenadas de acordo com a opção escolhida por ele. |
-| [Cenário: Classificação de pastas](cenarios.md#classificacao-de-pastas) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 21](diagramas_caso_uso.md#dcu-21)<br> [Cenário: Classificação de pastas](cenarios.md#classificacao-de-pastas) |
 
 
-## Organizar [Pasta](lexicos.md#l3)
+## ECU 22
+### Organizar [Pasta](lexicos.md#l3)
 | Descrição |
 | -- |
 | Realocar pins em pastas ou subpastas e excluir pins |
@@ -420,10 +465,12 @@
 | -  |
 | **Pós Condições**|
 | O usuário visualizará o conteúdo oferecido pelo Pinterest |
-| [Cenário: Organizar Pasta](cenarios.md#organizar-pasta) |
+| **Rastreabilidade** |
+| [Diagrama: DCU 13](diagramas_caso_uso.md#dcu-13)<br>[Cenário: Organizar Pasta](cenarios.md#organizar-pasta) |
 
 
-## [Pesquisar](lexicos.md#l31) por tema
+## ECU 23
+### [Pesquisar](lexicos.md#l31) por tema
 
 | Descrição|
 | -- |
@@ -440,9 +487,11 @@
 | **FE1** - Palavras que coincidirem com outros temas. |
 | **Pós Condições**|
 | O usuário encontrará uma página repleta de pins de acordo com a temática desejada.  |
-| [Cenário: Pesquisar por tema](cenarios.md#pesquisar-por-tema) |
+| **Rastreabilidade** |
+| [Diagrama: DCU 14](diagramas_caso_uso.md#dcu-14)<br>[Cenário: Pesquisar por tema](cenarios.md#pesquisar-por-tema) |
 
-## [Pesquisar](lexicos.md#l31) por foto
+## ECU 24
+### [Pesquisar](lexicos.md#l31) por foto
 | Descrição|
 | -- |
 | Utilizar uma imagem como base de pesquisa para encontrar pins semelhantes. |
@@ -458,10 +507,12 @@
 | **FE1** - Pins Retornados Não São Semelhantes <br> Imagens de Pins retornados não correspondem ao tema da imagem enviada;  <br> O Processo é finalizado.<br><br>  |
 | **Pós Condições**|
 | São retornadas imagens de Pins semelhantes à imagem usada para pesquisa pelo usuário.  |
-| [Cenário: Pesquisar por foto](cenarios.md#pesquisar-por-foto) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 15](diagramas_caso_uso.md#dcu-15)<br> [Cenário: Pesquisar por foto](cenarios.md#pesquisar-por-foto) |
 
 
-## Compartilhar [Pasta](lexicos.md#l3)
+## ECU 25
+### Compartilhar [Pasta](lexicos.md#l3)
 | Descrição|
 | -- |
 | Permitir que um outro usuário possa editar uma pasta, adicionando e removendo pins ou criando subpastas. |
@@ -477,9 +528,11 @@
 | **FE1** - Usuário Recusa o Convite<br> O Usuário convidado recusa o convite;  <br>  O Processo é finalizado com sucesso. <br><br>  |
 | **Pós Condições**|
 | O Usuário Convidado agora pode modificar a pasta compartilhada.  |
-| [Cenário: Compartilhar Pasta](cenarios.md#compartilhar-pasta) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 5](diagramas_caso_uso.md#dcu-5)<br> [Cenário: Compartilhar Pasta](cenarios.md#compartilhar-pasta) |
 
-## Criar [Pasta](lexicos.md#l3)
+## ECU 26
+### Criar [Pasta](lexicos.md#l3)
 
 | Descrição|
 | -- |
@@ -496,4 +549,5 @@
 |  **FE1** - Nome de Pasta já existente <br> O Usuário insere um nome de uma pasta já existente; <br> O Programa não valida e informa o usuário de que aquele nome já foi utilizado; <br>  Usuário seleciona um novo nome para a pasta; <br>   Usuário seleciona a opção "Criar" **[FE1]** ; <br>  O Processo é finalizado com sucesso. |
 | **Pós Condições**|
 | O Usuário possui uma nova pasta para salvar seus pins. |
-| [Cenário: Criar Pasta](cenarios.md#criar-pasta) |
+| **Rastreabilidade** |
+| [Diagrama: DCU 6](diagramas_caso_uso.md#dcu-6)<br>[Cenário: Criar Pasta](cenarios.md#criar-pasta) |
