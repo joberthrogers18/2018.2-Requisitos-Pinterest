@@ -34,9 +34,15 @@ Este artefato busca ligar cada requisito levantado aos respectivos métodos de e
 
 |  Código | Descrição | Fonte | Elicitação | Modelagem | Elo |
 |  :------: | :------: | :------: | :------: | :------: | :------: |
+<<<<<<< HEAD
 |  RF1 | O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | [Vincular suas Redes Sociais](backward_from.md#vincular-suas-redes-sociais) | [AP1](analise_protocolo.md#resultado-dos-requisitos) | [L16](lexicos.md#l16); <br> [C - Fazer Login](cenarios.md#fazer-login); <br> [DC - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login); <br> [DC Fazer Login](diagramas_caso_uso.md#fazer-login); <br>[DC - Cadastro de Usuário](diagramas_caso_uso.md#cadastro-de-usuario) ;<br> [ECU - Fazer login](especificacoes_caso_uso.md#fazer-login); <br> [IStar- Cadastro no Pinterest](iStar.md#cadastro-no-pinterest) <br> [US12](backlog.md#us12); | [EF1](#ef1) |
 |  RF2 | Ter um feed baseado nos interesses do usuário. | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AP3](analise_protocolo.md#resultado-dos-requisitos) | [C- Definir interesses](cenarios.md#definir-interesses); <br> [L10](lexicos.md#l10); <br> [DC - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br> [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses); <br> [IS1](iStar.md#is1-definir-interesses) <br> [US15](backlog.md#us15); | [EF2](#ef2) |
 |  RF3 | O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AD2](analise_discurso.md#requisitos-elicitados); <br> [AD7](analise_discurso.md#requisitos-elicitados); <br> [AP3](analise_protocolo.md#resulyado-dos-requisitos);  | [L10](lexicos.md#l10); <br> [C - Definir Interesses](cenarios.md#definir-interesses); <br> [IS1](iStar.md#is1-definir-interesses); <br> [ DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br> [US36](backlog.md#us36); | [EF3](#ef3) |
+=======
+|  RF1 | O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | [Vincular suas Redes Sociais](backward_from.md#vincular-suas-redes-sociais) | [AP1](analise_protocolo.md#resultado-dos-requisitos) | [L16](lexicos.md#l16); <br> [C - Fazer Login](cenarios.md#fazer-login); <br> [DCU 10](diagramas_caso_uso.md#dcu-10); <br> [DCU 11](diagramas_caso_uso.md#dcu-11); <br>[DCU 3](diagramas_caso_uso.md#dcu) ;<br> [ECU - Fazer login](especificacoes_caso_uso.md#fazer-login); <br> [IStar- Cadastro no Pinterest](iStar.md#cadastro-no-pinterest) <br> [US12](backlog.md#us12); | [EF1](#ef1) |
+|  RF2 | Ter um feed baseado nos interesses do usuário. | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AP3](analise_protocolo.md#resultado-dos-requisitos) | [C- Definir interesses](cenarios.md#definir-interesses); <br> [L10](lexicos.md#l10); <br> [DC - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br> [ECU - Definir Interesses](especificacoes_caso_uso.md#definir-interesses); <br> [IStar - Definir interesses](iStar.md#definir-interesses) <br> [US15](backlog.md#us15); | [EF2](#ef2) |
+|  RF3 | O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AD2](analise_discurso.md#requisitos-elicitados); <br> [AD7](analise_discurso.md#requisitos-elicitados); <br> [AP3](analise_protocolo.md#resulyado-dos-requisitos);  | [L10](lexicos.md#l10); <br> [C - Definir Interesses](cenarios.md#definir-interesses); <br> [IS - Definir Interesses (Usuário)](iStar.md#definir-interesses); <br> [ DCU - Definir Interesses](diagramas_caso_uso.md#definir-interesses); <br> [US36](backlog.md#us36); | [EF3](#ef3) |
+>>>>>>> 1726d7716fda9451c2a54affdc3af10e1685648d
 |  RF4 | O usuário deve ter a opção de salvar pins em um pasta | [Salvar Pins no Pinterest](backward_from.md#salvar-pins-no-pinterest) | [ST2.4](storytelling.md#storytelling-2-aprendendo-receitas-no-pinterest) | [C - Salvar um Pin](cenarios.md#salvar-um-Pin); <br> [L2](lexicos.md#l2)<br> [DC - Salvar um Pin ](diagramas_caso_uso.md#salvar-um-pin); <br> [ECU - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin); <br> [US22](backlog.md#us22); | [EF4](#ef4) |
 |  RF5 | O app deve possuir uma barra para pesquisa por texto. | [Produtos do Pinterest](backward_from.md#produtos-do-pinterest) | [AP13](analise_protocolo.md#resultado-dos-requisitos) | [C - Pesquisar por tema](cenarios.md#pesquisar-por-tema); <br> [L31](lexicos.md#l31); <br> [DC - Pesquisar por tema ](diagramas_caso_uso.md#pesquisar-por-tema); <br> [ECU - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema); <br> [IS3](iStar.md#is3-pesquisar-pins); <br> [US34](backlog.md#us34); | [EF5](#ef5) |
 |  RF6 | O App deve possibilitar a transferência de Pins entre pastas. | [Mover Pins para outra Pasta](backward_from.md#mover-pins-para-outra-pasta) | [ENT11](entrevista.md#requisitos-elicitados) | [DCU - Organizar Pastas](diagramas_caso_uso.md#organizar-pasta); <br> [L- Organizar](lexicos.md#l33); <br> [C - Organizar Pastas](cenarios.md#organizar-pasta); <br> [US31](backlog.md#us31); | [EF6](#ef6) |
@@ -117,7 +123,7 @@ Este artefato busca ligar cada requisito levantado aos respectivos métodos de e
 Desenvolvimento
 ### Elementos Rastreáveis
 [L16](lexicos.md#l16); <br> [C - Fazer Login](cenarios.md#fazer-login); <br>
-[DC - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login); <br>
+[DCU 10](diagramas_caso_uso.md#dcu-10); <br>
 [DC Fazer Login](diagramas_caso_uso.md#fazer-login); <br>
 [DC - Cadastro de Usuário](diagramas_caso_uso.md#cadastro-de-usuario) ;<br>
 [ECU - Fazer login](especificacoes_caso_uso.md#fazer-login); <br>
@@ -663,12 +669,12 @@ Desenvolvimento
 ### Categoria
 Desenvolvimento
 ### Elementos Rastreáveis
-[DCU - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login); <br>
+[DCU 10](diagramas_caso_uso.md#dcu-10); <br>
  [ECU - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login); <br>
  [IS6](iStar.md#is6-cadastro-no-pinterest); <br>
  [US13](backlog.md#us13);
 ### Elo
-**Representação**:  [ECU - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login)  representa [DCU - Realizar Primeiro Login](diagramas_caso_uso.md#realizar-primeiro-login)  <br>
+**Representação**:  [ECU - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login)  representa [DCU 10](diagramas_caso_uso.md#dcu-10)  <br>
 **Alocação**:  [ECU - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login) alocado em [US13](backlog.md#us13).
 
 ## EF46
