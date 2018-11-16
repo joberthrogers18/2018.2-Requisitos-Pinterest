@@ -27,7 +27,14 @@
 
 # NFR7 - Segurança
 
+### Versão 1.0
 ![](img/NFR_Seguranca.png)
+
+### Versão 2.0 - Segurança e Qualidade de Conteúdo
+
+Na versão 2.0 foi adicionado um olhar para a qualidade de conteúdo, além de melhorar o NFR anterior.
+
+![](img/NFR_seguranca_V2.png)
 
 # NFR8 - Suportabilidade
 
