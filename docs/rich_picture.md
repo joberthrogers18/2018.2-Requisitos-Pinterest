@@ -11,8 +11,14 @@ Rich Picture que descreve todas as ações realizadas referentes á um pin. As  
 
 ## Pins Especiais
 
+### Versão 1.0
+
 Rich Picture que descreve as funcionalidades e recursos dos Pins Especiais.
 ![rich4](img/rich4.png)
+
+### Versão 2.0
+
+![rich4v2](img/rich4v2.png)
 
 ## Tipos de Pins
 
