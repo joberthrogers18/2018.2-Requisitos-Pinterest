@@ -12,7 +12,12 @@
 ![](img/Rationale-Classificar_Pastas.png)
 
 ## IS3 - Pesquisar Pins
+
+### Versão 1.0
 ![](img/Rationale_Pesquisar_Pins.png)
+
+### Versão 2.0
+![](img/Rationale_Pesquisar_Pins2.png)
 
 ## IS4 - Seguir usuário
 ![](img/rationale_seguir_usuario.png)
@@ -42,3 +47,7 @@
 ## IS10 - Geral
 
 ![](img/rationale_pinterest.png)
+
+## IS11 - Retornar Pins
+
+![](img/Rationale_Retornar_Pins.png)

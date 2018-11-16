@@ -4,12 +4,13 @@
 
   O Rich Picture é uma técnica de requisitos de software, elaborada na fase de pré-rastreabilidade. São desenho feitos a mão ou digitalmente a fim de expressar ideias, que representam um subsistema de um sistema maior. É um artefato considerado informal e muito útil na identificação das partes envolvidas, a fim abrir espaço para discussões e ser uma forma de compreender o problema amplamente.
 
-## Pin
+## RP1 - Pin
 
 Rich Picture que descreve todas as ações realizadas referentes á um pin. As  ações podem são realizadas pelo usuário, podendo ele ser um consumidor ou anunciante.
+Os conceitos levados em conta para a elaboração desse rich picture estão dispostos na [Argumentação 2](argumentacao.md#ar2-rich-picture).
 ![Screenshot](img/rich_final.png)
 
-## Pins Especiais
+## RP2 - Pins Especiais
 
 ### Versão 1.0
 
@@ -20,7 +21,7 @@ Rich Picture que descreve as funcionalidades e recursos dos Pins Especiais.
 
 ![rich4v2](img/rich4v2.png)
 
-## Tipos de Pins
+## RP3 - Tipos de Pins
 
 Rich Picture que descreve os tipos de Pins.
 
@@ -30,13 +31,13 @@ Rich Picture que descreve os tipos de Pins.
 ### Versão 2.0
 ![rich4.2](img/rich_picture_tipos_de_pins2.png)
 
-## Fluxo do Anunciante
+## RP4 - Fluxo do Anunciante
 
 ### Versão 1.0
 
 ![Anunciante](img/FluxoAnunciane.png)
 
-## Usuário
+## RP5 - Usuário
 
 Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema.
 
@@ -46,7 +47,7 @@ Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema
 ### Versão 2.0
 ![RichPicture2](img/RichPictureUserv2.png)
 
-## Aba Salvos
+## RP6 - Aba Salvos
 Rich Picture que apresenta as funcionalidades existentes dentro da aba "Salvos".
 ### Versão 1.0
 ![AS2](img/rp_abasalvo.png)
@@ -55,7 +56,7 @@ Rich Picture que apresenta as funcionalidades existentes dentro da aba "Salvos".
 ![AS2](img/rp_abasalvo_2.png)
 
 
-## Usuário vendedor e Usuário comum
+## RP7 - Usuário vendedor e Usuário comum
 
 Rich Picture que apresenta a interação do usuário comum com um usuário que desfruta do poder do marketing no Pinterest divulgando seus produtos.
 
@@ -67,7 +68,7 @@ Rich Picture que apresenta a interação do usuário comum com um usuário que d
 
 ![Vendedor2](img/Richpicture3_new.png)
 
-## Pinterest e entrega de conteúdo ao Usuário
+## RP8 - Pinterest e entrega de conteúdo ao Usuário
 
 Rich Picture que apresenta a interação do Pinterest e do usuário no ambito de entrega de conteúdo relevante, com o filtro de conteúdo e o feedback loop de metricas do usuário.
 ![Vendedor](img/rich_picture_conteudo.png)
