@@ -12,7 +12,11 @@
 
 # NFR3 - Usabilidade
 
+### Versão 1.0
 ![](img/NFR-Usabilidade.png)
+
+### Versão 2.0
+![](img/NFR-UsabilidadeV2.png)
 
 # NFR4 - Usabilidade (Design)
 ![](img/NFR-Design.png)
