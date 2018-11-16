@@ -17,7 +17,12 @@ Rich Picture que descreve as funcionalidades e recursos dos Pins Especiais.
 ## Tipos de Pins
 
 Rich Picture que descreve os tipos de Pins.
-![rich4](img/rich_picture_tipos_de_pin.jpg)
+
+### Versão 1.0
+![rich4.1](img/rich_picture_tipos_de_pin.jpg)
+
+### Versão 2.0
+![rich4.2](img/rich_picture_tipos_de_pins2.png)
 
 ## Fluxo do Anunciante
 

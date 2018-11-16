@@ -4,6 +4,10 @@
 
 # NFR2 - Conectividade
 
+### Versão 1.0
+![](img/NFR_Conectividade.png)
+
+### Versão 2.0
 ![](img/NFR_Adaptabilidade.png)
 
 # NFR3 - Usabilidade
