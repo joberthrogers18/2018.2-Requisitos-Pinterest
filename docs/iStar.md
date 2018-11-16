@@ -5,7 +5,14 @@
 
 # Strategic Rationale Models
 
-### IS1 - Definir interesses
+## IS1 - Definir interesses
+
+### Versão 1.0
+
+![](img/rationale_definir_interesses1.png)
+
+### Versão 2.0
+
 ![](img/rationale_definir_interesses2.png)
 
 ## IS2 - Classificar pastas
