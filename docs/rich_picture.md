@@ -49,7 +49,7 @@ Rich Picture com foco no usuário e nas ações que ele pode realizar no sistema
 
 ## RP6 - Aba Salvos
 Rich Picture que apresenta as funcionalidades existentes dentro da aba "Salvos".
-### Versão 1.0
+
 ![AS2](img/rp_abasalvo.png)
 
 ### Versão 2.0
@@ -71,4 +71,9 @@ Rich Picture que apresenta a interação do usuário comum com um usuário que d
 ## RP8 - Pinterest e entrega de conteúdo ao Usuário
 
 Rich Picture que apresenta a interação do Pinterest e do usuário no ambito de entrega de conteúdo relevante, com o filtro de conteúdo e o feedback loop de metricas do usuário.
-![Vendedor](img/rich_picture_conteudo.png)
+
+### Versão 1.0
+![](img/rich_picture_conteudo.png)
+
+### Versão 2.0
+![](img/rich_picture_conteudo_v2.png)
