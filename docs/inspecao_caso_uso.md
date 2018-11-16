@@ -40,7 +40,7 @@ A seguir pode-se conferir os modelos utilizados para a realização da inspeçã
 
 ### IDUC-1 Receber Notificações
 
-Rastreabilidade: [UC - Receber Notificações](especificacoes_caso_uso.md#receber-notificacoes)
+Rastreabilidade: [ECU 20 - Receber Notificações](especificacoes_caso_uso.md#ecu-20)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc1.png)
 
@@ -48,7 +48,7 @@ Rastreabilidade: [UC - Receber Notificações](especificacoes_caso_uso.md#recebe
 
 ### IDUC-2 Editar um Pin
 
-Rastreabilidade: [UC - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin)
+Rastreabilidade: [ECU 5 - Editar um Pin](especificacoes_caso_uso.md#ecu-5)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc2.png)
 
@@ -56,7 +56,7 @@ Rastreabilidade: [UC - Editar um Pin](especificacoes_caso_uso.md#editar-um-pin)
 
 ### IDUC-3 Realizar primeiro login
 
-Rastreabilidade: [UC - Realizar primeiro login](especificacoes_caso_uso.md#realizar-primeiro-login)
+Rastreabilidade: [ECU 14 - Realizar primeiro login](especificacoes_caso_uso.md#ecu-14)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc3.png)
 
@@ -64,7 +64,7 @@ Rastreabilidade: [UC - Realizar primeiro login](especificacoes_caso_uso.md#reali
 
 ### IDUC-4 Classificar um Pin como Experimentado
 
-Rastreabilidade: [UC - Classificar um Pin como Experimentado](especificacoes_caso_uso.md#classificar-um-pin-como-experimentado)
+Rastreabilidade: [ECU 17 - Classificar um Pin como Experimentado](especificacoes_caso_uso.md#ecu-17)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc4.png)
 
@@ -72,7 +72,7 @@ Rastreabilidade: [UC - Classificar um Pin como Experimentado](especificacoes_cas
 
 ### IDUC-5 Denunciar um Pin
 
-Rastreabilidade: [UC - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um-pin)
+Rastreabilidade: [ECU 16 - Denunciar um Pin](especificacoes_caso_uso.md#ecu-16)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc5.png)
 
@@ -80,7 +80,7 @@ Rastreabilidade: [UC - Denunciar um Pin](especificacoes_caso_uso.md#denunciar-um
 
 ### IDUC-6 Seguir outro usuário
 
-Rastreabilidade: [UC - Seguir outro usuário](especificacoes_caso_uso.md#seguir-outro-usuario)
+Rastreabilidade: [ECU 8 - Seguir outro usuário](especificacoes_caso_uso.md#ecu-8)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc6.png)
 
@@ -88,7 +88,7 @@ Rastreabilidade: [UC - Seguir outro usuário](especificacoes_caso_uso.md#seguir-
 
 ### IDUC-7 Pesquisar por foto
 
-Rastreabilidade: [UC - Pesquisar por foto](especificacoes_caso_uso.md#pesquisar-por-foto)
+Rastreabilidade: [ECU 24 - Pesquisar por foto](especificacoes_caso_uso.md#ecu-24)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc7.png)
 
@@ -96,7 +96,7 @@ Rastreabilidade: [UC - Pesquisar por foto](especificacoes_caso_uso.md#pesquisar-
 
 ### IDUC-8 Organizar Pasta
 
-Rastreabilidade: [UC - Organizar Pasta](especificacoes_caso_uso.md#organizar-pasta)
+Rastreabilidade: [ECU 22 - Organizar Pasta](especificacoes_caso_uso.md#ecu-22)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc8.png)
 
@@ -104,7 +104,7 @@ Rastreabilidade: [UC - Organizar Pasta](especificacoes_caso_uso.md#organizar-pas
 
 ### IDUC-9 Visualizar Feed
 
-Rastreabilidade: [UC - Visualizar Feed](especificacoes_caso_uso.md#visualizar-feed)
+Rastreabilidade: [ECU 19 - Visualizar Feed](especificacoes_caso_uso.md#ecu-19)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc9.png)
 
@@ -112,7 +112,7 @@ Rastreabilidade: [UC - Visualizar Feed](especificacoes_caso_uso.md#visualizar-fe
 
 ### IDUC-10 Fazer login
 
-Rastreabilidade: [UC - Fazer login](especificacoes_caso_uso.md#fazer-login)
+Rastreabilidade: [ECU 6 - Fazer login](especificacoes_caso_uso.md#ecu-6)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc10.png)
 
@@ -120,7 +120,7 @@ Rastreabilidade: [UC - Fazer login](especificacoes_caso_uso.md#fazer-login)
 
 ### IDUC-11 Visualizar Pin
 
-Rastreabilidade: [UC - Visualizar Pin](especificacoes_caso_uso.md#visualizar-pin)
+Rastreabilidade: [ECU 2 - Visualizar Pin](especificacoes_caso_uso.md#ecu-2)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc11.png)
 
@@ -128,7 +128,7 @@ Rastreabilidade: [UC - Visualizar Pin](especificacoes_caso_uso.md#visualizar-pin
 
 ### IDUC-12 Cadastro de usuário
 
-Rastreabilidade: [UC - Cadastro de usuário](especificacoes_caso_uso.md#cadastro-de-usuario)
+Rastreabilidade: [ECU 1 - Cadastro de usuário](especificacoes_caso_uso.md#ecu-1)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc12.png)
 
@@ -136,7 +136,7 @@ Rastreabilidade: [UC - Cadastro de usuário](especificacoes_caso_uso.md#cadastro
 
 ### IDUC-13 Enviar mensagem para outros usuários
 
-Rastreabilidade: [UC - Enviar mensagem para outros usuários](especificacoes_caso_uso.md#enviar-mensagem-para-outros-usuarios)
+Rastreabilidade: [ECU 10 - Enviar mensagem para outros usuários](especificacoes_caso_uso.md#ecu-10)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc13.png)
 
@@ -144,7 +144,7 @@ Rastreabilidade: [UC - Enviar mensagem para outros usuários](especificacoes_cas
 
 ### IDUC-14 Ocultar um Pin
 
-Rastreabilidade: [UC - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin)
+Rastreabilidade: [ECU 11 - Ocultar um Pin](especificacoes_caso_uso.md#ecu-11)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc14.png)
 
@@ -152,7 +152,7 @@ Rastreabilidade: [UC - Ocultar um Pin](especificacoes_caso_uso.md#ocultar-um-pin
 
 ### IDUC-15 Salvar um Pin
 
-Rastreabilidade: [UC - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin)
+Rastreabilidade: [ECU 12 - Salvar um Pin](especificacoes_caso_uso.md#ecu-12)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc15.png)
 
@@ -160,7 +160,7 @@ Rastreabilidade: [UC - Salvar um Pin](especificacoes_caso_uso.md#salvar-um-pin)
 
 ### IDUC-16 Enviar um Pin
 
-Rastreabilidade: [UC - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin)
+Rastreabilidade: [ECU 13 - Enviar um Pin](especificacoes_caso_uso.md#ecu-13)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc16.png)
 
@@ -168,7 +168,7 @@ Rastreabilidade: [UC - Enviar um Pin](especificacoes_caso_uso.md#enviar-um-pin)
 
 ### IDUC-17 Editar Perfil
 
-Rastreabilidade: [UC - Editar Perfil](especificacoes_caso_uso.md#editar-perfil)
+Rastreabilidade: [ECU 18 - Editar Perfil](especificacoes_caso_uso.md#ecu-18)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc17.png)
 
@@ -176,7 +176,7 @@ Rastreabilidade: [UC - Editar Perfil](especificacoes_caso_uso.md#editar-perfil)
 
 ### IDUC-18 Compartilhar Pasta
 
-Rastreabilidade: [UC - Compartilhar Pasta](especificacoes_caso_uso.md#compartilhar-pasta)
+Rastreabilidade: [ECU 25 - Compartilhar Pasta](especificacoes_caso_uso.md#ecu-25)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc18.png)
 
@@ -184,7 +184,7 @@ Rastreabilidade: [UC - Compartilhar Pasta](especificacoes_caso_uso.md#compartilh
 
 ### IDUC-19 Criar Pasta
 
-Rastreabilidade: [UC - Criar Pasta](especificacoes_caso_uso.md#criar-pasta)
+Rastreabilidade: [ECU 26 - Criar Pasta](especificacoes_caso_uso.md#ecu-26)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc19.png)
 
@@ -192,7 +192,7 @@ Rastreabilidade: [UC - Criar Pasta](especificacoes_caso_uso.md#criar-pasta)
 
 ### IDUC-20 Comentar em um Pin
 
-Rastreabilidade: [UC - Comentar em um Pin](especificacoes_caso_uso.md#comentar-em-um-pin)
+Rastreabilidade: [ECU 3 - Comentar em um Pin](especificacoes_caso_uso.md#ecu-3)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc20.png)
 
@@ -200,7 +200,7 @@ Rastreabilidade: [UC - Comentar em um Pin](especificacoes_caso_uso.md#comentar-e
 
 ### IDUC-21 Definir interesses
 
-Rastreabilidade: [UC - Definir interesses](especificacoes_caso_uso.md#definir-interesses)
+Rastreabilidade: [ECU 4 - Definir interesses](especificacoes_caso_uso.md#ecu-4)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc21.png)
 
@@ -208,7 +208,7 @@ Rastreabilidade: [UC - Definir interesses](especificacoes_caso_uso.md#definir-in
 
 ### IDUC-22 Pesquisar por tema
 
-Rastreabilidade: [UC - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-por-tema)
+Rastreabilidade: [ECU 23 - Pesquisar por tema](especificacoes_caso_uso.md#ecu-23)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc22.png)
 
@@ -216,7 +216,7 @@ Rastreabilidade: [UC - Pesquisar por tema](especificacoes_caso_uso.md#pesquisar-
 
 ### IDUC-23 Classificação de Pastas
 
-Rastreabilidade: [UC - Classificação de Pastas](especificacoes_caso_uso.md#classificacao-de-pastas)
+Rastreabilidade: [ECU 21 - Classificação de Pastas](especificacoes_caso_uso.md#ecu-21)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc23.png)
 
@@ -224,7 +224,7 @@ Rastreabilidade: [UC - Classificação de Pastas](especificacoes_caso_uso.md#cla
 
 ### IDUC-24 Ir para a fonte de um Pin
 
-Rastreabilidade: [UC - Ir para a fonte de um Pin](especificacoes_caso_uso.md#ir-para-a-fonte-de-um-pin)
+Rastreabilidade: [ECU 7 - Ir para a fonte de um Pin](especificacoes_caso_uso.md#ecu-7)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc24.png)
 
@@ -232,7 +232,7 @@ Rastreabilidade: [UC - Ir para a fonte de um Pin](especificacoes_caso_uso.md#ir-
 
 ### IDUC-25 Visualizar aba seguindo
 
-Rastreabilidade: [UC - Visualizar aba seguindo](especificacoes_caso_uso.md#visualizar-aba-seguindo)
+Rastreabilidade: [ECU 9 - Visualizar aba seguindo](especificacoes_caso_uso.md#ecu-9)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc25.png)
 
@@ -240,7 +240,7 @@ Rastreabilidade: [UC - Visualizar aba seguindo](especificacoes_caso_uso.md#visua
 
 ### IDUC-26 Sair do aplicativo Pinterest
 
-Rastreabilidade: [UC - Sair do aplicativo Pinterest](especificacoes_caso_uso.md#sair-do-aplicativo-pinterest)
+Rastreabilidade: [ECU 15 - Sair do aplicativo Pinterest](especificacoes_caso_uso.md#ecu-15)
 
 ![](img/inspecao_caso_de_uso/inspecao_caso_de_uso_iduc26.png)
 
