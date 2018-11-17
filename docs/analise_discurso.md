@@ -54,14 +54,14 @@ _Requisitos : AD5_
 ### Requisitos Elicitados
 
 | Código | Descrição | Prioridade |
-|--|--|
+|--|--|--|
 | AD1 | O App precisa possuir sempre conteúdos novos no feed do usuário. | Should |
 | AD2 | O Usuário deve poder bloquear Pins que não são de seu interesse.| Must |
 | AD3 | O Aplicativo deve ser capaz de reconhecer relações de conteúdo entre Pins.| Should|
 | AD4 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.| Should |
 | AD5 | O Aplicativo deve sugerir temas de Pins conforme os interesses estabelecidos pelos usuário. | Must |
 | AD6 | O Aplicativo deve possuir algorítmos para adaptação de mensagens para a linguagem de sistema do usuário. | Should |
-| AD7 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.| Could |
+| AD7 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.| Could|
 | AD8 | O Aplicativo deve notificar o usuário por email acerca de novidades de temas ou comunicações. | Could |
 | AD9 | O Usuário deve poder escolher parar de receber emails do aplicativo. | Must |
 | AD10 | O Aplicativo deve conter uma aba de mensagens que possibilite a comnunicação entre os usuários ativos. | Could |

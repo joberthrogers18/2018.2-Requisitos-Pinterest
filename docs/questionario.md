@@ -88,7 +88,7 @@ O questionário a seguir refere-se aos usuários do Pinterest:
 ### 1.3 Requisitos Elicitados
 
 | Código | Descrição | Prioridade |
-|--|--|
+|--|--|--|
 | Q1 | A rede social deve abranger conteúdos que mantenham ativos os usuários que compõe o principal púlico, os jovens da faixa etária de 16 a 25 anos.| Should |
 | Q2 | A rede social deve conter uma experiência de usuário melhor para que o site possa ser tão acessado pelo público quanto o aplicativo. | Could |
 | Q3 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. | Must |
