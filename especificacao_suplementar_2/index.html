@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "Especifica\u00e7\u00e3o Suplementar 2.0";
     var mkdocs_page_input_path = "especificacao_suplementar_2.md";
-    var mkdocs_page_url = "/especificacao_suplementar_2/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -151,21 +152,25 @@
         
             <li><a class="toctree-l4" href="#introducao">Introdução</a></li>
         
-            <li><a class="toctree-l4" href="#funcionalidade">Funcionalidade</a></li>
+            <li><a class="toctree-l4" href="#funcionalidades">Funcionalidades</a></li>
         
             <li><a class="toctree-l4" href="#usabilidade">Usabilidade</a></li>
         
-            <li><a class="toctree-l4" href="#confiabilidade">Confiabilidade</a></li>
-        
             <li><a class="toctree-l4" href="#desempenho">Desempenho</a></li>
         
-            <li><a class="toctree-l4" href="#suportabilidade">Suportabilidade</a></li>
+            <li><a class="toctree-l4" href="#portabilidade">Portabilidade</a></li>
+        
+            <li><a class="toctree-l4" href="#conectividade">Conectividade</a></li>
+        
+            <li><a class="toctree-l4" href="#conteudo">Conteúdo</a></li>
+        
+            <li><a class="toctree-l4" href="#tratamento-de-falhas">Tratamento de Falhas</a></li>
+        
+            <li><a class="toctree-l4" href="#seguranca">Segurança</a></li>
         
             <li><a class="toctree-l4" href="#restricoes-de-design">Restrições de Design</a></li>
         
             <li><a class="toctree-l4" href="#requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line</a></li>
-        
-            <li><a class="toctree-l4" href="#componentes-adquiridos">Componentes Adquiridos</a></li>
         
             <li><a class="toctree-l4" href="#interfaces">Interfaces</a></li>
         
@@ -300,7 +305,7 @@
 <tr>
 <td>06/10/2018</td>
 <td>1.0.3</td>
-<td>Adição de requisitos de usabilidade e suportabilidade</td>
+<td>Adição de requisitos de usabilidade e portabilidade</td>
 <td>Guilherme Guy</td>
 </tr>
 <tr>
@@ -315,71 +320,30 @@
 <td>Revisão geral dos itens</td>
 <td>Helena Goulart, Gabriela Medeiros e Daniel Maike</td>
 </tr>
+<tr>
+<td>17/11/2018</td>
+<td>2.0</td>
+<td>Adição de referências linkadas, adição de tópicos (Conectividade, Conteúdo), dissolução de tópico(Confiabilidade: Segurança e Tratamento de Falhas), atualização de tópicos (Introdução, Funcionalidades, Suportabilidade-Portabilidade) e correção de modelo de formatação</td>
+<td>Geovana Ramos</td>
+</tr>
 </tbody>
 </table>
 <h2 id="introducao">Introdução</h2>
-<p>O Presente documento reúne os requisitos não identificados nos demais processos de elicitação, e que não foram atendidos pelo contato direto com o aplicativo, mas com a percepção de usuários, membros da equipe e ainda análise de documentação exposta no site do pinterest.</p>
 <h3 id="finalidade">Finalidade</h3>
-<p>Esse documento visa  descrever requisitos não funcionais do Pinterest, ou seja, restrições qualitativas que impactam na usabilidade, no visual, no desempenho, na segurança, dentre outros aspectos. Permite uma visão mais ampla sobre os requisitos da aplicação que vão além de funcionalidades, que descrevem necessidades relacionadas à qualidade, estrutura e condições subjetivas.</p>
+<p>O Presente documento reúne os requisitos não identificados nos demais processos de elicitação. Permite uma visão mais ampla sobre os requisitos da aplicação que vão além de funcionalidades, que descrevem necessidades relacionadas à qualidade, estrutura e condições subjetivas.</p>
 <h3 id="escopo">Escopo</h3>
 <p>O escopo se resume à uma aplicação web e mobile que oferece uma exposição  de fotos por meio de compartilhamentos em forma de rede social, dispondo de interação entre os usuários da plataforma.</p>
 <h3 id="definicoes-acronimos-e-abreviacoes">Definições, Acrônimos e Abreviações</h3>
-<p>Pinterest - Aplicativo analisado pela equipe, cujo foco é a descoberta e compartilhamento de imagens de diferentes temas;
-Elicitação - Processo de obtenção de requisitos através das técnicas de entrevistas, brainstorming, introspecções, dentre outras;
-Pin - Imagens expostas no Pinterest;</p>
-<p>Ver também Léxicos do projeto.</p>
+<p>Ver <a href="https://joberthrogers18.github.io/2018.2-Requisitos/lexicos/">Léxicos</a>.</p>
 <h3 id="referencias">Referências</h3>
-<p>Pinterest terms of service. Disponível em: https://policy.pinterest.com/en/terms-of-service. Acesso em: 06 out. 2018.
-Template Especificação Suplementar. Disponível em: http://www.funpar.ufpr.br:8080/rup/webtmpl/templates/req/rup_sspec.htm. Acesso em: 06 out. 2018.</p>
+<p>Template utilizado neste documento. Disponível em: http://www.funpar.ufpr.br:8080/rup/webtmpl/templates/req/rup_sspec.htm. Acesso em: 06 out. 2018.
+Demais referências encontram-se linkadas por todo o documento.</p>
 <h3 id="visao-geral">Visão Geral</h3>
-<p>O Documento presente apresenta uma introdução ao escopo do projeto analisado, cujos requisitos suplementares estão listados posteriormente, contendo requisitos não funcionais (obtidos pelas impressões de usuários assíduos do aplicativo), requisitos de usabilidade, confiabilidade, desempenho, suportabilidade, sistema, licenciamento, restrições de design e interfaces.</p>
-<h2 id="funcionalidade">Funcionalidade</h2>
-<p>Esse tópico reúne os requisitos não funcionais, dado que os requisitos funcionais estão dispostos e definidos na documentação de elicitação, sendo representados pelos casos de uso.</p>
-<h3 id="requisitos-nao-funcionais">Requisitos não Funcionais</h3>
-<table>
-<thead>
-<tr>
-<th>Identificador</th>
-<th>Origem</th>
-<th>Funcionalidade</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>RNF-01</td>
-<td>ENT-05</td>
-<td>O app deve possuir um design de interface semelhante entre o aplicativo mobile e o aplicativo web.</td>
-</tr>
-<tr>
-<td>RNF-02</td>
-<td>ENT-01</td>
-<td>A rede social deve abranger conteúdos que mantenham ativos os usuários que compõe o principal público, jovens de faixa etária entre 16 e 25 anos.</td>
-</tr>
-<tr>
-<td>RNF-03</td>
-<td>ENT-02</td>
-<td>A rede social deve conter uma melhor experiência de usuário para que o usuário possa acessá-la tanto pela web quanto pelo aplicativo.</td>
-</tr>
-<tr>
-<td>RNF-04</td>
-<td>ENT-03</td>
-<td>A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes.</td>
-</tr>
-<tr>
-<td>RNF-05</td>
-<td>ENT-04</td>
-<td>A rede social deve procurar diferenciais perante seus maiores concorrentes, weheartit.com e tumblr.com</td>
-</tr>
-<tr>
-<td>RNF-06</td>
-<td>ES</td>
-<td>A linguagem da aplicação deve focar no seu público alvo para facilitar a comunicação entre eles.</td>
-</tr>
-</tbody>
-</table>
+<p>O Documento presente apresenta uma introdução ao escopo do projeto analisado, cujos requisitos suplementares estão listados posteriormente, contendo requisitos não funcionais (obtidos pelas impressões de usuários assíduos do aplicativo), requisitos de usabilidade, desempenho, portabilidade, conectividade, conteúdo, tratamento de falhas, segurança, licenciamento e observações legais, restrições de design e interfaces.</p>
+<h2 id="funcionalidades">Funcionalidades</h2>
+<p>As funcionalidades funcionais e não funcionais já elicitadas podem ser encontradas por toda a <a href="https://joberthrogers18.github.io/2018.2-Requisitos/">documentação</a> feita pelo grupo. Recomenda-se as tabelas de <a href="https://joberthrogers18.github.io/2018.2-Requisitos/backward_from/">backward</a> e <a href="https://joberthrogers18.github.io/2018.2-Requisitos/forward_from/">foward</a> para uma consulta mais completa e atualizada.</p>
 <h2 id="usabilidade">Usabilidade</h2>
-<p>Os usuários devem poder aprender a mexer no sistema de forma intuitiva através do uso. Dessa forma o treinamento necessário para fazer uma utilização correta do sistema deverá ser rápido, considerando que um usuário não gasta muito tempo de uma vez só no sistema, o período de aprendizado mínimo para poder utilizar o básico do sistema deverá ser menor que uma hora. Já para um usuário que deseja ter conhecimento profundo do sistema (usuário avançado) pode levar um período de tempo maior, indo de algumas horas até vários dias, de acordo com sua habilidade de aprendizagem e através de aprendizagem orgânica, utilizando a aplicação.
-    Uma observação pertinente é que para fazer bom uso do sistema o usuário deve ser capaz de utilizar seu dispositivo físico de acesso (celular smartphone) e também o sistema operacional instalado no dispositivo (Android ou iOS) pois vários dos conhecimentos dos padrões do sistema operacional do dispositivo serão necessários para a utilização da aplicação.</p>
+<p>Este tópico descreve a qualidade da intereção do usuário com o sistema.</p>
 <h3 id="requisito-de-usabilidade-um">Requisito de Usabilidade Um</h3>
 <p>A aplicação deve utilizar padrões visuais de informação condizentes com a plataforma em que se encontra.</p>
 <h3 id="requisito-de-usabilidade-dois">Requisito de Usabilidade Dois</h3>
@@ -387,35 +351,67 @@ Template Especificação Suplementar. Disponível em: http://www.funpar.ufpr.br:
 <h3 id="requisito-de-usabilidade-tres">Requisito de Usabilidade Três</h3>
 <p>A disposição da informação deve ser disposta de maneira coerente com a lógica de forma que o usuário possa ser treinado enquanto utiliza a aplicação.</p>
 <h3 id="requisito-de-usabilidade-quatro">Requisito de Usabilidade Quatro</h3>
-<p>A aplicação deve fornecer ao usuário um fluxo intuitivo, por meio dos ícones, para suas diversas funcionalidades.</p>
+<p>A aplicação deve fornecer ao usuário um fluxo intuitivo, por meio dos ícones claros, para suas diversas funcionalidades.</p>
 <h3 id="requisito-de-usabilidade-cinco">Requisito de Usabilidade Cinco</h3>
 <p>O sistema deve oferecer agilidade e facilidade no momento em que o usuário executa funcionalidades básicas e principais.</p>
-<h2 id="confiabilidade">Confiabilidade</h2>
-<p>O Sistema possui servidores estáveis, com uma baixa taxa de reclamação dos usuários quanto a falhas de funcionamento. Os dados de usuário, como Pins salvos, informações pessoais, preferências e bloqueios devem estar sincronizados com o banco de dados que gerencia o fluxo de informações, propiciando um funcionamento ininterrupto e com fluxo constante de informações.</p>
-<h3 id="requisito-de-confiabilidade-um">Requisito de Confiabilidade Um</h3>
-<p>O Sistema deve possuir monitoramento constante, com relatórios de funcionamento, alerta de problemas e níveis de desempenho.</p>
-<h3 id="requisito-de-confiabilidade-dois">Requisito de Confiabilidade Dois</h3>
-<p>O Sistema deve armazenar e recuperar informações com precisão, fazendo uso de criptografia de dados para impedir o vazamento de informações.</p>
-<h3 id="requisito-de-confiabilidade-tres">Requisito de Confiabilidade Três</h3>
-<p>No caso de uma sessão de usuário expirar, qualquer tarefa que exija futuras informações dependentes terá o acesso bloqueado, para que o os dados do usuário em sua sessão não fique exposto a um acesso de terceiros</p>
-<h3 id="requisito-de-confiabilidade-quatro">Requisito de Confiabilidade Quatro</h3>
-<p>O software deve procurar deixar o usuário ciente do que ocorre no sistema, assim como as falhas que possam ocorrer durante o uso. Esse feedback deve informar o motivo da falha e possíveis soluções que o próprio usuário possa executar. Caso a correção não esteja ao alcance das ações do usuário ou não possa ser informado, o suporte deve ser imediatamente informado.     </p>
+<h3 id="requisito-de-usabilidade-seis">Requisito de Usabilidade Seis</h3>
+<p>O sistema deve dar feedbacks ao usuário, de forma que ele entenda o antes, durante e depois das suas ações no sistema.</p>
 <h2 id="desempenho">Desempenho</h2>
-<p>Como requisito de desempenho, Além disso o tempo de resposta das requisições feitas pelo usuário deve ser o menor possível, não podendo passar de 2 segundos para uma melhor experiência do usuário dentro da aplicação.</p>
+<p>Este tópico descreve as restrições de comportamento geral do sistema.</p>
 <h3 id="requisito-de-desempenho-um">Requisito de Desempenho Um</h3>
 <p>A aplicação deve conter o balanceamento de carga ao servidor como suporte, devido ao grande número de acessos diários na aplicação, a fim de garantir o acesso de todos os usuários dentro do Pinterest.</p>
 <h3 id="requisitos-de-desempenho-dois">Requisitos de Desempenho Dois</h3>
-<p>A aplicação deve ser capaz de responder rapidamente a uma ação de cada usuário do Pinterest, de forma simultânea.</p>
-<h2 id="suportabilidade">Suportabilidade</h2>
-<p>O Sistema do Pinterest possibilitará o uso em dispositivos mobiles - tanto os que utilizam o sistema Android quanto os que utilizam o sistema iOS - através de aplicativos instalados. O Uso também poderá ocorrer pelo site, sendo acessado de qualquer browser para a web. Essas formas de utilização não são dependentes, atuando mais como complementares uma à outra.</p>
-<h3 id="requisito-de-suportabilidade-um">Requisito de Suportabilidade Um</h3>
+<p>A aplicação deve ser capaz de responder rapidamente a uma ação de cada usuário do Pinterest, de forma simultânea.   </p>
+<h2 id="portabilidade">Portabilidade</h2>
+<p>Este tópico apresenta as restrições de plataformas do Pinterest.</p>
+<h3 id="requisito-de-portabilidade-um">Requisito de Portabilidade Um</h3>
 <p>A aplicação deve suportar dispositivos móveis que possuam o sistema operacional Android. Limitando a versão mais recente àquela que der melhor suporte ao dispositivo ou versão do sistema operacional em execução.</p>
-<h3 id="requisito-de-suportabilidade-dois">Requisito de Suportabilidade Dois</h3>
-<p>A aplicação deve suportar dispositivos móveis com sistema operacional iOS 9.3 ou posterior e ser compatível com iPhone, iPad e iPod touch.
-Requisito de Suportabilidade Três
-A aplicação deve suportar acesso por meio de navegadores de web, com a permanência de dados e preferências de usos posteriores em diferentes plataformas mobile.</p>
+<h3 id="requisito-de-portabilidade-dois">Requisito de Portabilidade Dois</h3>
+<p>A aplicação deve suportar dispositivos móveis com sistema operacional iOS 9.3 ou posterior e ser compatível com iPhone, iPad e iPod touch.</p>
+<h3 id="requisito-de-portabilidade-tres">Requisito de Portabilidade Três</h3>
+<p>A aplicação deve suportar acesso por meio de navegadores de web, com a permanência de dados e preferências de usos posteriores em diferentes plataformas mobile.</p>
+<h2 id="conectividade">Conectividade</h2>
+<p>Este tópico descreve a interação entre as plataformas do sistema e aplicativos de terceiros.</p>
+<h3 id="requisito-de-conectividade-um">Requisito de Conectividade Um</h3>
+<p>A aplicação deve possuir um design semelhante entre plataformas, para que elas possuam uma boa integração e o usuário não se sinta perdido ao trocar de dispositivo.</p>
+<h3 id="requisito-de-conectividade-dois">Requisito de Conectividade Dois</h3>
+<p>A aplicação deve interpretar dados de buscas em sites de pesquisa para poder apresentar conteúdo mais relevante e de interesse do usuário.</p>
+<h3 id="requisito-de-conectividade-tres">Requisito de Conectividade Três</h3>
+<p>A aplicação deve se comunicar com o usuário por meio das mais variadas plataformas de comunição, como o próprio ambiente de notificação do sistema, e por meio de e-mails cadastrados.</p>
+<h3 id="requisito-de-conectividade-quatro">Requisito de Conectividade Quatro</h3>
+<p>A aplicação deve permitir a integração com as principais redes sociais, para que o usuário encontre facilidade ao compartilhar conteúdo, achar outros usuários e também ter o cadastro facilitado.</p>
+<h2 id="conteudo">Conteúdo</h2>
+<p>Este tópico apresenta as restrições em relação ao conteúdo apresentado ao usuário e postado pelo mesmo.</p>
+<h3 id="requisito-de-conteudo-um">Requisito de Conteúdo Um</h3>
+<p>O usuário deve ter acesso a ferramentas de moderação para ter um conteúdo mais personalizado e agradável, podendo ocultar conteúdo que não lhe agrada, e denunciar conteúdo ofensivo.</p>
+<h3 id="requisito-de-conteudo-dois">Requisito de Conteúdo Dois</h3>
+<p>A aplicação deve ter regras claras sobre o conteúdo que é permitido ser postado.</p>
+<h3 id="requisito-de-conteudo-tres">Requisito de Conteúdo Três</h3>
+<p>A aplicação deve oferecer mais conteúdo relacionado às atividades recentes, e com base no compartamento do usuário dentro da aplicação.</p>
+<h3 id="requisito-de-conteudo-quatro">Requisito de Conteúdo Quatro</h3>
+<p>O sistema, além de oferer ferramentas de moderação para o próprio usuário, também deve combater conteúdo indesejado por meio de monitoramento automatizado.</p>
+<h2 id="tratamento-de-falhas">Tratamento de Falhas</h2>
+<p>Este tópico prevê como o sistema irá lidar com falhas, tanto na prevenção como resolução de problemas.</p>
+<h3 id="requisito-de-tratamento-de-falhas-um">Requisito de Tratamento de Falhas Um</h3>
+<p>O Sistema deve possuir monitoramento constante, com relatórios de funcionamento, alerta de problemas e níveis de desempenho.</p>
+<h3 id="requisito-de-tratamento-de-falhas-dois">Requisito de Tratamento de Falhas Dois</h3>
+<p>O sistema deve identificar os erros causadores de falhas, por meio de inspeções dinâmicas, testes de funcionamento e isolamento de processos.</p>
+<h3 id="requisito-de-tratamento-de-falhas-doia">Requisito de Tratamento de Falhas Doia</h3>
+<p>O software deve procurar deixar o usuário ciente do que ocorre no sistema, assim como as falhas que possam ocorrer durante o uso. Esse feedback deve informar o motivo da falha e possíveis soluções que o próprio usuário possa executar. Caso a correção não esteja ao alcance das ações do usuário ou não possa ser informado, o suporte deve ser imediatamente informado.     </p>
+<h3 id="requisito-de-tratamento-de-falhas-quatro">Requisito de Tratamento de Falhas Quatro</h3>
+<p>Para evitar erros na recuperação de dados, o sistema deve implementar um banco de dados relacional.</p>
+<h2 id="seguranca">Segurança</h2>
+<p>Este tópico trata da proteção de dados que passam pelo sistema.</p>
+<h3 id="requisito-de-seguranca-um">Requisito de Segurança Um</h3>
+<p>O sistema deve promover uma autenticação segura, por meio de login por meio de <em>third party</em> e tráfego de rede  criptografado.</p>
+<h3 id="requisito-de-seguranca-dois">Requisito de Segurança Dois</h3>
+<p>Para a autenticação por meio de login e senha, o sistema deve exigir uma senha segura ao usuário, que alterna letras maiúsculas, minúsculas, números e no mínimo 8 caracteres.</p>
+<h3 id="requisito-de-seguranca-tres">Requisito de Segurança Três</h3>
+<p>O Sistema deve armazenar e recuperar informações com precisão, fazendo uso de criptografia de dados para impedir o vazamento de informações.</p>
+<h3 id="requisito-de-seguranca-quatro">Requisito de Segurança Quatro</h3>
+<p>No caso de uma sessão de usuário expirar, qualquer tarefa que exija futuras informações dependentes terá o acesso bloqueado, para que o os dados do usuário em sua sessão não fique exposto a um acesso de terceiros</p>
 <h2 id="restricoes-de-design">Restrições de Design</h2>
-<p>Esta seção reúne as decisões quanto ao design estabelecido e aplicado no Pinterest, refletindo o padrão adotado para o uso em diferentes plataformas e a adaptação às alterações conforme o formato de exibição de informações, caracterizando a forma de utilização e o grau de contato entre o usuário e o aplicativo.</p>
+<p>Esta seção reúne as decisões quanto ao design estabelecido e aplicado no Pinterest, refletindo o padrão adotado para o uso em diferentes plataformas.</p>
 <h3 id="restricao-de-design-um">Restrição de Design Um</h3>
 <p>A aplicação  deverá ter o suporte a diversas línguas, definido através do idioma estabelecido no dispositivo do usuário.</p>
 <h3 id="restricao-de-design-dois">Restrição de Design Dois</h3>
@@ -429,7 +425,7 @@ A aplicação deve suportar acesso por meio de navegadores de web, com a perman�
 <h3 id="restricao-de-design-seis">Restrição de Design Seis</h3>
 <p>A aplicação deve conter uma barra com as possíveis abas de acesso a diferentes regiões do aplicativo presente em todas as telas estáticas, permitindo um fluxo mais facilitado ao usuário.</p>
 <h2 id="requisitos-de-sistema-de-ajuda-e-de-documentacao-de-usuario-on-line">Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line</h2>
-<p>Esta seção reúne os requisitos que busquem tratar do suporte e dos sistemas de auxílio ao usuário para o uso correto da aplicação, como sistemas de suporte e páginas de apoio</p>
+<p>Esta seção reúne os requisitos que busquem tratar do suporte e dos sistemas de auxílio ao usuário para o uso correto da aplicação, como sistemas de suporte e páginas de apoio. Fonte: <a href="https://help.pinterest.com/pt-br">Central de Ajuda do Pinterest</a>.</p>
 <h3 id="requisito-de-suporte-ao-usuario-um">Requisito de Suporte ao Usuário Um</h3>
 <p>A  aplicação deve possuir um link de acesso a uma página da web com suporte e guia de funcionalidades da aplicação, para guiar o usuário em seu primeiro uso ou sanar dúvidas pontuais de forma direta.</p>
 <h3 id="requisito-de-suporte-ao-usuario-dois">Requisito de Suporte ao Usuário Dois</h3>
@@ -442,10 +438,8 @@ A aplicação deve suportar acesso por meio de navegadores de web, com a perman�
 <p>A página de suporte deverá abranger informações que auxiliem empresas e sites que utilizam o aplicativo como ferramenta de propaganda e auxílio trabalho.</p>
 <h3 id="requisito-de-suporte-ao-usuario-seis">Requisito de Suporte ao Usuário Seis</h3>
 <p>A página de suporte deverá proporcionar a resposta a perguntas frequentes, com páginas de resolução de dúvidas contendo links e índices de satisfação do usuário.</p>
-<h2 id="componentes-adquiridos">Componentes Adquiridos</h2>
-<p>O sistema deve levar em consideração as licenças do software e reservas legais ao ser desenvolvido.</p>
 <h2 id="interfaces">Interfaces</h2>
-<p>A Presente seção busca definir e categorizar os tipos de interface presentes na aplicação, contando com a necessidade do software conter um desenvolvimento correto e a presença de endereços, lógicas, protocolos e planejamento de execução bem integrados para um funcionamento correto.</p>
+<p>A Presente seção busca definir e categorizar os tipos de interface presentes na aplicação.</p>
 <h3 id="interfaces-do-usuario">Interfaces do Usuário</h3>
 <p>A plataforma deverá disponibilizar uma interface de suporte gráfico com os componentes da aplicação, de modo que o usuário possa interagir com as funcionalidades da melhor forma possível.</p>
 <h3 id="interfaces-de-hardware">Interfaces de Hardware</h3>
@@ -455,13 +449,13 @@ A aplicação deve suportar acesso por meio de navegadores de web, com a perman�
 <h3 id="interfaces-de-comunicacao">Interfaces de Comunicação</h3>
 <p>A plataforma deve possuir uma interface de comunicação afim a suportar as diversas requisições de dados do sistema de forma a manter a integridade de todos os dados. Além de comunicação por meio de micro serviço que possibilitará o registro de contas e compartilhamento dos dados através de rede sociais.</p>
 <h2 id="requisitos-de-licenciamento">Requisitos de Licenciamento</h2>
-<p>Esta seção reúne os requisitos que definem as especificações do licenciamento da aplicação, buscando abranger os aspectos referentes às permissões e restrições do usuário, definidas nos documentos de licenciamento.</p>
+<p>Esta seção busca abranger os aspectos referentes às permissões e restrições do usuário, definidas nos documentos de licenciamento. Fonte: <a href="https://policy.pinterest.com/pt-br/terms-of-service">Termos de Serviço</a> e <a href="https://policy.pinterest.com/pt-br/community-guidelines">Diretrizes da Comunidade</a>.</p>
 <h3 id="requisito-de-licenciamento-um">Requisito de Licenciamento Um</h3>
 <p>Aos usuários que seguirem todas os Termos e Diretrizes da Comunidade, será oferecida uma licença limitada, não exclusiva, intransferível e revogável para usar a aplicação de forma gratuita.</p>
 <h3 id="requisito-de-licenciamento-dois">Requisito de Licenciamento Dois</h3>
 <p>Os usuários que postarem conteúdo concedem à aplicação e aos outros usuários uma licença mundial não exclusiva, livre de royalties, transferível, sublicenciável, para usar, armazenar, exibir, reproduzir, salvar, modificar, criar trabalhos derivados, executar e distribuir seu conteúdo unicamente para  fins de operação, desenvolvimento, fornecimento e uso da plataforma.</p>
 <h2 id="observacoes-legais-de-copyright-e-outras">Observações Legais, de Copyright e Outras</h2>
-<p>A plataforma irá adotar e implementar uma Política de Direitos Autorais de acordo com o Digital Millennium Copyright Act e outras leis de direitos autorais aplicáveis.</p>
+<p>A plataforma irá adotar e implementar uma Política de Direitos Autorais de acordo com o Digital Millennium Copyright Act e outras leis de direitos autorais aplicáveis. Fonte: <a href="https://policy.pinterest.com/pt-br/copyright">Copyright do Pinterest</a></p>
               
             </div>
           </div>
@@ -486,12 +480,12 @@ A aplicação deve suportar acesso por meio de navegadores de web, com a perman�
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -505,7 +499,9 @@ A aplicação deve suportar acesso por meio de navegadores de web, com a perman�
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
