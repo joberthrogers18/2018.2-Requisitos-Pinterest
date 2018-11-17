@@ -102,10 +102,14 @@ Rich Picture que apresenta a interação do Pinterest e do usuário no ambito de
 ### Versão 2.0
 ![](img/rich_picture_conteudo_v2.png)
 
-## RP7 - Receber Notificações
+## RP9 - Receber Notificações
 
 Rich Picture apresenta os fluxos de um usuário receber notificações do Pinterest e as opções referentes a notificação.
 
 ### Versão 1.0
 
 ![RPNot1](img/rp_receber_notificacao_v1.png)
+
+### Versão 2.0
+
+![RPNot2](img/rp_receber_notificacao_v2.png)
