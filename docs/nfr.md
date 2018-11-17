@@ -20,6 +20,8 @@
 |  3.0 | 16/11/2018 | Adição da terceira versão do [NFR7](#nfr7-seguranca), após análise do modelo | Guilherme Guy |
 |  3.1 | 16/11/2018 | Adição da segunda versão do  [NFR3](#nfr3-usabilidade), após análise do modelo | Gabriela Medeiros |
 |  3.2 | 17/11/2018 | Adição da terceira versão do  [NFR3](#nfr3-usabilidade), após análise do modelo | Gabriela Medeiros |
+|  3.3 | 17/11/2018 | Adição da terceira versão do  [NFR8](#nfr8-suportabilidade), após análise do modelo | Letícia Meneses |
+
 # NFR1 - Confiabilidade
 
 ### Versão 1.0
@@ -95,3 +97,7 @@ Na versão 3.0 foi adicionado um olhar para a qualidade de conteúdo, além de m
 
 ### Versão 2.0
 ![](img/NFR_Suportabilidade2.png)
+
+### Versão 3.0
+
+![](img/suporteNRF_v2.png)

@@ -19,6 +19,8 @@
 |  2.4 | 14/11/2018 | Adição da segunda versão do [RP3](#rp3-tipos-de-pins) | Alexandre Miguel |
 |  2.5 | 15/11/2018 | Adição da segunda versão do [RP8](#rp8-pinterest-e-entrega-de-conteudo-ao-usuario) | Guilherme Guy |
 |  3.0 | 15/11/2018 | Adição da terceira versão do [RP3](#rp3-tipos-de-pins) | Alexandre Miguel |
+|  3.1 | 17/11/2018 | Adição da primeira versão do [RP9](#rp9-receber-notificacao) | Letícia Meneses |
+|  3.2 | 17/11/2018 | Adição da segunda versão do [RP9](#rp9-receber-notificacao) | Letícia Meneses |
 
 
 ##  Introdução
