@@ -43,20 +43,20 @@
 
 | Número | Requisito | Prioridade |
 |---|---|---|
-| AP1 | O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | Must |
-| AP2 | É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. | Must |
-| AP3| O Pinterest apresenta um feed baseado nos interesses do usuário. | Must |
-| AP4 | O Pinterest permite salvar um pin em alguma pasta. | Should |
-| AP5 | O Pinterest permite a criação de pastas e subpastas. | Should |
-| AP6 | A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo. | Could |
-| AP7 | A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. | Should |
-| AP8 | O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins. | Could |
-| AP9 | O usuário é capaz de escolher os interesses que mais o agradar. | Must |
-| AP10 | A plataforma filtra os melhores grupos de interesses para o usuário. | Should |
-| AP11 | O usuário é capaz de baixar toda imagem que o interessar. | Should |
-| AP12 | A plataforma disponibiliza uma forma de pesquisa por foto. | Could |
-| AP13 | A plataforma disponibiliza uma forma de pesquisa por texto. | Should |
-| AP14 | O usuário é capaz de ser redirecionado para o link da imagem desejada. | Should |
+| AP1.1 | O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | Must |
+| AP1.2 | É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. | Must |
+| AP1.3| O Pinterest apresenta um feed baseado nos interesses do usuário. | Must |
+| AP1.4 | O Pinterest permite salvar um pin em alguma pasta. | Should |
+| AP1.5 | O Pinterest permite a criação de pastas e subpastas. | Should |
+| AP1.6 | A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo. | Could |
+| AP1.7 | A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. | Should |
+| AP1.8 | O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins. | Could |
+| AP1.9 | O usuário é capaz de escolher os interesses que mais o agradar. | Must |
+| AP1.10 | A plataforma filtra os melhores grupos de interesses para o usuário. | Should |
+| AP1.11 | O usuário é capaz de baixar toda imagem que o interessar. | Should |
+| AP1.12 | A plataforma disponibiliza uma forma de pesquisa por foto. | Could |
+| AP1.13 | A plataforma disponibiliza uma forma de pesquisa por texto. | Should |
+| AP1.14 | O usuário é capaz de ser redirecionado para o link da imagem desejada. | Should |
 
 ## Análise de protocolo 2
 
