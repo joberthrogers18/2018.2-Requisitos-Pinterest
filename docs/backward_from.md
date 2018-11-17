@@ -34,9 +34,9 @@ Este artefato busca ligar cada requisito levantado aos respectivos métodos de e
 
 |  Código | Descrição | Fonte | Elicitação | Modelagem | Elo |
 |  :------: | :------: | :------: | :------: | :------: | :------: |
-|  RF1 | O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | [Vincular suas Redes Sociais](backward_from.md#vincular-suas-redes-sociais) | [AP1](analise_protocolo.md#resultado-dos-requisitos) | [L16](lexicos.md#l16); <br> [C8](cenarios.md#c8); <br> [DCU10](diagramas_caso_uso.md#dcu-10); <br> [DCU11](diagramas_caso_uso.md#dcu-11); <br>[DCU3](diagramas_caso_uso.md#dcu-3) ;<br> [ECU6](especificacoes_caso_uso.md#ecu-6); <br> [IS6](iStar.md#cadastro-no-pinterest) <br> [US12](backlog.md#us12); | [EF1](#ef1) |
-|  RF2 | Ter um feed baseado nos interesses do usuário. | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AP3](analise_protocolo.md#resultado-dos-requisitos) | [C- Definir interesses](cenarios.md#c5); <br> [L10](lexicos.md#l10); <br> [DCU7](diagramas_caso_uso.md#dcu-7); <br> [ECU4](especificacoes_caso_uso.md#ecu-4); <br> [IS1](iStar.md#definir-interesses) <br> [US15](backlog.md#us15); | [EF2](#ef2) |
-|  RF3 | O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AD2](analise_discurso.md#requisitos-elicitados); <br> [AD7](analise_discurso.md#requisitos-elicitados); <br> [AP3](analise_protocolo.md#resulyado-dos-requisitos);  | [L10](lexicos.md#l10); <br> [C5](cenarios.md#c5); <br> [IS1](iStar.md#definir-interesses); <br> [DCU7](diagramas_caso_uso.md#dcu-7); <br> [US36](backlog.md#us36); | [EF3](#ef3) |
+|  RF1 | O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | [Vincular suas Redes Sociais](backward_from.md#vincular-suas-redes-sociais) | [AP1](analise_protocolo.md#resultado-dos-requisitos) | [L16](lexicos.md#l16); <br> [C8](cenarios.md#c8); <br> [DCU10](diagramas_caso_uso.md#dcu-10); <br> [DCU11](diagramas_caso_uso.md#dcu-11); <br>[DCU3](diagramas_caso_uso.md#dcu-3) ;<br> [ECU6](especificacoes_caso_uso.md#ecu-6); <br> [IS6](iStar.md#is6-cadastro-no-pinterest) <br> [US12](backlog.md#us12); | [EF1](#ef1) |
+|  RF2 | Ter um feed baseado nos interesses do usuário. | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AP3](analise_protocolo.md#resultado-dos-requisitos) | [C- Definir interesses](cenarios.md#c5); <br> [L10](lexicos.md#l10); <br> [DCU7](diagramas_caso_uso.md#dcu-7); <br> [ECU4](especificacoes_caso_uso.md#ecu-4); <br> [IS1](iStar.md#is1-definir-interesses) <br> [US15](backlog.md#us15); | [EF2](#ef2) |
+|  RF3 | O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [AD2](analise_discurso.md#requisitos-elicitados); <br> [AD7](analise_discurso.md#requisitos-elicitados); <br> [AP3](analise_protocolo.md#resulyado-dos-requisitos);  | [L10](lexicos.md#l10); <br> [C5](cenarios.md#c5); <br> [IS1](iStar.md#is1-definir-interesses); <br> [DCU7](diagramas_caso_uso.md#dcu-7); <br> [US36](backlog.md#us36); | [EF3](#ef3) |
 |  RF4 | O usuário deve ter a opção de salvar pins em um pasta | [Salvar Pins no Pinterest](backward_from.md#salvar-pins-no-pinterest) | [ST2.4](storytelling.md#storytelling-2-aprendendo-receitas-no-pinterest) | [C14](cenarios.md#c14); <br> [L2](lexicos.md#l2)<br> [DCU17](diagramas_caso_uso.md#dcu-17); <br> [ECU12](especificacoes_caso_uso.md#ecu-12); <br> [US22](backlog.md#us22); | [EF4](#ef4) |
 |  RF5 | O app deve possuir uma barra para pesquisa por texto. | [Produtos do Pinterest](backward_from.md#produtos-do-pinterest) | [AP13](analise_protocolo.md#resultado-dos-requisitos) | [C11](cenarios.md#c11); <br> [L31](lexicos.md#l31); <br> [DCU14](diagramas_caso_uso.md#dcu-14); <br> [ECU23](especificacoes_caso_uso.md#ecu-23); <br> [IS3](iStar.md#is3-pesquisar-pins); <br> [US34](backlog.md#us34); | [EF5](#ef5) |
 |  RF6 | O App deve possibilitar a transferência de Pins entre pastas. | [Mover Pins para outra Pasta](backward_from.md#mover-pins-para-outra-pasta) | [ENT11](entrevista.md#requisitos-elicitados) | [DCU13](diagramas_caso_uso.md#dcu-13); <br> [L33](lexicos.md#l33); <br>[C10](cenarios.md#c10); <br> [US31](backlog.md#us31); | [EF6](#ef6) |
@@ -69,7 +69,7 @@ Este artefato busca ligar cada requisito levantado aos respectivos métodos de e
 |  RF33 | O pinterest deve manter algum canal de comunicação com usuário no caso de dúvidas ou problemas ocorridos com o usuário. | [Política de Privacidade do Pinterest](backward_from.md#politica-de-privacidade-do-pinterest) | - | [NFR6](nfr.md#nfr6-suporte); <br> [C21](cenarios.md#c21); <br> [L34](lexicos.md#l34); <br> [DCU23](diagramas_caso_uso.md#dcu-23); <br> [US21](backlog.md#us21); | [EF33](#ef33) |
 |  RF34 | O Usuário deve poder remover interesses em qualquer momento após o cadastro, acessando essa opção na aba de perfil | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | [ST1.3](storytelling.md#storytelling-1-definindo-interesses-no-pinterest); | [C5](cenarios.md#c5); <br> [L10](lexicos.md#l10); <br> [DCU7](diagramas_caso_uso.md#dcu-7); <br> [IS1](iStar.md#is1-definir-interesses); <br> [US36](backlog.md#us36); | [EF34](#ef34) |
 |  RF35 | O Usuário deve possuir mais de uma opção de formas de ordenação das pastas na página de perfil, como ordem alfabética, últimos salvos, mais antigas, mais recentes ou pelo arraste dos elementos. | [Organizar Pastas no Pinterest](backward_from.md#organizar-pastas-no-pinterest) | [ST2.5](storytelling.md#storytelling-2-aprendendo-receitas-no-pinterest);  |  [L33](lexicos.md#l33); <br> [C10](cenarios.md#c10); <br> [ECU21](especificacoes_caso_uso.md#ecu-21); <br> [ECU22](especificacoes_caso_uso.md#ecu-22); <br> [IS2](iStar.md#is2-classificar-pastas); <br> [DCU21](diagramas_caso_uso.md#dcu-21); <br> [US31](backlog.md#us31); <br> [US25](backlog.md#us2); | [EF35](#ef35) |
-|  RF36 | O Pinterest deve notificar usuários de outros usuários com interesses semelhantes | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | - | [L19](lexicos.md#l19); <br> [C18](cenarios.md#c18); <br> [IS4](iStar.md#seguir-usuario) <br> [US24](backlog.md#us24); | [EF36](#ef36) |
+|  RF36 | O Pinterest deve notificar usuários de outros usuários com interesses semelhantes | [Interesses do Pinterest](backward_from.md#interesses-no-pinterest) | - | [L19](lexicos.md#l19); <br> [C18](cenarios.md#c18); <br> [IS4](iStar.md#is4-seguir-usuario) <br> [US24](backlog.md#us24); | [EF36](#ef36) |
 |  RF37 | O Usuário deve poder ocultar seu perfil e seus dados de mecanismos de pesquisa | [Política de Cookies](backward_from.md#politica-de-cookies) | - | [US37](backlog.md#us37); <br> [IS5](iStar.md#is5-editar-configuracoes-de-conta) | [EF37](#ef37) |
 |  RF38 | O Pinterest deve poder utilizar dados, como cookies, para identificar informações de perfil do usuário e direcionar recomendações de pins | [Política de Cookies](backward_from.md#politica-de-cookies) | [AD4](analise_discurso.md#requisitos-elicitados);  | [IS5](iStar.md#is5-editar-configuracoes-de-conta) <br> [US39](backlog.md#us39) | [EF38](#ef38) |
 |  RF39 | O Usuário deve poder definir informações pessoais, como seu gênero, nome de usuário, imagem de perfil e descrição, por meio de uma opção ao editar perfil ou se cadastrar | [Perfil no Pinterest](backward_from.md#perfil-no-pinterest) e [Política de Privacidade do Pinterest](backward_from.md#politica-de-privacidade-do-pinterest) | - | [US37](backlog.md#us37); <br> [IS6](iStar.md#is6-cadastro-no-pinterest); <br> [DCU26](diagramas_caso_uso.md#dcu-26); <br> [ECU18](especificacoes_caso_uso.md#ecu-18); <br> [C24](cenarios.md#c24) <br> [US38](backlog.md#us38); | [EF39](#ef39) |
@@ -121,11 +121,11 @@ Desenvolvimento
 [DCU11](diagramas_caso_uso.md#dcu-18); <br>
 [DCU2](diagramas_caso_uso.md#dcu-2) ;<br>
 [ECU6](especificacoes_caso_uso.md#ecu-6); <br>
- [IS6](iStar.md#cadastro-no-pinterest) <br>
+ [IS6](iStar.md#is6-cadastro-no-pinterest) <br>
 [US12](backlog.md#us12)
 ### Elo
 **Representação**: [DCU- 11](diagramas_caso_uso.md#dcu-18) representa [C8](cenarios.md#c8); <br>
-**Representação**: [IS6](iStar.md#cadastro-no-pinterest) representa [DCU2](diagramas_caso_uso.md#dcu-2) ; <br>
+**Representação**: [IS6](iStar.md#is6-cadastro-no-pinterest) representa [DCU2](diagramas_caso_uso.md#dcu-2) ; <br>
 **Alocação** : [ECU6](especificacoes_caso_uso.md#ecu-6) alocado em [US12](backlog.md#us12)
 
 ## EF2
@@ -569,7 +569,7 @@ Desenvolvimento
 ### Elementos Rastreáveis
 [L19](lexicos.md#l19) <br>
 [C18](cenarios.md#c18) <br>
- [IS4](iStar.md#seguir-usuario) <br>
+ [IS4](iStar.md#is4-seguir-usuario) <br>
 [US24](backlog.md#us24)
 ### Elo
 **Representação**: [C18](cenarios.md#c18) representa [L19](lexicos.md#l19) <br>
