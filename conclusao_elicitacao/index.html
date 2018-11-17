@@ -121,6 +121,8 @@
         
             <li><a class="toctree-l4" href="#versao-20">Versão 2.0</a></li>
         
+            <li><a class="toctree-l4" href="#requisitos-nao-funcionais">Requisitos Não Funcionais</a></li>
+        
         </ul>
     
 
@@ -618,267 +620,477 @@
 <p>A equipe executou vários processos de elicitação, e a que mais gerou requisitos foi a entrevista. Porém, deve ser levado em conta o fato de que a entrevista foi mais abrangente em relação às funcionalidades do app Pinterest, enquanto o Storytelling e Análise de Discurso, por exemplo, estão voltados apenas para algumas funcionalidades, focando em situações específicas. Além disso, a entrevista também forneceu uma visão da perpesctiva de um de usuário muito ativo, enquanto nas outras técnicas os usuários consultados eram menos experientes no uso do app. Dentre as técnicas, a análise de protocolo também se destacou devido à sua abrangência e supõe-se que, caso o usuário fosse mais experiente, mais requisitos seriam levantados.
 Por fim, o questionário não foi muito eficiente para o levantamento de requisitos, já que está mais voltado para o perfil de usuário.</p>
 <h2 id="versao-20">Versão 2.0</h2>
-<h3 id="requisitos-funcionais">Requisitos funcionais</h3>
+<h3 id="requisitos-funcionais">Requisitos Funcionais</h3>
 <table>
 <thead>
 <tr>
-<th align="center">Código</th>
-<th align="center">Descrição</th>
-<th align="center">Elicitação</th>
+<th>Prioridade</th>
+<th>Código</th>
+<th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">RF1</td>
-<td align="center">O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro.</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP1</a></td>
+<td>Must</td>
+<td>AD2</td>
+<td>O Usuário deve poder bloquear Pins que não são de seu interesse.</td>
 </tr>
 <tr>
-<td align="center">RF2</td>
-<td align="center">Ter um feed baseado nos interesses do usuário.</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP3</a></td>
+<td>Must</td>
+<td>AD9</td>
+<td>O Usuário deve poder escolher parar de receber emails do aplicativo.</td>
 </tr>
 <tr>
-<td align="center">RF3</td>
-<td align="center">O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD2</a>; <br> <a href="../analise_discurso/#requisitos-elicitados">AD7</a>; <br> <a href="../analise_protocolo/#resulyado-dos-requisitos">AP3</a>;</td>
+<td>Must</td>
+<td>AP1.1</td>
+<td>O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro.</td>
 </tr>
 <tr>
-<td align="center">RF4</td>
-<td align="center">O usuário deve ter a opção de salvar pins em um pasta</td>
-<td align="center"><a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.4</a></td>
+<td>Must</td>
+<td>AP1.2</td>
+<td>É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário.</td>
 </tr>
 <tr>
-<td align="center">RF5</td>
-<td align="center">O app deve possuir uma barra para pesquisa por texto.</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP13</a></td>
+<td>Must</td>
+<td>AP1.3</td>
+<td>O Pinterest apresenta um feed baseado nos interesses do usuário.</td>
 </tr>
 <tr>
-<td align="center">RF6</td>
-<td align="center">O App deve possibilitar a transferência de Pins entre pastas.</td>
-<td align="center"><a href="../entrevista/#requisitos-elicitados">ENT11</a></td>
+<td>Must</td>
+<td>AP1.9</td>
+<td>O usuário é capaz de escolher os interesses que mais o agradar.</td>
 </tr>
 <tr>
-<td align="center">RF7</td>
-<td align="center">O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado em seu feed.</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD2</a>;</td>
+<td>Must</td>
+<td>AP2.1</td>
+<td>O Pinterest apresenta micro-serviço (Facebook ou Google) como forma de login e cadastro.</td>
 </tr>
 <tr>
-<td align="center">RF8</td>
-<td align="center">O App deve obter vários dados de Pins bloqueados para identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.</td>
-<td align="center"><a href="../entrevista/#requisitos-elicitados">ENT15</a></td>
+<td>Must</td>
+<td>AP2.2</td>
+<td>Para continuar com o cadastro é necessário a escolha de interesses em categorias determinadas pelo Pinterest (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. Não há um máximo de interesses para escolher.</td>
 </tr>
 <tr>
-<td align="center">RF9</td>
-<td align="center">O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações</td>
-<td align="center"><a href="../introspeccao/#introspeccao-1">INT1.5</a></td>
+<td>Must</td>
+<td>AP2.3</td>
+<td>O Pinterest apresenta um feed baseado nos interesses do usuário.</td>
 </tr>
 <tr>
-<td align="center">RF10</td>
-<td align="center">O app deve separar os pins por categorias</td>
-<td align="center"><a href="../introspeccao/#introspeccao-1">INT1.6</a></td>
+<td>Must</td>
+<td>AP2.5</td>
+<td>O Pinterest permite salvar uma imagem em uma pasta. É necessária a criação de uma pasta para salvá-lo.</td>
 </tr>
 <tr>
-<td align="center">RF11</td>
-<td align="center">O usuário deve ter a opção de avaliar pins e essa avaliação deve ser aberta a outros usuários</td>
-<td align="center"><a href="../introspeccao/#introspeccao-1">INT1.8</a></td>
+<td>Must</td>
+<td>AP2.6</td>
+<td>O Pinterest permite a criação de pastas.</td>
 </tr>
 <tr>
-<td align="center">RF12</td>
-<td align="center">O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas.</td>
-<td align="center"><a href="../entrevista/#requisitos-elicitados">ENT10</a></td>
+<td>Must</td>
+<td>AP2.10</td>
+<td>O usuário é capaz de seguir outros usuários e outros interesses</td>
 </tr>
 <tr>
-<td align="center">RF13</td>
-<td align="center">Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição</td>
-<td align="center"><a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.3</a>; <br> <a href="../introspeccao/#introspeccao-2">INT2.4</a>;</td>
+<td>Must</td>
+<td>AP2.18</td>
+<td>O usuário é capaz de denunciar imagens, baseado em categorias determinadas pelo Pinterest.</td>
 </tr>
 <tr>
-<td align="center">RF14</td>
-<td align="center">O usuário deve poder adicionar novos interesses a qualquer momento após o cadastro, através de uma opção em seu perfil</td>
-<td align="center"><a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.3</a>;</td>
+<td>Must</td>
+<td>AP2.19</td>
+<td>Nas configurações é possível editar o perfil do usuário e editar as configurações.</td>
 </tr>
 <tr>
-<td align="center">RF15</td>
-<td align="center">O usuário deve poder salvar seus pins no seu dispositivo</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP4</a></td>
+<td>Must</td>
+<td>ENT1</td>
+<td>O app deve reunir os pins salvos pelo usuário em pastas.</td>
 </tr>
 <tr>
-<td align="center">RF16</td>
-<td align="center">Manter pastas</td>
-<td align="center"><a href="../entrevista/#requisitos-elicitados">ENT11</a>; <br> <a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.5</a>; <br> <a href="../entrevista/#requisitos-elicitados">ENT3</a>;</td>
+<td>Must</td>
+<td>ENT4</td>
+<td>O app deve possuir uma barra para pesquisa de temas.</td>
 </tr>
 <tr>
-<td align="center">RF17</td>
-<td align="center">Manter subpastas</td>
-<td align="center"><a href="../entrevista/#requisitos-elicitados">ENT10</a></td>
+<td>Must</td>
+<td>ENT9</td>
+<td>A Extensão para navegador deve permitir que o usuário escolha a pasta em que será salva uma imagem de outro website.</td>
 </tr>
 <tr>
-<td align="center">RF18</td>
-<td align="center">A plataforma deve disponibilizar uma forma de pesquisa por imagem.</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP12</a>; <br> <a href="../analise_discurso/#requisitos-elicitados">AD14</a></td>
+<td>Must</td>
+<td>ENT11</td>
+<td>O App deve possibilitar a transferência de Pins entre pastas.</td>
 </tr>
 <tr>
-<td align="center">RF19</td>
-<td align="center">O usuário deve poder ser redirecionado para o link da imagem de um pin, caso haja um.</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP14</a></td>
+<td>Must</td>
+<td>ENT13</td>
+<td>O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado como sugestão.</td>
 </tr>
 <tr>
-<td align="center">RF20</td>
-<td align="center">O usuário deve conseguir compartilhar pins com outros usuários</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD12</a></td>
+<td>Must</td>
+<td>INT1.4</td>
+<td>O app deve oferecer pins de receitas diversas até que o usuário tenha interesses definidos.</td>
 </tr>
 <tr>
-<td align="center">RF21</td>
-<td align="center">O usuário deve conseguir compartilhar pins em redes sociais</td>
-<td align="center"><a href="../introspeccao/#introspeccao-2">INT2.2</a></td>
+<td>Must</td>
+<td>INT1.6</td>
+<td>O app deve separar os pins por categorias</td>
 </tr>
 <tr>
-<td align="center">RF22</td>
-<td align="center">A aplicação deve colocar nos pins a opção de "comentários"</td>
-<td align="center"><a href="../introspeccao/#introspeccao-2">INT2.3</a></td>
+<td>Must</td>
+<td>INT1.8</td>
+<td>O usuário deve ter a opção de avaliar uma receita e essa avaliação deve ser aberta a outros usuários</td>
 </tr>
 <tr>
-<td align="center">RF23</td>
-<td align="center">O Pinterest deve oferecer a opção de seguir usuários</td>
-<td align="center"><a href="../introspeccao/#introspeccao-2">INT2.7</a></td>
+<td>Must</td>
+<td>INT1.9</td>
+<td>O usuário deve ter a opção de salvar pins</td>
 </tr>
 <tr>
-<td align="center">RF24</td>
-<td align="center">O usuário deve poder ocultar e denunciar pins.</td>
-<td align="center"><a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.5</a>;</td>
+<td>Must</td>
+<td>INT2.4</td>
+<td>Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição</td>
 </tr>
 <tr>
-<td align="center">RF25</td>
-<td align="center">O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins.</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP8</a></td>
+<td>Must</td>
+<td>INT2.6</td>
+<td>O Pinterest deve mostrar diversos pins relacionados ao pin clicado</td>
 </tr>
 <tr>
-<td align="center">RF26</td>
-<td align="center">O app deve possuir a função de compartilhar a edição de pastas com outros usuários.</td>
-<td align="center"><a href="../entrevista/#requisitos-elicitados">ENT3</a></td>
+<td>Must</td>
+<td>INT3.4</td>
+<td>O aplicativo deve possuir um chat para que possa haver interação com outros usuários, por meio de envio texto ou envio de fotos</td>
 </tr>
 <tr>
-<td align="center">RF27</td>
-<td align="center">As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la.</td>
-<td align="center"><a href="../introspeccao/#introspeccao-2">INT2.4</a>;</td>
+<td>Must</td>
+<td>INT3.7</td>
+<td>A aplicação deve oferecer a funcionalidade de escolha de interesses pré-determinados para que o usuário tenha no seu feed apenas o que deseja</td>
 </tr>
 <tr>
-<td align="center">RF28</td>
-<td align="center">O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD4</a></td>
+<td>Must</td>
+<td>INT3.8</td>
+<td>A aplicação deve oferecer a função de salvamento de fotos em sua conta</td>
 </tr>
 <tr>
-<td align="center">RF29</td>
-<td align="center">O usuário deve poder enviar mensagem para outros usuários.</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD10</a>; <br> <a href="../analise_discurso/#requsiitos-elicitados">AD11</a>;</td>
+<td>Must</td>
+<td>INT3.10</td>
+<td>A aplicação possuir meio de login por micro serviço como Facebook e Google</td>
 </tr>
 <tr>
-<td align="center">RF30</td>
-<td align="center">O usuário deve receber notificações sobre novidades no app.</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD8</a>;</td>
+<td>Must</td>
+<td>ST1.1</td>
+<td>O app deve permitir a escolha de interesses no primeiro acesso.</td>
 </tr>
 <tr>
-<td align="center">RF31</td>
-<td align="center">Os pins que se referem a aplicativos devem mostrar a opção de instalar.</td>
-<td align="center"><a href="../introspeccao/#introspeccao-2">INT2.4</a>;</td>
+<td>Must</td>
+<td>ST1.3</td>
+<td>O usuário deve poder alterar seus interesses a qualquer momento.</td>
 </tr>
 <tr>
-<td align="center">RF32</td>
-<td align="center">O Usuário deve poder remover interesses em qualquer momento após o cadastro, acessando essa opção na aba de perfil</td>
-<td align="center"><a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.3</a>;</td>
+<td>Must</td>
+<td>ST2.4</td>
+<td>O usuário deve poder salvar seus pins em uma pasta.</td>
 </tr>
 <tr>
-<td align="center">RF33</td>
-<td align="center">O Usuário deve possuir mais de uma opção de formas de ordenação das pastas na página de perfil, como ordem alfabética, últimos salvos, mais antigas, mais recentes ou pelo arraste dos elementos.</td>
-<td align="center"><a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.5</a>;</td>
+<td>Should</td>
+<td>AD1</td>
+<td>O App precisa possuir sempre conteúdos novos no feed do usuário.</td>
 </tr>
 <tr>
-<td align="center">RF34</td>
-<td align="center">O Pinterest deve poder utilizar dados, como cookies, para identificar informações de perfil do usuário e direcionar recomendações de pins</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD4</a>;</td>
+<td>Should</td>
+<td>AD3</td>
+<td>O Aplicativo deve ser capaz de reconhecer relações de conteúdo entre Pins.</td>
 </tr>
 <tr>
-<td align="center">RF35</td>
-<td align="center">O Usuário deve poder definir em qual língua irá utilizar o aplicativo, seja na edição do perfil ou no cadastro</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD6</a>;</td>
+<td>Should</td>
+<td>AD6</td>
+<td>O Aplicativo deve possuir algorítmos para adaptação de mensagens para a linguagem de sistema do usuário.</td>
 </tr>
 <tr>
-<td align="center">RF36</td>
-<td align="center">O Usuário deve definir informações do pin postado, como categorias, título e descrição</td>
-<td align="center"><a href="../introspeccao/#introspeccao-2">INT2.4</a>;</td>
+<td>Should</td>
+<td>AD14</td>
+<td>O Aplicativo deve tornar intuitiva a funcão do ícone de pesquisa através da câmera.</td>
 </tr>
 <tr>
-<td align="center">RF37</td>
-<td align="center">O app deve permitir a escolha de interesses no primeiro acesso (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário.</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP2</a>; <br> <a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.1</a>;</td>
+<td>Should</td>
+<td>AP1.4</td>
+<td>O Pinterest permite salvar um pin em alguma pasta.</td>
 </tr>
 <tr>
-<td align="center">RF38</td>
-<td align="center">A aplicação deve conter um sistema de scroll infinito que possibilite ao usuário uma visualização mais orgânica do feed.</td>
-<td align="center"><a href="../analise_protocolo/#resultado-dos-requisitos">AP7</a></td>
+<td>Should</td>
+<td>AP1.5</td>
+<td>O Pinterest permite a criação de pastas e subpastas.</td>
 </tr>
 <tr>
-<td align="center">RF39</td>
-<td align="center">O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário.</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD5</a><br> <a href="../entrevista/#requisitos-elicitados">ENT12</a></td>
+<td>Should</td>
+<td>AP1.10</td>
+<td>A plataforma filtra os melhores grupos de interesses para o usuário.</td>
 </tr>
 <tr>
-<td align="center">RF40</td>
-<td align="center">Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filtro sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado</td>
-<td align="center"><a href="../introspeccao/#introspeccao-2">INT2.5</a></td>
+<td>Should</td>
+<td>AP1.13</td>
+<td>A plataforma disponibiliza uma forma de pesquisa por texto.</td>
 </tr>
 <tr>
-<td align="center">RF41</td>
-<td align="center">Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário.</td>
-<td align="center"><a href="../storytelling/#storytelling-1-definindo-interesses-no-pinterest">ST1.4</a></td>
+<td>Should</td>
+<td>AP1.14</td>
+<td>O usuário é capaz de ser redirecionado para o link da imagem desejada.</td>
 </tr>
 <tr>
-<td align="center">RF42</td>
-<td align="center">O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app</td>
-<td align="center"><a href="../introspeccao/#introspeccao-1">INT1.10</a></td>
+<td>Should</td>
+<td>ENT2</td>
+<td>O app deve possibilitar a criação de subpastas internas às pastas de um tema.</td>
 </tr>
 <tr>
-<td align="center">RF43</td>
-<td align="center">O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD7</a>; <br></td>
+<td>Should</td>
+<td>ENT5</td>
+<td>O app deve possuir um design de interface semelhante entre o aplicativo mobile e o aplicativo web.</td>
 </tr>
 <tr>
-<td align="center">RF44</td>
-<td align="center">O Usuário deve possuir a possibilidade de personalizar a forma em que suas pastas serão visualizadas</td>
-<td align="center"><a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.5</a></td>
+<td>Should</td>
+<td>ENT10</td>
+<td>O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>ENT12</td>
+<td>O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>ENT14</td>
+<td>O Feed do aplicativo deve ser embasado em Pins salvos pelo usuário.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT2.2</td>
+<td>O pin deve ter a opção de compartilhamento entre redes sociais ou pessoas seguidas</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT2.3</td>
+<td>A aplicação deve colocar nos pins a opção de "comentários"</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT2.5</td>
+<td>Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filto sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT2.7</td>
+<td>O Pinterest deve oferecer a opção de seguir o usuário que postou o pin selecionado</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT3.5</td>
+<td>A aplicação deve possuir a função de compartilhar fotos para outras redes sociais como Facebook e WhatsApp</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT3.6</td>
+<td>O aplicativo deve oferecer um feed com scroll infinito para visualizar muitas fotos dos interesses do usuário</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT3.9</td>
+<td>O app deve oferecer criação de pastas para salvamento de fotos, com o objetivo de organizar melhor as fotos salvas</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>ST1.4</td>
+<td>Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>ST1.5</td>
+<td>O usuário deve poder ocultar pins.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>ST2.2</td>
+<td>A aba explorar deve mostrar potenciais interesses.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>ST2.5</td>
+<td>As pastas devem ser personalizáveis.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AD7</td>
+<td>O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AD8</td>
+<td>O Aplicativo deve notificar o usuário por email acerca de novidades de temas ou comunicações.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AD10</td>
+<td>O Aplicativo deve conter uma aba de mensagens que possibilite a comnunicação entre os usuários ativos.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AD11</td>
+<td>O Aplcativo deve tornar visível e atrativo o acesso às mensagens.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AD12</td>
+<td>O Aplicativo deve possbilitar que os usuários compartilhem pastas, subpastas e pins através de mensagens.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AP1.6</td>
+<td>A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AP1.8</td>
+<td>O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AP1.12</td>
+<td>A plataforma disponibiliza uma forma de pesquisa por foto.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AP2.7</td>
+<td>O app sugere nomes para as pastas a serem criadas, com base na categoria da imagem a ser salva.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AP2.9</td>
+<td>O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>AP2.13</td>
+<td>A aplicação disponibiliza uma forma de pesquisa por foto, procurando por similares.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>ENT3</td>
+<td>O app deve possuir a função de compartilhar a edição de pastas com usuários.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>ENT6</td>
+<td>O app deve possuir uma extensão para navegadores web.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>ENT7</td>
+<td>A Extensão para navegador deve permitir salvar imagens de outros sites em pastas do usuário no app.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>INT1.1</td>
+<td>O app deve oferecer a opção de selecionar a qualidade das imagens</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>INT1.2</td>
+<td>O app deve oferecer a opção do usuário inserir se deseja ou não o carregamento automático dos vídeos</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>INT2.1</td>
+<td>A aplicação deve direcionar o usuário à outra aba quando clicado no link do pin</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>ST1.2</td>
+<td>O usuário deve poder reagir aos pins que aparecem indicando se eles os agrada.</td>
+</tr>
+<tr>
+<td>Would</td>
+<td>ENT8</td>
+<td>A Extensão para navegador deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest.</td>
 </tr>
 </tbody>
 </table>
-<h3 id="requisitos-nao-funcionais">Requisitos não funcionais</h3>
+<h2 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h2>
 <table>
 <thead>
 <tr>
-<th align="center">Código</th>
-<th align="center">Descrição</th>
-<th align="center">Elicitação</th>
+<th>Prioridade</th>
+<th>Código</th>
+<th>Requisito</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td align="center">RNF1</td>
-<td align="center">O app deve oferecer mais conteúdo relacionado às atividades recentes</td>
-<td align="center"><a href="../entrevista/#requisitos-elicitados">ENT12</a>; <br> <a href="../storytelling/#storytelling-2-aprendendo-receitas-no-pinterest">ST2.1</a></td>
+<td>Must</td>
+<td>AD5</td>
+<td>O Aplicativo deve sugerir temas de Pins conforme os interesses estabelecidos pelos usuário.</td>
 </tr>
 <tr>
-<td align="center">RNF2</td>
-<td align="center">A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes</td>
-<td align="center"><a href="../questionario/#requisitos-elicitados">Q4</a>;</td>
+<td>Must</td>
+<td>ENT15</td>
+<td>O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar.</td>
 </tr>
 <tr>
-<td align="center">RNF3</td>
-<td align="center">A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo</td>
-<td align="center"><a href="../questionario/#requisitos-elicitados">Q5</a>;</td>
+<td>Must</td>
+<td>INT1.5</td>
+<td>O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações</td>
 </tr>
 <tr>
-<td align="center">RNF4</td>
-<td align="center">O Pinterest deve identificar gostos de usuários em diferentes ambientes ou aplicativos, permitindo um conteúdo mais personalizado e direcionado, aumentando a identificação com os interesses definidos</td>
-<td align="center"><a href="../analise_discurso/#requisitos-elicitados">AD7</a>;</td>
+<td>Must</td>
+<td>INT2.8</td>
+<td>O Pinterest deve oferecer uma grande quantidade de pins fazendo com que o usuário tenha uma enorme quantidade de resultados</td>
+</tr>
+<tr>
+<td>Must</td>
+<td>INT3.1</td>
+<td>A aplicação deve disponibilizar versão mobile multiplataforma para iOS, Windows Phone e Android</td>
+</tr>
+<tr>
+<td>Must</td>
+<td>Q3</td>
+<td>A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>AD4</td>
+<td>O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT3.2</td>
+<td>O aplicativo não deve ocupar muita memória do celular</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>AD13</td>
+<td>O Aplicativo deve conter as pesquisas através de imagem tirada instantaneamente pela câmera do celular, que aproximem o usuário dos resultados desejados.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>AP1.7</td>
+<td>A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed.</td>
+</tr>
+<tr>
+<td>Should</td>
+<td>INT3.3</td>
+<td>O aplicativo deve possuir um design intuitivo para usuários leigos conseguirem utilizá-lo</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>Q2</td>
+<td>A rede social deve conter uma experiência de usuário melhor para que o site possa ser tão acessado pelo público quanto o aplicativo.</td>
+</tr>
+<tr>
+<td>Could</td>
+<td>ST2.1</td>
+<td>O app deve oferecer mais conteúdo relacionado às atividades recentes.</td>
+</tr>
+<tr>
+<td>Would</td>
+<td>INT1.10</td>
+<td>O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app</td>
 </tr>
 </tbody>
 </table>
