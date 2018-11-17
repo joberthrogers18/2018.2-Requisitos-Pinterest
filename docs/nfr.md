@@ -19,7 +19,7 @@
 |  2.7 | 13/11/2018 | Adição da segunda versão do  [NFR2](#nfr2-conectividade), após inserção de adaptabilidade | Alexandre Miguel |
 |  3.0 | 16/11/2018 | Adição da terceira versão do [NFR7](#nfr7-seguranca), após análise do modelo | Guilherme Guy |
 |  3.1 | 16/11/2018 | Adição da segunda versão do  [NFR3](#nfr3-usabilidade), após análise do modelo | Gabriela Medeiros |
-
+|  3.2 | 17/11/2018 | Adição da terceira versão do  [NFR3](#nfr3-usabilidade), após análise do modelo | Gabriela Medeiros |
 # NFR1 - Confiabilidade
 
 ### Versão 1.0
@@ -43,6 +43,9 @@
 
 ### Versão 2.0
 ![](img/NFR-UsabilidadeV2.png)
+
+### Versão 3.0
+![](img/NFR-UsabilidadeV3.png)
 
 # NFR4 - Usabilidade (Design)
 
