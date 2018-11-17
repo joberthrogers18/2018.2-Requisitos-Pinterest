@@ -22,7 +22,7 @@ A primeira entrega foi idealizada pelo grupo pessoalmente, e a ata da reunião s
 
 ![Reuniao2](img/Rastreabilidade/reuniao2.png)
 
-Os feedbacks dados pelos professores para a primeira entega em conjunto foram gravados com a autorização dos mesmos, e podem ser encontrados [clicando aqui](https://drive.google.com/file/d/1j9n-iNVsDRARwqdHPceQfWB_8-kcIFGm/view?usp=sharing). As imagens abaixo mostram os momentos finais em que a equipe fez as alterações no projeto e validou com demais integrantes:
+Os _feedbacks_ dados pelos professores para a primeira entega em conjunto foram gravados com a autorização dos mesmos, e podem ser encontrados [clicando aqui](https://drive.google.com/file/d/1j9n-iNVsDRARwqdHPceQfWB_8-kcIFGm/view?usp=sharing). As imagens abaixo mostram os momentos finais em que a equipe fez as alterações no projeto e validou com demais integrantes:
 
 ![Part6](img/Rastreabilidade/rich5.png)
 
@@ -97,3 +97,67 @@ Guilherme Guy sugeriu uma alteração e após a edição final o questionário f
 ![Rastro3Quest](img/Rastreabilidade/Questionario.png)
 
 Após conversar com os professores, concluiu-se que as perguntas feitas todavia agregaram pouco em requisitos para o aplicativo, e foram feitas sugestões de um novo questionário que possivelmente poderia ser aplicado posteriormente. Em virtude disso, o [Questionário](questionario.md#questionario) elicitou apenas 5 requisitos.
+
+## Cenários e Léxicos
+
+O primeiro passo para a modelagem foi citar diversas palavras que viessem à mente e que fizessem sentido dentro do Pinterest:
+
+![brainstormingLexicos1](img/Rastreabilidade/brainstormLexicos1.png)
+
+![brainstormingLexicos2](img/Rastreabilidade/brainstormLexicos2.png)
+
+A ferramenta de entrega e apresentação foi mantida como o _github pages_, mas colocar os _links_ que ligavam os cenários aos léxicos exigiram mais trabalho e esforço, conforme mostra a imagem abaixo:
+
+![CLrastro1](img/Rastreabilidade/cenario1.png)
+
+O primeiro encontro com os professores para conversar sobre a entrega foi anotado pela equipe e se encontra a seguir:
+
+![FeedbackPT2](img/Rastreabilidade/CLfeedback1.png)
+
+![FeedbackPT1](img/Rastreabilidade/CLfeecback1.1.png)
+
+O áudio completo do feedback pode ser encontrado [clicando aqui](https://drive.google.com/file/d/1Kqh16TF_1ufzFJCfwLwQl_SjcY9fjM5C/view?usp=sharing).
+
+A equipe permaneceu enriquecendo o trabalhado e investindo em melhorias nos tópicos que já haviam sido feitos.
+
+![Correcoes1](img/Rastreabilidade/cenarioslexicos1.png)
+
+![Correcoes2](img/Rastreabilidade/cenarioslexicos2.png)
+
+![Correcoes3](img/Rastreabilidade/cenarioslexicos3.png)
+
+![Correcoes4](img/Rastreabilidade/cenarioslexicos4.png)
+
+![Correcoes5](img/Rastreabilidade/correcoes.png)
+
+A entrega final da modelagem contou com 36 [Léxicos](lexicos.md#lexicos) e 24 [Cenários](cenarios,md#cenarios).
+
+## Diagramas de Casos de Uso e Especificações de Casos de Uso
+
+É certo que os cenários serviram como suporte para o desenvolvimento desta entrega. A primeira tarefa da equipe era definir como seriam separados os diagramas entre os integrantes.
+
+![Pt2](img/Rastreabilidade/UC1.png)
+
+Depois disso, os diagramas foram compartilhados com os demais membros do grupo para serem validados
+
+![PT3](img/Rastreabilidade/UC2.png)
+
+![PT4](img/Rastreabilidade/UC3.png)
+
+![PT5](img/Rastreabilidade/UC4.png)
+
+![PT6](img/Rastreabilidade/UC5.png)
+
+A cardinalidade foi uma dúvida recorrente, mas que pode ser sanada dentro da própria equipe
+
+![PT7](img/Rastreabilidade/UC6.png)
+
+![PT8](img/Rastreabilidade/UC7.png)
+
+Sendo assim, foram desenvolvidos 26 [Diagramas de Casos de Uso](diagramas_caso_uso.md#DCU1) e 26 [Especificações de Casos de Uso](especificacoes_caso.uso.md#ECU-1)
+
+## Especificação Suplementar
+
+O documento de [Especificação Suplementar](especificacao_suplementar.md#especificacao-suplementar) teve como referencial teórico um documento da instituição FUPAR. Dessa forma, tornou-se possível integrar ao Pinterest os conceitos apresentados em sala e o referencial. O documento foi desenvolvido de maneira colaborativa pela equipe através de uma pasta no Drive.
+
+![Pt1](img/Rastreabilidade/ESU.png)
