@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "i*";
     var mkdocs_page_input_path = "iStar.md";
-    var mkdocs_page_url = "/iStar/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -475,14 +476,10 @@
 <td align="center">Adição da terceira versão do  <a href="#is3-pesquisar-pins">IS3</a></td>
 <td align="center">Alexandre Miguel</td>
 </tr>
-<tr>
-<td align="center">3.9</td>
-<td align="center">18/11/2018</td>
-<td align="center">Adição do  <a href="#is12-sugerir-conteudo">IS12</a></td>
-<td align="center">Geovana Ramos</td>
-</tr>
 </tbody>
 </table>
+<p>|  3.9 | 18/11/2018 | Adição do  <a href="#is12-sugerir-conteudo">IS12</a> | Geovana Ramos |
+|  4.0 | 18/11/2018 | Adição das relações de rastrabilidade com outras modelagens | Alexandre Miguel |</p>
 <h1 id="strategic-dependency-models">Strategic Dependency Models</h1>
 <h2 id="versao-10">Versão 1.0</h2>
 <h3 id="sd11-pin">SD1.1 - Pin</h3>
@@ -497,16 +494,21 @@
 <p><img alt="" src="../img/sd_geral.png" /></p>
 <h1 id="strategic-rationale-models">Strategic Rationale Models</h1>
 <h1 id="is1-definir-interesses">IS1 - Definir interesses</h1>
+<p>Análise:  <a href="../Istar_analise_inspecao/#inspecao">SR1</a> <br> Modelagens Associadas: <a href="../nfr/#nfr1-confiabilidade">NFR1</a>, <a href="../backlog/#us13">US13</a>, <a href="../backlog/#us36">US36</a>,  <a href="../backlog/#ep04">EP04</a>, <a href="../especificacoes_caso_uso/#ecu-4">ECU4</a>, <a href="../especificacoes_caso_uso/#ecu-14">ECU14</a>, <a href="../diagramas_caso_uso/#dcu-7">DCU7</a>, <a href="../cenarios/#c5">C5</a>,
+<a href="../cenarios/#c15">C15</a>, <a href="../lexicos/#l10">L10</a>, <a href="../lexicos/#l14">L14</a> <br> Elicitação Associada: <a href="../analise_discurso/#analise-de-discurso">Análise de Discurso</a></p>
 <h3 id="versao-10_1">Versão 1.0</h3>
 <p><img alt="" src="../img/rationale_definir_interesses1.png" /></p>
 <h3 id="versao-20_1">Versão 2.0</h3>
 <p><img alt="" src="../img/rationale_definir_interesses2.png" /></p>
 <h1 id="is2-classificar-pastas">IS2 - Classificar pastas</h1>
+<p>Análise:  <a href="../Istar_analise_inspecao/#inspecao">SR2</a> <br> Modelagens Associadas: <a href="../nfr/#nfr3-usabilidade">NFR3</a>, <a href="../backlog/#us25">US25</a>, <a href="../backlog/#us26">US26</a>,  <a href="../backlog/#ep04">EP04</a>, <a href="../backlog/#ep07">EP07</a>, <a href="../especificacoes_caso_uso/#ecu-21">ECU21</a>,  <a href="../diagramas_caso_uso/#dcu-21">DCU21</a>, <a href="../cenarios/#c10">C10</a>,
+<a href="../cenarios/#c19">C19</a>, <a href="../lexicos/#l3">L3</a>, <a href="../lexicos/#l30">L30</a> <br> Elicitação Associada: <a href="../entrevista/#entrevista">Entrevista</a></p>
 <h3 id="versao-10_2">Versão 1.0</h3>
 <p><img alt="" src="../img/Rationale-Classificar_Pastas1.png" /></p>
 <h3 id="versao-20_2">Versão 2.0</h3>
 <p><img alt="" src="../img/Rationale-Classificar_Pastas2.png" /></p>
 <h1 id="is3-pesquisar-pins">IS3 - Pesquisar Pins</h1>
+<p>Análise:  <a href="../Istar_analise_inspecao/#inspecao">SR4</a> <br> Modelagens Associadas: <a href="../nfr/#nfr2-conectividade">NFR2</a>, <a href="../backlog/#us34">US34</a>, <a href="../backlog/#us35">US35</a>, <a href="../backlog/#ep09">EP09</a>, <a href="../especificacoes_caso_uso/#ecu-23">ECU23</a>, <a href="../especificacoes_caso_uso/#ecu-24">ECU24</a>, <a href="../diagramas_caso_uso/#dcu-14">DCU14</a>, <a href="../diagramas_caso_uso/#dcu-15">DCU15</a>, <a href="../cenarios/#c12">C12</a>, <a href="../lexicos/#l31">L31</a> <br> Elicitação Associada: <a href="../analise_protocolo/#analise-de-protocolo-2">Análise de Protocolo 2</a></p>
 <h3 id="versao-10_3">Versão 1.0</h3>
 <p><img alt="" src="../img/Rationale_Pesquisar_Pins1.png" /></p>
 <h3 id="versao-20_3">Versão 2.0</h3>
@@ -514,6 +516,8 @@
 <h3 id="versao-30_1">Versão 3.0</h3>
 <p><img alt="" src="../img/Rationale_Pesquisar_Pins3.png" /></p>
 <h1 id="is4-seguir-usuario">IS4 - Seguir usuário</h1>
+<p>Modelagens Associadas: <a href="../nfr/#nfr6-suporte">NFR6</a>, <a href="../backlog/#us23">US23</a>, <a href="../backlog/#us24">US24</a>,  <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-8">ECU8</a>, <a href="../especificacoes_caso_uso/#ecu-14">ECU14</a>,  <a href="../diagramas_caso_uso/#dcu-10">DCU10</a>, <a href="../diagramas_caso_uso/#dcu-16">DCU16</a>, <a href="../cenarios/#c13">C13</a>,
+<a href="../cenarios/#c19">C19</a>, <a href="../lexicos/#l8">L8</a>, <a href="../lexicos/#l14">L14</a> <br> Elicitação Associada: <a href="introspeccao#introspeccao-2">Introspecção 2</a></p>
 <h3 id="versao-10_4">Versão 1.0</h3>
 <p><img alt="" src="../img/rationale_seguir_usuario1.png" /></p>
 <h3 id="versao-20_4">Versão 2.0</h3>
@@ -521,13 +525,16 @@
 <h3 id="versao-30_2">Versão 3.0</h3>
 <p><img alt="" src="../img/rationale_seguir_usuario3.png" /></p>
 <h1 id="is5-editar-configuracoes-de-conta">IS5 - Editar configurações de conta</h1>
+<p>Modelagens Associadas: <a href="../nfr/#nfr3-usabilidade">NFR3</a>, <a href="../backlog/#us37">US37</a>, <a href="../backlog/#us38">US38</a>, <a href="../backlog/#ep02">EP02</a>, <a href="../especificacoes_caso_uso/#ecu-18">ECU18</a>, <a href="../especificacoes_caso_uso/#ecu-14">ECU14</a>,  <a href="../diagramas_caso_uso/#dcu-26">DCU26</a>,  <a href="../cenarios/#c24">C24</a>, <a href="../lexicos/#l14">L14</a>, <a href="../lexicos/#l17">L17</a>  <br> Elicitação Associada: <a href="../analise_discurso/#analise-de-discurso">Análise de Discurso</a></p>
 <h3 id="versao-10_5">Versão 1.0</h3>
 <p><img alt="" src="../img/rationale_editar_configuracoes1.png" /></p>
 <h3 id="versao-20_5">Versão 2.0</h3>
 <p><img alt="" src="../img/rationale_editar_configuracoes2.png" /></p>
 <h1 id="is6-cadastro-no-pinterest">IS6 - Cadastro no Pinterest</h1>
+<p>Modelagens Associadas: <a href="../nfr/#nfr2-conectividade">NFR2</a>, <a href="../backlog/#us10">US10</a>, <a href="../backlog/#us11">US11</a>, <a href="../backlog/#us12">US12</a>, <a href="../backlog/#ep02">EP02</a>, <a href="../especificacoes_caso_uso/#ecu-1">ECU1</a>, <a href="../diagramas_caso_uso/#dcu-2">DCU2</a>,  <a href="../cenarios/#c1">C1</a>, <a href="../lexicos/#l14">L14</a>, <a href="../lexicos/#l16">L16</a>, <a href="../lexicos/#l17">L17</a>  <br> Elicitação Associada: <a href="../analise_discurso/#analise-de-discurso">Análise de Discurso</a></p>
 <p><img alt="" src="../img/rationale_cadastro.png" /></p>
 <h1 id="enviar-pin">Enviar Pin</h1>
+<p>Modelagens Associadas: <a href="../nfr/#nfr1-confiabilidade">NFR1</a>, <a href="../backlog/#us17">US17</a>, <a href="../backlog/#us28">US28</a>,  <a href="../backlog/#ep03">EP03</a>, <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-10">ECU10</a>, <a href="../especificacoes_caso_uso/#ecu-13">ECU13</a>, <a href="../diagramas_caso_uso/#dcu-1">DCU1</a>, <a href="../diagramas_caso_uso/#dcu-9">DCU9</a>, <a href="../cenarios/#c7">C7</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="introspeccao#introspeccao-2">Introspecção 2</a></p>
 <h3 id="versao-10_6">Versão 1.0</h3>
 <p><img alt="" src="../img/istar-enviar-pin1.png" /></p>
 <h3 id="versao-20_6">Versão 2.0</h3>
@@ -537,12 +544,17 @@
 <p><img alt="" src="../img/istar-postar-pin-outro-usuario.png" /></p>
 <h2 id="pinterest">Pinterest</h2>
 <h1 id="is9-enviar-pin">IS9 - Enviar Pin</h1>
+<p>Modelagens Associadas: <a href="../nfr/#nfr1-confiabilidade">NFR1</a>, <a href="../backlog/#us17">US17</a>, <a href="../backlog/#us28">US28</a>,  <a href="../backlog/#ep03">EP03</a>, <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-10">ECU10</a>, <a href="../especificacoes_caso_uso/#ecu-13">ECU13</a>, <a href="../diagramas_caso_uso/#dcu-1">DCU1</a>, <a href="../diagramas_caso_uso/#dcu-9">DCU9</a>, <a href="../cenarios/#c7">C7</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="introspeccao#introspeccao-2">Introspecção 2</a></p>
 <p><img alt="" src="../img/istart-pinterest-enviar-pin.png" /></p>
 <h1 id="is10-geral">IS10 - Geral</h1>
+<p>Modelagens Associadas: <a href="../nfr/#nfr4-usabilidade-design">NFR4</a>, <a href="../nfr/#nfr4-seguranca">NFR7</a> <a href="../backlog/#us17">US17</a>, <a href="../backlog/#us28">US28</a>,  <a href="../backlog/#ep03">EP03</a>, <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-10">ECU10</a>, <a href="../especificacoes_caso_uso/#ecu-13">ECU13</a>, <a href="../diagramas_caso_uso/#dcu-1">DCU1</a>, <a href="../diagramas_caso_uso/#dcu-9">DCU9</a>,  <a href="../cenarios/#c1">C1</a>, <a href="../cenarios/#c7">C7</a>, <a href="../cenarios/#c10">C10</a>,
+<a href="../cenarios/#c19">C19</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l3">L3</a>,  <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="introspeccao#introspeccao-2">Introspecção 2</a>, <a href="../questionario/#questionario">Questionário</a>, <a href="../storytelling/#introducao">Storytelling</a></p>
 <p><img alt="" src="../img/rationale_pinterest.png" /></p>
 <h1 id="is11-retornar-pins">IS11 - Retornar Pins</h1>
+<p>Modelagens Associadas: <a href="../nfr/#nfr2-conectividade">NFR2</a>, <a href="../backlog/#us34">US34</a>, <a href="../backlog/#us35">US35</a>, <a href="../backlog/#ep09">EP09</a>, <a href="../especificacoes_caso_uso/#ecu-23">ECU23</a>, <a href="../especificacoes_caso_uso/#ecu-24">ECU24</a>, <a href="../diagramas_caso_uso/#dcu-14">DCU14</a>, <a href="../diagramas_caso_uso/#dcu-15">DCU15</a>, <a href="../cenarios/#c12">C12</a>, <a href="../lexicos/#l31">L31</a> <br> Elicitação Associada: <a href="../analise_protocolo/#analise-de-protocolo-2">Análise de Protocolo 2</a></p>
 <p><img alt="" src="../img/Rationale_Retornar_Pins.png" /></p>
 <h1 id="is12-sugerir-conteudo">IS12 - Sugerir Conteúdo</h1>
+<p>Modelagens Associadas: <a href="../nfr/#nfr2-conectividade">NFR2</a>, <a href="../nfr/#nfr3-desempenho">NFR3</a>, <a href="../backlog/#us13">US13</a>, <a href="../backlog/#us15">US15</a>, <a href="../backlog/#us19">US19</a>, <a href="../backlog/#ep04">EP04</a>, <a href="../especificacoes_caso_uso/#ecu-2">ECU2</a>, <a href="../especificacoes_caso_uso/#ecu-2">ECU19</a>,  <a href="../diagramas_caso_uso/#dcu-3">DCU3</a>, <a href="../diagramas_caso_uso/#dcu-18">DCU18</a>, <a href="../cenarios/#c12">C15</a>, <a href="../lexicos/#l7">L7</a>, <a href="../lexicos/#l9">L9</a>, <a href="../lexicos/#l10">L10</a>, <a href="../lexicos/#l15">L15</a> <br> Elicitação Associada: <a href="../entrevista/#entrevista">Entrevista</a></p>
 <p><img alt="" src="../img/istar_sugerir_conteudo.png" /></p>
               
             </div>
@@ -568,12 +580,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -587,7 +599,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
