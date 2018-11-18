@@ -90,7 +90,7 @@ Na versão 3.0 foi adicionado um olhar para a qualidade de conteúdo, além de m
 
 ![](img/NFR_Seguranca3.png)
 
-# NFR8 - Suportabilidade
+# NFR8 - Portabilidade
 
 ### Versão 1.0
 ![](img/NFR_Suportabilidade1.jpg)
@@ -100,4 +100,4 @@ Na versão 3.0 foi adicionado um olhar para a qualidade de conteúdo, além de m
 
 ### Versão 3.0
 
-![](img/suporteNRF_v2.png)
+![](img/portabilidadeNFR_v2.png)
