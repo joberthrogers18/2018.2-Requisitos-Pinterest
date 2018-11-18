@@ -36,7 +36,7 @@ Após a entrega geral da equipe, coube ao grupo a discussão a respeito do desen
 
 ![RichRastro3](img/Rastreabilidade/richpt3.png)
 
-Desse modo, foram feitos x [Rich Pictures](rich_picture.md#rich-picture) com os temas [...] e x [Argumentações](argumentacao.md#argumentacao).
+Desse modo, foram feitos 9 [Rich Pictures](rich_picture.md#rich-picture) com os temas [...] e 6 [Argumentações](argumentacao.md#argumentacao).
 
 ## Elicitação de Requisitos
 
@@ -58,8 +58,6 @@ A análise não foi gravada em respeito ao universitário que não se sentiu con
 
 A partir desta [Análise de Protocolo](analise_protocolo.md#analise-de-protocolo-1) foram elicitados 14 requisitos.
 
-HERE: procurar rastros da análise de protocolo do mike
-
 ## Análise de Discurso
 
 Em virtude de um consenso do grupo, concluiu-se a importância de realizar um brainstorming de toda a equipe e gravá-lo afim de obter maior detalhamento da conversa. Para guiar a conversa, o membro Guilherme Guy se dispôs a ser um moderador. Para ouvir o áudio completo, basta [clicar aqui](https://drive.google.com/file/d/1VcwwykePY8xA2j7U9DbHl8KZQ-SyajmN/view). A partir dessa conversa, o grupo realizou técnica de [Análise de Discurso](analise_discurso.md#analise-de-discurso) e gerou 14 requisitos elicitados.
@@ -80,7 +78,13 @@ A integrante Gabriela optou por fazer uma Introspecção a respeito de uma jovem
 
 Após ser avaliada pelos professores de Requisitos de Software, o trabalho tornou-se mais específico, identificando quem é o autor em questão, quais são os seus objetivos e as suas necessidades. A [Introspecção](introspeccao.md#introspeccao-1) elicitou 10 requisitos.
 
-HERE: procurar rastros da introspecção da letícia e o mike
+## Storytelling
+
+A técnica aqui apresentada foi desenvolvida pelos integrantes Alexandre, Geovanna, Guilherme, Joberth e Letícia.
+
+A técnica foi aplicada duas vezes: uma pela integrante Letícia, e o áudio completo pode ser encontrado [aqui](https://drive.google.com/file/d/1e8fT9ZdSobEw3JXYYQ4BiqRrP96_Q2EV/view?usp=sharing). 
+
+Na segunda vez, a técnica foi aplicada pelo integrante Guilherme, e o áudio completo pode ser encontrado [aqui](https://drive.google.com/file/d/1HUBqnCne5n_EPXjyfOXTLEs_kyH_1PAv/view?usp=sharing).
 
 ## Questionário
 
@@ -254,7 +258,7 @@ Conforme combinado, a apresentação foi organizada no Prezi e validada pela equ
 
 ![I12](img/Rastreabilidade/Istar12.PNG)
 
-Foram feitos X [_Strategic Dependency Models_](iStar.md#strategic-dependency-models) e X [_Strategic Rationale Models_](iStar.md#strategic-rationale-models).
+Foram feitos 2 [_Strategic Dependency Models_](iStar.md#strategic-dependency-models) e 9 [_Strategic Rationale Models_](iStar.md#strategic-rationale-models).
 
 ## Análise
 
@@ -292,7 +296,7 @@ As duplas de pareamento utilizaram diferentes padrões de apresentação, como p
 
 ![A12](img/Rastreabilidade/analise12.png)
 
-Apesar de não ser pradronizada, a [Análise](analise,md#introducao) trouxe resultados importantes para a equipe que seriam utilizados posteriormente na pós-rastreabilidade.
+Apesar de não ser pradronizada, a [Análise](analise.md#introducao) trouxe resultados importantes para a equipe que seriam utilizados posteriormente na pós-rastreabilidade.
 
 ## Pós-Rastreabilidade
 
@@ -334,4 +338,4 @@ Como de praxe, a validação se manteve entre o grupo
 
 ![Pos12](img/Rastreabilidade/pos12.PNG)
 
-Ao final da [Pós-Rastreabilidade](backward_from.md#introducao) houveram 52 requisitos funcionais e 18 requisitos não funcionais. 
+Ao final da [Pós-Rastreabilidade](backward_from.md#introducao) houveram 52 requisitos funcionais e 18 requisitos não funcionais.
