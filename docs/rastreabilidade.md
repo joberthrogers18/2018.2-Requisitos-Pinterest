@@ -116,9 +116,7 @@ O primeiro encontro com os professores para conversar sobre a entrega foi anotad
 
 ![FeedbackPT1](img/Rastreabilidade/CLfeecback1.1.png)
 
-O áudio completo do feedback pode ser encontrado [clicando aqui](https://drive.google.com/file/d/1Kqh16TF_1ufzFJCfwLwQl_SjcY9fjM5C/view?usp=sharing).
-
-A equipe permaneceu enriquecendo o trabalhado e investindo em melhorias nos tópicos que já haviam sido feitos.
+O áudio completo do feedback pode ser encontrado [clicando aqui](https://drive.google.com/file/d/1Kqh16TF_1ufzFJCfwLwQl_SjcY9fjM5C/view?usp=sharing). A equipe permaneceu enriquecendo o trabalhado e investindo em melhorias nos tópicos que já haviam sido feitos.
 
 ![Correcoes1](img/Rastreabilidade/cenarioslexicos1.png)
 
@@ -154,10 +152,44 @@ A cardinalidade foi uma dúvida recorrente, mas que pode ser sanada dentro da pr
 
 ![PT8](img/Rastreabilidade/UC7.png)
 
-Sendo assim, foram desenvolvidos 26 [Diagramas de Casos de Uso](diagramas_caso_uso.md#DCU1) e 26 [Especificações de Casos de Uso](especificacoes_caso.uso.md#ECU-1)
+Sendo assim, foram desenvolvidos 26 [Diagramas de Casos de Uso](diagramas_caso_uso.md#DCU1) e 26 [Especificações de Casos de Uso](especificacoes_caso.uso.md#introducao).
 
 ## Especificação Suplementar
 
 O documento de [Especificação Suplementar](especificacao_suplementar.md#especificacao-suplementar) teve como referencial teórico um documento da instituição FUPAR. Dessa forma, tornou-se possível integrar ao Pinterest os conceitos apresentados em sala e o referencial. O documento foi desenvolvido de maneira colaborativa pela equipe através de uma pasta no Drive.
 
 ![Pt1](img/Rastreabilidade/ESU.png)
+
+## Backlog do Produto
+
+A entrega referente ao backlog foi iniciada pelos alunos Alexandre e Helena. Através de uma conversa pelo WhatsApp, foi definida a estrutura do backlog: as histórias, como seriam tratados os atores de cada uma e o padrão de linguagem.
+
+![backlog1](img/Rastreabilidade/backlog1.PNG)
+
+![backlog2](img/Rastreabilidade/backlog2.PNG)
+
+![backlog3](img/Rastreabilidade/backlog3.PNG)
+
+O método de pontuação das sprints foi Fibonacci de acordo com a experiência prévia em Métodos de Desenvolvimento de Software.
+
+![backlog4](img/Rastreabilidade/backlog4.PNG)
+
+![backlog5](img/Rastreabilidade/backlog5.PNG)
+
+Após estruturada a primeira parte do trabalho, os demais membros da equipe desenvolveram mais hitórias de usuário que foram divididas organizadas nos épicos e nas _sprints_.
+
+![backlog7](img/Rastreabilidade/backlog7.PNG)
+
+![backlog8](img/Rastreabilidade/backlog8.PNG)
+
+![backlog9](img/Rastreabilidade/backlog9.PNG)
+
+![backlog10](img/Rastreabilidade/backlog10.PNG)
+
+![backlog11](img/Rastreabilidade/backlog11.PNG)
+
+![backlog12](img/Rastreabilidade/backlog12.PNG)
+
+![backlog13](img/Rastreabilidade/backlog13.PNG)
+
+A entrega do [Backlog do Produto](backlog.md#backlog-do-produto) contou com 10 Épicos, 10 _Sprints_ e 39 Histórias de Usuário.
