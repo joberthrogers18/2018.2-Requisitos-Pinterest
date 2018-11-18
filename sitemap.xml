@@ -1,133 +1,186 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    
     <url>
-     <loc>None</loc>
+     <loc>/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    
+
+    
+        
     <url>
-     <loc>None</loc>
+     <loc>/rastreabilidade/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
+     <loc>/argumentacao/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/rich_picture/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
+     <loc>/analise_discurso/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/analise_protocolo/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/entrevista/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/introspeccao/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/questionario/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/storytelling/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/conclusao_elicitacao/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
+     <loc>/cenarios/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/lexicos/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/diagramas_caso_uso/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/especificacoes_caso_uso/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/especificacao_suplementar/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/especificacao_suplementar_2/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/backlog/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/nfr/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/iStar/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
+     <loc>/analise_NFR/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/pre_rastreabilidade_analise/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/Istar_analise_inspecao/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/inspecao_caso_uso/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
+    
+        
     <url>
-     <loc>None</loc>
+     <loc>/backward_from/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
     <url>
-     <loc>None</loc>
+     <loc>/forward_from/</loc>
      <lastmod>2018-11-18</lastmod>
      <changefreq>daily</changefreq>
     </url>
+        
+    
+
 </urlset>
