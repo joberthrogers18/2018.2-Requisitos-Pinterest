@@ -21,7 +21,9 @@
 |  3.6 | 02/11/2018 | Adição do [IS10](#is10-geral) tendo uma análise mais ampla do pinterest como ator | Geovana Ramos e Joberth Rogers |
 |  3.7 | 15/11/2018 | Adição do [IS11](#is11-retornar-pins) analisando o retorno de pesquisas na aplicação tendo o pinterest como ator | Alexandre Miguel |
 |  3.8 | 15/11/2018 | Adição da terceira versão do  [IS3](#is3-pesquisar-pins) | Alexandre Miguel |
-|  3.9 | 18/11/2018 | Adição das relações de rastrabilidade com outras modelagens | Alexandre Miguel |
+
+|  3.9 | 18/11/2018 | Adição do  [IS12](#is12-sugerir-conteudo) | Geovana Ramos |
+|  4.0 | 18/11/2018 | Adição das relações de rastrabilidade com outras modelagens | Alexandre Miguel |
 
 
 # Strategic Dependency Models
@@ -149,6 +151,12 @@ Modelagens Associadas: [NFR4](nfr.md#nfr4-usabilidade-design), [NFR7](nfr.md#nfr
 
 # IS11 - Retornar Pins
 
-Análise:  [SR4](Istar_analise_inspecao.md#inspecao) <br> Modelagens Associadas: [NFR2](nfr.md#nfr2-conectividade), [US34](backlog.md#us34), [US35](backlog.md#us35), [EP09](backlog.md#ep09), [ECU23](especificacoes_caso_uso.md#ecu-23), [ECU24](especificacoes_caso_uso.md#ecu-24), [DCU14](diagramas_caso_uso.md#dcu-14), [DCU15](diagramas_caso_uso.md#dcu-15), [C12](cenarios.md#c12), [L31](lexicos.md#l31) <br> Elicitação Associada: [Análise de Protocolo 2](analise_protocolo.md#analise-de-protocolo-2)
+ Modelagens Associadas: [NFR2](nfr.md#nfr2-conectividade), [US34](backlog.md#us34), [US35](backlog.md#us35), [EP09](backlog.md#ep09), [ECU23](especificacoes_caso_uso.md#ecu-23), [ECU24](especificacoes_caso_uso.md#ecu-24), [DCU14](diagramas_caso_uso.md#dcu-14), [DCU15](diagramas_caso_uso.md#dcu-15), [C12](cenarios.md#c12), [L31](lexicos.md#l31) <br> Elicitação Associada: [Análise de Protocolo 2](analise_protocolo.md#analise-de-protocolo-2)
 
 ![](img/Rationale_Retornar_Pins.png)
+
+# IS12 - Sugerir Conteúdo
+
+ Modelagens Associadas: [NFR2](nfr.md#nfr2-conectividade), [NFR3](nfr.md#nfr3-desempenho), [US13](backlog.md#us13), [US15](backlog.md#us15), [US19](backlog.md#us19), [EP04](backlog.md#ep04), [ECU2](especificacoes_caso_uso.md#ecu-2), [ECU19](especificacoes_caso_uso.md#ecu-2),  [DCU3](diagramas_caso_uso.md#dcu-3), [DCU18](diagramas_caso_uso.md#dcu-18), [C15](cenarios.md#c12), [L7](lexicos.md#l7), [L9](lexicos.md#l9), [L10](lexicos.md#l10), [L15](lexicos.md#l15) <br> Elicitação Associada: [Entrevista](entrevista.md#entrevista)
+
+![](img/istar_sugerir_conteudo.png)
