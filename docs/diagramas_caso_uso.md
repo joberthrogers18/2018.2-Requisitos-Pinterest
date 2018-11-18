@@ -2,7 +2,7 @@
 
 ## DCU 1
 
-### **Enviar mensagem**
+### **Enviar mensagem mensagem para outro usuário**
 
 [especificação de caso de uso: ECU 10 ](especificacoes_caso_uso.md#ecu-10)
 
