@@ -353,6 +353,7 @@
 </table>
 <h2 id="ecu-2">ECU 2</h2>
 <h3 id="visualizar-pin">Visualizar <a href="../lexicos/#l1">Pin</a></h3>
+<h4 id="versao-10">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -392,6 +393,61 @@
 </tr>
 <tr>
 <td><em>FE1 - Usuário excluir pin na hora que outro visualiza</em><br>Sistema apresenta erro quando um usuário visualiza e ao mesmo momento o criador do pin apaga.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário visualiza pin.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas_caso_uso/#dcu-3">Diagrama: DCU 3</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="versao-20">Versão 2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ato do usuário visualizar pins de seu interesse.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado e não cadastrados.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Não há pre condição.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>O usuário acessa a plataforma do pinterest.<br> O usuário é redirecionado para o feed com os pins de seu interesse <br> O usuário seleciona o pin que lhe agradou <br> O usuário visualiza o pin.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Pesquisar por um pin</em><br> O usuário é redirecionado para o feed com os pins de seu interesse. <br> O usuário não acha um pin que lhe agrade <br> O usuário usa a função de busca do Pinterest <br> O pinterest mostra o pins de acordo com a busca do usuário <br> O usuário seleciona um pin de seu agrado <br> O usuário visuliza um pin.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Usuário excluir pin na hora que outro visualiza</em><br>Pinterest apresenta erro quando um usuário visualiza e ao mesmo momento o criador do pin apaga.</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -801,6 +857,7 @@
 </table>
 <h2 id="ecu-10">ECU 10</h2>
 <h3 id="enviar-mensagem-para-outros-usuarios">Enviar mensagem para outros <a href="../lexicos/#l14">usuários</a></h3>
+<h4 id="versao-10_1">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -827,10 +884,13 @@
 <td><strong>Fluxo Principal</strong></td>
 </tr>
 <tr>
-<td>O usuário loga no Pinterest.<br>Após logado é direcionado para o feed. <br>Acessa a página de mensagens.[FA1] <br>O usuário procura por um usuário destinatário.[FE1] <br> A mensagem é escrita. <br> O botão “Enviar” é clicado.[FE2]</td>
+<td>FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]</td>
 </tr>
 <tr>
-<td><strong>Fluxos Alternativos</strong></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos </strong></td>
 </tr>
 <tr>
 <td><em>FA1 - Visualizar mensagem</em><br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br></td>
@@ -839,7 +899,56 @@
 <td><strong>Fluxos de Exceção</strong></td>
 </tr>
 <tr>
-<td><em>FE1 - Usuário não encontrado</em><br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><br><em>FE2 - Mensagem não entregue</em><br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.</td>
+<td><em>FE1 - Usuário não encontrado</em><br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><em>FE2 - Mensagem não entregue</em><br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.<br></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário envia mensagem</td>
+</tr>
+</tbody>
+</table>
+<h4 id="versao-20_1">Versão 2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enviar mensagens ou pins para outros usuários.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário cadastrado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário possuir conta no Pinterest <br> O usuário deverá estar logado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>O usuário acessa a plataforma do pinterest.<br> Em seguida o feed com os pins de interesse do usuário são mostrados.<br> [FA1][FA2][FE1] O usuário acessa a aba de mensagens <br> O usuário usa a função de busca na aba mensagens <br> O usuário busca por outro usuário que ele deseja se comunicar <br> O pinterest mostra as opções de usuário cadastrados <br> O usuário seleciona o usuário que ele deseja se comunicar <br> O usuário escreve a mensagem <br> O usuário envia a mensagem <br> O pinterest retorna ao usuário com a confirmação do envio da mensagem.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Visualizar mensagem</em><br>O usuário acessa a aba com todas a mensagens. <br> O usuário seleciona a mensagem com usuário de que ele deseja se comunicar <br> O usuário visualiza as mensagens anteriores com <br> O usuário não envia nenhuma mensagem para o outro usuário. <br><br> <em>FA2 - </em>Enviar um pin por mensagem<br>O usuário acessa o pin que ele deseja enviar <br> O usuário usa a função de compartilhamento <br> O usuário busca pelo destinatário que ele deseja enviar o pin <br> O usuário seleciona o outro usuário <br> O usuário envia o pin pela mensagem <br> O pinterest mostra a mensagem como de envio com sucesso.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Usuário não encontrado</em><br>O usuário acessa a aba com todas as mensagens <br> O usuário usa a função de busca presente na aba mensagem <br> O pinterest exibe que o usuário não foi encontrado com o nome buscado.<br></td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -857,6 +966,7 @@
 </table>
 <h2 id="ecu-11">ECU 11</h2>
 <h3 id="ocultar-um-pin"><a href="../lexicos/#l13">Ocultar</a> um <a href="../lexicos/#l1">Pin</a></h3>
+<h4 id="versao-10_2">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -911,9 +1021,65 @@
 </tr>
 </tbody>
 </table>
+<h4 id="versao-20_2">Versão  2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ocultar um pin de uma aba do Pinterest para que o usuário não visualize mais determinado conteúdo.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>usuário deverá estar logado em sua conta do Pinterest .</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário acessa o pinterest <br> O usuário é redirecionado para a  página inicial para visualizar e navegar pelo feed com os pin de seu interesse <br> O Usuário seleciona um pin que não é de seu interesse <br> O usuário usa a funação de ocultar um pin <br> O Pinterest informa que os pins com esse tipo de conteúdo não aparecerão mais para este usuário.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Usuário continuar navegando</em> <br> O usuário navega pelo feed <br> O usuário gosta de um pin de seu interesse <br> O usuário seleciona o pin de interesse <br> O usuário comenta no pin selecionado .</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Pinterest não conseguir ocultar pin</em> <br> O usuário selciona a opção de ocultar pin <br> O pinterest mostra ao usuário que não foi possível executar a ação requisitada. <br><br> <em>FE2 - Sem conexão de dados</em> <br> O usuário acessar o Pinterest <br> O pinterest mostra ao usuário que não há conexão com o a internet.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário oculta o pin.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas_caso_uso/#dcu-22">Diagrama: DCU 22</a><br> <a href="../cenarios/#c20">Cenário: Ocultar um Pin</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="versao-10_3">Versão 1.0</h4>
 <h2 id="ecu-12">ECU 12</h2>
 <h3 id="salvar-um-pin"><a href="../lexicos/#l2">Salvar</a> um <a href="../lexicos/#l1">Pin</a></h3>
-<h4 id="versao-10">Versão 1.0</h4>
+<h4 id="versao-10_4">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -968,7 +1134,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="versao-20">Versão 2.0</h4>
+<h4 id="versao-20_3">Versão 2.0</h4>
 <table>
 <thead>
 <tr>
@@ -1025,7 +1191,7 @@
 </table>
 <h2 id="ecu-13">ECU 13</h2>
 <h3 id="enviar-um-pin">Enviar um <a href="../lexicos/#l1">Pin</a></h3>
-<h4 id="versao-10_1">Versão 1.0</h4>
+<h4 id="versao-10_5">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -1080,7 +1246,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="versao-20_1">Versão 2.0</h4>
+<h4 id="versao-20_4">Versão 2.0</h4>
 <table>
 <thead>
 <tr>
@@ -1137,7 +1303,7 @@
 </table>
 <h2 id="ecu-14">ECU 14</h2>
 <h3 id="realizar-primeiro-login">Realizar primeiro <a href="../lexicos/#l16">login</a></h3>
-<h4 id="versao-10_2">Versão 1.0</h4>
+<h4 id="versao-10_6">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -1186,7 +1352,7 @@
 </tr>
 </tbody>
 </table>
-<h4 id="versao-20_2">Versão 2.0</h4>
+<h4 id="versao-20_5">Versão 2.0</h4>
 <table>
 <thead>
 <tr>
@@ -1237,6 +1403,7 @@
 </table>
 <h2 id="ecu-15">ECU 15</h2>
 <h3 id="sair-do-aplicativo-pinterest">Sair do aplicativo <a href="../lexicos/#l9">Pinterest</a></h3>
+<h4 id="versao-10_7">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -1294,8 +1461,67 @@
 </tr>
 </tbody>
 </table>
+<h4 id="versao-20_6">Versão 2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>O usuário sair de sua conta no pinterest caso esteja logado.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário está logado no Pinterest.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>O usuário acessa o Pinterest <br> O usuário é redirecionado para o feed com todos os pins de interesse do usuário [FA1][FA2] <br> O usuário acessa a aba de Salvos <br> O usuário seleciona a função de configuração [FE1]<br> O usuário seleciona a opção sair.[FA2]<br> O usuário é redirecionado para a página de login.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - O usuário pode permanecer no feed.</em> <br> O usuário seleciona um pin de seu agrado<br>O usuário comenta no pin <br><br> <em>FA2 – O usuário escolhe outra opção na aba salvos</em> <br> O usuário acessa a aba salvos <br> O usuário acessa a pasta com os pins salvos no ultimo dia acessado.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Não completar a ação de sair do pinterest</em> <br> O usuário acessa as configurações <br> O usuário usa a função sair <br> O pinterest apresenta um erro que não foi possivel sair devido a falta de rede.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário deslogado.</td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c23">Cenário: Sair do aplicativo Pinterest</a></td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas_caso_uso/#dcu-25">Diagrama: DCU 25</a><br></td>
+</tr>
+</tbody>
+</table>
 <h2 id="ecu-16">ECU 16</h2>
 <h3 id="denunciar-um-pin"><a href="../lexicos/#l34">Denunciar</a> um <a href="../lexicos/#l1">Pin</a></h3>
+<h4 id="versao-10_8">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -1335,6 +1561,61 @@
 </tr>
 <tr>
 <td>-</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário deslogado.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas_caso_uso/#dcu-23">Diagrama: DCU 23</a><br><a href="../cenarios/#c21">Cenário: Denunciar um Pin</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="versao-20_7">Versão 2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Denunciar um pin presente em uma aba do Pinterest.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário deverá estar logado em sua conta do Pinterest<br>O usuário deverá encontrar um pin com conteúdo que julga como impróprio.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>O usuário acessa o Pinterest<br> O usuário acessa a página do feed com os pins de seu interesse <br> O usuário navega pelo feed[FA1] <br> O usuário encontra um pin com conteúdo impróprio <br> O Usuário seleciona um Pin <br> O usuário usua a opção de Denuncia do Pinterest[FE1]<br>O Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário<br>Comunidade do Pinterest avalia o conteúdo do pin denunciado e remove o conteúdo do feed.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Salvar um pin</em> <br> Usuário seleciona o pin desejado <br> O usuário salva um pin em uma de suas pastas.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Pinterest não julga pin como conteúdo impróprio</em> <br> Pinterest envia ao usuário que o pin não fere a moral dos usuário e que o mesmo irá permanecer no banco de dados.</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
@@ -1688,6 +1969,7 @@
 </table>
 <h2 id="ecu-23">ECU 23</h2>
 <h3 id="pesquisar-por-tema"><a href="../lexicos/#l31">Pesquisar</a> por tema</h3>
+<h4 id="versao-10_9">Versão 1.0</h4>
 <table>
 <thead>
 <tr>
@@ -1727,6 +2009,61 @@
 </tr>
 <tr>
 <td><strong>FE1</strong> - Palavras que coincidirem com outros temas.</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário encontrará uma página repleta de pins de acordo com a temática desejada.</td>
+</tr>
+<tr>
+<td><strong>Rastreabilidade</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas_caso_uso/#dcu-14">Diagrama: DCU 14</a><br><a href="../cenarios/#c11">Cenário: Pesquisar por tema</a></td>
+</tr>
+</tbody>
+</table>
+<h4 id="versao-20_8">Versão 2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Encontrar imagens referentes a um tema de preferência do usuário.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>Usuário ter em mente palavras-chaves relativas ao tema.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>Usuário acessa o Pinterest. [FA1][FE1] <br> O usuário usa a função de busca no Pinterest <br> O usuário usa palavras relacionadas ao que deseja pesquisar <br> O Pinterest mostra opções de pins referentes ao que foi pesquisado <br> O usuário seleciona o pin de seu interesse.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativo</strong></td>
+</tr>
+<tr>
+<td><em>FA1 - Sugerir palavras chaves relacionadas.</em> <br> O usuário usa a opção de busca <br> O usuário não usa o termo certo para tema pesquisado desejado <br> O pinterest sugeri termos para ajudar na busca final.</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><em>FE1 - Termos que coincidirem com outros temas.</em> <br> O usuário usa a opção de busca <br> O usuário usa termo para busca pins relacionados <br> O Pinterest filtra os pins de termos similares <br> O usuário não acha o que estava procurando</td>
 </tr>
 <tr>
 <td><strong>Pós Condições</strong></td>
