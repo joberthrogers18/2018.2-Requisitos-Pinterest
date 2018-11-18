@@ -21,7 +21,6 @@
 |  3.6 | 02/11/2018 | Adição do [IS10](#is10-geral) tendo uma análise mais ampla do pinterest como ator | Geovana Ramos e Joberth Rogers |
 |  3.7 | 15/11/2018 | Adição do [IS11](#is11-retornar-pins) analisando o retorno de pesquisas na aplicação tendo o pinterest como ator | Alexandre Miguel |
 |  3.8 | 15/11/2018 | Adição da terceira versão do  [IS3](#is3-pesquisar-pins) | Alexandre Miguel |
-
 |  3.9 | 18/11/2018 | Adição do  [IS12](#is12-sugerir-conteudo) | Geovana Ramos |
 |  4.0 | 18/11/2018 | Adição das relações de rastrabilidade com outras modelagens | Alexandre Miguel |
 
