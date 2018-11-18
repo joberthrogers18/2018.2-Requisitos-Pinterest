@@ -61,10 +61,15 @@
 # NFR4 - Usabilidade (Design)
 
 ### Versão 1.0
-![](img/NFR-Design1.png)
+![](img/NFR-Design2.png)
 
 ### Versão 2.0
-![](img/NFR-Design2.png)
+
+![](img/DesignNFR2.png)
+
+### Versão 3.0
+
+![](img/NFRDesign3.0.png)
 
 # NFR5 - Desempenho
 
