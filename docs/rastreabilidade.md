@@ -152,7 +152,7 @@ A cardinalidade foi uma dúvida recorrente, mas que pode ser sanada dentro da pr
 
 ![PT8](img/Rastreabilidade/UC7.png)
 
-Sendo assim, foram desenvolvidos 26 [Diagramas de Casos de Uso](diagramas_caso_uso.md#DCU1) e 26 [Especificações de Casos de Uso](especificacoes_caso.uso.md#introducao).
+Sendo assim, foram desenvolvidos 26 [Diagramas de Casos de Uso](diagramas_caso_uso.md#DCU1) e 26 [Especificações de Casos de Uso](especificacoes_caso_uso.md#ECU-1)
 
 ## Especificação Suplementar
 

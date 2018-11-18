@@ -27,6 +27,8 @@
 
 ### Visualizar [Pin](lexicos.md#l1)
 
+#### Versão 1.0
+
 | Descrição|
 | -- |
 | Ato do usuário visualizar pins de seu interesse.|
@@ -40,6 +42,26 @@
 | *FA1 - Visualizar link*<br>Usuário clica no pin.<br>Usuário visita página do pin clicado.<br><br>*FA2 - Comentar pin*<br>Usuário clica no pin escolhido.<br>Usuário comenta no pin.|
 | **Fluxos de Exceção**|
 | *FE1 - Usuário excluir pin na hora que outro visualiza*<br>Sistema apresenta erro quando um usuário visualiza e ao mesmo momento o criador do pin apaga.|
+| **Pós Condições**|
+| Usuário visualiza pin. |
+| **Rastreabilidade** |
+| [Diagrama: DCU 3](diagramas_caso_uso.md#dcu-3)|
+
+#### Versão 2.0
+
+| Descrição|
+| -- |
+| Ato do usuário visualizar pins de seu interesse.|
+| **Atores** |
+|Usuário cadastrado e não cadastrados.|
+| **Pré Condições** |
+| Não há pre condição. |
+| **Fluxo Principal** |
+| O usuário acessa a plataforma do pinterest.<br> O usuário é redirecionado para o feed com os pins de seu interesse <br> O usuário seleciona o pin que lhe agradou <br> O usuário visualiza o pin.|
+| **Fluxos Alternativos** |
+| *FA1 - Pesquisar por um pin*<br> O usuário é redirecionado para o feed com os pins de seu interesse. <br> O usuário não acha um pin que lhe agrade <br> O usuário usa a função de busca do Pinterest <br> O pinterest mostra o pins de acordo com a busca do usuário <br> O usuário seleciona um pin de seu agrado <br> O usuário visuliza um pin. |
+| **Fluxos de Exceção**|
+| *FE1 - Usuário excluir pin na hora que outro visualiza*<br>Pinterest apresenta erro quando um usuário visualiza e ao mesmo momento o criador do pin apaga.|
 | **Pós Condições**|
 | Usuário visualiza pin. |
 | **Rastreabilidade** |
@@ -198,6 +220,7 @@
 ## ECU 10
 ### Enviar mensagem para outros [usuários](lexicos.md#l14)
 
+#### Versão 1.0
 | Descrição|
 | -- |
 | Enviar mensagens ou pins para outros usuários.|
@@ -206,11 +229,29 @@
 | **Pré Condições** |
 | Usuário possuir conta no Pinterest <br> O usuário deverá estar logado. |
 | **Fluxo Principal** |
-| O usuário loga no Pinterest.<br>Após logado é direcionado para o feed. <br>Acessa a página de mensagens.[FA1] <br>O usuário procura por um usuário destinatário.[FE1] <br> A mensagem é escrita. <br> O botão “Enviar” é clicado.[FE2]|
-| **Fluxos Alternativos** |
+| FP1 - O usuário loga no Pinterest.<br> FP2 - Após logado é direcionado para o feed. <br> FP3– Acessa a página de mensagens.[FA1] <br> FP4 – O usuário procura por um usuário destinatário.[FE1] <br> FP5 – A mensagem é escrita. <br> FP6 – O botão “Enviar” é clicado.[FE2]
+|
+| **Fluxos Alternativos ** |
 | *FA1 - Visualizar mensagem*<br>O usuário acessa a página de mensagens. <br> Usuário visualiza as mensagens.<br>|
 | **Fluxos de Exceção**|
-| *FE1 - Usuário não encontrado*<br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br><br>*FE2 - Mensagem não entregue*<br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.|
+| *FE1 - Usuário não encontrado*<br>Sistema apresenta mensagem de que não há usuário com o nome pesquisado <br>*FE2 - Mensagem não entregue*<br> Sistema informa que não pode enviar mensagem devido a erro no servidor ou conexão.<br>
+| **Pós Condições**|
+|Usuário envia mensagem|
+
+#### Versão 2.0
+| Descrição|
+| -- |
+| Enviar mensagens ou pins para outros usuários.|
+| **Atores** |
+|Usuário cadastrado.|
+| **Pré Condições** |
+| Usuário possuir conta no Pinterest <br> O usuário deverá estar logado. |
+| **Fluxo Principal** |
+|O usuário acessa a plataforma do pinterest.<br> Em seguida o feed com os pins de interesse do usuário são mostrados.<br> [FA1][FA2][FE1] O usuário acessa a aba de mensagens <br> O usuário usa a função de busca na aba mensagens <br> O usuário busca por outro usuário que ele deseja se comunicar <br> O pinterest mostra as opções de usuário cadastrados <br> O usuário seleciona o usuário que ele deseja se comunicar <br> O usuário escreve a mensagem <br> O usuário envia a mensagem <br> O pinterest retorna ao usuário com a confirmação do envio da mensagem.
+| **Fluxos Alternativos** |
+| *FA1 - Visualizar mensagem*<br>O usuário acessa a aba com todas a mensagens. <br> O usuário seleciona a mensagem com usuário de que ele deseja se comunicar <br> O usuário visualiza as mensagens anteriores com <br> O usuário não envia nenhuma mensagem para o outro usuário. <br><br> *FA2 - *Enviar um pin por mensagem<br>O usuário acessa o pin que ele deseja enviar <br> O usuário usa a função de compartilhamento <br> O usuário busca pelo destinatário que ele deseja enviar o pin <br> O usuário seleciona o outro usuário <br> O usuário envia o pin pela mensagem <br> O pinterest mostra a mensagem como de envio com sucesso. |
+| **Fluxos de Exceção**|
+| *FE1 - Usuário não encontrado*<br>O usuário acessa a aba com todas as mensagens <br> O usuário usa a função de busca presente na aba mensagem <br> O pinterest exibe que o usuário não foi encontrado com o nome buscado.<br>|
 | **Pós Condições**|
 |Usuário envia mensagem|
 | **Rastreabilidade** |
@@ -218,6 +259,8 @@
 
 ## ECU 11
 ### [Ocultar](lexicos.md#l13) um [Pin](lexicos.md#l1)
+
+#### Versão 1.0
 
 | Descrição |
 | -- |
@@ -236,6 +279,28 @@
 | Usuário oculta o pin. |
 | **Rastreabilidade** |
 |[Diagrama: DCU 22](diagramas_caso_uso.md#dcu-22)<br> [Cenário: Ocultar um Pin](cenarios.md#c20) |
+
+#### Versão  2.0
+
+| Descrição |
+| -- |
+| Ocultar um pin de uma aba do Pinterest para que o usuário não visualize mais determinado conteúdo. |
+| **Atores** |
+| Usuário. |
+| **Pré Condições** |
+|  usuário deverá estar logado em sua conta do Pinterest . |
+| **Fluxo Principal** |
+| Usuário acessa o pinterest <br> O usuário é redirecionado para a  página inicial para visualizar e navegar pelo feed com os pin de seu interesse <br> O Usuário seleciona um pin que não é de seu interesse <br> O usuário usa a funação de ocultar um pin <br> O Pinterest informa que os pins com esse tipo de conteúdo não aparecerão mais para este usuário. |
+| **Fluxos Alternativos** |
+| *FA1 - Usuário continuar navegando* <br> O usuário navega pelo feed <br> O usuário gosta de um pin de seu interesse <br> O usuário seleciona o pin de interesse <br> O usuário comenta no pin selecionado . |
+| **Fluxos de Exceção**|
+| *FE1 - Pinterest não conseguir ocultar pin* <br> O usuário selciona a opção de ocultar pin <br> O pinterest mostra ao usuário que não foi possível executar a ação requisitada. <br><br> *FE2 - Sem conexão de dados* <br> O usuário acessar o Pinterest <br> O pinterest mostra ao usuário que não há conexão com o a internet. |
+| **Pós Condições**|
+| Usuário oculta o pin. |
+| **Rastreabilidade** |
+|[Diagrama: DCU 22](diagramas_caso_uso.md#dcu-22)<br> [Cenário: Ocultar um Pin](cenarios.md#c20) |
+
+#### Versão 1.0
 
 ## ECU 12
 ### [Salvar](lexicos.md#l2) um [Pin](lexicos.md#l1)
@@ -366,6 +431,8 @@
 ## ECU 15
 ### Sair do aplicativo [Pinterest](lexicos.md#l9)
 
+#### Versão 1.0
+
 | Descrição |
 | -- |
 | O usuário sair de sua conta no pinterest caso esteja logado. |
@@ -385,10 +452,33 @@
 | **Rastreabilidade** |
 |[Diagrama: DCU 25](diagramas_caso_uso.md#dcu-25)<br>|
 
+#### Versão 2.0
+
+| Descrição |
+| -- |
+| O usuário sair de sua conta no pinterest caso esteja logado. |
+| **Atores** |
+| Usuário. |
+| **Pré Condições** |
+|  O usuário está logado no Pinterest. |
+| **Fluxo Principal** |
+| O usuário acessa o Pinterest <br> O usuário é redirecionado para o feed com todos os pins de interesse do usuário [FA1][FA2] <br> O usuário acessa a aba de Salvos <br> O usuário seleciona a função de configuração [FE1]<br> O usuário seleciona a opção sair.[FA2]<br> O usuário é redirecionado para a página de login.|
+| **Fluxos Alternativos** |
+| *FA1 - O usuário pode permanecer no feed.* <br> O usuário seleciona um pin de seu agrado<br>O usuário comenta no pin <br><br> *FA2 – O usuário escolhe outra opção na aba salvos* <br> O usuário acessa a aba salvos <br> O usuário acessa a pasta com os pins salvos no ultimo dia acessado. |
+| **Fluxos de Exceção**|
+| *FE1 - Não completar a ação de sair do pinterest* <br> O usuário acessa as configurações <br> O usuário usa a função sair <br> O pinterest apresenta um erro que não foi possivel sair devido a falta de rede.|
+| **Pós Condições**|
+| O usuário deslogado. |
+| [Cenário: Sair do aplicativo Pinterest](cenarios.md#c23) |
+| **Rastreabilidade** |
+|[Diagrama: DCU 25](diagramas_caso_uso.md#dcu-25)<br>|
+
 
 ## ECU 16
 
 ### [Denunciar](lexicos.md#l34) um [Pin](lexicos.md#l1)
+
+#### Versão 1.0  
 
 | Descrição |
 | -- |
@@ -403,6 +493,26 @@
 | - |
 | **Fluxos de Exceção**|
 | - |
+| **Pós Condições**|
+| O usuário deslogado. |
+| **Rastreabilidade** |
+| [Diagrama: DCU 23](diagramas_caso_uso.md#dcu-23)<br>[Cenário: Denunciar um Pin](cenarios.md#c21) |
+
+#### Versão 2.0
+
+| Descrição |
+| -- |
+| Denunciar um pin presente em uma aba do Pinterest. |
+| **Atores** |
+| Usuário. |
+| **Pré Condições** |
+| O usuário deverá estar logado em sua conta do Pinterest<br>O usuário deverá encontrar um pin com conteúdo que julga como impróprio. |
+| **Fluxo Principal** |
+| O usuário acessa o Pinterest<br> O usuário acessa a página do feed com os pins de seu interesse <br> O usuário navega pelo feed[FA1] <br> O usuário encontra um pin com conteúdo impróprio <br> O Usuário seleciona um Pin <br> O usuário usua a opção de Denuncia do Pinterest[FE1]<br>O Pinterest informa que pins com esse tipo de conteúdo não aparecerão mais para o usuário<br>Comunidade do Pinterest avalia o conteúdo do pin denunciado e remove o conteúdo do feed. |
+| **Fluxos Alternativos** |
+| *FA1 - Salvar um pin* <br> Usuário seleciona o pin desejado <br> O usuário salva um pin em uma de suas pastas. |
+| **Fluxos de Exceção**|
+| *FE1 - Pinterest não julga pin como conteúdo impróprio* <br> Pinterest envia ao usuário que o pin não fere a moral dos usuário e que o mesmo irá permanecer no banco de dados. |
 | **Pós Condições**|
 | O usuário deslogado. |
 | **Rastreabilidade** |
@@ -536,6 +646,8 @@
 ## ECU 23
 ### [Pesquisar](lexicos.md#l31) por tema
 
+#### Versão 1.0
+
 | Descrição|
 | -- |
 | Encontrar imagens referentes a um tema de preferência do usuário. |
@@ -549,6 +661,26 @@
 | **FA1** - Sugerir palavras chaves relacionadas.|
 | **Fluxos de Exceção**|
 | **FE1** - Palavras que coincidirem com outros temas. |
+| **Pós Condições**|
+| O usuário encontrará uma página repleta de pins de acordo com a temática desejada.  |
+| **Rastreabilidade** |
+| [Diagrama: DCU 14](diagramas_caso_uso.md#dcu-14)<br>[Cenário: Pesquisar por tema](cenarios.md#c11) |
+
+#### Versão 2.0
+
+| Descrição|
+| -- |
+| Encontrar imagens referentes a um tema de preferência do usuário. |
+| **Atores** |
+| Usuário |
+| **Pré Condições** |
+| Usuário ter em mente palavras-chaves relativas ao tema. |
+| **Fluxo Principal** |
+| Usuário acessa o Pinterest. [FA1][FE1] <br> O usuário usa a função de busca no Pinterest <br> O usuário usa palavras relacionadas ao que deseja pesquisar <br> O Pinterest mostra opções de pins referentes ao que foi pesquisado <br> O usuário seleciona o pin de seu interesse.|
+|**Fluxos Alternativo**|
+| *FA1 - Sugerir palavras chaves relacionadas.* <br> O usuário usa a opção de busca <br> O usuário não usa o termo certo para tema pesquisado desejado <br> O pinterest sugeri termos para ajudar na busca final. |
+| **Fluxos de Exceção**|
+| *FE1 - Termos que coincidirem com outros temas.* <br> O usuário usa a opção de busca <br> O usuário usa termo para busca pins relacionados <br> O Pinterest filtra os pins de termos similares <br> O usuário não acha o que estava procurando |
 | **Pós Condições**|
 | O usuário encontrará uma página repleta de pins de acordo com a temática desejada.  |
 | **Rastreabilidade** |

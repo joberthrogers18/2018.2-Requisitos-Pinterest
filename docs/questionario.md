@@ -87,13 +87,13 @@ O questionário a seguir refere-se aos usuários do Pinterest:
 
 ### 1.3 Requisitos Elicitados
 
-| Código | Descrição |
-|--|--|
-| Q1 | A rede social deve abranger conteúdos que mantenham ativos os usuários que compõe o principal púlico, os jovens da faixa etária de 16 a 25 anos.|
-| Q2 | A rede social deve conter uma experiência de usuário melhor para que o site possa ser tão acessado pelo público quanto o aplicativo. |
-| Q3 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. |
-| Q4 | A rede social deve procurar diferenciais perante seus maiores concorrentes, weheartit.com e tumblr.com. |
-| Q5 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. |
+| Código | Descrição | Prioridade |
+|--|--|--|
+| Q1 | A rede social deve abranger conteúdos que mantenham ativos os usuários que compõe o principal púlico, os jovens da faixa etária de 16 a 25 anos.| Should |
+| Q2 | A rede social deve conter uma experiência de usuário melhor para que o site possa ser tão acessado pelo público quanto o aplicativo. | Could |
+| Q3 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. | Must |
+| Q4 | A rede social deve procurar diferenciais perante seus maiores concorrentes, weheartit.com e tumblr.com. | Should |
+| Q5 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. | Should |
 
 ### 1.4 Conclusão
 

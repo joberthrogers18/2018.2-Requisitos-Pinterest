@@ -43,20 +43,20 @@
 
 | Número | Requisito | Prioridade |
 |---|---|---|
-| AP1 | O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | Must |
-| AP2 | É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. | Must |
-| AP3| O Pinterest apresenta um feed baseado nos interesses do usuário. | Must |
-| AP4 | O Pinterest permite salvar um pin em alguma pasta. | Should |
-| AP5 | O Pinterest permite a criação de pastas e subpastas. | Should |
-| AP6 | A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo. | Could |
-| AP7 | A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. | Should |
-| AP8 | O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins. | Could |
-| AP9 | O usuário é capaz de escolher os interesses que mais o agradar. | Must |
-| AP10 | A plataforma filtra os melhores grupos de interesses para o usuário. | Should |
-| AP11 | O usuário é capaz de baixar toda imagem que o interessar. | Should |
-| AP12 | A plataforma disponibiliza uma forma de pesquisa por foto. | Could |
-| AP13 | A plataforma disponibiliza uma forma de pesquisa por texto. | Should |
-| AP14 | O usuário é capaz de ser redirecionado para o link da imagem desejada. | Should |
+| AP1.1 | O Pinterest apresenta micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | Must |
+| AP1.2 | É necessário a inserção de opções de interesse (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. | Must |
+| AP1.3| O Pinterest apresenta um feed baseado nos interesses do usuário. | Must |
+| AP1.4 | O Pinterest permite salvar um pin em alguma pasta. | Should |
+| AP1.5 | O Pinterest permite a criação de pastas e subpastas. | Should |
+| AP1.6 | A aplicação sugere nomes para as pastas criadas com base no conteúdo do pin a ser salvo. | Could |
+| AP1.7 | A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. | Should |
+| AP1.8 | O aplicativo apresenta um navegador interno para redirecionamento de links presentes em pins. | Could |
+| AP1.9 | O usuário é capaz de escolher os interesses que mais o agradar. | Must |
+| AP1.10 | A plataforma filtra os melhores grupos de interesses para o usuário. | Should |
+| AP1.11 | O usuário é capaz de baixar toda imagem que o interessar. | Should |
+| AP1.12 | A plataforma disponibiliza uma forma de pesquisa por foto. | Could |
+| AP1.13 | A plataforma disponibiliza uma forma de pesquisa por texto. | Should |
+| AP1.14 | O usuário é capaz de ser redirecionado para o link da imagem desejada. | Should |
 
 ## Análise de protocolo 2
 
@@ -69,21 +69,21 @@
 
 ### Contexto
 
-  Esta Análise de Protocolo consiste em analisar uma pessoa em sua primeira utilização do Pinterest, fazendo com que a pessoa explore ao máximo as funcionalidades do Aplicativo para que seja possível captar vários pontos de vista sobre a tarefa de utilizar o Pinterest, com o objetivo final de elicitar uma boa quantidade de Requisitos. A pessoa preferiu não ser gravada e a análise foi feita de acordo com cada atividade e seus comentários a respeito delas. A aplicação da técnica no Pinterest, consistiu na participação de uma pessoa que nunca havia utilizado a aplicação, Larissa Harumi realizando as atividades.
+Esta Análise de Protocolo consiste em analisar uma pessoa em sua primeira utilização do Pinterest, fazendo com que a pessoa explore ao máximo as funcionalidades do Aplicativo para que seja possível captar vários pontos de vista sobre a tarefa de utilizar o Pinterest, com o objetivo final de elicitar uma boa quantidade de Requisitos. A pessoa preferiu não ser gravada e a análise foi feita de acordo com cada atividade e seus comentários a respeito delas. A aplicação da técnica no Pinterest, consistiu na participação de uma pessoa que nunca havia utilizado a aplicação, Larissa Harumi realizando as atividades.
 
 ## Análise do usuário
 
-  | Atividade | Comentário |
-  |---|---|
-  | Login | A usuária preferiu se cadastrar com o Facebook devido a facilidade. |
-  | Escolha de interesses | A usuária percebeu que é obrigatório a escolha de no mínimo cinco interesses, achou que tem muita coisa do seu interesse e acabou escolhendo quinze interesses. Achou que as categorias são bem modularizadas e que estava escolhendo muitas categorias. |
-  | Notificações | Ao visualizar as notificações a usuária percebeu que há integração com o Facebook e que havia atividades dos seus amigos da rede social. A usuária gostou da facilidade de encontrar seus amigos da rede social no app. |
-  | Feed | A usuária percebeu que há um scroll infinito de fotos no feed. Também percebeu que alguns interesses estavam aparecendo com menor frequência. Não gostou muito da disposição das fotos no feed, achou desorganizado. |
-  | Seguir outros usuários e interesses | A usuária percebeu que é possível seguir outras pessoas e também outros interesses além dos já escolhidos. Com a integração, os usuários do Facebook aparecem nas notificações podendo também seguí-los. |
-  | Detalhes de uma imagem | Ao clicar na imagem, a usuária foi redirecionada para outra página de onde a imagem foi tirada, no caso foi redirecionada para o Instagram. Utilizou a função de enviar a imagem para outro usuário, percebendo que é possível enviá-lo por via chat do Pinterest ou por outras redes sociais integradas ao Pinterset como por exemplo WhatsApp e Facebook. Utilizou a função de salvar a imagem, e com isso percebeu que havia a necessidade de criação de uma pasta para colocar a imagem, o Pinterest sugeriu nomes para a pasta de acordo com a categoria da imagem. Usuária também utilizou a função de Baixar Imagem, que faz download da imagem para o celular. Apertando a função Copiar é possível copiar o link da imagem no Pinterest para enviar para outras pessoas. É possível também Denunciar Pin, em que denuncia ao Pinterest conteúdos não apropriados, modularizados em categorias de denúncias. A usuária achou que há muita funcionalidade dentro da imagem, o que causou confusão ao realizar atividades. |
-  | Pesquisa | Usuária ao utilizar a função de pesquisar constatou que é possível pesquisar por Pessoas e Pastas, e que também consegue excluir suas pesquisas recentes. O Pinterest também recomenda pesquisas que são tendências no app. Descobriu também que há pesquisa por meio de foto que procura por fotos similares, o que a usuária achou bem interessante. |
-  | Chat | Com a integração com o Facebook, a usuária teve facilidade em encontrar seus amigos e enviar imagens e textos pelo chat. É possível também bloquear outro usuário e ocultar conversa. |
-  | Configurações | Ao clicar em configurações, é possível Converter para uma conta Business em que há ferramentas a mais para profissionais, como análises e anúncios. Também consegue Editar seu Perfil, Editar Configurações e Sair do app. |
+| Atividade | Comentário |
+|---|---|
+| Login | A usuária preferiu se cadastrar com o Facebook devido a facilidade. |
+| Escolha de interesses | A usuária percebeu que é obrigatório a escolha de no mínimo cinco interesses, achou que tem muita coisa do seu interesse e acabou escolhendo quinze interesses. Achou que as categorias são bem modularizadas e que estava escolhendo muitas categorias. |
+| Notificações | Ao visualizar as notificações a usuária percebeu que há integração com o Facebook e que havia atividades dos seus amigos da rede social. A usuária gostou da facilidade de encontrar seus amigos da rede social no app. |
+| Feed | A usuária percebeu que há um scroll infinito de fotos no feed. Também percebeu que alguns interesses estavam aparecendo com menor frequência. Não gostou muito da disposição das fotos no feed, achou desorganizado. |
+| Seguir outros usuários e interesses | A usuária percebeu que é possível seguir outras pessoas e também outros interesses além dos já escolhidos. Com a integração, os usuários do Facebook aparecem nas notificações podendo também seguí-los. |
+| Detalhes de uma imagem | Ao clicar na imagem, a usuária foi redirecionada para outra página de onde a imagem foi tirada, no caso foi redirecionada para o Instagram. Utilizou a função de enviar a imagem para outro usuário, percebendo que é possível enviá-lo por via chat do Pinterest ou por outras redes sociais integradas ao Pinterset como por exemplo WhatsApp e Facebook. Utilizou a função de salvar a imagem, e com isso percebeu que havia a necessidade de criação de uma pasta para colocar a imagem, o Pinterest sugeriu nomes para a pasta de acordo com a categoria da imagem. Usuária também utilizou a função de Baixar Imagem, que faz download da imagem para o celular. Apertando a função Copiar é possível copiar o link da imagem no Pinterest para enviar para outras pessoas. É possível também Denunciar Pin, em que denuncia ao Pinterest conteúdos não apropriados, modularizados em categorias de denúncias. A usuária achou que há muita funcionalidade dentro da imagem, o que causou confusão ao realizar atividades. |
+| Pesquisa | Usuária ao utilizar a função de pesquisar constatou que é possível pesquisar por Pessoas e Pastas, e que também consegue excluir suas pesquisas recentes. O Pinterest também recomenda pesquisas que são tendências no app. Descobriu também que há pesquisa por meio de foto que procura por fotos similares, o que a usuária achou bem interessante. |
+| Chat | Com a integração com o Facebook, a usuária teve facilidade em encontrar seus amigos e enviar imagens e textos pelo chat. É possível também bloquear outro usuário e ocultar conversa. |
+| Configurações | Ao clicar em configurações, é possível Converter para uma conta Business em que há ferramentas a mais para profissionais, como análises e anúncios. Também consegue Editar seu Perfil, Editar Configurações e Sair do app. |
 
 ### Requisitos Elicitados
 

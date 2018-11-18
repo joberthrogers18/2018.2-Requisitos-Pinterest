@@ -19,7 +19,9 @@
 |  2.4 | 14/11/2018 | Adição da segunda versão do [RP3](#rp3-tipos-de-pins) | Alexandre Miguel |
 |  2.5 | 15/11/2018 | Adição da segunda versão do [RP8](#rp8-pinterest-e-entrega-de-conteudo-ao-usuario) | Guilherme Guy |
 |  3.0 | 15/11/2018 | Adição da terceira versão do [RP3](#rp3-tipos-de-pins) | Alexandre Miguel |
-
+|  3.1 | 17/11/2018 | Adição da primeira versão do [RP9](#rp9-receber-notificacao) | Letícia Meneses |
+|  3.2 | 17/11/2018 | Adição da segunda versão do [RP9](#rp9-receber-notificacao) | Letícia Meneses |
+|  3.3 | 17/11/2018 | Pequenas correções na notação de  [RP8](#rp8-pinterest-e-entrega-de-conteudo-ao-usuario) | Guilherme Guy |
 
 ##  Introdução
 
@@ -101,3 +103,15 @@ Rich Picture que apresenta a interação do Pinterest e do usuário no ambito de
 
 ### Versão 2.0
 ![](img/rich_picture_conteudo_v2.png)
+
+## RP9 - Receber Notificações
+
+Rich Picture apresenta os fluxos de um usuário receber notificações do Pinterest e as opções referentes a notificação.
+
+### Versão 1.0
+
+![RPNot1](img/rp_receber_notificacao_v1.png)
+
+### Versão 2.0
+
+![RPNot2](img/rp_receber_notificacao_v2.png)

@@ -17,9 +17,10 @@
 |  3.2 | 29/10/2018 | Adição da segunda versão dos  [IS7](#is7-usuario) e [IS8](#is8-outro-usuario), já separados e com softgoals | Daniel Maike |
 |  3.3 | 29/10/2018 | Adição do [IS9](#is9-enviar-pin) tendo o contexto de enviar pin com o pinterest como ator | Daniel Maike |
 |  3.4 | 29/10/2018 | Adição da segunda versão do [IS3](#is3-pesquisar-pins) | Alexandre Miguel |
-|  3.5 | 02/11/2018 | Adição do [IS10](#is10-geral) tendo uma análise mais ampla do pinterest como ator | Geovana Ramos e Joberth Rogers |
-|  3.6 | 15/11/2018 | Adição do [IS11](#is11-retornar-pins) analisando o retorno de pesquisas na aplicação tendo o pinterest como ator | Alexandre Miguel |
-|  3.7 | 15/11/2018 | Adição da terceira versão do  [IS3](#is3-pesquisar-pins) | Alexandre Miguel |
+|  3.5 | 29/10/2018 | Adição da primeira versão do [IS6](#is6-cadastro-no-pinterest) | Helena Goulart |
+|  3.6 | 02/11/2018 | Adição do [IS10](#is10-geral) tendo uma análise mais ampla do pinterest como ator | Geovana Ramos e Joberth Rogers |
+|  3.7 | 15/11/2018 | Adição do [IS11](#is11-retornar-pins) analisando o retorno de pesquisas na aplicação tendo o pinterest como ator | Alexandre Miguel |
+|  3.8 | 15/11/2018 | Adição da terceira versão do  [IS3](#is3-pesquisar-pins) | Alexandre Miguel |
 
 
 # Strategic Dependency Models
@@ -48,7 +49,7 @@
 
 # Strategic Rationale Models
 
-## IS1 - Definir interesses
+# IS1 - Definir interesses
 
 ### Versão 1.0
 ![](img/rationale_definir_interesses1.png)
@@ -56,7 +57,7 @@
 ### Versão 2.0
 ![](img/rationale_definir_interesses2.png)
 
-## IS2 - Classificar pastas
+# IS2 - Classificar pastas
 
 ### Versão 1.0
 ![](img/Rationale-Classificar_Pastas1.png)
@@ -64,7 +65,7 @@
 ### Versão 2.0
 ![](img/Rationale-Classificar_Pastas2.png)
 
-## IS3 - Pesquisar Pins
+# IS3 - Pesquisar Pins
 
 ### Versão 1.0
 ![](img/Rationale_Pesquisar_Pins1.png)
@@ -75,7 +76,7 @@
 ### Versão 3.0
 ![](img/Rationale_Pesquisar_Pins3.png)
 
-## IS4 - Seguir usuário
+# IS4 - Seguir usuário
 
 ### Versão 1.0
 ![](img/rationale_seguir_usuario1.png)
@@ -86,7 +87,7 @@
 ### Versão 3.0
 ![](img/rationale_seguir_usuario3.png)
 
-## IS5 - Editar configurações de conta
+# IS5 - Editar configurações de conta
 
 ### Versão 1.0
 ![](img/rationale_editar_configuracoes1.png)
@@ -94,34 +95,34 @@
 ### Versão 2.0
 ![](img/rationale_editar_configuracoes2.png)
 
-## IS6 - Cadastro no Pinterest
+# IS6 - Cadastro no Pinterest
 ![](img/rationale_cadastro.png)
 
-## Enviar Pin
+# Enviar Pin
 
 ### Versão 1.0
 ![](img/istar-enviar-pin1.png)
 
 ### Versão 2.0
 
-## IS7 - Usuário
+# IS7 - Usuário
 
 ![](img/istar-enviar-pin.png)
 
-## IS8 - Outro Usuário
+# IS8 - Outro Usuário
 
 ![](img/istar-postar-pin-outro-usuario.png)
 
 ## Pinterest
 
-## IS9 - Enviar Pin
+# IS9 - Enviar Pin
 
 ![](img/istart-pinterest-enviar-pin.png)
 
-## IS10 - Geral
+# IS10 - Geral
 
 ![](img/rationale_pinterest.png)
 
-## IS11 - Retornar Pins
+# IS11 - Retornar Pins
 
 ![](img/Rationale_Retornar_Pins.png)
