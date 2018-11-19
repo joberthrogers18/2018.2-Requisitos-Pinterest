@@ -1,6 +1,6 @@
 # Introdução
 
-Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas por meio de *print screens* do aplicativo, aos seus respectivos requisitos. É importante ressaltar que as colunas de US, Épico, NFR e Operacionalizações não fazem parte do modelo foward, mas se apresentam como facilitadores ao ligar requisitos com suas funcionalidades implementadas.
+Este artefato busca ligar cada funcionalidade do Pinterest, aqui demonstradas por meio de *print screens* do aplicativo, aos seus respectivos requisitos. É importante ressaltar que as colunas de US, Épico, NFR e Operacionalizações não fazem parte do modelo foward, mas se apresentam como facilitadores ao ligar requisitos às funcionalidades implementadas.
 
 # Forward-From
 

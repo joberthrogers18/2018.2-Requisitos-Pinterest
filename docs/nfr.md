@@ -28,7 +28,7 @@
 
 # Introdução
 
-O NFR é um framework orientado a processos que procura evidenciar os requisitos não funcionais de um sistemas, por meio de metas a serem atingidas.
+O NFR é um framework orientado a processos que procura evidenciar os requisitos não funcionais de um sistema, por meio de metas a serem atingidas.
 
 # NFR1 - Confiabilidade
 
