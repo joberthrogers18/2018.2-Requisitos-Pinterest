@@ -83,7 +83,9 @@ Por fim, o questionário não foi muito eficiente para o levantamento de requisi
 
 ## Versão 2.0
 
-### Requisitos Funcionais
+### Técnica de priorização *MoSCoW*
+
+#### Requisitos Funcionais
 | Prioridade  | Código | Requisito |
 | -- | -- | -- |
 | Must | AD2 | O Usuário deve poder bloquear Pins que não são de seu interesse.|
@@ -163,7 +165,7 @@ Por fim, o questionário não foi muito eficiente para o levantamento de requisi
 | Could | ST1.2 | O usuário deve poder reagir aos pins que aparecem indicando se eles os agrada. |
 | Would | ENT8 | A Extensão para navegador deve informar ao usuário sobre a possibilidade de salvar a imagem no Pinterest. |
 
-## Requisitos Não Funcionais
+#### Requisitos Não Funcionais
 
 | Prioridade  | Código | Requisito |
 |--|--|--|
@@ -181,3 +183,82 @@ Por fim, o questionário não foi muito eficiente para o levantamento de requisi
 | Could  | Q2 | A rede social deve conter uma experiência de usuário melhor para que o site possa ser tão acessado pelo público quanto o aplicativo.|
 | Could | ST2.1 | O app deve oferecer mais conteúdo relacionado às atividades recentes. |
 | Would | INT1.10 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app |
+
+### Técnica de priorização *First Thing First (FTF) *
+
+#### Requisitos Funcionais
+
+
+|  **Peso relativo ->** | **-** | **3** | 2.5 | **-** | **-** | **2** | **-** | **2** | **-** | **-** |
+|  ------ | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: |
+|  **Código** | **Descrição** | **Benefício Relativo** | **Penalidade Relativa** | **Valor total** | **% Valor** | **Custo Relativo** | **% Custo** | **Grau Relativo de Risco** | **% Risco** | **Prioridade** |
+|  RF1 | O app deve apresentar opções de micro-serviço (Facebook ou Google) e e-mail como forma de login e cadastro. | 8 | 9 | 46.5 | 2.77 | 6 | 1.88 | 4 | 1.36 | 0.42 |
+|  RF30 | O usuário deve receber notificações sobre novidades no app. | 7 | 6 | 36 | 2.14 | 5 | 1.57 | 4 | 1.36 | 0.36 |
+|  RF14 | O usuário deve poder adicionar novos interesses a qualquer momento após o cadastro, através de uma opção em seu perfil | 8 | 8 | 44 | 2.62 | 6 | 1.88 | 5 | 1.70 | 0.36 |
+|  RF13 | Ao clicar no pin o usuário deve conseguir ver mais informações sobre ele, como uma pequena ou grande descrição | 7 | 8 | 41 | 2.44 | 6 | 1.88 | 5 | 1.70 | 0.34 |
+|  RF23 | O Pinterest deve oferecer a opção de seguir usuários | 7 | 8 | 41 | 2.44 | 6 | 1.88 | 5 | 1.70 | 0.34 |
+|  RF38 | A aplicação deve conter um sistema de scroll infinito que possibilite ao usuário uma visualização mais orgânica do feed. | 7 | 5 | 33.5 | 1.99 | 5 | 1.57 | 4 | 1.36 | 0.34 |
+|  RF31 | Os pins que se referem a aplicativos devem mostrar a opção de instalar. | 6 | 6 | 33 | 1.96 | 5 | 1.57 | 4 | 1.36 | 0.33 |
+|  RF32 | O Usuário deve poder remover interesses em qualquer momento após o cadastro, acessando essa opção na aba de perfil | 8 | 9 | 46.5 | 2.77 | 7 | 2.20 | 6 | 2.04 | 0.32 |
+|  RF3 | O usuário deve poder visualizar os interesses a qualquer momento, de acordo com uma opção em seu perfil | 7 | 7 | 38.5 | 2.29 | 6 | 1.88 | 5 | 1.70 | 0.32 |
+|  RF2 | Ter um feed baseado nos interesses do usuário. | 9 | 8 | 47 | 2.80 | 7 | 2.20 | 7 | 2.38 | 0.30 |
+|  RF19 | O usuário deve poder ser redirecionado para o link da imagem de um pin, caso haja um. | 6 | 6 | 33 | 1.96 | 6 | 1.88 | 4 | 1.36 | 0.30 |
+|  RF33 | O Usuário deve possuir mais de uma opção de formas de ordenação das pastas na página de perfil, como ordem alfabética, últimos salvos, mais antigas, mais recentes ou pelo arraste dos elementos. | 6 | 6 | 33 | 1.96 | 6 | 1.88 | 4 | 1.36 | 0.30 |
+|  RF35 | O Usuário deve poder definir em qual língua irá utilizar o aplicativo, seja na edição do perfil ou no cadastro | 9 | 9 | 49.5 | 2.95 | 8 | 2.51 | 7 | 2.38 | 0.30 |
+|  RF36 | O Usuário deve definir informações do pin postado, como categorias, título e descrição | 8 | 6 | 39 | 2.32 | 7 | 2.20 | 5 | 1.70 | 0.29 |
+|  RF40 | Ao pesquisar sobre algo, o Pinterest deve mostrar opções de filtro sobre o assunto, para que o usuário apenas clique em um e receba um resultado mais selecionado | 6 | 7 | 35.5 | 2.11 | 6 | 1.88 | 5 | 1.70 | 0.29 |
+|  RF16 | Manter pastas | 7 | 8 | 41 | 2.44 | 7 | 2.20 | 6 | 2.04 | 0.28 |
+|  RF34 | O Pinterest deve poder utilizar dados, como cookies, para identificar informações de perfil do usuário e direcionar recomendações de pins | 6 | 6 | 33 | 1.96 | 6 | 1.88 | 5 | 1.70 | 0.27 |
+|  RF10 | O app deve separar os pins por categorias | 7 | 6 | 36 | 2.14 | 6 | 1.88 | 6 | 2.04 | 0.27 |
+|  RF5 | O app deve possuir uma barra para pesquisa por texto. | 6 | 7 | 35.5 | 2.11 | 6 | 1.88 | 6 | 2.04 | 0.26 |
+|  RF24 | O usuário deve poder ocultar e denunciar pins. | 8 | 7 | 41.5 | 2.47 | 6 | 1.88 | 8 | 2.72 | 0.26 |
+|  RF7 | O App deve permitir que o usuário impeça que determinado tipo de conteúdo seja mostrado em seu feed. | 8 | 8 | 44 | 2.62 | 7 | 2.20 | 8 | 2.72 | 0.26 |
+|  RF37 | O app deve permitir a escolha de interesses no primeiro acesso (no mínimo 5, obrigatoriamente), para que o Pinterest possa mapear os interesses do usuário. | 8 | 5 | 36.5 | 2.17 | 7 | 2.20 | 6 | 2.04 | 0.25 |
+|  RF22 | A aplicação deve colocar nos pins a opção de "comentários" | 7 | 5 | 33.5 | 1.99 | 6 | 1.88 | 6 | 2.04 | 0.25 |
+|  RF15 | O usuário deve poder salvar seus pins no seu dispositivo | 6 | 5 | 30.5 | 1.81 | 5 | 1.57 | 6 | 2.04 | 0.25 |
+|  RF29 | O usuário deve poder enviar mensagem para outros usuários. | 6 | 7 | 35.5 | 2.11 | 6 | 1.88 | 7 | 2.38 | 0.24 |
+|  RF9 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações | 8 | 5 | 36.5 | 2.17 | 7 | 2.20 | 7 | 2.38 | 0.23 |
+|  RF4 | O usuário deve ter a opção de salvar pins em um pasta | 6 | 6 | 33 | 1.96 | 7 | 2.20 | 6 | 2.04 | 0.23 |
+|  RF39 | O App deve sugerir Pins sobre assuntos pesquisados recentemente pelo usuário. | 8 | 6 | 39 | 2.32 | 8 | 2.51 | 8 | 2.72 | 0.22 |
+|  RF8 | O App deve obter vários dados de Pins bloqueados para identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar. | 8 | 5 | 36.5 | 2.17 | 7 | 2.20 | 8 | 2.72 | 0.22 |
+|  RF42 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app | 6 | 8 | 38 | 2.26 | 8 | 2.51 | 8 | 2.72 | 0.21 |
+|  RF11 | O usuário deve ter a opção de avaliar pins e essa avaliação deve ser aberta a outros usuários | 6 | 5 | 30.5 | 1.81| 6 | 1.88 | 7 | 2.38 | 0.21|
+|  RF6 | O App deve possibilitar a transferência de Pins entre pastas. | 6 | 6 | 33 | 1.96 | 8 | 2.51 | 7 | 2.38 | 0.20 |
+|  RF17 | Manter subpastas | 6 | 6 | 33 | 1.96 | 8 | 2.51 | 7 | 2.38| 0.20 |
+|  RF20 | O usuário deve conseguir compartilhar pins com outros usuários | 6 | 6 | 33 | 1.96 | 7 | 2.20 | 8 | 2.72 | 0.19 |
+|  RF28 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário. | 8 | 5 | 36.5 | 2.17 | 9 | 2.83 | 8 | 2.72 | 0.19 |
+|  RF27 | As receitas devem ser pins especiais que ofereçam tempo, porções e ingredientes para instigar o usuário a fazê-la. | 5 | 5 | 27.5 | 1.64 | 7 | 2.20125786163522 | 6 | 2.04 | 0.19|
+|  RF44 | O Usuário deve possuir a possibilidade de personalizar a forma em que suas pastas serão visualizadas | 5 | 4 | 25 | 1.49 | 7 | 2.20 | 5 | 1.70 | 0.19|
+|  RF26 | O app deve possuir a função de compartilhar a edição de pastas com outros usuários. | 6 | 5 | 30.5 | 1.81 | 8 | 2.51 | 7 | 2.38 | 0.18 |
+|  RF41 | Os pins devem oferecer informações sobre o motivo dele estar aparecendo para o usuário. | 6 | 5 | 30.5 | 1.81 | 8 | 2.51 | 7 | 2.38 | 0.18 |
+|  RF43 | O Aplicativo deve identificar a perda de interesse do usuário por um tema pela frequência de pesquisas. | 7 | 5 | 33.5 | 1.99 | 8 | 2.51 | 9 | 3.06 | 0.17 |
+|  RF12 | O App deve possibilitar que o usuário reorganize os Pins salvos em diferentes subpastas. | 6 | 4 | 28 | 1.67 | 8 | 2.51 | 7 | 2.38 | 0.17 |
+|  RF21 | O usuário deve conseguir compartilhar pins em redes sociais | 5 | 5 | 27.5 | 1.64 | 8 | 2.51 | 7 | 2.38 | 0.16 |
+|  RF18 | A plataforma deve disponibilizar uma forma de pesquisa por imagem. | 6 | 5 | 30.5 | 1.81 | 9 | 2.83 | 9 | 3.06 | 0.15 |
+|  RF25 | O aplicativo deve apresentar um navegador interno para redirecionamento de links presentes em pins. | 6 | 4 | 28 | 1.67 | 8 | 2.51 | 9 | 3.06 | 0.14 |
+|  RF26 | A rede social deve abranger conteúdos que mantenham ativos os usuários que compõe o principal púlico, os jovens da faixa etária de 16 a 25 anos. | 6 | 5 | 30.5 | 1.81 | 6 | 1.88 | 5 | 1.70 | 0.25|
+|  RF27 | A rede social deve procurar diferenciais perante seus maiores concorrentes, weheartit.com e tumblr.com | 6 | 5 | 30.5 | 1.81 | 5 | 1.57 | 5 | 1.70 | 0.27 |
+|  RF28 | A rede social deve incluir sempre novos conteúdos sobre os temas mais pesquisados em busca de mantê-los atualizados, mas também procurar abranger temas diferentes para atrair novos públicos específicos, como os praticantes de esportes, por exemplo. | 8 | 7 | 41.5 | 2.47 | 7 | 2.20 | 6 | 2.04 | 0.29 |
+|  Totais | - | 318 | 289 | 1676.5 | 100 | 318 | 100| 294 | 100 | 12.16 |
+
+
+#### Requisitos Não funcionalidades
+
+|  **Peso relativo ->** | **-** | 3 | 2.5 | **-** | **-** | 2 | **-** | 2 | **-** | **-** |
+|  ------ | :------: | ------ | ------ | :------: | :------: | ------ | :------: | ------ | :------: | :------: |
+|  **Código** | **Descrição** | **Benefício Relativo ** | **Penalidade Relativa** | **Valor total** | **% Valor** | **Custo Relativo** | **% Custo** | **Grau Relativo de Risco** | **% Risco** | **Prioridade** |
+|  RNF1 | O Aplicativo deve sugerir temas de Pins conforme os interesses estabelecidos pelos usuário. | 9 | 9 | 49.5 | 8.41 | 8 | 8.70 | 6 | 8.11 | 0.25 |
+|  RNF2 | O App deve obter vários dados de Pins bloqueados que permitam identificar com precisão o tipo de conteúdo que o usuário não deseja visualizar. | 9 | 9 | 49.5 | 8.45 | 7 | 7.60 | 4 | 5.40 | 0.32 |
+|  RNF3 | O app deve absorver a informação das categorias dos pins mais visualizados para usar nas próximas recomendações | 7 | 6 | 36 | 6.14 | 7 | 7.60 | 5 | 6.75 | 0.21 |
+|  RNF4 | O Pinterest deve oferecer uma grande quantidade de pins fazendo com que o usuário tenha uma enorme quantidade de resultados | 9 | 9 | 49.5 | 8.45 | 6 | 6.52 | 5 | 6.75 | 0.31 |
+|  RNF5 | A aplicação deve disponibilizar versão mobile multiplataforma para iOS, Windows Phone e Android | 8 | 7 | 41.5 | 7.08 | 8 | 8.69 | 7 | 9.45 | 0.19 |
+|  RNF6 | A interface do usuário deve ser agradável para melhorar as experiências e torná-las excelentes. | 8 | 8 | 44 | 7.51 | 5 | 5.43 | 4 | 5.40 | 0.34 |
+|  RNF7 | O Aplicativo deve ser capaz de extrapolar dados de pesquisa de outras fontes para trazer itens mais relevantes para o usuário. | 6 | 7 | 35.5 | 6.06 | 6 | 6.52 | 5 | 6.75 | 0.22 |
+|  RNF8 | O aplicativo não deve ocupar muita memória do celular | 6 | 5 | 30.5 | 5.20 | 7 | 7.60 | 6 | 8.10 | 0.16 |
+|  RNF9 | O Aplicativo deve conter as pesquisas através de imagem tirada instantaneamente pela câmera do celular, que aproximem o usuário dos resultados desejados. | 7 | 6 | 36 | 6.14 | 9 | 9.78 | 8 | 10.81 | 0.14 |
+|  RNF10 | A aplicação contém um sistema de scroll infinito que possibilita ao usuário uma visualização mais orgânica do feed. | 8 | 9 | 46.5 | 7.94 | 7 | 7.60| 6 | 8.10 | 0.25 |
+|  RNF11 | O aplicativo deve possuir um design intuitivo para usuários leigos conseguirem utilizá-lo | 8 | 9 | 46.5 | 7.94 | 5 | 5.43 | 4 | 5.40 | 0.36 |
+|  RNF12 | A rede social deve conter uma experiência de usuário melhor para que o site possa ser tão acessado pelo público quanto o aplicativo. | 7 | 6 | 36 | 6.14 | 5 | 5.43 | 4 | 5.40 | 0.28 |
+|  RNF13 | O app deve oferecer mais conteúdo relacionado às atividades recentes. | 8 | 9 | 46.5 | 7.94 | 6 | 6.52 | 5 | 6.75 | 0.29 |
+|  RNF14 | O usuário deve ter o ferramental necessário para realizar as etapas de uma receita sem precisar sair do app | 7 | 8 | 41 | 7.00 | 6 | 6.52 | 5 | 6.75 | 0.26 |
+|  Totais | - | 107 | 107 | 585.5 | 100 | 92 | 100 | 74 | 100 | 3.64 |
