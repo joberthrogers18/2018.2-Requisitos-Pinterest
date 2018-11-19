@@ -23,7 +23,7 @@
 |  3.8 | 15/11/2018 | Adição da terceira versão do  [IS3](#is3-pesquisar-pins) | Alexandre Miguel |
 |  3.9 | 18/11/2018 | Adição do  [IS12](#is12-sugerir-conteudo) | Geovana Ramos |
 |  4.0 | 18/11/2018 | Adição das relações de rastrabilidade com outras modelagens | Alexandre Miguel |
-
+|  4.1 | 18/11/2018 | Adição do [IS6](#is6-cadastro-no-pinterest) | Helena Goulart |
 
 # Strategic Dependency Models
 
@@ -114,7 +114,13 @@ Modelagens Associadas: [NFR3](nfr.md#nfr3-usabilidade), [US37](backlog.md#us37),
 
 Modelagens Associadas: [NFR2](nfr.md#nfr2-conectividade), [US10](backlog.md#us10), [US11](backlog.md#us11), [US12](backlog.md#us12), [EP02](backlog.md#ep02), [ECU1](especificacoes_caso_uso.md#ecu-1), [DCU2](diagramas_caso_uso.md#dcu-2),  [C1](cenarios.md#c1), [L14](lexicos.md#l14), [L16](lexicos.md#l16), [L17](lexicos.md#l17)  <br> Elicitação Associada: [Análise de Discurso](analise_discurso.md#analise-de-discurso)
 
+### Versão 1.0
+
 ![](img/rationale_cadastro.png)
+
+### Versão 2.0
+
+![](img/CadastroRationale.png)
 
 # Enviar Pin
 
