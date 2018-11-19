@@ -13,19 +13,20 @@
 
   <link rel="stylesheet" href="../css/theme.css" type="text/css" />
   <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
   <link href="../extra.css" rel="stylesheet">
   
   <script>
     // Current page data
     var mkdocs_page_name = "i*";
     var mkdocs_page_input_path = "iStar.md";
-    var mkdocs_page_url = "/iStar/";
+    var mkdocs_page_url = null;
   </script>
   
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script> 
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
   
 </head>
 
@@ -39,7 +40,7 @@
         <a href=".." class="icon icon-home"> Pinterest</a>
         <div role="search">
   <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
   </form>
 </div>
       </div>
@@ -540,7 +541,7 @@
 <p><img alt="" src="../img/Rationale_Pesquisar_Pins3.png" /></p>
 <h1 id="is4-seguir-usuario">IS4 - Seguir usuário</h1>
 <p>Modelagens Associadas: <a href="../nfr/#nfr6-suporte">NFR6</a>, <a href="../backlog/#us23">US23</a>, <a href="../backlog/#us24">US24</a>,  <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-8">ECU8</a>, <a href="../especificacoes_caso_uso/#ecu-14">ECU14</a>,  <a href="../diagramas_caso_uso/#dcu-10">DCU10</a>, <a href="../diagramas_caso_uso/#dcu-16">DCU16</a>, <a href="../cenarios/#c13">C13</a>,
-<a href="../cenarios/#c19">C19</a>, <a href="../lexicos/#l8">L8</a>, <a href="../lexicos/#l14">L14</a> <br> Elicitação Associada: <a href="../introspeccao#introspeccao-2">Introspecção 2</a></p>
+<a href="../cenarios/#c19">C19</a>, <a href="../lexicos/#l8">L8</a>, <a href="../lexicos/#l14">L14</a> <br> Elicitação Associada: <a href="introspeccao#introspeccao-2">Introspecção 2</a></p>
 <h3 id="versao-10_4">Versão 1.0</h3>
 <p><img alt="" src="../img/rationale_seguir_usuario1.png" /></p>
 <h3 id="versao-20_4">Versão 2.0</h3>
@@ -560,7 +561,7 @@
 <h3 id="versao-20_6">Versão 2.0</h3>
 <p><img alt="" src="../img/CadastroRationale.png" /></p>
 <h1 id="enviar-pin">Enviar Pin</h1>
-<p>Modelagens Associadas: <a href="../nfr/#nfr1-confiabilidade">NFR1</a>, <a href="../backlog/#us17">US17</a>, <a href="../backlog/#us28">US28</a>,  <a href="../backlog/#ep03">EP03</a>, <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-10">ECU10</a>, <a href="../especificacoes_caso_uso/#ecu-13">ECU13</a>, <a href="../diagramas_caso_uso/#dcu-1">DCU1</a>, <a href="../diagramas_caso_uso/#dcu-9">DCU9</a>, <a href="../cenarios/#c7">C7</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="../introspeccao#introspeccao-2">Introspecção 2</a></p>
+<p>Modelagens Associadas: <a href="../nfr/#nfr1-confiabilidade">NFR1</a>, <a href="../backlog/#us17">US17</a>, <a href="../backlog/#us28">US28</a>,  <a href="../backlog/#ep03">EP03</a>, <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-10">ECU10</a>, <a href="../especificacoes_caso_uso/#ecu-13">ECU13</a>, <a href="../diagramas_caso_uso/#dcu-1">DCU1</a>, <a href="../diagramas_caso_uso/#dcu-9">DCU9</a>, <a href="../cenarios/#c7">C7</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="introspeccao#introspeccao-2">Introspecção 2</a></p>
 <h3 id="versao-10_7">Versão 1.0</h3>
 <p><img alt="" src="../img/istar-enviar-pin1.png" /></p>
 <h3 id="versao-20_7">Versão 2.0</h3>
@@ -570,11 +571,11 @@
 <p><img alt="" src="../img/istar-postar-pin-outro-usuario.png" /></p>
 <h2 id="pinterest">Pinterest</h2>
 <h1 id="is9-enviar-pin">IS9 - Enviar Pin</h1>
-<p>Modelagens Associadas: <a href="../nfr/#nfr1-confiabilidade">NFR1</a>, <a href="../backlog/#us17">US17</a>, <a href="../backlog/#us28">US28</a>,  <a href="../backlog/#ep03">EP03</a>, <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-10">ECU10</a>, <a href="../especificacoes_caso_uso/#ecu-13">ECU13</a>, <a href="../diagramas_caso_uso/#dcu-1">DCU1</a>, <a href="../diagramas_caso_uso/#dcu-9">DCU9</a>, <a href="../cenarios/#c7">C7</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="../introspeccao#introspeccao-2">Introspecção 2</a></p>
+<p>Modelagens Associadas: <a href="../nfr/#nfr1-confiabilidade">NFR1</a>, <a href="../backlog/#us17">US17</a>, <a href="../backlog/#us28">US28</a>,  <a href="../backlog/#ep03">EP03</a>, <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-10">ECU10</a>, <a href="../especificacoes_caso_uso/#ecu-13">ECU13</a>, <a href="../diagramas_caso_uso/#dcu-1">DCU1</a>, <a href="../diagramas_caso_uso/#dcu-9">DCU9</a>, <a href="../cenarios/#c7">C7</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="introspeccao#introspeccao-2">Introspecção 2</a></p>
 <p><img alt="" src="../img/istart-pinterest-enviar-pin.png" /></p>
 <h1 id="is10-geral">IS10 - Geral</h1>
 <p>Modelagens Associadas: <a href="../nfr/#nfr4-usabilidade-design">NFR4</a>, <a href="../nfr/#nfr4-seguranca">NFR7</a> <a href="../backlog/#us17">US17</a>, <a href="../backlog/#us28">US28</a>,  <a href="../backlog/#ep03">EP03</a>, <a href="../backlog/#ep05">EP05</a>, <a href="../especificacoes_caso_uso/#ecu-10">ECU10</a>, <a href="../especificacoes_caso_uso/#ecu-13">ECU13</a>, <a href="../diagramas_caso_uso/#dcu-1">DCU1</a>, <a href="../diagramas_caso_uso/#dcu-9">DCU9</a>,  <a href="../cenarios/#c1">C1</a>, <a href="../cenarios/#c7">C7</a>, <a href="../cenarios/#c10">C10</a>,
-<a href="../cenarios/#c19">C19</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l3">L3</a>,  <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="../introspeccao#introspeccao-2">Introspecção 2</a>, <a href="../questionario/#questionario">Questionário</a>, <a href="../storytelling/#introducao">Storytelling</a></p>
+<a href="../cenarios/#c19">C19</a>, <a href="../lexicos/#l1">L1</a>, <a href="../lexicos/#l3">L3</a>,  <a href="../lexicos/#l14">L14</a>  <br> Elicitação Associada: <a href="introspeccao#introspeccao-2">Introspecção 2</a>, <a href="../questionario/#questionario">Questionário</a>, <a href="../storytelling/#introducao">Storytelling</a></p>
 <p><img alt="" src="../img/rationale_pinterest.png" /></p>
 <h1 id="is11-retornar-pins">IS11 - Retornar Pins</h1>
 <p>Modelagens Associadas: <a href="../nfr/#nfr2-conectividade">NFR2</a>, <a href="../backlog/#us34">US34</a>, <a href="../backlog/#us35">US35</a>, <a href="../backlog/#ep09">EP09</a>, <a href="../especificacoes_caso_uso/#ecu-23">ECU23</a>, <a href="../especificacoes_caso_uso/#ecu-24">ECU24</a>, <a href="../diagramas_caso_uso/#dcu-14">DCU14</a>, <a href="../diagramas_caso_uso/#dcu-15">DCU15</a>, <a href="../cenarios/#c12">C12</a>, <a href="../lexicos/#l31">L31</a> <br> Elicitação Associada: <a href="../analise_protocolo/#analise-de-protocolo-2">Análise de Protocolo 2</a></p>
@@ -606,12 +607,12 @@
 
   Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
+      
         </div>
       </div>
 
     </section>
-    
+
   </div>
 
   <div class="rst-versions" role="note" style="cursor: pointer">
@@ -625,7 +626,9 @@
       
     </span>
 </div>
-    <script src="../js/theme.js"></script>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
 
 </body>
 </html>
