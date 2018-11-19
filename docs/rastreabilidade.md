@@ -36,7 +36,7 @@ Após a entrega geral da equipe, coube ao grupo a discussão a respeito do desen
 
 ![RichRastro3](img/Rastreabilidade/richpt3.png)
 
-Desse modo, foram feitos 9 [Rich Pictures](rich_picture.md#rich-picture) com os temas [...] e 6 [Argumentações](argumentacao.md#argumentacao).
+Desse modo, foram feitos 9 [Rich Pictures](rich_picture.md#rich-picture) e 6 [Argumentações](argumentacao.md#argumentacao).
 
 ## Elicitação de Requisitos
 
@@ -82,7 +82,7 @@ Após ser avaliada pelos professores de Requisitos de Software, o trabalho torno
 
 A técnica aqui apresentada foi desenvolvida pelos integrantes Alexandre, Geovanna, Guilherme, Joberth e Letícia.
 
-A técnica foi aplicada duas vezes: uma pela integrante Letícia, e o áudio completo pode ser encontrado [aqui](https://drive.google.com/file/d/1e8fT9ZdSobEw3JXYYQ4BiqRrP96_Q2EV/view?usp=sharing). 
+A técnica foi aplicada duas vezes: uma pela integrante Letícia, e o áudio completo pode ser encontrado [aqui](https://drive.google.com/file/d/1e8fT9ZdSobEw3JXYYQ4BiqRrP96_Q2EV/view?usp=sharing).
 
 Na segunda vez, a técnica foi aplicada pelo integrante Guilherme, e o áudio completo pode ser encontrado [aqui](https://drive.google.com/file/d/1HUBqnCne5n_EPXjyfOXTLEs_kyH_1PAv/view?usp=sharing).
 
@@ -296,7 +296,7 @@ As duplas de pareamento utilizaram diferentes padrões de apresentação, como p
 
 ![A12](img/Rastreabilidade/analise12.png)
 
-Apesar de não ser pradronizada, a [Análise](analise.md#introducao) trouxe resultados importantes para a equipe que seriam utilizados posteriormente na pós-rastreabilidade.
+Apesar de não ser pradronizada, a [Análise](analise_NFR.md#introducao) trouxe resultados importantes para a equipe que seriam utilizados posteriormente na pós-rastreabilidade.
 
 ## Pós-Rastreabilidade
 
