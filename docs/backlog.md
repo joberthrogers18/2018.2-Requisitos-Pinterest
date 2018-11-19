@@ -1,3 +1,6 @@
+# Introdução
+Este artefato busca construir um backlog completo com base nos requisitos já levantados nas dinâmicas anteriores. O backlog é composto por histórias de usuário, as quais são necessidades do usuário e que serão solucionadas em uma sprint ou mais, que são um período de tempo fixo para realizar tarefas do desenvolvimento de software. No presente documento, as histórias de usuário possuem critérios de sucesso - tarefas que detalham melhor a história de usuário - e em conjunto formam épicos. Os épicos são abstrações mais abrangentes do sistema, geralmente representando um subsistema. Cada história de usuário está alocada em um sprint.
+
 # Backlog do Produto
 
 | Sprints | [EP01](#ep01) | [EP02](#ep02)  | [EP03](#ep03)  | [EP04](#ep04)  | [EP05](#ep05)  |[EP06](#ep06)  |[EP07](#ep07)  |[EP08](#ep08)  |[EP09](#ep09)  |[EP10](#ep10)  |
@@ -18,7 +21,7 @@
 ## EP01
 **Documentação do Projeto**
 <br>
- Documentação necessária para criação do projeto. Envolve a elicitação de requisitos e documentação suplementar.
+Documentação necessária para criação do projeto. Envolve a elicitação de requisitos e documentação suplementar.
 <br>
 
 ## EP02

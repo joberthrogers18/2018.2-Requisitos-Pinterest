@@ -1,5 +1,7 @@
 # Introdução
 
+Os diagramas de caso de uso são representação gráficas daquilo que um ator pode fazer em um determinado contexto de um sistema. Os diagramas aqui apresentados tiveram como base os [cenários](cenarios.md) levantados na dinâmica anterior. Além disso, durante a modelagem surgiram novos casos para atender as necessidades do sistema. Cada caso de uso possui uma [especificação de caso de uso](especificacoes_caso_uso.md) atrelada, que detalha melhor as ações do ator.
+
 ## DCU 1
 
 ### **Enviar mensagem mensagem para outro usuário**

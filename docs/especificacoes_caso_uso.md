@@ -1,5 +1,6 @@
 # Introdução
 
+As especificações de caso de uso estão aqui dispostas para detalhar melhor cada diagrama de caso de uso, de maneira textual e mais detalhada.
 
 ## ECU 1
 

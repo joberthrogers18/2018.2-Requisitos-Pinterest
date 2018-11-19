@@ -26,6 +26,10 @@
 |  3.6 | 18/11/2018 | Adição da terceira versão do  [NFR5](#nfr5-desempenho), após análise do modelo | Joberth Rogers |
 |  3.7 | 18/11/2018 | Adição da terceira versão do  [NFR4](#nfr4-usabilidade-design), após análise do modelo | Helena Goulart |
 
+# Introdução
+
+O NFR é um framework orientado a processos que procura evidenciar os requisitos não funcionais de um sistemas, por meio de metas a serem atingidas.
+
 # NFR1 - Confiabilidade
 
 ### Versão 1.0
