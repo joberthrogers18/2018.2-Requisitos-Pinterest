@@ -22,6 +22,7 @@
 |  3.1 | 17/11/2018 | Adição da primeira versão do [RP9](#rp9-receber-notificacao) | Letícia Meneses |
 |  3.2 | 17/11/2018 | Adição da segunda versão do [RP9](#rp9-receber-notificacao) | Letícia Meneses |
 |  3.3 | 17/11/2018 | Pequenas correções na notação de  [RP8](#rp8-pinterest-e-entrega-de-conteudo-ao-usuario) | Guilherme Guy |
+|  3.4 | 18/11/2018 | Adição da segunda versão do  [RP4](#rp4-fluxo-do-anunciante) | Helena Goulart |
 
 #  Introdução
 
@@ -62,6 +63,10 @@ Rich Picture que descreve os tipos de Pins.
 ### Versão 1.0
 
 ![Anunciante](img/FluxoAnunciane.png)
+
+### Versão 2.0
+
+![Anunciante2](img/RICH2.png)
 
 # RP5 - Usuário
 
