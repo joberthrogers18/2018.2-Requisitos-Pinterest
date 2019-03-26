@@ -2,7 +2,7 @@
 
 Desenvolvimento do trabalho de Requisitos de Software sobre o Pinterest - 2018/2
 
-[Pinterest - Requisitos 2.2018](https://joberthrogers18.github.io/2018.2-Requisitos/)
+[Pinterest - Requisitos 2.2018](https://joberthrogers18.github.io/2018.2-Requisitos-Pinterest/)
 
 ## Equipe
 
