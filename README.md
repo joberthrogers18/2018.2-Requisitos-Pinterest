@@ -21,4 +21,4 @@ Desenvolvimento do trabalho de Requisitos de Software sobre o Pinterest - 2018/2
 
 O repositório conta com um total de 458 imagens. Uma vez que a pasta _img_ tornou-se pesada para ser adicionada ao Moodle, todas as imagens do Pinterest no formato PNG podem ser encontradas clicando [aqui](https://drive.google.com/drive/folders/1kf0smaoOgzuJH3kD6xP1wg6EsIvoJ5_0?usp=sharing).
 
-Além disso, o Github Pages utilizado para a apresentação das entregas e contextualização dos conteúdos, pode ser encontrado clicando [aqui](https://joberthrogers18.github.io/2018.2-Requisitos/).
+Além disso, o Github Pages utilizado para a apresentação das entregas e contextualização dos conteúdos, pode ser encontrado clicando [aqui](README.md).
