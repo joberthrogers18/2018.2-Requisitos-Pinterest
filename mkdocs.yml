@@ -33,4 +33,15 @@ pages:
   - PÓS-RASTREABILIDADE:
     - Backward-From: backward_from.md
     - Forward-From: forward_from.md
-theme: readthedocs
+theme: 
+    name: material
+    language: 'pt'
+    logo:
+      icon: 'pin_drop'
+    palette:
+      primary: 'red'
+      accent: 'red'
+
+repo_name: 'Pinterest'
+repo_url: 'https://github.com/joberthrogers18/2018.2-Requisitos-Pinterest'
+edit_uri: ''
